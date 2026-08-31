@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-08-31T09:56:05.006Z",
+  "generatedAt": "2026-08-31T17:36:44.829Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (August 2026)",
+      "link": "https://www.hkex.com.hk/News/Market-Communications/2026/260831news?sc_lang=en",
+      "pubDate": "Mon, 31 Aug 2026 18:01:00 +0800",
+      "description": "Report on Initial Public Offering Applications, Delisting and Suspensions (August 2026)",
+      "source": "HKEX · Market Communications",
+      "sourceKey": "hkex-market",
+      "sourceMode": "direct-rss",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "4ebe94f325be4530",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "Report on Initial Public Offering Applications, Delisting and Suspensions (August 2026)",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "宏观",
       "signal": "事实",
@@ -65,36 +95,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
-      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "f512924277cd9368",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -108,7 +108,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 60,
+      "score": 57,
       "priority": "B",
       "id": "7cf365da2de2cb74",
       "rankReason": "一级/官方信源；市场相关；关键人物",
@@ -121,6 +121,36 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "最近 Pre-IPO 真的越玩越多東西了 😂 這次連 SHEIN（希音） 都來了✨ SHEIN 大家應該不陌生，從快時尚做到全球電商，我自己覺得它如果真的走到 IPO，市場關注度應該不會低！ 現在 @MEXCZH 已經先開放 SHEIN(PRE) 提前購，不用等正式 IPO，就能先參與市場對 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wR3EweWZNVE5reWxSRlVIMUxUbFN2MTEtMmtvZ1U0amgyRVdJYXZyZXEtTUh2V0RZS1kzZFZvTjE2bnJDbzk0MDFYUUlDb2l2LVQ2eTlPTmdlMmlHbmpiRTdzLUdtM2RuTlh4Xw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 08:14:57 GMT",
+      "description": "最近 Pre-IPO 真的越玩越多東西了 😂 這次連 SHEIN（希音） 都來了✨ SHEIN 大家應該不陌生，從快時尚做到全球電商，我自己覺得它如果真的走到 IPO，市場關注度應該不會低！ 現在 @MEXCZH 已經先開放 SHEIN(PRE) 提前購，不用等正式 IPO，就能先參與市場對 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "a372136503b7ccc9",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "最近 Pre-IPO 真的越玩越多東西了 😂 這次連 SHEIN（希音） 都來了✨ SHEIN 大家應該不陌生，從快時尚做到全球電商，我自己覺得它如果真的走到 IPO，市場關注度應該不會低！ 現在 @MEXCZH 已經先開放 SHEIN(PRE) 提前購，不用等正式 IPO，就能先參與市場對 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -179,6 +209,66 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52a0FrZ1hmSjNzS2NZZDFNY2lqMjF1RkJwMnRSdEpNQ01HamhCdEljVVlXbV90VExIRjRKb0p1WW5IS2FNaS1lRkRxdmtIaG9NQmlIQ185ZDA3UEhDUTh4QVA0NFlxQQ?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 12:33:44 GMT",
+      "description": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2f64b0ca2a1abff7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
+      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "d07dd6e1d37aa66f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -338,10 +428,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DUWdiRnBoSE5xUF9VRjRYd3B6UW1yenE2dkhpaFZFZ3lUeThpbE5oeVdtd004MHpvSFozT3cza2dKRWsxb01oVEFFY2RnaXpvcVdfcXIyanRXQ0dpN05hWDNhMVNYQUlo?oc=5",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
       "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -350,11 +440,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "2bd8cacfe5562a2e",
+      "id": "35dbbb1066754903",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+        "summary": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -625,96 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sZXFNQmpyOVFldlJsUHpaQnRIdjFuUkdScU1hR1BGdW9EaVdoUUVrMFlhQ2xENVlTdnplZXBQWEE2ZDh3SzYtTkhiWWpYRmZOS3VLNXRXMkJqRGx2cXh2WGMta0pjQkRJWHpGZzlycWg?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:28:41 GMT",
-      "description": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d74187e2c94c6ab0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aWklLWXppVnpoWVZHYTNCM0p2dTE5ZllIek04c0VDclg1S1duRG92TFVRM2JkRWpCYnF2THZtZ3J2cm9jQXFneEowb050X19HVUdENEFnRWFVcTJRS0N5eVJNanRXNEU?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 17:40:31 GMT",
-      "description": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "394781620f8a061c",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJcVZ0ZHQzSVpfVkN0anNobUpRR3BDbVNfOVN2U2NQX3ZabFBPMFE4ZUpkNzRibWdiTTNoeXdzMExIOHVNZjBiR0hjdVBZUE5oMGxlQVJ3bFhlSC14NjVIMmZQaWpaQQ?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 09:59:52 GMT",
-      "description": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "5c64a421a86e6850",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
