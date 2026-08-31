@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:36:44.829Z",
+  "generatedAt": "2026-08-31T22:48:59.173Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -95,6 +95,36 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
+      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "f512924277cd9368",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -121,6 +151,36 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51X0g3Q0Q2OE9OLUo2cTNVaDVzd2JKS0cwREhTeVVWSldybFdweVBzRGtYYXFHSEpLaVhTaS0xNnNNaUxwaWtxV2ptTmZIWk5QbzV3bkFac1dTUTNYRXBfRw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 20:43:52 GMT",
+      "description": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "0557e0594f1e6349",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -247,36 +307,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
-      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "d07dd6e1d37aa66f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "【希音上市】據悉希音香港IPO發行價 或定在每股約48.56港元 https://t.co/b0WRmnqvv2 快時尚零售商希音（新上市編號：https://t.co/UfPxRjXPiC）據悉告知潛在投資者，其香港IPO的發行價，或定在每股約48.56 港元，略高於推介價格區間的中點。以此計算，將籌集136億 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFVm1BY3RwdFFHX0VHcWFZd0p1N2NnRjRRV3RId2JFa01tNlFjU2dmLUFxQmhfbXJNX1d0dGhTMF9OT1R0b0hoSldydExCLVBWeTFjUEhCR3g2ckttc242R0hMdGI?oc=5",
@@ -329,6 +359,36 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
+      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "d07dd6e1d37aa66f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -518,36 +578,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
-      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "736604837966b3fa",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
       "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
@@ -565,6 +595,36 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
+      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "736604837966b3fa",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -655,66 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA 🇨🇳 Tesla China released a video of the Model 3 and Model Y coming out of the production line. They mentioned that both export vehicles and vehicles for the Chinese domestic market are produced using the same manufacturing standards and proces - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13bkhwcVpqbnJLbWRlOTlGTlJ1M1VyYXM4VDJrMkgxeTRmN0FiUGxjTHhOWTNjc0lXMnVNcVQ0MGdaSFB5cHpYMWFrd0o2QW1raUJ6QWpmZm4wNGYwbkE?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 09:40:52 GMT",
-      "description": "$TSLA 🇨🇳 Tesla China released a video of the Model 3 and Model Y coming out of the production line. They mentioned that both export vehicles and vehicles for the Chinese domestic market are produced using the same manufacturing standards and proces &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "e35c0255719b2211",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA 🇨🇳 Tesla China released a video of the Model 3 and Model Y coming out of the production line. They mentioned that both export vehicles and vehicles for the Chinese domestic market are produced using the same manufacturing standards and proces - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRmFQUDdUN2NFbWMwMlJvUzloNTVzb0NLdXFiSTdzcnE4SjRBVjJQZjJoTnRvSkNXS2xIMFNZb3NMWXlUMjAwTDBkcElpTjZyT3dVODlabllTZUhBTXhiWlROdU5uM1U?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 01:02:46 GMT",
-      "description": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d6a265fe8fdb070f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
