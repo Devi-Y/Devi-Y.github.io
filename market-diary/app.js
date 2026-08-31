@@ -8,7 +8,7 @@ async function loadData(){
   catch(e){console.error(e);$('#updated-at').textContent='数据加载失败';showToast('数据加载失败，请稍后重试')}
 }
 function showToast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1800)}
-function esc(v=''){return String(v).replace(/[&<>'"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[m]))}
+function esc(v=''){return String(v).replace(/[&<>'\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[m]))}
 function route(page){
   page=pageNames[page]?page:'radar';$$('.page').forEach(x=>x.classList.remove('active'));$(`#page-${page}`).classList.add('active');$$('.nav-item').forEach(x=>x.classList.toggle('active',x.dataset.page===page));$('#page-title').textContent=pageNames[page];location.hash=page;window.scrollTo({top:0,behavior:'smooth'});if(page==='detail')renderDetail();
 }
@@ -26,7 +26,7 @@ function humanCheckText(x){return x.verified?'已核验':'待核验'}
 function isShein(x){return /shein/i.test(`${x.id||''} ${x.title||''}`)}
 function humanCheckFlowHtml(x,compact=false){
   const verified=Boolean(x.verified);const c=compact?' compact':'';
-  return `<div class="human-flow${c}"><span class="done">✓ AI已处理</span><i>→</i><span class="${verified?'done':'active'}">${verified?'✓':'●'} 待核验</span><i>→</i><span class="${verified?'done':'pending'}">${verified?'✓':'○'} 已核验</span>${isShein(x)?'<em>纠错案例</em>':''}</div>`
+  return `<div class="human-flow${c}"><span class="done">✓ AI已处理</span><i>→</i><span class="${verified?'done':'active'}">${verified?'✓':'●'} Human Check</span><i>→</i><span class="${verified?'done':'pending'}">${verified?'✓':'○'} 已核验</span>${isShein(x)?'<em>纠错案例</em>':''}</div>`
 }
 function contentTags(items=[]){return items.map(v=>`<span>${esc(v)}</span>`).join('')}
 function cardHtml(x){
