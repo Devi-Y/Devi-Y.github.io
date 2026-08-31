@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:42:28.769Z",
+  "generatedAt": "2026-08-31T08:43:25.255Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -55,6 +55,36 @@
       "ai": {
         "priority": "A",
         "summary": "HKEX Enhances Product Offering with SHEIN Debut",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
+      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "f512924277cd9368",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -218,6 +248,36 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
+      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "d07dd6e1d37aa66f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "王老師大膽預測！英偉達衝擊235美元新高，財報前夕該進場嗎？本期解析精準買賣點，揭秘黃仁勳的AI豪賭，帶你精準捕捉市場節奏，散戶必看！ #英偉達 #NVDA #美股 #投資 #王道論市 #財報分析 #AI股 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nRFBJRlhWUXZOLXJTQ09QLXFnNU9sdmVtY3dRcHdBOGVOZlE2Wkk3YkhWN1FNTmZvSkt4VV9wMjFPX25pc212ZGVGbnlsTWRLVzRhUjhhN3pKNXN2WVItQ0NB?oc=5",
       "pubDate": "Sun, 30 Aug 2026 21:17:21 GMT",
@@ -355,36 +415,6 @@
       "ai": {
         "priority": "B",
         "summary": "NVDA漲價15%，科技股甜甜價到了嗎，Jackson Hole與PCE前的策略 —-------- 今天美股盤面即使長期美債殖利率回落，但QQQ 與費半但沒有出現過去熟悉的反彈格局，反而QQQ收盤跌破月均線的技術位置。 現在已經不只是長債殖利率對高估值科技股的壓力，本週也 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "GDP、PCE 以及英偉達 $NVDA 財報接連登場： 🔸 經濟能否保持韌性？ 🔸 通脹會否繼續降溫？ 🔸 AI 熱潮又能否延續？ 閱讀全文，提前掌握行情走向 #加密 #WEEX市場快讀 #英偉達 #PCE https://t.co/nOz3Ta6mW1 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qektJd1FIbUJ1TklwQ3pReUp4R1kxUkdlbzdGd3hrMVdMNk41clJsRFZ0ZTZocWJ6SlB4RjduZG1MSVVwcVFha2kwc1k5WmNvUVdXSTV3U3RfOWM2QkpfRC1hQmg?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 06:30:57 GMT",
-      "description": "GDP、PCE 以及英偉達 $NVDA 財報接連登場： 🔸 經濟能否保持韌性？ 🔸 通脹會否繼續降溫？ 🔸 AI 熱潮又能否延續？ 閱讀全文，提前掌握行情走向 #加密 #WEEX市場快讀 #英偉達 #PCE https://t.co/nOz3Ta6mW1 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "773119f263a1ce2a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "GDP、PCE 以及英偉達 $NVDA 財報接連登場： 🔸 經濟能否保持韌性？ 🔸 通脹會否繼續降溫？ 🔸 AI 熱潮又能否延續？ 閱讀全文，提前掌握行情走向 #加密 #WEEX市場快讀 #英偉達 #PCE https://t.co/nOz3Ta6mW1 - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -685,36 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sZXFNQmpyOVFldlJsUHpaQnRIdjFuUkdScU1hR1BGdW9EaVdoUUVrMFlhQ2xENVlTdnplZXBQWEE2ZDh3SzYtTkhiWWpYRmZOS3VLNXRXMkJqRGx2cXh2WGMta0pjQkRJWHpGZzlycWg?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:28:41 GMT",
-      "description": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d74187e2c94c6ab0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:42:28.722Z",
+  "generatedAt": "2026-08-31T08:43:25.211Z",
   "windowDays": 60,
   "note": "SEC官方重点标的披露监控。13F不是实时持仓；所有持仓结论需继续打开原始申报文件核验。",
   "summary": {
@@ -15,7 +15,7 @@
       "ticker": "NVDA",
       "status": "error",
       "count": 0,
-      "latencyMs": 85,
+      "latencyMs": 166,
       "error": "HTTP 403"
     },
     {
@@ -23,7 +23,7 @@
       "ticker": "TSLA",
       "status": "error",
       "count": 0,
-      "latencyMs": 20,
+      "latencyMs": 67,
       "error": "HTTP 403"
     },
     {
@@ -31,7 +31,7 @@
       "ticker": "AAPL",
       "status": "error",
       "count": 0,
-      "latencyMs": 10,
+      "latencyMs": 32,
       "error": "HTTP 403"
     },
     {
@@ -39,7 +39,7 @@
       "ticker": "BABA / 9988.HK",
       "status": "error",
       "count": 0,
-      "latencyMs": 10,
+      "latencyMs": 28,
       "error": "HTTP 403"
     },
     {
@@ -47,7 +47,7 @@
       "ticker": "META",
       "status": "error",
       "count": 0,
-      "latencyMs": 22,
+      "latencyMs": 68,
       "error": "HTTP 403"
     },
     {
@@ -55,7 +55,7 @@
       "ticker": "AMZN",
       "status": "error",
       "count": 0,
-      "latencyMs": 9,
+      "latencyMs": 82,
       "error": "HTTP 403"
     },
     {
@@ -63,7 +63,7 @@
       "ticker": "MSFT",
       "status": "error",
       "count": 0,
-      "latencyMs": 14,
+      "latencyMs": 27,
       "error": "HTTP 403"
     },
     {
@@ -71,7 +71,7 @@
       "ticker": "GOOGL",
       "status": "error",
       "count": 0,
-      "latencyMs": 15,
+      "latencyMs": 30,
       "error": "HTTP 403"
     },
     {
@@ -79,7 +79,7 @@
       "ticker": "BRK.B / institution",
       "status": "error",
       "count": 0,
-      "latencyMs": 11,
+      "latencyMs": 26,
       "error": "HTTP 403"
     }
   ],

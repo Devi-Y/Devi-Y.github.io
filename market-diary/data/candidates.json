@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-31T08:42:28.430Z",
+  "generatedAt": "2026-08-31T08:43:24.332Z",
   "windowDays": 7,
   "summary": {
-    "total": 40,
+    "total": 41,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
-      "人物": 1,
+      "人物": 2,
       "资金": 0,
       "热点": 37
     },
     "byTrust": {
       "A": 3,
-      "B": 0,
+      "B": 1,
       "C": 37
     },
     "s": 0,
-    "a": 2,
+    "a": 3,
     "b": 38
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
@@ -58,6 +58,25 @@
       "priority": "A",
       "id": "bd6e25338c79f88e",
       "rankReason": "一级/官方信源；高影响事件词"
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
+      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "f512924277cd9368",
+      "rankReason": "高影响事件词；关键人物"
     },
     {
       "market": "宏观",
@@ -158,6 +177,25 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
+      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "d07dd6e1d37aa66f",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "王老師大膽預測！英偉達衝擊235美元新高，財報前夕該進場嗎？本期解析精準買賣點，揭秘黃仁勳的AI豪賭，帶你精準捕捉市場節奏，散戶必看！ #英偉達 #NVDA #美股 #投資 #王道論市 #財報分析 #AI股 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nRFBJRlhWUXZOLXJTQ09QLXFnNU9sdmVtY3dRcHdBOGVOZlE2Wkk3YkhWN1FNTmZvSkt4VV9wMjFPX25pc212ZGVGbnlsTWRLVzRhUjhhN3pKNXN2WVItQ0NB?oc=5",
       "pubDate": "Sun, 30 Aug 2026 21:17:21 GMT",
@@ -247,25 +285,6 @@
       "score": 44,
       "priority": "B",
       "id": "8146fb462ad90b0a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "GDP、PCE 以及英偉達 $NVDA 財報接連登場： 🔸 經濟能否保持韌性？ 🔸 通脹會否繼續降溫？ 🔸 AI 熱潮又能否延續？ 閱讀全文，提前掌握行情走向 #加密 #WEEX市場快讀 #英偉達 #PCE https://t.co/nOz3Ta6mW1 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qektJd1FIbUJ1TklwQ3pReUp4R1kxUkdlbzdGd3hrMVdMNk41clJsRFZ0ZTZocWJ6SlB4RjduZG1MSVVwcVFha2kwc1k5WmNvUVdXSTV3U3RfOWM2QkpfRC1hQmg?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 06:30:57 GMT",
-      "description": "GDP、PCE 以及英偉達 $NVDA 財報接連登場： 🔸 經濟能否保持韌性？ 🔸 通脹會否繼續降溫？ 🔸 AI 熱潮又能否延續？ 閱讀全文，提前掌握行情走向 #加密 #WEEX市場快讀 #英偉達 #PCE https://t.co/nOz3Ta6mW1 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "773119f263a1ce2a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -782,5 +801,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-08-31T08:42:28.482Z"
+  "rankedAt": "2026-08-31T08:43:24.640Z"
 }
