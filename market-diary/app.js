@@ -8,7 +8,7 @@ async function loadData(){
   catch(e){console.error(e);$('#updated-at').textContent='数据加载失败';showToast('数据加载失败，请稍后重试')}
 }
 function showToast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1800)}
-function esc(v=''){return String(v).replace(/[&<>'\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[m]))}
+function esc(v=''){return String(v).replace(/[&<>'\x22]/g,m=>({38:'&amp;',60:'&lt;',62:'&gt;',39:'&#39;',34:'&quot;'}[m.charCodeAt(0)]))}
 function route(page){
   page=pageNames[page]?page:'radar';$$('.page').forEach(x=>x.classList.remove('active'));$(`#page-${page}`).classList.add('active');$$('.nav-item').forEach(x=>x.classList.toggle('active',x.dataset.page===page));$('#page-title').textContent=pageNames[page];location.hash=page;window.scrollTo({top:0,behavior:'smooth'});if(page==='detail')renderDetail();
 }
