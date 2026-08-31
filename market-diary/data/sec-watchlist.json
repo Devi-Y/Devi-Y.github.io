@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:07:25.509Z",
+  "generatedAt": "2026-08-31T08:42:28.722Z",
   "windowDays": 60,
   "note": "SEC官方重点标的披露监控。13F不是实时持仓；所有持仓结论需继续打开原始申报文件核验。",
   "summary": {
@@ -15,7 +15,7 @@
       "ticker": "NVDA",
       "status": "error",
       "count": 0,
-      "latencyMs": 138,
+      "latencyMs": 85,
       "error": "HTTP 403"
     },
     {
@@ -47,7 +47,7 @@
       "ticker": "META",
       "status": "error",
       "count": 0,
-      "latencyMs": 9,
+      "latencyMs": 22,
       "error": "HTTP 403"
     },
     {
@@ -63,7 +63,7 @@
       "ticker": "MSFT",
       "status": "error",
       "count": 0,
-      "latencyMs": 10,
+      "latencyMs": 14,
       "error": "HTTP 403"
     },
     {
@@ -71,7 +71,7 @@
       "ticker": "GOOGL",
       "status": "error",
       "count": 0,
-      "latencyMs": 10,
+      "latencyMs": 15,
       "error": "HTTP 403"
     },
     {
@@ -79,7 +79,7 @@
       "ticker": "BRK.B / institution",
       "status": "error",
       "count": 0,
-      "latencyMs": 15,
+      "latencyMs": 11,
       "error": "HTTP 403"
     }
   ],
