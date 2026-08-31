@@ -37,6 +37,7 @@ jobs:
         run: |
           node --check market-diary/app.js
           node --check market-diary/analytics.js
+          node --check market-diary/futu-copy.js
           node --check market-diary/source-monitor.js
           node --check market-diary/case-studies.js
           node --check market-diary/product-upgrades.js
