@@ -24,6 +24,7 @@ jobs:
       MARKET_DIARY_AI_MODEL: ${{ secrets.MARKET_DIARY_AI_MODEL }}
       X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
       MARKET_DIARY_WINDOW_DAYS: 7
+      MARKET_DIARY_SEC_WINDOW_DAYS: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,21 +36,24 @@ jobs:
         run: |
           node --check market-diary/scripts/update-candidates.mjs
           node --check market-diary/scripts/rank-candidates.mjs
+          node --check market-diary/scripts/collect-sec-watchlist.mjs
           node --check market-diary/scripts/enrich-candidates.mjs
       - name: Update candidate pool
         run: node market-diary/scripts/update-candidates.mjs
       - name: Editorial ranking gate
         run: node market-diary/scripts/rank-candidates.mjs
+      - name: Collect SEC watchlist
+        run: node market-diary/scripts/collect-sec-watchlist.mjs
       - name: AI enrich candidates
         run: node market-diary/scripts/enrich-candidates.mjs
       - name: Commit data if changed
         run: |
-          if git diff --quiet -- market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json; then
+          if git diff --quiet -- market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json market-diary/data/sec-watchlist.json; then
             echo "No candidate changes"
             exit 0
           fi
           git config user.name "market-diary-bot"
           git config user.email "market-diary-bot@users.noreply.github.com"
-          git add market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json
+          git add market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json market-diary/data/sec-watchlist.json
           git commit -m "data: refresh Market Diary intelligence pool"
           git push
