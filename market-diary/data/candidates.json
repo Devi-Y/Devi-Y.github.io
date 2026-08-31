@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-31T07:07:27.724Z",
+  "generatedAt": "2026-08-31T07:45:07.878Z",
   "windowDays": 7,
   "summary": {
     "total": 43,
     "bySignal": {
-      "事实": 3,
+      "事实": 2,
       "媒体": 0,
       "人物": 2,
       "资金": 0,
-      "热点": 38
+      "热点": 39
     },
     "byTrust": {
-      "A": 4,
+      "A": 3,
       "B": 1,
-      "C": 38
+      "C": 39
     },
     "s": 0,
     "a": 3,
@@ -138,6 +138,25 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
+      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "d07dd6e1d37aa66f",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "IPO",
       "title": "【希音上市】據悉希音香港IPO發行價 或定在每股約48.56港元 https://t.co/b0WRmnqvv2 快時尚零售商希音（新上市編號：https://t.co/UfPxRjXPiC）據悉告知潛在投資者，其香港IPO的發行價，或定在每股約48.56 港元，略高於推介價格區間的中點。以此計算，將籌集136億 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFVm1BY3RwdFFHX0VHcWFZd0p1N2NnRjRRV3RId2JFa01tNlFjU2dmLUFxQmhfbXJNX1d0dGhTMF9OT1R0b0hoSldydExCLVBWeTFjUEhCR3g2ckttc242R0hMdGI?oc=5",
@@ -253,10 +272,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DUWdiRnBoSE5xUF9VRjRYd3B6UW1yenE2dkhpaFZFZ3lUeThpbE5oeVdtd004MHpvSFozT3cza2dKRWsxb01oVEFFY2RnaXpvcVdfcXIyanRXQ0dpN05hWDNhMVNYQUlo?oc=5",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
       "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -265,7 +284,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "2bd8cacfe5562a2e",
+      "id": "35dbbb1066754903",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -342,6 +361,25 @@
       "score": 44,
       "priority": "B",
       "id": "248aba99c5027904",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CUWlpOHk3dDRIOFRYa0hCbS05TWJsbGF0WGJHajRYbURpUERsM1h2S3dqbmdYU0Z5Z1JhTFJReUNFdVJReUg5ZmItZkVidXZMMzM0NGdHLVJWdmJXS2xoajNuTktCNmxmU1l0bmNCbzBCQQ?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 09:33:35 GMT",
+      "description": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "d2c8a248682b37ab",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -557,6 +595,25 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Nvidia本週發財報，市場上都在關注老黃會怎麼花賺來的錢，目前Nvidia對整個生態系的胃口都很大，之前就已經很喜歡Perplexity沒事就一直提，這次還要加碼投拉高估值。 前腳才剛用約60億美元授權Poolside技術並挖角人才，要佈局加強自家開源的Nemotron，對擅 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9tYXdTcXJ1anBkLTVZN0sxNXU3a2s0ZUg1T00yN1hBMzIwVnV4d0EtOHF6akdYem9xVUN1RVRFNjVhOHNsb2tmZHJXV2pqenR0bVE2dTNMN1dJQ1kwSlBZ?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 08:24:52 GMT",
+      "description": "Nvidia本週發財報，市場上都在關注老黃會怎麼花賺來的錢，目前Nvidia對整個生態系的胃口都很大，之前就已經很喜歡Perplexity沒事就一直提，這次還要加碼投拉高估值。 前腳才剛用約60億美元授權Poolside技術並挖角人才，要佈局加強自家開源的Nemotron，對擅 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "fb57eae11162fdf8",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Did we just call the bottom again? 👀 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9acmVfR2dzN21NeWdnaG1KMDM2czM5YlhScGhWLTJpcmFlcm1JN21fRTBpOU1LV0V2TkZWY2lQZ1JDcklfZFl2R2RmdmhLUDY1dERwbzNzNVNmYm44dVVQN2pFVjEyUU8yY1E?oc=5",
       "pubDate": "Wed, 26 Aug 2026 13:01:02 GMT",
@@ -609,25 +666,6 @@
       "priority": "B",
       "id": "bdd3e69b5979c823",
       "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX Appoints Head of External Communications",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/260824news?sc_lang=en",
-      "pubDate": "Mon, 24 Aug 2026 15:24:00 +0800",
-      "description": "HKEX Appoints Head of External Communications",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 38,
-      "priority": "B",
-      "id": "b68c0fc6332b535a",
-      "rankReason": "一级/官方信源"
     },
     {
       "market": "全球",
@@ -766,44 +804,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "幹 好頂 可惡剛好沒得去qqqqq - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56ZkJGMWk3YzlSajVFYlByUElIanRfY2JBM1N6cWZqTURHVGpEMWhwV085WE85dDduaDdJdjFGY3cycGdYU3MzVGh4Qy1jbjZuamJIQ1FpUWdfRkdCRDVB?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 07:16:36 GMT",
-      "description": "幹 好頂 可惡剛好沒得去qqqqq &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "48efb31a08444b24",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "超頂超好看歐買尬 感謝終於有人讓我色起來了🥵🥵🥵 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14bjhBYTNqY1NuOWNUVnVpMDlOTVY1bjgtdlJsZ0hIZHIyZUhYTHJab2hWcnhNeWNKXzZiUVN4Q2pxWEx4RlMxWHQxbFQ0bk5yUUVCRTYxa2c3SXNpV04w?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 17:55:46 GMT",
-      "description": "超頂超好看歐買尬 感謝終於有人讓我色起來了🥵🥵🥵 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "e043aecad92818e1",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "45°C 進水溫度提升效率– 減少冷卻能耗，更多電力用於運算（Tokens） 無需冰水機、無水資源浪費、全效能運作 傳統設計（Traditional Design） 機械室（Grey Space）+ 資料大廳（White Space） 包含：冷卻器/蒸發器（Cooler / Evaporator）、冰水機（Chiller）、設施熱交換器（ - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HS1pHZVBPdl9maHI4MGVnRERSSEhYemJ0OXVWQmdncC16M1BHZjVYbjBNQTZ2NGNZRFJyWlZDRFVwUkpyblVkeFpXUXc2VkVuU0kwcVhSYkowNmp1Y1E?oc=5",
       "pubDate": "Tue, 25 Aug 2026 08:36:00 GMT",
@@ -839,5 +839,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-08-31T07:07:29.393Z"
+  "rankedAt": "2026-08-31T07:45:08.259Z"
 }
