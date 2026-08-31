@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-31T07:45:07.878Z",
+  "generatedAt": "2026-08-31T08:05:43.275Z",
   "windowDays": 7,
   "summary": {
-    "total": 43,
+    "total": 42,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
       "人物": 2,
       "资金": 0,
-      "热点": 39
+      "热点": 38
     },
     "byTrust": {
       "A": 3,
       "B": 1,
-      "C": 39
+      "C": 38
     },
     "s": 0,
     "a": 3,
-    "b": 40
+    "b": 39
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -138,25 +138,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
-      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "d07dd6e1d37aa66f",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "【希音上市】據悉希音香港IPO發行價 或定在每股約48.56港元 https://t.co/b0WRmnqvv2 快時尚零售商希音（新上市編號：https://t.co/UfPxRjXPiC）據悉告知潛在投資者，其香港IPO的發行價，或定在每股約48.56 港元，略高於推介價格區間的中點。以此計算，將籌集136億 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFVm1BY3RwdFFHX0VHcWFZd0p1N2NnRjRRV3RId2JFa01tNlFjU2dmLUFxQmhfbXJNX1d0dGhTMF9OT1R0b0hoSldydExCLVBWeTFjUEhCR3g2ckttc242R0hMdGI?oc=5",
@@ -272,10 +253,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DUWdiRnBoSE5xUF9VRjRYd3B6UW1yenE2dkhpaFZFZ3lUeThpbE5oeVdtd004MHpvSFozT3cza2dKRWsxb01oVEFFY2RnaXpvcVdfcXIyanRXQ0dpN05hWDNhMVNYQUlo?oc=5",
       "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -284,7 +265,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "35dbbb1066754903",
+      "id": "2bd8cacfe5562a2e",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -367,25 +348,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CUWlpOHk3dDRIOFRYa0hCbS05TWJsbGF0WGJHajRYbURpUERsM1h2S3dqbmdYU0Z5Z1JhTFJReUNFdVJReUg5ZmItZkVidXZMMzM0NGdHLVJWdmJXS2xoajNuTktCNmxmU1l0bmNCbzBCQQ?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 09:33:35 GMT",
-      "description": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d2c8a248682b37ab",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "SHEIN 正式上線LBank！ 👀 參與 SHEIN 上新狂歡節，瓜分 $10,000 獎勵池！ 交易 $SHEIN，完成活動任務，即可領取屬於你的獎勵。 立即參與： lbank.com/event-new/1000… - x.com",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicWVIeVMzV3VPREJHUmxDdTFEa0Iwc2lYcUdNanl2cVVvTmdDM0NrVzB2dGxOUDdJdmNYUlNNaGZCZXFwbTBaVS05QWNyS2NxUG1nelpsc3ZWYUxYWjhEeUZjWG5PT0xrakdnVWRB?oc=5",
       "pubDate": "Tue, 25 Aug 2026 14:39:36 GMT",
@@ -418,25 +380,6 @@
       "score": 44,
       "priority": "B",
       "id": "cfa9912760452a12",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Jukan聽到一個觀點： Jalapeño 其實可能對Cerebras 是利好的。Jalapeño 會給Meta 和 AWS 帶來更多壓力，迫使他們回應OpenAI，從而可能更積極地採用$CBRS $CBRS CEO: 這個論點顯然是正確的。就像$NVDA 承認基於SRAM 解決方案的價值，並隨後收購Groq - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3TUdDVW9sSmNKS2ZPcGlOVFBod084bnl3R0I0ZERsWHFIbEYwa1haMDBGdFNSbThkT20waXVRYm9GSGRNTi1hdGw5V1RWeEs4aVRkUnMwWnB1TXd2VUh2cjlhMmE?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 04:28:25 GMT",
-      "description": "Jukan聽到一個觀點： Jalapeño 其實可能對Cerebras 是利好的。Jalapeño 會給Meta 和 AWS 帶來更多壓力，迫使他們回應OpenAI，從而可能更積極地採用$CBRS $CBRS CEO: 這個論點顯然是正確的。就像$NVDA 承認基於SRAM 解決方案的價值，並隨後收購Groq &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "598ea67bff50793b",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -689,6 +632,25 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "1．【此為突發新聞後續更新】美國制裁擴至五大行業，威脅切斷交易者美元渠道 美國財政部8月24日正式公布對伊朗新一輪「經濟孤立」措施。這是此前制裁預告的具體落地，不重述原有軍事及外交背景。 新增措施包括： 把制裁範圍擴大至航空、數字資產、黃金、航運及技 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CQnpYMXotVkhhUXdxMWVXazYxTWUzNFJCRWFBTG9ESDBTYkRPZlY2dWRtcEJ0WUZKSWlqUS0zM1A1aFlJOWFFOUdqMW5QRDZfdUxaRGxyaUYtTzNuaEk4?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 03:56:27 GMT",
+      "description": "1．【此為突發新聞後續更新】美國制裁擴至五大行業，威脅切斷交易者美元渠道 美國財政部8月24日正式公布對伊朗新一輪「經濟孤立」措施。這是此前制裁預告的具體落地，不重述原有軍事及外交背景。 新增措施包括： 把制裁範圍擴大至航空、數字資產、黃金、航運及技 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 28,
+      "priority": "B",
+      "id": "7742152bdc7d9c41",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "美聯儲主席沃什 解析當前經濟與通脹影響 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政策的影 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2QTg2MjA1ZEp4ZlVRWlNqTFBYeWhlM0V6X1RLMWU1ODJRTGo1cThNbllKcm9jeWN3Vkx2T3VyWXIzZHRTWUpIV3NJc050YXZvRE9zS1k1VjFJTWpraS1mXzBB?oc=5",
@@ -837,7 +799,26 @@
       "priority": "B",
       "id": "386338ed5b596c0b",
       "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "「我在資料室待了三天，感覺自己逐漸失去了靈魂和血肉。」 To Be an Angel：參、博士 https://t.co/KrsEEEZuGW - 每週三更新 - #天使計劃 #DrEricaceae - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xYjFDRmF4WldKVFBTRFFGSjh1eE5UaE90Q05halJweHZyajVYdWRfOGVEMENTTFNndFZaMXZPWk5iRHZEeWFCZjJvOXBmQTdySElNYXdPS1ljN2t5c0REQjZPcHU?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 14:44:00 GMT",
+      "description": "「我在資料室待了三天，感覺自己逐漸失去了靈魂和血肉。」 To Be an Angel：參、博士 https://t.co/KrsEEEZuGW - 每週三更新 - #天使計劃 #DrEricaceae &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "94522ee878c8f5a4",
+      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-08-31T07:45:08.259Z"
+  "rankedAt": "2026-08-31T08:05:44.467Z"
 }
