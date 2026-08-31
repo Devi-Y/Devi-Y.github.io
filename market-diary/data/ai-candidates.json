@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T06:38:47.894Z",
+  "generatedAt": "2026-08-31T06:40:40.145Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
