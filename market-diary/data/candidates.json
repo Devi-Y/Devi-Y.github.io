@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-31T06:40:39.234Z",
+  "generatedAt": "2026-08-31T07:06:14.413Z",
   "windowDays": 7,
   "summary": {
-    "total": 44,
+    "total": 42,
     "bySignal": {
       "事实": 3,
       "媒体": 0,
-      "人物": 2,
+      "人物": 1,
       "资金": 0,
-      "热点": 39
+      "热点": 38
     },
     "byTrust": {
       "A": 4,
-      "B": 1,
-      "C": 39
+      "B": 0,
+      "C": 38
     },
     "s": 0,
-    "a": 3,
-    "b": 41
+    "a": 2,
+    "b": 40
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -58,25 +58,6 @@
       "priority": "A",
       "id": "bd6e25338c79f88e",
       "rankReason": "一级/官方信源；高影响事件词"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
-      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "f512924277cd9368",
-      "rankReason": "高影响事件词；关键人物"
     },
     {
       "market": "宏观",
@@ -138,25 +119,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
-      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "d07dd6e1d37aa66f",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "【希音上市】據悉希音香港IPO發行價 或定在每股約48.56港元 https://t.co/b0WRmnqvv2 快時尚零售商希音（新上市編號：https://t.co/UfPxRjXPiC）據悉告知潛在投資者，其香港IPO的發行價，或定在每股約48.56 港元，略高於推介價格區間的中點。以此計算，將籌集136億 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFVm1BY3RwdFFHX0VHcWFZd0p1N2NnRjRRV3RId2JFa01tNlFjU2dmLUFxQmhfbXJNX1d0dGhTMF9OT1R0b0hoSldydExCLVBWeTFjUEhCR3g2ckttc242R0hMdGI?oc=5",
@@ -172,25 +134,6 @@
       "priority": "B",
       "id": "84367de81adc0c15",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "35dbbb1066754903",
-      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -266,6 +209,25 @@
       "score": 44,
       "priority": "B",
       "id": "eac1d827d39deb52",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "35dbbb1066754903",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -500,6 +462,25 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "別再盲目買房了！王道論市揭秘：英偉達（NVDA）未來5年潛力驚人。當大家還在糾結房產投資時，為何專家力薦持有英偉達股票？深入解析EPS數據與本益比，帶你讀懂AI時代的財富邏輯。 #英偉達 #NVDA #股票投資 #王道論市 #AI投資 #美股分析 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OYTE0VVo2OWpOZ1FwSlpTSG9VRGRybWV3MmQ5bWt5Q3NyRDZTc0tCbmlmaTgxZUVtaHRNRWFTWnQtLXlkMU53Szh0VkZRaDROZWYtZHJwYUJaN3NHYzFLZDhR?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 19:16:30 GMT",
+      "description": "別再盲目買房了！王道論市揭秘：英偉達（NVDA）未來5年潛力驚人。當大家還在糾結房產投資時，為何專家力薦持有英偉達股票？深入解析EPS數據與本益比，帶你讀懂AI時代的財富邏輯。 #英偉達 #NVDA #股票投資 #王道論市 #AI投資 #美股分析 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "4f72ee291dd9c111",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aWklLWXppVnpoWVZHYTNCM0p2dTE5ZllIek04c0VDclg1S1duRG92TFVRM2JkRWpCYnF2THZtZ3J2cm9jQXFneEowb050X19HVUdENEFnRWFVcTJRS0N5eVJNanRXNEU?oc=5",
       "pubDate": "Tue, 25 Aug 2026 17:40:31 GMT",
@@ -532,25 +513,6 @@
       "score": 44,
       "priority": "B",
       "id": "5c64a421a86e6850",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "別再盲目買房了！王道論市揭秘：英偉達（NVDA）未來5年潛力驚人。當大家還在糾結房產投資時，為何專家力薦持有英偉達股票？深入解析EPS數據與本益比，帶你讀懂AI時代的財富邏輯。 #英偉達 #NVDA #股票投資 #王道論市 #AI投資 #美股分析 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OYTE0VVo2OWpOZ1FwSlpTSG9VRGRybWV3MmQ5bWt5Q3NyRDZTc0tCbmlmaTgxZUVtaHRNRWFTWnQtLXlkMU53Szh0VkZRaDROZWYtZHJwYUJaN3NHYzFLZDhR?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 19:16:30 GMT",
-      "description": "別再盲目買房了！王道論市揭秘：英偉達（NVDA）未來5年潛力驚人。當大家還在糾結房產投資時，為何專家力薦持有英偉達股票？深入解析EPS數據與本益比，帶你讀懂AI時代的財富邏輯。 #英偉達 #NVDA #股票投資 #王道論市 #AI投資 #美股分析 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "4f72ee291dd9c111",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -858,5 +820,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-08-31T06:40:39.607Z"
+  "rankedAt": "2026-08-31T07:06:14.500Z"
 }
