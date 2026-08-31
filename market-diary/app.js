@@ -87,8 +87,14 @@ function renderWatchlist(){
 }
 function renderDaily(){const list=[...state.events].sort((a,b)=>b.priorityScore-a.priorityScore).slice(0,10);$('#daily-list').innerHTML=list.map(x=>`<div class="daily-item"><div><h3>${esc(x.title)}</h3><p>${esc(x.conclusion)} <b>为什么重要：</b>${esc(x.whyImportant)}</p></div><div class="next">${esc(x.priority)}级 · ${esc((x.contentDirection||[]).slice(0,2).join(' / '))}</div></div>`).join('')}
 function renderWorkbench(){
+  const rows=[...state.events].sort((a,b)=>b.priorityScore-a.priorityScore);
   const cols=[['time','时间'],['market','市场'],['title','事件'],['conclusion','一句话结论'],['whyImportant','为什么重要'],['impact','影响对象'],['contentDirection','内容方向'],['sourceName','一级信源'],['humanCheck','Human Check'],['priority','优先级'],['suggestedAction','建议动作'],['aiAssist','AI辅助方式']];
-  $('#workbench-table').innerHTML=`<thead><tr>${cols.map(c=>`<th>${c[1]}</th>`).join('')}</tr></thead><tbody>${[...state.events].sort((a,b)=>b.priorityScore-a.priorityScore).map(x=>`<tr>${cols.map(([k])=>{let v=x[k];if(k==='humanCheck')v=humanCheckText(x);if(Array.isArray(v))v=v.join(' / ');if(k==='priority')return `<td class="table-priority">${esc(v)} · ${x.priorityScore}</td>`;if(k==='sourceName')return `<td>${x.verified?'✓ ':''}${esc(v)}</td>`;if(k==='humanCheck')return `<td><span class="table-check ${x.verified?'done':'pending'}">${esc(v)}</span>${isShein(x)?'<br><small>含日期纠错</small>':''}</td>`;return `<td>${esc(v)}</td>`}).join('')}</tr>`).join('')}</tbody>`
+  $('#workbench-table').innerHTML=`<thead><tr>${cols.map(c=>`<th>${c[1]}</th>`).join('')}</tr></thead><tbody>${rows.map(x=>`<tr>${cols.map(([k])=>{let v=x[k];if(k==='humanCheck')v=humanCheckText(x);if(Array.isArray(v))v=v.join(' / ');if(k==='priority')return `<td class="table-priority">${esc(v)} · ${x.priorityScore}</td>`;if(k==='sourceName')return `<td>${x.verified?'✓ ':''}${esc(v)}</td>`;if(k==='humanCheck')return `<td><span class="table-check ${x.verified?'done':'pending'}">${esc(v)}</span>${isShein(x)?'<br><small>含日期纠错</small>':''}</td>`;return `<td>${esc(v)}</td>`}).join('')}</tr>`).join('')}</tbody>`;
+  const mobile=$('#workbench-mobile');
+  if(mobile){
+    mobile.innerHTML=rows.map(x=>`<article class="workbench-mobile-card" data-event="${esc(x.id)}"><div class="wm-top"><div><div class="event-meta"><span class="tag">${esc(x.market)}</span><span class="tag">${esc(x.type)}</span></div><h3>${esc(x.title)}</h3></div><span class="wm-priority">${esc(x.priority)} · ${esc(x.priorityScore)}</span></div><p>${esc(x.conclusion)}</p><div class="wm-meta"><span>${x.verified?'✓ 已核验':'● 待Human Check'}</span><span>${esc((x.contentDirection||[]).slice(0,2).join(' / '))}</span><span>${esc(x.sourceName)}</span></div><div class="wm-action"><b>下一步：</b>${esc(x.suggestedAction)}</div></article>`).join('');
+    bindCards(mobile);
+  }
 }
 
 document.addEventListener('DOMContentLoaded',()=>{initNav();$('#reset-watchlist').addEventListener('click',()=>{state.watchlist=structuredClone(defaultWatchlist);saveWatchlist();renderWatchlist();showToast('已恢复演示关注')});loadData().then(()=>{const p=location.hash.replace('#','')||'radar';route(p)})});
