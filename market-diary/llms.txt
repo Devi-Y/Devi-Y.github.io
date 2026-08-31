@@ -1,0 +1,23 @@
+# Market Diary / 牛牛市场雷达
+
+Purpose: AI-assisted financial content operations dashboard for Futu content-operations interview work.
+
+This is NOT a trading journal and NOT an investment/trading tool.
+
+Core question: What 3–5 financial stories are most worth producing today, why do they matter, and what content format should they become?
+
+Workflow: source collection -> initial screening -> deduplication -> AI-assisted structuring -> human verification against primary sources -> editorial decision -> dashboard.
+
+Human verification is mandatory for key numbers, dates, and wording. AI is not treated as a factual source.
+
+Main views:
+- 今日雷达 / Daily Radar: top 3–5 editorial opportunities.
+- 事件详情 / Event Detail: conclusion, importance, affected users, content format, primary source, verification status.
+- 我的关注 / Watchlist: stocks, people, institutions, topics.
+- 每日精选 / Daily Briefs: morning, evening, weekly editorial rhythms.
+- 内容工作台 / Editorial Workbench: converts events into next content actions.
+
+Correction case: SHEIN. The system initially confused the Aug 28 trading-arrangement announcement date with the listing/trading date. Human verification returned to HKEX and corrected the planned trading date to Sep 1, 2026.
+
+Canonical site: https://devi-y.github.io/market-diary/
+AI-readable review: https://github.com/Devi-Y/Devi-Y.github.io/blob/main/market-diary/AI_REVIEW.md
