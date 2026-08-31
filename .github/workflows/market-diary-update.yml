@@ -11,11 +11,13 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     env:
       MARKET_DIARY_AI_KEY: ${{ secrets.MARKET_DIARY_AI_KEY }}
       MARKET_DIARY_AI_BASE: ${{ secrets.MARKET_DIARY_AI_BASE }}
       MARKET_DIARY_AI_MODEL: ${{ secrets.MARKET_DIARY_AI_MODEL }}
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      MARKET_DIARY_WINDOW_DAYS: 7
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,12 +31,12 @@ jobs:
         run: node market-diary/scripts/enrich-candidates.mjs
       - name: Commit data if changed
         run: |
-          if git diff --quiet -- market-diary/data/candidates.json market-diary/data/ai-candidates.json; then
+          if git diff --quiet -- market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json; then
             echo "No candidate changes"
             exit 0
           fi
           git config user.name "market-diary-bot"
           git config user.email "market-diary-bot@users.noreply.github.com"
-          git add market-diary/data/candidates.json market-diary/data/ai-candidates.json
-          git commit -m "data: refresh Market Diary candidates"
+          git add market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json
+          git commit -m "data: refresh Market Diary intelligence pool"
           git push
