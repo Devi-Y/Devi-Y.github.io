@@ -1,21 +1,27 @@
 (()=>{
-  const css=`
-  .intel-monitor{margin:18px 0 20px}.monitor-title{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:12px}.monitor-title h3{margin:0;font-size:17px}.monitor-title p{margin:4px 0 0;color:#7d8782;font-size:12px}.monitor-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.monitor-card{background:#fff;border:1px solid #e7ece9;border-radius:14px;padding:14px}.monitor-card span{display:block;color:#7d8782;font-size:11px}.monitor-card strong{display:block;margin:6px 0 2px;font-size:22px}.monitor-card small{color:#8d9692}.source-strip{display:flex;gap:8px;overflow:auto;padding:10px 0 2px}.source-pill{min-width:max-content;border:1px solid #e4eae7;background:#fbfcfb;border-radius:999px;padding:7px 10px;font-size:11px}.source-pill b{margin-right:5px}.source-pill.ok b,.source-pill.ready b,.source-pill.fallback-ok b{color:#07925b}.source-pill.error b{color:#d54d4d}.source-pill.not-configured b,.source-pill.discovery-only b,.source-pill.planned b{color:#b37a10}.monitor-note{margin-top:9px;color:#77827d;font-size:11px;line-height:1.55}.candidate-feed{margin-top:14px;background:#fff;border:1px solid #e7ece9;border-radius:14px;padding:14px}.candidate-feed h4{margin:0 0 10px;font-size:13px}.candidate-row{display:grid;grid-template-columns:46px 52px minmax(250px,1fr) 86px 70px;gap:9px;padding:8px 0;border-top:1px solid #f0f3f1;align-items:center;font-size:11px}.candidate-row:first-of-type{border-top:0}.candidate-row .ctitle{font-size:12px;font-weight:600;color:#202925}.candidate-row .csource{color:#7c8782;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.candidate-priority{font-weight:800}.candidate-priority.S{color:#d94444}.candidate-priority.A{color:#b77912}.candidate-priority.B{color:#4c6b61}@media(max-width:900px){.monitor-grid{grid-template-columns:repeat(2,1fr)}.candidate-row{grid-template-columns:38px 45px 1fr}.candidate-row .csource,.candidate-row .cscore{display:none}}`;
-  const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
-  const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[m]));
+  const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
   async function get(url){try{const r=await fetch(`${url}?v=${Date.now()}`);return r.ok?await r.json():null}catch{return null}}
+  const fmt=t=>{try{return new Date(t).toLocaleString('zh-CN',{hour12:false})}catch{return'—'}};
+  const label=s=>s==='ok'?'正常':s==='fallback-ok'?'降级可用':s==='error'?'失败':s==='not-configured'?'未配置':s||'—';
   async function render(){
-    const work=document.querySelector('#page-workbench .table-wrap');if(!work)return;
+    const page=document.querySelector('#page-workbench');if(!page||document.querySelector('.source-health-panel'))return;
     const [health,candidates,sec]=await Promise.all([get('./data/source-health.json'),get('./data/candidates.json'),get('./data/sec-watchlist.json')]);
-    const sources=health?.sources||[];const items=candidates?.items||[];const sum=candidates?.summary||{};const x=sources.find(v=>v.key==='x-api');const official=items.filter(v=>v.trustTier==='A').length;const secHealthy=sec?.summary?.healthy??0;const secEntities=sec?.summary?.watchEntities??0;const holdings=sec?.summary?.holdingSignals??items.filter(v=>v.signal==='资金'||v.type==='持仓').length;
-    const secLabel=secEntities&&secHealthy===0?'源受限':holdings;const secSub=secEntities&&secHealthy===0?'GitHub出口被SEC 403；不伪造数据':`Form 4 / 13F / 13D-G：${holdings}条`;
-    const wrap=document.createElement('div');wrap.className='intel-monitor';
-    wrap.innerHTML=`<div class="monitor-title"><div><h3>数据源与自动候选池</h3><p>不是手填样例：系统持续抓取、筛选、排序，并把源失败状态一起展示。</p></div><small>${health?.generatedAt?`源状态 ${new Date(health.generatedAt).toLocaleString('zh-CN',{hour12:false})}`:'初始化中'}</small></div>
-    <div class="monitor-grid"><div class="monitor-card"><span>近7天候选</span><strong>${sum.total??items.length??0}</strong><small>自动抓取 + 去重 + 编辑排序</small></div><div class="monitor-card"><span>A级信源候选</span><strong>${official}</strong><small>Fed / HKEX / 政府等</small></div><div class="monitor-card"><span>公开持仓监控</span><strong>${esc(secLabel)}</strong><small>${esc(secSub)}</small></div><div class="monitor-card"><span>X热点</span><strong>${x?.status==='ok'?'已连接':'预留'}</strong><small>${x?.status==='not-configured'?'官方API未配置；使用发现层':'仅作热点发现'}</small></div></div>
-    <div class="source-strip">${sources.slice(0,16).map(v=>`<span class="source-pill ${esc(v.status)}"><b>${v.status==='ok'||v.status==='ready'||v.status==='fallback-ok'?'●':'○'}</b>${esc(v.name)} · ${esc(v.trust||'')}${v.status==='fallback-ok'?' · 降级':''}</span>`).join('')}</div>
-    <div class="monitor-note">事实层优先一级信源；直连失败会自动降级，但不会冒充直连成功。权威媒体用于补充语境；X / 小红书只负责热点发现。SEC公开披露当前在GitHub Actions出口被403，因此网站明确显示“源受限”；HKEX DI / CCASS等批量数据上线前先核对数据许可。</div>
-    <div class="candidate-feed"><h4>自动候选 Top 6</h4>${items.slice(0,6).map(v=>`<div class="candidate-row"><span class="candidate-priority ${esc(v.priority)}">${esc(v.priority)}</span><span>${esc(v.signal)}</span><span class="ctitle">${esc(v.title)}</span><span class="csource">${esc(v.source)}</span><span class="cscore">${esc(v.score)}分</span></div>`).join('')||'<div class="monitor-note">小时任务运行后，这里会自动出现候选事件。</div>'}</div>`;
-    work.parentNode.insertBefore(wrap,work);
+    const sources=health?.sources||[];const items=candidates?.items||[];const sum=health?.summary||{};const csum=candidates?.summary||{};
+    const secHealthy=sec?.summary?.healthy??0;const secEntities=sec?.summary?.watchEntities??0;const secLabel=secEntities&&secHealthy===0?'源受限':`${sec?.summary?.holdingSignals??0}条`;
+    const panel=document.createElement('details');panel.className='source-health-panel';
+    panel.innerHTML=`<summary><div><b>Source Health / 系统状态</b><span>技术信息下沉，不影响首页内容判断</span></div><span>${esc(sum.total??sources.length)}来源 · ${esc(sum.ok??0)}正常 · ${esc(sum.fallback??0)}降级 · ${esc(sum.error??0)}硬失败 · 更新 ${esc(fmt(health?.generatedAt))}</span></summary>
+      <div class="source-health-body">
+        <p class="source-health-meta">这里只回答“系统有没有正常跑”。信源权威度与内容优先级分开：来源正常不代表事件值得做；社媒只负责发现热点，正式内容仍需Human Check。</p>
+        <div class="source-health-tech">
+          <div><span>近7天自动候选</span><strong>${esc(csum.total??items.length)}</strong><small>抓取 / 去重 / 编辑排序</small></div>
+          <div><span>直接成功</span><strong>${esc(sum.ok??0)}</strong><small>按当前源状态</small></div>
+          <div><span>自动降级</span><strong>${esc(sum.fallback??0)}</strong><small>直连受限时启用</small></div>
+          <div><span>SEC公开持仓</span><strong>${esc(secLabel)}</strong><small>${secEntities&&secHealthy===0?'GitHub出口403，明确展示':'Form 4 / 13F / 13D-G'}</small></div>
+        </div>
+        <div class="source-health-list">${sources.map(v=>`<div class="source-health-row"><strong>${esc(v.name)}</strong><span>${esc(v.trust||'')}</span><span class="source-health-status ${esc(v.status)}">${esc(label(v.status))}</span><span>${esc(fmt(v.checkedAt))}</span></div>`).join('')}</div>
+        <div class="source-health-candidates"><h4>自动候选 Top 6</h4>${items.slice(0,6).map(v=>`<div class="source-health-candidate"><b>${esc(v.priority)}</b><span>${esc(v.signal)}</span><span>${esc(v.title)}</span><span>${esc(v.score)}分</span></div>`).join('')||'<p class="source-health-meta">当前无自动候选。</p>'}</div>
+      </div>`;
+    page.appendChild(panel);
   }
-  document.addEventListener('DOMContentLoaded',()=>setTimeout(render,150));
+  document.addEventListener('DOMContentLoaded',()=>setTimeout(render,260));
 })();
