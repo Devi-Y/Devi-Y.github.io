@@ -2,6 +2,12 @@ name: Market Diary hourly update
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'market-diary/scripts/**'
+      - '.github/workflows/market-diary-update.yml'
   schedule:
     - cron: '17 * * * *'
 
@@ -25,6 +31,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Syntax check collectors
+        run: |
+          node --check market-diary/scripts/update-candidates.mjs
+          node --check market-diary/scripts/enrich-candidates.mjs
       - name: Update candidate pool
         run: node market-diary/scripts/update-candidates.mjs
       - name: AI enrich candidates
