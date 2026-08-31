@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:05:44.723Z",
+  "generatedAt": "2026-08-31T08:07:25.555Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -368,10 +368,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DUWdiRnBoSE5xUF9VRjRYd3B6UW1yenE2dkhpaFZFZ3lUeThpbE5oeVdtd004MHpvSFozT3cza2dKRWsxb01oVEFFY2RnaXpvcVdfcXIyanRXQ0dpN05hWDNhMVNYQUlo?oc=5",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
       "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -380,11 +380,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "2bd8cacfe5562a2e",
+      "id": "35dbbb1066754903",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+        "summary": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -518,6 +518,36 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CUWlpOHk3dDRIOFRYa0hCbS05TWJsbGF0WGJHajRYbURpUERsM1h2S3dqbmdYU0Z5Z1JhTFJReUNFdVJReUg5ZmItZkVidXZMMzM0NGdHLVJWdmJXS2xoajNuTktCNmxmU1l0bmNCbzBCQQ?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 09:33:35 GMT",
+      "description": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "d2c8a248682b37ab",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "SHEIN 正式上線LBank！ 👀 參與 SHEIN 上新狂歡節，瓜分 $10,000 獎勵池！ 交易 $SHEIN，完成活動任務，即可領取屬於你的獎勵。 立即參與： lbank.com/event-new/1000… - x.com",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicWVIeVMzV3VPREJHUmxDdTFEa0Iwc2lYcUdNanl2cVVvTmdDM0NrVzB2dGxOUDdJdmNYUlNNaGZCZXFwbTBaVS05QWNyS2NxUG1nelpsc3ZWYUxYWjhEeUZjWG5PT0xrakdnVWRB?oc=5",
       "pubDate": "Tue, 25 Aug 2026 14:39:36 GMT",
@@ -565,6 +595,36 @@
       "ai": {
         "priority": "B",
         "summary": "NVIDIA Corporation $NVDA 2027財年第二季財報分析 輝達本業比 GAAP headline 看起來更強，但 NVIDIA 的資產負債表風險結構，也比過去任何一個產品週期都更複雜。 大叔希望能透過這份報告給大家用完整的角度看輝達。 #NVDA https://t.co/KFPO1gdVj2 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Jukan聽到一個觀點： Jalapeño 其實可能對Cerebras 是利好的。Jalapeño 會給Meta 和 AWS 帶來更多壓力，迫使他們回應OpenAI，從而可能更積極地採用$CBRS $CBRS CEO: 這個論點顯然是正確的。就像$NVDA 承認基於SRAM 解決方案的價值，並隨後收購Groq - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3TUdDVW9sSmNKS2ZPcGlOVFBod084bnl3R0I0ZERsWHFIbEYwa1haMDBGdFNSbThkT20waXVRYm9GSGRNTi1hdGw5V1RWeEs4aVRkUnMwWnB1TXd2VUh2cjlhMmE?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 04:28:25 GMT",
+      "description": "Jukan聽到一個觀點： Jalapeño 其實可能對Cerebras 是利好的。Jalapeño 會給Meta 和 AWS 帶來更多壓力，迫使他們回應OpenAI，從而可能更積極地採用$CBRS $CBRS CEO: 這個論點顯然是正確的。就像$NVDA 承認基於SRAM 解決方案的價值，並隨後收購Groq &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "598ea67bff50793b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Jukan聽到一個觀點： Jalapeño 其實可能對Cerebras 是利好的。Jalapeño 會給Meta 和 AWS 帶來更多壓力，迫使他們回應OpenAI，從而可能更積極地採用$CBRS $CBRS CEO: 這個論點顯然是正確的。就像$NVDA 承認基於SRAM 解決方案的價值，並隨後收購Groq - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -655,66 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sZXFNQmpyOVFldlJsUHpaQnRIdjFuUkdScU1hR1BGdW9EaVdoUUVrMFlhQ2xENVlTdnplZXBQWEE2ZDh3SzYtTkhiWWpYRmZOS3VLNXRXMkJqRGx2cXh2WGMta0pjQkRJWHpGZzlycWg?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:28:41 GMT",
-      "description": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d74187e2c94c6ab0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aWklLWXppVnpoWVZHYTNCM0p2dTE5ZllIek04c0VDclg1S1duRG92TFVRM2JkRWpCYnF2THZtZ3J2cm9jQXFneEowb050X19HVUdENEFnRWFVcTJRS0N5eVJNanRXNEU?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 17:40:31 GMT",
-      "description": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "394781620f8a061c",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
