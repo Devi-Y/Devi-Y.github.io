@@ -1,39 +1,9 @@
 {
-  "generatedAt": "2026-08-31T09:41:04.675Z",
+  "generatedAt": "2026-08-31T09:56:05.006Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "香港交易所將於希音上市日向投資者提供多項產品選擇 - hkex.com.hk",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4M2Vxdy1ZU2d0V0VaUjRWU09SUTFwX1RGdUJhdVRsWkxtWkZ1bmRPbE5MMTNRUGVLZV8zU2ZkRG9SVHUtclZmTlMwTXpzbWZxdjRmOFJFUzNPc0NCOXFSSnpyZWViTWZZaExqZHZhbjJpZU1jMDZQeUZVOA?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 04:11:32 GMT",
-      "description": "香港交易所將於希音上市日向投資者提供多項產品選擇 &nbsp;&nbsp; hkex.com.hk",
-      "source": "hkex.com.hk",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss->google-fallback",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 70,
-      "priority": "A",
-      "id": "2c795a720942bfd7",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型；降级发现待回原文",
-      "ai": {
-        "priority": "A",
-        "summary": "香港交易所將於希音上市日向投資者提供多項產品選擇 - hkex.com.hk",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "宏观",
       "signal": "事实",
@@ -59,6 +29,36 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "HKEX Enhances Product Offering with SHEIN Debut",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en",
+      "pubDate": "Fri, 28 Aug 2026 12:00:00 +0800",
+      "description": "HKEX Enhances Product Offering with SHEIN Debut",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 68,
+      "priority": "A",
+      "id": "bd6e25338c79f88e",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "HKEX Enhances Product Offering with SHEIN Debut",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -219,7 +219,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoTzZIaXJqUnNxbkRCSjEzSGxmNllVVFhqOUZMLWcxU0VQeENDaDZJc3JfOHBSQ1Zobm5zcGlpVVFTME5JVnZnMUNrSklxcXNnUzNkMFhJaGZwTXJ0NlF4d3M4OWNobVNRdjVUc1UwMA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6TEZySjFGUzJzTnB5NmQyaERPMkNXdjdnbHNxUDZKNmpiVTV2b1ZCN1ZXWUF4aUNael9fbVhmREl0bDdxTXA5Z0tSdjZwZmhTaWtUQ0FFS05RaF9GMjRyejBPbG4?oc=5",
       "pubDate": "Tue, 25 Aug 2026 10:00:02 GMT",
       "description": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -230,7 +230,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "355418bf398fc694",
+      "id": "5f77fed0636d7133",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -239,36 +239,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越Uniswap，上線不到一個月已佔Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WdHYybzN0NlM3anhoYV8ySWtqajFtcmFEV1d0VUxjRVF4enB5YzhQNEVzOUExNHBETzUxeERaZUJFUThnRzV0SE56dXNmRHNGYTR5SUtaRHltZWxKQ0dxU0FCZU1zQQ?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 09:51:54 GMT",
-      "description": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越Uniswap，上線不到一個月已佔Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "edd680c706e1d48a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越Uniswap，上線不到一個月已佔Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -368,10 +338,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DUWdiRnBoSE5xUF9VRjRYd3B6UW1yenE2dkhpaFZFZ3lUeThpbE5oeVdtd004MHpvSFozT3cza2dKRWsxb01oVEFFY2RnaXpvcVdfcXIyanRXQ0dpN05hWDNhMVNYQUlo?oc=5",
       "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -380,11 +350,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "35dbbb1066754903",
+      "id": "2bd8cacfe5562a2e",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+        "summary": "$NVDA 財報公布隔日，盤前股價上漲6%。 無論你短線看多或看空，都可透過Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -505,36 +475,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CUWlpOHk3dDRIOFRYa0hCbS05TWJsbGF0WGJHajRYbURpUERsM1h2S3dqbmdYU0Z5Z1JhTFJReUNFdVJReUg5ZmItZkVidXZMMzM0NGdHLVJWdmJXS2xoajNuTktCNmxmU1l0bmNCbzBCQQ?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 09:33:35 GMT",
-      "description": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d2c8a248682b37ab",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -715,6 +655,66 @@
       "ai": {
         "priority": "B",
         "summary": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aWklLWXppVnpoWVZHYTNCM0p2dTE5ZllIek04c0VDclg1S1duRG92TFVRM2JkRWpCYnF2THZtZ3J2cm9jQXFneEowb050X19HVUdENEFnRWFVcTJRS0N5eVJNanRXNEU?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 17:40:31 GMT",
+      "description": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "394781620f8a061c",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "@RYANHINGSHING Supply chain mostly and the fact that it is the most used hardware (so default solution) same kind as Apple - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJcVZ0ZHQzSVpfVkN0anNobUpRR3BDbVNfOVN2U2NQX3ZabFBPMFE4ZUpkNzRibWdiTTNoeXdzMExIOHVNZjBiR0hjdVBZUE5oMGxlQVJ3bFhlSC14NjVIMmZQaWpaQQ?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 09:59:52 GMT",
+      "description": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "5c64a421a86e6850",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
