@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-08-31T03:40:47.407Z",
+  "windowDays": 60,
+  "note": "SEC官方重点标的披露监控。13F不是实时持仓；所有持仓结论需继续打开原始申报文件核验。",
+  "summary": {
+    "watchEntities": 9,
+    "healthy": 0,
+    "errors": 9,
+    "filings": 0,
+    "holdingSignals": 0
+  },
+  "health": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 80,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 22,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 14,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Alibaba",
+      "ticker": "BABA / 9988.HK",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 13,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 11,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 20,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 9,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 10,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "ticker": "BRK.B / institution",
+      "status": "error",
+      "count": 0,
+      "latencyMs": 22,
+      "error": "HTTP 403"
+    }
+  ],
+  "holdingSignals": [],
+  "filings": []
+}
