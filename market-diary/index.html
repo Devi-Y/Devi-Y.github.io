@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="牛牛市场雷达 Market Diary - AI 港美股财经情报与内容工作台" />
+  <title>牛牛市场雷达｜Market Diary</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">M</div>
+        <div><strong>Market Diary</strong><span>牛牛市场雷达</span></div>
+      </div>
+      <nav id="nav">
+        <button data-page="radar" class="nav-item active"><span>◉</span> 今日雷达</button>
+        <button data-page="detail" class="nav-item"><span>↗</span> 事件详情</button>
+        <button data-page="watchlist" class="nav-item"><span>☆</span> 我的关注</button>
+        <button data-page="daily" class="nav-item"><span>☀</span> 每日精选</button>
+        <button data-page="workbench" class="nav-item"><span>▦</span> 内容工作台</button>
+      </nav>
+      <div class="side-note"><b>工作原则</b><p>AI不作为事实来源。关键数字回到一级信源核验。</p></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div><div class="eyebrow">AI FINANCIAL INTELLIGENCE</div><h1 id="page-title">今日雷达</h1></div>
+        <div class="top-actions"><div class="sync"><i></i><span id="updated-at">正在加载数据</span></div><button id="refresh-btn" class="ghost-btn">刷新</button></div>
+      </header>
+
+      <section id="page-radar" class="page active">
+        <div class="hero">
+          <div>
+            <p class="kicker">过去 7 天 · 港股 / 美股 / 宏观 / IPO</p>
+            <h2>先回答一件事：<br><span>今天什么值得做？</span></h2>
+            <p class="hero-desc">事实、热点、人物、资金四层信号，经过去重、核验和优先级判断后，只留下可转化为内容的机会。</p>
+          </div>
+          <div class="hero-score"><span>今日内容机会</span><strong id="hero-count">—</strong><small>S / A 级事件</small></div>
+        </div>
+        <div id="stats" class="stats-grid"></div>
+        <div class="toolbar"><div id="market-filters" class="chips"></div><div id="type-filters" class="chips subtle"></div></div>
+        <div class="section-head"><div><span class="dot"></span><b>优先处理</b></div><small>点击事件进入详情</small></div>
+        <div id="event-list" class="event-list"></div>
+      </section>
+
+      <section id="page-detail" class="page"><div id="detail-container"></div></section>
+
+      <section id="page-watchlist" class="page">
+        <div class="page-intro"><div><p class="kicker">PERSONAL SIGNAL</p><h2>我的关注</h2><p>把“全市场发生了什么”，变成“今天哪些变化与我有关”。</p></div><button id="reset-watchlist" class="ghost-btn">恢复默认关注</button></div>
+        <div id="watch-groups" class="watch-groups"></div>
+        <div class="section-head"><div><span class="dot"></span><b>与我有关</b></div><small id="watch-match-count"></small></div>
+        <div id="watch-events" class="event-list"></div>
+      </section>
+
+      <section id="page-daily" class="page">
+        <div class="daily-header"><p class="kicker">DAILY BRIEF</p><h2>今天最值得知道的 10 件事</h2><p>不是新闻列表，而是可以直接用于早报、推送、社区和选题会的编辑成品。</p></div>
+        <div id="daily-list" class="daily-list"></div>
+      </section>
+
+      <section id="page-workbench" class="page">
+        <div class="page-intro compact"><div><p class="kicker">EDITORIAL WORKBENCH</p><h2>内容工作台</h2><p>从“发生了什么”直接走到“运营下一步怎么用”。</p></div><div class="legend"><span><i class="status verified"></i>一级信源已核验</span><span><i class="status media"></i>权威媒体待核验</span></div></div>
+        <div class="table-wrap"><table id="workbench-table"></table></div>
+        <div class="workflow-card"><div class="workflow-title">AI 在工作流里做什么</div><div class="workflow-steps">
+          <div><b>01 获取</b><span>官方、媒体、社媒、人物、持仓</span></div><div><b>02 初筛</b><span>影响 / 关注 / 增量 / 时效</span></div><div><b>03 去重</b><span>事件聚类，保留最原始信源</span></div><div><b>04 核验</b><span>关键数字回到一级信源</span></div><div><b>05 结构化</b><span>事件 → 数据 → 影响 → 用户价值</span></div><div><b>06 决策</b><span>S/A/B + 推荐内容动作</span></div>
+        </div></div>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
