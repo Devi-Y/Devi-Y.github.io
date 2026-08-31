@@ -21,48 +21,63 @@
         <button data-page="daily" class="nav-item"><span>☀</span> 每日精选</button>
         <button data-page="workbench" class="nav-item"><span>▦</span> 内容工作台</button>
       </nav>
-      <div class="side-note"><b>工作原则</b><p>AI不作为事实来源。关键数字回到一级信源核验。</p></div>
+      <div class="side-note"><b>编辑原则</b><p>AI负责筛选、去重、结构化和内容建议；关键事实由Human Check回到一级信源确认。</p></div>
     </aside>
 
     <main class="main">
       <header class="topbar">
-        <div><div class="eyebrow">AI FINANCIAL INTELLIGENCE</div><h1 id="page-title">今日雷达</h1></div>
+        <div><div class="eyebrow">AI FINANCIAL EDITORIAL WORKBENCH</div><h1 id="page-title">今日雷达</h1></div>
         <div class="top-actions"><div class="sync"><i></i><span id="updated-at">正在加载数据</span></div><button id="refresh-btn" class="ghost-btn">刷新</button></div>
       </header>
 
       <section id="page-radar" class="page active">
-        <div class="hero">
+        <div class="hero interview-hero">
           <div>
-            <p class="kicker">过去 7 天 · 港股 / 美股 / 宏观 / IPO</p>
-            <h2>先回答一件事：<br><span>今天什么值得做？</span></h2>
-            <p class="hero-desc">事实、热点、人物、资金四层信号，经过去重、核验和优先级判断后，只留下可转化为内容的机会。</p>
+            <p class="kicker">港股 / 美股 / 宏观 / IPO · 最近7天</p>
+            <h2>今天最值得做什么内容？</h2>
+            <p class="hero-desc">Market Diary先帮内容运营完成信息筛选，再把时间留给事实核验、用户价值判断和最终选题。</p>
+            <div class="hero-tags"><span>只看S/A级机会</span><span>一级信源优先</span><span>Human Check显性化</span></div>
           </div>
-          <div class="hero-score"><span>今日内容机会</span><strong id="hero-count">—</strong><small>S / A 级事件</small></div>
+          <div class="hero-score compact-score"><span>当前高优先级</span><strong id="hero-count">—</strong><small>S / A级内容机会</small></div>
         </div>
-        <div id="stats" class="stats-grid"></div>
+
+        <div class="section-head opportunity-head"><div><span class="dot"></span><b>优先做这几条</b></div><small>点击进入详情，看AI处理与Human Check</small></div>
+        <div id="hero-opportunities" class="event-list opportunity-list"></div>
+
+        <div id="demo-path" class="demo-path" aria-label="30秒Demo路径">
+          <div class="demo-label"><b>30秒Demo</b><span>面试时按这条路径演示即可</span></div>
+          <button data-demo-page="radar"><b>01</b><span>今日雷达</span><small>先看做什么</small></button>
+          <i>→</i>
+          <button data-demo-page="detail"><b>02</b><span>事件详情</span><small>看为什么做</small></button>
+          <i>→</i>
+          <button data-demo-page="detail"><b>03</b><span>Human Check</span><small>看事实怎么把关</small></button>
+          <i>→</i>
+          <button data-demo-page="workbench"><b>04</b><span>内容工作台</span><small>看下一步怎么用</small></button>
+        </div>
+
         <div class="toolbar"><div id="market-filters" class="chips"></div><div id="type-filters" class="chips subtle"></div></div>
-        <div class="section-head"><div><span class="dot"></span><b>优先处理</b></div><small>点击事件进入详情</small></div>
-        <div id="event-list" class="event-list"></div>
+        <div class="section-head"><div><span class="dot muted-dot"></span><b>全部已核验事件</b></div><small>按市场或类型筛选</small></div>
+        <div id="event-list" class="event-list secondary-events"></div>
       </section>
 
       <section id="page-detail" class="page"><div id="detail-container"></div></section>
 
       <section id="page-watchlist" class="page">
-        <div class="page-intro"><div><p class="kicker">PERSONAL SIGNAL</p><h2>我的关注</h2><p>把“全市场发生了什么”，变成“今天哪些变化与我有关”。</p></div><button id="reset-watchlist" class="ghost-btn">恢复默认关注</button></div>
+        <div class="page-intro"><div><p class="kicker">PERSONAL SIGNAL</p><h2>我的关注</h2><p>预置股票、人物、机构和主题样例，把“全市场发生了什么”变成“哪些变化与我有关”。</p></div><button id="reset-watchlist" class="ghost-btn">恢复演示样例</button></div>
         <div id="watch-groups" class="watch-groups"></div>
         <div class="section-head"><div><span class="dot"></span><b>与我有关</b></div><small id="watch-match-count"></small></div>
         <div id="watch-events" class="event-list"></div>
       </section>
 
       <section id="page-daily" class="page">
-        <div class="daily-header"><p class="kicker">DAILY BRIEF</p><h2>今天最值得知道的 10 件事</h2><p>不是新闻列表，而是可以直接用于早报、推送、社区和选题会的编辑成品。</p></div>
+        <div class="daily-header"><p class="kicker">DAILY BRIEF</p><h2>同一信息池，服务三个编辑节奏</h2><p>Morning Brief看盘前重点，Evening Brief做盘后复盘，Week in Review沉淀本周主线。</p></div>
         <div id="daily-list" class="daily-list"></div>
       </section>
 
       <section id="page-workbench" class="page">
-        <div class="page-intro compact"><div><p class="kicker">EDITORIAL WORKBENCH</p><h2>内容工作台</h2><p>从“发生了什么”直接走到“运营下一步怎么用”。</p></div><div class="legend"><span><i class="status verified"></i>一级信源已核验</span><span><i class="status media"></i>权威媒体待核验</span></div></div>
+        <div class="page-intro compact"><div><p class="kicker">EDITORIAL WORKBENCH</p><h2>内容工作台</h2><p>从“发生了什么”直接走到“运营下一步怎么用”。</p></div><div class="legend"><span><i class="status verified"></i>一级信源已核验</span><span><i class="status media"></i>待Human Check</span></div></div>
         <div class="table-wrap"><table id="workbench-table"></table></div>
-        <div class="workflow-card"><div class="workflow-title">AI 在工作流里做什么</div><div class="workflow-steps">
+        <div class="workflow-card"><div class="workflow-title">AI在工作流里做什么</div><div class="workflow-steps">
           <div><b>01 获取</b><span>官方、媒体、社媒、人物、持仓</span></div><div><b>02 初筛</b><span>影响 / 关注 / 增量 / 时效</span></div><div><b>03 去重</b><span>事件聚类，保留最原始信源</span></div><div><b>04 核验</b><span>关键数字回到一级信源</span></div><div><b>05 结构化</b><span>事件 → 数据 → 影响 → 用户价值</span></div><div><b>06 决策</b><span>S/A/B + 推荐内容动作</span></div>
         </div></div>
       </section>
