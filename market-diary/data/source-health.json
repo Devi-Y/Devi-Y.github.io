@@ -1,1 +1,302 @@
-{"generatedAt":"2026-08-31T03:40:00Z","summary":{"ok":8,"error":0,"notConfigured":1,"total":28},"sources":[{"key":"sec","name":"SEC filings","mode":"SEC Atom","trust":"A","status":"ready","count":"8-K / 10-Q / Form 4 / 13F / 13D / 13G"},{"key":"fed","name":"Federal Reserve","mode":"Direct RSS","trust":"A","status":"ready","count":"新闻稿 + 讲话"},{"key":"bls","name":"BLS","mode":"Direct RSS","trust":"A","status":"ready","count":"宏观数据"},{"key":"hkex","name":"HKEX","mode":"Direct RSS + 专题页","trust":"A","status":"ready","count":"新闻 / 监管 / IPO"},{"key":"nbs","name":"国家统计局","mode":"Direct RSS","trust":"A","status":"ready","count":"最新发布 + 数据解读"},{"key":"china-policy","name":"央行 / 证监会","mode":"官方域名发现→回原文","trust":"A","status":"ready","count":"政策与监管"},{"key":"media","name":"Reuters / CNBC / 第一财经 / AASTOCKS","mode":"媒体发现","trust":"B","status":"ready","count":"补充信息"},{"key":"people","name":"重要人物","mode":"讲话 / 采访 / 公开账号","trust":"A/B","status":"ready","count":"人物信号"},{"key":"x-api","name":"X Recent Search","mode":"官方API可选","trust":"C","status":"not-configured","count":0,"note":"未配置 X_BEARER_TOKEN；当前只保留热点发现回退入口"},{"key":"xiaohongshu","name":"小红书","mode":"半自动/合规接口预留","trust":"C","status":"discovery-only","count":0,"note":"不宣称全站自动抓取；只用于热点发现，不能作为事实来源"},{"key":"hk-holdings","name":"HKEX DI / CCASS / Stock Connect","mode":"公开查询；批量化需评估许可","trust":"A","status":"planned","count":0,"note":"避免绕过HKEX数据许可"}],"note":"该文件为V1初始化状态；小时任务运行后会被真实抓取健康度覆盖。"}
+{
+  "generatedAt": "2026-08-31T03:34:36.944Z",
+  "summary": {
+    "ok": 18,
+    "error": 9,
+    "notConfigured": 1,
+    "total": 28
+  },
+  "sources": [
+    {
+      "key": "fed-press",
+      "name": "Federal Reserve · Press",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "ok",
+      "count": 2,
+      "checkedAt": "2026-08-31T03:34:19.028Z",
+      "latencyMs": 136
+    },
+    {
+      "key": "fed-speeches",
+      "name": "Federal Reserve · Speeches",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "ok",
+      "count": 1,
+      "checkedAt": "2026-08-31T03:34:19.029Z",
+      "latencyMs": 94
+    },
+    {
+      "key": "bls",
+      "name": "U.S. Bureau of Labor Statistics",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:19.030Z",
+      "latencyMs": 94,
+      "error": "HTTP 403"
+    },
+    {
+      "key": "nbs-release",
+      "name": "国家统计局 · 最新发布",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:36.938Z",
+      "latencyMs": 18001,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "key": "nbs-analysis",
+      "name": "国家统计局 · 数据解读",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:36.940Z",
+      "latencyMs": 18001,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "key": "hkex-news",
+      "name": "HKEX · News Releases",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "ok",
+      "count": 2,
+      "checkedAt": "2026-08-31T03:34:21.888Z",
+      "latencyMs": 2948
+    },
+    {
+      "key": "hkex-reg",
+      "name": "HKEX · Regulatory Announcements",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:21.224Z",
+      "latencyMs": 2283
+    },
+    {
+      "key": "hkex-market",
+      "name": "HKEX · Market Communications",
+      "mode": "direct-rss",
+      "trust": "A",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.349Z",
+      "latencyMs": 1408
+    },
+    {
+      "key": "sec-8k",
+      "name": "SEC · 8-K",
+      "mode": "sec-atom",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:19.862Z",
+      "latencyMs": 920,
+      "error": "HTTP 403"
+    },
+    {
+      "key": "sec-10q",
+      "name": "SEC · 10-Q",
+      "mode": "sec-atom",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:19.859Z",
+      "latencyMs": 915,
+      "error": "HTTP 403"
+    },
+    {
+      "key": "sec-form4",
+      "name": "SEC · Form 4",
+      "mode": "sec-atom",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:19.882Z",
+      "latencyMs": 937,
+      "error": "HTTP 403"
+    },
+    {
+      "key": "sec-13f",
+      "name": "SEC · 13F-HR",
+      "mode": "sec-atom",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:19.876Z",
+      "latencyMs": 930,
+      "error": "HTTP 403"
+    },
+    {
+      "key": "sec-13d",
+      "name": "SEC · SC 13D",
+      "mode": "sec-atom",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:19.872Z",
+      "latencyMs": 926,
+      "error": "HTTP 403"
+    },
+    {
+      "key": "sec-13g",
+      "name": "SEC · SC 13G",
+      "mode": "sec-atom",
+      "trust": "A",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:19.863Z",
+      "latencyMs": 916,
+      "error": "HTTP 403"
+    },
+    {
+      "key": "pbc",
+      "name": "中国人民银行",
+      "mode": "official-domain-discovery",
+      "trust": "A",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.087Z",
+      "latencyMs": 1140
+    },
+    {
+      "key": "csrc",
+      "name": "中国证监会",
+      "mode": "official-domain-discovery",
+      "trust": "A",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.092Z",
+      "latencyMs": 1144
+    },
+    {
+      "key": "hkma",
+      "name": "香港金管局",
+      "mode": "official-domain-discovery",
+      "trust": "A",
+      "status": "ok",
+      "count": 13,
+      "checkedAt": "2026-08-31T03:34:20.127Z",
+      "latencyMs": 1179
+    },
+    {
+      "key": "hk-gov",
+      "name": "香港政府",
+      "mode": "official-domain-discovery",
+      "trust": "A",
+      "status": "ok",
+      "count": 1,
+      "checkedAt": "2026-08-31T03:34:20.087Z",
+      "latencyMs": 1138
+    },
+    {
+      "key": "company-ir",
+      "name": "重点公司 IR",
+      "mode": "official-domain-discovery",
+      "trust": "A",
+      "status": "ok",
+      "count": 40,
+      "checkedAt": "2026-08-31T03:34:20.346Z",
+      "latencyMs": 1397
+    },
+    {
+      "key": "reuters",
+      "name": "Reuters",
+      "mode": "media-discovery",
+      "trust": "B",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.072Z",
+      "latencyMs": 1122
+    },
+    {
+      "key": "cnbc",
+      "name": "CNBC",
+      "mode": "media-discovery",
+      "trust": "B",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.097Z",
+      "latencyMs": 1147
+    },
+    {
+      "key": "yicai",
+      "name": "第一财经",
+      "mode": "media-discovery",
+      "trust": "B",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.104Z",
+      "latencyMs": 1153
+    },
+    {
+      "key": "aastocks",
+      "name": "AASTOCKS",
+      "mode": "media-discovery",
+      "trust": "B",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.082Z",
+      "latencyMs": 1131
+    },
+    {
+      "key": "people",
+      "name": "重要人物",
+      "mode": "people-discovery",
+      "trust": "B",
+      "status": "ok",
+      "count": 2,
+      "checkedAt": "2026-08-31T03:34:20.247Z",
+      "latencyMs": 1295
+    },
+    {
+      "key": "x-fallback",
+      "name": "X · 热点发现",
+      "mode": "social-discovery",
+      "trust": "C",
+      "status": "ok",
+      "count": 40,
+      "checkedAt": "2026-08-31T03:34:20.325Z",
+      "latencyMs": 1372
+    },
+    {
+      "key": "xiaohongshu",
+      "name": "小红书 · 热点发现",
+      "mode": "social-discovery",
+      "trust": "C",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.085Z",
+      "latencyMs": 1132
+    },
+    {
+      "key": "us-house",
+      "name": "U.S. House Financial Disclosure",
+      "mode": "official-domain-discovery",
+      "trust": "A",
+      "status": "ok",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:20.093Z",
+      "latencyMs": 1139
+    },
+    {
+      "key": "x-api",
+      "name": "X Recent Search",
+      "market": "全球",
+      "signal": "热点",
+      "trust": "C",
+      "mode": "x-api",
+      "status": "not-configured",
+      "count": 0,
+      "checkedAt": "2026-08-31T03:34:18.954Z",
+      "note": "配置 X_BEARER_TOKEN 后启用官方 Recent Search"
+    }
+  ]
+}

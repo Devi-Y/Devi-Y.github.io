@@ -1,1 +1,704 @@
-{"generatedAt":"2026-08-31T03:00:00Z","aiConfigured":false,"model":"rule-fallback","note":"AI自动结构化接口已预留；未配置密钥时使用规则回退。事实发布前必须回到一级信源核验。","items":[]}
+{
+  "generatedAt": "2026-08-31T03:34:37.675Z",
+  "aiConfigured": false,
+  "model": "rule-fallback",
+  "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
+  "items": [
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "财报",
+      "title": "Thai Lotto Results & Pro Stats - Apple",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55RVpiQ2QwazE1dEJFTkJfdkZmM3BBMmxWdVo3RkFEOXBSUFhHcWNxa1FGa2dBdldfeGF1Xy14ZVlzX09GWUlqQVhjTTY0d0g2b2ZzVHZCMnEwQndDM1lDOUVZRmlqS3ZDbVR0emRn?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "description": "Thai Lotto Results & Pro Stats &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 77,
+      "priority": "A",
+      "id": "795d5e78bc87bcb7",
+      "ai": {
+        "priority": "A",
+        "summary": "Thai Lotto Results & Pro Stats - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Arm Workout Tracker: Armaxx - Apple",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41TzVacWRhM1lzUXVqUEVNVHphaGhmb1N2Sl9vUzZfV0lVNnBMY2tEQzJ4MGJNd1o2MV9POUgyY3o2VFpuX0t2cHljd3lRWVZXb3A1MWd3TktoZVFfOGRXVU9RMmdOVHJjTHVvQVRwV29MZjR6UDZqcg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 05:54:01 GMT",
+      "description": "Arm Workout Tracker: Armaxx &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 76,
+      "priority": "A",
+      "id": "92a05f68792a600b",
+      "ai": {
+        "priority": "A",
+        "summary": "Arm Workout Tracker: Armaxx - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "AI Dictionary & Translator - Apple",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOQjJtTUViTFc3cHpjU0F5OGx0OE9CV2gwc296Skw0VElWSnhvSkFkQjllVXA2WVZPc2VRb2ttRDNCNGFkODMtX2pWMTB2cDJuYlRWZUktbDNKZjh4NG0wWEtsU1hrTHF1OVA2OFB3Q01mWHJzMFE?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 11:29:44 GMT",
+      "description": "AI Dictionary & Translator &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 76,
+      "priority": "A",
+      "id": "fbeb764dd0e96e65",
+      "ai": {
+        "priority": "A",
+        "summary": "AI Dictionary & Translator - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
+      "pubDate": "Thu, 27 Aug 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 75,
+      "priority": "A",
+      "id": "4c2b6e79240f6f90",
+      "ai": {
+        "priority": "A",
+        "summary": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "HKEX Enhances Product Offering with SHEIN Debut",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en",
+      "pubDate": "Fri, 28 Aug 2026 12:00:00 +0800",
+      "description": "HKEX Enhances Product Offering with SHEIN Debut",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 72,
+      "priority": "A",
+      "id": "bd6e25338c79f88e",
+      "ai": {
+        "priority": "A",
+        "summary": "HKEX Enhances Product Offering with SHEIN Debut",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Work Hours Tracker - HoursPal - Apple",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GX3pXR1hzdmtWdXh6MENCTkVkUUhwZlVtcjZqcFV2MW9adVlQd3hRVGhZUTRKVkJmdjFmcXR4a25WTG9uYkU1QllVdDZMMnp3Wk8xUUVOdGllaTlfYmoyY212N0lrS2VETENvZ080UHNvdGRTUlRId0tR?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 05:34:34 GMT",
+      "description": "Work Hours Tracker - HoursPal &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 72,
+      "priority": "A",
+      "id": "7a2fe2535aa9ea74",
+      "ai": {
+        "priority": "A",
+        "summary": "Work Hours Tracker - HoursPal - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Retro Phone Scanner Value - Apple",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdkszbXNsT3RFeVRGRTJFeWx0ZTNmYlNsekdOc1BaSUxGYjB6eExBc2ZSUmt1djg0SFNUNFRkTFZWTGlQVUpsV1hjZ09FUEloR1NMZjdVbG52MlRFWUpLUDFFQUJmSEk5M0lMRVhONEQ2QlBUcWY3UWd3eVJRYVJLMXdUUlBMNFo0c3pXQ1F4a3l1OEhULWhpOXRFVQ?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 13:52:06 GMT",
+      "description": "Retro Phone Scanner Value &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 72,
+      "priority": "A",
+      "id": "e266e1c7dee298e1",
+      "ai": {
+        "priority": "A",
+        "summary": "Retro Phone Scanner Value - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Audio File Analyzer - Apple",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uY3FXUGljbGVCdXVncy0tWElLV051ZEZwSXU1bEREZHhDS2lBbGxxbnNlbHMtMmhYaFk2eWVsNDhRbXdOa0V5LUpjSHdxbUo1Skt6SXlUbmo3MnVpVmVtUDNCQUdfNlFSZzZad1ZkUQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 20:47:21 GMT",
+      "description": "Audio File Analyzer &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 72,
+      "priority": "A",
+      "id": "6736f05f42949485",
+      "ai": {
+        "priority": "A",
+        "summary": "Audio File Analyzer - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Bracketly: Bracket Maker - Apple",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaXozOFFkRmdvbFFlYmFOUnZoVjJla0dLWjBuWmpNQTFwcGF2bWZZZmFiWlFxSVU3V3NFVmI5Z1pNNjYxeTB3UnFGM1hqUm9Wbk9mcjNROVFWYWxVaTBhWERzZlB4elB1LUpvVW8tMGVVaDNQR19SZV8xWXR3NXVNZXEzQVhDdw?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 20:45:18 GMT",
+      "description": "Bracketly: Bracket Maker &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 72,
+      "priority": "A",
+      "id": "7b5c83c116abbc31",
+      "ai": {
+        "priority": "A",
+        "summary": "Bracketly: Bracket Maker - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "CouDash - Apple",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yU1R2ZnNwQXBkcVZMdG9wQ0pVT2p5NFhCdDVxLXMweG54NWxqdDVkaHpSS3ZzM1pJamh6M2pPMWV0R1ZvUTJleFJZMlU2UDNzV1JESU9LSFJadTlpdjlXZFZrc05aZGFoQW1UT1VUQlA?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 19:55:19 GMT",
+      "description": "CouDash &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 72,
+      "priority": "A",
+      "id": "d75adefe40d3746b",
+      "ai": {
+        "priority": "A",
+        "summary": "CouDash - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "财报",
+      "title": "Dow gains 155 points at open as AI stocks surge ahead of Nvidia earnings - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbWlxWTNPYjFBQTNKb1BfTjlBTHJtYVFtbWhDd2NFeXVOT05ES2JFNUxuSTN3YXlaRi1DNUpnVUg0Sng2RWpqYWU1aE9UQTI5OU5sSWZnRUh1RE1qLURtckk4a2syNnNjWUtEeTd1R3lPeDdzZEh4eTktRFN2RHJ6LTlob1U3bHRoV1pSZ2lDaHRhZVBkckpaSGRxd0RnRnhiMjllM18xTTFKN1BZekhTWUlTVlhybjBpQmFWbU8wZTl4NEJBaFZZ?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 13:50:29 GMT",
+      "description": "Dow gains 155 points at open as AI stocks surge ahead of Nvidia earnings &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
+      "score": 71,
+      "priority": "A",
+      "id": "da9dde85a4b665b6",
+      "ai": {
+        "priority": "A",
+        "summary": "Dow gains 155 points at open as AI stocks surge ahead of Nvidia earnings - TradingView",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Lottery Ticket Scanner - Check - Apple",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PUEUxN2lFM2dBX1pFcV93ZWFyREFJUExwSTlEeENwc1VQbFQ3NjY2YWhleHM4bm9OQmVIaVJYVU05ckhJYmxYZGhRVURTRmdRR0JLNXczVWEwUFhNMm1HVS1maEJnUm1CTjFldl9uaWkyYVZyeFpZRkZ0NA?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 17:56:52 GMT",
+      "description": "Lottery Ticket Scanner - Check &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "df9bfef57a81534c",
+      "ai": {
+        "priority": "A",
+        "summary": "Lottery Ticket Scanner - Check - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Botox & Face Filler Simulator - Apple",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPU1JXNFFLVXJaN1plcEM3UklUUWxkcXJFek1mQTB6NHRHek5YeDBmZWU2WEpZeDJrcVZPMWRCRVJYME9tNTRXRVRtbFN4SXRSUnc3WnY0YkV6dmdaTmJ2QVhkaVc5U3ZfcTMyVzFFMHFyTDN1b2VaeFF0UjRrUkhab0h3OVJqTlZNZFRGVg?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 16:11:05 GMT",
+      "description": "Botox & Face Filler Simulator &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "c8ab1296d5e20291",
+      "ai": {
+        "priority": "A",
+        "summary": "Botox & Face Filler Simulator - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Kumoo: AI Portrait Retouch - Apple",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZNF95N2gwTEczQXlaZTJXVW1FNkpQc3dlQ0h2UFVoTC1VamlKWWhveEdoaVdaTmxlREFUOGZ5LWpzaGF2MWw1VFNpMXRyZnZ5bG1MS3pQeXBmSFhNN1k2ODhhbU5ROHQxZkdYZ2xQQzVNMEVkUEFz?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 14:42:17 GMT",
+      "description": "Kumoo: AI Portrait Retouch &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "1e58fed791a5e4ac",
+      "ai": {
+        "priority": "A",
+        "summary": "Kumoo: AI Portrait Retouch - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Storage Cleaner: Clean Disk. - Apple",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlJYZlFyZGNPX3NadC1SaGdxNjVCUi16M01NbFYtY2puZ0xaa0tVQ1lVdEFHOTVlbzg4dE5ZVkZGM01OSnF4QVFtVk9lTTJkaDBLY2ZNVUJXN1lJMHVwckNTTWs4NUU1SFdWc0YyVS1kUDRxVm9qU0M1MlZjSVFfckZxVVE4bHN3dDNaZXdtQVhHZw?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 17:29:34 GMT",
+      "description": "Storage Cleaner: Clean Disk. &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "a4f21165f3922cbe",
+      "ai": {
+        "priority": "A",
+        "summary": "Storage Cleaner: Clean Disk. - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Pregnancy test checker: Bebela - Apple",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3Y0cDV5RkNlNGR2SnFjN0E5eTMxREl0RE1PaHlEZGRoOTBTXzNBWlhCVjgxTkZuNzliNFBjdHI0R2h6eDVDZ0duVGtmMk5lMlR6NUZpQmc1ZEtxQ0sxbVR4YmE0RWZTcHZhRmpKMTJjbmlRTU9wRWhYWkVuT3F0TVIxbE1ZemRRWUJsczFHR2FHbGFtVkZ3MTItLS1CRENjdmxN?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 18:01:15 GMT",
+      "description": "Pregnancy test checker: Bebela &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "fafddbd5dcd0b0aa",
+      "ai": {
+        "priority": "A",
+        "summary": "Pregnancy test checker: Bebela - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "FOOT AI - Apple",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIT2pqVHdSX1pXdmFHSEZ1QkNyOGJvbmNUelJpcUh1b0d5WVdEcFlDRFdjaWpVdW05ZXhJMmd4ZFFnZXo1TTBaTENNNlZHM2hfMlpqWHoyOHZMeUk2S3V2SWNsbVJ3Zl9JbkNTYUdSV3FOR3M?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "description": "FOOT AI &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "ad94c5bea6e74e66",
+      "ai": {
+        "priority": "A",
+        "summary": "FOOT AI - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "FaceRate: AI Looksmax Score - Apple",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81dGc2QTlIdmZqMFBhS1Nfa1FCaWV4UzZmejVPcEx1OGxwaXg2LVMyZkZlTDl5TUdFUTNmbE5sVDdJem9raC12Q1FHWl9WeHpNeXdCTjlBR2ZuYmk1R0pzS2NEYWl5S2hwSUZZbVRwTTNJVGU1THdQdQ?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 16:09:49 GMT",
+      "description": "FaceRate: AI Looksmax Score &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "81c06a9f8bc1d680",
+      "ai": {
+        "priority": "A",
+        "summary": "FaceRate: AI Looksmax Score - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "SessionGlow: Behavior Change - Apple",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWJWSERIN1NlcVZFZWZJcDFXbTVVYjZCRWlzb1VJOUQwVWNnSzFRVTRrTHFDUWxUcjlVWEsxVzNTQXFZMjRra1BfSXN0YXFYTWpHSWpsYjI4cG5tWWltWF9RbmZNZ1JpU3p6bXdJV0xLMkZFZlJzX0paTC0tbUhQdEcwNTRoeHVqTlJv?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 02:58:12 GMT",
+      "description": "SessionGlow: Behavior Change &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "788b66686f2d221f",
+      "ai": {
+        "priority": "A",
+        "summary": "SessionGlow: Behavior Change - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Beam Calculator. - Apple",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDBJeW41YkdyRXV1TVVrUm05NmJMcWExLXdqckJPNk0zYlhtdmlBUWtLS3JxTW0tLXE1ZkZiYWgyTUJ4cC1nZkgtV0liNm9ZZTh6eERMVWxxc2xqaTF5WHIyOTJzb1RXbklSbkVlY090enZtX1hBRTkzVncwVm9mb0hYZkFRbHFtVjRGX2dn?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 21:29:47 GMT",
+      "description": "Beam Calculator. &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "ee6d3268b3e72d9d",
+      "ai": {
+        "priority": "A",
+        "summary": "Beam Calculator. - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Loan Cal: Easy EMI Calculator - Apple",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWTJ2VFZtcUo5aGxDOEhpTzRlZkFRNGpIZmtQSmpRanJyRFAzSWZXR2dVbHU4TGQxaFFOMVpPM29sbXhKQWgzSXd1OXhjSjBQYzhIQXZUWEhybWNJbE42ZHZxWUpETC1RT01yOURlc1JqZWN0Y0QzN0d3b0JwRlV2WENlRVhraDlJVktOQw?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 03:56:25 GMT",
+      "description": "Loan Cal: Easy EMI Calculator &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "7f553121eaf4ba08",
+      "ai": {
+        "priority": "A",
+        "summary": "Loan Cal: Easy EMI Calculator - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Celebrity Lookalike & Twin AI - Apple",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMG1MelVCVHZEVlJCVUlOLVZTYjdyLXhpUnVDR2NvanRhNFFfSFFCN3psOURKekk1cEVWeTJ4LWpzb21QQ2F5UkRFSkhzSEdZeXQ4Z0ZLOG9vNm5vSDQ5em94ZTdKaGNfYU9pa1NrQ3FaN0ZveS1UelI1R2MtQ1F1b182MWlJUnctRzAw?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 20:52:48 GMT",
+      "description": "Celebrity Lookalike & Twin AI &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "b22dd6d74ee31e40",
+      "ai": {
+        "priority": "A",
+        "summary": "Celebrity Lookalike & Twin AI - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Tafqit: Amount in Words - Apple",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mcmQzX2tCUlJxVlp0LV9tZHAyVkVBVFNGT0J2QUNOQktqVlM2UXJaeS04NElVLWtJRlZzOFlaRmp6ZWFWWk04ZzVKVmZIdGdJelNHOEV1ZzVleF9Ba0hYUElLUGRVT3JiTTZfZzFoNENOQ1U?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 20:15:03 GMT",
+      "description": "Tafqit: Amount in Words &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "56cbf09a365f7bc5",
+      "ai": {
+        "priority": "A",
+        "summary": "Tafqit: Amount in Words - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "OilDash Driver - Apple",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbko0Yk1vWHc4MFpOWWpqUC1ieUd4cVk1cWhmTkMwbkw0azJlNW1WQ1YwMkNrbDIteWRCMTdIQjJpZlY0dV9vTV9iLVJqUUNuR1BtTWJwaDJOeGpLd29vdGRkRW5Sbi1SZzJRdFRwYlJkZTBEOWdReGprVGJBdlM0bER4NEhPZkgzUm5XZG1B?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 14:24:10 GMT",
+      "description": "OilDash Driver &nbsp;&nbsp; Apple",
+      "source": "Apple",
+      "sourceKey": "company-ir",
+      "sourceMode": "official-domain-discovery",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 69,
+      "priority": "A",
+      "id": "31ec3465838b62f3",
+      "ai": {
+        "priority": "A",
+        "summary": "OilDash Driver - Apple",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    }
+  ]
+}
