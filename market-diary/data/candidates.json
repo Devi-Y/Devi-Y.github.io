@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T03:49:24.799Z",
+  "generatedAt": "2026-08-31T06:38:45.603Z",
   "windowDays": 7,
   "summary": {
     "total": 44,
@@ -22,25 +22,6 @@
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX Enhances Product Offering with SHEIN Debut",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en",
-      "pubDate": "Fri, 28 Aug 2026 12:00:00 +0800",
-      "description": "HKEX Enhances Product Offering with SHEIN Debut",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 71,
-      "priority": "A",
-      "id": "bd6e25338c79f88e",
-      "rankReason": "一级/官方信源；高影响事件词"
-    },
-    {
       "market": "宏观",
       "signal": "事实",
       "type": "宏观",
@@ -57,6 +38,25 @@
       "score": 68,
       "priority": "A",
       "id": "b10ddf318c944ecb",
+      "rankReason": "一级/官方信源；高影响事件词"
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "HKEX Enhances Product Offering with SHEIN Debut",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en",
+      "pubDate": "Fri, 28 Aug 2026 12:00:00 +0800",
+      "description": "HKEX Enhances Product Offering with SHEIN Debut",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 68,
+      "priority": "A",
+      "id": "bd6e25338c79f88e",
       "rankReason": "一级/官方信源；高影响事件词"
     },
     {
@@ -120,25 +120,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "【SHEIN 9月1日香港上市，最多籌資138.6億港元】每股價格設定為47.6～49.5港元。預計將於8月31日確定最終價格…… - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoQmhCU01wNTFzU1llejF5NnM0bVd3VUtjRDhOM3h1ZGM0Q1NYbTBZQjJEcEItQ09ZdmNUdTloU1ZGRXVQSjBudEgxdnYtS1hMVkxMa3pNXzRCeUs5WXROcGZEbjlOZw?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 05:44:36 GMT",
-      "description": "【SHEIN 9月1日香港上市，最多籌資138.6億港元】每股價格設定為47.6～49.5港元。預計將於8月31日確定最終價格…… &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "e93a0f5915ea9cda",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "MEXC 首發上線$SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局SHEIN 上市前行情👀 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44cjhNdEQxLWM5a0w2bVQtQVl4MHc4S3U1S1ZkNTRzcTBvSFZrZzhzNnBPWTQ4TEhHVEJHeElsYWRKOGhybzA0TkR6QmFCM3gtQnZ5cnBYWmJuOGc?oc=5",
       "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
@@ -157,6 +138,25 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
+      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "d07dd6e1d37aa66f",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "IPO",
       "title": "【希音上市】據悉希音香港IPO發行價 或定在每股約48.56港元 https://t.co/b0WRmnqvv2 快時尚零售商希音（新上市編號：https://t.co/UfPxRjXPiC）據悉告知潛在投資者，其香港IPO的發行價，或定在每股約48.56 港元，略高於推介價格區間的中點。以此計算，將籌集136億 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFVm1BY3RwdFFHX0VHcWFZd0p1N2NnRjRRV3RId2JFa01tNlFjU2dmLUFxQmhfbXJNX1d0dGhTMF9OT1R0b0hoSldydExCLVBWeTFjUEhCR3g2ckttc242R0hMdGI?oc=5",
@@ -171,25 +171,6 @@
       "score": 50,
       "priority": "B",
       "id": "84367de81adc0c15",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6TEZySjFGUzJzTnB5NmQyaERPMkNXdjdnbHNxUDZKNmpiVTV2b1ZCN1ZXWUF4aUNael9fbVhmREl0bDdxTXA5Z0tSdjZwZmhTaWtUQ0FFS05RaF9GMjRyejBPbG4?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 10:00:02 GMT",
-      "description": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5f77fed0636d7133",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -361,6 +342,25 @@
       "score": 44,
       "priority": "B",
       "id": "248aba99c5027904",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CUWlpOHk3dDRIOFRYa0hCbS05TWJsbGF0WGJHajRYbURpUERsM1h2S3dqbmdYU0Z5Z1JhTFJReUNFdVJReUg5ZmItZkVidXZMMzM0NGdHLVJWdmJXS2xoajNuTktCNmxmU1l0bmNCbzBCQQ?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 09:33:35 GMT",
+      "description": "$NVDA $JPM 加碼，目標價為 280.00 美元，基於其強大的產品節奏與在複雜供應鏈環境下的卓越執行力，這使其在競爭日益激烈的市場中持續保持溢價地位。 分析 $NVDA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "d2c8a248682b37ab",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -858,5 +858,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-08-31T03:49:34.219Z"
+  "rankedAt": "2026-08-31T06:38:47.615Z"
 }
