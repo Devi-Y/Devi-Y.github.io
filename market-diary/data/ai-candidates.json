@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:48:59.074Z",
+  "generatedAt": "2026-09-01T03:42:38.596Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -85,6 +85,36 @@
       "ai": {
         "priority": "A",
         "summary": "HKEX Enhances Product Offering with SHEIN Debut",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
+      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "f512924277cd9368",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
@@ -578,6 +608,36 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRmFQUDdUN2NFbWMwMlJvUzloNTVzb0NLdXFiSTdzcnE4SjRBVjJQZjJoTnRvSkNXS2xIMFNZb3NMWXlUMjAwTDBkcElpTjZyT3dVODlabllTZUhBTXhiWlROdU5uM1U?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 01:02:46 GMT",
+      "description": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "23be588c96bfbb19",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 - x.com",
+        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
       "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
@@ -655,66 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "SHEIN 正式上線LBank！ 👀 參與 SHEIN 上新狂歡節，瓜分 $10,000 獎勵池！ 交易 $SHEIN，完成活動任務，即可領取屬於你的獎勵。 立即參與： lbank.com/event-new/1000… - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA Corporation $NVDA 2027財年第二季財報分析 輝達本業比 GAAP headline 看起來更強，但 NVIDIA 的資產負債表風險結構，也比過去任何一個產品週期都更複雜。 大叔希望能透過這份報告給大家用完整的角度看輝達。 #NVDA https://t.co/KFPO1gdVj2 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54MTV3QXo0MUxsRm10YmVuZ0lJQ0I5NjNGdGxKQ24zWGd6X3g0RWRFVTBrbUlHVk9NamE5cWdVT2w4dDR1THQzOVRKRkRsU2VOLTNHRVdDOHpFSGw4TzNOVWZEWW1MMnM?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 08:56:41 GMT",
-      "description": "NVIDIA Corporation $NVDA 2027財年第二季財報分析 輝達本業比 GAAP headline 看起來更強，但 NVIDIA 的資產負債表風險結構，也比過去任何一個產品週期都更複雜。 大叔希望能透過這份報告給大家用完整的角度看輝達。 #NVDA https://t.co/KFPO1gdVj2 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "cfa9912760452a12",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "NVIDIA Corporation $NVDA 2027財年第二季財報分析 輝達本業比 GAAP headline 看起來更強，但 NVIDIA 的資產負債表風險結構，也比過去任何一個產品週期都更複雜。 大叔希望能透過這份報告給大家用完整的角度看輝達。 #NVDA https://t.co/KFPO1gdVj2 - x.com",
-        "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QV09nczdjazJoYTJxUjFOTlRac044X3dJUVlqbF9PTzJEVG16YURDTVBuY1FXZ1RoOXd3ZkRDbV9fR0JtNzFMOWo2dXAzc3Z2UUhIaU1aNlR2NFhMWnZJ?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 14:10:43 GMT",
-      "description": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "59240c490c25dc4a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT - x.com",
         "whyImportant": "候选信息已进入编辑池；发布前需回到一级信源核验关键事实与数字。",
         "contentDirection": [
           "快讯",
