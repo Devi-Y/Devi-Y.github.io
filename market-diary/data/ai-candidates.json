@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T07:48:10.737Z",
+  "generatedAt": "2026-09-01T13:29:14.020Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -18,7 +18,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 80,
+      "score": 77,
       "priority": "A",
       "id": "4ebe94f325be4530",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
@@ -98,11 +98,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - tw.tradingview.com",
+      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
       "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
-      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; tw.tradingview.com",
-      "source": "tw.tradingview.com",
+      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "trustTier": "B",
@@ -110,11 +110,11 @@
       "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
       "score": 63,
       "priority": "B",
-      "id": "66d8184eee348296",
+      "id": "f512924277cd9368",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "tw.tradingview.com出现一条新的公司事件信息",
+        "summary": "TradingView出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -159,7 +159,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51X0g3Q0Q2OE9OLUo2cTNVaDVzd2JKS0cwREhTeVVWSldybFdweVBzRGtYYXFHSEpLaVhTaS0xNnNNaUxwaWtxV2ptTmZIWk5QbzV3bkFac1dTUTNYRXBfRw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUeGZuM1EySVJJWGdvOUhCc0NiVTVoVmduSWNNcGhLNmdWM1Q1emhaa2ZYdXBEMXJwSGpORGZLUDkwZzcwWnZnbDZRUkwtTzVHQm5VY25WSmlsbHVzTjhCQkNubWUtUXU0ZjM4?oc=5",
       "pubDate": "Mon, 31 Aug 2026 20:43:52 GMT",
       "description": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -170,7 +170,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 55,
       "priority": "B",
-      "id": "0557e0594f1e6349",
+      "id": "cf6821ea7140a4e7",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -198,43 +198,13 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
+      "score": 53,
       "priority": "B",
       "id": "a372136503b7ccc9",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "最近 Pre-IPO 真的越玩越多東西了 😂 這次連 SHEIN（希音） 都來了✨ SHEIN 大家應該不陌…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoby1pOVdXanhGb0NSbFNGbVJKWjNHN3dPNWpHWEswWnhVa3dSd3JaMm8wSG5XVk5qeE9WS21rcFpmZEdxZDVWWHkxUEpTY2hLT0dLaXp1S3lsRVdrSzZLZE4zQTY3UQ?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
-      "description": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3418be4a72dd436d",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -277,11 +247,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52a0FrZ1hmSjNzS2NZZDFNY2lqMjF1RkJwMnRSdEpNQ01HamhCdEljVVlXbV90VExIRjRKb0p1WW5IS2FNaS1lRkRxdmtIaG9NQmlIQ185ZDA3UEhDUTh4QVA0NFlxQQ?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 12:33:44 GMT",
-      "description": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa &nbsp;&nbsp; x.com",
+      "type": "IPO",
+      "title": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoby1pOVdXanhGb0NSbFNGbVJKWjNHN3dPNWpHWEswWnhVa3dSd3JaMm8wSG5XVk5qeE9WS21rcFpmZEdxZDVWWHkxUEpTY2hLT0dLaXp1S3lsRVdrSzZLZE4zQTY3UQ?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
+      "description": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -290,15 +260,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "2f64b0ca2a1abff7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
+      "id": "3418be4a72dd436d",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
+        "summary": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
-          "快讯",
-          "事件解读"
+          "IPO",
+          "招股书解析"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -427,11 +397,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "IPO",
-      "title": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoTzZIaXJqUnNxbkRCSjEzSGxmNllVVFhqOUZMLWcxU0VQeENDaDZJc3JfOHBSQ1Zobm5zcGlpVVFTME5JVnZnMUNrSklxcXNnUzNkMFhJaGZwTXJ0NlF4d3M4OWNobVNRdjVUc1UwMA?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 10:00:02 GMT",
-      "description": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 &nbsp;&nbsp; x.com",
+      "type": "公司事件",
+      "title": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xYldpU2RaYk9GZ2RVMDRiSDI2emxqdGFNVmhSZjFhNUctYkVYVzB2bEo1aVdUN0pUQ3hiZ0tEUi0wSDczS3k4aXFVSmp3bHE3ZnlFcUt3SC1tMVpsN3NJdkhENUs3ZTJf?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 06:59:00 GMT",
+      "description": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -440,17 +410,47 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "355418bf398fc694",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "id": "107697f03190b482",
+      "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 希音國際控股有限公司尋求在香港首次公開招股（IPO）…",
+        "summary": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
+      "pubDate": "Tue, 1 Sep 2026 13:05:00 GMT",
+      "description": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 49,
+      "priority": "B",
+      "id": "ae698e2689958648",
+      "rankReason": "一级/官方信源；关键人物",
+      "ai": {
+        "priority": "B",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -471,6 +471,36 @@
       "score": 47,
       "priority": "B",
       "id": "d07dd6e1d37aa66f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52a0FrZ1hmSjNzS2NZZDFNY2lqMjF1RkJwMnRSdEpNQ01HamhCdEljVVlXbV90VExIRjRKb0p1WW5IS2FNaS1lRkRxdmtIaG9NQmlIQ185ZDA3UEhDUTh4QVA0NFlxQQ?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 12:33:44 GMT",
+      "description": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "2f64b0ca2a1abff7",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -685,36 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片J…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
-      "description": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "248aba99c5027904",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
