@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-31T22:48:58.194Z",
+  "generatedAt": "2026-09-01T01:48:58.296Z",
   "windowDays": 7,
   "summary": {
-    "total": 43,
+    "total": 42,
     "bySignal": {
       "事实": 3,
       "媒体": 0,
-      "人物": 2,
+      "人物": 1,
       "资金": 0,
       "热点": 38
     },
     "byTrust": {
       "A": 4,
-      "B": 1,
+      "B": 0,
       "C": 38
     },
     "s": 0,
     "a": 3,
-    "b": 40
+    "b": 39
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -77,25 +77,6 @@
       "priority": "A",
       "id": "bd6e25338c79f88e",
       "rankReason": "一级/官方信源；高影响事件词"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
-      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "f512924277cd9368",
-      "rankReason": "高影响事件词；关键人物"
     },
     {
       "market": "宏观",
@@ -191,6 +172,25 @@
       "priority": "B",
       "id": "aeac881156ea31fd",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
+      "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "b87791f3e6bd8d86",
+      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -670,6 +670,25 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "1．【此為突發新聞後續更新】美國制裁擴至五大行業，威脅切斷交易者美元渠道 美國財政部8月24日正式公布對伊朗新一輪「經濟孤立」措施。這是此前制裁預告的具體落地，不重述原有軍事及外交背景。 新增措施包括： 把制裁範圍擴大至航空、數字資產、黃金、航運及技 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CQnpYMXotVkhhUXdxMWVXazYxTWUzNFJCRWFBTG9ESDBTYkRPZlY2dWRtcEJ0WUZKSWlqUS0zM1A1aFlJOWFFOUdqMW5QRDZfdUxaRGxyaUYtTzNuaEk4?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 03:56:27 GMT",
+      "description": "1．【此為突發新聞後續更新】美國制裁擴至五大行業，威脅切斷交易者美元渠道 美國財政部8月24日正式公布對伊朗新一輪「經濟孤立」措施。這是此前制裁預告的具體落地，不重述原有軍事及外交背景。 新增措施包括： 把制裁範圍擴大至航空、數字資產、黃金、航運及技 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 28,
+      "priority": "B",
+      "id": "7742152bdc7d9c41",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "美聯儲主席沃什 解析當前經濟與通脹影響 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政策的影 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2QTg2MjA1ZEp4ZlVRWlNqTFBYeWhlM0V6X1RLMWU1ODJRTGo1cThNbllKcm9jeWN3Vkx2T3VyWXIzZHRTWUpIV3NJc050YXZvRE9zS1k1VjFJTWpraS1mXzBB?oc=5",
@@ -684,25 +703,6 @@
       "score": 17,
       "priority": "B",
       "id": "0109c896da706aa4",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "美聯儲主席沃什沃什闡述 貨幣政策關鍵指導原則 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94WmlIcFhRcTRKOGdjMXZrbS1lVXpGZU02RDE1QVRDWWNfME1KOWx6akphMmJjQnRsb2xwTm94YnlsaEkzbmI0UktYNFZnX0dJMTJRMWxlb28yR0tkRHN6NzV3?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 18:02:59 GMT",
-      "description": "美聯儲主席沃什沃什闡述 貨幣政策關鍵指導原則 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
-      "priority": "B",
-      "id": "00570cc4ce1f21a0",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -818,26 +818,7 @@
       "priority": "B",
       "id": "94522ee878c8f5a4",
       "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🔥重磅獨家解析 #免費下載特刊，最新特刊帶你一次看透： 📍中共「致命燕子」潛入華府💥FBI解密150頁檔案，情色陷阱如何步步撕開美國防線❓ 📍快時尚霸主希音估值狂瀉80%❗美歐聯手祭重稅圍剿，中國低價傾銷模式走到盡頭❓ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oQmJta2o1RzR0WkNXX214MkJzenR2bzZWMkdRcVBTXy0yWjFBckZQa25qdGN0UnRtNXVWX3ZsRDM2aDI3cmIzZDhuMDItNkVGZThoQzd4YVZLT0lrT1E?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 01:30:00 GMT",
-      "description": "🔥重磅獨家解析 #免費下載特刊，最新特刊帶你一次看透： 📍中共「致命燕子」潛入華府💥FBI解密150頁檔案，情色陷阱如何步步撕開美國防線❓ 📍快時尚霸主希音估值狂瀉80%❗美歐聯手祭重稅圍剿，中國低價傾銷模式走到盡頭❓ &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "a01b443aed6f4cde",
-      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-08-31T22:48:58.468Z"
+  "rankedAt": "2026-09-01T01:48:58.692Z"
 }
