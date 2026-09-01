@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T17:48:37.809Z",
+  "generatedAt": "2026-09-01T21:00:57.036Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -35,36 +35,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "pubDate": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "description": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "b10ddf318c944ecb",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储公布贴现率会议纪要",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -85,36 +55,6 @@
       "ai": {
         "priority": "A",
         "summary": "SHEIN上市，港交所更新相关产品安排",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
-      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "f512924277cd9368",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -168,7 +108,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
+      "score": 53,
       "priority": "B",
       "id": "cf6821ea7140a4e7",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
@@ -235,36 +175,6 @@
       "ai": {
         "priority": "B",
         "summary": "🔥 SHEIN（希音）PRE-IPO 提前購正式開放！ 作為全球知名的時尚電商平台，SHEIN 業務遍及多個…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "以前買 SHEIN，現在可以交易 $SHEIN 😂 正式掛牌前，MEXC 已經先把 SHEIN 搬上Pre-IPO市場了 👀 想提前參與這波 IPO 熱度的，可以看看 @yummy_mexc 怎麼說～ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpUkZJSE5XS2ZHOUhtdzJVbnd6OUlVNUpPemFSN1NRUTF6RHJVODdqTHZscWY3NVFJT1YxSnRPYlVieGZRVVFrWFJSU1NFRW83enI5SGNNVk9JMVN6NXFIdjVBRlI5QQ?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 08:17:48 GMT",
-      "description": "以前買 SHEIN，現在可以交易 $SHEIN 😂 正式掛牌前，MEXC 已經先把 SHEIN 搬上Pre-IPO市場了 👀 想提前參與這波 IPO 熱度的，可以看看 @yummy_mexc 怎麼說～ &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "8859d10b81b8fd3d",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "以前買 SHEIN，現在可以交易 $SHEIN 😂 正式掛牌前，MEXC 已經先把 SHEIN 搬上Pre-…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -638,36 +548,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PbnNiWS01b1djRkZpNm5fb0hqODEzbWpLUV81bFNCMnlWWktoUGFFRGE5RmE0QWZON3gyV3ZDUFdrWjNXS1JBU1h5QVRjTndpeWh6SEJWYmt6VDdNMUV4OU43V0NJOUlY?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 02:00:34 GMT",
-      "description": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "73155fb94d9437d9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🔥 MEXC Launchpad 現已開放SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高10,000 USDT，完成指定充值任務，認購上限最高可提升至20,000 USDT 🎁 額外福 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KUE5mek9obHVPQWdydmxhcEdBX0x3RHBsM3pxYTU5WTk3UWJtN3BOVjU3WFh5bFdVT0haYnQzTVRFZFZwTUVDTzZfd2sxaGh0cExvZExCMEFlbHc?oc=5",
       "pubDate": "Thu, 27 Aug 2026 10:38:57 GMT",
@@ -698,6 +578,36 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PbnNiWS01b1djRkZpNm5fb0hqODEzbWpLUV81bFNCMnlWWktoUGFFRGE5RmE0QWZON3gyV3ZDUFdrWjNXS1JBU1h5QVRjTndpeWh6SEJWYmt6VDdNMUV4OU43V0NJOUlY?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 02:00:34 GMT",
+      "description": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "73155fb94d9437d9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRmFQUDdUN2NFbWMwMlJvUzloNTVzb0NLdXFiSTdzcnE4SjRBVjJQZjJoTnRvSkNXS2xIMFNZb3NMWXlUMjAwTDBkcElpTjZyT3dVODlabllTZUhBTXhiWlROdU5uM1U?oc=5",
       "pubDate": "Thu, 27 Aug 2026 01:02:46 GMT",
@@ -715,6 +625,96 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
+      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "736604837966b3fa",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片J…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
+      "description": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "248aba99c5027904",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA Corporation $NVDA 2027財年第二季財報分析 輝達本業比 GAAP headline 看起來更強，但 NVIDIA 的資產負債表風險結構，也比過去任何一個產品週期都更複雜。 大叔希望能透過這份報告給大家用完整的角度看輝達。 #NVDA https://t.co/KFPO1gdVj2 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54MTV3QXo0MUxsRm10YmVuZ0lJQ0I5NjNGdGxKQ24zWGd6X3g0RWRFVTBrbUlHVk9NamE5cWdVT2w4dDR1THQzOVRKRkRsU2VOLTNHRVdDOHpFSGw4TzNOVWZEWW1MMnM?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 08:56:41 GMT",
+      "description": "NVIDIA Corporation $NVDA 2027財年第二季財報分析 輝達本業比 GAAP headline 看起來更強，但 NVIDIA 的資產負債表風險結構，也比過去任何一個產品週期都更複雜。 大叔希望能透過這份報告給大家用完整的角度看輝達。 #NVDA https://t.co/KFPO1gdVj2 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "cfa9912760452a12",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NVIDIA Corporation $NVDA 2027財年第二季財報分析 輝達本業比 GAAP headl…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
