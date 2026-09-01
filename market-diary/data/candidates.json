@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-01T04:03:07.800Z",
+  "generatedAt": "2026-09-01T04:04:33.136Z",
   "windowDays": 7,
   "summary": {
-    "total": 41,
+    "total": 42,
     "bySignal": {
       "事实": 3,
       "媒体": 0,
       "人物": 2,
       "资金": 0,
-      "热点": 36
+      "热点": 37
     },
     "byTrust": {
       "A": 4,
       "B": 1,
-      "C": 36
+      "C": 37
     },
     "s": 0,
     "a": 3,
-    "b": 38
+    "b": 39
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -158,25 +158,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoby1pOVdXanhGb0NSbFNGbVJKWjNHN3dPNWpHWEswWnhVa3dSd3JaMm8wSG5XVk5qeE9WS21rcFpmZEdxZDVWWHkxUEpTY2hLT0dLaXp1S3lsRVdrSzZLZE4zQTY3UQ?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
-      "description": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3418be4a72dd436d",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "🔥 SHEIN（希音）PRE-IPO 提前購正式開放！ 作為全球知名的時尚電商平台，SHEIN 業務遍及多個國際市場，憑藉快速上新、供應鏈與線上零售模式，成為全球時尚電商市場的重要品牌之一 現在不用等到正式 IPO，MEXC 已開放 SHEIN PRE-IPO 提前購！ ⏰ 認購至 8/3 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WZUhCWjBxQlVzZlVKS1pEeS1tNHhraVlUbEw3bW1tNjNoakxwbjVQSHkwb0ZiZk9ueEkxVlBFSGwxMkE4aWVyRlJZLUc0aXQ1SzcxUWszbW80a00?oc=5",
       "pubDate": "Fri, 28 Aug 2026 08:34:42 GMT",
@@ -190,6 +171,25 @@
       "score": 50,
       "priority": "B",
       "id": "1cf2a926af3034e4",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "MEXC 首發上線$SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局SHEIN 上市前行情👀 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44cjhNdEQxLWM5a0w2bVQtQVl4MHc4S3U1S1ZkNTRzcTBvSFZrZzhzNnBPWTQ4TEhHVEJHeElsYWRKOGhybzA0TkR6QmFCM3gtQnZ5cnBYWmJuOGc?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
+      "description": "MEXC 首發上線$SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局SHEIN 上市前行情👀 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "aeac881156ea31fd",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -424,25 +424,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
-      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "736604837966b3fa",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
       "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
@@ -456,6 +437,25 @@
       "score": 44,
       "priority": "B",
       "id": "248aba99c5027904",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
+      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "736604837966b3fa",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -494,25 +494,6 @@
       "score": 44,
       "priority": "B",
       "id": "cfa9912760452a12",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QV09nczdjazJoYTJxUjFOTlRac044X3dJUVlqbF9PTzJEVG16YURDTVBuY1FXZ1RoOXd3ZkRDbV9fR0JtNzFMOWo2dXAzc3Z2UUhIaU1aNlR2NFhMWnZJ?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 14:10:43 GMT",
-      "description": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "59240c490c25dc4a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -627,6 +608,25 @@
       "score": 44,
       "priority": "B",
       "id": "5cb1e228703ea2ac",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Alphabet 旗下無人機配送公司 Wing 現行配送機隊已在使用 Jetson Orin Nano Super 與 NVIDIA 軟體，並計畫評估 Jetson Orin Nano 2。 https://t.co/y2j7OtIq0B - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wZVNBeHhwV1cwcWJPbkRHSUpucGlheEdWVjl6VmxrdmZSTFYtVS1ZWU9YY3RnNUpVQ1BLNGFRQ09HYTMwejRxX1BBbU5qMmxoRWNMUHB0T2l1aHhXVXoyeXVPdVA1VUk?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 10:02:22 GMT",
+      "description": "Alphabet 旗下無人機配送公司 Wing 現行配送機隊已在使用 Jetson Orin Nano Super 與 NVIDIA 軟體，並計畫評估 Jetson Orin Nano 2。 https://t.co/y2j7OtIq0B &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "ef993941dfee3d99",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -799,7 +799,26 @@
       "priority": "B",
       "id": "386338ed5b596c0b",
       "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "「我在資料室待了三天，感覺自己逐漸失去了靈魂和血肉。」 To Be an Angel：參、博士 https://t.co/KrsEEEZuGW - 每週三更新 - #天使計劃 #DrEricaceae - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xYjFDRmF4WldKVFBTRFFGSjh1eE5UaE90Q05halJweHZyajVYdWRfOGVEMENTTFNndFZaMXZPWk5iRHZEeWFCZjJvOXBmQTdySElNYXdPS1ljN2t5c0REQjZPcHU?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 14:44:00 GMT",
+      "description": "「我在資料室待了三天，感覺自己逐漸失去了靈魂和血肉。」 To Be an Angel：參、博士 https://t.co/KrsEEEZuGW - 每週三更新 - #天使計劃 #DrEricaceae &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "94522ee878c8f5a4",
+      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-01T04:03:08.445Z"
+  "rankedAt": "2026-09-01T04:04:33.604Z"
 }
