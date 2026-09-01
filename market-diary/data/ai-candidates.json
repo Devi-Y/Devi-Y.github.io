@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T05:50:35.006Z",
+  "generatedAt": "2026-09-01T07:48:10.737Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -98,11 +98,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - TradingView",
+      "title": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ - tw.tradingview.com",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTJCeU5MM3VmUE1vRGxDcVpyMHZTWC1CZDYtTzdZVGMwX0pZUU9jUnU1OXdoLW50Tl8zSzNkVm9hcUt1YTQ1SUJoVFo4dUY0UVZQMlpzM0lXZTRXQ2djNzFhMXoxMDVvVnlfck5INkR1T0xxUTZVakJ3Q0Z1cDktZFNUQjRpSk1FRTc4RVY1MzZDOFlPbkU1VjJUNV9Nd0hfdENRRTFyWHN0c055dWFIQXNKejRya3JhSVNITjU5RHk5SlBUT29SOWJfYWJZbEdDMzVadTExMy1abGhFTVp0UFcwM1hCWXZkejVYZlhiTQ?oc=5",
       "pubDate": "Fri, 28 Aug 2026 14:32:31 GMT",
-      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
+      "description": "Kevin Warsh’s Jackson Hole Keynote: Forward Guidance Has ‘Outstayed’ Its Welcome, Leads Markets ‘Astray’ &nbsp;&nbsp; tw.tradingview.com",
+      "source": "tw.tradingview.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "trustTier": "B",
@@ -110,11 +110,11 @@
       "verification": "权威媒体候选：需匹配公司公告、监管文件或政府原文",
       "score": 63,
       "priority": "B",
-      "id": "f512924277cd9368",
+      "id": "66d8184eee348296",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
+        "summary": "tw.tradingview.com出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -308,6 +308,66 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
+      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "964637cde5db1777",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻寬與 scale-up 互連成為真正瓶頸。NVDA 轉向全棧 AI 工廠，AMD 硬體追近，OpenAI 與 AVGO 的客製 ASIC 時程加快。訓練與推論矽晶已明顯分流：訓練要規模與算力，推論更吃 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FZlJfU25Gd0piUFNUM1pxZDg3QnE3Zko1aTllZjJtU05DYkNjcmVGMk1MVmppdUZ3azJSM0V1LVROTkM2dVYzdms2aTNLbkZ1bVRUazBtdGV2Y0NyUHc?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 05:57:00 GMT",
+      "description": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻寬與 scale-up 互連成為真正瓶頸。NVDA 轉向全棧 AI 工廠，AMD 硬體追近，OpenAI 與 AVGO 的客製 ASIC 時程加快。訓練與推論矽晶已明顯分流：訓練要規模與算力，推論更吃 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "550560b694cb98cc",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
       "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
@@ -445,36 +505,6 @@
       "ai": {
         "priority": "B",
         "summary": "英偉達 (NVDA) F2Q27 業績會摘要 F2Q 業績略超預期 - 收入：USD 96.2bn（+18% …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "NVDA漲價15%，科技股甜甜價到了嗎，Jackson Hole與PCE前的策略 —-------- 今天美股盤面即使長期美債殖利率回落，但QQQ 與費半但沒有出現過去熟悉的反彈格局，反而QQQ收盤跌破月均線的技術位置。 現在已經不只是長債殖利率對高估值科技股的壓力，本週也 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yaFVHeHBER3EycEVqM2phTjF6VmoyS1BNcldwVkUwVWY5MnhfcnhhUEtVVHNLdVZYdy1ncmlBMm9ob0E3RTZQRUV6eGpXa0cxYndMNHJqbzZTZXJKVGtBMXNB?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 05:55:56 GMT",
-      "description": "NVDA漲價15%，科技股甜甜價到了嗎，Jackson Hole與PCE前的策略 —-------- 今天美股盤面即使長期美債殖利率回落，但QQQ 與費半但沒有出現過去熟悉的反彈格局，反而QQQ收盤跌破月均線的技術位置。 現在已經不只是長債殖利率對高估值科技股的壓力，本週也 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "8146fb462ad90b0a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "NVDA漲價15%，科技股甜甜價到了嗎，Jackson Hole與PCE前的策略 —-------- 今天美股…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -685,36 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "SHEIN 正式上線LBank！ 👀 參與 SHEIN 上新狂歡節，瓜分 $10,000 獎勵池！ 交易 $SHEIN，完成活動任務，即可領取屬於你的獎勵。 立即參與： lbank.com/event-new/1000… - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicWVIeVMzV3VPREJHUmxDdTFEa0Iwc2lYcUdNanl2cVVvTmdDM0NrVzB2dGxOUDdJdmNYUlNNaGZCZXFwbTBaVS05QWNyS2NxUG1nelpsc3ZWYUxYWjhEeUZjWG5PT0xrakdnVWRB?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 14:39:36 GMT",
-      "description": "SHEIN 正式上線LBank！ 👀 參與 SHEIN 上新狂歡節，瓜分 $10,000 獎勵池！ 交易 $SHEIN，完成活動任務，即可領取屬於你的獎勵。 立即參與： lbank.com/event-new/1000… &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "aa3b9dc3b99f05cf",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "SHEIN 正式上線LBank！ 👀 參與 SHEIN 上新狂歡節，瓜分 $10,000 獎勵池！ 交易 $…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
