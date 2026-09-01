@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T13:29:14.020Z",
+  "generatedAt": "2026-09-01T17:48:37.809Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -248,10 +248,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoby1pOVdXanhGb0NSbFNGbVJKWjNHN3dPNWpHWEswWnhVa3dSd3JaMm8wSG5XVk5qeE9WS21rcFpmZEdxZDVWWHkxUEpTY2hLT0dLaXp1S3lsRVdrSzZLZE4zQTY3UQ?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
-      "description": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 &nbsp;&nbsp; x.com",
+      "title": "以前買 SHEIN，現在可以交易 $SHEIN 😂 正式掛牌前，MEXC 已經先把 SHEIN 搬上Pre-IPO市場了 👀 想提前參與這波 IPO 熱度的，可以看看 @yummy_mexc 怎麼說～ - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpUkZJSE5XS2ZHOUhtdzJVbnd6OUlVNUpPemFSN1NRUTF6RHJVODdqTHZscWY3NVFJT1YxSnRPYlVieGZRVVFrWFJSU1NFRW83enI5SGNNVk9JMVN6NXFIdjVBRlI5QQ?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 08:17:48 GMT",
+      "description": "以前買 SHEIN，現在可以交易 $SHEIN 😂 正式掛牌前，MEXC 已經先把 SHEIN 搬上Pre-IPO市場了 👀 想提前參與這波 IPO 熱度的，可以看看 @yummy_mexc 怎麼說～ &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -260,45 +260,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "3418be4a72dd436d",
+      "id": "8859d10b81b8fd3d",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚…",
+        "summary": "以前買 SHEIN，現在可以交易 $SHEIN 😂 正式掛牌前，MEXC 已經先把 SHEIN 搬上Pre-…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
-      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "964637cde5db1777",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -425,6 +395,36 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56ZUxtS2JaOW40YWt6NTV1RzViblIxZl9feHRSc3VTUVB3b3I5VEYzMkVoRm5McTY3QkJ1a0x3a1lfdFJJbl9LeDhkU2ZKanJRcXhQZVVpNjdlck5qa3FpOGExbUd4Wkhl?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 09:00:17 GMT",
+      "description": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "bc5f48ea5601333b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -505,6 +505,36 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
+      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "964637cde5db1777",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -685,36 +715,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
-      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "736604837966b3fa",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片J…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
