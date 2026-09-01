@@ -57,7 +57,7 @@ function dailyRankScore(x){
 }
 function dailySorted(){return [...state.events].sort((a,b)=>dailyRankScore(b)-dailyRankScore(a)||(b.priorityScore||0)-(a.priorityScore||0))}
 function prioritySorted(){return [...state.events].sort((a,b)=>(b.priorityScore||0)-(a.priorityScore||0))}
-function renderAll(){state.watchlist=getWatchlist();renderToday();renderIdeaFilters();renderIdeas();renderDetail();renderWatchlist()}
+function renderAll(){state.watchlist=getWatchlist();renderToday();renderLiveDiscoveries();renderIdeaFilters();renderIdeas();renderDetail();renderWatchlist()}
 
 function storyCardHtml(x,index){
   return `<article class="story-card" data-event="${esc(x.id)}" role="button" tabindex="0" aria-label="查看 ${esc(x.title)}">
@@ -85,6 +85,33 @@ function renderToday(){
   const host=$('#hero-opportunities');host.innerHTML=top.map((x,i)=>storyCardHtml(x,i)).join('')||'<div class="empty-state">今天暂时没有重点事件</div>';bindCards(host);
   const moreHost=$('#more-headlines');moreHost.innerHTML=more.map(compactItemHtml).join('')||'<div class="empty-state">暂无其他事件</div>';bindCards(moreHost);
 }
+
+function clipText(v='',n=62){const s=String(v).replace(/https?:\/\/\S+/g,'').replace(/&nbsp;?/gi,' ').replace(/\s+/g,' ').trim();return s.length>n?`${s.slice(0,n-1)}…`:s}
+function sourceShort(v=''){if(/HKEX/i.test(v))return '港交所';if(/Federal Reserve/i.test(v))return '美联储';if(/SEC/i.test(v))return 'SEC';return String(v).split('·')[0].trim()||'官方信源'}
+function humanLiveTitle(x){
+  const raw=clipText(x.ai?.summary||x.title||'',90);if(/[\u3400-\u9fff]/.test(raw))return raw;
+  if(/Report on Initial Public Offering Applications, Delisting and Suspensions/i.test(raw))return '港交所发布最新IPO申请、除牌及停牌报告';
+  if(/Minutes of the Board's discount rate meetings/i.test(raw))return '美联储公布贴现率会议纪要';
+  const debut=raw.match(/HKEX Enhances Product Offering with (.+?) Debut/i);if(debut)return `${debut[1]}上市，港交所更新相关产品安排`;
+  if(/Warsh,\s*In Our Time/i.test(raw))return 'Warsh杰克逊霍尔讲话：重新审视前瞻指引';
+  if(/financial results|earnings/i.test(raw))return `${sourceShort(x.source)}发布最新业绩`;return `${sourceShort(x.source)}：${clipText(raw,56)}`;
+}
+function liveAge(v=''){const t=Date.parse(v);if(!Number.isFinite(t))return '';const h=Math.max(0,(Date.now()-t)/36e5);if(h<1)return '刚刚';if(h<24)return `${Math.round(h)}小时前`;if(h<48)return '昨天';return `${Math.round(h/24)}天前`}
+function duplicateWithCurated(x){
+  const raw=`${x.title||''} ${x.ai?.summary||''}`.toLowerCase();const stop=new Set(['report','initial','public','offering','applications','market','financial','results','latest','news','release','board','meetings','product','with','from','august','september']);
+  const keys=(raw.match(/[a-z][a-z0-9.-]{4,}/g)||[]).filter(k=>!stop.has(k));if(!keys.length)return false;
+  return state.events.some(e=>{const t=`${e.title||''} ${e.conclusion||''}`.toLowerCase();return keys.some(k=>t.includes(k))});
+}
+function recentLiveItems(){
+  const cutoff=Date.now()-8*86400000;
+  return (state.live?.items||[]).filter(x=>x.trustTier==='A'&&x.signal!=='热点').filter(x=>{const t=Date.parse(x.pubDate);return Number.isFinite(t)&&t>=cutoff}).filter(x=>!duplicateWithCurated(x)).sort((a,b)=>Date.parse(b.pubDate)-Date.parse(a.pubDate)||(b.score||0)-(a.score||0)).slice(0,3)
+}
+function renderLiveDiscoveries(){
+  const wrap=$('#live-discovery-wrap'),host=$('#live-discoveries');if(!wrap||!host)return;const items=recentLiveItems();
+  if(!items.length){wrap.hidden=true;host.innerHTML='';return}wrap.hidden=false;
+  host.innerHTML=items.map(x=>`<a class="live-item" href="${esc(x.link||'#')}" target="_blank" rel="noopener"><div class="live-copy"><div><span>${esc(x.market||'市场')}</span><em>新</em></div><b>${esc(humanLiveTitle(x))}</b></div><div class="live-side"><span>${esc(liveAge(x.pubDate))}</span><small>${esc(sourceShort(x.source))}</small><i>待核验</i></div></a>`).join('')
+}
+
 function matchIdeaFilter(x,filter){
   if(filter==='全部')return true;if(filter==='港股'||filter==='美股')return x.market===filter;if(filter==='宏观')return x.market==='宏观'||x.type==='宏观';if(filter==='IPO')return x.type==='IPO';if(filter==='财报')return x.type==='财报';return true;
 }
@@ -101,23 +128,33 @@ function renderIdeas(){
   const list=filteredIdeas();$('#idea-count').textContent=`${list.length} 条`;const host=$('#event-list');host.innerHTML=list.map(compactItemHtml).join('')||'<div class="empty-state">没有找到相关选题</div>';bindCards(host)
 }
 function correctionNote(x){return /shein/i.test(`${x.id||''} ${x.title||''}`)?'<div class="correction-note"><b>这条信息做过一次日期纠错</b><p>最初把“8月28日交易安排发布日”理解成“上市交易日”，回到HKEX核验后改为计划9月1日开始交易。</p></div>':''}
+function outlineData(x){return (x.coreData||[]).slice(0,3).join('；')}
 function buildCopyText(x){
-  return [`【${x.title}】`,`发生什么：${x.conclusion}`,`为什么重要：${x.whyImportant}`,`适合写：${contentLabels(x).join(' / ')||'继续观察'}`,cleanAction(x.suggestedAction)?`切入角度：${cleanAction(x.suggestedAction)}`:'',x.userValue?`用户关心：${x.userValue}`:'',(x.coreData||[]).length?`关键数据：\n${x.coreData.map(v=>`- ${v}`).join('\n')}`:'',`来源：${x.sourceName||''}`,x.sourceUrl||''].filter(Boolean).join('\n\n')
+  return [`【标题建议】\n${x.title}`,`【开头】\n${x.conclusion}`,`【核心解释】\n${x.whyImportant}`,outlineData(x)?`【数据支撑】\n${(x.coreData||[]).slice(0,4).map(v=>`- ${v}`).join('\n')}`:'',`【内容形式】\n${contentLabels(x).join(' / ')||'继续观察'}`,cleanAction(x.suggestedAction)?`【收束与下一步】\n${cleanAction(x.suggestedAction)}`:'',x.userValue?`【用户关心】\n${x.userValue}`:'',`【一级信源】\n${x.sourceName||''}\n${x.sourceUrl||''}`].filter(Boolean).join('\n\n')
 }
 async function copyWritingCard(){
   const x=state.selected;if(!x)return;const text=buildCopyText(x);
-  try{await navigator.clipboard.writeText(text);showToast('写作卡已复制')}catch{const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();showToast('写作卡已复制')}
+  try{await navigator.clipboard.writeText(text);showToast('成文提纲已复制')}catch{const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();showToast('成文提纲已复制')}
 }
 function renderDetail(){
-  const x=state.selected||state.events[0];if(!x)return;
+  const x=state.selected||state.events[0];if(!x)return;const action=cleanAction(x.suggestedAction),dataText=outlineData(x);
   $('#detail-container').innerHTML=`<article class="reader-detail">
     <div class="reader-meta"><span>${esc(x.market)}</span><span>${esc(x.type)}</span><span class="${x.verified?'checked':'pending'}">${x.verified?'已核验':'待核验'}</span></div>
     <h2>${esc(x.title)}</h2>
     <p class="reader-lead">${esc(x.conclusion)}</p>
-    <div class="detail-actions"><button type="button" class="copy-btn" data-copy-card>复制写作卡</button><span>复制后可直接继续写公众号 / 快讯 / 解读</span></div>
+    <div class="detail-actions"><button type="button" class="copy-btn" data-copy-card>复制并继续写</button><span>直接粘贴到任意写作工具继续成文</span></div>
     ${correctionNote(x)}
-    <section class="reader-block"><h3>为什么重要</h3><p>${esc(x.whyImportant)}</p>${(x.impact||[]).length?`<div class="reader-tags">${x.impact.map(v=>`<span>${esc(v)}</span>`).join('')}</div>`:''}</section>
-    <section class="writing-card"><div class="writing-card-title"><span>写作卡</span><small>直接决定怎么写</small></div><div class="writing-row"><b>适合做成</b><div class="content-actions">${contentLabels(x).map(v=>`<span>${esc(v)}</span>`).join('')}</div></div>${cleanAction(x.suggestedAction)?`<div class="writing-row"><b>切入角度</b><p>${esc(cleanAction(x.suggestedAction))}</p></div>`:''}${x.userValue?`<div class="writing-row"><b>用户关心</b><p>${esc(x.userValue)}</p></div>`:''}</section>
+    <section class="writing-card"><div class="writing-card-title"><span>成文提纲</span><small>已经替你排好顺序</small></div>
+      <div class="writing-row"><b>内容形式</b><div class="content-actions">${contentLabels(x).map(v=>`<span>${esc(v)}</span>`).join('')}</div></div>
+      <div class="writing-outline">
+        <div><span>1</span><p><b>开头</b>${esc(x.conclusion)}</p></div>
+        <div><span>2</span><p><b>展开</b>${esc(x.whyImportant)}</p></div>
+        ${dataText?`<div><span>3</span><p><b>数据</b>${esc(dataText)}</p></div>`:''}
+        ${action?`<div><span>${dataText?'4':'3'}</span><p><b>收束</b>${esc(action)}</p></div>`:''}
+      </div>
+      ${x.userValue?`<div class="writing-user"><b>用户真正关心</b><p>${esc(x.userValue)}</p></div>`:''}
+      ${(x.impact||[]).length?`<div class="reader-tags">${x.impact.map(v=>`<span>${esc(v)}</span>`).join('')}</div>`:''}
+    </section>
     <section class="reader-block fact-block"><h3>关键数据</h3>${x.keyNumber?`<div class="key-number">${esc(x.keyNumber)}</div>`:''}<ul>${(x.coreData||[]).map(v=>`<li>${esc(v)}</li>`).join('')}</ul></section>
     <section class="reader-block source-block"><h3>来源</h3><div class="source-name">${esc(x.sourceName||'')}</div><div class="source-status">${x.verified?'关键事实已核验':'发布前仍需核验'}</div><a class="source-link" target="_blank" rel="noopener" href="${esc(x.sourceUrl||'#')}">一级信源 ↗</a>${x.secondaryUrl?`<a class="source-link" target="_blank" rel="noopener" href="${esc(x.secondaryUrl)}">辅助信源 ↗</a>`:''}</section>
     <details class="process-note"><summary>信息说明</summary><p>系统先做聚合、去重和整理；关键数字、日期和原始措辞仍以一级信源为准。</p></details>
