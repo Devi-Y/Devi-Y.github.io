@@ -3,50 +3,49 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="description" content="牛牛市场雷达 Market Diary - 港美股财经内容工作台：看市场、找选题、写内容。" />
+  <meta name="description" content="牛牛市场雷达 Market Diary - 每天快速看懂港美股重要变化，找到值得写的财经选题。" />
   <meta name="robots" content="index,follow" />
   <meta property="og:title" content="牛牛市场雷达｜Market Diary" />
-  <meta property="og:description" content="每天快速看懂港美股重要变化，并找到值得写的财经选题。" />
+  <meta property="og:description" content="看市场、找选题、写内容。每天先看最重要的3件事，再决定下一篇写什么。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://devi-y.github.io/market-diary/" />
   <link rel="canonical" href="https://devi-y.github.io/market-diary/" />
   <title>牛牛市场雷达｜Market Diary</title>
   <style>
-    .static-review{max-width:860px;margin:48px auto;padding:0 24px 56px;font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#18211d}.static-review h1{font-size:34px;margin:8px 0 12px}.static-review h2{font-size:20px;margin:30px 0 10px}.static-review p,.static-review li{font-size:15px;line-height:1.75;color:#46514b}.static-review .lead{font-size:18px;color:#1d2a24}.static-review .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.static-review .card{border:1px solid #e2e8e5;border-radius:14px;padding:16px}.static-review .card b{display:block;margin-bottom:6px}.js-ready .static-review{display:none}@media(max-width:700px){.static-review{margin-top:24px;padding:0 16px 40px}.static-review h1{font-size:28px}.static-review .cards{grid-template-columns:1fr}}
+    .static-review{max-width:820px;margin:48px auto;padding:0 24px 56px;font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#222723}.static-review h1{font-size:34px;margin:8px 0 12px}.static-review p{font-size:15px;line-height:1.75;color:#59615c}.static-review .lead{font-size:18px;color:#222723}.static-review .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px}.static-review .card{border:1px solid #e8ebe9;border-radius:14px;padding:16px}.static-review .card b{display:block;margin-bottom:6px}.js-ready .static-review{display:none}@media(max-width:700px){.static-review{margin-top:24px;padding:0 16px 40px}.static-review h1{font-size:28px}.static-review .cards{grid-template-columns:1fr}}
   </style>
   <script>document.documentElement.classList.add('js-ready')</script>
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./interview.css" />
-  <link rel="stylesheet" href="./futu-final.css" />
   <link rel="stylesheet" href="./daily-use.css" />
 </head>
 <body>
   <section class="static-review" aria-label="Market Diary 静态说明">
-    <small>财经内容工作台 · 日常使用 / 富途面试演示</small>
+    <small>财经内容工具 · 日常使用 / 富途面试演示</small>
     <h1>牛牛市场雷达｜Market Diary</h1>
     <p class="lead"><b>看市场、找选题、写内容。</b></p>
-    <p>它把港股、美股、宏观和IPO的重要信息整理到一起。打开后先看今天最重要的事，再判断哪些值得写，需要时进入详情核对关键事实和一级信源。</p>
+    <p>打开先看今天最重要的3件事；点进去看为什么重要、怎么写和一级信源；需要找更多选题时再进入选题页。</p>
     <div class="cards">
-      <div class="card"><b>今日</b><span>快速看懂今天最重要的市场变化。</span></div>
-      <div class="card"><b>关注</b><span>只看和自己关注对象有关的信息。</span></div>
-      <div class="card"><b>选题</b><span>浏览全部候选，找到下一篇内容。</span></div>
+      <div class="card"><b>今日</b><span>3件最重要的市场变化。</span></div>
+      <div class="card"><b>关注</b><span>只看和自己有关的信息。</span></div>
+      <div class="card"><b>选题</b><span>搜索并筛选下一篇内容。</span></div>
     </div>
   </section>
 
   <header class="site-header">
     <div class="site-header-inner">
-      <div class="brand">
+      <a class="brand" href="#radar" data-jump="radar" aria-label="返回今日">
         <div class="brand-mark">M</div>
-        <div class="brand-copy"><strong>Market Diary</strong><span>牛牛市场雷达</span></div>
-      </div>
+        <div class="brand-copy"><strong>牛牛市场雷达</strong><span>Market Diary</span></div>
+      </a>
+
       <nav id="nav" aria-label="主导航">
-        <button data-page="radar" class="nav-item active"><span>◉</span><b>今日</b></button>
-        <button data-page="watchlist" class="nav-item"><span>☆</span><b>关注</b></button>
-        <button data-page="workbench" class="nav-item"><span>▦</span><b>选题</b></button>
+        <button data-page="radar" class="nav-item active" type="button"><span>●</span><b>今日</b></button>
+        <button data-page="watchlist" class="nav-item" type="button"><span>☆</span><b>关注</b></button>
+        <button data-page="workbench" class="nav-item" type="button"><span>✦</span><b>选题</b></button>
       </nav>
+
       <div class="top-actions">
-        <div class="sync"><i></i><span id="updated-at">正在加载</span></div>
-        <button id="refresh-btn" class="ghost-btn" type="button">刷新</button>
+        <span id="updated-at" class="updated-at">正在加载</span>
+        <button id="refresh-btn" class="icon-btn" type="button" aria-label="刷新数据" title="刷新">↻</button>
       </div>
     </div>
   </header>
@@ -55,22 +54,20 @@
     <h1 id="page-title" class="sr-only">今日</h1>
 
     <section id="page-radar" class="page active">
-      <div class="daily-hero">
-        <p class="kicker">TODAY</p>
-        <div class="daily-hero-line">
-          <div>
-            <h2>今天先看这 <strong id="hero-count">—</strong> 件事</h2>
-            <p>港股、美股、宏观、IPO的重要变化，先帮你筛一遍。</p>
-          </div>
-          <button class="text-link" data-jump="workbench" type="button">看全部选题 →</button>
-        </div>
+      <div class="today-intro">
+        <p id="today-date" class="date-line">今天</p>
+        <h2>今天先看 <strong id="hero-count">—</strong> 件事</h2>
+        <p>先看懂市场，再决定要不要写。</p>
+        <span id="freshness-note" class="freshness-note"></span>
       </div>
 
-      <div class="section-head"><div><span class="dot"></span><b>今天最重要</b></div><small>从上往下看就够了</small></div>
-      <div id="hero-opportunities" class="event-list simple-list"></div>
+      <div id="hero-opportunities" class="top-stories" aria-label="今日最重要"></div>
 
-      <div class="section-head more-head"><div><span class="dot muted-dot"></span><b>顺手看一眼</b></div><small>其他市场变化</small></div>
-      <div id="more-headlines" class="headline-list"></div>
+      <div class="section-title-row">
+        <h3>再看几条</h3>
+        <button class="text-link" data-jump="workbench" type="button">看全部选题</button>
+      </div>
+      <div id="more-headlines" class="compact-feed"></div>
     </section>
 
     <section id="page-detail" class="page">
@@ -80,35 +77,54 @@
 
     <section id="page-watchlist" class="page">
       <div class="page-heading">
-        <p class="kicker">FOLLOWING</p>
         <h2>和我有关</h2>
         <p>只看自己关心的股票、人物、机构和主题。</p>
       </div>
-      <div class="section-head"><div><span class="dot"></span><b>最近变化</b></div><small id="watch-match-count"></small></div>
-      <div id="watch-events" class="event-list simple-list"></div>
+
+      <div class="section-title-row">
+        <h3>最近变化</h3>
+        <span id="watch-match-count" class="result-count"></span>
+      </div>
+      <div id="watch-events" class="compact-feed"></div>
+
       <details class="watch-settings">
         <summary>管理我的关注</summary>
         <div class="watch-settings-body">
-          <button id="reset-watchlist" class="ghost-btn" type="button">恢复示例</button>
+          <form id="watch-add-form" class="watch-add-form">
+            <select id="watch-add-type" aria-label="关注类型">
+              <option>股票</option><option>人物</option><option>机构</option><option>主题</option>
+            </select>
+            <input id="watch-add-input" type="text" placeholder="例如：TSLA、巴菲特、半导体" aria-label="关注内容" autocomplete="off" />
+            <button type="submit">添加</button>
+          </form>
           <div id="watch-groups" class="watch-groups"></div>
+          <button id="reset-watchlist" class="secondary-btn" type="button">恢复示例</button>
         </div>
       </details>
     </section>
 
     <section id="page-workbench" class="page">
       <div class="page-heading">
-        <p class="kicker">IDEAS</p>
-        <h2>找下一篇选题</h2>
-        <p>按市场或类型筛选，看到值得写的直接点进去。</p>
+        <h2>找下一篇</h2>
+        <p>搜公司、人物或主题，也可以直接按分类看。</p>
       </div>
-      <div class="toolbar"><div id="market-filters" class="chips"></div><div id="type-filters" class="chips subtle"></div></div>
-      <div id="event-list" class="event-list simple-list"></div>
+
+      <div class="search-box">
+        <span>⌕</span>
+        <input id="search-input" type="search" placeholder="搜公司、人物或主题" autocomplete="off" aria-label="搜索选题" />
+      </div>
+      <div id="idea-filters" class="idea-filters" aria-label="选题筛选"></div>
+
+      <div class="section-title-row results-row">
+        <h3>全部选题</h3>
+        <span id="idea-count" class="result-count"></span>
+      </div>
+      <div id="event-list" class="compact-feed"></div>
     </section>
   </main>
 
-  <div id="toast" class="toast"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="./app.js"></script>
   <script src="./analytics.js"></script>
-  <script src="./product-upgrades.js"></script>
 </body>
 </html>
