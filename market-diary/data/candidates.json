@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-01T21:00:55.319Z",
+  "generatedAt": "2026-09-01T23:17:27.269Z",
   "windowDays": 7,
   "summary": {
-    "total": 41,
+    "total": 40,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
       "人物": 3,
       "资金": 0,
-      "热点": 36
+      "热点": 35
     },
     "byTrust": {
       "A": 4,
       "B": 1,
-      "C": 36
+      "C": 35
     },
     "s": 0,
     "a": 2,
-    "b": 39
+    "b": 38
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -593,25 +593,6 @@
     },
     {
       "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "一、工業利潤增長17.6%，但不是全面復甦：AI、晶片與原材料撐起一張高度分化的成績表中國國家統計局8月27日公布，2026年1至7月全國規模以上工業企業實現利潤總額45,820.6億元，按可比口徑同比增長17.6%；7月單月增長11.2%。這是今天最重要的中國宏觀數據 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1oZklpaEI3NGcxQ2RRZlk3VXRXbVJkWmtTNllzSXpXWEZCVENLNm93ZUx2Z0NuZjMyRDRPYlZhV0VqWHZwcllmb1AwNndMVk9yd1N0ZmZ2UlVqS1BGQTJr?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 17:48:50 GMT",
-      "description": "一、工業利潤增長17.6%，但不是全面復甦：AI、晶片與原材料撐起一張高度分化的成績表中國國家統計局8月27日公布，2026年1至7月全國規模以上工業企業實現利潤總額45,820.6億元，按可比口徑同比增長17.6%；7月單月增長11.2%。這是今天最重要的中國宏觀數據 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "fd99d3699b4c8a19",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
       "signal": "人物",
       "type": "公司事件",
       "title": "Will Bitcoin, Ethereum and XRP Prices Pump or Dump After Kevin Warsh’s Jackson Hole Speech? - TradingView",
@@ -801,5 +782,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-01T21:00:56.720Z"
+  "rankedAt": "2026-09-01T23:17:28.406Z"
 }
