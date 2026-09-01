@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-01T03:42:37.812Z",
+  "generatedAt": "2026-09-01T03:57:01.900Z",
   "windowDays": 7,
   "summary": {
-    "total": 43,
+    "total": 41,
     "bySignal": {
       "事实": 3,
       "媒体": 0,
       "人物": 2,
       "资金": 0,
-      "热点": 38
+      "热点": 36
     },
     "byTrust": {
       "A": 4,
       "B": 1,
-      "C": 38
+      "C": 36
     },
     "s": 0,
     "a": 3,
-    "b": 40
+    "b": 38
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -158,6 +158,25 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
+      "title": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoby1pOVdXanhGb0NSbFNGbVJKWjNHN3dPNWpHWEswWnhVa3dSd3JaMm8wSG5XVk5qeE9WS21rcFpmZEdxZDVWWHkxUEpTY2hLT0dLaXp1S3lsRVdrSzZLZE4zQTY3UQ?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
+      "description": "MEXC 首發上線 $SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌 SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局 SHEIN 上市前行情 👀 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "3418be4a72dd436d",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
       "title": "🔥 SHEIN（希音）PRE-IPO 提前購正式開放！ 作為全球知名的時尚電商平台，SHEIN 業務遍及多個國際市場，憑藉快速上新、供應鏈與線上零售模式，成為全球時尚電商市場的重要品牌之一 現在不用等到正式 IPO，MEXC 已開放 SHEIN PRE-IPO 提前購！ ⏰ 認購至 8/3 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WZUhCWjBxQlVzZlVKS1pEeS1tNHhraVlUbEw3bW1tNjNoakxwbjVQSHkwb0ZiZk9ueEkxVlBFSGwxMkE4aWVyRlJZLUc0aXQ1SzcxUWszbW80a00?oc=5",
       "pubDate": "Fri, 28 Aug 2026 08:34:42 GMT",
@@ -171,25 +190,6 @@
       "score": 50,
       "priority": "B",
       "id": "1cf2a926af3034e4",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "MEXC 首發上線$SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局SHEIN 上市前行情👀 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44cjhNdEQxLWM5a0w2bVQtQVl4MHc4S3U1S1ZkNTRzcTBvSFZrZzhzNnBPWTQ4TEhHVEJHeElsYWRKOGhybzA0TkR6QmFCM3gtQnZ5cnBYWmJuOGc?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 14:24:22 GMT",
-      "description": "MEXC 首發上線$SHEIN（希音）Pre-IPO 合約，提前捕捉熱門企業上市前的市場機會！ 知名跨境時尚零售品牌SHEIN，憑藉數位化供應鏈與全球電商布局，業務版圖遍及多個國家與地區 鎖定 MEXC，搶先布局SHEIN 上市前行情👀 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "aeac881156ea31fd",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -254,7 +254,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6TEZySjFGUzJzTnB5NmQyaERPMkNXdjdnbHNxUDZKNmpiVTV2b1ZCN1ZXWUF4aUNael9fbVhmREl0bDdxTXA5Z0tSdjZwZmhTaWtUQ0FFS05RaF9GMjRyejBPbG4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoTzZIaXJqUnNxbkRCSjEzSGxmNllVVFhqOUZMLWcxU0VQeENDaDZJc3JfOHBSQ1Zobm5zcGlpVVFTME5JVnZnMUNrSklxcXNnUzNkMFhJaGZwTXJ0NlF4d3M4OWNobVNRdjVUc1UwMA?oc=5",
       "pubDate": "Tue, 25 Aug 2026 10:00:02 GMT",
       "description": "【香港上市】希音尋求透過香港IPO中募集多達139億港元 https://t.co/hLTEzUDSto 希音國際控股有限公司尋求在香港首次公開招股（IPO）中籌集至多139億港元。據週一提交給香港交易所的文件，這家快時尚零售商將以每股47.6港元至49.5港元的價格發行2.8億股股票。 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -265,7 +265,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "5f77fed0636d7133",
+      "id": "355418bf398fc694",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -424,25 +424,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
-      "description": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "248aba99c5027904",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
       "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
@@ -456,6 +437,25 @@
       "score": 44,
       "priority": "B",
       "id": "736604837966b3fa",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
+      "description": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "248aba99c5027904",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -494,6 +494,25 @@
       "score": 44,
       "priority": "B",
       "id": "cfa9912760452a12",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QV09nczdjazJoYTJxUjFOTlRac044X3dJUVlqbF9PTzJEVG16YURDTVBuY1FXZ1RoOXd3ZkRDbV9fR0JtNzFMOWo2dXAzc3Z2UUhIaU1aNlR2NFhMWnZJ?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 14:10:43 GMT",
+      "description": "$HYPE 新高，$NVDA 雙 Beat，市場開始交易風險偏好？w/ @cryptomeina 【守護者迴聲 ep.86】 https://t.co/f0SprWREeT &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "59240c490c25dc4a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -614,25 +633,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Alphabet 旗下無人機配送公司 Wing 現行配送機隊已在使用 Jetson Orin Nano Super 與 NVIDIA 軟體，並計畫評估 Jetson Orin Nano 2。 https://t.co/y2j7OtIq0B - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wZVNBeHhwV1cwcWJPbkRHSUpucGlheEdWVjl6VmxrdmZSTFYtVS1ZWU9YY3RnNUpVQ1BLNGFRQ09HYTMwejRxX1BBbU5qMmxoRWNMUHB0T2l1aHhXVXoyeXVPdVA1VUk?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 10:02:22 GMT",
-      "description": "Alphabet 旗下無人機配送公司 Wing 現行配送機隊已在使用 Jetson Orin Nano Super 與 NVIDIA 軟體，並計畫評估 Jetson Orin Nano 2。 https://t.co/y2j7OtIq0B &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ef993941dfee3d99",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越Uniswap，上線不到一個月已佔Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WdHYybzN0NlM3anhoYV8ySWtqajFtcmFEV1d0VUxjRVF4enB5YzhQNEVzOUExNHBETzUxeERaZUJFUThnRzV0SE56dXNmRHNGYTR5SUtaRHltZWxKQ0dxU0FCZU1zQQ?oc=5",
       "pubDate": "Fri, 28 Aug 2026 09:51:54 GMT",
@@ -689,28 +689,9 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "1．【此為突發新聞後續更新】美國制裁擴至五大行業，威脅切斷交易者美元渠道 美國財政部8月24日正式公布對伊朗新一輪「經濟孤立」措施。這是此前制裁預告的具體落地，不重述原有軍事及外交背景。 新增措施包括： 把制裁範圍擴大至航空、數字資產、黃金、航運及技 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CQnpYMXotVkhhUXdxMWVXazYxTWUzNFJCRWFBTG9ESDBTYkRPZlY2dWRtcEJ0WUZKSWlqUS0zM1A1aFlJOWFFOUdqMW5QRDZfdUxaRGxyaUYtTzNuaEk4?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 03:56:27 GMT",
-      "description": "1．【此為突發新聞後續更新】美國制裁擴至五大行業，威脅切斷交易者美元渠道 美國財政部8月24日正式公布對伊朗新一輪「經濟孤立」措施。這是此前制裁預告的具體落地，不重述原有軍事及外交背景。 新增措施包括： 把制裁範圍擴大至航空、數字資產、黃金、航運及技 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 28,
-      "priority": "B",
-      "id": "7742152bdc7d9c41",
-      "rankReason": "市场相关；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "宏观",
       "title": "美聯儲主席沃什 解析當前經濟與通脹影響 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政策的影 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2QTg2MjA1ZEp4ZlVRWlNqTFBYeWhlM0V6X1RLMWU1ODJRTGo1cThNbllKcm9jeWN3Vkx2T3VyWXIzZHRTWUpIV3NJc050YXZvRE9zS1k1VjFJTWpraS1mXzBB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41b0praE5SZ1R5blRYR0JxeGh0by15S2dJbHRtQ1dfdk9MWlBlVzdmMk0zUXBmR3UtcFNuaVlZZFdxYnVTVm1rT3JvNUJXNlVPT2Z5c0owWDJtOWtIRTRWVE1KYzk1eGFsTEVXRw?oc=5",
       "pubDate": "Sat, 29 Aug 2026 18:11:36 GMT",
       "description": "美聯儲主席沃什 解析當前經濟與通脹影響 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政策的影 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -721,7 +702,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 17,
       "priority": "B",
-      "id": "0109c896da706aa4",
+      "id": "a64e64d20328e99c",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -818,26 +799,7 @@
       "priority": "B",
       "id": "386338ed5b596c0b",
       "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "「我在資料室待了三天，感覺自己逐漸失去了靈魂和血肉。」 To Be an Angel：參、博士 https://t.co/KrsEEEZuGW - 每週三更新 - #天使計劃 #DrEricaceae - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xYjFDRmF4WldKVFBTRFFGSjh1eE5UaE90Q05halJweHZyajVYdWRfOGVEMENTTFNndFZaMXZPWk5iRHZEeWFCZjJvOXBmQTdySElNYXdPS1ljN2t5c0REQjZPcHU?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 14:44:00 GMT",
-      "description": "「我在資料室待了三天，感覺自己逐漸失去了靈魂和血肉。」 To Be an Angel：參、博士 https://t.co/KrsEEEZuGW - 每週三更新 - #天使計劃 #DrEricaceae &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "94522ee878c8f5a4",
-      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-01T03:42:38.320Z"
+  "rankedAt": "2026-09-01T03:57:02.319Z"
 }
