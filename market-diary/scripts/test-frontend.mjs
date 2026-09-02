@@ -7,7 +7,7 @@ const assert = (condition, message) => {
   if (!condition) throw new Error(message);
 };
 
-const [html, app, css, eventText, candidateText, manifestText, sw, enrich] = await Promise.all([
+const [html, app, css, eventText, candidateText, manifestText, sw, enrich, update] = await Promise.all([
   read('index.html'),
   read('app.js'),
   read('styles.css'),
@@ -15,7 +15,8 @@ const [html, app, css, eventText, candidateText, manifestText, sw, enrich] = awa
   read('data/ai-candidates.json'),
   read('manifest.webmanifest'),
   read('sw.js'),
-  read('scripts/enrich-candidates.mjs')
+  read('scripts/enrich-candidates.mjs'),
+  read('scripts/update-candidates.mjs')
 ]);
 
 const events = JSON.parse(eventText);
@@ -49,6 +50,8 @@ assert(manifest.icons.some(icon => icon.sizes === '192x192' && icon.type === 'im
 assert(manifest.icons.some(icon => icon.sizes === '512x512' && icon.type === 'image/png'), '512px PNG icon is required');
 await Promise.all(['icon-192.png', 'icon-512.png'].map(file => fs.access(path.join(root, file))));
 assert(enrich.includes('id:x.id') && enrich.includes('byId.get(String(x.id))'), 'AI enrichment must preserve and join by candidate id');
+assert(update.includes('runLimited(tasks)') && update.includes('preservedItems'), 'candidate collection must limit concurrency and preserve recent items on source failure');
+assert(update.includes("x.status==='error'") && update.includes('inWindow(x.pubDate)'), 'candidate carry-over must be limited to failed sources and the active time window');
 
 assert(Array.isArray(events.events) && events.events.length > 0, 'events.json must contain events');
 const ids = new Set();

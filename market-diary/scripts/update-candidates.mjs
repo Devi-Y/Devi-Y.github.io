@@ -10,6 +10,13 @@ const cutoff=Date.now()-windowDays*86400000;
 const ua='MarketDiaryBot/0.3 market-diary-bot@users.noreply.github.com';
 const googleRss=q=>`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=zh-CN&gl=HK&ceid=HK:zh-Hans`;
 
+async function readExistingItems(){
+  try{
+    const data=JSON.parse(await fs.readFile(out,'utf8'));
+    return Array.isArray(data.items)?data.items:[];
+  }catch{return[]}
+}
+
 const finance=/earnings|results|revenue|profit|guidance|quarter|financial|investor|shareholder|placement|offering|ipo|listing|dividend|buyback|repurchase|acquisition|merger|财报|业绩|营收|利润|指引|季度|股东|配售|发售|招股|上市|回购|收购|融资/i;
 const macro=/federal reserve|fed\b|inflation|employment|jobs|payroll|cpi|pce|gdp|pmi|rates?|monetary|economy|economic|banking|美联储|通胀|就业|非农|利率|货币|经济|金融|银行/i;
 const people=/Kevin Warsh|Jensen Huang|Elon Musk|Warren Buffett|Sam Altman|Jerome Powell|马云|马化腾|雷军|黄仁勋|巴菲特/i;
@@ -68,8 +75,46 @@ async function rawCollect(meta,url){const t=Date.now();try{const xml=await fetch
 async function collect(meta,url,fbQ=''){const primary=await rawCollect(meta,url);if(primary.ok)return{items:primary.items,health:{key:meta.key,name:meta.name,mode:meta.mode,trust:meta.trust,status:'ok',route:'direct',count:primary.items.length,checkedAt:new Date().toISOString(),latencyMs:primary.latencyMs}};if(fbQ){const fbMeta={...meta,mode:`${meta.mode}->google-fallback`};const fb=await rawCollect(fbMeta,googleRss(fbQ));if(fb.ok)return{items:fb.items,health:{key:meta.key,name:meta.name,mode:meta.mode,trust:meta.trust,status:'fallback-ok',route:'fallback',count:fb.items.length,checkedAt:new Date().toISOString(),latencyMs:primary.latencyMs+fb.latencyMs,directError:primary.error}}}return{items:[],health:{key:meta.key,name:meta.name,mode:meta.mode,trust:meta.trust,status:'error',count:0,checkedAt:new Date().toISOString(),latencyMs:primary.latencyMs,error:primary.error}}}
 async function collectX(){const token=process.env.X_BEARER_TOKEN||'';const meta={key:'x-api',name:'X Recent Search',market:'全球',signal:'热点',trust:'C',mode:'x-api'};const t=Date.now();if(!token)return{items:[],health:{...meta,status:'not-configured',count:0,checkedAt:new Date().toISOString(),note:'配置 X_BEARER_TOKEN 后启用官方 Recent Search'}};try{const q='($NVDA OR $TSLA OR $BABA OR "Hong Kong stocks" OR "Federal Reserve" OR SHEIN) -is:retweet lang:en';const url=`https://api.x.com/2/tweets/search/recent?query=${encodeURIComponent(q)}&max_results=100&tweet.fields=created_at,public_metrics,author_id&expansions=author_id&user.fields=name,username,verified`;const r=await fetch(url,{headers:{authorization:`Bearer ${token}`,'user-agent':ua},signal:AbortSignal.timeout(12000)});if(!r.ok)throw new Error(`HTTP ${r.status}`);const j=await r.json();const users=new Map((j.includes?.users||[]).map(u=>[u.id,u]));const items=(j.data||[]).map(v=>{const u=users.get(v.author_id)||{};const x=makeItem(meta,`@${u.username||'user'}: ${v.text}`.slice(0,220),`https://x.com/${u.username||'i'}/status/${v.id}`,v.created_at,'',`X @${u.username||'user'}`);const m=v.public_metrics||{};x.socialMetrics={like:m.like_count||0,repost:m.retweet_count||0,reply:m.reply_count||0,quote:m.quote_count||0};x.heatScore=Math.min(100,Math.round(Math.log10(1+(m.like_count||0)+(m.retweet_count||0)*3+(m.reply_count||0)*2)*25));x.score=Math.min(72,x.score+Math.round(x.heatScore/10));x.priority=priority(x.score);return x}).filter(x=>inWindow(x.pubDate));return{items,health:{key:meta.key,name:meta.name,mode:meta.mode,trust:meta.trust,status:'ok',count:items.length,checkedAt:new Date().toISOString(),latencyMs:Date.now()-t}}}catch(e){return{items:[],health:{key:meta.key,name:meta.name,mode:meta.mode,trust:meta.trust,status:'error',count:0,checkedAt:new Date().toISOString(),latencyMs:Date.now()-t,error:String(e.message||e).slice(0,160)}}}}
 
-const jobs=[...directFeeds.map(x=>collect(x,x.url,x.fallbackQ)),...secFeeds.map(x=>collect(x,`https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=${encodeURIComponent(x.form)}&company=&dateb=&owner=include&start=0&count=40&output=atom`,x.fallbackQ)),...discovery.map(x=>collect(x,googleRss(x.q))),collectX()];
-const results=await Promise.all(jobs);const health=results.map(x=>x.health);const seen=new Set();const items=results.flatMap(x=>x.items).filter(x=>{const k=norm(x.title);if(!k||seen.has(k))return false;seen.add(k);return true}).sort((a,b)=>b.score-a.score).slice(0,160);
+async function runLimited(tasks,limit=4){
+  const results=new Array(tasks.length);
+  let cursor=0;
+  async function worker(){
+    while(cursor<tasks.length){
+      const index=cursor++;
+      results[index]=await tasks[index]();
+    }
+  }
+  await Promise.all(Array.from({length:Math.min(limit,tasks.length)},worker));
+  return results;
+}
+
+const previousItems=await readExistingItems();
+const tasks=[
+  ...directFeeds.map(x=>()=>collect(x,x.url,x.fallbackQ)),
+  ...secFeeds.map(x=>()=>collect(x,`https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=${encodeURIComponent(x.form)}&company=&dateb=&owner=include&start=0&count=40&output=atom`,x.fallbackQ)),
+  ...discovery.map(x=>()=>collect(x,googleRss(x.q))),
+  ()=>collectX()
+];
+const results=await runLimited(tasks);
+const health=results.map(x=>x.health);
+const failedKeys=new Set(health.filter(x=>x.status==='error').map(x=>x.key));
+const carriedAt=new Date().toISOString();
+const preservedItems=previousItems.filter(x=>failedKeys.has(x.sourceKey)&&inWindow(x.pubDate)).map(x=>({
+  ...x,
+  carryOver:true,
+  carriedAt,
+  verification:`${x.verification||'必须回到原始来源核验'}；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效`
+}));
+const seen=new Set();
+const items=[...results.flatMap(x=>x.items),...preservedItems].filter(x=>{
+  const k=norm(x.title);
+  if(!k||seen.has(k))return false;
+  seen.add(k);
+  return true;
+}).sort((a,b)=>b.score-a.score).slice(0,160);
+const preservedBySource=new Map();
+items.filter(x=>x.carryOver).forEach(x=>preservedBySource.set(x.sourceKey,(preservedBySource.get(x.sourceKey)||0)+1));
+const reportedHealth=health.map(x=>preservedBySource.has(x.key)?{...x,preservedCount:preservedBySource.get(x.key)}:x);
 const summary={total:items.length,bySignal:Object.fromEntries(['事实','媒体','人物','资金','热点'].map(k=>[k,items.filter(x=>x.signal===k).length])),byTrust:Object.fromEntries(['A','B','C'].map(k=>[k,items.filter(x=>x.trustTier===k).length])),s:items.filter(x=>x.priority==='S').length,a:items.filter(x=>x.priority==='A').length,b:items.filter(x=>x.priority==='B').length};
-const healthSummary={ok:health.filter(x=>x.status==='ok').length,fallback:health.filter(x=>x.status==='fallback-ok').length,error:health.filter(x=>x.status==='error').length,notConfigured:health.filter(x=>x.status==='not-configured').length,total:health.length};
-await fs.mkdir(path.dirname(out),{recursive:true});await fs.writeFile(out,JSON.stringify({generatedAt:new Date().toISOString(),windowDays,summary,note:'自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。',items},null,2)+'\n');await fs.writeFile(healthOut,JSON.stringify({generatedAt:new Date().toISOString(),summary:healthSummary,sources:health},null,2)+'\n');console.log(`wrote ${items.length} candidates | direct=${healthSummary.ok} fallback=${healthSummary.fallback} error=${healthSummary.error}`);
+const healthSummary={ok:health.filter(x=>x.status==='ok').length,fallback:health.filter(x=>x.status==='fallback-ok').length,error:health.filter(x=>x.status==='error').length,notConfigured:health.filter(x=>x.status==='not-configured').length,preserved:items.filter(x=>x.carryOver).length,total:health.length};
+await fs.mkdir(path.dirname(out),{recursive:true});await fs.writeFile(out,JSON.stringify({generatedAt:new Date().toISOString(),windowDays,summary,note:'自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。',items},null,2)+'\n');await fs.writeFile(healthOut,JSON.stringify({generatedAt:new Date().toISOString(),summary:healthSummary,sources:reportedHealth},null,2)+'\n');console.log(`wrote ${items.length} candidates | direct=${healthSummary.ok} fallback=${healthSummary.fallback} error=${healthSummary.error} preserved=${healthSummary.preserved}`);

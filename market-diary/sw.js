@@ -1,7 +1,7 @@
 'use strict';
 
 const CACHE_PREFIX = 'market-diary-';
-const CACHE = CACHE_PREFIX + 'shell-v3';
+const CACHE = CACHE_PREFIX + 'shell-v4';
 const SHELL = [
   './',
   './index.html',

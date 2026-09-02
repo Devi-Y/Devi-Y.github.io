@@ -200,6 +200,8 @@ async function loadJson(path, fresh = false) {
 function normalizeCandidate(item) {
   const ai = item.ai || {};
   const trust = item.trustTier || item.confidence || '待判定';
+  const carried = Boolean(item.carryOver);
+  const verificationNote = ai.verificationNeed || item.verification || '必须回到一级信源核验。';
   return {
     id: 'candidate-' + String(item.id || Math.random().toString(36).slice(2)),
     sourceId: item.id || '',
@@ -225,8 +227,8 @@ function normalizeCandidate(item) {
     priority: ai.priority || item.priority || 'B',
     priorityScore: Number(item.score || 0),
     date: item.pubDate || '',
-    verificationNote: ai.verificationNeed || item.verification || '必须回到一级信源核验。',
-    aiAssist: '自动采集、去重与规则初筛；尚未通过人工核验。'
+    verificationNote: carried ? '本轮抓取失败，沿用7日窗口内最近一次线索；必须重新确认时效与原始公告。' : verificationNote,
+    aiAssist: carried ? '自动采集本轮失败，已保留窗口内上一轮线索；尚未通过人工核验。' : '自动采集、去重与规则初筛；尚未通过人工核验。'
   };
 }
 
@@ -959,7 +961,7 @@ function renderTrust() {
     '<div class="source-row">',
       '<strong>' + esc(source.name) + '</strong>',
       '<span>' + esc(source.trust || '') + '</span>',
-      '<span class="source-state ' + esc(source.status || '') + '">' + esc(sourceStatusLabel(source.status)) + '</span>',
+      '<span class="source-state ' + esc(source.status || '') + '">' + esc(sourceStatusLabel(source.status) + (source.preservedCount ? ' · 保留' + source.preservedCount + '条' : '')) + '</span>',
     '</div>'
   ].join('')).join('') : '<div class="empty-state"><h3>来源状态暂不可用</h3><p>这不会改变已核验内容的证据边界。</p></div>';
 }
