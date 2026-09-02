@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-02T08:52:01.034Z",
+  "generatedAt": "2026-09-02T09:36:05.579Z",
   "windowDays": 7,
   "summary": {
-    "total": 43,
+    "total": 42,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
       "人物": 4,
       "资金": 0,
-      "热点": 37
+      "热点": 36
     },
     "byTrust": {
       "A": 4,
       "B": 2,
-      "C": 37
+      "C": 36
     },
     "s": 0,
     "a": 2,
-    "b": 41
+    "b": 40
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -125,26 +125,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HTklLTXY4M1NyWHk5VmJfLVhDWDF4S3hCQnF4d2ZrYTRaT0xEa0VsemRZUFlibWNKWVZQQVd2THFvWWZUQktBU29qLVFsaWlHTW1FUnIwSExFMUhzUXJfWWhRRnFWQQ?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
-      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
-      "priority": "B",
-      "id": "e5ab2ee345db15bb",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE - x.com",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUeGZuM1EySVJJWGdvOUhCc0NiVTVoVmduSWNNcGhLNmdWM1Q1emhaa2ZYdXBEMXJwSGpORGZLUDkwZzcwWnZnbDZRUkwtTzVHQm5VY25WSmlsbHVzTjhCQkNubWUtUXU0ZjM4?oc=5",
       "pubDate": "Mon, 31 Aug 2026 20:43:52 GMT",
@@ -220,26 +200,6 @@
       "priority": "B",
       "id": "84367de81adc0c15",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56ZUxtS2JaOW40YWt6NTV1RzViblIxZl9feHRSc3VTUVB3b3I5VEYzMkVoRm5McTY3QkJ1a0x3a1lfdFJJbl9LeDhkU2ZKanJRcXhQZVVpNjdlck5qa3FpOGExbUd4Wkhl?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:00:17 GMT",
-      "description": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "bc5f48ea5601333b",
-      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "宏观",
@@ -384,6 +344,26 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56ZUxtS2JaOW40YWt6NTV1RzViblIxZl9feHRSc3VTUVB3b3I5VEYzMkVoRm5McTY3QkJ1a0x3a1lfdFJJbl9LeDhkU2ZKanJRcXhQZVVpNjdlck5qa3FpOGExbUd4Wkhl?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 09:00:17 GMT",
+      "description": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "bc5f48ea5601333b",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "英偉達 (NVDA) F2Q27 業績會摘要 F2Q 業績略超預期 - 收入：USD 96.2bn（+18% QoQ，+106% YoY），廣發 94.5bn、彭博 92.3bn、買方 94.6bn - 資料中心收入：USD 89bn - 毛利率：75%，廣發 75.1%、彭博 75% - EPS：$2.22，廣發 $2.15、彭博 $2.09、買方 $2.18 F3 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04cVNlSzlfMXB5ZTFfTHZLZHAyQ0lBMUcxbFRPT2FHRjl4NjAxRXVwTXVMR05XdVVrMXN5NWExdWJSak4zRmFNekNxV1JvdnhQamZ0OHpfa0Jlc0pfNWJRd1hHSTh3ZGJD?oc=5",
@@ -465,10 +445,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PbnNiWS01b1djRkZpNm5fb0hqODEzbWpLUV81bFNCMnlWWktoUGFFRGE5RmE0QWZON3gyV3ZDUFdrWjNXS1JBU1h5QVRjTndpeWh6SEJWYmt6VDdNMUV4OU43V0NJOUlY?oc=5",
+      "title": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 中國整體銷售額達78.8億美元，近乎翻倍，主因 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BRGFBRnhxNW94anZSc0xQamx2RjFDMkpkTjFYUTdHd2RVdVE0NlZleWxtbVJ0RGR0aDhUY2tsTHI1THo0eDJ3SHFFaTZTc2pnUFBWRGczOWJUVTdoNmc?oc=5",
       "pubDate": "Thu, 27 Aug 2026 02:00:34 GMT",
-      "description": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 &nbsp;&nbsp; x.com",
+      "description": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 中國整體銷售額達78.8億美元，近乎翻倍，主因 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -478,7 +458,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "73155fb94d9437d9",
+      "id": "d5b8b7537363681d",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -585,26 +565,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sZXFNQmpyOVFldlJsUHpaQnRIdjFuUkdScU1hR1BGdW9EaVdoUUVrMFlhQ2xENVlTdnplZXBQWEE2ZDh3SzYtTkhiWWpYRmZOS3VLNXRXMkJqRGx2cXh2WGMta0pjQkRJWHpGZzlycWg?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:28:41 GMT",
-      "description": "在 #輝達 （ $NVDA ）第二季財報電話會議上，面對高盛分析師詢問最大供應鏈瓶頸時，執行長黃仁勳（ @JensenHuang ）半開玩笑地提及外界對其私人晚餐行程的高度關注，幽默表示只要與他共進晚餐的公司，隔天股價都會翻倍🤣 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d74187e2c94c6ab0",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJcVZ0ZHQzSVpfVkN0anNobUpRR3BDbVNfOVN2U2NQX3ZabFBPMFE4ZUpkNzRibWdiTTNoeXdzMExIOHVNZjBiR0hjdVBZUE5oMGxlQVJ3bFhlSC14NjVIMmZQaWpaQQ?oc=5",
       "pubDate": "Thu, 27 Aug 2026 09:59:52 GMT",
@@ -699,6 +659,26 @@
       "score": 28,
       "priority": "B",
       "id": "3bce3c3b9b59dc90",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "对robotaxi安全性充分信任 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wU3F1T3Q3THhBdmIySUZhdFczMTUzN2JVRlctUS1nVF9fM2lqZzhKYzJ5OGFGcGt1UWE4WTNzWVdMYk9NNV9ScUMwZEIzWkdxMzlJMWQ3QUJMWHJ4?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 00:33:29 GMT",
+      "description": "对robotaxi安全性充分信任 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 28,
+      "priority": "B",
+      "id": "dc1bcde6f3064db6",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -882,5 +862,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-02T08:52:01.606Z"
+  "rankedAt": "2026-09-02T09:36:06.118Z"
 }
