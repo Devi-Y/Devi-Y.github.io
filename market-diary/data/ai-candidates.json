@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:17:28.836Z",
+  "generatedAt": "2026-09-02T04:30:01.339Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -217,36 +217,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
-      "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "b87791f3e6bd8d86",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "【希音上市】據悉希音香港IPO發行價 或定在每股約48.56港元 https://t.co/b0WRmnqvv2 快時尚零售商希音（新上市編號：https://t.co/UfPxRjXPiC）據悉告知潛在投資者，其香港IPO的發行價，或定在每股約48.56 港元，略高於推介價格區間的中點。以此計算，將籌集136億 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFVm1BY3RwdFFHX0VHcWFZd0p1N2NnRjRRV3RId2JFa01tNlFjU2dmLUFxQmhfbXJNX1d0dGhTMF9OT1R0b0hoSldydExCLVBWeTFjUEhCR3g2ckttc242R0hMdGI?oc=5",
@@ -445,6 +415,36 @@
       "ai": {
         "priority": "B",
         "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
+      "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "b87791f3e6bd8d86",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
