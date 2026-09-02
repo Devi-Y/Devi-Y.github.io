@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-02T14:28:00.292Z",
+  "generatedAt": "2026-09-02T18:40:51.607Z",
   "windowDays": 7,
   "summary": {
-    "total": 43,
+    "total": 45,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
-      "人物": 5,
+      "人物": 7,
       "资金": 0,
       "热点": 36
     },
     "byTrust": {
       "A": 4,
-      "B": 3,
+      "B": 5,
       "C": 36
     },
     "s": 0,
     "a": 3,
-    "b": 40
+    "b": 42
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -102,6 +102,26 @@
       "rankReason": "高影响事件词；关键人物"
     },
     {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Nvidia Is Worth Over $5 Trillion. Does Jensen Huang Watch the Stock Price? 'Not Every Day' - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWm5oN3RUUXFBbTllRjZNY05vT3FkTTEzMmx4ajNOOGZYdHZqYUVjaHprVVpRS0RMZTBhWHNqTUQxMHhVR1ZOQWRFdjVYWnJMR2Z4ckhhNEZPVm1zRWlRb1lVNFhpS3FMaTVpTTFaMTNXcDhJbnVtRDI5UE9mSU83V2J4QU5ZaDhqVHFlZW42MGM3TzQxOE5pWGhyOGlxUEZnalJUbmx5ZE9PaldOZDNLUWRMaHdyMGpBNFpNNVdiOE9GS1JDekVBTWF5R3VJOTlQU2RNQ3BJUW5PMFk?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 18:00:37 GMT",
+      "description": "Nvidia Is Worth Over $5 Trillion. Does Jensen Huang Watch the Stock Price? 'Not Every Day' &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "0daa212bdb976a5b",
+      "rankReason": "高影响事件词；关键人物"
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -179,6 +199,26 @@
       "score": 53,
       "priority": "B",
       "id": "a372136503b7ccc9",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！👇 🏆 2026 KCGI 重磅開炸：300 萬 U 總獎池強勢來襲！這次直接升級 UEX 全資產戰場，加密合約、美股、黃金大宗一次打滿！ 📈 美股合約新品瘋狂連發：連未上市 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90U3JUT1U0X1M4UHJBN2cwcUt5WXZ2NVhEWjF4RTVaMVlWdU5RNDVoeHVWb214MThqZG1WLWxEOW01QUlWM29lV2ZGXzduMVQ0R0ZFemtFR3A5WmxIWWVIM0RZSlJSc1NN?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 13:00:27 GMT",
+      "description": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！👇 🏆 2026 KCGI 重磅開炸：300 萬 U 總獎池強勢來襲！這次直接升級 UEX 全資產戰場，加密合約、美股、黃金大宗一次打滿！ 📈 美股合約新品瘋狂連發：連未上市 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "52c861bb823b03a5",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -342,26 +382,6 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56ZUxtS2JaOW40YWt6NTV1RzViblIxZl9feHRSc3VTUVB3b3I5VEYzMkVoRm5McTY3QkJ1a0x3a1lfdFJJbl9LeDhkU2ZKanJRcXhQZVVpNjdlck5qa3FpOGExbUd4Wkhl?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:00:17 GMT",
-      "description": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "bc5f48ea5601333b",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -445,10 +465,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🔥 MEXC Launchpad 現已開放SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高10,000 USDT，完成指定充值任務，認購上限最高可提升至20,000 USDT 🎁 額外福 - x.com",
+      "title": "🔥 MEXC Launchpad 現已開放 SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高 10,000 USDT，完成指定充值任務，認購上限最高可提升至 20,000 USDT 🎁 額外 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KUE5mek9obHVPQWdydmxhcEdBX0x3RHBsM3pxYTU5WTk3UWJtN3BOVjU3WFh5bFdVT0haYnQzTVRFZFZwTUVDTzZfd2sxaGh0cExvZExCMEFlbHc?oc=5",
       "pubDate": "Thu, 27 Aug 2026 10:38:57 GMT",
-      "description": "🔥 MEXC Launchpad 現已開放SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高10,000 USDT，完成指定充值任務，認購上限最高可提升至20,000 USDT 🎁 額外福 &nbsp;&nbsp; x.com",
+      "description": "🔥 MEXC Launchpad 現已開放 SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高 10,000 USDT，完成指定充值任務，認購上限最高可提升至 20,000 USDT 🎁 額外 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -458,7 +478,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "f77d761e9f71b24d",
+      "id": "ca6e185ea6371f1b",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -585,10 +605,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJcVZ0ZHQzSVpfVkN0anNobUpRR3BDbVNfOVN2U2NQX3ZabFBPMFE4ZUpkNzRibWdiTTNoeXdzMExIOHVNZjBiR0hjdVBZUE5oMGxlQVJ3bFhlSC14NjVIMmZQaWpaQQ?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 09:59:52 GMT",
-      "description": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 &nbsp;&nbsp; x.com",
+      "title": "NVIDIA 與 Poolside 簽署 60 億美元技術授權協議 & 10 億美元股權投資協議（120 億美元估值），將有超過 100 名研發人才協助開發 NVIDIA 自家開放模型 Nemotron - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jWEtsX1pJQVZrNGdMNl9DVm1hb2JFYUlFVUJGS2VtY3N5bDR6eXBvUWZSRF91VW0wZ2MyTFQ5MkxPUHBtTjZaYUNwNWVrbjl0RjVCb1F4RmlSZVU5bnFONEUydmZadw?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 09:59:55 GMT",
+      "description": "NVIDIA 與 Poolside 簽署 60 億美元技術授權協議 & 10 億美元股權投資協議（120 億美元估值），將有超過 100 名研發人才協助開發 NVIDIA 自家開放模型 Nemotron &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -598,7 +618,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "5c64a421a86e6850",
+      "id": "42966a20d7f2d8c3",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -663,6 +683,26 @@
     },
     {
       "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Mohamed El-Erian Says Kevin Warsh Faces Jackson Hole Balancing Act Between ‘Reaction Function’ And ‘Original Secular Spirit’ - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQLUhJcU9XcGFadlJXMVdjNGpKUldoSTkzZWhoZHpNeDZaaW1zc3RxUUhZektvUXZjQTczdEJYR2FBME5UUEhVYkNOSzlDLU1feTZTZXZQZV9rS3VvQkZISE5SYlpFNzZJcjVaQ29ZQmo3UVZjUGpxWDBLRWVYS0luQXBWYzVDRWxMZGZMNnlGa2hoSl9XOTZvakNsbTVmVEJDS1M2TEs5UDk3TkFSWjBmbEVsNldlcVRmV0d5YUcxYlh5UGJtYzBVNlhzX25DczF6aFlqcWZ0MUhpYnBhRjJpVmFqMC1QRGZsckQ2bzRtV284M0drbkxWelJLNUtLUHlSMXRseXlBbVNQWTd5?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 13:25:51 GMT",
+      "description": "Mohamed El-Erian Says Kevin Warsh Faces Jackson Hole Balancing Act Between ‘Reaction Function’ And ‘Original Secular Spirit’ &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 33,
+      "priority": "B",
+      "id": "87a9b3abc077f421",
+      "rankReason": "关键人物"
+    },
+    {
+      "market": "全球",
       "signal": "热点",
       "type": "公司事件",
       "title": "LEI (@TheMarketMemo) on X - x.com",
@@ -705,26 +745,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片| 何頻(@MJTVHoPin) on X - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmYkoyZEdaZUd6aWoxVkhuX1ltOHJrTTdiQ0lKY2hUMGM5YVRZVVQ5b1RVVEJTeWpWN1RxX043aExEY3lKX2thVmM1MmNoeHZjY01BcEN3?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 15:01:04 GMT",
-      "description": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片| 何頻(@MJTVHoPin) on X &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "9955c4338db14de6",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SNWpMZmZUOVhrS3lVdFRucWNGWHRDdnVvMWd3aUpOT1BpWDFlOENBNU9QcjJmcEFXekJ1VkFQa1NyZDdyVElCcmxNWm54SlUxMWR2TVRR?oc=5",
       "pubDate": "Wed, 02 Sep 2026 03:21:32 GMT",
@@ -739,6 +759,26 @@
       "score": 20,
       "priority": "B",
       "id": "e63848695c3ab27c",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片| 何頻(@MJTVHoPin) on X - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmYkoyZEdaZUd6aWoxVkhuX1ltOHJrTTdiQ0lKY2hUMGM5YVRZVVQ5b1RVVEJTeWpWN1RxX043aExEY3lKX2thVmM1MmNoeHZjY01BcEN3?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 15:01:04 GMT",
+      "description": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片| 何頻(@MJTVHoPin) on X &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "9955c4338db14de6",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -765,6 +805,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "SambaNova SN50 針對 agentic 推論做資料流架構，強調算子融合與資料區域性，並用 SRAM＋HBM＋CXL DDR 三層記憶體提高頻寬利用率。全風冷機架對企業機房較友善。技術之外，公司稱新雲與企業客戶開始有牽引，部署便利與現有機房相容，可能跟峰值效能一 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PTzg2UDRCQnFhdFkxNFFRSlNIMWh2dWlRVDFkZDZaS2pBMF9WaUhwRTUzT0toS0tWRjJVX21hZE9HNDMwcUlTNE5VXy0yQnRTcUU1dXZ1cXcxX1BiMVhwYmR6UHNaSlZ2?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 08:00:01 GMT",
+      "description": "SambaNova SN50 針對 agentic 推論做資料流架構，強調算子融合與資料區域性，並用 SRAM＋HBM＋CXL DDR 三層記憶體提高頻寬利用率。全風冷機架對企業機房較友善。技術之外，公司稱新雲與企業客戶開始有牽引，部署便利與現有機房相容，可能跟峰值效能一 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "11d1724c050b64de",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Google TPU 8 重點不是規格，而是訓練與推論該分開做。TPU 8i 是記憶體頻寬晶片：大 SRAM、大 HBM、超高晶片間頻寬，服務推理、MoE、agentic 解碼。TPU 8t 則衝 Superpod 規模與訓練算力。Google 明確說：下一道牆是搬資料，不是堆 FLOPS。 LPX（Groq／NVIDI - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xdjB2aUFqbDF6RjdpWE44TnRObUU5djVmWHVHeVZUeTNjcXJ1X2kwRElwODJxOXg2NHBQcTFlM2lVdG94MVc0elBIS3p2WkVzYm40c0NHeG9CLUNjTVE?oc=5",
       "pubDate": "Tue, 01 Sep 2026 07:20:00 GMT",
@@ -779,26 +839,6 @@
       "score": 17,
       "priority": "B",
       "id": "49d8d4ff243a2175",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "SambaNova SN50 針對 agentic 推論做資料流架構，強調算子融合與資料區域性，並用 SRAM＋HBM＋CXL DDR 三層記憶體提高頻寬利用率。全風冷機架對企業機房較友善。技術之外，公司稱新雲與企業客戶開始有牽引，部署便利與現有機房相容，可能跟峰值效能一 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mUE90c0RrT1BxWDlUSlRNYWNfWjlWSFFjZG9iS1RxSkRDVlhpanR4c2M5VGlPT3ZCblN3YmdxbHF3Umt2Vk1VU3ZRUXozby1Zd2ZBUTZtVUIzeTRTa2c?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 08:00:01 GMT",
-      "description": "SambaNova SN50 針對 agentic 推論做資料流架構，強調算子融合與資料區域性，並用 SRAM＋HBM＋CXL DDR 三層記憶體提高頻寬利用率。全風冷機架對企業機房較友善。技術之外，公司稱新雲與企業客戶開始有牽引，部署便利與現有機房相容，可能跟峰值效能一 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
-      "priority": "B",
-      "id": "3121f18ba8697064",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -882,5 +922,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-02T14:28:01.786Z"
+  "rankedAt": "2026-09-02T18:40:53.131Z"
 }

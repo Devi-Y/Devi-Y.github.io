@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T14:28:02.098Z",
+  "generatedAt": "2026-09-02T18:40:53.528Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -129,6 +129,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Nvidia Is Worth Over $5 Trillion. Does Jensen Huang Watch the Stock Price? 'Not Every Day' - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWm5oN3RUUXFBbTllRjZNY05vT3FkTTEzMmx4ajNOOGZYdHZqYUVjaHprVVpRS0RMZTBhWHNqTUQxMHhVR1ZOQWRFdjVYWnJMR2Z4ckhhNEZPVm1zRWlRb1lVNFhpS3FMaTVpTTFaMTNXcDhJbnVtRDI5UE9mSU83V2J4QU5ZaDhqVHFlZW42MGM3TzQxOE5pWGhyOGlxUEZnalJUbmx5ZE9PaldOZDNLUWRMaHdyMGpBNFpNNVdiOE9GS1JDekVBTWF5R3VJOTlQU2RNQ3BJUW5PMFk?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 18:00:37 GMT",
+      "description": "Nvidia Is Worth Over $5 Trillion. Does Jensen Huang Watch the Stock Price? 'Not Every Day' &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "0daa212bdb976a5b",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "TradingView出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -243,6 +274,37 @@
       "ai": {
         "priority": "B",
         "summary": "最近 Pre-IPO 真的越玩越多東西了 😂 這次連 SHEIN（希音） 都來了✨ SHEIN 大家應該不陌…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！👇 🏆 2026 KCGI 重磅開炸：300 萬 U 總獎池強勢來襲！這次直接升級 UEX 全資產戰場，加密合約、美股、黃金大宗一次打滿！ 📈 美股合約新品瘋狂連發：連未上市 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90U3JUT1U0X1M4UHJBN2cwcUt5WXZ2NVhEWjF4RTVaMVlWdU5RNDVoeHVWb214MThqZG1WLWxEOW01QUlWM29lV2ZGXzduMVQ0R0ZFemtFR3A5WmxIWWVIM0RZSlJSc1NN?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 13:00:27 GMT",
+      "description": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！👇 🏆 2026 KCGI 重磅開炸：300 萬 U 總獎池強勢來襲！這次直接升級 UEX 全資產戰場，加密合約、美股、黃金大宗一次打滿！ 📈 美股合約新品瘋狂連發：連未上市 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "52c861bb823b03a5",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -501,37 +563,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56ZUxtS2JaOW40YWt6NTV1RzViblIxZl9feHRSc3VTUVB3b3I5VEYzMkVoRm5McTY3QkJ1a0x3a1lfdFJJbl9LeDhkU2ZKanJRcXhQZVVpNjdlck5qa3FpOGExbUd4Wkhl?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:00:17 GMT",
-      "description": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "bc5f48ea5601333b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -659,10 +690,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🔥 MEXC Launchpad 現已開放SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高10,000 USDT，完成指定充值任務，認購上限最高可提升至20,000 USDT 🎁 額外福 - x.com",
+      "title": "🔥 MEXC Launchpad 現已開放 SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高 10,000 USDT，完成指定充值任務，認購上限最高可提升至 20,000 USDT 🎁 額外 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KUE5mek9obHVPQWdydmxhcEdBX0x3RHBsM3pxYTU5WTk3UWJtN3BOVjU3WFh5bFdVT0haYnQzTVRFZFZwTUVDTzZfd2sxaGh0cExvZExCMEFlbHc?oc=5",
       "pubDate": "Thu, 27 Aug 2026 10:38:57 GMT",
-      "description": "🔥 MEXC Launchpad 現已開放SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高10,000 USDT，完成指定充值任務，認購上限最高可提升至20,000 USDT 🎁 額外福 &nbsp;&nbsp; x.com",
+      "description": "🔥 MEXC Launchpad 現已開放 SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SHEIN(PRE) = 6.32 USDT ⏰ 認購時間：8/27 18:00 ～ 8/31 18:00（UTC+8） 🚀 認購上限：基礎上限最高 10,000 USDT，完成指定充值任務，認購上限最高可提升至 20,000 USDT 🎁 額外 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -672,11 +703,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "f77d761e9f71b24d",
+      "id": "ca6e185ea6371f1b",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "🔥 MEXC Launchpad 現已開放SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 SH…",
+        "summary": "🔥 MEXC Launchpad 現已開放 SHEIN(PRE) 新用戶專享認購！ 💰 專屬認購價：1 S…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRmFQUDdUN2NFbWMwMlJvUzloNTVzb0NLdXFiSTdzcnE4SjRBVjJQZjJoTnRvSkNXS2xIMFNZb3NMWXlUMjAwTDBkcElpTjZyT3dVODlabllTZUhBTXhiWlROdU5uM1U?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 01:02:46 GMT",
-      "description": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "23be588c96bfbb19",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
