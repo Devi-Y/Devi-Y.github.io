@@ -192,7 +192,7 @@ function route(value, options = {}) {
 
 async function loadJson(path, fresh = false) {
   const suffix = fresh ? (path.includes('?') ? '&' : '?') + 'v=' + Date.now() : '';
-  const response = await fetch(path + suffix, { cache: fresh ? 'no-store' : 'default' });
+  const response = await fetch(path + suffix, { cache: fresh ? 'no-store' : 'no-cache' });
   if (!response.ok) throw new Error(path + ' HTTP ' + response.status);
   return response.json();
 }
@@ -204,7 +204,8 @@ function normalizeCandidate(item) {
     id: 'candidate-' + String(item.id || Math.random().toString(36).slice(2)),
     sourceId: item.id || '',
     kind: 'candidate',
-    title: item.title || '未命名候选',
+    title: ai.summary || item.title || '未命名候选',
+    originalTitle: item.title || '',
     conclusion: ai.summary || item.description || '候选信息尚未完成结构化整理。',
     whyImportant: ai.whyImportant || '这条信息已进入自动候选池，是否值得做仍需编辑判断。',
     coreData: [],
@@ -435,6 +436,7 @@ function queryTerms(query) {
 function itemHaystack(item) {
   return [
     item.title,
+    item.originalTitle,
     item.conclusion,
     item.whyImportant,
     item.market,
@@ -781,7 +783,7 @@ function libraryCardHtml(item) {
         verificationBadge(item),
       '</div>',
       '<h3>' + esc(item.title) + '</h3>',
-      '<p>' + esc(item.conclusion || item.whyImportant) + '</p>',
+      '<p>' + esc(item.verified ? item.conclusion : item.whyImportant) + '</p>',
       '<div class="library-card-footer">',
         '<small>' + esc(item.sourceName || '来源待补充') + '</small>',
         '<button type="button" data-open-event="' + esc(item.id) + '" data-kind="' + kind + '">' + (item.verified ? '查看并生成' : '查看核验') + '</button>',
