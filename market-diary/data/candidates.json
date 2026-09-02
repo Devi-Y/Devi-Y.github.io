@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-02T08:35:37.467Z",
+  "generatedAt": "2026-09-02T08:52:01.034Z",
   "windowDays": 7,
   "summary": {
-    "total": 42,
+    "total": 43,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
       "人物": 4,
       "资金": 0,
-      "热点": 36
+      "热点": 37
     },
     "byTrust": {
       "A": 4,
       "B": 2,
-      "C": 36
+      "C": 37
     },
     "s": 0,
     "a": 2,
-    "b": 40
+    "b": 41
   },
-  "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
+  "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
     {
       "market": "港股",
@@ -100,6 +100,46 @@
       "priority": "B",
       "id": "7cf365da2de2cb74",
       "rankReason": "一级/官方信源；市场相关；关键人物"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41VExGZl8xNl9laFhoa01iREFSZTJwTE90TGxycnRxMHE5N1ZHNWFRd3dJWDRJem40SGVhNm9odGw5a1RMa1JSdWpPOEhFWlFHdDd0Xw?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:48:39 GMT",
+      "description": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "e889d09a51afe962",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HTklLTXY4M1NyWHk5VmJfLVhDWDF4S3hCQnF4d2ZrYTRaT0xEa0VsemRZUFlibWNKWVZQQVd2THFvWWZUQktBU29qLVFsaWlHTW1FUnIwSExFMUhzUXJfWWhRRnFWQQ?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
+      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "e5ab2ee345db15bb",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -565,10 +605,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "NVIDIA 與 Poolside 簽署 60 億美元技術授權協議 & 10 億美元股權投資協議（120 億美元估值），將有超過 100 名研發人才協助開發 NVIDIA 自家開放模型 Nemotron - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jWEtsX1pJQVZrNGdMNl9DVm1hb2JFYUlFVUJGS2VtY3N5bDR6eXBvUWZSRF91VW0wZ2MyTFQ5MkxPUHBtTjZaYUNwNWVrbjl0RjVCb1F4RmlSZVU5bnFONEUydmZadw?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 09:59:55 GMT",
-      "description": "NVIDIA 與 Poolside 簽署 60 億美元技術授權協議 & 10 億美元股權投資協議（120 億美元估值），將有超過 100 名研發人才協助開發 NVIDIA 自家開放模型 Nemotron &nbsp;&nbsp; x.com",
+      "title": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJcVZ0ZHQzSVpfVkN0anNobUpRR3BDbVNfOVN2U2NQX3ZabFBPMFE4ZUpkNzRibWdiTTNoeXdzMExIOHVNZjBiR0hjdVBZUE5oMGxlQVJ3bFhlSC14NjVIMmZQaWpaQQ?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 09:59:52 GMT",
+      "description": "從 Hugging Face 尋求收購到 NVIDIA 同意以 129 億美元全資收購僅花 4 天 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -578,17 +618,17 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "42966a20d7f2d8c3",
+      "id": "5c64a421a86e6850",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越Uniswap，上線不到一個月已佔Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 - x.com",
+      "title": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越 Uniswap，上線不到一個月已佔 Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前 Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WdHYybzN0NlM3anhoYV8ySWtqajFtcmFEV1d0VUxjRVF4enB5YzhQNEVzOUExNHBETzUxeERaZUJFUThnRzV0SE56dXNmRHNGYTR5SUtaRHltZWxKQ0dxU0FCZU1zQQ?oc=5",
       "pubDate": "Fri, 28 Aug 2026 09:51:54 GMT",
-      "description": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越Uniswap，上線不到一個月已佔Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 &nbsp;&nbsp; x.com",
+      "description": "Robinhood Chain 原生項目一覽！ 1️⃣ 市值 97M $PONS @ponsdotfamily | Memecoin Launchpad 單日收入超越 Uniswap，上線不到一個月已佔 Robinhood Chain 11% 總 DEX 交易量，透過 1% 交易稅與當前 Memecoin 熱度打造成一台高抽成印鈔機 2️⃣市值 83 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -598,7 +638,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "edd680c706e1d48a",
+      "id": "6aad6cc54a9aa4d4",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -659,26 +699,6 @@
       "score": 28,
       "priority": "B",
       "id": "3bce3c3b9b59dc90",
-      "rankReason": "市场相关；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "对robotaxi安全性充分信任 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wU3F1T3Q3THhBdmIySUZhdFczMTUzN2JVRlctUS1nVF9fM2lqZzhKYzJ5OGFGcGt1UWE4WTNzWVdMYk9NNV9ScUMwZEIzWkdxMzlJMWQ3QUJMWHJ4?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 00:33:29 GMT",
-      "description": "对robotaxi安全性充分信任 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 28,
-      "priority": "B",
-      "id": "dc1bcde6f3064db6",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -862,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-02T08:35:38.054Z"
+  "rankedAt": "2026-09-02T08:52:01.606Z"
 }

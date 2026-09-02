@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T08:35:38.365Z",
+  "generatedAt": "2026-09-02T08:52:01.861Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -125,6 +125,68 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41VExGZl8xNl9laFhoa01iREFSZTJwTE90TGxycnRxMHE5N1ZHNWFRd3dJWDRJem40SGVhNm9odGw5a1RMa1JSdWpPOEhFWlFHdDd0Xw?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:48:39 GMT",
+      "description": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "e889d09a51afe962",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HTklLTXY4M1NyWHk5VmJfLVhDWDF4S3hCQnF4d2ZrYTRaT0xEa0VsemRZUFlibWNKWVZQQVd2THFvWWZUQktBU29qLVFsaWlHTW1FUnIwSExFMUhzUXJfWWhRRnFWQQ?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
+      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "e5ab2ee345db15bb",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -677,68 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
-      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "736604837966b3fa",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片J…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pZ01sd2lVcU9iZTlRb1B2RjhRS3c2aExyNEhmaXNaMDF5UHFEWWFlSUdsSGNhcDFJanJGOTVEOFVVOXhRSlJpS3BVcHNQWnZGOHBZXzl5TVllRDhZNjNHWlh6S3FhQ0E?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 23:28:00 GMT",
-      "description": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後7 天平均下 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "248aba99c5027904",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM 分析 NVIDIA 過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
