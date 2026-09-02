@@ -1,21 +1,25 @@
 # Market Diary / 牛牛市场雷达
 
-Purpose: AI-assisted financial content operations dashboard for Futu content-operations interview work.
+Purpose: evidence-first financial content operations workbench for Hong Kong and US market coverage.
 
 This is NOT a trading journal and NOT an investment/trading tool.
 
-Core question: What 3–5 financial stories are most worth producing today, why do they matter, and what content format should they become?
+Core questions: What should be produced first today? Why does it matter? What can be written directly? What evidence supports it? What still needs verification?
 
 Workflow: source collection -> initial screening -> deduplication -> AI-assisted structuring -> human verification against primary sources -> editorial decision -> dashboard.
 
 Human verification is mandatory for key numbers, dates, and wording. AI is not treated as a factual source.
 
 Main views:
-- 今日雷达 / Daily Radar: top 3–5 editorial opportunities.
-- 事件详情 / Event Detail: conclusion, importance, affected users, content format, primary source, verification status.
-- 我的关注 / Watchlist: stocks, people, institutions, topics.
-- 每日精选 / Daily Briefs: morning, evening, weekly editorial rhythms.
-- 内容工作台 / Editorial Workbench: converts events into next content actions.
+- 今日 / Today: one verified event at a time, with a direct generate action.
+- 问一下 / Ask: natural-language lookup and structured brief, analysis, or community output.
+- 内容池 / Library: verified events and unverified candidates kept in separate layers.
+- 我的 / My: local-only watchlist, saved drafts, verified-data freshness, and source health.
+
+Data boundaries:
+- data/events.json: verified editorial events eligible for structured output.
+- data/candidates.json and data/ai-candidates.json: unverified leads; they may only produce verification checklists.
+- User watchlists and drafts stay in the local browser. The current site sends no visitor tracking data.
 
 Correction case: SHEIN. The system initially confused the Aug 28 trading-arrangement announcement date with the listing/trading date. Human verification returned to HKEX and corrected the planned trading date to Sep 1, 2026.
 

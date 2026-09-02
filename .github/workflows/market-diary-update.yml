@@ -1,5 +1,9 @@
 name: Market Diary hourly update
 
+concurrency:
+  group: market-diary-hourly-update
+  cancel-in-progress: false
+
 on:
   workflow_dispatch:
   push:
@@ -36,15 +40,13 @@ jobs:
       - name: Syntax check
         run: |
           node --check market-diary/app.js
-          node --check market-diary/analytics.js
-          node --check market-diary/futu-copy.js
-          node --check market-diary/source-monitor.js
-          node --check market-diary/case-studies.js
-          node --check market-diary/product-upgrades.js
+          node --check market-diary/sw.js
           node --check market-diary/scripts/update-candidates.mjs
           node --check market-diary/scripts/rank-candidates.mjs
           node --check market-diary/scripts/collect-sec-watchlist.mjs
           node --check market-diary/scripts/enrich-candidates.mjs
+          node --check market-diary/scripts/test-frontend.mjs
+          node market-diary/scripts/test-frontend.mjs
       - name: Update candidate pool
         run: node market-diary/scripts/update-candidates.mjs
       - name: Editorial ranking gate
@@ -63,4 +65,5 @@ jobs:
           git config user.email "market-diary-bot@users.noreply.github.com"
           git add market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json market-diary/data/sec-watchlist.json
           git commit -m "data: refresh Market Diary intelligence pool"
+          git pull --rebase origin main
           git push

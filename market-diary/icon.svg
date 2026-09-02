@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="牛牛市场雷达图标">
+  <defs>
+    <linearGradient id="g" x1="72" y1="52" x2="438" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8be8b4"/>
+      <stop offset="1" stop-color="#3fbd7b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="124" fill="#0d1f17"/>
+  <path d="M112 358V154h66l78 116 78-116h66v204h-68V258l-76 108-76-108v100z" fill="url(#g)"/>
+  <circle cx="398" cy="112" r="26" fill="#e8fff1"/>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "name": "牛牛市场雷达｜Market Diary",
+  "short_name": "市场雷达",
+  "description": "把已核验的港美股市场信息快速变成可直接使用的财经内容。",
+  "lang": "zh-CN",
+  "start_url": "./#radar",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f5",
+  "theme_color": "#0d1f17",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
