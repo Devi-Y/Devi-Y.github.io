@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-02T09:36:05.579Z",
+  "generatedAt": "2026-09-02T14:28:00.292Z",
   "windowDays": 7,
   "summary": {
-    "total": 42,
+    "total": 43,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
-      "人物": 4,
+      "人物": 5,
       "资金": 0,
       "热点": 36
     },
     "byTrust": {
       "A": 4,
-      "B": 2,
+      "B": 3,
       "C": 36
     },
     "s": 0,
-    "a": 2,
+    "a": 3,
     "b": 40
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
@@ -40,6 +40,26 @@
       "priority": "A",
       "id": "4ebe94f325be4530",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型"
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "持仓",
+      "title": "Sam Altman稱AI資料中心耗水疑慮被誇大 但難以消除 - Business Insider Taiwan",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nYjlwTVpQbWQzS1hDMXZMS3NHTGhBNTJTNGx3ckpUSVJfajFxbTdaMkxtNWZlWmMxM05ab1dYWWVwWFNYVkZlMEhBNmhmNUloLXprdTBR?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 00:20:17 GMT",
+      "description": "Sam Altman稱AI資料中心耗水疑慮被誇大 但難以消除 &nbsp;&nbsp; Business Insider Taiwan",
+      "source": "Business Insider Taiwan",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 77,
+      "priority": "A",
+      "id": "a4f042687c69d5cf",
+      "rankReason": "高影响事件词；关键人物；公开资金信号"
     },
     {
       "market": "港股",
@@ -105,10 +125,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41VExGZl8xNl9laFhoa01iREFSZTJwTE90TGxycnRxMHE5N1ZHNWFRd3dJWDRJem40SGVhNm9odGw5a1RMa1JSdWpPOEhFWlFHdDd0Xw?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 02:48:39 GMT",
-      "description": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 &nbsp;&nbsp; x.com",
+      "title": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq - x.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kV2xUX1BEVENRVV85aXU3S2RGQ0pvZ2xYMUdVZWlqVkJpa2Y5YkxCeWZqVEpnc2lSQVRtVEVxUVVVbEJpX21FS2o3M1ZHSG9sa1dXY3VBSXJSVHo4VUp4cUlwX1pYc0VSak9n?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 07:16:45 GMT",
+      "description": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -118,7 +138,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 55,
       "priority": "B",
-      "id": "e889d09a51afe962",
+      "id": "d739763626987748",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -200,26 +220,6 @@
       "priority": "B",
       "id": "84367de81adc0c15",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
-      "pubDate": "Tue, 1 Sep 2026 13:05:00 GMT",
-      "description": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 49,
-      "priority": "B",
-      "id": "ae698e2689958648",
-      "rankReason": "一级/官方信源；关键人物"
     },
     {
       "market": "全球",
@@ -360,6 +360,26 @@
       "priority": "B",
       "id": "bc5f48ea5601333b",
       "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
+      "pubDate": "Tue, 1 Sep 2026 13:05:00 GMT",
+      "description": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 46,
+      "priority": "B",
+      "id": "ae698e2689958648",
+      "rankReason": "一级/官方信源；关键人物"
     },
     {
       "market": "全球",
@@ -862,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-02T09:36:06.118Z"
+  "rankedAt": "2026-09-02T14:28:01.786Z"
 }
