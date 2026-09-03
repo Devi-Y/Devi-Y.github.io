@@ -35,9 +35,60 @@ const testContext = vm.createContext({
   testHooks,
   document: { addEventListener() {} }
 });
-vm.runInContext(app + '\nObject.assign(testHooks, { state, findBestItem, findComparePair, normalizeFormat });', testContext);
+vm.runInContext(app + '\nObject.assign(testHooks, { state, findBestItem, findComparePair, normalizeFormat, bindEvents, route });', testContext);
 testHooks.state.events = events.events;
 testHooks.state.candidates = [];
+
+function fakeElement(id, dataset = {}) {
+  const classes = new Set();
+  return {
+    id,
+    dataset,
+    classList: {
+      toggle(name, active) { active ? classes.add(name) : classes.delete(name); },
+      contains(name) { return classes.has(name); }
+    },
+    style: {},
+    scrollHeight: 48,
+    value: '',
+    hidden: false,
+    innerHTML: '',
+    textContent: '',
+    addEventListener() {},
+    setAttribute() {},
+    removeAttribute() {}
+  };
+}
+
+const legacyIds = [
+  'page-title', 'prev-event', 'next-event', 'back-btn', 'refresh-btn', 'ask-form', 'ask-input',
+  'library-search', 'scope-filters', 'market-filters', 'type-filters', 'library-count', 'clear-filters',
+  'library-list', 'watch-form', 'watch-type', 'watch-input', 'example-watchlist', 'focus-stage'
+];
+const legacyElements = new Map(legacyIds.map(id => [id, fakeElement(id)]));
+const legacyPages = ['radar', 'workbench', 'library', 'my', 'detail'].map(page => fakeElement('page-' + page));
+const legacyNav = ['radar', 'workbench', 'library', 'my'].map(page => fakeElement('nav-' + page, { page }));
+for (const element of [...legacyPages, ...legacyNav]) legacyElements.set(element.id, element);
+testContext.document = {
+  title: '',
+  addEventListener() {},
+  querySelector(selector) {
+    if (selector === '.page.active') return legacyPages.find(page => page.classList.contains('active')) || null;
+    return selector.startsWith('#') ? legacyElements.get(selector.slice(1)) || null : null;
+  },
+  querySelectorAll(selector) {
+    if (selector === '.page') return legacyPages;
+    if (selector === '.nav-item') return legacyNav;
+    return [];
+  }
+};
+testContext.window = { addEventListener() {}, scrollTo() {} };
+testContext.location = { hash: '#market', href: 'https://example.test/market-diary/#market' };
+testContext.history = { pushState() {}, replaceState() {} };
+testHooks.bindEvents();
+testHooks.route('market', { fromHistory: true, instant: true });
+assert(legacyElements.get('page-library').classList.contains('active'), 'cached legacy market page must remain visible with the new script');
+assert(legacyElements.get('nav-library').classList.contains('active'), 'cached legacy market navigation must remain active with the new script');
 
 const requiredIds = [
   'page-radar',
@@ -66,9 +117,11 @@ assert(app.includes("register('./sw.js')"), 'service worker registration is requ
 assert(app.includes("cache: fresh ? 'no-store' : 'no-cache'"), 'data requests must revalidate online');
 assert(app.includes("library: 'market'") && app.includes("content: 'market'"), 'legacy content routes must map to market');
 assert(app.includes("raw === 'library' || raw === 'content'") && app.includes("state.marketView = 'events'"), 'legacy content routes must open the market event list');
+assert(app.includes("page === 'market' && !$('#page-market') && $('#page-library')") && app.includes("navPage === 'market' && button.dataset.page === 'library'"), 'new scripts must keep cached legacy market markup navigable during upgrades');
 assert(app.includes("raw.match(/^event\\/(.+)$/)") && app.includes("'#event/' + encodeURIComponent(state.selected.id)"), 'event detail routes must be shareable and restorable');
 assert(app.includes('data-copy-event-link'), 'event detail must offer a copy-link action');
 assert(app.includes('function findComparePair') && app.includes('peer: comparePair ? comparePair[1] : null'), 'explicit comparison queries must preserve both matched events');
+assert(app.includes("const compareA = $('#compare-a')") && app.includes('if (compareA)') && app.includes("const compareB = $('#compare-b')") && app.includes('if (compareB)'), 'new controls must be guarded while a cached legacy page upgrades');
 assert(app.includes('peerId: peer ? peer.id') && app.includes('eventItem.id === draft.peerId'), 'saved comparisons must preserve their second event');
 assert(app.includes("['事件日期', fullDate(first.date), fullDate(second.date)]"), 'comparison dates must retain the year');
 assert(app.includes('const refreshedItem = pool.find') && app.includes('state.answer.peer = refreshedPeer'), 'data refresh must rebind the current answer to fresh event objects');
@@ -104,6 +157,14 @@ assert(!/analytics\.js|product-upgrades\.js|requestcatcher/i.test(html + app), '
 assert(!/visitor_id|md_viewer_label|MarketDiaryAnalytics/.test(app), 'persistent visitor tracking remains in active app');
 assert(css.includes('@media (prefers-reduced-motion: reduce)'), 'reduced-motion support is required');
 assert(sw.includes("key.startsWith(CACHE_PREFIX)"), 'service worker may only delete Market Diary caches');
+assert(sw.includes("SHELL.map(path => new Request(path, { cache: 'reload' }))"), 'service worker install must bypass stale HTTP cache');
+assert(sw.includes("cache: request.mode === 'navigate' ? 'reload' : 'no-cache'"), 'service worker network requests must revalidate deployed assets');
+assert(sw.includes('event.waitUntil(\n    network.then'), 'runtime cache writes must keep the service worker alive');
+assert(!sw.includes('ignoreSearch: true'), 'service worker must not mix differently versioned shell assets');
+const styleAsset = html.match(/href="(\.\/styles\.css\?v=[^"]+)"/)?.[1];
+const scriptAsset = html.match(/src="(\.\/app\.js\?v=[^"]+)"/)?.[1];
+assert(styleAsset && sw.includes("'" + styleAsset + "'"), 'service worker shell must cache the exact stylesheet version');
+assert(scriptAsset && sw.includes("'" + scriptAsset + "'"), 'service worker shell must cache the exact script version');
 assert(manifest.icons.some(icon => icon.sizes === '192x192' && icon.type === 'image/png'), '192px PNG icon is required');
 assert(manifest.icons.some(icon => icon.sizes === '512x512' && icon.type === 'image/png'), '512px PNG icon is required');
 await Promise.all(['icon-192.png', 'icon-512.png'].map(file => fs.access(path.join(root, file))));

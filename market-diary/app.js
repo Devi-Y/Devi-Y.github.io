@@ -192,13 +192,17 @@ function route(value, options = {}) {
   }
   if (page === 'detail' && !state.selected) page = 'radar';
 
+  const renderedPage = page === 'market' && !$('#page-market') && $('#page-library')
+    ? 'library'
+    : page;
   $$('.page').forEach(section => {
-    section.classList.toggle('active', section.id === 'page-' + page);
+    section.classList.toggle('active', section.id === 'page-' + renderedPage);
   });
 
   const navPage = page === 'detail' ? state.returnPage : page;
   $$('.nav-item').forEach(button => {
-    const active = button.dataset.page === navPage;
+    const active = button.dataset.page === navPage
+      || (navPage === 'market' && button.dataset.page === 'library');
     button.classList.toggle('active', active);
     if (active) button.setAttribute('aria-current', 'page');
     else button.removeAttribute('aria-current');
@@ -1609,15 +1613,21 @@ function bindEvents() {
     renderLibrary();
   });
 
-  $('#compare-a').addEventListener('change', event => {
-    state.compareA = event.target.value;
-    renderCompare();
-  });
+  const compareA = $('#compare-a');
+  if (compareA) {
+    compareA.addEventListener('change', event => {
+      state.compareA = event.target.value;
+      renderCompare();
+    });
+  }
 
-  $('#compare-b').addEventListener('change', event => {
-    state.compareB = event.target.value;
-    renderCompare();
-  });
+  const compareB = $('#compare-b');
+  if (compareB) {
+    compareB.addEventListener('change', event => {
+      state.compareB = event.target.value;
+      renderCompare();
+    });
+  }
 
   $('#clear-filters').addEventListener('click', () => {
     state.market = '全部';
