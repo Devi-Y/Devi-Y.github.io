@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-03T04:32:53.826Z",
+  "generatedAt": "2026-09-03T05:54:10.795Z",
   "windowDays": 7,
   "summary": {
-    "total": 40,
+    "total": 39,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
-      "人物": 5,
+      "人物": 3,
       "资金": 0,
-      "热点": 33
+      "热点": 34
     },
     "byTrust": {
       "A": 4,
-      "B": 3,
-      "C": 33
+      "B": 1,
+      "C": 34
     },
     "s": 0,
     "a": 2,
-    "b": 38
+    "b": 37
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -583,46 +583,6 @@
     },
     {
       "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Will Bitcoin, Ethereum and XRP Prices Pump or Dump After Kevin Warsh’s Jackson Hole Speech? - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR19vQjFHSWxjakxFZ09PSTMtYjhScklSOXJPRjFDVi1FVlZwLU1EYWZHRDZhc0hucllmdjNQX2lCbTBBS1g4RG1Iczh2NEszRDFVY0lqOC13Q3BrVHhDcUpIZ2NVN3NEUU5CTlpDdy1qMmlNaFpVa0Y0TDA0LVhDSDd3NXVCalpjOWpPdmt4TkhHQzBPX044NTcxa2pxeFYxMVhsOXVHajJ6d3BYQ1RuV2hIWXFSYnB0QWNlYlRjQTU2WnZQZnlaT1NPU2o0ODlOOXhobEZFcm9NTlBHaVdsNWVB?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 11:59:25 GMT",
-      "description": "Will Bitcoin, Ethereum and XRP Prices Pump or Dump After Kevin Warsh’s Jackson Hole Speech? &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 33,
-      "priority": "B",
-      "id": "12b8f3bcd980c2db",
-      "rankReason": "关键人物"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Mohamed El-Erian Says Kevin Warsh Faces Jackson Hole Balancing Act Between ‘Reaction Function’ And ‘Original Secular Spirit’ - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQLUhJcU9XcGFadlJXMVdjNGpKUldoSTkzZWhoZHpNeDZaaW1zc3RxUUhZektvUXZjQTczdEJYR2FBME5UUEhVYkNOSzlDLU1feTZTZXZQZV9rS3VvQkZISE5SYlpFNzZJcjVaQ29ZQmo3UVZjUGpxWDBLRWVYS0luQXBWYzVDRWxMZGZMNnlGa2hoSl9XOTZvakNsbTVmVEJDS1M2TEs5UDk3TkFSWjBmbEVsNldlcVRmV0d5YUcxYlh5UGJtYzBVNlhzX25DczF6aFlqcWZ0MUhpYnBhRjJpVmFqMC1QRGZsckQ2bzRtV284M0drbkxWelJLNUtLUHlSMXRseXlBbVNQWTd5?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 13:25:51 GMT",
-      "description": "Mohamed El-Erian Says Kevin Warsh Faces Jackson Hole Balancing Act Between ‘Reaction Function’ And ‘Original Secular Spirit’ &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 33,
-      "priority": "B",
-      "id": "87a9b3abc077f421",
-      "rankReason": "关键人物"
-    },
-    {
-      "market": "全球",
       "signal": "热点",
       "type": "公司事件",
       "title": "对robotaxi安全性充分信任 - x.com",
@@ -764,11 +724,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "X-এ Intl Econ Observe (@IEObserve) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HZm0zV2VQT0NheWozQXVBdC0yUnUxQ3ZXUVRRcmtkMEdpV0wyY1ZpS2t2RExIdndyWXNjQ0FITTFVbllGUEUyQkdsb0pTYlZ0TXd1TjRRNA?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 05:43:52 GMT",
-      "description": "X-এ Intl Econ Observe (@IEObserve) &nbsp;&nbsp; x.com",
+      "type": "宏观",
+      "title": "美聯儲主席沃什沃什闡述 貨幣政策關鍵指導原則 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UXVRazE4cWFrMXFFWU1hejFCVzRLMlc3UzJQcDdMSHg1cHFTOHVvZ04xbjdpOWdiZkI4SWZkQmF4b05SMjlwUWlQd3JfQkJtZnI1ZFZWbDc1SUx3eFR3a0JkS1Z5c3FoZk5jag?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 18:02:59 GMT",
+      "description": "美聯儲主席沃什沃什闡述 貨幣政策關鍵指導原則 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -776,9 +736,9 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
+      "score": 14,
       "priority": "B",
-      "id": "9d204cc6c48784fb",
+      "id": "da8877406ac161ab",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -820,7 +780,27 @@
       "priority": "B",
       "id": "9c69358dbbbcfd01",
       "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "X-এ Intl Econ Observe (@IEObserve) - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HZm0zV2VQT0NheWozQXVBdC0yUnUxQ3ZXUVRRcmtkMEdpV0wyY1ZpS2t2RExIdndyWXNjQ0FITTFVbllGUEUyQkdsb0pTYlZ0TXd1TjRRNA?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 05:43:52 GMT",
+      "description": "X-এ Intl Econ Observe (@IEObserve) &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "9d204cc6c48784fb",
+      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-03T04:32:54.397Z"
+  "rankedAt": "2026-09-03T05:54:12.962Z"
 }
