@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T00:13:50.353Z",
+  "generatedAt": "2026-09-03T04:32:54.761Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -256,6 +256,68 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
+      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yWElMcHdEbURXVXp1V0JfRHd6bUR3aWRRLXJ4TWQ1QTlVc0RjR3hJemNCZW5nczNGWW9RV3RvSGlGOXJueHQ2ZTNOdmZNQnJDa3I3dDVTaVlueklWZ0ZlbUhkT0F4a3dkUi1WVHRBWDY?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
+      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "646433df810b7462",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41VExGZl8xNl9laFhoa01iREFSZTJwTE90TGxycnRxMHE5N1ZHNWFRd3dJWDRJem40SGVhNm9odGw5a1RMa1JSdWpPOEhFWlFHdDd0Xw?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:48:39 GMT",
+      "description": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "e889d09a51afe962",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
       "title": "🔥 SHEIN（希音）PRE-IPO 提前購正式開放！ 作為全球知名的時尚電商平台，SHEIN 業務遍及多個國際市場，憑藉快速上新、供應鏈與線上零售模式，成為全球時尚電商市場的重要品牌之一 現在不用等到正式 IPO，MEXC 已開放 SHEIN PRE-IPO 提前購！ ⏰ 認購至 8/3 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WZUhCWjBxQlVzZlVKS1pEeS1tNHhraVlUbEw3bW1tNjNoakxwbjVQSHkwb0ZiZk9ueEkxVlBFSGwxMkE4aWVyRlJZLUc0aXQ1SzcxUWszbW80a00?oc=5",
       "pubDate": "Fri, 28 Aug 2026 08:34:42 GMT",
@@ -309,6 +371,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13Sl9CNldtYjlDR3lnbnRjNTA5eGpDd1JYa1FSVzdKeFM0NmJlQ1JaUDBiQzBJaDRsOUp1N0tzUHpGUkh2bnlMNHN3aWs5enVjTk1GeA?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 02:41:04 GMT",
+      "description": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "109a9758ea996857",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TA…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -442,6 +535,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcGY1MENUaUJGSEJUMm5RaGZaOXBBbUtGMmlxcm9uVjJpSFFVd1R6MlYxVmRFazc0NU9CeFdjcW1vVUExWFhPN1BpM0wtZHZWQVhZNQ?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 10:27:13 GMT",
+      "description": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "d80c52a32719f8e3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xYldpU2RaYk9GZ2RVMDRiSDI2emxqdGFNVmhSZjFhNUctYkVYVzB2bEo1aVdUN0pUQ3hiZ0tEUi0wSDczS3k4aXFVSmp3bHE3ZnlFcUt3SC1tMVpsN3NJdkhENUs3ZTJf?oc=5",
       "pubDate": "Tue, 01 Sep 2026 06:59:00 GMT",
@@ -534,37 +658,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "英偉達 (NVDA) F2Q27 業績會摘要 F2Q 業績略超預期 - 收入：USD 96.2bn（+18% QoQ，+106% YoY），廣發 94.5bn、彭博 92.3bn、買方 94.6bn - 資料中心收入：USD 89bn - 毛利率：75%，廣發 75.1%、彭博 75% - EPS：$2.22，廣發 $2.15、彭博 $2.09、買方 $2.18 F3 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04cVNlSzlfMXB5ZTFfTHZLZHAyQ0lBMUcxbFRPT2FHRjl4NjAxRXVwTXVMR05XdVVrMXN5NWExdWJSak4zRmFNekNxV1JvdnhQamZ0OHpfa0Jlc0pfNWJRd1hHSTh3ZGJD?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 01:28:31 GMT",
-      "description": "英偉達 (NVDA) F2Q27 業績會摘要 F2Q 業績略超預期 - 收入：USD 96.2bn（+18% QoQ，+106% YoY），廣發 94.5bn、彭博 92.3bn、買方 94.6bn - 資料中心收入：USD 89bn - 毛利率：75%，廣發 75.1%、彭博 75% - EPS：$2.22，廣發 $2.15、彭博 $2.09、買方 $2.18 F3 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "968eead93b6bcce2",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "英偉達 (NVDA) F2Q27 業績會摘要 F2Q 業績略超預期 - 收入：USD 96.2bn（+18% …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
@@ -584,37 +677,6 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia（$NVDA）財務長談「循環融資」： Nvidia 已在前沿 AI 實驗室投資近 500 億美元。 OpenAI 現有及計劃中的承諾相當於約 12 GW 的 Nvidia 運算能力，而 Nvidia 將為另一家前沿 AI 實驗室提供近 2 GW 的選擇性信用支持。 「我們預期，那些我們打算動用資產負債表 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUFFjQ2J1eENmc2Q4MEJCRXNBZWYwNmlfZjdKWUlramJYY3RTTDlJZmdPeWtEWFhWc0ZDOGRkeHgtVS1VQVVqWEw5TnhJQ0tmOTJLUjQ0ZVQxbHJyWUE?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 02:48:00 GMT",
-      "description": "Nvidia（$NVDA）財務長談「循環融資」： Nvidia 已在前沿 AI 實驗室投資近 500 億美元。 OpenAI 現有及計劃中的承諾相當於約 12 GW 的 Nvidia 運算能力，而 Nvidia 將為另一家前沿 AI 實驗室提供近 2 GW 的選擇性信用支持。 「我們預期，那些我們打算動用資產負債表 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "eac1d827d39deb52",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Nvidia（$NVDA）財務長談「循環融資」： Nvidia 已在前沿 AI 實驗室投資近 500 億美元。…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -659,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "title": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnOXdhVkFWTWE1T0l3dzdsVHpLMFA4dTJJUUhMRGFqcHlwS20zRXRKbWV6V3YwYzFySURCTUVTMTlwS3dKVmVObFRlaEZ5bmhyRFozSEtCVGZXUUVNRUQ4YWRZNlZPWWM?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 10:36:52 GMT",
+      "description": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片Jalapeño ，並宣稱在部分推論測試中，功耗效率與延遲表現優於$NVDA 的 GB300 ，會不會覺得被冒犯？ $NVDA Jensen Huang “I don’t have to take anything personally” AI 晶 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -672,73 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "35dbbb1066754903",
+      "id": "736604837966b3fa",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 中國整體銷售額達78.8億美元，近乎翻倍，主因 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BRGFBRnhxNW94anZSc0xQamx2RjFDMkpkTjFYUTdHd2RVdVE0NlZleWxtbVJ0RGR0aDhUY2tsTHI1THo0eDJ3SHFFaTZTc2pnUFBWRGczOWJUVTdoNmc?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 02:00:34 GMT",
-      "description": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不到1%，遠低於特朗普1月批准的許可量。因北京異議未能足額出貨，過去半年因需求疲軟計提4億美元庫存減值。 中國整體銷售額達78.8億美元，近乎翻倍，主因 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d5b8b7537363681d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "英偉達( $NVDA )周三財報披露，截至7月26日的季度首次向中國出售少量H200芯片，但僅占數據中心收入不…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRmFQUDdUN2NFbWMwMlJvUzloNTVzb0NLdXFiSTdzcnE4SjRBVjJQZjJoTnRvSkNXS2xIMFNZb3NMWXlUMjAwTDBkcElpTjZyT3dVODlabllTZUhBTXhiWlROdU5uM1U?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 01:02:46 GMT",
-      "description": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是由於市場期待值過高以及對新產品週期的恐懼。 1. 過去四季中，營收指引平均超出市場共識 4%。 2. 財報發布後的股價表現呈現短期慣性回檔，發布後 7 天平均下 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "23be588c96bfbb19",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM 分析 $NVDA過去幾季的表現，市場存在「業績超預期但股價短期回調」的矛盾現象，這主要是…",
+        "summary": "$NVDA Cramer $NVDA 對 OpenAI 有大額投資，現在客戶自己找$AVGO 開發的推論晶片J…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
