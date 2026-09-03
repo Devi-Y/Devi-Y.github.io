@@ -1,11 +1,11 @@
 'use strict';
 
 const CACHE_PREFIX = 'market-diary-';
-const CACHE = CACHE_PREFIX + 'shell-v7';
+const CACHE = CACHE_PREFIX + 'shell-v8';
 const SHELL = [
   './',
   './index.html',
-  './styles.css?v=20260903-2',
+  './styles.css?v=20260903-3',
   './app.js?v=20260903-2',
   './icon.svg',
   './icon-192.png',
