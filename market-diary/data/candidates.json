@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-03T06:08:24.076Z",
+  "generatedAt": "2026-09-03T06:14:09.909Z",
   "windowDays": 7,
   "summary": {
-    "total": 38,
+    "total": 39,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
       "人物": 3,
       "资金": 0,
-      "热点": 33
+      "热点": 34
     },
     "byTrust": {
       "A": 4,
       "B": 1,
-      "C": 33
+      "C": 34
     },
     "s": 0,
     "a": 2,
-    "b": 36
+    "b": 37
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -725,6 +725,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
+      "title": "美聯儲主席沃什沃什闡述 貨幣政策關鍵指導原則 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UXVRazE4cWFrMXFFWU1hejFCVzRLMlc3UzJQcDdMSHg1cHFTOHVvZ04xbjdpOWdiZkI4SWZkQmF4b05SMjlwUWlQd3JfQkJtZnI1ZFZWbDc1SUx3eFR3a0JkS1Z5c3FoZk5jag?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 18:02:59 GMT",
+      "description": "美聯儲主席沃什沃什闡述 貨幣政策關鍵指導原則 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "da8877406ac161ab",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
       "title": "美聯儲主席沃什 解析當前經濟與通脹影響 美東8月28日上午10:00，懷俄明州傑克遜霍爾，美聯儲主席凱文·沃什在2026年傑克遜霍爾經濟政策研討會上發表講話是市場矚目的焦點。新唐人、大紀元進行網絡直播，中文字幕翻譯。 本屆主題為「金融創新：對支付與政策的影 - x.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41b0praE5SZ1R5blRYR0JxeGh0by15S2dJbHRtQ1dfdk9MWlBlVzdmMk0zUXBmR3UtcFNuaVlZZFdxYnVTVm1rT3JvNUJXNlVPT2Z5c0owWDJtOWtIRTRWVE1KYzk1eGFsTEVXRw?oc=5",
       "pubDate": "Sat, 29 Aug 2026 18:11:36 GMT",
@@ -782,5 +802,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-03T06:08:25.648Z"
+  "rankedAt": "2026-09-03T06:14:10.336Z"
 }
