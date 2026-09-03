@@ -1,7 +1,7 @@
 {
   "name": "牛牛市场雷达｜Market Diary",
   "short_name": "市场雷达",
-  "description": "把已核验的港美股市场信息快速变成可直接使用的财经内容。",
+  "description": "先看懂港美股重要事件，再追问、比较并生成可核验的财经内容。",
   "lang": "zh-CN",
   "start_url": "./#radar",
   "scope": "./",

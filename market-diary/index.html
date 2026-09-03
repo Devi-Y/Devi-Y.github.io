@@ -8,17 +8,17 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="市场雷达" />
-  <meta name="description" content="牛牛市场雷达 Market Diary：把已核验的港美股市场信息，快速变成可直接使用的财经内容。" />
+  <meta name="description" content="牛牛市场雷达 Market Diary：先看懂港美股重要事件，再追问、比较并生成可核验的财经内容。" />
   <meta name="robots" content="index,follow" />
   <meta property="og:title" content="牛牛市场雷达｜Market Diary" />
-  <meta property="og:description" content="先看今天最重要的事，再一键生成快讯、解读或社区讨论稿。" />
+  <meta property="og:description" content="先看今天最重要的事，再追问、比较并生成有依据的财经内容。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://devi-y.github.io/market-diary/" />
   <link rel="canonical" href="https://devi-y.github.io/market-diary/" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="./icon-192.png" />
   <link rel="manifest" href="./manifest.webmanifest" />
-  <link rel="stylesheet" href="./styles.css?v=20260902-4" />
+  <link rel="stylesheet" href="./styles.css?v=20260903-1" />
   <title>牛牛市场雷达｜Market Diary</title>
 </head>
 <body>
@@ -38,8 +38,8 @@
         <button class="nav-item" type="button" data-page="workbench">
           <span class="nav-icon" aria-hidden="true">✦</span><span>问一下</span>
         </button>
-        <button class="nav-item" type="button" data-page="library">
-          <span class="nav-icon" aria-hidden="true">▦</span><span>内容池</span>
+        <button class="nav-item" type="button" data-page="market">
+          <span class="nav-icon" aria-hidden="true">↗</span><span>市场</span>
         </button>
         <button class="nav-item" type="button" data-page="my">
           <span class="nav-icon" aria-hidden="true">○</span><span>我的</span>
@@ -68,9 +68,29 @@
 
       <section id="page-radar" class="page active" aria-labelledby="radar-heading">
         <header class="page-heading focus-heading">
-          <div><p class="kicker">今日焦点</p><h2 id="radar-heading">一屏只看一件最重要的事</h2><p>往下切换事件，看到值得做的就直接生成内容。</p></div>
-          <button class="text-button desktop-only" type="button" data-route-link="library">查看全部</button>
+          <div><p class="kicker">今日罗盘</p><h2 id="radar-heading">先看结论，再按需深入</h2><p>重要事件、下一节点和待核验线索各归其位。</p></div>
+          <button class="text-button desktop-only" type="button" data-market-action="events" data-market-scope="verified">查看全部事件</button>
         </header>
+
+        <div class="task-launcher" aria-label="常用任务">
+          <button type="button" data-home-action="brief">
+            <span aria-hidden="true">☷</span><strong>当前简报</strong><small>三条已核验重点</small>
+          </button>
+          <button type="button" data-market-action="compare">
+            <span aria-hidden="true">⇄</span><strong>事件对比</strong><small>同口径看差异</small>
+          </button>
+          <button type="button" data-market-action="calendar">
+            <span aria-hidden="true">□</span><strong>事件日历</strong><small>盯住下一节点</small>
+          </button>
+          <button type="button" data-library-scope="candidate">
+            <span aria-hidden="true">◇</span><strong>等待核验</strong><small>线索不当事实</small>
+          </button>
+        </div>
+
+        <div class="section-heading compact-heading">
+          <div><p class="kicker">今日主线</p><h3>现在最值得看的一件事</h3></div>
+          <span id="today-date" class="section-aside"></span>
+        </div>
 
         <div id="focus-stage" class="focus-stage" aria-live="polite" aria-busy="true">
           <div class="focus-skeleton" aria-label="正在加载今日焦点"></div>
@@ -81,6 +101,14 @@
           <div id="feed-progress" class="feed-progress" aria-label="事件进度"></div>
           <button id="next-event" class="round-button" type="button" aria-label="下一条事件">↓</button>
         </div>
+
+        <section class="daily-brief-section" aria-labelledby="daily-brief-heading">
+          <div class="section-heading">
+            <div><p class="kicker">最近更新</p><h3 id="daily-brief-heading">当前三条已核验重点</h3></div>
+            <button class="text-button" type="button" data-market-action="events" data-market-scope="verified">全部事件</button>
+          </div>
+          <div id="daily-brief" class="daily-brief" aria-live="polite"></div>
+        </section>
 
         <section class="quick-ask" aria-labelledby="quick-ask-heading">
           <div><p class="kicker">不想自己找</p><h3 id="quick-ask-heading">直接问一句</h3></div>
@@ -112,7 +140,7 @@
           <div class="suggested-prompts" aria-label="示例问题">
             <button type="button" data-prompt="今天最值得写什么？">今天最值得写什么？</button>
             <button type="button" data-prompt="把 NVDA 财报写成快讯">NVDA 财报快讯</button>
-            <button type="button" data-prompt="SHEIN 上市适合怎么写？">SHEIN 上市怎么写？</button>
+            <button type="button" data-prompt="把 SHEIN 和梅卡曼德上市事件做对比">两个 IPO 对比</button>
           </div>
 
           <p class="assistant-boundary"><span aria-hidden="true">✓</span> 已核验事件可生成成稿；自动候选只生成核验清单。</p>
@@ -127,26 +155,70 @@
         </div>
       </section>
 
-      <section id="page-library" class="page" aria-labelledby="library-heading">
-        <header class="page-heading library-heading">
-          <div><p class="kicker">内容池</p><h2 id="library-heading">找事件，也看证据状态</h2><p>已核验内容与自动候选严格分层。</p></div>
+      <section id="page-market" class="page" aria-labelledby="market-heading">
+        <header class="page-heading market-heading">
+          <div><p class="kicker">市场</p><h2 id="market-heading">先看市场在反映什么</h2><p>从已核验事件出发，看主线、时间线和关键差异。</p></div>
         </header>
 
-        <div class="library-tools">
-          <label class="search-field" for="library-search">
-            <span aria-hidden="true">⌕</span>
-            <input id="library-search" type="search" placeholder="搜索股票、人物、主题或事件" autocomplete="off" />
-          </label>
-          <div id="scope-filters" class="filter-group" aria-label="证据状态筛选"></div>
-          <div class="filter-section">
-            <span>市场</span><div id="market-filters" class="chips" role="group" aria-label="市场筛选"></div>
-          </div>
-          <div class="filter-section">
-            <span>类型</span><div id="type-filters" class="chips" role="group" aria-label="内容类型筛选"></div>
-          </div>
-          <div class="filter-summary"><span id="library-count">正在加载</span><button id="clear-filters" class="text-button" type="button">清除筛选</button></div>
+        <div class="market-boundary" role="note">
+          <span aria-hidden="true">i</span>
+          <p><strong>当前是事件市场视图</strong>，不提供未经授权的实时行情、买卖信号或综合荐股排名。</p>
         </div>
-        <div id="library-list" class="library-list" aria-live="polite"></div>
+
+        <div id="market-summary" class="market-summary" aria-live="polite"></div>
+
+        <div class="market-tabs" role="tablist" aria-label="市场视图">
+          <button type="button" class="active" role="tab" aria-selected="true" data-market-view="overview">总览</button>
+          <button type="button" role="tab" aria-selected="false" data-market-view="events">事件</button>
+          <button type="button" role="tab" aria-selected="false" data-market-view="compare">对比</button>
+        </div>
+
+        <div id="market-panel-overview" class="market-panel" data-market-panel="overview">
+          <div class="market-overview-grid">
+            <section class="market-card market-story-card" aria-labelledby="market-story-heading">
+              <div class="section-heading"><div><p class="kicker">影响链</p><h3 id="market-story-heading">一件事如何传导</h3></div><span class="analysis-label">含编辑判断</span></div>
+              <div id="market-story"></div>
+            </section>
+            <section class="market-card" aria-labelledby="market-calendar-heading">
+              <div class="section-heading"><div><p class="kicker">下一节点</p><h3 id="market-calendar-heading">接下来盯什么</h3></div></div>
+              <div id="market-calendar"></div>
+            </section>
+          </div>
+          <section class="market-card market-lanes" aria-labelledby="market-lanes-heading">
+            <div class="section-heading"><div><p class="kicker">值得核验</p><h3 id="market-lanes-heading">按任务进入，不用学术语</h3></div></div>
+            <div id="market-lane-list" class="market-lane-list"></div>
+          </section>
+        </div>
+
+        <div id="market-panel-events" class="market-panel" data-market-panel="events" hidden>
+          <div class="library-tools">
+            <label class="search-field" for="library-search">
+              <span aria-hidden="true">⌕</span>
+              <input id="library-search" type="search" placeholder="搜索股票、人物、主题或事件" autocomplete="off" />
+            </label>
+            <div id="scope-filters" class="filter-group" aria-label="证据状态筛选"></div>
+            <div class="filter-section">
+              <span>市场</span><div id="market-filters" class="chips" role="group" aria-label="市场筛选"></div>
+            </div>
+            <div class="filter-section">
+              <span>类型</span><div id="type-filters" class="chips" role="group" aria-label="内容类型筛选"></div>
+            </div>
+            <div class="filter-summary"><span id="library-count">正在加载</span><button id="clear-filters" class="text-button" type="button">清除筛选</button></div>
+          </div>
+          <div id="library-list" class="library-list" aria-live="polite"></div>
+        </div>
+
+        <div id="market-panel-compare" class="market-panel" data-market-panel="compare" hidden>
+          <section class="compare-shell" aria-labelledby="compare-heading">
+            <header class="section-heading"><div><p class="kicker">事件对比</p><h3 id="compare-heading">同一口径，看清关键差异</h3></div></header>
+            <div class="compare-pickers">
+              <label>事件 A<select id="compare-a" aria-label="选择第一个对比事件"></select></label>
+              <span aria-hidden="true">⇄</span>
+              <label>事件 B<select id="compare-b" aria-label="选择第二个对比事件"></select></label>
+            </div>
+            <div id="compare-output" class="compare-output" aria-live="polite"></div>
+          </section>
+        </div>
       </section>
 
       <section id="page-my" class="page" aria-labelledby="my-heading">
@@ -195,6 +267,6 @@
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <noscript><div class="noscript">需要启用 JavaScript 才能使用 Market Diary 工作台。</div></noscript>
-  <script src="./app.js?v=20260902-4"></script>
+  <script src="./app.js?v=20260903-1"></script>
 </body>
 </html>

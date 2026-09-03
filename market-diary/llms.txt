@@ -11,15 +11,19 @@ Workflow: source collection -> initial screening -> deduplication -> AI-assisted
 Human verification is mandatory for key numbers, dates, and wording. AI is not treated as a factual source.
 
 Main views:
-- 今日 / Today: one verified event at a time, with a direct generate action.
-- 问一下 / Ask: natural-language lookup and structured brief, analysis, or community output.
-- 内容池 / Library: verified events and unverified candidates kept in separate layers.
-- 我的 / My: local-only watchlist, saved drafts, verified-data freshness, and source health.
+- 今日 / Today: one current verified priority plus a clearly dated recent shortlist.
+- 问一下 / Ask: natural-language lookup and structured quick read, deep read, or event comparison.
+- 市场 / Market: event overview, next checkpoints, evidence-separated search, and metadata comparison; it is not a realtime quote terminal.
+- 我的 / My: local-only watchlist, saved drafts, dataset freshness, candidate-processing mode, and source health.
+
+Stable routes: #radar, #workbench, #market, #my, and shareable #event/<id>. Legacy #daily, #library, #content, and #watchlist routes remain compatible.
 
 Data boundaries:
 - data/events.json: verified editorial events eligible for structured output.
 - data/candidates.json and data/ai-candidates.json: unverified leads; they may only produce verification checklists.
+- Free-text key numbers are display-only and must not be ranked or treated as comparable metrics.
 - User watchlists and drafts stay in the local browser. The current site sends no visitor tracking data.
+- verified=true is currently an editorial state; verifiedAt and verifiedBy are not yet structured audit fields.
 
 Correction case: SHEIN. The system initially confused the Aug 28 trading-arrangement announcement date with the listing/trading date. Human verification returned to HKEX and corrected the planned trading date to Sep 1, 2026.
 

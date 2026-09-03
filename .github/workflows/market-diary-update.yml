@@ -56,6 +56,8 @@ jobs:
         run: node market-diary/scripts/collect-sec-watchlist.mjs
       - name: AI enrich candidates
         run: node market-diary/scripts/enrich-candidates.mjs
+      - name: Validate generated data
+        run: node market-diary/scripts/test-frontend.mjs
       - name: Commit data if changed
         run: |
           if git diff --quiet -- market-diary/data/candidates.json market-diary/data/ai-candidates.json market-diary/data/source-health.json market-diary/data/sec-watchlist.json; then

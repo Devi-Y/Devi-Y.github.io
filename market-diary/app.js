@@ -9,7 +9,7 @@ const STORAGE = {
 const pageNames = {
   radar: '今日',
   workbench: '问一下',
-  library: '内容池',
+  market: '市场',
   my: '我的',
   detail: '事件详情'
 };
@@ -17,7 +17,8 @@ const pageNames = {
 const routeAliases = {
   watchlist: 'my',
   daily: 'radar',
-  content: 'library'
+  library: 'market',
+  content: 'market'
 };
 
 const emptyWatchlist = { 股票: [], 人物: [], 机构: [], 主题: [] };
@@ -51,6 +52,9 @@ const state = {
   market: '全部',
   type: '全部',
   libraryQuery: '',
+  marketView: 'overview',
+  compareA: '',
+  compareB: '',
   watchlist: cloneWatchlist(emptyWatchlist),
   drafts: [],
   answer: null,
@@ -152,8 +156,40 @@ function normalizeRoute(value) {
   return pageNames[mapped] ? mapped : 'radar';
 }
 
+function decodeRouteId(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return '';
+  }
+}
+
+function itemFromRoute(id) {
+  const verified = state.events.find(item => String(item.id) === String(id));
+  if (verified) return { item: verified, kind: 'verified' };
+  const candidate = state.candidates.find(item => String(item.id) === String(id));
+  return candidate ? { item: candidate, kind: 'candidate' } : null;
+}
+
 function route(value, options = {}) {
-  let page = normalizeRoute(value);
+  const raw = String(value || '').replace(/^#/, '');
+  if (raw === 'library' || raw === 'content') {
+    state.marketView = 'events';
+    state.scope = 'verified';
+  }
+  const eventMatch = raw.match(/^event\/(.+)$/);
+  const eventId = eventMatch ? decodeRouteId(eventMatch[1]) : '';
+  const routedItem = eventId ? itemFromRoute(eventId) : null;
+  let page = eventMatch ? (routedItem ? 'detail' : 'radar') : normalizeRoute(raw);
+
+  if (routedItem) {
+    state.selected = routedItem.item;
+    state.selectedKind = routedItem.kind;
+  }
+  if (eventMatch && !routedItem && (state.data || state.candidateMeta) && location.hash !== '#radar') {
+    history.replaceState(null, '', '#radar');
+    showToast('这条事件已不在当前数据中');
+  }
   if (page === 'detail' && !state.selected) page = 'radar';
 
   $$('.page').forEach(section => {
@@ -169,10 +205,14 @@ function route(value, options = {}) {
   });
 
   $('#page-title').textContent = pageNames[page];
-  document.title = pageNames[page] + '｜牛牛市场雷达';
+  document.title = page === 'detail' && state.selected
+    ? state.selected.title + '｜牛牛市场雷达'
+    : pageNames[page] + '｜牛牛市场雷达';
 
   if (!options.fromHistory) {
-    const hash = '#' + page;
+    const hash = page === 'detail' && state.selected
+      ? '#event/' + encodeURIComponent(state.selected.id)
+      : '#' + page;
     if (location.hash !== hash) {
       if (options.replace) history.replaceState(null, '', hash);
       else history.pushState(null, '', hash);
@@ -180,7 +220,10 @@ function route(value, options = {}) {
   }
 
   if (page === 'detail') renderDetail();
-  if (page === 'library') renderLibrary();
+  if (page === 'market') {
+    renderMarket();
+    renderLibrary();
+  }
   if (page === 'my') {
     renderSavedDrafts();
     renderWatchlist();
@@ -214,7 +257,7 @@ function normalizeCandidate(item) {
     impact: [],
     userValue: '',
     contentDirection: ai.contentDirection || [],
-    suggestedAction: '先回到原始来源核验关键数字、日期与措辞，再决定是否进入正式内容池。',
+    suggestedAction: '先回到原始来源核验关键数字、日期与措辞，再决定是否进入已核验事件层。',
     market: item.market || '全球',
     type: item.type || '候选',
     signal: item.signal || '发现',
@@ -266,6 +309,80 @@ function sortedCandidates() {
   return state.candidates.slice().sort((a, b) => Number(b.priorityScore || 0) - Number(a.priorityScore || 0));
 }
 
+function dayDelta(item) {
+  const date = eventDay(item);
+  if (!date) return null;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return Math.round((date.getTime() - today.getTime()) / 86400000);
+}
+
+function relativeDay(item) {
+  const delta = dayDelta(item);
+  if (delta === null) return '时间待确认';
+  if (delta === 0) return '今天';
+  if (delta === 1) return '明天';
+  if (delta === -1) return '昨天';
+  if (delta > 1) return delta + '天后';
+  return Math.abs(delta) + '天前';
+}
+
+function shortDate(value) {
+  const date = new Date(String(value || '').slice(0, 10) + 'T00:00:00');
+  if (!Number.isFinite(date.getTime())) return '待确认';
+  return (date.getMonth() + 1) + '月' + date.getDate() + '日';
+}
+
+function fullDate(value) {
+  const date = new Date(String(value || '').slice(0, 10) + 'T00:00:00');
+  if (!Number.isFinite(date.getTime())) return '待确认';
+  return date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日';
+}
+
+function cleanAction(value) {
+  return String(value || '继续核验下一项关键事实。').replace(/^[SAB]级[｜|]\s*/u, '');
+}
+
+function findComparable(item) {
+  if (!item) return null;
+  return sortedEvents()
+    .filter(candidate => candidate.id !== item.id)
+    .map(candidate => {
+      const overlap = (candidate.impact || []).filter(value => (item.impact || []).includes(value)).length;
+      const score = (candidate.type === item.type ? 7 : 0) + (candidate.market === item.market ? 4 : 0) + overlap * 3;
+      return { candidate, score };
+    })
+    .sort((a, b) => b.score - a.score || dailyRankScore(b.candidate) - dailyRankScore(a.candidate))[0]?.candidate || null;
+}
+
+function comparisonRows(first, second) {
+  if (!first || !second) return [];
+  return [
+    ['市场', first.market, second.market],
+    ['类型', first.type, second.type],
+    ['事件日期', fullDate(first.date), fullDate(second.date)],
+    ['相对当前', relativeDay(first), relativeDay(second)],
+    ['来源', first.sourceName || '待补充', second.sourceName || '待补充'],
+    ['证据状态', (first.sourceTier || '待判断') + ' · ' + (first.confidence || '待定'), (second.sourceTier || '待判断') + ' · ' + (second.confidence || '待定')],
+    ['影响对象（编辑标注）', (first.impact || []).slice(0, 3).join('、') || '待判断', (second.impact || []).slice(0, 3).join('、') || '待判断'],
+    ['下一核验 / 内容动作', cleanAction(first.suggestedAction), cleanAction(second.suggestedAction)]
+  ];
+}
+
+function comparisonTableHtml(first, second) {
+  const rows = comparisonRows(first, second);
+  if (!rows.length) return '<div class="empty-state"><h3>还不能比较</h3><p>至少需要两条已核验事件。</p></div>';
+  return [
+    '<div class="comparison-table-wrap"><table class="comparison-table">',
+      '<thead><tr><th scope="col">维度</th><th scope="col">' + esc(first.title) + '</th><th scope="col">' + esc(second.title) + '</th></tr></thead>',
+      '<tbody>',
+        rows.map(row => '<tr><th scope="row">' + esc(row[0]) + '</th><td>' + esc(row[1]) + '</td><td>' + esc(row[2]) + '</td></tr>').join(''),
+      '</tbody>',
+    '</table></div>',
+    '<p class="compare-note">当前数据缺少统一数值口径，因此不比较大小、不做排名；影响对象属于编辑标注，不是原始信源结论。</p>'
+  ].join('');
+}
+
 async function loadData(options = {}) {
   if (state.loading) return;
   state.loading = true;
@@ -280,6 +397,7 @@ async function loadData(options = {}) {
   ]);
 
   let usedCache = false;
+  let answerExpired = false;
   if (results[0].status === 'fulfilled') {
     state.data = results[0].value;
     state.events = Array.isArray(state.data.events) ? state.data.events : [];
@@ -306,6 +424,19 @@ async function loadData(options = {}) {
   }
 
   state.health = results[2].status === 'fulfilled' ? results[2].value : null;
+  if (state.answer && state.answer.item) {
+    const pool = state.answer.item.verified ? state.events : state.candidates;
+    const refreshedItem = pool.find(item => item.id === state.answer.item.id);
+    const refreshedPeer = state.answer.peer && state.events.find(item => item.id === state.answer.peer.id);
+    if (refreshedItem && (!state.answer.peer || refreshedPeer)) {
+      state.answer.item = refreshedItem;
+      state.answer.peer = refreshedPeer || null;
+    } else {
+      state.answer = null;
+      state.answerText = '';
+      answerExpired = true;
+    }
+  }
   state.feedIndex = Math.min(state.feedIndex, Math.max(0, state.events.length - 1));
   state.selected = state.selected || state.events[0] || null;
   state.loading = false;
@@ -313,8 +444,22 @@ async function loadData(options = {}) {
   $('#refresh-btn').removeAttribute('aria-busy');
   $('#focus-stage').setAttribute('aria-busy', 'false');
   renderAll();
+  if (answerExpired) {
+    $('#assistant-output').innerHTML = '<div class="empty-state"><h3>原事件已不在最新数据中</h3><p>旧成稿已停止展示，请从“市场”重新选择已核验事件。</p><button class="source-link" type="button" data-market-action="events" data-market-scope="verified">去市场重新选择</button></div>';
+  }
+  if (/^#event\//.test(location.hash)) {
+    const eventId = decodeRouteId(location.hash.replace(/^#event\//, ''));
+    if (itemFromRoute(eventId)) {
+      route(location.hash, { fromHistory: true, instant: true });
+    } else {
+      history.replaceState(null, '', '#radar');
+      route('radar', { fromHistory: true, instant: true });
+      showToast('这条事件已不在当前数据中');
+    }
+  }
 
-  if (!state.events.length) showToast('已核验内容加载失败，请稍后重试');
+  if (answerExpired) showToast('原事件已不在最新数据中，请重新选择');
+  else if (!state.events.length) showToast('已核验内容加载失败，请稍后重试');
   else if (usedCache) showToast('网络不可用，已显示本机缓存');
   else if (fresh) showToast('数据已刷新');
 }
@@ -393,6 +538,147 @@ function changeFeed(direction) {
   renderFocus();
 }
 
+function renderDailyBrief() {
+  const host = $('#daily-brief');
+  const dateHost = $('#today-date');
+  if (dateHost) {
+    dateHost.textContent = new Date().toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'short' });
+  }
+  if (!host) return;
+  const events = sortedEvents().slice(0, 3);
+  host.innerHTML = events.length ? events.map((item, index) => [
+    '<button class="brief-row" type="button" data-open-event="' + esc(item.id) + '" data-kind="verified">',
+      '<span class="brief-index">0' + (index + 1) + '</span>',
+      '<span class="brief-copy"><small>' + esc(item.market + ' · ' + item.type + ' · ' + relativeDay(item)) + '</small><strong>' + esc(item.title) + '</strong></span>',
+      '<span class="brief-number">' + esc(item.keyNumber || '已核验') + '</span>',
+      '<span class="brief-arrow" aria-hidden="true">→</span>',
+    '</button>'
+  ].join('')).join('') : '<div class="empty-state"><h3>今日简报暂不可用</h3><p>自动候选不会代替已核验内容。</p></div>';
+}
+
+function renderMarketSummary(events) {
+  const host = $('#market-summary');
+  if (!host) return;
+  const markets = Array.from(new Set(events.map(item => item.market).filter(Boolean)));
+  const next = events
+    .filter(item => dayDelta(item) !== null && dayDelta(item) >= 0)
+    .sort((a, b) => dayDelta(a) - dayDelta(b) || dailyRankScore(b) - dailyRankScore(a))[0];
+  const cards = [
+    { label: '已核验事件', value: String(events.length), note: '可查看依据与生成内容' },
+    { label: '覆盖市场', value: String(markets.length), note: markets.join(' · ') || '暂无' },
+    { label: '下一节点', value: next ? shortDate(next.date) : '待更新', note: next ? next.title : '当前窗口没有未来事件' }
+  ];
+  host.innerHTML = cards.map(card => [
+    '<article class="market-stat">',
+      '<span>' + esc(card.label) + '</span>',
+      '<strong>' + esc(card.value) + '</strong>',
+      '<small>' + esc(card.note) + '</small>',
+    '</article>'
+  ].join('')).join('');
+}
+
+function renderMarketStory(events) {
+  const host = $('#market-story');
+  if (!host) return;
+  const item = events[0];
+  if (!item) {
+    host.innerHTML = '<div class="empty-state"><h3>暂无可展示主线</h3><p>等待已核验事件更新。</p></div>';
+    return;
+  }
+  const impact = (item.impact || []).slice(0, 3).join('、') || '影响对象待判断';
+  host.innerHTML = [
+    '<div class="impact-chain">',
+      '<button class="chain-node fact" type="button" data-open-event="' + esc(item.id) + '" data-kind="verified"><small>事实</small><strong>' + esc(item.title) + '</strong></button>',
+      '<span class="chain-arrow" aria-hidden="true">↓</span>',
+      '<div class="chain-node"><small>关键变化</small><strong>' + esc(item.keyNumber || (item.coreData || [])[0] || '已核验') + '</strong></div>',
+      '<span class="chain-arrow" aria-hidden="true">↓</span>',
+      '<div class="chain-node analysis"><small>可能影响 · 编辑判断</small><strong>' + esc(impact) + '</strong></div>',
+      '<span class="chain-arrow" aria-hidden="true">↓</span>',
+      '<div class="chain-node next"><small>下一验证</small><strong>' + esc(cleanAction(item.suggestedAction)) + '</strong></div>',
+    '</div>'
+  ].join('');
+}
+
+function renderMarketCalendar(events) {
+  const host = $('#market-calendar');
+  if (!host) return;
+  const items = events
+    .filter(item => dayDelta(item) !== null && dayDelta(item) >= 0)
+    .sort((a, b) => dayDelta(a) - dayDelta(b) || dailyRankScore(b) - dailyRankScore(a))
+    .slice(0, 4);
+  host.innerHTML = items.length ? '<div class="calendar-list">' + items.map(item => [
+    '<button type="button" data-open-event="' + esc(item.id) + '" data-kind="verified">',
+      '<span class="calendar-date"><strong>' + esc(shortDate(item.date)) + '</strong><small>' + esc(relativeDay(item)) + '</small></span>',
+      '<span class="calendar-copy"><strong>' + esc(item.title) + '</strong><small>' + esc(cleanAction(item.suggestedAction)) + '</small></span>',
+      '<span aria-hidden="true">→</span>',
+    '</button>'
+  ].join('')).join('') + '</div>' : '<div class="empty-state"><h3>暂无日历事件</h3><p>不会用未核验候选填充。</p></div>';
+}
+
+function renderMarketLanes(events) {
+  const host = $('#market-lane-list');
+  if (!host) return;
+  const lanes = [
+    { type: '财报', icon: '▥', title: '业绩变化', note: '看数字与预期差' },
+    { type: 'IPO', icon: '◇', title: '新股进度', note: '看阶段与下一节点' },
+    { type: '宏观', icon: '⌁', title: '宏观解读', note: '看数据与市场传导' },
+    { type: '公司事件', icon: '◎', title: '公司大事', note: '看事实与影响对象' }
+  ];
+  host.innerHTML = lanes.map(lane => {
+    const count = events.filter(item => item.type === lane.type).length;
+    return [
+      '<button type="button" data-lane-type="' + esc(lane.type) + '"' + (count ? '' : ' disabled') + '>',
+        '<span class="lane-icon" aria-hidden="true">' + lane.icon + '</span>',
+        '<span><strong>' + esc(lane.title) + '</strong><small>' + esc(lane.note) + '</small></span>',
+        '<b>' + count + '</b>',
+      '</button>'
+    ].join('');
+  }).join('');
+}
+
+function renderCompare() {
+  const firstSelect = $('#compare-a');
+  const secondSelect = $('#compare-b');
+  const host = $('#compare-output');
+  if (!firstSelect || !secondSelect || !host) return;
+  const events = sortedEvents();
+  if (events.length < 2) {
+    firstSelect.innerHTML = '';
+    secondSelect.innerHTML = '';
+    host.innerHTML = '<div class="empty-state"><h3>事件不足</h3><p>至少需要两条已核验事件才能进行比较。</p></div>';
+    return;
+  }
+  if (!events.some(item => item.id === state.compareA)) state.compareA = events[0].id;
+  const first = events.find(item => item.id === state.compareA) || events[0];
+  if (!events.some(item => item.id === state.compareB) || state.compareB === state.compareA) {
+    state.compareB = (findComparable(first) || events[1]).id;
+  }
+  const options = events.map(item => '<option value="' + esc(item.id) + '">' + esc(item.title) + '</option>').join('');
+  firstSelect.innerHTML = options;
+  secondSelect.innerHTML = options;
+  firstSelect.value = state.compareA;
+  secondSelect.value = state.compareB;
+  const second = events.find(item => item.id === state.compareB) || events[1];
+  host.innerHTML = comparisonTableHtml(first, second);
+}
+
+function renderMarket() {
+  const events = sortedEvents();
+  $$('[data-market-view]').forEach(button => {
+    const active = button.dataset.marketView === state.marketView;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-selected', String(active));
+  });
+  $$('[data-market-panel]').forEach(panel => {
+    panel.hidden = panel.dataset.marketPanel !== state.marketView;
+  });
+  renderMarketSummary(events);
+  renderMarketStory(events);
+  renderMarketCalendar(events);
+  renderMarketLanes(events);
+  renderCompare();
+}
+
 function renderCandidatePeek() {
   const host = $('#candidate-peek');
   const candidates = sortedCandidates().slice(0, 3);
@@ -405,7 +691,7 @@ function renderCandidatePeek() {
     '<details>',
       '<summary>',
         '<span id="candidate-peek-heading">待核验候选</span>',
-        '<small>' + state.candidates.length + ' 条自动线索 · 不进入已核验首页</small>',
+        '<small>' + state.candidates.length + ' 条已加工线索 · 不进入已核验首页</small>',
       '</summary>',
       '<div class="candidate-mini-list">',
         candidates.map(item => [
@@ -470,6 +756,13 @@ function relevanceScore(item, query) {
   return score;
 }
 
+function isOverviewQuery(query) {
+  const remaining = String(query || '').toLowerCase()
+    .replace(/[\s，。！？、；：,.!?;:()（）/]/g, '')
+    .replace(/今天|目前|当前|发生了|有什么|有哪些|什么|怎么|怎样|如何|市场|大事|要闻|重点|给我看看|给我|看看|最值得|写什么|选题|简报|概览|概况|情况|请|帮我|的|了/g, '');
+  return remaining.length === 0;
+}
+
 function findBestItem(query) {
   const verified = sortedEvents().map(item => ({
     item,
@@ -482,12 +775,13 @@ function findBestItem(query) {
     rank: Number(item.priorityScore || 0)
   })).sort((a, b) => b.relevance - a.relevance || b.rank - a.rank);
   const terms = queryTerms(query);
-  const generic = terms.length === 0 || /最值得|写什么|选题|今天|市场/.test(query);
+  if (isOverviewQuery(query)) return sortedEvents()[0] || null;
+  const generic = terms.length === 0;
 
   if (generic) {
     if (verified[0] && verified[0].relevance > 0) return verified[0].item;
     if (candidates[0] && candidates[0].relevance > 0) return candidates[0].item;
-    return terms.length ? null : (verified[0] ? verified[0].item : null);
+    return verified[0] ? verified[0].item : null;
   }
 
   const verifiedMatch = verified[0] && verified[0].relevance > 0 ? verified[0] : null;
@@ -498,24 +792,61 @@ function findBestItem(query) {
   return candidateMatch.relevance > verifiedMatch.relevance + 24 ? candidateMatch.item : verifiedMatch.item;
 }
 
+function findComparePair(query) {
+  const lower = String(query || '').toLowerCase();
+  const literalTerms = queryTerms(query).filter(term => lower.includes(term.toLowerCase()));
+  const ranked = sortedEvents().map(item => {
+    const haystack = itemHaystack(item);
+    const positions = literalTerms
+      .filter(term => haystack.includes(term.toLowerCase()))
+      .map(term => lower.indexOf(term.toLowerCase()))
+      .filter(position => position >= 0);
+    return {
+      item,
+      relevance: relevanceScore(item, query),
+      position: positions.length ? Math.min(...positions) : Infinity,
+      rank: dailyRankScore(item)
+    };
+  }).filter(match => match.relevance > 0)
+    .sort((a, b) => a.position - b.position || b.relevance - a.relevance || b.rank - a.rank);
+
+  if (ranked.length >= 2) return [ranked[0].item, ranked[1].item];
+  const generic = lower.replace(/对比|比较|区别|差异|pk|两个|两条|事件|一下|帮我|做|看看|个|和|与|[\s，。！？、；：,.!?;:()（）/]/gi, '').length === 0;
+  return generic && state.events.length >= 2 ? sortedEvents().slice(0, 2) : null;
+}
+
 function detectFormat(query) {
   const text = String(query || '');
-  if (/社区|讨论|提问|互动/.test(text)) return 'community';
+  if (/对比|比较|区别|差异|PK/i.test(text)) return 'compare';
   if (/解读|分析|深度|看懂/.test(text)) return 'analysis';
   return 'brief';
 }
 
 function formatName(format) {
-  return ({ brief: '快讯', analysis: '解读', community: '社区讨论' })[format] || '快讯';
+  return ({ brief: '速览', analysis: '深读', compare: '对比', community: '社区稿（旧）' })[format] || '速览';
 }
 
-function makeDraft(item, format) {
+function normalizeFormat(format) {
+  return ['brief', 'analysis', 'compare'].includes(format) ? format : 'brief';
+}
+
+function makeDraft(item, format, requestedPeer = null) {
   const facts = (item.coreData || []).filter(Boolean);
   const impacts = (item.impact || []).filter(Boolean);
+  const peer = format === 'compare' ? (requestedPeer || findComparable(item)) : null;
   let title = item.title;
   let direct = '';
 
-  if (format === 'analysis') {
+  if (format === 'compare' && peer) {
+    title = item.title + ' vs ' + peer.title;
+    direct = [
+      '对比结论：两条事件可以比较日期、类型、信源和后续动作，但现有关键数字口径不同，不能据此排名。',
+      '',
+      item.title + '：' + item.conclusion,
+      '',
+      peer.title + '：' + peer.conclusion
+    ].join('\n');
+  } else if (format === 'analysis') {
     title = item.title + '：三点看懂影响';
     direct = [
       '先说结论：' + item.conclusion,
@@ -526,15 +857,6 @@ function makeDraft(item, format) {
       impacts.length ? '' : null,
       impacts.length ? '可能影响：' + impacts.join('、') + '。' : null
     ].filter(value => value !== null).join('\n');
-  } else if (format === 'community') {
-    title = item.title + '，你怎么看？';
-    direct = [
-      item.conclusion,
-      '',
-      '这件事值得关注，不只因为标题本身：' + item.whyImportant,
-      '',
-      '你更关注短期市场反应，还是后续基本面变化？欢迎说说你的判断。'
-    ].join('\n');
   } else {
     direct = [
       '【' + item.market + '快讯】' + item.conclusion,
@@ -546,9 +868,11 @@ function makeDraft(item, format) {
   }
 
   const evidence = item.verified
-    ? '事实信息来自' + (item.sourceTier || '一级信源') + '“' + item.sourceName + '”；“为什么重要”和影响判断属于编辑分析。正式发布前仍应重新打开原始信源确认是否有更新。'
+    ? (peer
+      ? '事件 A：' + (item.sourceTier || '来源待判断') + '“' + (item.sourceName || '待补充') + '”；事件 B：' + (peer.sourceTier || '来源待判断') + '“' + (peer.sourceName || '待补充') + '”。“为什么重要”和影响对象属于编辑分析。正式发布前仍应分别打开两组原始信源确认是否有更新。'
+      : '事实信息来自' + (item.sourceTier || '一级信源') + '“' + (item.sourceName || '待补充') + '”；“为什么重要”和影响对象属于编辑分析。正式发布前仍应重新打开原始信源确认是否有更新。')
     : item.verificationNote;
-  const sources = [item.sourceUrl, item.secondaryUrl].map(safeUrl).filter(Boolean);
+  const sources = [item.sourceUrl, item.secondaryUrl, peer && peer.sourceUrl, peer && peer.secondaryUrl].map(safeUrl).filter(Boolean);
   const sourceText = sources.length
     ? sources.map((url, index) => '[' + (index + 1) + '] ' + url).join('\n')
     : '原始链接待补充';
@@ -557,8 +881,10 @@ function makeDraft(item, format) {
     '',
     direct,
     '',
-    '关键事实',
-    facts.length ? facts.map(fact => '• ' + fact).join('\n') : '• 待从原始信源逐项核对',
+    format === 'compare' && peer ? '同口径对照' : '关键事实',
+    format === 'compare' && peer
+      ? comparisonRows(item, peer).map(row => '• ' + row[0] + '：' + row[1] + '｜' + row[2]).join('\n')
+      : (facts.length ? facts.map(fact => '• ' + fact).join('\n') : '• 待从原始信源逐项核对'),
     '',
     '风险与边界',
     evidence,
@@ -572,7 +898,7 @@ function makeDraft(item, format) {
     '注：市场影响为内容判断，不构成投资建议。'
   ].join('\n');
 
-  return { title, direct, facts, evidence, sources, plainText };
+  return { title, direct, facts, evidence, sources, plainText, peer };
 }
 
 function makeVerificationChecklist(item) {
@@ -596,7 +922,24 @@ function makeVerificationChecklist(item) {
 function answerQuery(query, forcedFormat) {
   const clean = String(query || '').trim();
   if (!clean) return;
-  const item = findBestItem(clean);
+  const format = forcedFormat || detectFormat(clean);
+  const comparePair = format === 'compare' ? findComparePair(clean) : null;
+  const item = comparePair ? comparePair[0] : findBestItem(clean);
+  if (format === 'compare' && !comparePair) {
+    state.answer = null;
+    state.answerText = '';
+    $('#assistant-output').innerHTML = [
+      '<div class="empty-state">',
+        '<h3>还缺一个明确的对比对象</h3>',
+        '<p>“' + esc(clean) + '”没有同时匹配到两条已核验事件，因此没有擅自替换对象。</p>',
+        '<div class="source-links">',
+          '<button class="source-link" type="button" data-market-action="compare">去市场手选两条事件</button>',
+          '<button class="source-link" type="button" data-prompt="把 SHEIN 和梅卡曼德上市事件做对比">查看对比示例</button>',
+        '</div>',
+      '</div>'
+    ].join('');
+    return;
+  }
   if (!item) {
     state.answer = null;
     state.answerText = '';
@@ -606,7 +949,7 @@ function answerQuery(query, forcedFormat) {
         '<p>没有找到与“' + esc(clean) + '”匹配的已核验事件，因此没有生成内容，避免把无关信息当答案。</p>',
         '<div class="source-links">',
           '<button class="source-link" type="button" data-prompt="今天最值得写什么？">看今日重点</button>',
-          '<button class="source-link" type="button" data-route-link="library">去内容池搜索</button>',
+          '<button class="source-link" type="button" data-market-action="events">去市场搜索</button>',
         '</div>',
       '</div>'
     ].join('');
@@ -616,7 +959,8 @@ function answerQuery(query, forcedFormat) {
   state.answer = {
     query: clean,
     item,
-    format: forcedFormat || detectFormat(clean)
+    peer: comparePair ? comparePair[1] : null,
+    format
   };
   renderAnswer();
 }
@@ -652,10 +996,15 @@ function renderAnswer() {
     return;
   }
 
-  const draft = makeDraft(item, state.answer.format);
+  const draft = makeDraft(item, state.answer.format, state.answer.peer);
   state.answerText = draft.plainText;
-  const primary = safeUrl(item.sourceUrl);
-  const secondary = safeUrl(item.secondaryUrl);
+  const answerSources = [
+    { name: (draft.peer ? '事件 A · ' : '') + (item.sourceName || '一级信源'), url: safeUrl(item.sourceUrl) },
+    { name: (draft.peer ? '事件 A · ' : '') + '辅助信源', url: safeUrl(item.secondaryUrl) },
+    draft.peer ? { name: '事件 B · ' + (draft.peer.sourceName || '一级信源'), url: safeUrl(draft.peer.sourceUrl) } : null,
+    draft.peer ? { name: '事件 B · 辅助信源', url: safeUrl(draft.peer.secondaryUrl) } : null
+  ].filter(source => source && source.url)
+    .filter((source, index, all) => all.findIndex(candidate => candidate.url === source.url) === index);
   const related = sortedEvents().filter(event => event.id !== item.id).slice(0, 2);
 
   host.innerHTML = [
@@ -665,22 +1014,23 @@ function renderAnswer() {
         '<h2>' + esc(draft.title) + '</h2>',
         '<p class="answer-deck">' + esc(item.conclusion) + '</p>',
         '<div class="format-tabs" role="group" aria-label="输出格式">',
-          ['brief', 'analysis', 'community'].map(format =>
+          ['brief', 'analysis', 'compare'].map(format =>
             '<button type="button" class="' + (format === state.answer.format ? 'active' : '') + '" data-answer-format="' + format + '" aria-pressed="' + (format === state.answer.format) + '">' + formatName(format) + '</button>'
           ).join(''),
         '</div>',
       '</header>',
       '<div class="answer-body">',
         '<section class="answer-section"><h3>直接可用</h3><p>' + esc(draft.direct) + '</p></section>',
-        '<section class="answer-section"><h3>关键事实</h3><ul>' + draft.facts.map(fact => '<li>' + esc(fact) + '</li>').join('') + '</ul></section>',
-        '<section class="answer-section"><h3>为什么值得做</h3><p>' + esc(item.whyImportant) + '</p></section>',
+        draft.peer
+          ? '<section class="answer-section"><h3>同口径对照</h3>' + comparisonTableHtml(item, draft.peer) + '</section>'
+          : '<section class="answer-section"><h3>关键事实</h3><ul>' + draft.facts.map(fact => '<li>' + esc(fact) + '</li>').join('') + '</ul></section>',
+        draft.peer ? '' : '<section class="answer-section"><h3>为什么值得做</h3><p>' + esc(item.whyImportant) + '</p></section>',
         '<section class="evidence-box"><h3>✓ 依据与边界</h3><p>' + esc(draft.evidence) + '</p>',
           '<div class="source-links">',
-            primary ? '<a class="source-link" target="_blank" rel="noopener noreferrer" href="' + esc(primary) + '">一级信源 ↗</a>' : '',
-            secondary ? '<a class="source-link" target="_blank" rel="noopener noreferrer" href="' + esc(secondary) + '">辅助信源 ↗</a>' : '',
+            answerSources.map(source => '<a class="source-link" target="_blank" rel="noopener noreferrer" href="' + esc(source.url) + '">' + esc(source.name) + ' ↗</a>').join(''),
           '</div>',
         '</section>',
-        '<section class="answer-section"><h3>下一步</h3><p>' + esc(item.suggestedAction || '发布前复核信源。') + '</p></section>',
+        '<section class="answer-section"><h3>下一步</h3><p>' + esc(cleanAction(item.suggestedAction)) + (draft.peer ? '\n\n对比对象：' + esc(cleanAction(draft.peer.suggestedAction)) : '') + '</p></section>',
         related.length ? '<section class="answer-section"><h3>还可以继续问</h3><div class="source-links">' + related.map(event =>
           '<button class="source-link" type="button" data-generate-event="' + esc(event.id) + '" data-format="brief">' + esc(event.title) + '</button>'
         ).join('') + '</div></section>' : '',
@@ -720,12 +1070,15 @@ function saveCurrentAnswer() {
   if (!state.answer || !state.answer.item.verified || !state.answerText) return;
   const item = state.answer.item;
   const format = state.answer.format;
-  const id = item.id + '-' + format;
+  const output = makeDraft(item, format, state.answer.peer);
+  const peer = output.peer;
+  const id = item.id + '-' + format + (peer ? '-' + peer.id : '');
   const record = {
     id,
     eventId: item.id,
+    peerId: peer ? peer.id : '',
     format,
-    title: makeDraft(item, format).title,
+    title: output.title,
     text: state.answerText,
     savedAt: new Date().toISOString()
   };
@@ -817,7 +1170,7 @@ function openItem(id, kind) {
   state.selected = item;
   state.selectedKind = kind;
   renderDetail();
-  route('detail');
+  route('event/' + encodeURIComponent(item.id));
 }
 
 function renderCorrections(item) {
@@ -850,9 +1203,14 @@ function renderDetail() {
 
   const primary = safeUrl(item.sourceUrl);
   const secondary = safeUrl(item.secondaryUrl);
-  const updated = item.verified && state.data ? formatDate(state.data.generatedAt) : formatDate(item.date);
+  const datasetUpdated = item.verified && state.data ? formatDate(state.data.generatedAt) : '不适用';
+  const eventTime = item.time || item.date || '';
   const facts = item.coreData || [];
   const steps = aiSteps(item);
+  const primarySourceLabel = item.verified ? (item.sourceTier || '原始信源') : '候选来源';
+  const secondarySourceLabel = item.verified ? '辅助信源' : '辅助线索';
+  const followTerm = (item.impact || [])[0] || item.market || item.title;
+  const followed = Object.values(state.watchlist).flat().some(value => String(value).toLowerCase() === String(followTerm).toLowerCase());
 
   host.innerHTML = [
     '<article class="reader-detail">',
@@ -862,16 +1220,18 @@ function renderDetail() {
         '<p class="reader-lead">' + esc(item.conclusion) + '</p>',
         renderCorrections(item),
         '<div class="reader-actions">',
-          item.verified ? '<button class="primary-button" type="button" data-generate-event="' + esc(item.id) + '" data-format="brief">生成快讯</button>' : '<button class="primary-button" type="button" data-copy-checklist="' + esc(item.id) + '">复制核验清单</button>',
-          item.verified ? '<button class="secondary-button" type="button" data-generate-event="' + esc(item.id) + '" data-format="analysis">生成解读</button>' : '',
-          primary ? '<a class="source-link" target="_blank" rel="noopener noreferrer" href="' + esc(primary) + '">打开原始来源 ↗</a>' : '',
+          item.verified ? '<button class="primary-button" type="button" data-generate-event="' + esc(item.id) + '" data-format="brief">生成内容</button>' : '<button class="primary-button" type="button" data-copy-checklist="' + esc(item.id) + '">复制核验清单</button>',
+          '<button class="secondary-button" type="button" data-prompt="' + esc(item.title + '还有哪些待核验信息？') + '">继续追问</button>',
+          item.verified ? '<button class="secondary-button" type="button" data-compare-with="' + esc(item.id) + '">加入对比</button>' : '',
+          item.verified ? '<button class="secondary-button" type="button" data-follow-term="' + esc(followTerm) + '">' + (followed ? '已关注' : '关注') + '</button>' : '',
+          '<button class="secondary-button" type="button" data-copy-event-link="' + esc(item.id) + '">复制链接</button>',
         '</div>',
       '</header>',
       '<div class="reader-body">',
         '<section class="reader-section"><h3>发生了什么</h3><p>' + esc(item.conclusion) + '</p>' + (facts.length ? '<ul>' + facts.map(fact => '<li>' + esc(fact) + '</li>').join('') + '</ul>' : '') + '</section>',
-        '<section class="reader-section"><h3>为什么重要</h3><p>' + esc(item.whyImportant) + '</p><div class="reader-tags">' + (item.impact || []).map(tag => '<span>' + esc(tag) + '</span>').join('') + '</div></section>',
-        '<section class="reader-section"><h3>' + (item.verified ? '适合怎么写' : '还需核验什么') + '</h3><p>' + esc(item.verified ? item.suggestedAction : item.verificationNote) + '</p><div class="reader-tags">' + (item.contentDirection || []).map(tag => '<span>' + esc(tag) + '</span>').join('') + '</div></section>',
-        '<section class="reader-section"><h3>证据状态</h3><div class="key-number">' + esc(item.keyNumber || (item.verified ? '已核验' : '待核验')) + '</div><p>' + esc(item.sourceTier || '来源待判断') + ' · ' + esc(item.sourceName || '待补充') + '</p><p>数据时间：' + esc(updated) + '</p><div class="source-links">' + (secondary ? '<a class="source-link" target="_blank" rel="noopener noreferrer" href="' + esc(secondary) + '">辅助信源 ↗</a>' : '') + '</div></section>',
+        '<section class="reader-section analysis-section"><div class="section-label-row"><h3>为什么重要</h3><span class="analysis-label">编辑判断</span></div><p>' + esc(item.whyImportant) + '</p><div class="reader-tags">' + (item.impact || []).map(tag => '<span>' + esc(tag) + '</span>').join('') + '</div></section>',
+        '<section class="reader-section"><h3>' + (item.verified ? '下一步看什么' : '还需核验什么') + '</h3><p>' + esc(item.verified ? cleanAction(item.suggestedAction) : item.verificationNote) + '</p><div class="reader-tags">' + (item.contentDirection || []).map(tag => '<span>' + esc(tag) + '</span>').join('') + '</div></section>',
+        '<section class="reader-section"><h3>证据状态</h3><div class="key-number">' + esc(item.keyNumber || (item.verified ? '已核验' : '待核验')) + '</div><p>' + esc(item.sourceTier || '来源待判断') + ' · ' + esc(item.sourceName || '待补充') + '</p><dl class="evidence-meta"><div><dt>事件 / 公告时间</dt><dd>' + esc(eventTime || '未单列') + '</dd></div><div><dt>数据集更新</dt><dd>' + esc(datasetUpdated) + '</dd></div><div><dt>核验记录</dt><dd>' + esc(item.verified ? '状态已核验；本版未单列核验人和核验时间' : '尚未完成人工核验') + '</dd></div></dl><div class="source-links">' + (primary ? '<a class="source-link" target="_blank" rel="noopener noreferrer" href="' + esc(primary) + '">' + esc(primarySourceLabel) + ' ↗</a>' : '') + (secondary ? '<a class="source-link" target="_blank" rel="noopener noreferrer" href="' + esc(secondary) + '">' + esc(secondarySourceLabel) + ' ↗</a>' : '') + '</div></section>',
         '<section class="reader-section full"><h3>事实、判断与处理过程</h3><p>事实来自所列信源；“为什么重要”、影响对象和内容建议属于编辑判断，不应写成原文事实。</p>',
           '<details class="process-note"><summary>查看处理过程</summary><ul>' + steps.map(step => '<li>' + esc(step) + '</li>').join('') + '</ul></details>',
         '</section>',
@@ -882,6 +1242,10 @@ function renderDetail() {
 
 function watchlistTerms() {
   return Object.values(state.watchlist).flat().map(value => String(value).trim()).filter(Boolean);
+}
+
+function watchGroupFor(term) {
+  return /^(?:[A-Z]{1,6}|\d{4,6})(?:\.[A-Z]{2})?$/i.test(String(term || '').trim()) ? '股票' : '主题';
 }
 
 function termMatches(item, term) {
@@ -951,34 +1315,38 @@ function renderTrust() {
   }
 
   const candidateTime = state.candidateMeta && state.candidateMeta.generatedAt;
+  const candidateMode = state.candidateMeta && state.candidateMeta.aiConfigured ? '模型辅助与规则初筛' : '规则回退；模型未配置';
+  const sources = state.health && Array.isArray(state.health.sources) ? state.health.sources : [];
+  const productiveSources = sources.filter(source => Number(source.count || 0) > 0).length;
   host.innerHTML = [
-    '<div class="trust-card"><span>已核验内容</span><strong>' + state.events.length + ' 条</strong><small>人工核验后进入首页 · 更新 ' + esc(formatDate(state.data.generatedAt, true)) + '</small></div>',
-    '<div class="trust-card"><span>自动候选</span><strong>' + state.candidates.length + ' 条</strong><small>只做线索，不可直接发布 · 更新 ' + esc(candidateTime ? formatDate(candidateTime, true) : '暂不可用') + '</small></div>'
+    '<div class="trust-card"><span>已核验内容</span><strong>' + state.events.length + ' 条</strong><small>人工核验后进入首页 · 数据集更新 ' + esc(formatDate(state.data.generatedAt, true)) + '；本版未结构化记录核验人和核验时间</small></div>',
+    '<div class="trust-card"><span>已加工候选</span><strong>' + state.candidates.length + ' 条</strong><small>' + esc(candidateMode) + ' · 只做线索，不可直接发布 · 更新 ' + esc(candidateTime ? formatDate(candidateTime, true) : '暂不可用') + '</small></div>',
+    '<div class="trust-card"><span>本轮有内容的来源</span><strong>' + productiveSources + ' / ' + sources.length + '</strong><small>请求成功不等于内容覆盖完整；0条来源会单独标出</small></div>'
   ].join('');
 
-  const sources = state.health && Array.isArray(state.health.sources) ? state.health.sources : [];
   $('#source-health-list').innerHTML = sources.length ? sources.map(source => [
     '<div class="source-row">',
       '<strong>' + esc(source.name) + '</strong>',
       '<span>' + esc(source.trust || '') + '</span>',
-      '<span class="source-state ' + esc(source.status || '') + '">' + esc(sourceStatusLabel(source.status) + (source.preservedCount ? ' · 保留' + source.preservedCount + '条' : '')) + '</span>',
+      '<span class="source-state ' + esc(source.status || '') + '">' + esc(sourceStatusLabel(source) + (source.preservedCount ? ' · 保留' + source.preservedCount + '条' : '')) + '</span>',
     '</div>'
   ].join('')).join('') : '<div class="empty-state"><h3>来源状态暂不可用</h3><p>这不会改变已核验内容的证据边界。</p></div>';
 }
 
-function sourceStatusLabel(status) {
-  return ({
-    ok: '正常',
-    'fallback-ok': '降级可用',
-    error: '失败',
-    'not-configured': '未配置'
-  })[status] || status || '未知';
+function sourceStatusLabel(source) {
+  const status = source && source.status;
+  const count = Number(source && source.count || 0);
+  if (status === 'ok') return count > 0 ? '直连有内容 · ' + count + '条' : '直连可用 · 本轮0条';
+  if (status === 'fallback-ok') return count > 0 ? '降级有内容 · ' + count + '条' : '降级可达 · 本轮0条';
+  return ({ error: '失败', 'not-configured': '未配置' })[status] || status || '未知';
 }
 
 function renderAll() {
   setDataStatus();
   renderFocus();
+  renderDailyBrief();
   renderCandidatePeek();
+  renderMarket();
   renderLibrary();
   renderSavedDrafts();
   renderWatchlist();
@@ -1023,6 +1391,63 @@ function bindEvents() {
       return;
     }
 
+    const homeAction = event.target.closest('[data-home-action]');
+    if (homeAction) {
+      route('radar');
+      setTimeout(() => $('#daily-brief')?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+      return;
+    }
+
+    const marketAction = event.target.closest('[data-market-action]');
+    if (marketAction) {
+      const action = marketAction.dataset.marketAction;
+      if (marketAction.dataset.marketScope) {
+        state.scope = marketAction.dataset.marketScope;
+        state.market = '全部';
+        state.type = '全部';
+        state.libraryQuery = '';
+        $('#library-search').value = '';
+      }
+      state.marketView = action === 'calendar' ? 'overview' : action;
+      route('market');
+      renderMarket();
+      if (action === 'calendar') {
+        setTimeout(() => $('#market-calendar')?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+      }
+      return;
+    }
+
+    const marketView = event.target.closest('[data-market-view]');
+    if (marketView) {
+      state.marketView = marketView.dataset.marketView;
+      renderMarket();
+      return;
+    }
+
+    const lane = event.target.closest('[data-lane-type]');
+    if (lane) {
+      state.scope = 'verified';
+      state.market = '全部';
+      state.type = lane.dataset.laneType;
+      state.marketView = 'events';
+      route('market');
+      renderMarket();
+      renderLibrary();
+      return;
+    }
+
+    const compareWith = event.target.closest('[data-compare-with]');
+    if (compareWith) {
+      const item = findItem(compareWith.dataset.compareWith, 'verified');
+      if (!item) return;
+      state.compareA = item.id;
+      state.compareB = (findComparable(item) || {}).id || '';
+      state.marketView = 'compare';
+      route('market');
+      renderMarket();
+      return;
+    }
+
     const generate = event.target.closest('[data-generate-event]');
     if (generate) {
       const item = findItem(generate.dataset.generateEvent, 'verified');
@@ -1058,6 +1483,14 @@ function bindEvents() {
       return;
     }
 
+    const copyEventLink = event.target.closest('[data-copy-event-link]');
+    if (copyEventLink) {
+      const url = new URL(location.href);
+      url.hash = 'event/' + encodeURIComponent(copyEventLink.dataset.copyEventLink);
+      showToast(await copyText(url.href) ? '事件链接已复制' : '复制失败，请手动复制地址栏');
+      return;
+    }
+
     if (event.target.closest('[data-save-answer]')) {
       saveCurrentAnswer();
       return;
@@ -1076,7 +1509,8 @@ function bindEvents() {
       state.scope = libraryScope.dataset.libraryScope;
       state.market = '全部';
       state.type = '全部';
-      route('library');
+      state.marketView = 'events';
+      route('market');
       renderLibrary();
       return;
     }
@@ -1104,6 +1538,19 @@ function bindEvents() {
       return;
     }
 
+    const follow = event.target.closest('[data-follow-term]');
+    if (follow) {
+      const value = follow.dataset.followTerm.trim();
+      const group = watchGroupFor(value);
+      const exists = state.watchlist[group].some(item => item.toLowerCase() === value.toLowerCase());
+      if (!exists) state.watchlist[group].push(value);
+      writeStorage(STORAGE.watchlist, state.watchlist);
+      renderWatchlist();
+      if (state.selected) renderDetail();
+      showToast(exists ? '已经关注过了' : '已添加关注');
+      return;
+    }
+
     const removeWatch = event.target.closest('[data-remove-watch]');
     if (removeWatch) {
       const group = removeWatch.dataset.removeWatch;
@@ -1119,7 +1566,9 @@ function bindEvents() {
       const draft = state.drafts.find(item => item.id === openDraft.dataset.openDraft);
       const item = draft && state.events.find(eventItem => eventItem.id === draft.eventId);
       if (draft && item) {
-        state.answer = { query: draft.title, item, format: draft.format };
+        const format = normalizeFormat(draft.format);
+        const peer = draft.peerId ? state.events.find(eventItem => eventItem.id === draft.peerId) || null : null;
+        state.answer = { query: draft.title, item, peer, format };
         route('workbench');
         renderAnswer();
       } else {
@@ -1158,6 +1607,16 @@ function bindEvents() {
   $('#library-search').addEventListener('input', event => {
     state.libraryQuery = event.target.value;
     renderLibrary();
+  });
+
+  $('#compare-a').addEventListener('change', event => {
+    state.compareA = event.target.value;
+    renderCompare();
+  });
+
+  $('#compare-b').addEventListener('change', event => {
+    state.compareB = event.target.value;
+    renderCompare();
   });
 
   $('#clear-filters').addEventListener('click', () => {
