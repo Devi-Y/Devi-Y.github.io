@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T14:33:09.584Z",
+  "generatedAt": "2026-09-03T18:37:01.082Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -92,6 +92,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYVBhd0JRT1o3eDdXWHRuRnVaXzV4em5yUDVJVV9JV3VBRDNfMW81dUhtbG9HT0IxUGpMU0txMmVMY1dfSE5GNkpRQXFrVDBfV215ZThoa2h2YnF1VW92X2hTWkVGNDRJLXVhczloSmtWZW9vUFBBNFVSUzA1Q3lUWDZ1TFNkc1JEbXNVcGlsQVE1c2kxQ2swZWdqVWE4cllxc1ZYSTd5anlIcUp1cG5sTVp0X09WWGpXZ29HaHBFUEJiVk5ocjduMFBOYVlBSUY1T3ZHSG1ocnAwVFI1UjBKY0lfWXNKSDdJbHpOR2p1YUVxUUcwZGc?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 07:00:00 GMT",
+      "description": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "527430325d3b6cb4",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "TradingView出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -287,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "50,000 USDT 瓜分好禮來襲！✨ 新一輪 IPO 熱門項目已在快速拉升。 在 LBank 交易最新最熱的新幣，瓜分專屬獎勵池。 新幣上市，新一波勢頭，一次幸運抽獎。 立即加入： https://t.co/JY04M2weZw - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VblVmdXBDc295X1NIOGV4OGxiRXh0blp1MFBQNTNpYU0zUFJ4QXl4RHIzaEd0c2lENVQxWFpTR0hJNHRnTFhUUnNsVk5VUWFPMGxMQ0ZFNU9pQnhmOVZJazZpamkxdXFrUmlsLTd3?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 13:04:59 GMT",
-      "description": "50,000 USDT 瓜分好禮來襲！✨ 新一輪 IPO 熱門項目已在快速拉升。 在 LBank 交易最新最熱的新幣，瓜分專屬獎勵池。 新幣上市，新一波勢頭，一次幸運抽獎。 立即加入： https://t.co/JY04M2weZw &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
-      "priority": "B",
-      "id": "0abd1c3da7d27e4e",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "50,000 USDT 瓜分好禮來襲！✨ 新一輪 IPO 熱門項目已在快速拉升。 在 LBank 交易最新最熱…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "🔥 SHEIN（希音）PRE-IPO 提前購正式開放！ 作為全球知名的時尚電商平台，SHEIN 業務遍及多個國際市場，憑藉快速上新、供應鏈與線上零售模式，成為全球時尚電商市場的重要品牌之一 現在不用等到正式 IPO，MEXC 已開放 SHEIN PRE-IPO 提前購！ ⏰ 認購至 8/3 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WZUhCWjBxQlVzZlVKS1pEeS1tNHhraVlUbEw3bW1tNjNoakxwbjVQSHkwb0ZiZk9ueEkxVlBFSGwxMkE4aWVyRlJZLUc0aXQ1SzcxUWszbW80a00?oc=5",
       "pubDate": "Fri, 28 Aug 2026 08:34:42 GMT",
@@ -398,6 +398,37 @@
       "ai": {
         "priority": "B",
         "summary": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA mission accomplished.... HUGE run and congrats to all who are in the calls..... - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54bFNfRjdQMnZEaW9JRm82ZUEweDVfbkpobm9PTm1fNnIwVjhWMTREVFpSZHRwdkVQNDNMY0szV1FreEJseHNiTFVmUEwyeTVtWWhUUTRJMHdQSGxOTkpV?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 13:47:48 GMT",
+      "description": "$TSLA mission accomplished.... HUGE run and congrats to all who are in the calls..... &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "6a0207254a161d1b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -627,11 +658,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
-      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
+      "type": "宏观",
+      "title": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YR3lLSENxME82bVpMaFRYY1ZsSWI1c3NIS1llc0pYYWtsdHZlckZMNklYNk8zNDA5ODNMejBNMDZtY0I1TkpmRWlmY0hQVDV3T3JqN1pLdmtZenN3TVE?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 04:41:26 GMT",
+      "description": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -641,15 +672,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "d07dd6e1d37aa66f",
+      "id": "8234892d50b2f1a0",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
+        "summary": "x.com出现新的宏观政策或数据更新",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "事件解读"
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -690,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
-      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
+      "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
+      "description": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -703,42 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "964637cde5db1777",
+      "id": "d07dd6e1d37aa66f",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "輝達（NASDAQ：NVDA）公佈最新第二季財報，營收與每股盈餘均高於華爾街預期，執行長黃仁勳於電話會議中回答高盛分析師提問時，幽默的提及自身晚餐社交行程就是股價指標，只要跟他共進晚餐的公司，股價都會翻倍。1.黃仁勳的晚餐飯局透露出半導體供應鏈佈局 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oM0QxYzhtdDQ2Qy1tcDJhVEhKVWxWUEljcVVaMVZ0XzRXOGVFLUl3Ql95eDBvQlVhNWJhRmtKSGlUQ3JzUHRxU2VkYzFNelpMQ2dNdnJtS3lHVHBWa3g0MzdUcTA0Zw?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:26:15 GMT",
-      "description": "輝達（NASDAQ：NVDA）公佈最新第二季財報，營收與每股盈餘均高於華爾街預期，執行長黃仁勳於電話會議中回答高盛分析師提問時，幽默的提及自身晚餐社交行程就是股價指標，只要跟他共進晚餐的公司，股價都會翻倍。1.黃仁勳的晚餐飯局透露出半導體供應鏈佈局 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f37fa6e7bf232660",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "輝達（NASDAQ：NVDA）公佈最新第二季財報，營收與每股盈餘均高於華爾街預期，執行長黃仁勳於電話會議中回答…",
+        "summary": "x.com出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
