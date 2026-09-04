@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="theme-color" content="#10271d" />
+  <title>Market Diary 使用分析</title>
+  <link rel="stylesheet" href="./styles.css?v=20260904-1" />
+</head>
+<body>
+  <main class="shell">
+    <section id="login-view" class="login-card" aria-labelledby="login-title">
+      <span class="logo" aria-hidden="true">M</span>
+      <p class="eyebrow">OWNER INSIGHTS</p>
+      <h1 id="login-title">Market Diary 使用分析</h1>
+      <p>这里只展示已明确同意统计的匿名访客。输入管理员口令后查看。</p>
+      <form id="login-form">
+        <label for="admin-token">管理员口令</label>
+        <div class="login-row"><input id="admin-token" type="password" autocomplete="current-password" required /><button type="submit">进入看板</button></div>
+      </form>
+      <p id="login-error" class="error" role="alert"></p>
+      <small>口令只保存在本次浏览器会话，不写入网址或服务器日志。</small>
+    </section>
+
+    <div id="dashboard" hidden>
+      <header class="topbar">
+        <div><p class="eyebrow">OWNER INSIGHTS</p><h1>谁在使用，哪里最有价值</h1><p id="updated-at" class="muted">正在读取</p></div>
+        <div class="top-actions"><span class="privacy-chip">自愿同意 · 匿名统计</span><button id="logout" class="ghost" type="button">退出</button></div>
+      </header>
+
+      <section class="toolbar" aria-label="分析范围">
+        <div class="range-tabs" role="group" aria-label="时间范围">
+          <button type="button" data-days="7">近 7 天</button>
+          <button type="button" class="active" data-days="30">近 30 天</button>
+          <button type="button" data-days="90">近 90 天</button>
+        </div>
+        <div class="toolbar-actions"><button id="refresh" type="button">刷新数据</button><button id="export-csv" class="secondary" type="button">导出访客 CSV</button></div>
+      </section>
+
+      <p id="dashboard-error" class="error" role="alert"></p>
+
+      <section id="metrics" class="metrics" aria-label="核心指标"></section>
+
+      <section class="grid two">
+        <article class="card wide"><div class="card-heading"><div><p class="eyebrow">TREND</p><h2>访问与点击趋势</h2></div><span>按天</span></div><div id="daily-chart" class="daily-chart"></div></article>
+        <article class="card"><div class="card-heading"><div><p class="eyebrow">FUNNEL</p><h2>关键转化路径</h2></div></div><div id="funnels"></div></article>
+      </section>
+
+      <section class="grid two">
+        <article class="card"><div class="card-heading"><div><p class="eyebrow">ACTIONS</p><h2>按钮点击排行</h2></div></div><div id="top-actions" class="rank-list"></div></article>
+        <article class="card"><div class="card-heading"><div><p class="eyebrow">PAGES</p><h2>页面热度</h2></div></div><div id="page-stats" class="rank-list"></div></article>
+      </section>
+
+      <section class="card">
+        <div class="card-heading invite-heading"><div><p class="eyebrow">INVITE LINKS</p><h2>创建可识别的专属链接</h2><p>填写昵称或分组，系统只把它映射到随机邀请码；网址中不会出现姓名。</p></div></div>
+        <form id="invite-form" class="invite-form"><label for="invite-label">备注名称</label><input id="invite-label" maxlength="40" placeholder="例如：张先生 / 投资群 A" required /><button type="submit">生成专属链接</button></form>
+        <div id="invite-result" class="invite-result" hidden><code id="invite-url"></code><button id="copy-invite" class="secondary" type="button">复制链接</button></div>
+        <div id="invite-list" class="invite-list"></div>
+      </section>
+
+      <section class="card">
+        <div class="card-heading"><div><p class="eyebrow">VISITORS</p><h2>同意统计的访客</h2><p>清理浏览器数据、换浏览器或换设备后，会形成新的匿名编号。</p></div><span id="visitor-count"></span></div>
+        <div class="table-wrap"><table><thead><tr><th>访客</th><th>最近访问</th><th>会话</th><th>点击</th><th>浏览</th><th>常用页面</th><th>常用动作</th><th>设备</th></tr></thead><tbody id="visitor-rows"></tbody></table></div>
+      </section>
+
+      <section class="card">
+        <div class="card-heading"><div><p class="eyebrow">RECENT</p><h2>最近行为</h2></div><span>最多 120 条</span></div>
+        <div class="table-wrap"><table><thead><tr><th>时间</th><th>访客</th><th>页面</th><th>动作</th><th>对象</th><th>结果</th></tr></thead><tbody id="recent-rows"></tbody></table></div>
+      </section>
+
+      <footer><p>仅收集用户同意后的随机访客编号、页面、白名单动作、公开事件 ID、粗粒度设备与来源域名；不收集提问、搜索、关注、草稿、剪贴板、IP、完整 User-Agent 或精确位置。</p><button id="cleanup" class="text-button" type="button">立即清理 90 天前记录</button></footer>
+    </div>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="./app.js?v=20260904-1"></script>
+</body>
+</html>
+

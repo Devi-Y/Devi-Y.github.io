@@ -2044,6 +2044,127 @@ button.chain-node {
   line-height: 1.7;
 }
 
+.analytics-privacy-panel {
+  background: linear-gradient(145deg, #f8fbf9, #fff);
+}
+
+.consent-status {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  color: var(--muted);
+  background: var(--canvas-strong);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.consent-status.granted {
+  color: var(--brand);
+  background: var(--brand-soft);
+}
+
+.consent-status.denied {
+  color: var(--ink-soft);
+  background: #edf1ef;
+}
+
+.analytics-consent-detail {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.75;
+}
+
+.analytics-identity {
+  margin-top: 14px;
+  padding: 13px 14px;
+  color: var(--brand-dark);
+  background: var(--brand-soft);
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.privacy-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.privacy-list {
+  margin: 16px 0 0;
+  padding-left: 19px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.analytics-consent {
+  position: fixed;
+  right: max(18px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 100;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 22px;
+  align-items: center;
+  width: min(720px, calc(100% - 36px));
+  padding: 22px;
+  color: #f6fff9;
+  background: #10271d;
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-radius: 20px;
+  box-shadow: 0 24px 80px rgba(6, 27, 17, .32);
+}
+
+.analytics-consent[hidden] {
+  display: none;
+}
+
+.analytics-consent .kicker {
+  color: #a9d9be;
+}
+
+.analytics-consent h2 {
+  margin: 4px 0 8px;
+  font-size: 21px;
+}
+
+.analytics-consent p:last-child {
+  margin: 0;
+  color: #c7d8ce;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.analytics-consent-actions {
+  display: flex;
+  gap: 9px;
+}
+
+.analytics-consent .secondary-button {
+  color: #f6fff9;
+  background: transparent;
+  border-color: rgba(255, 255, 255, .28);
+}
+
+@media (max-width: 680px) {
+  .analytics-consent {
+    right: 12px;
+    bottom: calc(78px + env(safe-area-inset-bottom));
+    grid-template-columns: 1fr;
+    width: calc(100% - 24px);
+    padding: 18px;
+  }
+
+  .analytics-consent-actions button {
+    flex: 1;
+  }
+}
+
 .back-button {
   margin: 18px 0 16px;
   color: var(--ink-soft);

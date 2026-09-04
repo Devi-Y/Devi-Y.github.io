@@ -35,7 +35,7 @@ const testContext = vm.createContext({
   testHooks,
   document: { addEventListener() {} }
 });
-vm.runInContext(app + '\nObject.assign(testHooks, { state, findBestItem, findComparePair, normalizeFormat, bindEvents, route });', testContext);
+vm.runInContext(app + '\nObject.assign(testHooks, { state, findBestItem, findComparePair, normalizeFormat, bindEvents, route, analytics });', testContext);
 testHooks.state.events = events.events;
 testHooks.state.candidates = [];
 
@@ -46,6 +46,8 @@ function fakeElement(id, dataset = {}) {
     dataset,
     classList: {
       toggle(name, active) { active ? classes.add(name) : classes.delete(name); },
+      add(name) { classes.add(name); },
+      remove(...names) { names.forEach(name => classes.delete(name)); },
       contains(name) { return classes.has(name); }
     },
     style: {},
@@ -82,13 +84,51 @@ testContext.document = {
     return [];
   }
 };
-testContext.window = { addEventListener() {}, scrollTo() {} };
+testContext.window = { addEventListener() {}, scrollTo() {}, innerWidth: 1280 };
 testContext.location = { hash: '#market', href: 'https://example.test/market-diary/#market' };
 testContext.history = { pushState() {}, replaceState() {} };
+testContext.setTimeout = () => 1;
+testContext.clearTimeout = () => {};
 testHooks.bindEvents();
 testHooks.route('market', { fromHistory: true, instant: true });
 assert(legacyElements.get('page-library').classList.contains('active'), 'cached legacy market page must remain visible with the new script');
 assert(legacyElements.get('nav-library').classList.contains('active'), 'cached legacy market navigation must remain active with the new script');
+
+for (const id of ['analytics-consent', 'analytics-consent-status', 'analytics-consent-detail', 'analytics-identity', 'analytics-settings-allow', 'analytics-settings-stop', 'toast']) {
+  legacyElements.set(id, fakeElement(id));
+}
+testContext.document.documentElement = { clientWidth: 1280 };
+testContext.document.referrer = '';
+const makeStorage = () => {
+  const values = new Map();
+  return {
+    getItem(key) { return values.has(key) ? values.get(key) : null; },
+    setItem(key, value) { values.set(key, String(value)); },
+    removeItem(key) { values.delete(key); }
+  };
+};
+testContext.localStorage = makeStorage();
+testContext.sessionStorage = makeStorage();
+const analyticsRequests = [];
+testContext.fetch = async (url, options = {}) => {
+  analyticsRequests.push({ url, options });
+  return { ok: true, json: async () => ({ ok: true }) };
+};
+testHooks.analytics.init();
+assert(analyticsRequests.length === 0, 'unknown consent must make zero analytics requests');
+assert(testContext.localStorage.getItem('marketDiaryAnalyticsVisitorV1') === null, 'unknown consent must not create a visitor id');
+testHooks.analytics.decline();
+assert(analyticsRequests.length === 0, 'refusing analytics must make zero analytics requests');
+assert(testContext.localStorage.getItem('marketDiaryAnalyticsVisitorV1') === null, 'refusing analytics must not create a visitor id');
+testHooks.analytics.grant();
+assert(/^mv_[a-f0-9]{20,40}$/.test(testContext.localStorage.getItem('marketDiaryAnalyticsVisitorV1') || ''), 'granting analytics must create an anonymous visitor id');
+testHooks.analytics.click('ask.submit', { format: 'brief', countBucket: '40+' });
+await testHooks.analytics.flush();
+assert(analyticsRequests.length === 1 && analyticsRequests[0].url.endsWith('/api/collect'), 'granted analytics must send one batched collect request');
+const sentAnalytics = analyticsRequests[0].options.body;
+assert(!sentAnalytics.includes('PRIVATE_ASK_SENTINEL') && !sentAnalytics.includes('query'), 'analytics request must not contain question text or a query field');
+testHooks.analytics.stop();
+assert(testContext.localStorage.getItem('marketDiaryAnalyticsVisitorV1') === null && testContext.sessionStorage.getItem('marketDiaryAnalyticsSessionV1') === null, 'stopping analytics must erase the anonymous identity and session');
 
 const requiredIds = [
   'page-radar',
@@ -104,6 +144,11 @@ const requiredIds = [
   'compare-b',
   'compare-output',
   'library-list',
+  'analytics-consent',
+  'analytics-allow',
+  'analytics-decline',
+  'analytics-settings-allow',
+  'analytics-settings-stop',
   'toast'
 ];
 
@@ -153,8 +198,18 @@ assert(html.includes('当前是事件市场视图'), 'market page must disclose 
 const comparisonSource = app.slice(app.indexOf('function comparisonRows'), app.indexOf('function comparisonTableHtml'));
 assert(comparisonSource && !comparisonSource.includes('keyNumber') && !comparisonSource.includes('coreData'), 'comparison must not compare untyped free-text metrics');
 assert(app.includes('当前数据缺少统一数值口径'), 'comparison must disclose missing comparable metrics');
-assert(!/analytics\.js|product-upgrades\.js|requestcatcher/i.test(html + app), 'temporary analytics or legacy patch script is active');
-assert(!/visitor_id|md_viewer_label|MarketDiaryAnalytics/.test(app), 'persistent visitor tracking remains in active app');
+assert(!/analytics\.js|product-upgrades\.js|requestcatcher/i.test(html + app), 'temporary analytics or legacy RequestCatcher script is active');
+assert(!/md_viewer_label|[?&]viewer=/.test(html + app), 'plaintext viewer labels must never be restored');
+assert(html.includes('允许匿名统计') && html.includes('暂不允许') && html.includes('停止并重置匿名编号'), 'analytics must provide explicit consent, refusal, and revocation controls');
+assert(app.includes("consent() !== 'granted'") && app.includes("writeLocal(STORAGE.analyticsConsent, 'granted')"), 'analytics must remain disabled until explicit consent');
+assert(app.includes("removeLocal(STORAGE.analyticsVisitor)") && app.includes("sessionStorage.removeItem(STORAGE.analyticsSession)"), 'revocation must remove the local anonymous identity and session');
+const analyticsPayload = app.slice(app.indexOf('const payload = {'), app.indexOf("fetch(ANALYTICS_ENDPOINT + '/api/collect'"));
+assert(analyticsPayload.includes('visitorId') && analyticsPayload.includes('sessionId') && analyticsPayload.includes('events: events.slice()'), 'analytics payload must be explicit and session-batched');
+for (const forbidden of ['query', 'libraryQuery', 'watchlist', 'drafts', 'clipboard', 'location.href', 'userAgent', 'screen.width']) {
+  assert(!analyticsPayload.includes(forbidden), 'analytics payload contains forbidden private field: ' + forbidden);
+}
+assert(app.includes("analytics.click('ask.submit', { format: detectFormat(query), countBucket:") && !app.includes("analytics.click('ask.submit', { query"), 'ask analytics may classify length/format but must not send question text');
+assert(app.includes("analytics.interaction('library.search', { countBucket:") && !app.includes("analytics.interaction('library.search', { query"), 'search analytics may send a length bucket but must not send search text');
 assert(css.includes('@media (prefers-reduced-motion: reduce)'), 'reduced-motion support is required');
 assert(sw.includes("key.startsWith(CACHE_PREFIX)"), 'service worker may only delete Market Diary caches');
 assert(sw.includes("SHELL.map(path => new Request(path, { cache: 'reload' }))"), 'service worker install must bypass stale HTTP cache');

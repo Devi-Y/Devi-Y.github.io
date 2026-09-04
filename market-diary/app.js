@@ -3,8 +3,300 @@
 const STORAGE = {
   watchlist: 'marketDiaryWatchlist',
   drafts: 'marketDiaryDraftsV2',
-  eventsCache: 'marketDiaryEventsCacheV2'
+  eventsCache: 'marketDiaryEventsCacheV2',
+  analyticsConsent: 'marketDiaryAnalyticsConsentV1',
+  analyticsVisitor: 'marketDiaryAnalyticsVisitorV1',
+  analyticsInvite: 'marketDiaryAnalyticsInviteV1',
+  analyticsSession: 'marketDiaryAnalyticsSessionV1'
 };
+
+const ANALYTICS_ENDPOINT = 'https://market-diary-insights.vercel.app';
+const ANALYTICS_CONSENT_VERSION = '2026-09-04';
+
+function analyticsRandomId(prefix) {
+  const bytes = new Uint8Array(12);
+  if (globalThis.crypto && typeof globalThis.crypto.getRandomValues === 'function') {
+    globalThis.crypto.getRandomValues(bytes);
+    return prefix + [...bytes].map(value => value.toString(16).padStart(2, '0')).join('');
+  }
+  const fallback = (Date.now().toString(16) + Math.random().toString(16).slice(2)).padEnd(24, '0').slice(0, 24);
+  return prefix + fallback;
+}
+
+function analyticsCountBucket(length) {
+  const value = Number(length) || 0;
+  if (value === 0) return '0';
+  if (value <= 5) return '1-5';
+  if (value <= 15) return '6-15';
+  if (value <= 40) return '16-40';
+  return '40+';
+}
+
+function analyticsDevice() {
+  const width = Math.max(Number(window.innerWidth) || 0, Number(document.documentElement?.clientWidth) || 0);
+  if (width < 680) return 'mobile';
+  if (width < 1080) return 'tablet';
+  return 'desktop';
+}
+
+function analyticsReferrerHost() {
+  if (!document.referrer) return '';
+  try {
+    const host = new URL(document.referrer).hostname.toLowerCase();
+    return host === location.hostname ? '' : host;
+  } catch {
+    return '';
+  }
+}
+
+const analytics = (() => {
+  let ready = false;
+  let visitorId = '';
+  let sessionId = '';
+  let startedAt = '';
+  let inviteCode = '';
+  let inviteLabel = '';
+  let events = [];
+  let sentCount = 0;
+  let sendTimer = null;
+  let sending = false;
+  let lastPageKey = '';
+
+  const readLocal = key => {
+    try { return localStorage.getItem(key) || ''; } catch { return ''; }
+  };
+  const writeLocal = (key, value) => {
+    try { localStorage.setItem(key, value); } catch {}
+  };
+  const removeLocal = key => {
+    try { localStorage.removeItem(key); } catch {}
+  };
+  const readSession = () => {
+    try { return JSON.parse(sessionStorage.getItem(STORAGE.analyticsSession) || 'null'); } catch { return null; }
+  };
+  const saveSession = () => {
+    try {
+      sessionStorage.setItem(STORAGE.analyticsSession, JSON.stringify({ visitorId, sessionId, startedAt, inviteCode, events, sentCount }));
+    } catch {}
+  };
+
+  function consent() {
+    return readLocal(STORAGE.analyticsConsent);
+  }
+
+  function urlInviteCode() {
+    try {
+      const value = new URL(location.href).searchParams.get('invite') || '';
+      return /^[A-Za-z0-9_-]{10,32}$/.test(value) ? value : '';
+    } catch {
+      return '';
+    }
+  }
+
+  function ensureIdentity() {
+    visitorId = readLocal(STORAGE.analyticsVisitor);
+    if (!/^mv_[a-f0-9]{20,40}$/.test(visitorId)) {
+      visitorId = analyticsRandomId('mv_');
+      writeLocal(STORAGE.analyticsVisitor, visitorId);
+    }
+
+    inviteCode = urlInviteCode() || readLocal(STORAGE.analyticsInvite);
+    if (inviteCode) writeLocal(STORAGE.analyticsInvite, inviteCode);
+
+    const cached = readSession();
+    if (cached && cached.visitorId === visitorId && /^ms_[a-f0-9]{20,40}$/.test(cached.sessionId || '')) {
+      sessionId = cached.sessionId;
+      startedAt = cached.startedAt;
+      events = Array.isArray(cached.events) ? cached.events.slice(-200) : [];
+      sentCount = Math.min(Number(cached.sentCount) || 0, events.length);
+      if (!inviteCode && /^[A-Za-z0-9_-]{10,32}$/.test(cached.inviteCode || '')) inviteCode = cached.inviteCode;
+    } else {
+      sessionId = analyticsRandomId('ms_');
+      startedAt = new Date().toISOString();
+      events = [];
+      sentCount = 0;
+    }
+    saveSession();
+  }
+
+  async function resolveInvite() {
+    if (!inviteCode || consent() !== 'granted') return;
+    try {
+      const response = await fetch(ANALYTICS_ENDPOINT + '/api/invite?code=' + encodeURIComponent(inviteCode), { mode: 'cors', cache: 'no-store' });
+      const body = await response.json();
+      inviteLabel = response.ok && body.ok ? String(body.label || '') : '';
+    } catch {
+      inviteLabel = '';
+    }
+    updateControls();
+  }
+
+  function updateControls() {
+    const value = consent();
+    const banner = $('#analytics-consent');
+    if (banner) banner.hidden = value === 'granted' || value === 'denied';
+    const status = $('#analytics-consent-status');
+    const detail = $('#analytics-consent-detail');
+    const identity = $('#analytics-identity');
+    const allow = $('#analytics-settings-allow');
+    const stop = $('#analytics-settings-stop');
+    if (!status || !detail || !identity || !allow || !stop) return;
+
+    status.classList.remove('granted', 'denied');
+    if (value === 'granted') {
+      status.textContent = '已允许';
+      status.classList.add('granted');
+      detail.textContent = '正在统计匿名页面与按钮次数；草稿、关注、提问和搜索内容不会上传。';
+      identity.hidden = false;
+      identity.innerHTML = '<strong>你的匿名编号：</strong>' + esc(visitorId) + (inviteLabel ? '<br /><strong>专属链接备注：</strong>' + esc(inviteLabel) : '');
+      allow.hidden = true;
+      stop.hidden = false;
+    } else {
+      status.textContent = value === 'denied' ? '未允许' : '未选择';
+      if (value === 'denied') status.classList.add('denied');
+      detail.textContent = value === 'denied'
+        ? '当前不会创建匿名编号，也不会发送任何使用统计。你可以随时重新允许。'
+        : '允许后只记录随机匿名编号、访问页面、白名单按钮、粗粒度设备与来源域名，不记录你输入的内容。';
+      identity.hidden = true;
+      identity.textContent = '';
+      allow.hidden = false;
+      stop.hidden = true;
+    }
+  }
+
+  function eventBase(type, action, properties = {}) {
+    const rawPage = properties.page || currentPage();
+    const event = {
+      id: analyticsRandomId('me_'),
+      type,
+      at: new Date().toISOString(),
+      page: rawPage === 'library' ? 'market' : (['radar', 'workbench', 'market', 'my', 'detail'].includes(rawPage) ? rawPage : 'radar')
+    };
+    if (action) event.action = action;
+    for (const key of ['targetId', 'targetKind', 'format', 'method', 'result', 'sourceHost', 'countBucket']) {
+      if (properties[key]) event[key] = properties[key];
+    }
+    return event;
+  }
+
+  function queue(type, action, properties = {}) {
+    if (!ready || consent() !== 'granted') return;
+    if (events.length >= 200) return;
+    events.push(eventBase(type, action, properties));
+    saveSession();
+    if (events.length - sentCount >= 10) flush();
+    else {
+      clearTimeout(sendTimer);
+      sendTimer = setTimeout(() => flush(), 15000);
+    }
+  }
+
+  async function flush(keepalive = false) {
+    if (sending || consent() !== 'granted' || !events.length || events.length === sentCount) return;
+    sending = true;
+    clearTimeout(sendTimer);
+    const attemptedCount = events.length;
+    const payload = {
+      version: 1,
+      visitorId,
+      sessionId,
+      startedAt,
+      inviteCode,
+      device: analyticsDevice(),
+      referrerHost: analyticsReferrerHost(),
+      events: events.slice()
+    };
+    try {
+      const response = await fetch(ANALYTICS_ENDPOINT + '/api/collect', {
+        method: 'POST',
+        mode: 'cors',
+        cache: 'no-store',
+        keepalive,
+        headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+        body: JSON.stringify(payload)
+      });
+      if (response.ok) {
+        sentCount = Math.max(sentCount, attemptedCount);
+        saveSession();
+      }
+    } catch {}
+    sending = false;
+    if (events.length > sentCount && !keepalive) sendTimer = setTimeout(() => flush(), 30000);
+  }
+
+  function grant() {
+    writeLocal(STORAGE.analyticsConsent, 'granted');
+    ensureIdentity();
+    ready = true;
+    updateControls();
+    queue('consent', 'consent.granted', { method: 'click' });
+    page(currentPage(), currentPage() === 'detail' && state.selected ? state.selected.id : '', 'direct');
+    resolveInvite();
+  }
+
+  function decline() {
+    writeLocal(STORAGE.analyticsConsent, 'denied');
+    resetIdentity(false);
+    ready = true;
+    updateControls();
+  }
+
+  function resetIdentity(showMessage = true) {
+    clearTimeout(sendTimer);
+    removeLocal(STORAGE.analyticsVisitor);
+    removeLocal(STORAGE.analyticsInvite);
+    try { sessionStorage.removeItem(STORAGE.analyticsSession); } catch {}
+    visitorId = '';
+    sessionId = '';
+    startedAt = '';
+    inviteCode = '';
+    inviteLabel = '';
+    events = [];
+    sentCount = 0;
+    lastPageKey = '';
+    if (showMessage) showToast('已停止统计并重置匿名编号');
+  }
+
+  function page(pageName, targetId = '', method = 'direct') {
+    if (!ready || consent() !== 'granted') return;
+    const normalizedPage = pageName === 'library' ? 'market' : pageName;
+    const key = normalizedPage + ':' + targetId;
+    if (key === lastPageKey) return;
+    lastPageKey = key;
+    queue('page_view', '', { page: normalizedPage, targetId, targetKind: targetId ? state.selectedKind : '', method });
+  }
+
+  function init() {
+    const value = consent();
+    ready = true;
+    if (value === 'granted') {
+      ensureIdentity();
+      resolveInvite();
+    }
+    const bannerCopy = $('#analytics-consent-copy');
+    if (bannerCopy && urlInviteCode() && value !== 'granted') {
+      bannerCopy.textContent = '你正通过专属邀请链接访问。允许后，匿名访问会归入该邀请备注；仍不会记录提问、搜索、关注、草稿，也不把 IP 写入分析记录。';
+    }
+    updateControls();
+  }
+
+  return {
+    init,
+    grant,
+    decline,
+    stop() {
+      writeLocal(STORAGE.analyticsConsent, 'denied');
+      resetIdentity(true);
+      updateControls();
+    },
+    click(action, properties = {}) { queue('ui_click', action, { method: 'click', ...properties }); },
+    interaction(action, properties = {}) { queue('interaction', action, properties); },
+    page,
+    flush,
+    status: consent,
+    countBucket: analyticsCountBucket
+  };
+})();
 
 const pageNames = {
   radar: '今日',
@@ -234,6 +526,7 @@ function route(value, options = {}) {
     renderTrust();
   }
 
+  analytics.page(page, page === 'detail' && state.selected ? state.selected.id : '', options.fromHistory ? 'history' : 'click');
   window.scrollTo({ top: 0, behavior: options.instant ? 'auto' : 'smooth' });
 }
 
@@ -466,6 +759,11 @@ async function loadData(options = {}) {
   else if (!state.events.length) showToast('已核验内容加载失败，请稍后重试');
   else if (usedCache) showToast('网络不可用，已显示本机缓存');
   else if (fresh) showToast('数据已刷新');
+  if (fresh) {
+    analytics.interaction('data.refresh_result', {
+      result: !state.events.length ? 'failure' : (usedCache ? 'cache' : 'success')
+    });
+  }
 }
 
 function setDataStatus() {
@@ -942,6 +1240,7 @@ function answerQuery(query, forcedFormat) {
         '</div>',
       '</div>'
     ].join('');
+    analytics.interaction('ask.result', { format, result: 'needs_pair' });
     return;
   }
   if (!item) {
@@ -957,6 +1256,7 @@ function answerQuery(query, forcedFormat) {
         '</div>',
       '</div>'
     ].join('');
+    analytics.interaction('ask.result', { format, result: 'no_match' });
     return;
   }
 
@@ -967,6 +1267,7 @@ function answerQuery(query, forcedFormat) {
     format
   };
   renderAnswer();
+  analytics.interaction('ask.result', { format, result: 'matched', targetId: item.id, targetKind: item.verified ? 'verified' : 'candidate' });
 }
 
 function renderAnswer() {
@@ -1071,7 +1372,7 @@ async function copyText(text) {
 }
 
 function saveCurrentAnswer() {
-  if (!state.answer || !state.answer.item.verified || !state.answerText) return;
+  if (!state.answer || !state.answer.item.verified || !state.answerText) return false;
   const item = state.answer.item;
   const format = state.answer.format;
   const output = makeDraft(item, format, state.answer.peer);
@@ -1090,6 +1391,7 @@ function saveCurrentAnswer() {
   writeStorage(STORAGE.drafts, state.drafts);
   renderSavedDrafts();
   showToast('已保存到“我的”');
+  return true;
 }
 
 function renderScopeFilters() {
@@ -1376,27 +1678,49 @@ function resizeAskInput() {
 
 function bindEvents() {
   document.addEventListener('click', async event => {
+    const sourceLink = event.target.closest('a.source-link[href]');
+    if (sourceLink) {
+      let sourceHost = '';
+      try { sourceHost = new URL(sourceLink.href).hostname; } catch {}
+      analytics.click('source.open', {
+        sourceHost,
+        targetId: state.selected?.id || state.answer?.item?.id || '',
+        targetKind: state.selected?.id ? state.selectedKind : (state.answer?.item?.verified ? 'verified' : 'candidate')
+      });
+    }
+
+    const detailsSummary = event.target.closest('summary');
+    if (detailsSummary) {
+      const details = detailsSummary.closest('details');
+      analytics.click('details.toggle', { targetId: details?.id || '' });
+    }
+
     const routeLink = event.target.closest('[data-route-link]');
     if (routeLink) {
       event.preventDefault();
+      const destination = routeLink.dataset.routeLink;
+      analytics.click(routeLink.id === 'data-status' ? 'nav.data_status' : (destination === 'radar' ? 'nav.home' : 'nav.' + destination));
       route(routeLink.dataset.routeLink);
       return;
     }
 
     const nav = event.target.closest('[data-page]');
     if (nav) {
+      analytics.click('nav.' + (nav.dataset.page === 'library' ? 'market' : nav.dataset.page));
       route(nav.dataset.page);
       return;
     }
 
     const prompt = event.target.closest('[data-prompt]');
     if (prompt) {
+      analytics.click('prompt.preset');
       handlePrompt(prompt.dataset.prompt);
       return;
     }
 
     const homeAction = event.target.closest('[data-home-action]');
     if (homeAction) {
+      analytics.click('home.brief');
       route('radar');
       setTimeout(() => $('#daily-brief')?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
       return;
@@ -1405,6 +1729,8 @@ function bindEvents() {
     const marketAction = event.target.closest('[data-market-action]');
     if (marketAction) {
       const action = marketAction.dataset.marketAction;
+      const actionName = { events: 'market.open_events', compare: 'market.open_compare', calendar: 'market.open_calendar' }[action] || 'market.open_events';
+      analytics.click(actionName);
       if (marketAction.dataset.marketScope) {
         state.scope = marketAction.dataset.marketScope;
         state.market = '全部';
@@ -1423,6 +1749,7 @@ function bindEvents() {
 
     const marketView = event.target.closest('[data-market-view]');
     if (marketView) {
+      analytics.click('market.tab_select', { targetId: marketView.dataset.marketView });
       state.marketView = marketView.dataset.marketView;
       renderMarket();
       return;
@@ -1430,6 +1757,7 @@ function bindEvents() {
 
     const lane = event.target.closest('[data-lane-type]');
     if (lane) {
+      analytics.click('market.lane_select');
       state.scope = 'verified';
       state.market = '全部';
       state.type = lane.dataset.laneType;
@@ -1444,6 +1772,7 @@ function bindEvents() {
     if (compareWith) {
       const item = findItem(compareWith.dataset.compareWith, 'verified');
       if (!item) return;
+      analytics.click('compare.add', { targetId: item.id, targetKind: 'verified' });
       state.compareA = item.id;
       state.compareB = (findComparable(item) || {}).id || '';
       state.marketView = 'compare';
@@ -1456,6 +1785,7 @@ function bindEvents() {
     if (generate) {
       const item = findItem(generate.dataset.generateEvent, 'verified');
       if (!item) return;
+      analytics.click('content.generate', { targetId: item.id, targetKind: 'verified', format: generate.dataset.format || 'brief' });
       state.answer = {
         query: '把“' + item.title + '”写成' + formatName(generate.dataset.format),
         item,
@@ -1471,19 +1801,23 @@ function bindEvents() {
 
     const open = event.target.closest('[data-open-event]');
     if (open) {
+      analytics.click('event.open', { targetId: open.dataset.openEvent, targetKind: open.dataset.kind || 'verified' });
       openItem(open.dataset.openEvent, open.dataset.kind || 'verified');
       return;
     }
 
     const answerFormat = event.target.closest('[data-answer-format]');
     if (answerFormat && state.answer) {
+      analytics.click('content.format_change', { targetId: state.answer.item.id, targetKind: 'verified', format: answerFormat.dataset.answerFormat });
       state.answer.format = answerFormat.dataset.answerFormat;
       renderAnswer();
       return;
     }
 
     if (event.target.closest('[data-copy-answer]')) {
-      showToast(await copyText(state.answerText) ? '已复制全文' : '复制失败，请手动选择');
+      const copied = await copyText(state.answerText);
+      analytics.click('content.copy', { targetId: state.answer?.item?.id || '', targetKind: state.answer?.item?.verified ? 'verified' : 'candidate', format: state.answer?.format || '', result: copied ? 'success' : 'failure' });
+      showToast(copied ? '已复制全文' : '复制失败，请手动选择');
       return;
     }
 
@@ -1491,12 +1825,15 @@ function bindEvents() {
     if (copyEventLink) {
       const url = new URL(location.href);
       url.hash = 'event/' + encodeURIComponent(copyEventLink.dataset.copyEventLink);
-      showToast(await copyText(url.href) ? '事件链接已复制' : '复制失败，请手动复制地址栏');
+      const copied = await copyText(url.href);
+      analytics.click('event.link_copy', { targetId: copyEventLink.dataset.copyEventLink, targetKind: state.selectedKind, result: copied ? 'success' : 'failure' });
+      showToast(copied ? '事件链接已复制' : '复制失败，请手动复制地址栏');
       return;
     }
 
     if (event.target.closest('[data-save-answer]')) {
-      saveCurrentAnswer();
+      const saved = saveCurrentAnswer();
+      analytics.click('draft.save', { targetId: state.answer?.item?.id || '', targetKind: 'verified', format: state.answer?.format || '', result: saved ? 'success' : 'failure' });
       return;
     }
 
@@ -1504,12 +1841,15 @@ function bindEvents() {
     if (checklist) {
       const item = findItem(checklist.dataset.copyChecklist, 'candidate') || state.selected;
       const text = item ? makeVerificationChecklist(item) : '';
-      showToast(await copyText(text) ? '已复制核验清单' : '复制失败，请手动选择');
+      const copied = await copyText(text);
+      analytics.click('checklist.copy', { targetId: item?.id || '', targetKind: 'candidate', result: copied ? 'success' : 'failure' });
+      showToast(copied ? '已复制核验清单' : '复制失败，请手动选择');
       return;
     }
 
     const libraryScope = event.target.closest('[data-library-scope]');
     if (libraryScope) {
+      analytics.click(libraryScope.dataset.libraryScope === 'candidate' ? 'market.open_candidates' : 'market.open_events');
       state.scope = libraryScope.dataset.libraryScope;
       state.market = '全部';
       state.type = '全部';
@@ -1521,6 +1861,7 @@ function bindEvents() {
 
     const scope = event.target.closest('[data-scope]');
     if (scope) {
+      analytics.click('filter.scope');
       state.scope = scope.dataset.scope;
       state.market = '全部';
       state.type = '全部';
@@ -1530,6 +1871,7 @@ function bindEvents() {
 
     const market = event.target.closest('[data-market]');
     if (market) {
+      analytics.click('filter.market');
       state.market = market.dataset.market;
       renderLibrary();
       return;
@@ -1537,6 +1879,7 @@ function bindEvents() {
 
     const type = event.target.closest('[data-type]');
     if (type) {
+      analytics.click('filter.type');
       state.type = type.dataset.type;
       renderLibrary();
       return;
@@ -1547,6 +1890,7 @@ function bindEvents() {
       const value = follow.dataset.followTerm.trim();
       const group = watchGroupFor(value);
       const exists = state.watchlist[group].some(item => item.toLowerCase() === value.toLowerCase());
+      analytics.click('watch.add', { result: exists ? 'duplicate' : 'success' });
       if (!exists) state.watchlist[group].push(value);
       writeStorage(STORAGE.watchlist, state.watchlist);
       renderWatchlist();
@@ -1557,6 +1901,7 @@ function bindEvents() {
 
     const removeWatch = event.target.closest('[data-remove-watch]');
     if (removeWatch) {
+      analytics.click('watch.remove');
       const group = removeWatch.dataset.removeWatch;
       state.watchlist[group].splice(Number(removeWatch.dataset.index), 1);
       writeStorage(STORAGE.watchlist, state.watchlist);
@@ -1571,11 +1916,13 @@ function bindEvents() {
       const item = draft && state.events.find(eventItem => eventItem.id === draft.eventId);
       if (draft && item) {
         const format = normalizeFormat(draft.format);
+        analytics.click('draft.open', { targetId: item.id, targetKind: 'verified', format });
         const peer = draft.peerId ? state.events.find(eventItem => eventItem.id === draft.peerId) || null : null;
         state.answer = { query: draft.title, item, peer, format };
         route('workbench');
         renderAnswer();
       } else {
+        analytics.click('draft.open', { result: 'failure' });
         showToast('原事件已不在当前数据中');
       }
       return;
@@ -1583,6 +1930,7 @@ function bindEvents() {
 
     const removeDraft = event.target.closest('[data-remove-draft]');
     if (removeDraft) {
+      analytics.click('draft.delete');
       state.drafts = state.drafts.filter(item => item.id !== removeDraft.dataset.removeDraft);
       writeStorage(STORAGE.drafts, state.drafts);
       renderSavedDrafts();
@@ -1590,14 +1938,28 @@ function bindEvents() {
     }
   });
 
-  $('#prev-event').addEventListener('click', () => changeFeed(-1));
-  $('#next-event').addEventListener('click', () => changeFeed(1));
-  $('#back-btn').addEventListener('click', () => route(state.returnPage || 'radar'));
-  $('#refresh-btn').addEventListener('click', () => loadData({ fresh: true }));
+  $('#prev-event').addEventListener('click', () => {
+    analytics.click('feed.prev', { targetId: state.events[state.feedIndex]?.id || '', targetKind: 'verified' });
+    changeFeed(-1);
+  });
+  $('#next-event').addEventListener('click', () => {
+    analytics.click('feed.next', { targetId: state.events[state.feedIndex]?.id || '', targetKind: 'verified' });
+    changeFeed(1);
+  });
+  $('#back-btn').addEventListener('click', () => {
+    analytics.click('nav.detail_back');
+    route(state.returnPage || 'radar');
+  });
+  $('#refresh-btn').addEventListener('click', () => {
+    analytics.click('data.refresh_click');
+    loadData({ fresh: true });
+  });
 
   $('#ask-form').addEventListener('submit', event => {
     event.preventDefault();
-    answerQuery($('#ask-input').value);
+    const query = $('#ask-input').value;
+    analytics.click('ask.submit', { format: detectFormat(query), countBucket: analytics.countBucket(query.trim().length) });
+    answerQuery(query);
   });
 
   $('#ask-input').addEventListener('input', resizeAskInput);
@@ -1612,11 +1974,16 @@ function bindEvents() {
     state.libraryQuery = event.target.value;
     renderLibrary();
   });
+  $('#library-search').addEventListener('change', event => {
+    if (!event.target.value.trim()) return;
+    analytics.interaction('library.search', { countBucket: analytics.countBucket(event.target.value.trim().length) });
+  });
 
   const compareA = $('#compare-a');
   if (compareA) {
     compareA.addEventListener('change', event => {
       state.compareA = event.target.value;
+      analytics.click('compare.select', { targetId: state.compareA, targetKind: 'verified' });
       renderCompare();
     });
   }
@@ -1625,11 +1992,13 @@ function bindEvents() {
   if (compareB) {
     compareB.addEventListener('change', event => {
       state.compareB = event.target.value;
+      analytics.click('compare.select', { targetId: state.compareB, targetKind: 'verified' });
       renderCompare();
     });
   }
 
   $('#clear-filters').addEventListener('click', () => {
+    analytics.click('filter.clear');
     state.market = '全部';
     state.type = '全部';
     state.libraryQuery = '';
@@ -1644,6 +2013,7 @@ function bindEvents() {
     const value = input.value.trim();
     if (!value) return;
     const exists = state.watchlist[group].some(item => item.toLowerCase() === value.toLowerCase());
+    analytics.click('watch.add', { result: exists ? 'duplicate' : 'success' });
     if (!exists) state.watchlist[group].push(value);
     writeStorage(STORAGE.watchlist, state.watchlist);
     input.value = '';
@@ -1652,6 +2022,7 @@ function bindEvents() {
   });
 
   $('#example-watchlist').addEventListener('click', () => {
+    analytics.click('watch.example_load');
     state.watchlist = cloneWatchlist(exampleWatchlist);
     writeStorage(STORAGE.watchlist, state.watchlist);
     renderWatchlist();
@@ -1668,10 +2039,12 @@ function bindEvents() {
     if (['INPUT', 'TEXTAREA', 'SELECT'].includes(tag)) return;
     if (['ArrowDown', 'ArrowRight'].includes(event.key)) {
       event.preventDefault();
+      analytics.interaction('feed.navigate', { method: 'keyboard' });
       changeFeed(1);
     }
     if (['ArrowUp', 'ArrowLeft'].includes(event.key)) {
       event.preventDefault();
+      analytics.interaction('feed.navigate', { method: 'keyboard' });
       changeFeed(-1);
     }
   });
@@ -1686,9 +2059,26 @@ function bindEvents() {
     const touch = event.changedTouches[0];
     const dx = touch.clientX - touchStart.x;
     const dy = touch.clientY - touchStart.y;
-    if (Math.abs(dy) > 55 && Math.abs(dy) > Math.abs(dx)) changeFeed(dy < 0 ? 1 : -1);
+    if (Math.abs(dy) > 55 && Math.abs(dy) > Math.abs(dx)) {
+      analytics.interaction('feed.navigate', { method: 'swipe' });
+      changeFeed(dy < 0 ? 1 : -1);
+    }
     touchStart = null;
   }, { passive: true });
+
+  const analyticsAllow = $('#analytics-allow');
+  if (analyticsAllow) analyticsAllow.addEventListener('click', () => analytics.grant());
+  const analyticsDecline = $('#analytics-decline');
+  if (analyticsDecline) analyticsDecline.addEventListener('click', () => analytics.decline());
+  const analyticsSettingsAllow = $('#analytics-settings-allow');
+  if (analyticsSettingsAllow) analyticsSettingsAllow.addEventListener('click', () => analytics.grant());
+  const analyticsSettingsStop = $('#analytics-settings-stop');
+  if (analyticsSettingsStop) analyticsSettingsStop.addEventListener('click', () => analytics.stop());
+
+  window.addEventListener('pagehide', () => analytics.flush(true));
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') analytics.flush(true);
+  });
 }
 
 function init() {
@@ -1696,6 +2086,7 @@ function init() {
   const drafts = readStorage(STORAGE.drafts, []);
   state.drafts = Array.isArray(drafts) ? drafts : [];
 
+  analytics.init();
   bindEvents();
   route(location.hash, { fromHistory: true, instant: true });
   loadData();

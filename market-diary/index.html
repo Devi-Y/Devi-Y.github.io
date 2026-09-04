@@ -18,7 +18,7 @@
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="./icon-192.png" />
   <link rel="manifest" href="./manifest.webmanifest" />
-  <link rel="stylesheet" href="./styles.css?v=20260903-3" />
+  <link rel="stylesheet" href="./styles.css?v=20260904-1" />
   <title>牛牛市场雷达｜Market Diary</title>
 </head>
 <body>
@@ -223,7 +223,7 @@
 
       <section id="page-my" class="page" aria-labelledby="my-heading">
         <header class="page-heading">
-          <div><p class="kicker">我的</p><h2 id="my-heading">关注、草稿与数据状态</h2><p>所有个人内容只保存在当前浏览器，不上传。</p></div>
+          <div><p class="kicker">我的</p><h2 id="my-heading">关注、草稿与数据状态</h2><p>草稿与关注只保存在当前浏览器；匿名使用统计由你决定是否开启。</p></div>
         </header>
 
         <div class="my-grid">
@@ -246,6 +246,21 @@
             <div id="watch-events" class="watch-events"></div>
           </section>
 
+          <section class="panel analytics-privacy-panel" aria-labelledby="analytics-privacy-heading">
+            <div class="panel-heading"><div><p class="kicker">隐私与统计</p><h3 id="analytics-privacy-heading">匿名统计由你控制</h3></div><span id="analytics-consent-status" class="consent-status">未选择</span></div>
+            <p id="analytics-consent-detail" class="analytics-consent-detail">允许后只记录随机匿名编号、访问页面、白名单按钮、粗粒度设备与来源域名，不记录你输入的内容。</p>
+            <div id="analytics-identity" class="analytics-identity" hidden></div>
+            <div class="privacy-actions">
+              <button id="analytics-settings-allow" class="primary-button" type="button">允许匿名统计</button>
+              <button id="analytics-settings-stop" class="danger-button" type="button" hidden>停止并重置匿名编号</button>
+            </div>
+            <ul class="privacy-list">
+              <li>不发送提问、搜索词、关注、草稿、剪贴板或完整网址。</li>
+              <li>分析记录不保存姓名、手机号、IP、完整设备指纹或精确位置；托管商为提供网络请求可能短暂处理连接信息。</li>
+              <li>匿名记录最多保留 90 天；你可以随时停止并重置。</li>
+            </ul>
+          </section>
+
           <section class="panel trust-panel" aria-labelledby="trust-heading">
             <div class="panel-heading"><div><p class="kicker">数据可信度</p><h3 id="trust-heading">两条更新链路，绝不混淆</h3></div></div>
             <div id="trust-summary" class="trust-summary"></div>
@@ -253,7 +268,7 @@
               <summary>查看来源运行状态</summary>
               <div id="source-health-list" class="source-health-list"></div>
             </details>
-            <p class="privacy-note"><strong>隐私说明：</strong>本站不发送访客标识、浏览记录或关注内容；草稿与关注仅存于本机。</p>
+            <p class="privacy-note"><strong>隐私说明：</strong>草稿与关注始终只存本机。只有明确允许后，本站才发送随机匿名编号、页面和白名单动作；统计由独立私有服务处理，最多保留 90 天。</p>
           </section>
         </div>
       </section>
@@ -265,8 +280,19 @@
     </main>
   </div>
 
+  <section id="analytics-consent" class="analytics-consent" aria-labelledby="analytics-consent-title" hidden>
+    <div>
+      <p class="kicker">你的选择</p>
+      <h2 id="analytics-consent-title">允许匿名使用统计吗？</h2>
+      <p id="analytics-consent-copy">我们只想知道哪些页面和按钮真正有用，并记录粗粒度设备和来源域名。不记录你的提问、搜索、关注、草稿、剪贴板，也不把 IP 写入分析记录。</p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button id="analytics-allow" class="primary-button" type="button">允许匿名统计</button>
+      <button id="analytics-decline" class="secondary-button" type="button">暂不允许</button>
+    </div>
+  </section>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <noscript><div class="noscript">需要启用 JavaScript 才能使用 Market Diary 工作台。</div></noscript>
-  <script src="./app.js?v=20260903-2"></script>
+  <script src="./app.js?v=20260904-1"></script>
 </body>
 </html>

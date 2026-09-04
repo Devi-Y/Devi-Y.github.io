@@ -22,7 +22,9 @@ Data boundaries:
 - data/events.json: verified editorial events eligible for structured output.
 - data/candidates.json and data/ai-candidates.json: unverified leads; they may only produce verification checklists.
 - Free-text key numbers are display-only and must not be ranked or treated as comparable metrics.
-- User watchlists and drafts stay in the local browser. The current site sends no visitor tracking data.
+- User watchlists and drafts stay in the local browser.
+- Usage analytics are off by default. Only explicit consent creates a random browser ID and sends allowlisted page/action events. Questions, searches, watchlists, drafts, clipboard contents, full URLs, IP addresses, full user agents, and precise location are not included. Records are retained for at most 90 days and the visitor can stop/reset the ID.
+- The owner dashboard reports consented anonymous browser IDs, not all real people. Optional invite links use opaque random codes mapped to private owner notes.
 - verified=true is currently an editorial state; verifiedAt and verifiedBy are not yet structured audit fields.
 
 Correction case: SHEIN. The system initially confused the Aug 28 trading-arrangement announcement date with the listing/trading date. Human verification returned to HKEX and corrected the planned trading date to Sep 1, 2026.
