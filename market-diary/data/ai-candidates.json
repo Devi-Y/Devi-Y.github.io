@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T00:04:43.604Z",
+  "generatedAt": "2026-09-04T01:39:43.017Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -411,6 +411,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
+      "description": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "ad6de67421a642d1",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$TSLA mission accomplished.... HUGE run and congrats to all who are in the calls..... - x.com",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54bFNfRjdQMnZEaW9JRm82ZUEweDVfbkpobm9PTm1fNnIwVjhWMTREVFpSZHRwdkVQNDNMY0szV1FreEJseHNiTFVmUEwyeTVtWWhUUTRJMHdQSGxOTkpV?oc=5",
       "pubDate": "Thu, 03 Sep 2026 13:47:48 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
-      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "35dbbb1066754903",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

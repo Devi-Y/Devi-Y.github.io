@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T00:04:42.714Z",
+  "generatedAt": "2026-09-04T01:39:42.150Z",
   "windowDays": 7,
   "summary": {
     "total": 43,
@@ -285,6 +285,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
+      "description": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "ad6de67421a642d1",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$TSLA mission accomplished.... HUGE run and congrats to all who are in the calls..... - x.com",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54bFNfRjdQMnZEaW9JRm82ZUEweDVfbkpobm9PTm1fNnIwVjhWMTREVFpSZHRwdkVQNDNMY0szV1FreEJseHNiTFVmUEwyeTVtWWhUUTRJMHdQSGxOTkpV?oc=5",
       "pubDate": "Thu, 03 Sep 2026 13:47:48 GMT",
@@ -539,26 +559,6 @@
       "score": 44,
       "priority": "B",
       "id": "b87791f3e6bd8d86",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "輝達晚宴飯局另類指標！黃仁勳笑說共進晚餐的股價都會翻倍 輝達（NASDAQ：NVDA）公佈最新第二季財報，營收與每股盈餘均高於華爾街預期，執行長黃仁勳於電話會議中回答高盛分析師提問時，幽默的提及自身晚餐社交行程就是股價指標，只要跟他共進晚餐的公司 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oM0QxYzhtdDQ2Qy1tcDJhVEhKVWxWUEljcVVaMVZ0XzRXOGVFLUl3Ql95eDBvQlVhNWJhRmtKSGlUQ3JzUHRxU2VkYzFNelpMQ2dNdnJtS3lHVHBWa3g0MzdUcTA0Zw?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:26:15 GMT",
-      "description": "輝達晚宴飯局另類指標！黃仁勳笑說共進晚餐的股價都會翻倍 輝達（NASDAQ：NVDA）公佈最新第二季財報，營收與每股盈餘均高於華爾街預期，執行長黃仁勳於電話會議中回答高盛分析師提問時，幽默的提及自身晚餐社交行程就是股價指標，只要跟他共進晚餐的公司 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9de06c05d884e0c6",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -882,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-04T00:04:43.246Z"
+  "rankedAt": "2026-09-04T01:39:42.642Z"
 }
