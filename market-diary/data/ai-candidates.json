@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T01:39:43.017Z",
+  "generatedAt": "2026-09-04T04:29:18.504Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -30,37 +30,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX Enhances Product Offering with SHEIN Debut",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en",
-      "pubDate": "Fri, 28 Aug 2026 12:00:00 +0800",
-      "description": "HKEX Enhances Product Offering with SHEIN Debut",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "bd6e25338c79f88e",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "SHEIN上市，港交所更新相关产品安排",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -381,7 +350,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pbTNEX3RKTDBuU3FHN3pCUjUwUnpsZGxJM0dETGVUSU1aZFpnNW5qc0JDVTRDQ1FuMVNzbWY1UE9uamlJc3YyMWhNLXpGYVFrdUljQ1pDa0lLWjBoby1YSGtqV2RnejFXTFhj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HUGVTOEhidXYtVENyT1g2TG1hNHJKbjFDUUJqSFV2SndmRVJqQjlzajhFaTdpMC0tSnM0Y3lfTlRBeS1lSGhJMlE0X1NYbnJJcWI5dFBPQlVHRlFlbDdjbjBhUERfeTI0RHZn?oc=5",
       "pubDate": "Thu, 03 Sep 2026 10:51:17 GMT",
       "description": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -393,7 +362,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "3909448afb528234",
+      "id": "0db2a42bb8b0d5e5",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -473,37 +442,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWNsYVczZzhKR2pRZGVYS1hGcUs4aGt5a0kzMG1vdVBId3hPeWlCd0l0YTB6YWR2akFUS3hfelI2STlxTXZiNEkzcjZUMFZuTW1zMXpSVGtjR2JpanR1dGZpdWJLbzFCemFSVll4X0J0eEt2NEk4?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 02:41:04 GMT",
-      "description": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "831ee7e2f351559b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TA…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻寬與 scale-up 互連成為真正瓶頸。NVDA 轉向全棧 AI 工廠，AMD 硬體追近，OpenAI 與 AVGO 的客製 ASIC 時程加快。訓練與推論矽晶已明顯分流：訓練要規模與算力，推論更吃 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FZlJfU25Gd0piUFNUM1pxZDg3QnE3Zko1aTllZjJtU05DYkNjcmVGMk1MVmppdUZ3azJSM0V1LVROTkM2dVYzdms2aTNLbkZ1bVRUazBtdGV2Y0NyUHc?oc=5",
       "pubDate": "Tue, 01 Sep 2026 05:57:00 GMT",
@@ -553,6 +491,37 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWNsYVczZzhKR2pRZGVYS1hGcUs4aGt5a0kzMG1vdVBId3hPeWlCd0l0YTB6YWR2akFUS3hfelI2STlxTXZiNEkzcjZUMFZuTW1zMXpSVGtjR2JpanR1dGZpdWJLbzFCemFSVll4X0J0eEt2NEk4?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 02:41:04 GMT",
+      "description": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "831ee7e2f351559b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TA…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "35dbbb1066754903",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

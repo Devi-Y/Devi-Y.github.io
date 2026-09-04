@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-04T01:39:42.150Z",
+  "generatedAt": "2026-09-04T04:29:17.779Z",
   "windowDays": 7,
   "summary": {
-    "total": 43,
+    "total": 41,
     "bySignal": {
-      "事实": 2,
+      "事实": 1,
       "媒体": 0,
       "人物": 4,
       "资金": 0,
-      "热点": 37
+      "热点": 36
     },
     "byTrust": {
-      "A": 5,
+      "A": 4,
       "B": 1,
-      "C": 37
+      "C": 36
     },
     "s": 0,
-    "a": 2,
-    "b": 41
+    "a": 1,
+    "b": 40
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -40,26 +40,6 @@
       "priority": "A",
       "id": "4ebe94f325be4530",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型"
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX Enhances Product Offering with SHEIN Debut",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en",
-      "pubDate": "Fri, 28 Aug 2026 12:00:00 +0800",
-      "description": "HKEX Enhances Product Offering with SHEIN Debut",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "bd6e25338c79f88e",
-      "rankReason": "一级/官方信源；高影响事件词"
     },
     {
       "market": "宏观",
@@ -266,7 +246,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pbTNEX3RKTDBuU3FHN3pCUjUwUnpsZGxJM0dETGVUSU1aZFpnNW5qc0JDVTRDQ1FuMVNzbWY1UE9uamlJc3YyMWhNLXpGYVFrdUljQ1pDa0lLWjBoby1YSGtqV2RnejFXTFhj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HUGVTOEhidXYtVENyT1g2TG1hNHJKbjFDUUJqSFV2SndmRVJqQjlzajhFaTdpMC0tSnM0Y3lfTlRBeS1lSGhJMlE0X1NYbnJJcWI5dFBPQlVHRlFlbDdjbjBhUERfeTI0RHZn?oc=5",
       "pubDate": "Thu, 03 Sep 2026 10:51:17 GMT",
       "description": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -278,7 +258,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "3909448afb528234",
+      "id": "0db2a42bb8b0d5e5",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -325,26 +305,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWNsYVczZzhKR2pRZGVYS1hGcUs4aGt5a0kzMG1vdVBId3hPeWlCd0l0YTB6YWR2akFUS3hfelI2STlxTXZiNEkzcjZUMFZuTW1zMXpSVGtjR2JpanR1dGZpdWJLbzFCemFSVll4X0J0eEt2NEk4?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 02:41:04 GMT",
-      "description": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "831ee7e2f351559b",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻寬與 scale-up 互連成為真正瓶頸。NVDA 轉向全棧 AI 工廠，AMD 硬體追近，OpenAI 與 AVGO 的客製 ASIC 時程加快。訓練與推論矽晶已明顯分流：訓練要規模與算力，推論更吃 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FZlJfU25Gd0piUFNUM1pxZDg3QnE3Zko1aTllZjJtU05DYkNjcmVGMk1MVmppdUZ3azJSM0V1LVROTkM2dVYzdms2aTNLbkZ1bVRUazBtdGV2Y0NyUHc?oc=5",
       "pubDate": "Tue, 01 Sep 2026 05:57:00 GMT",
@@ -379,6 +339,26 @@
       "score": 47,
       "priority": "B",
       "id": "4eef872c4904488a",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWNsYVczZzhKR2pRZGVYS1hGcUs4aGt5a0kzMG1vdVBId3hPeWlCd0l0YTB6YWR2akFUS3hfelI2STlxTXZiNEkzcjZUMFZuTW1zMXpSVGtjR2JpanR1dGZpdWJLbzFCemFSVll4X0J0eEt2NEk4?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 02:41:04 GMT",
+      "description": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "831ee7e2f351559b",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -665,26 +645,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "【美石油儲備降至44年低點，擬用委內瑞拉油補庫】美國戰略石油儲備截至8月28日已降至2.866億桶，降至約44年來的最低水準。川普總統擔心中期選舉前汽油價格飆升。美國正以每週數百萬桶的速度釋放石油儲備……https://t.co/oIvGJoUpqZ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWOUd5dEYzYTNhRlJ2bTY1c1RoQVR6OEh2MmV3dElaTXRRX1NHY2RXeWNnRzZvYndrWm9uaUM3SXJwMEFBaEpDaVFNV2s3UTlKajhEYVFNZUU5YmM0M181UkJJbzB4LVVPYVJZREYxSFk?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 03:11:11 GMT",
-      "description": "【美石油儲備降至44年低點，擬用委內瑞拉油補庫】美國戰略石油儲備截至8月28日已降至2.866億桶，降至約44年來的最低水準。川普總統擔心中期選舉前汽油價格飆升。美國正以每週數百萬桶的速度釋放石油儲備……https://t.co/oIvGJoUpqZ &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "2307c64a4f40f1f6",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "“反超快時尚法”：法方否認對中國存有任何歧視 https://t.co/6dNepU1bKc - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01b3prREZHdW9sRFFRNlF3TDdicHJMdm84eW14YVVWa1VteHUxdWNuNjE3WFViUVhFNXd0UjdkX3JxcUxidmpKQzNTelJsUDZoSEFReVByTm1NT2JlaGFucg?oc=5",
       "pubDate": "Thu, 03 Sep 2026 21:21:38 GMT",
@@ -759,6 +719,26 @@
       "score": 17,
       "priority": "B",
       "id": "e63848695c3ab27c",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "【美石油儲備降至44年低點，擬用委內瑞拉油補庫】美國戰略石油儲備截至8月28日已降至2.866億桶，降至約44年來的最低水準。川普總統擔心中期選舉前汽油價格飆升。美國正以每週數百萬桶的速度釋放石油儲備……https://t.co/oIvGJoUpqZ - x.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWOUd5dEYzYTNhRlJ2bTY1c1RoQVR6OEh2MmV3dElaTXRRX1NHY2RXeWNnRzZvYndrWm9uaUM3SXJwMEFBaEpDaVFNV2s3UTlKajhEYVFNZUU5YmM0M181UkJJbzB4LVVPYVJZREYxSFk?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 03:11:11 GMT",
+      "description": "【美石油儲備降至44年低點，擬用委內瑞拉油補庫】美國戰略石油儲備截至8月28日已降至2.866億桶，降至約44年來的最低水準。川普總統擔心中期選舉前汽油價格飆升。美國正以每週數百萬桶的速度釋放石油儲備……https://t.co/oIvGJoUpqZ &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "2307c64a4f40f1f6",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -860,27 +840,7 @@
       "priority": "B",
       "id": "a64e64d20328e99c",
       "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "#感謝護理人員默默奉獻 - Търсене / X - x.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdHVNbGRZcnZQam1ZMlZBcDlnNzVlekFndWRTaDVKYWZSb3NBaGtWdkgwRUpBNkZTVllRMUJSR1UtaWs5bE5XaDhQVkwyOGNEZVNGeGZCS2JLaGEtUlF0cnc3MVlIS3AxM3NxUmNmVnZneThsc3V4dDJQQTlPZGp1VnlTMFBmcDAxcFJFU1k4X0t1QlNicUd0X3p1NEhUZkhqSklpenBZXzBOUXd1eW9HM3F2ZFRLMzZTb01VNWpCUlJDNURNbWNENjdpZUdoNkJ2bDFHZw?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 20:38:27 GMT",
-      "description": "#感謝護理人員默默奉獻 - Търсене / X &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "a965bdea0ef541fd",
-      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-04T01:39:42.642Z"
+  "rankedAt": "2026-09-04T04:29:18.214Z"
 }
