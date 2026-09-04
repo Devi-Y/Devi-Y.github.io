@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T21:42:15.279Z",
+  "generatedAt": "2026-09-04T00:04:43.604Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -504,37 +504,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
-      "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "b87791f3e6bd8d86",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WTGxuUXp3Q3I3N1R2YXQwRGRrZTZuOXBZNTdoaFJPdkVCbzQ0eFp5TURuSUFESkRMYWM3NFB2WjF6dWRXTDBQYndaNmNubkRaVVNhTzF2cUVReWFkOWs4MjcyOGE?oc=5",
       "pubDate": "Tue, 01 Sep 2026 10:27:13 GMT",
@@ -658,37 +627,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YR3lLSENxME82bVpMaFRYY1ZsSWI1c3NIS1llc0pYYWtsdHZlckZMNklYNk8zNDA5ODNMejBNMDZtY0I1TkpmRWlmY0hQVDV3T3JqN1pLdmtZenN3TVE?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 04:41:26 GMT",
-      "description": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "8234892d50b2f1a0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive. MediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI fa - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52a0FrZ1hmSjNzS2NZZDFNY2lqMjF1RkJwMnRSdEpNQ01HamhCdEljVVlXbV90VExIRjRKb0p1WW5IS2FNaS1lRkRxdmtIaG9NQmlIQ185ZDA3UEhDUTh4QVA0NFlxQQ?oc=5",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
+      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "964637cde5db1777",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWURFNmVhdlJHbXRDOHRqQUt1UENwYXB5VFJwMzdSMFBkNFN1eU9QdTNpMVR0UHJFb3YwTkxaTnRnWnVjcHNHTS1YUWtDSERfQXN3cThEdWNud0hLb3c?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 07:00:15 GMT",
+      "description": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合約，靈活布局市場行情 以下是具體交易思路： &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "35dbbb1066754903",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 財報公布隔日，盤前股價上漲 6%。 無論你短線看多或看空，都可透過 Bitget 股票現貨與永續合…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

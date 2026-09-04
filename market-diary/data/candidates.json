@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-03T21:42:14.449Z",
+  "generatedAt": "2026-09-04T00:04:42.714Z",
   "windowDays": 7,
   "summary": {
-    "total": 42,
+    "total": 43,
     "bySignal": {
       "事实": 2,
       "媒体": 0,
       "人物": 4,
       "资金": 0,
-      "热点": 36
+      "热点": 37
     },
     "byTrust": {
       "A": 5,
       "B": 1,
-      "C": 36
+      "C": 37
     },
     "s": 0,
     "a": 2,
-    "b": 40
+    "b": 41
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -345,26 +345,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
-      "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "b87791f3e6bd8d86",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WTGxuUXp3Q3I3N1R2YXQwRGRrZTZuOXBZNTdoaFJPdkVCbzQ0eFp5TURuSUFESkRMYWM3NFB2WjF6dWRXTDBQYndaNmNubkRaVVNhTzF2cUVReWFkOWs4MjcyOGE?oc=5",
       "pubDate": "Tue, 01 Sep 2026 10:27:13 GMT",
@@ -440,26 +420,6 @@
       "priority": "B",
       "id": "ae698e2689958648",
       "rankReason": "一级/官方信源；关键人物"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YR3lLSENxME82bVpMaFRYY1ZsSWI1c3NIS1llc0pYYWtsdHZlckZMNklYNk8zNDA5ODNMejBNMDZtY0I1TkpmRWlmY0hQVDV3T3JqN1pLdmtZenN3TVE?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 04:41:26 GMT",
-      "description": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "8234892d50b2f1a0",
-      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -559,6 +519,46 @@
       "score": 44,
       "priority": "B",
       "id": "4a2b331ccd15a109",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
+      "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "b87791f3e6bd8d86",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "輝達晚宴飯局另類指標！黃仁勳笑說共進晚餐的股價都會翻倍 輝達（NASDAQ：NVDA）公佈最新第二季財報，營收與每股盈餘均高於華爾街預期，執行長黃仁勳於電話會議中回答高盛分析師提問時，幽默的提及自身晚餐社交行程就是股價指標，只要跟他共進晚餐的公司 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oM0QxYzhtdDQ2Qy1tcDJhVEhKVWxWUEljcVVaMVZ0XzRXOGVFLUl3Ql95eDBvQlVhNWJhRmtKSGlUQ3JzUHRxU2VkYzFNelpMQ2dNdnJtS3lHVHBWa3g0MzdUcTA0Zw?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 01:26:15 GMT",
+      "description": "輝達晚宴飯局另類指標！黃仁勳笑說共進晚餐的股價都會翻倍 輝達（NASDAQ：NVDA）公佈最新第二季財報，營收與每股盈餘均高於華爾街預期，執行長黃仁勳於電話會議中回答高盛分析師提問時，幽默的提及自身晚餐社交行程就是股價指標，只要跟他共進晚餐的公司 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "9de06c05d884e0c6",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -705,26 +705,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "#eldenring #EldenRingart #eldenringfanart - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Yck14S2hwVXN0dnNJelc4RHJBNnBmZ0JzV3pUZzFWaURrbC1FVHJxcngzTHZxYXB5d200OGZMZmp6NUFNNkxrd3FSdzJ3LXR6N0xJWnZuYTlpWS1UbGNqWERxZkRWOFBQX0RicXJn?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 12:13:19 GMT",
-      "description": "#eldenring #EldenRingart #eldenringfanart &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "c4dcd143c0389710",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片| 何頻(@MJTVHoPin) on X - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmYkoyZEdaZUd6aWoxVkhuX1ltOHJrTTdiQ0lKY2hUMGM5YVRZVVQ5b1RVVEJTeWpWN1RxX043aExEY3lKX2thVmM1MmNoeHZjY01BcEN3?oc=5",
       "pubDate": "Tue, 01 Sep 2026 15:01:04 GMT",
@@ -779,6 +759,26 @@
       "score": 17,
       "priority": "B",
       "id": "e63848695c3ab27c",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "【《快打旋風》合作YouTube遊戲角落（無誤】 https://t.co/CnDwbmSfOQ ​ 改編自卡普空旗下的格鬥遊戲《快打旋風》真人電影預計於 10 月 16 日在台上映， 官方與 YouTube 合作釋出一支讓觀眾「玩」的預告片，讓人彷彿正在操控格鬥遊戲角色般與之互動。 ​ 此功能是電 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sN3gwTURfaXZpbHFXV2VpOF9NNHc2Wkh4emUtNW5fa0tHTmpqX2dvWDgtN19LMzdYMUVwQ2FLRUFRc2pKX05NLTVXNm5XSXhGektaZkJlWm13T09GQUx4U3ByZnJaUUNNVjR1X0dn?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 10:15:50 GMT",
+      "description": "【《快打旋風》合作YouTube遊戲角落（無誤】 https://t.co/CnDwbmSfOQ ​ 改編自卡普空旗下的格鬥遊戲《快打旋風》真人電影預計於 10 月 16 日在台上映， 官方與 YouTube 合作釋出一支讓觀眾「玩」的預告片，讓人彷彿正在操控格鬥遊戲角色般與之互動。 ​ 此功能是電 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "58289c42deafa249",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -860,7 +860,27 @@
       "priority": "B",
       "id": "a64e64d20328e99c",
       "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "#感謝護理人員默默奉獻 - Търсене / X - x.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdHVNbGRZcnZQam1ZMlZBcDlnNzVlekFndWRTaDVKYWZSb3NBaGtWdkgwRUpBNkZTVllRMUJSR1UtaWs5bE5XaDhQVkwyOGNEZVNGeGZCS2JLaGEtUlF0cnc3MVlIS3AxM3NxUmNmVnZneThsc3V4dDJQQTlPZGp1VnlTMFBmcDAxcFJFU1k4X0t1QlNicUd0X3p1NEhUZkhqSklpenBZXzBOUXd1eW9HM3F2ZFRLMzZTb01VNWpCUlJDNURNbWNENjdpZUdoNkJ2bDFHZw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 20:38:27 GMT",
+      "description": "#感謝護理人員默默奉獻 - Търсене / X &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "a965bdea0ef541fd",
+      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-03T21:42:14.851Z"
+  "rankedAt": "2026-09-04T00:04:43.246Z"
 }
