@@ -1,9 +1,40 @@
 {
-  "generatedAt": "2026-09-04T14:20:21.479Z",
+  "generatedAt": "2026-09-04T18:23:36.972Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+      "pubDate": "Fri, 4 Sep 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "560d80fa8f6e6491",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "港股",
       "signal": "事实",
@@ -164,7 +195,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUeGZuM1EySVJJWGdvOUhCc0NiVTVoVmduSWNNcGhLNmdWM1Q1emhaa2ZYdXBEMXJwSGpORGZLUDkwZzcwWnZnbDZRUkwtTzVHQm5VY25WSmlsbHVzTjhCQkNubWUtUXU0ZjM4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XZVRxVlg5SHN6aWc1LWlweUZiM2o0YWdRSThSX3I5Q3dteW5GYTA3NUI1dlVxQ1lZZ1J4S1N4MXZhVmN4WUFyR2gxRXNrMzBTY3loZFo5Rm5RUmMycW1ZRDNKVEZjS3dCWFM4?oc=5",
       "pubDate": "Mon, 31 Aug 2026 20:43:52 GMT",
       "description": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -176,7 +207,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "cf6821ea7140a4e7",
+      "id": "47faa2cf3512bc90",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -288,7 +319,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HUGVTOEhidXYtVENyT1g2TG1hNHJKbjFDUUJqSFV2SndmRVJqQjlzajhFaTdpMC0tSnM0Y3lfTlRBeS1lSGhJMlE0X1NYbnJJcWI5dFBPQlVHRlFlbDdjbjBhUERfeTI0RHZn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNNXdZUVgzbGVlRzN2TGM4em5Zd1ZvU0ROaWlXR0FiYTJlZEVHb0V4SVVkb1QyZEczUDdOYXRxc1JNRExublEtaVpDZEhMQUpfTmdwdw?oc=5",
       "pubDate": "Thu, 03 Sep 2026 10:51:17 GMT",
       "description": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -300,7 +331,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "0db2a42bb8b0d5e5",
+      "id": "c93ef7ca2f864b1c",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -379,9 +410,40 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "Tigerair Taiwan adds two Japan routes https://t.co/EGoXAWGto5 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wU2hMdXlKSHBDanZiLTJnZG9HelRKYlR4OVVwdU9STjhxMTVlTXNRRjhUN0hvSTlFV0dIdmpWdHdfbC1qUGlMQlFEWll6RFlYUEVsV2EzcHczQTc4NEFGOElrWQ?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 02:28:53 GMT",
+      "description": "Tigerair Taiwan adds two Japan routes https://t.co/EGoXAWGto5 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "5c65a7a59c59daa8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees - x.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EZkdhd0RjcVphVkpYZjUtS0NXeWdFTjlEWGVuV2U0RXZPal9MaTJDRVpzR1Z4ekx0ZkZaR3E3eEN1bDFWSVNBcHlKb1M1RzVJZnVxNlQwMTd0LVZQV1ZveFg5aFdhQmVUaHpJZDI1Yw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YR3lLSENxME82bVpMaFRYY1ZsSWI1c3NIS1llc0pYYWtsdHZlckZMNklYNk8zNDA5ODNMejBNMDZtY0I1TkpmRWlmY0hQVDV3T3JqN1pLdmtZenN3TVE?oc=5",
       "pubDate": "Sat, 29 Aug 2026 04:41:26 GMT",
       "description": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -393,7 +455,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "5a284694504c6beb",
+      "id": "8234892d50b2f1a0",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -442,37 +504,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
-      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "964637cde5db1777",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
       "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
@@ -504,6 +535,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
+      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "964637cde5db1777",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻寬與 scale-up 互連成為真正瓶頸。NVDA 轉向全棧 AI 工廠，AMD 硬體追近，OpenAI 與 AVGO 的客製 ASIC 時程加快。訓練與推論矽晶已明顯分流：訓練要規模與算力，推論更吃 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FZlJfU25Gd0piUFNUM1pxZDg3QnE3Zko1aTllZjJtU05DYkNjcmVGMk1MVmppdUZ3azJSM0V1LVROTkM2dVYzdms2aTNLbkZ1bVRUazBtdGV2Y0NyUHc?oc=5",
       "pubDate": "Tue, 01 Sep 2026 05:57:00 GMT",
@@ -522,6 +584,37 @@
       "ai": {
         "priority": "B",
         "summary": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Nvidia jump starts AI PC market: Asustek’s and MSI’s initial batches of AI PCs designed around Nvidia RTX Spark processors have completely sold out in pre-order, media report, and both have already asked Nvidia for more chips, which are made on TSMC’s - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96VF94RXhIS0FwekxSMWJjUDJySUJ6ZEhfb1VuaUstRXhVNzNKNDhxRFRoR3JCbGRBdkdjTkY0bnUwNzYtT2NSYkpoZzZYbGw4aTNkOHFOYU5fbXNYYlE?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 22:49:04 GMT",
+      "description": "Nvidia jump starts AI PC market: Asustek’s and MSI’s initial batches of AI PCs designed around Nvidia RTX Spark processors have completely sold out in pre-order, media report, and both have already asked Nvidia for more chips, which are made on TSMC’s &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "4a2b331ccd15a109",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -594,68 +687,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xYldpU2RaYk9GZ2RVMDRiSDI2emxqdGFNVmhSZjFhNUctYkVYVzB2bEo1aVdUN0pUQ3hiZ0tEUi0wSDczS3k4aXFVSmp3bHE3ZnlFcUt3SC1tMVpsN3NJdkhENUs3ZTJf?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 06:59:00 GMT",
-      "description": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "107697f03190b482",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56ZUxtS2JaOW40YWt6NTV1RzViblIxZl9feHRSc3VTUVB3b3I5VEYzMkVoRm5McTY3QkJ1a0x3a1lfdFJJbl9LeDhkU2ZKanJRcXhQZVVpNjdlck5qa3FpOGExbUd4Wkhl?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:00:17 GMT",
-      "description": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9 月 6 日 📍 地點：台北市花博公園圓山公園－爭艷館 G1 Bitget 與 Bitget Wallet 邀您一同加入，感受區塊鏈與AI 的匯聚之地 #EventWithBitget &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "bc5f48ea5601333b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🔥 倒數 3 天！#FUTUREMODE 就要登場啦 🎊 📅 活動時間：2026 年 9 月 4 日－9…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "【千萬薪酬】蘋果新任CEO年薪5800萬美元 庫克轉職後將獲4700萬美元 蘋果表示，新任行政總裁John T…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "对robotaxi安全性充分信任 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wU3F1T3Q3THhBdmIySUZhdFczMTUzN2JVRlctUS1nVF9fM2lqZzhKYzJ5OGFGcGt1UWE4WTNzWVdMYk9NNV9ScUMwZEIzWkdxMzlJMWQ3QUJMWHJ4?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 00:33:29 GMT",
-      "description": "对robotaxi安全性充分信任 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 28,
-      "priority": "B",
-      "id": "dc1bcde6f3064db6",
-      "rankReason": "市场相关；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "对robotaxi安全性充分信任",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
