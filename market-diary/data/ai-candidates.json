@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T04:23:52.106Z",
+  "generatedAt": "2026-09-05T09:03:23.615Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -132,37 +132,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hTTUybkg4V3F3UU5XajBYMXhKd0dDN2xwNWdNQV9KYVRzbzBxcFFqNFdLQUxZa0ZpMHYzRXF2ZXlpbDY1SmJpWG9KQ2dOVzYtSnVrZ2h6alBXemNibU5TYjgwcGRyelJuWXdB?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 07:16:45 GMT",
-      "description": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
-      "priority": "B",
-      "id": "87022f6289de7493",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE - x.com",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XZVRxVlg5SHN6aWc1LWlweUZiM2o0YWdRSThSX3I5Q3dteW5GYTA3NUI1dlVxQ1lZZ1J4S1N4MXZhVmN4WUFyR2gxRXNrMzBTY3loZFo5Rm5RUmMycW1ZRDNKVEZjS3dCWFM4?oc=5",
       "pubDate": "Mon, 31 Aug 2026 20:43:52 GMT",
@@ -181,6 +150,37 @@
       "ai": {
         "priority": "B",
         "summary": "Shein在香港上市 籌集17億美元",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq - x.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hTTUybkg4V3F3UU5XajBYMXhKd0dDN2xwNWdNQV9KYVRzbzBxcFFqNFdLQUxZa0ZpMHYzRXF2ZXlpbDY1SmJpWG9KQ2dOVzYtSnVrZ2h6alBXemNibU5TYjgwcGRyelJuWXdB?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 07:16:45 GMT",
+      "description": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "87022f6289de7493",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -318,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$TSLA mission accomplished.... HUGE run and congrats to all who are in the calls..... - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54bFNfRjdQMnZEaW9JRm82ZUEweDVfbkpobm9PTm1fNnIwVjhWMTREVFpSZHRwdkVQNDNMY0szV1FreEJseHNiTFVmUEwyeTVtWWhUUTRJMHdQSGxOTkpV?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 13:47:48 GMT",
-      "description": "$TSLA mission accomplished.... HUGE run and congrats to all who are in the calls..... &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "6a0207254a161d1b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 - x.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWNsYVczZzhKR2pRZGVYS1hGcUs4aGt5a0kzMG1vdVBId3hPeWlCd0l0YTB6YWR2akFUS3hfelI2STlxTXZiNEkzcjZUMFZuTW1zMXpSVGtjR2JpanR1dGZpdWJLbzFCemFSVll4X0J0eEt2NEk4?oc=5",
       "pubDate": "Thu, 03 Sep 2026 02:41:04 GMT",
@@ -402,37 +371,6 @@
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YR3lLSENxME82bVpMaFRYY1ZsSWI1c3NIS1llc0pYYWtsdHZlckZMNklYNk8zNDA5ODNMejBNMDZtY0I1TkpmRWlmY0hQVDV3T3JqN1pLdmtZenN3TVE?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 04:41:26 GMT",
-      "description": "Taiwan prosecutors raided a plant owned by ABF substrate giant Unimicron on Friday over the alleged import of substrates and printed circuit boards (PCBs) made at its China plants and then re-labelling them ‘Made in Taiwan’, media report. Some employees &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "8234892d50b2f1a0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "【千萬薪酬】蘋果新任CEO年薪5800萬美元 庫克轉職後將獲4700萬美元 蘋果表示，新任行政總裁John T…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "「Digital Stars @ MIKU EXPO 2026 EUROPE 官方商品」預售開始日期時間 https://t.co/MZyx4T1SQy #初音未來 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDX0pkSnd6WVJlakdpT2NfUm5jTU56WFlUU1V2bDhuaEpCNFV6ZVNMTmV6VjNVUGZUUDhhanZBTzZkR3haQUJUZ0VETWJQMXNmR3BwZk84ejhGY2Nld3c?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 14:13:04 GMT",
+      "description": "「Digital Stars @ MIKU EXPO 2026 EUROPE 官方商品」預售開始日期時間 https://t.co/MZyx4T1SQy #初音未來 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "234023fa88332d44",
+      "rankReason": "社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "「Digital Stars @ MIKU EXPO 2026 EUROPE 官方商品」預售開始日期時間 #初…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "尼泊爾洪災：兩名工人“奇蹟般”從隧道中獲救，已知1318人遇難 https://t.co/4Dfm2qqY89 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xXy1pZGlmMkYxX0lvbWszRGloaWI2ZndlaWswLUc0a2JiRzY3UmdyNF9KNE8tUG9fQjJab0F5Mkd5ZllxUnNuOW5LMFY2ai1rRDl0dE1Zbzk0cml4eW1Feg?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 13:52:50 GMT",
+      "description": "尼泊爾洪災：兩名工人“奇蹟般”從隧道中獲救，已知1318人遇難 https://t.co/4Dfm2qqY89 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "4aef180660fafd95",
+      "rankReason": "社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "尼泊爾洪災：兩名工人“奇蹟般”從隧道中獲救，已知1318人遇難",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
