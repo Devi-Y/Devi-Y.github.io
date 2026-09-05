@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T18:16:15.686Z",
+  "generatedAt": "2026-09-05T20:23:45.060Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -70,11 +70,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America - TradingView",
+      "title": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America - tw.tradingview.com",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYVBhd0JRT1o3eDdXWHRuRnVaXzV4em5yUDVJVV9JV3VBRDNfMW81dUhtbG9HT0IxUGpMU0txMmVMY1dfSE5GNkpRQXFrVDBfV215ZThoa2h2YnF1VW92X2hTWkVGNDRJLXVhczloSmtWZW9vUFBBNFVSUzA1Q3lUWDZ1TFNkc1JEbXNVcGlsQVE1c2kxQ2swZWdqVWE4cllxc1ZYSTd5anlIcUp1cG5sTVp0X09WWGpXZ29HaHBFUEJiVk5ocjduMFBOYVlBSUY1T3ZHSG1ocnAwVFI1UjBKY0lfWXNKSDdJbHpOR2p1YUVxUUcwZGc?oc=5",
       "pubDate": "Sun, 30 Aug 2026 07:00:00 GMT",
-      "description": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
+      "description": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America &nbsp;&nbsp; tw.tradingview.com",
+      "source": "tw.tradingview.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -83,11 +83,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 63,
       "priority": "B",
-      "id": "527430325d3b6cb4",
+      "id": "58c47d6e15e5e681",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
+        "summary": "tw.tradingview.com出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -247,37 +247,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Win Metawin’s First Solo Fan Meeting in Taipei Sells Out Premium Seats Fast - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBINmNvU0JHZnY5dW45Ty02ekdXV0VzRHAyYWtFVHpLTkdOd3F5SEZoQWd1TjZibTcxdW4wdjl3eHJIMGdxcmYyWEsxS0xLbk5wWndNVHMtMA?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 10:00:00 GMT",
-      "description": "Win Metawin’s First Solo Fan Meeting in Taipei Sells Out Premium Seats Fast &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "31319c85c7af4fc5",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -505,7 +474,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "Nvidia jump starts AI PC market: Asustek’s and MSI’s initial batches of AI PCs designed around Nvidia RTX Spark processors have completely sold out in pre-order, media report, and both have already asked Nvidia for more chips, which are made on TSMC’s - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96VF94RXhIS0FwekxSMWJjUDJySUJ6ZEhfb1VuaUstRXhVNzNKNDhxRFRoR3JCbGRBdkdjTkY0bnUwNzYtT2NSYkpoZzZYbGw4aTNkOHFOYU5fbXNYYlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOGJmZ0N1RXVOWVczUWpGY2xjYXRNR3N2RmpveEhSa1RFQlA1YVNXRHdLdzhUUHVDTXNidU50bndCeDIxdlZLUkdrZDNHaUhuX3Ayek9sTm5yS20tdlp3NlJlMzVIU1FQ?oc=5",
       "pubDate": "Sun, 30 Aug 2026 22:49:04 GMT",
       "description": "Nvidia jump starts AI PC market: Asustek’s and MSI’s initial batches of AI PCs designed around Nvidia RTX Spark processors have completely sold out in pre-order, media report, and both have already asked Nvidia for more chips, which are made on TSMC’s &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -517,7 +486,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "4a2b331ccd15a109",
+      "id": "972cbc6bfff1bcde",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "「Digital Stars @ MIKU EXPO 2026 EUROPE 官方商品」預售開始日期時間 #初…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "中方新聞稿指王毅稱“韓朝兩國” 韓國家安保室長魏聖洛：他沒有這樣說 https://t.co/ZMkofSEIVH - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FRTdfblpBYjYza0xHdlRIaTRMVlQ1eG5aRHNpNllYQmd6c2d6akZPVkZxa0FzdGxmaFNERlJ3NkdaaGRERmJQb2U3VHlRbDZYOTBmUw?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 14:40:11 GMT",
+      "description": "中方新聞稿指王毅稱“韓朝兩國” 韓國家安保室長魏聖洛：他沒有這樣說 https://t.co/ZMkofSEIVH &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "2480ebbfc94a6280",
+      "rankReason": "社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "中方新聞稿指王毅稱“韓朝兩國” 韓國家安保室長魏聖洛：他沒有這樣說",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

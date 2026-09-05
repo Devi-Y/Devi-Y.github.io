@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T18:16:14.739Z",
+  "generatedAt": "2026-09-05T20:23:43.993Z",
   "windowDays": 7,
   "summary": {
     "total": 40,
@@ -65,11 +65,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America - TradingView",
+      "title": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America - tw.tradingview.com",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYVBhd0JRT1o3eDdXWHRuRnVaXzV4em5yUDVJVV9JV3VBRDNfMW81dUhtbG9HT0IxUGpMU0txMmVMY1dfSE5GNkpRQXFrVDBfV215ZThoa2h2YnF1VW92X2hTWkVGNDRJLXVhczloSmtWZW9vUFBBNFVSUzA1Q3lUWDZ1TFNkc1JEbXNVcGlsQVE1c2kxQ2swZWdqVWE4cllxc1ZYSTd5anlIcUp1cG5sTVp0X09WWGpXZ29HaHBFUEJiVk5ocjduMFBOYVlBSUY1T3ZHSG1ocnAwVFI1UjBKY0lfWXNKSDdJbHpOR2p1YUVxUUcwZGc?oc=5",
       "pubDate": "Sun, 30 Aug 2026 07:00:00 GMT",
-      "description": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
+      "description": "NVDA Stock Eyes Best Month Since May: Jensen Huang Says AI Data Center Boom Is ‘Reindustrializing’ America &nbsp;&nbsp; tw.tradingview.com",
+      "source": "tw.tradingview.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -78,7 +78,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 63,
       "priority": "B",
-      "id": "527430325d3b6cb4",
+      "id": "58c47d6e15e5e681",
       "rankReason": "高影响事件词；关键人物"
     },
     {
@@ -180,26 +180,6 @@
       "priority": "B",
       "id": "52c861bb823b03a5",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Win Metawin’s First Solo Fan Meeting in Taipei Sells Out Premium Seats Fast - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBINmNvU0JHZnY5dW45Ty02ekdXV0VzRHAyYWtFVHpLTkdOd3F5SEZoQWd1TjZibTcxdW4wdjl3eHJIMGdxcmYyWEsxS0xLbk5wWndNVHMtMA?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 10:00:00 GMT",
-      "description": "Win Metawin’s First Solo Fan Meeting in Taipei Sells Out Premium Seats Fast &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "31319c85c7af4fc5",
-      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -346,7 +326,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "Nvidia jump starts AI PC market: Asustek’s and MSI’s initial batches of AI PCs designed around Nvidia RTX Spark processors have completely sold out in pre-order, media report, and both have already asked Nvidia for more chips, which are made on TSMC’s - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96VF94RXhIS0FwekxSMWJjUDJySUJ6ZEhfb1VuaUstRXhVNzNKNDhxRFRoR3JCbGRBdkdjTkY0bnUwNzYtT2NSYkpoZzZYbGw4aTNkOHFOYU5fbXNYYlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOGJmZ0N1RXVOWVczUWpGY2xjYXRNR3N2RmpveEhSa1RFQlA1YVNXRHdLdzhUUHVDTXNidU50bndCeDIxdlZLUkdrZDNHaUhuX3Ayek9sTm5yS20tdlp3NlJlMzVIU1FQ?oc=5",
       "pubDate": "Sun, 30 Aug 2026 22:49:04 GMT",
       "description": "Nvidia jump starts AI PC market: Asustek’s and MSI’s initial batches of AI PCs designed around Nvidia RTX Spark processors have completely sold out in pre-order, media report, and both have already asked Nvidia for more chips, which are made on TSMC’s &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -358,7 +338,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "4a2b331ccd15a109",
+      "id": "972cbc6bfff1bcde",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -545,6 +525,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "習近平健康出狀況？「下機緊抓彭麗媛」影片瘋傳 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MUlRZSTNwSWxhNWF6MUxaUHU2a200TV8weEwxRmZWMGtWMXZIb1dlbHJUUzQyME5sTWFaSXByeEU5Z0pPV29mTmlTLUFYRm5HdXhNWVVNVU5Gdw?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 07:34:36 GMT",
+      "description": "習近平健康出狀況？「下機緊抓彭麗媛」影片瘋傳 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "019d780d3df4623e",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "可可愛愛的女明星 UNI 🤍 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WUVJTYVZNelRoQ0ZmWmdmWkh5S1liTXMyblp5Q0QwY0thZk1RVXd0ZjluZU00OHkzRDZLdmxQd3U2UXFjR1hKVWJucEFHNlpxVThpTA?oc=5",
       "pubDate": "Fri, 04 Sep 2026 14:35:43 GMT",
@@ -639,6 +639,26 @@
       "score": 17,
       "priority": "B",
       "id": "2307c64a4f40f1f6",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "感謝雞白狗讓我變可愛！連種族都變了！😄😄 @chicker_000 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpMWZoYmFqdV9YQmRIRmhTRmJ5RGJBV0lYUmtuN0J3ZVROSTlfT0RaUFdWMDY3VGxWdWhtOUFUUzdZUjZLMm1sNUNGc2ExWFVPQTVCYlV0QTlzRzhOMUE3SVJYWnE?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 14:30:49 GMT",
+      "description": "感謝雞白狗讓我變可愛！連種族都變了！😄😄 @chicker_000 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "9cf13352ec67d854",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -785,26 +805,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "#未滿18歲請勿進入 - অনুসন্ধান / X - x.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG5GbW55VUtEOEc3Nm45VWpWNkZUazN3c0xPWXN2cHRwTVM2bWVLSkxqM3d4UzBncFowU1EwLTRLNkUtWDZ0WFNNaWJic3NMTVFHU3RPLTFBQ0JlaUtCX3BVVngzWkdLVGJVYkQ3VEFLU0lqc2oxYlQxaVNpR3cxTVViTVlnRmVtSFhUVjMtNnFtR2RJTTRmdk9YOA?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 04:55:30 GMT",
-      "description": "#未滿18歲請勿進入 - অনুসন্ধান / X &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "e76505e222b7ec2b",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "【《快打旋風》合作YouTube遊戲角落（無誤】 https://t.co/CnDwbmSfOQ ​ 改編自卡普空旗下的格鬥遊戲《快打旋風》真人電影預計於 10 月 16 日在台上映， 官方與 YouTube 合作釋出一支讓觀眾「玩」的預告片，讓人彷彿正在操控格鬥遊戲角色般與之互動。 ​ 此功能是電 - x.com",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sN3gwTURfaXZpbHFXV2VpOF9NNHc2Wkh4emUtNW5fa0tHTmpqX2dvWDgtN19LMzdYMUVwQ2FLRUFRc2pKX05NLTVXNm5XSXhGektaZkJlWm13T09GQUx4U3ByZnJaUUNNVjR1X0dn?oc=5",
       "pubDate": "Wed, 02 Sep 2026 10:15:50 GMT",
@@ -822,5 +822,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-05T18:16:15.323Z"
+  "rankedAt": "2026-09-05T20:23:44.439Z"
 }
