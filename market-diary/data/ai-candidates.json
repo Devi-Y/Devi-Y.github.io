@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T00:02:36.128Z",
+  "generatedAt": "2026-09-05T04:23:52.106Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -656,6 +656,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53aF83QzhLNm1CWm4tYTdGRm45dVl6NC1fMlVNSlAzWjNDdHhyZ0NWTG5kWW5iSm1iR3lfaklweXF2Y3BEYUJoeFFfZkVEb3VORDRfdndTU1FRSVljcVZHWFRzY1lBbGRROEE?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 04:18:33 GMT",
+      "description": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "55913b7f70fda594",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "【千萬薪酬】蘋果新任CEO年薪5800萬美元 庫克轉職後將獲4700萬美元 蘋果表示，新任行政總裁John T…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "「Digital Stars @ MIKU EXPO 2026 EUROPE 官方商品」預售開始日期時間 https://t.co/MZyx4T1SQy #初音未來 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDX0pkSnd6WVJlakdpT2NfUm5jTU56WFlUU1V2bDhuaEpCNFV6ZVNMTmV6VjNVUGZUUDhhanZBTzZkR3haQUJUZ0VETWJQMXNmR3BwZk84ejhGY2Nld3c?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 14:13:04 GMT",
-      "description": "「Digital Stars @ MIKU EXPO 2026 EUROPE 官方商品」預售開始日期時間 https://t.co/MZyx4T1SQy #初音未來 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "234023fa88332d44",
-      "rankReason": "社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "「Digital Stars @ MIKU EXPO 2026 EUROPE 官方商品」預售開始日期時間 #初…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
