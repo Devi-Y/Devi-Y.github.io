@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T09:03:22.772Z",
+  "generatedAt": "2026-09-05T12:41:47.490Z",
   "windowDays": 7,
   "summary": {
     "total": 41,
@@ -406,7 +406,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53aF83QzhLNm1CWm4tYTdGRm45dVl6NC1fMlVNSlAzWjNDdHhyZ0NWTG5kWW5iSm1iR3lfaklweXF2Y3BEYUJoeFFfZkVEb3VORDRfdndTU1FRSVljcVZHWFRzY1lBbGRROEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtb2J4b2FRWXlmWm1VUmdXMk5mU2dkdkk4a1JZekd0NFI0WTJGRVpuYnNzUXVWN2R3QzdleUlweUJkdFQyNnJQUzM4cnNRTlY0RWd4a1M5akh4OUhHa3pHR2JYQ2hLT0tEeGc?oc=5",
       "pubDate": "Tue, 01 Sep 2026 04:18:33 GMT",
       "description": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -418,7 +418,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "55913b7f70fda594",
+      "id": "9214054b1676da3e",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -459,6 +459,26 @@
       "score": 31,
       "priority": "B",
       "id": "503674c5f43437e1",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "对robotaxi安全性充分信任 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBodl9xMVlnSV9TYkp5ZHZENkQyMzJzTkk1QW1hcEhkUm5INms2aExDRldYQWtXQ3d4WUdWeGlLSUFjR2JLbl9lZFdjNzN6NFVIYzNtWGJzSjRYZnNFeTVJWVlyelpiU0U?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 00:33:29 GMT",
+      "description": "对robotaxi安全性充分信任 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 28,
+      "priority": "B",
+      "id": "74ab71d2b7b7e4b1",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -559,26 +579,6 @@
       "score": 20,
       "priority": "B",
       "id": "2d6008ea749a731d",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "26/9/4. 德國警方現正展開全國通緝行動，追捕一名被認為與近期針對北萊茵-威斯特法倫州和布蘭登堡州電力基礎設施的破壞企圖有關的男子 警方表示，他們收到一封信件，並正在跟進信中包含的資訊，而根據德國媒體報導，嫌疑人被確認為來自蓋沃爾斯貝格(Gevelsb - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3YVkyU29PbVM4TVpGZmZHM1BHcy1YSkwxV2gtdDY5eFVsNG4zLVFKWFkxQnhHRWZIMkstbDVnNHFWSkpaZW9HR00wNnQwaGc1ei1GWGJORjRoRGt1NWwwTHp2bw?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 14:35:34 GMT",
-      "description": "26/9/4. 德國警方現正展開全國通緝行動，追捕一名被認為與近期針對北萊茵-威斯特法倫州和布蘭登堡州電力基礎設施的破壞企圖有關的男子 警方表示，他們收到一封信件，並正在跟進信中包含的資訊，而根據德國媒體報導，嫌疑人被確認為來自蓋沃爾斯貝格(Gevelsb &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "6733c85cc79f2642",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -842,5 +842,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-05T09:03:23.307Z"
+  "rankedAt": "2026-09-05T12:41:47.947Z"
 }
