@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T17:01:12.917Z",
+  "generatedAt": "2026-09-06T19:09:25.372Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -566,37 +566,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
-      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "964637cde5db1777",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe - x.com",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HUGVTOEhidXYtVENyT1g2TG1hNHJKbjFDUUJqSFV2SndmRVJqQjlzajhFaTdpMC0tSnM0Y3lfTlRBeS1lSGhJMlE0X1NYbnJJcWI5dFBPQlVHRlFlbDdjbjBhUERfeTI0RHZn?oc=5",
       "pubDate": "Thu, 03 Sep 2026 10:51:17 GMT",
@@ -646,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
+      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "964637cde5db1777",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
