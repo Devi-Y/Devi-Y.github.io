@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T00:55:20.431Z",
+  "generatedAt": "2026-09-06T05:56:11.022Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -226,7 +226,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCWDNpcGl2M1RKWEVxSE53bVdvbVBWcGZzUEJzSlpmdUh0Q3FrclNSZFRhRFVhbjZJellJaTk0M2MzcnNZbE9PQ0ZhR3BKTWZFcXFORkdBRmZmUVdpNXFZRVdWNklfNW5B?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5TWnlTNnUtWUlhbjZjdFF2Q3N2bkl6M2l5WWZpdHdfbmFobzNJUWdyUi1jSC1xbl8tUVV4bmR1UUhGVENOSzNHR3BlZkhvMXBHZ0RTUWRmVUpWSi1Wb0E?oc=5",
       "pubDate": "Sat, 05 Sep 2026 06:30:03 GMT",
       "description": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -238,11 +238,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "3a9797c6f930305d",
+      "id": "159bc8ef3355ecff",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDcExwNVpQcGFBMU42VU8ya2cxM0J4cFVGWTVwSUp2U3Y1bTFKYy0zUk9JaUlXejJmZXlLWTBxOUJjTWRfQnF3WFlJOVUzT1g0ZWZuRA?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
+      "description": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2a836faa727ac661",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -318,6 +349,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "特斯拉正在引領節奏，而我們正是交易量聚集之地。⚡📈 $TSLA 在現貨和合約市場的交易熱度持續升溫，交易者們正紛紛湧入。 大市場，大勢頭。 關注 $TSLA： https://t.co/KZyBb2XZTF - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83ak9BUDQ2bERYZ3BZVHAtOTg0allMd241X3pfNXNjUHN6Z2dSOVg1MGhoS2xkc2t4b0lER0RqaXF3MlhOcnF0VVdKLWJHNU5aeEJzZQ?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 11:30:57 GMT",
+      "description": "特斯拉正在引領節奏，而我們正是交易量聚集之地。⚡📈 $TSLA 在現貨和合約市場的交易熱度持續升溫，交易者們正紛紛湧入。 大市場，大勢頭。 關注 $TSLA： https://t.co/KZyBb2XZTF &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "17dcaf4e7b553995",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "特斯拉正在引領節奏，而我們正是交易量聚集之地。⚡📈 $TSLA 在現貨和合約市場的交易熱度持續升溫，交易者們…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UaDA4S0V4dFNLbnBPcm5VQ2FZTk1pTzhyVU4yY0o1TlY3cjE5Q2hmWkNJbVhvZ196UkdOYU1DOVJvS1FjYUkwZFFDTzZuWkxfdUVzOEc0SUpjUUd6NzJmV2FB?oc=5",
       "pubDate": "Fri, 04 Sep 2026 07:53:46 GMT",
@@ -336,6 +398,37 @@
       "ai": {
         "priority": "B",
         "summary": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMu…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robotaxi #TSLA - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FNU5OZk81YVl3RGxVZzRNQm5DdldTNmNvcGpKM21pV0V2eXhwWUIyWjFpOTBYRmNHSGN1X2JnRXZWMWprUWZpbFlKTEFnWUh5VmkwLVY2ZldaSkRvV1VtM1VR?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 06:57:52 GMT",
+      "description": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robotaxi #TSLA &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "08008fa37e6de87f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robot…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -380,10 +473,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94blBPcmJGN2ZreG54Ry1pWTg1dl9hZTl2a2liY3B2eFM0TlRDaGxPTjRTZlhJR3VYbUJnNGJKY0plTzIySFZFWE5rTmtNMVlUNWVXRkQ1RWg5MDNnSEV4aHBsdUVMMkJ4dzFUTTBqaXU?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 02:41:04 GMT",
-      "description": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TAIWAN 的交易對是和 $TSM 對標，並不是 solana:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB ，這和前幾個月 @Uniswap @haydenzadams 發專文說明「市場 &nbsp;&nbsp; x.com",
+      "title": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14dzlYZE9yT1Bfbm9vWWswR1BlTEdZTUljcWd6RjdkdUMxUWM3UUpVczZ1aVhNc2s0Y09MeVhpd05OOVA1cXVVTk5JSm9KNTFHSkVrZA?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 06:10:02 GMT",
+      "description": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -393,11 +486,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "af75c8e160191ff9",
+      "id": "15123978aa623169",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "只能說 @machibigbrother 真的是 #DeFi 骨灰級玩家，真跟得上潮流 特別要注意的是 #TA…",
+        "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -442,37 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
-      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "964637cde5db1777",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "NVIDIA’s first RTX Spark PCs are already sold out. $NVDA The Grace-plus-Blackwell superchip, co-designed with MediaTek on TSMC 3 nm, ships this fall as Windows on Arm. High-end N1x and mainstream N1. Street talk puts N1x systems from about NT$11 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FWnZwbzRTRVhfR2FkNkJqRG9lVlFmY29COVB1elZIbTFwbmtRZTkyZjI2ZGFLc0N4MGVFZDlhUjU1X1JnUzJUT0JsZkRkSGRrRDZ2SU9yNWxPVUlJcEFyeWZrWlJlVjg?oc=5",
       "pubDate": "Sun, 30 Aug 2026 21:09:25 GMT",
@@ -491,6 +553,37 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtRW03eFU3aUFiWGZnb3NHX3FpSzFia0Z5ZWZXM3JwamQ0ZGw2U2FCUGNxLWotMi1xeDRremJzcGNCa2QzQmNENHJBbEFSTHF5aEhsRUNpU0JObFZXVEZ2Qg?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 14:04:40 GMT",
+      "description": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia 已重啟 Rubin CPX，預計於 1Q27 開始生產。相較舊版，重啟後的 Rubin CPX 擁有更強的預填充（prefill）效能，GPU 規格與機櫃架構也都有明顯改變，足以證明 Nvidia 對 pr &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "964637cde5db1777",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "正當市場認為 Rubin CPX 已被 Nvidia 從產品藍圖中移除之際，我最新的產業調查顯示，Nvidia…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -652,99 +745,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WTGxuUXp3Q3I3N1R2YXQwRGRrZTZuOXBZNTdoaFJPdkVCbzQ0eFp5TURuSUFESkRMYWM3NFB2WjF6dWRXTDBQYndaNmNubkRaVVNhTzF2cUVReWFkOWs4MjcyOGE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 10:27:13 GMT",
-      "description": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "4eef872c4904488a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53aF83QzhLNm1CWm4tYTdGRm45dVl6NC1fMlVNSlAzWjNDdHhyZ0NWTG5kWW5iSm1iR3lfaklweXF2Y3BEYUJoeFFfZkVEb3VORDRfdndTU1FRSVljcVZHWFRzY1lBbGRROEE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 04:18:33 GMT",
-      "description": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "55913b7f70fda594",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
-      "pubDate": "Tue, 1 Sep 2026 13:05:00 GMT",
-      "description": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 43,
-      "priority": "B",
-      "id": "ae698e2689958648",
-      "rankReason": "一级/官方信源；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     }
