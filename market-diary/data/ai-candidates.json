@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T19:09:25.372Z",
+  "generatedAt": "2026-09-06T21:19:36.802Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -226,7 +226,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDcExwNVpQcGFBMU42VU8ya2cxM0J4cFVGWTVwSUp2U3Y1bTFKYy0zUk9JaUlXejJmZXlLWTBxOUJjTWRfQnF3WFlJOVUzT1g0ZWZuRA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UYmYxS2EtWGgxcEZVbDVDeUpoVzA0RXdlTGJkWG1kVlUwMGQzRzNtbWlkUlFXbFNjbF8tNmZQdXNGNlozRkJGQWlwNUpCR254NGVLM1QzSGxEZUpycy1Nb2U3ZXFsWTA?oc=5",
       "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
       "description": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -238,7 +238,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "2a836faa727ac661",
+      "id": "f134f0e51190923b",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
