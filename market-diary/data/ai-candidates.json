@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T19:56:42.736Z",
+  "generatedAt": "2026-09-07T22:49:31.477Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -94,37 +94,6 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51X0g3Q0Q2OE9OLUo2cTNVaDVzd2JKS0cwREhTeVVWSldybFdweVBzRGtYYXFHSEpLaVhTaS0xNnNNaUxwaWtxV2ptTmZIWk5QbzV3bkFac1dTUTNYRXBfRw?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 20:43:52 GMT",
-      "description": "Shein在香港上市 籌集17億美元 https://t.co/pOuGMsQNEE &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "0557e0594f1e6349",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Shein在香港上市 籌集17億美元",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -243,6 +212,37 @@
       "ai": {
         "priority": "B",
         "summary": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTm16d2dtdzlLLWE5MFk4Zy1VMC04NXdYXzdIVC1jaXhVRm4zcXV4RzNpZnA3cUJrYkJzX3NfOG9WaHdUekdyZDlKeWNmY1pFSWppOGRBWWszdTladU1lRUUzUlFqTUpCaHJScUJjaGk?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
+      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "5567966dbff3d735",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
