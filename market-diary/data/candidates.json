@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-07T15:51:58.268Z",
+  "generatedAt": "2026-09-07T19:56:41.027Z",
   "windowDays": 7,
   "summary": {
-    "total": 37,
+    "total": 39,
     "bySignal": {
       "事实": 2,
-      "媒体": 0,
+      "媒体": 1,
       "人物": 2,
       "资金": 0,
-      "热点": 33
+      "热点": 34
     },
     "byTrust": {
       "A": 4,
-      "B": 0,
-      "C": 33
+      "B": 1,
+      "C": 34
     },
     "s": 0,
     "a": 2,
-    "b": 35
+    "b": 37
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -105,26 +105,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oNVhSN1dFbzJJaEU5VTZGQ2t6bXJUTW5ldlpPWkZ6ZlRYMExfTUE4a0hlbXN0di01N21LX21mMDdweDRac3FrTE1YX1FLY3kwSlg1X3BnYVhJNXJCeDBV?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 14:40:08 GMT",
-      "description": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "6eae78801e2aed43",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq - x.com",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CU3hxeHVZaVdyOFQxcEs4eXVzM2drdjh3U1R2ZTN0aWhIN01SbGZveWx1YVF5YUxFQmotMWdqYUg5NkVVblZMSE9zSENUNDNPeVZKV1Z0bU9lQmpMVnpTcFh6cDRVc3JlcVpj?oc=5",
       "pubDate": "Wed, 02 Sep 2026 07:16:45 GMT",
@@ -139,6 +119,26 @@
       "score": 50,
       "priority": "B",
       "id": "3059e08939e9ac6c",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oNVhSN1dFbzJJaEU5VTZGQ2t6bXJUTW5ldlpPWkZ6ZlRYMExfTUE4a0hlbXN0di01N21LX21mMDdweDRac3FrTE1YX1FLY3kwSlg1X3BnYVhJNXJCeDBV?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 14:40:08 GMT",
+      "description": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "6eae78801e2aed43",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -179,26 +179,6 @@
       "score": 50,
       "priority": "B",
       "id": "52c861bb823b03a5",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTm16d2dtdzlLLWE5MFk4Zy1VMC04NXdYXzdIVC1jaXhVRm4zcXV4RzNpZnA3cUJrYkJzX3NfOG9WaHdUekdyZDlKeWNmY1pFSWppOGRBWWszdTladU1lRUUzUlFqTUpCaHJScUJjaGk?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
-      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5567966dbff3d735",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
@@ -259,6 +239,26 @@
       "score": 47,
       "priority": "B",
       "id": "f134f0e51190923b",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aUzUyNmNyaGljbVdzTmtTaEVFTzQxSGJHTXg4UnlBLTJpakg5MDZ2TXlnZ29zNDc3MmZQU18yY29rM2VEZ1JsZU9Yd093LTZ5TG5IY0FtaUxfNmNG?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 17:17:14 GMT",
+      "description": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "74b8ca3aa250d526",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -326,7 +326,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pYjBpSGRkVnNMMUtPZGVwVGlzZkdXU3Vub3p6Wjl6eXVPZExmcTJ3RnJlRkVCZXEzbnV4NnQtbGlvRm1Rb0hZcjAyV3lXU3hab2tVQ1RhbkF5NUE1X3Y0cjlUZGt5Nkk5R0dWZXdHemlhdw?oc=5",
       "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
       "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -338,7 +338,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "b87791f3e6bd8d86",
+      "id": "34b6eff2f12b63fe",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -562,6 +562,26 @@
       "rankReason": "一级/官方信源；关键人物"
     },
     {
+      "market": "港股",
+      "signal": "媒体",
+      "type": "公司事件",
+      "title": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - AAStock",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSWgzQV94QmFGamVaWGVuYlFKNFhoTjhVZnhWS2EzbVp5enNkRll5X0EtbHZjZ05td0FnNnJUV1FneENSQzJnTG02VGdvalViOUZ4d1Eyd3hVWUZMRDYyS2RSXzQwZ2pYYkkwTFVzclpBRUNBZUJNUmdlT1VFY3NQTWdYUmZNdw?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "description": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns &nbsp;&nbsp; AAStock",
+      "source": "AAStock",
+      "sourceKey": "aastocks",
+      "sourceMode": "media-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 42,
+      "priority": "B",
+      "id": "290835001aa0cf07",
+      "rankReason": "市场相关"
+    },
+    {
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
@@ -600,6 +620,26 @@
       "priority": "B",
       "id": "60a9fabbfdc0e55c",
       "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Emilio García 🏳️‍⚧️ @egarciagarcia.bsky.social - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzaWJzN3NoNml0N085dEl5eUdlM1ZqWnNvLWdNaEJiQjg2LVpfU01Ya3E0YjAwU1k2M2s1SnFkaFVnekp3WHc?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 18:58:58 GMT",
+      "description": "Emilio García 🏳️‍⚧️ @egarciagarcia.bsky.social &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "3276c1e31e3c1821",
+      "rankReason": "社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -762,5 +802,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-07T15:52:00.976Z"
+  "rankedAt": "2026-09-07T19:56:42.467Z"
 }

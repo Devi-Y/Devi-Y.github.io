@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T15:52:01.447Z",
+  "generatedAt": "2026-09-07T19:56:42.736Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -132,37 +132,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oNVhSN1dFbzJJaEU5VTZGQ2t6bXJUTW5ldlpPWkZ6ZlRYMExfTUE4a0hlbXN0di01N21LX21mMDdweDRac3FrTE1YX1FLY3kwSlg1X3BnYVhJNXJCeDBV?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 14:40:08 GMT",
-      "description": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "6eae78801e2aed43",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq - x.com",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CU3hxeHVZaVdyOFQxcEs4eXVzM2drdjh3U1R2ZTN0aWhIN01SbGZveWx1YVF5YUxFQmotMWdqYUg5NkVVblZMSE9zSENUNDNPeVZKV1Z0bU9lQmpMVnpTcFh6cDRVc3JlcVpj?oc=5",
       "pubDate": "Wed, 02 Sep 2026 07:16:45 GMT",
@@ -181,6 +150,37 @@
       "ai": {
         "priority": "B",
         "summary": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oNVhSN1dFbzJJaEU5VTZGQ2t6bXJUTW5ldlpPWkZ6ZlRYMExfTUE4a0hlbXN0di01N21LX21mMDdweDRac3FrTE1YX1FLY3kwSlg1X3BnYVhJNXJCeDBV?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 14:40:08 GMT",
+      "description": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "6eae78801e2aed43",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -243,37 +243,6 @@
       "ai": {
         "priority": "B",
         "summary": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTm16d2dtdzlLLWE5MFk4Zy1VMC04NXdYXzdIVC1jaXhVRm4zcXV4RzNpZnA3cUJrYkJzX3NfOG9WaHdUekdyZDlKeWNmY1pFSWppOGRBWWszdTladU1lRUUzUlFqTUpCaHJScUJjaGk?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
-      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5567966dbff3d735",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -367,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aUzUyNmNyaGljbVdzTmtTaEVFTzQxSGJHTXg4UnlBLTJpakg5MDZ2TXlnZ29zNDc3MmZQU18yY29rM2VEZ1JsZU9Yd093LTZ5TG5IY0FtaUxfNmNG?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 17:17:14 GMT",
+      "description": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "74b8ca3aa250d526",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -474,7 +474,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GbEdFOE51THYzWU5nU2d5Nkxmd3VKNGs5bTRLNkhZaXpvdHdSSFNGOURXWTZRQm9VNWozdXItY0xlZ09xNmxOQkRLZ0hrcFJfSGU1SWlyY2VQcjFDdGdvenplNUxrb0k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pYjBpSGRkVnNMMUtPZGVwVGlzZkdXU3Vub3p6Wjl6eXVPZExmcTJ3RnJlRkVCZXEzbnV4NnQtbGlvRm1Rb0hZcjAyV3lXU3hab2tVQ1RhbkF5NUE1X3Y0cjlUZGt5Nkk5R0dWZXdHemlhdw?oc=5",
       "pubDate": "Mon, 31 Aug 2026 23:37:53 GMT",
       "description": "Jason Calacanis OpenAI vs $NVDA 我覺得 Sam Altman 去戳老虎了。 2025 年，OpenAI 先跟 $NVDA 談了規模很大的合作 接著 Sam 又宣布跟 $AMD 合作。 同時 OpenAI 還宣布要自己做推論晶片 Jalapeño。 Jensen Huang 明顯不開心，接著對外強調， $NVDA 其 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -486,7 +486,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "b87791f3e6bd8d86",
+      "id": "34b6eff2f12b63fe",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
