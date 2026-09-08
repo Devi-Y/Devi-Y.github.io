@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T05:56:47.588Z",
+  "generatedAt": "2026-09-08T11:15:20.992Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -19,7 +19,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 80,
+      "score": 77,
       "priority": "A",
       "id": "94413c8a003edb9b",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
@@ -30,6 +30,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Exchange’s Disciplinary Action against Home Control International Limited (Stock Code: 1747) and Two Former Directors",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260908news?sc_lang=en",
+      "pubDate": "Tue, 08 Sep 2026 16:14:00 +0800",
+      "description": "Exchange’s Disciplinary Action against Home Control International Limited (Stock Code: 1747) and Two Former Directors",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "5a1aa38304f5bcba",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -101,6 +132,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
+      "title": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海外勞工觀察組織踢爆供應鏈存在嚴重勞權問題。「中國勞工觀察」即將公布調查指出，廣東多家Shein代工廠工人每天工作長達12至14小時，部分人連續工作超過 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VNWFhWml0SS1qcU9SaDVsY1lhLTBYOGFhOUdSa0dkOTAxbnd3ci0zb1pVUzJ4NEhQSk4yQ1dTb3lqaklkVkQwWTVMemZrSmFVSDZNekpuODVkazJsZUNZWEc4LU9VM2M?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 06:03:56 GMT",
+      "description": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海外勞工觀察組織踢爆供應鏈存在嚴重勞權問題。「中國勞工觀察」即將公布調查指出，廣東多家Shein代工廠工人每天工作長達12至14小時，部分人連續工作超過 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "8b917d9b4e267910",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
       "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oNVhSN1dFbzJJaEU5VTZGQ2t6bXJUTW5ldlpPWkZ6ZlRYMExfTUE4a0hlbXN0di01N21LX21mMDdweDRac3FrTE1YX1FLY3kwSlg1X3BnYVhJNXJCeDBV?oc=5",
       "pubDate": "Tue, 01 Sep 2026 14:40:08 GMT",
@@ -154,6 +216,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA $GS Neutral，目標價定為 $360，係基於預估 Q5-Q8 EPS 的 150 倍倍率計算，反映了對核心 EV 業務利潤承壓與 AI 長線潛力的綜合權衡。 樂觀情境（Upside Scenario）：目標價 $500。觸發因子包括 EV 採用率激增、AI 產品（FSD, Optimus, Robotaxi）早期貢獻超 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kRVNFWmI5RDNZOFB4TEhUdlJIbnYxMi10ZU8wMHFLUnJDVWIzaEg1NnowN2pGcHpzMVNKWWk1Uy1ZMFk5RWtJMUFfOFo2QktnaUVhcmZ1dHg3T3lOSlU0eENiU0NVdHc?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 10:14:40 GMT",
+      "description": "$TSLA $GS Neutral，目標價定為 $360，係基於預估 Q5-Q8 EPS 的 150 倍倍率計算，反映了對核心 EV 業務利潤承壓與 AI 長線潛力的綜合權衡。 樂觀情境（Upside Scenario）：目標價 $500。觸發因子包括 EV 採用率激增、AI 產品（FSD, Optimus, Robotaxi）早期貢獻超 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "9cd633d8a937b820",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA $GS Neutral，目標價定為 $360，係基於預估 Q5-Q8 EPS 的 150 倍倍率計…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -257,7 +350,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTm16d2dtdzlLLWE5MFk4Zy1VMC04NXdYXzdIVC1jaXhVRm4zcXV4RzNpZnA3cUJrYkJzX3NfOG9WaHdUekdyZDlKeWNmY1pFSWppOGRBWWszdTladU1lRUUzUlFqTUpCaHJScUJjaGk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HTklLTXY4M1NyWHk5VmJfLVhDWDF4S3hCQnF4d2ZrYTRaT0xEa0VsemRZUFlibWNKWVZQQVd2THFvWWZUQktBU29qLVFsaWlHTW1FUnIwSExFMUhzUXJfWWhRRnFWQQ?oc=5",
       "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
       "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -269,7 +362,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "5567966dbff3d735",
+      "id": "e5ab2ee345db15bb",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -278,6 +371,68 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XZU9yblNldmNiSEJScWg4Uy1LOHhpOHozWWxPc3oxQ0hXdkJxeFpyRkhLZXFNd0dMZGJzUmxnYkdmX29qeFN5V29jVE5nbm82bUVEUGowU1NmR0JwdEhwbm44WWg?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 02:57:01 GMT",
+      "description": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "dec0cf15ac56981e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UYmYxS2EtWGgxcEZVbDVDeUpoVzA0RXdlTGJkWG1kVlUwMGQzRzNtbWlkUlFXbFNjbF8tNmZQdXNGNlozRkJGQWlwNUpCR254NGVLM1QzSGxEZUpycy1Nb2U3ZXFsWTA?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
+      "description": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "f134f0e51190923b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -318,10 +473,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5TWnlTNnUtWUlhbjZjdFF2Q3N2bkl6M2l5WWZpdHdfbmFobzNJUWdyUi1jSC1xbl8tUVV4bmR1UUhGVENOSzNHR3BlZkhvMXBHZ0RTUWRmVUpWSi1Wb0E?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 06:30:03 GMT",
-      "description": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ &nbsp;&nbsp; x.com",
+      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iTmhKSnBNQ1V2aXJDMUFGZXdrUmh1bVRaMmM3alhiNmFRSEM5NjVja0hENVFUY2FLRUJiZzRDdDRMNnIxZVNMX19zamRPbWxBTTZUYg?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
+      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -331,42 +486,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "159bc8ef3355ecff",
+      "id": "f9dbb4081f0ae5af",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UYmYxS2EtWGgxcEZVbDVDeUpoVzA0RXdlTGJkWG1kVlUwMGQzRzNtbWlkUlFXbFNjbF8tNmZQdXNGNlozRkJGQWlwNUpCR254NGVLM1QzSGxEZUpycy1Nb2U3ZXFsWTA?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
-      "description": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "f134f0e51190923b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最…",
+        "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -442,10 +566,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻寬與 scale-up 互連成為真正瓶頸。NVDA 轉向全棧 AI 工廠，AMD 硬體追近，OpenAI 與 AVGO 的客製 ASIC 時程加快。訓練與推論矽晶已明顯分流：訓練要規模與算力，推論更吃 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FZlJfU25Gd0piUFNUM1pxZDg3QnE3Zko1aTllZjJtU05DYkNjcmVGMk1MVmppdUZ3azJSM0V1LVROTkM2dVYzdms2aTNLbkZ1bVRUazBtdGV2Y0NyUHc?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 05:57:00 GMT",
-      "description": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻寬與 scale-up 互連成為真正瓶頸。NVDA 轉向全棧 AI 工廠，AMD 硬體追近，OpenAI 與 AVGO 的客製 ASIC 時程加快。訓練與推論矽晶已明顯分流：訓練要規模與算力，推論更吃 &nbsp;&nbsp; x.com",
+      "title": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5TWnlTNnUtWUlhbjZjdFF2Q3N2bkl6M2l5WWZpdHdfbmFobzNJUWdyUi1jSC1xbl8tUVV4bmR1UUhGVENOSzNHR3BlZkhvMXBHZ0RTUWRmVUpWSi1Wb0E?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 06:30:03 GMT",
+      "description": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -455,11 +579,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "550560b694cb98cc",
+      "id": "159bc8ef3355ecff",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "Hot Chips 2026 核心不是峰值 FLOPS，而是模型變大、KV cache 變長後，記憶體容量、頻…",
+        "summary": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -474,7 +598,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "特斯拉正在引領節奏，而我們正是交易量聚集之地。⚡📈 $TSLA 在現貨和合約市場的交易熱度持續升溫，交易者們正紛紛湧入。 大市場，大勢頭。 關注 $TSLA： https://t.co/KZyBb2XZTF - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83ak9BUDQ2bERYZ3BZVHAtOTg0allMd241X3pfNXNjUHN6Z2dSOVg1MGhoS2xkc2t4b0lER0RqaXF3MlhOcnF0VVdKLWJHNU5aeEJzZQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1raWQyQjNxTV9wdW14Y0FQa1NhQm5qZUFZV2NyYzBKX3B0TlJmNUxPQ3o0VldIcmR1VjI3TW9ZaEZwcnp0ako0M3l3WjF3UE5qX1RvQXl0Uk1xbzlHQUNuN0pDWQ?oc=5",
       "pubDate": "Fri, 04 Sep 2026 11:30:57 GMT",
       "description": "特斯拉正在引領節奏，而我們正是交易量聚集之地。⚡📈 $TSLA 在現貨和合約市場的交易熱度持續升溫，交易者們正紛紛湧入。 大市場，大勢頭。 關注 $TSLA： https://t.co/KZyBb2XZTF &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -486,7 +610,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "17dcaf4e7b553995",
+      "id": "8c80603d466b76c9",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -536,7 +660,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Kbld2cERuVjdjUlpiRUdldjBSWk5hNFh0TVNRT0cxZU9tYmtzRndzSUFNaE8wQ2NlZkQ3dHZWRzNnMW51V3FxZGE2LS0yTTBkS3JRUw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UaDA4S0V4dFNLbnBPcm5VQ2FZTk1pTzhyVU4yY0o1TlY3cjE5Q2hmWkNJbVhvZ196UkdOYU1DOVJvS1FjYUkwZFFDTzZuWkxfdUVzOEc0SUpjUUd6NzJmV2FB?oc=5",
       "pubDate": "Fri, 04 Sep 2026 07:53:46 GMT",
       "description": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -548,7 +672,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "19374cd56561faba",
+      "id": "f353c6b536d6ca10",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -566,10 +690,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WTGxuUXp3Q3I3N1R2YXQwRGRrZTZuOXBZNTdoaFJPdkVCbzQ0eFp5TURuSUFESkRMYWM3NFB2WjF6dWRXTDBQYndaNmNubkRaVVNhTzF2cUVReWFkOWs4MjcyOGE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 10:27:13 GMT",
-      "description": "The past 4 days have been a virtual stalemate for Alibaba $BABA net flows via the #StockConnect. &nbsp;&nbsp; x.com",
+      "title": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robotaxi #TSLA - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FNU5OZk81YVl3RGxVZzRNQm5DdldTNmNvcGpKM21pV0V2eXhwWUIyWjFpOTBYRmNHSGN1X2JnRXZWMWprUWZpbFlKTEFnWUh5VmkwLVY2ZldaSkRvV1VtM1VR?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 06:57:52 GMT",
+      "description": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robotaxi #TSLA &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -579,11 +703,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "4eef872c4904488a",
+      "id": "08008fa37e6de87f",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
+        "summary": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robot…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -615,130 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZ1pUdXc1TjFGWlZiYnhTdUFxOU5Halhud0FSZTZKOHVXYWJ5aHZZazktSUt1VmNMcGJ2ZHR6MExrbjNQQXJwR0Z1cGNvOGtBUnprRjBNRFBsUlB6LU03ZW1DZVhwZkU?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 06:10:02 GMT",
-      "description": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "0954491e28fa3c56",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab期待值已經拉滿了，我確實也覺得這次值得期待 - 這篇發出時已經event結束，文章是之前寫的小預測，好玩而已 - 從日常FSD表現來看，還沒有到放量，不期待說現在開始每週大量增加 - 一次 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JdGVnZTc4eE1ScXJycndaS0s4SUR1alpJc3BmdDlub1lETUphWXN1WFNRbmJGTFo5WHBVcm85bTFtRHVqNnhPQzZ6d1ZlLXJiSEhCc21LeWhzRHk5WjhYYm1XM2k?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 23:45:00 GMT",
-      "description": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab期待值已經拉滿了，我確實也覺得這次值得期待 - 這篇發出時已經event結束，文章是之前寫的小預測，好玩而已 - 從日常FSD表現來看，還沒有到放量，不期待說現在開始每週大量增加 - 一次 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "698cddbb5b915db9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Going to test this. Will launch with no token supply. Will use fees to buy $TAIWAN. - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvM2VBQTQtaFFCMHFfcVdWdkdkYlJDX1hJZmI4dVhRV2UxS0NpWlJrYlQycy0tYm54TThTMDM0MkNnQ0lrRVJBOFUzSjVhYzBjTFM0Sw?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 04:04:53 GMT",
-      "description": "Going to test this. Will launch with no token supply. Will use fees to buy $TAIWAN. &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "dee804590dc4af01",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xYldpU2RaYk9GZ2RVMDRiSDI2emxqdGFNVmhSZjFhNUctYkVYVzB2bEo1aVdUN0pUQ3hiZ0tEUi0wSDczS3k4aXFVSmp3bHE3ZnlFcUt3SC1tMVpsN3NJdkhENUs3ZTJf?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 06:59:00 GMT",
-      "description": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "107697f03190b482",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
