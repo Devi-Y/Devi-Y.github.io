@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T15:07:34.455Z",
+  "generatedAt": "2026-09-08T18:38:41.707Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -61,37 +61,6 @@
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "pubDate": "Fri, 4 Sep 2026 15:00:00 GMT",
-      "description": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "560d80fa8f6e6491",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -257,7 +226,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTm16d2dtdzlLLWE5MFk4Zy1VMC04NXdYXzdIVC1jaXhVRm4zcXV4RzNpZnA3cUJrYkJzX3NfOG9WaHdUekdyZDlKeWNmY1pFSWppOGRBWWszdTladU1lRUUzUlFqTUpCaHJScUJjaGk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HTklLTXY4M1NyWHk5VmJfLVhDWDF4S3hCQnF4d2ZrYTRaT0xEa0VsemRZUFlibWNKWVZQQVd2THFvWWZUQktBU29qLVFsaWlHTW1FUnIwSExFMUhzUXJfWWhRRnFWQQ?oc=5",
       "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
       "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -269,7 +238,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "5567966dbff3d735",
+      "id": "e5ab2ee345db15bb",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -305,6 +274,37 @@
       "ai": {
         "priority": "B",
         "summary": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "永零和 (@ZeroSum_AI) on X - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Rbk9HT0ppRVR3cHIwblpXTm1qUERnelBEUVc5a090SDBMOXBZczA2bGlRbzI1Vm5rd25pdGg0UDQtamxZSUxkZTJwaWxsTVZNa0NR?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 23:55:38 GMT",
+      "description": "永零和 (@ZeroSum_AI) on X &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "5df7268f8884d201",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "永零和 (@ZeroSum_AI) on X",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,6 +628,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
+      "description": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "ad6de67421a642d1",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UaDA4S0V4dFNLbnBPcm5VQ2FZTk1pTzhyVU4yY0o1TlY3cjE5Q2hmWkNJbVhvZ196UkdOYU1DOVJvS1FjYUkwZFFDTzZuWkxfdUVzOEc0SUpjUUd6NzJmV2FB?oc=5",
       "pubDate": "Fri, 04 Sep 2026 07:53:46 GMT",
@@ -677,37 +708,6 @@
       "ai": {
         "priority": "B",
         "summary": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robot…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
-      "description": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ad6de67421a642d1",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
