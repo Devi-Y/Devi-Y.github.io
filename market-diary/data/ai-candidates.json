@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T01:11:28.151Z",
+  "generatedAt": "2026-09-08T05:56:47.588Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -101,37 +101,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CU3hxeHVZaVdyOFQxcEs4eXVzM2drdjh3U1R2ZTN0aWhIN01SbGZveWx1YVF5YUxFQmotMWdqYUg5NkVVblZMSE9zSENUNDNPeVZKV1Z0bU9lQmpMVnpTcFh6cDRVc3JlcVpj?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 07:16:45 GMT",
-      "description": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3059e08939e9ac6c",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只剩四分之一 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oNVhSN1dFbzJJaEU5VTZGQ2t6bXJUTW5ldlpPWkZ6ZlRYMExfTUE4a0hlbXN0di01N21LX21mMDdweDRac3FrTE1YX1FLY3kwSlg1X3BnYVhJNXJCeDBV?oc=5",
       "pubDate": "Tue, 01 Sep 2026 14:40:08 GMT",
@@ -150,6 +119,37 @@
       "ai": {
         "priority": "B",
         "summary": "趙立東：從AMD工程師到國產GPU掌門人，他押注的不是一顆晶片 一、Shein香港上市首日震盪：千億美元神話只…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq - x.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CU3hxeHVZaVdyOFQxcEs4eXVzM2drdjh3U1R2ZTN0aWhIN01SbGZveWx1YVF5YUxFQmotMWdqYUg5NkVVblZMSE9zSENUNDNPeVZKV1Z0bU9lQmpMVnpTcFh6cDRVc3JlcVpj?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 07:16:45 GMT",
+      "description": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T恤”改寫全球時尚市場公式，企業估值一度飆升至1000億美元，1日正式入駐香港股市，但上市首日的企業價值260餘億美元僅爲巔峯時的4分之1。 https://t.co/lyEMq &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "3059e08939e9ac6c",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【曾經市值1000億美元的“超低價神話”…港股上市遇冷身價爆跌70%】 中國快時尚企業SHEIN曾靠“3美元T…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -212,6 +212,37 @@
       "ai": {
         "priority": "B",
         "summary": "🔥 Bitget 本週週報懶人包！福利狂飆不休息 🚀 幫大家把上週最猛的重點直接劃好了，沒跟上的趕緊補課！…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtc291dE5wMk14d2QxUGlSMXVKc1VOUWFtc20yWXVUNXQ1NzI2dVNuXzZiam9yMFVBYndSNUFuNVlYaGljT0tpcFpFVndfeXNWUVhRVmFFX1dKcHRzR3VN?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 02:48:39 GMT",
+      "description": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "e90231e6174e1921",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -646,37 +677,6 @@
       "ai": {
         "priority": "B",
         "summary": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtb2J4b2FRWXlmWm1VUmdXMk5mU2dkdkk4a1JZekd0NFI0WTJGRVpuYnNzUXVWN2R3QzdleUlweUJkdFQyNnJQUzM4cnNRTlY0RWd4a1M5akh4OUhHa3pHR2JYQ2hLT0tEeGc?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 04:18:33 GMT",
-      "description": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因為月曆翻了一頁就突然變得簡單：中國工廠正在回暖，AI把亞洲電子產業繼續往前推；華為收入增加，利潤卻被研發吞掉一大塊；台灣聯發 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9214054b1676da3e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "九月，是旅遊裡最被低估的一個月 九月第一天來了。學生換新課表，投資人換新月份，氣溫也開始偷偷換季。世界倒沒有因…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
