@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T18:38:41.707Z",
+  "generatedAt": "2026-09-08T21:50:18.568Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -61,6 +61,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+      "pubDate": "Fri, 4 Sep 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 68,
+      "priority": "A",
+      "id": "560d80fa8f6e6491",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -287,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "永零和 (@ZeroSum_AI) on X - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Rbk9HT0ppRVR3cHIwblpXTm1qUERnelBEUVc5a090SDBMOXBZczA2bGlRbzI1Vm5rd25pdGg0UDQtamxZSUxkZTJwaWxsTVZNa0NR?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 23:55:38 GMT",
-      "description": "永零和 (@ZeroSum_AI) on X &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5df7268f8884d201",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "永零和 (@ZeroSum_AI) on X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UYmYxS2EtWGgxcEZVbDVDeUpoVzA0RXdlTGJkWG1kVlUwMGQzRzNtbWlkUlFXbFNjbF8tNmZQdXNGNlozRkJGQWlwNUpCR254NGVLM1QzSGxEZUpycy1Nb2U3ZXFsWTA?oc=5",
       "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
@@ -429,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSmJLVGFBanB1VWl0aWpmdUxmZVBxZTJSNlFuWkdlYUlKRmoyd1hRMzdBY0FXT3J6RWMxa2J4Y3prWVVPYmtyQ2p5YzF0QzRVNTNNeA?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 07:42:04 GMT",
+      "description": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "b83ae887486d6d09",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,37 +659,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
-      "description": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ad6de67421a642d1",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UaDA4S0V4dFNLbnBPcm5VQ2FZTk1pTzhyVU4yY0o1TlY3cjE5Q2hmWkNJbVhvZ196UkdOYU1DOVJvS1FjYUkwZFFDTzZuWkxfdUVzOEc0SUpjUUd6NzJmV2FB?oc=5",
       "pubDate": "Fri, 04 Sep 2026 07:53:46 GMT",
@@ -721,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZ1pUdXc1TjFGWlZiYnhTdUFxOU5Halhud0FSZTZKOHVXYWJ5aHZZazktSUt1VmNMcGJ2ZHR6MExrbjNQQXJwR0Z1cGNvOGtBUnprRjBNRFBsUlB6LU03ZW1DZVhwZkU?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 06:10:02 GMT",
-      "description": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 &nbsp;&nbsp; x.com",
+      "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
+      "description": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "0954491e28fa3c56",
+      "id": "ad6de67421a642d1",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
+        "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
