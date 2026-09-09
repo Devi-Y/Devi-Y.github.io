@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T18:34:19.320Z",
+  "generatedAt": "2026-09-09T21:41:10.486Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -256,6 +256,68 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA another price hike \"Reports indicate that NVIDIA has significantly increased prices\" SCOOP: NVIDIA HIKES PRICES TO SECURE AI CHIP TEST CAPACITY, PUSHING TSMC AND CHIPMAKERS TO QUALIFY ALTERNATIVE SUPPLIERS — DIGITIME - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vcFh0YzJlQ19DWENWUzlmYmNmYm5oZXM5LU5xQjNUWXpXWElQOUg3cjRvT2kyYzZWRFdrekZJQzJJVE1uaGt6MXFjaEk1NndMbmY0RXpyQ180RkhxbndfRg?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 19:06:21 GMT",
+      "description": "$NVDA another price hike \"Reports indicate that NVIDIA has significantly increased prices\" SCOOP: NVIDIA HIKES PRICES TO SECURE AI CHIP TEST CAPACITY, PUSHING TSMC AND CHIPMAKERS TO QUALIFY ALTERNATIVE SUPPLIERS — DIGITIME &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "fd726a2ee6c94a08",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "“Google Cloud 執行長 Thomas Kurian 在高盛的conference上直接打臉。說現在的AI伺服器資本支出投資基本上2年就能回收，TPU甚至只要一年就能回收。” CSP回報率為什麼還有爭議？😅 大摩模擬中國 IAAS/MAAS回報期3.1/2.6年 大摩模擬美國 IAAS/MAAS回報期2 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQaE1yaUk0eTgyZ0FGQUE4WVpHTTExVXA5RFFLZEEwZ0J1UFhjTTl5U25xcjlEX0hFUk0xLXBWLVU1QjlteHJoNkZybDZJX0hVZ3FCRXFVejVHNWtDRmpqVU9PWlQ?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 19:30:42 GMT",
+      "description": "“Google Cloud 執行長 Thomas Kurian 在高盛的conference上直接打臉。說現在的AI伺服器資本支出投資基本上2年就能回收，TPU甚至只要一年就能回收。” CSP回報率為什麼還有爭議？😅 大摩模擬中國 IAAS/MAAS回報期3.1/2.6年 大摩模擬美國 IAAS/MAAS回報期2 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "b8b5bd1f18870652",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "“Google Cloud 執行長 Thomas Kurian 在高盛的conference上直接打臉。說現在…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） (@AIInvestHK) on X - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wZGdiSXRaRWZpLXQtdW9INnVOaldVVGJ3c01maGd3MWtnbGVRS3RYZlktNDRzcDFCV09sSEItOVNmSDFfTjlqUjJCeDl6b0Y3V3RmTGN3?oc=5",
       "pubDate": "Wed, 09 Sep 2026 05:03:52 GMT",
@@ -367,37 +429,6 @@
       "ai": {
         "priority": "B",
         "summary": "阿里前銷售總監在美國失蹤 被發現陳屍車內 中國阿里巴巴（Alibaba Group）的前銷售總監陳理（Li C…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSmJLVGFBanB1VWl0aWpmdUxmZVBxZTJSNlFuWkdlYUlKRmoyd1hRMzdBY0FXT3J6RWMxa2J4Y3prWVVPYmtyQ2p5YzF0QzRVNTNNeA?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 07:42:04 GMT",
-      "description": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "b83ae887486d6d09",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMu…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robotaxi #TSLA - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FNU5OZk81YVl3RGxVZzRNQm5DdldTNmNvcGpKM21pV0V2eXhwWUIyWjFpOTBYRmNHSGN1X2JnRXZWMWprUWZpbFlKTEFnWUh5VmkwLVY2ZldaSkRvV1VtM1VR?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 06:57:52 GMT",
-      "description": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robotaxi #TSLA &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "08008fa37e6de87f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robot…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
