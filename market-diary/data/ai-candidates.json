@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T14:34:53.504Z",
+  "generatedAt": "2026-09-09T18:34:19.320Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -163,6 +163,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzS3Y2T2ktMzMtZjN1R2M2R2lVeS1BbkhnM2VhUXJRenhPN21SOHFnbnlfbWlwV29LVksyb0Fwblk5QkNEcUlUMXUwX2otVkpKRDBlQXdLdDM5bjYxOHc?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 15:51:56 GMT",
+      "description": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "dc9c9d44e3aa56f8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供應鏈緊湊程度的重要窗口。租賃價格的變動直接反映了市場算力供需，並影響中小型企業獲取算力的成本與硬體投資報酬率。 8 月份 $NVDA GPU 租賃市場呈現混合走勢，反映 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRUEVGOVZxTVlGYmVMUVF3Q3ZfeEFGTy1UTzUwVjQ1X2oweVpuMERQWTh1dWVBXzNTN1hQWURHb05nWGtfWVlZZGplYjhxUWYzcWhGNDJ3bGhxNXpONm41blRsTERQdHM?oc=5",
       "pubDate": "Wed, 09 Sep 2026 10:03:45 GMT",
@@ -195,7 +226,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfYjAzNERGR2p6MXN4NWJ0STJuTXQwMUJkdDNIZXIzUjN2UWNGdWctUVpObnlVbmFRQ2JuSEs3M3g2QjByV29kREI1Yk1LWnF4RFBkQ1hWNTRzTG14LXFYd2R5QkRwcTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WaDBPbzVBRFpoaUdBZS16eDdQUHI2ZHNsYmNOdTdwV2FZWmstbklKZ3QtWncxWExDaDlvQzNhUnlqdUJraG56a3VXSXMtdVFuR1FVbQ?oc=5",
       "pubDate": "Wed, 09 Sep 2026 09:50:53 GMT",
       "description": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -207,7 +238,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "c3781e99007b2766",
+      "id": "74dd94f62d2fc6c2",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -367,37 +398,6 @@
       "ai": {
         "priority": "B",
         "summary": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aUzUyNmNyaGljbVdzTmtTaEVFTzQxSGJHTXg4UnlBLTJpakg5MDZ2TXlnZ29zNDc3MmZQU18yY29rM2VEZ1JsZU9Yd093LTZ5TG5IY0FtaUxfNmNG?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 17:17:14 GMT",
-      "description": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "74b8ca3aa250d526",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

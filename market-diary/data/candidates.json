@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-09T14:34:52.237Z",
+  "generatedAt": "2026-09-09T18:34:18.035Z",
   "windowDays": 7,
   "summary": {
-    "total": 41,
+    "total": 42,
     "bySignal": {
       "事实": 3,
       "媒体": 0,
       "人物": 1,
       "资金": 0,
-      "热点": 37
+      "热点": 38
     },
     "byTrust": {
       "A": 4,
       "B": 0,
-      "C": 37
+      "C": 38
     },
     "s": 0,
     "a": 3,
-    "b": 38
+    "b": 39
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -125,6 +125,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzS3Y2T2ktMzMtZjN1R2M2R2lVeS1BbkhnM2VhUXJRenhPN21SOHFnbnlfbWlwV29LVksyb0Fwblk5QkNEcUlUMXUwX2otVkpKRDBlQXdLdDM5bjYxOHc?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 15:51:56 GMT",
+      "description": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "dc9c9d44e3aa56f8",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供應鏈緊湊程度的重要窗口。租賃價格的變動直接反映了市場算力供需，並影響中小型企業獲取算力的成本與硬體投資報酬率。 8 月份 $NVDA GPU 租賃市場呈現混合走勢，反映 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRUEVGOVZxTVlGYmVMUVF3Q3ZfeEFGTy1UTzUwVjQ1X2oweVpuMERQWTh1dWVBXzNTN1hQWURHb05nWGtfWVlZZGplYjhxUWYzcWhGNDJ3bGhxNXpONm41blRsTERQdHM?oc=5",
       "pubDate": "Wed, 09 Sep 2026 10:03:45 GMT",
@@ -146,7 +166,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfYjAzNERGR2p6MXN4NWJ0STJuTXQwMUJkdDNIZXIzUjN2UWNGdWctUVpObnlVbmFRQ2JuSEs3M3g2QjByV29kREI1Yk1LWnF4RFBkQ1hWNTRzTG14LXFYd2R5QkRwcTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WaDBPbzVBRFpoaUdBZS16eDdQUHI2ZHNsYmNOdTdwV2FZWmstbklKZ3QtWncxWExDaDlvQzNhUnlqdUJraG56a3VXSXMtdVFuR1FVbQ?oc=5",
       "pubDate": "Wed, 09 Sep 2026 09:50:53 GMT",
       "description": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -158,7 +178,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "c3781e99007b2766",
+      "id": "74dd94f62d2fc6c2",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -259,26 +279,6 @@
       "score": 47,
       "priority": "B",
       "id": "b83ae887486d6d09",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aUzUyNmNyaGljbVdzTmtTaEVFTzQxSGJHTXg4UnlBLTJpakg5MDZ2TXlnZ29zNDc3MmZQU18yY29rM2VEZ1JsZU9Yd093LTZ5TG5IY0FtaUxfNmNG?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 17:17:14 GMT",
-      "description": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "74b8ca3aa250d526",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -545,6 +545,46 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUVFFa0NvMWM2Y3VvYWptV1dydWxPWU9VUnp2aXlzZ1A5NEZEd2htcnFIMlFxTUlnYU56MUV3b1pVRTRZNVY2R1FDMGMwZjRoblpoNmFqMWdSYVVWbjE1Yg?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
+      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "a45c4a2e8d2350a9",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aUzUyNmNyaGljbVdzTmtTaEVFTzQxSGJHTXg4UnlBLTJpakg5MDZ2TXlnZ29zNDc3MmZQU18yY29rM2VEZ1JsZU9Yd093LTZ5TG5IY0FtaUxfNmNG?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 17:17:14 GMT",
+      "description": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "74b8ca3aa250d526",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "資產負債表牆：輝達從收費站變成保險公司，市場還在用收費站估值| 班傑明的科技產業視角(@benjaminliang78) on X - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RUXBUMWR4aURGZ1lKRTJZamd6dmtJWnZEMDlWalpSaUl0YXgzb3hOcnhpOEVDbXBncWFqMl9YbHhrWld3THo2VG9lcFh5NUpoMDFtOHBB?oc=5",
       "pubDate": "Tue, 08 Sep 2026 00:36:42 GMT",
@@ -605,26 +645,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "129億買一座火車站：輝達、Hugging Face，與會自己開電腦的GPT-6 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53alBSUEpMVi1ld2FfQnRYaVhHcEVER1NVeUZJTGE3ZEpTV05qUFpHOVNrcHdDM1FiMVVYTkQ2WmdoZkUtdjB0VVBkcFRsanpnajBrVU9R?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 15:22:38 GMT",
-      "description": "129億買一座火車站：輝達、Hugging Face，與會自己開電腦的GPT-6 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
-      "priority": "B",
-      "id": "cdf7efcc6ed80f44",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Emilio García 🏳️‍⚧️ @egarciagarcia.bsky.social (@egarciagarcia) on X - x.com",
       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzaWJzN3NoNml0N085dEl5eUdlM1ZqWnNvLWdNaEJiQjg2LVpfU01Ya3E0YjAwU1k2M2s1SnFkaFVnekp3WHc?oc=5",
       "pubDate": "Mon, 07 Sep 2026 18:58:58 GMT",
@@ -659,26 +679,6 @@
       "score": 17,
       "priority": "B",
       "id": "a4913fa902645019",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Arc 主網上線倒數 9 天～一起來看 40 個ARC NFT項目的盤點吧~ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIcmhWZ1ZtdU9TSFJwQk5jWlhVeFlnc3JnZmRQb1RtZHZNMFZnUUZIOXRBZHhRNVk3TXdxaTNaM0lYaG9jVDR2bmpoajdPUmFQYjJBdXRR?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 22:54:17 GMT",
-      "description": "Arc 主網上線倒數 9 天～一起來看 40 個ARC NFT項目的盤點吧~ &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
-      "priority": "B",
-      "id": "99c505a4ec9eb368",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -725,10 +725,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Broadcom（AVGO）FY2026 Q3 財報分析| Shadow Wu (@ShadowWuSK) on X - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10V295ajg0ZThCNFBiUGVRTmVNUTZiS3h5RVNvY1NoemEyNDY5QlNYeEpqSjFxUkh1NGp1VlhxRk5ZTTlFMlZqYmJIUXgxSm93Z2NlUm1n?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 11:20:22 GMT",
-      "description": "Broadcom（AVGO）FY2026 Q3 財報分析| Shadow Wu (@ShadowWuSK) on X &nbsp;&nbsp; x.com",
+      "title": "129億買一座火車站：輝達、Hugging Face，與會自己開電腦的GPT-6 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53alBSUEpMVi1ld2FfQnRYaVhHcEVER1NVeUZJTGE3ZEpTV05qUFpHOVNrcHdDM1FiMVVYTkQ2WmdoZkUtdjB0VVBkcFRsanpnajBrVU9R?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 15:22:38 GMT",
+      "description": "129億買一座火車站：輝達、Hugging Face，與會自己開電腦的GPT-6 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -738,7 +738,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 14,
       "priority": "B",
-      "id": "5762bd81caf4d7d1",
+      "id": "cdf7efcc6ed80f44",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -779,6 +779,26 @@
       "score": 14,
       "priority": "B",
       "id": "669937585df402bb",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Broadcom（AVGO）FY2026 Q3 財報分析 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10V295ajg0ZThCNFBiUGVRTmVNUTZiS3h5RVNvY1NoemEyNDY5QlNYeEpqSjFxUkh1NGp1VlhxRk5ZTTlFMlZqYmJIUXgxSm93Z2NlUm1n?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 11:20:22 GMT",
+      "description": "Broadcom（AVGO）FY2026 Q3 財報分析 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "7b573ddbb3def37d",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -842,5 +862,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-09T14:34:52.825Z"
+  "rankedAt": "2026-09-09T18:34:18.339Z"
 }
