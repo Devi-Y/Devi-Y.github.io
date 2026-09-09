@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T00:12:11.416Z",
+  "generatedAt": "2026-09-09T04:38:53.190Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -224,130 +224,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "IPO",
-      "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtc291dE5wMk14d2QxUGlSMXVKc1VOUWFtc20yWXVUNXQ1NzI2dVNuXzZiam9yMFVBYndSNUFuNVlYaGljT0tpcFpFVndfeXNWUVhRVmFFX1dKcHRzR3VN?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 02:48:39 GMT",
-      "description": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可能要同桌，美國又在勸大家別太早給AI套籠頭，中國幾億勞動者正在從工廠走向零工平台，香港迎來一場很有「中國故事」味道的上市，台灣則一邊加 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "e90231e6174e1921",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "川普、習近平、普京真的要在深圳坐到一張桌子上？ 九月第二天，世界沒有因為翻過一張日曆就突然懂事：三個大國元首可…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HTklLTXY4M1NyWHk5VmJfLVhDWDF4S3hCQnF4d2ZrYTRaT0xEa0VsemRZUFlibWNKWVZQQVd2THFvWWZUQktBU29qLVFsaWlHTW1FUnIwSExFMUhzUXJfWWhRRnFWQQ?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 02:12:40 GMT",
-      "description": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點的982億美元，出現大幅回落……https://t.co/WXJavbYTFV &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "e5ab2ee345db15bb",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【希音上市，僅為前最高估值的四分之一】按開盤價計算，希音市值約為260億美元。對比2022年2月企業估值最高點…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XZU9yblNldmNiSEJScWg4Uy1LOHhpOHozWWxPc3oxQ0hXdkJxeFpyRkhLZXFNd0dMZGJzUmxnYkdmX29qeFN5V29jVE5nbm82bUVEUGowU1NmR0JwdEhwbm44WWg?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 02:57:01 GMT",
-      "description": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "dec0cf15ac56981e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UYmYxS2EtWGgxcEZVbDVDeUpoVzA0RXdlTGJkWG1kVlUwMGQzRzNtbWlkUlFXbFNjbF8tNmZQdXNGNlozRkJGQWlwNUpCR254NGVLM1QzSGxEZUpycy1Nb2U3ZXFsWTA?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
-      "description": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "f134f0e51190923b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "$TSLA 關鍵支撐337，短期看跌。(09/06) - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCVmJJbTFEREdvc2VWb1MxVHhxX3F2czhCdVR0d3ZuaHlJYXNuMnZrYnJrcUJQWlptelBoZDNYTWVyOVFoQWVKMDBKdzZPUFA1bkdHOGtB?oc=5",
@@ -411,37 +287,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iTmhKSnBNQ1V2aXJDMUFGZXdrUmh1bVRaMmM3alhiNmFRSEM5NjVja0hENVFUY2FLRUJiZzRDdDRMNnIxZVNMX19zamRPbWxBTTZUYg?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
-      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "f9dbb4081f0ae5af",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSmJLVGFBanB1VWl0aWpmdUxmZVBxZTJSNlFuWkdlYUlKRmoyd1hRMzdBY0FXT3J6RWMxa2J4Y3prWVVPYmtyQ2p5YzF0QzRVNTNNeA?oc=5",
       "pubDate": "Mon, 07 Sep 2026 07:42:04 GMT",
@@ -491,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XZU9yblNldmNiSEJScWg4Uy1LOHhpOHozWWxPc3oxQ0hXdkJxeFpyRkhLZXFNd0dMZGJzUmxnYkdmX29qeFN5V29jVE5nbm82bUVEUGowU1NmR0JwdEhwbm44WWg?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 02:57:01 GMT",
+      "description": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "dec0cf15ac56981e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,6 +504,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UYmYxS2EtWGgxcEZVbDVDeUpoVzA0RXdlTGJkWG1kVlUwMGQzRzNtbWlkUlFXbFNjbF8tNmZQdXNGNlozRkJGQWlwNUpCR254NGVLM1QzSGxEZUpycy1Nb2U3ZXFsWTA?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
+      "description": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "f134f0e51190923b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "SHEIN 希音是一家全球線上超快時尚零售商🛍️ 📣 $SHEIN 現已在 Bitunix 上線了！ 🚀合約交易 https://t.co/738JEPSisR - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fQzFubU45WXp1UERWaXA0YmFtdVhKaExjVVZTaXFLM05IbVJLd3dUblhNQ3lZTTlPYm5Qay1UbWswV0YzQlJWdi1xUlU0X0haUXh3T0FBQjFOYy1o?oc=5",
       "pubDate": "Wed, 02 Sep 2026 07:59:46 GMT",
@@ -739,6 +646,99 @@
       "ai": {
         "priority": "B",
         "summary": "德州七天暴增229台 華爾街只問車隊大不大 #Tesla #elonmusk #Cybercab #Robot…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZ1pUdXc1TjFGWlZiYnhTdUFxOU5Halhud0FSZTZKOHVXYWJ5aHZZazktSUt1VmNMcGJ2ZHR6MExrbjNQQXJwR0Z1cGNvOGtBUnprRjBNRFBsUlB6LU03ZW1DZVhwZkU?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 06:10:02 GMT",
+      "description": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "0954491e28fa3c56",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab期待值已經拉滿了，我確實也覺得這次值得期待 - 這篇發出時已經event結束，文章是之前寫的小預測，好玩而已 - 從日常FSD表現來看，還沒有到放量，不期待說現在開始每週大量增加 - 一次 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JdGVnZTc4eE1ScXJycndaS0s4SUR1alpJc3BmdDlub1lETUphWXN1WFNRbmJGTFo5WHBVcm85bTFtRHVqNnhPQzZ6d1ZlLXJiSEhCc21LeWhzRHk5WjhYYm1XM2k?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 23:45:00 GMT",
+      "description": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab期待值已經拉滿了，我確實也覺得這次值得期待 - 這篇發出時已經event結束，文章是之前寫的小預測，好玩而已 - 從日常FSD表現來看，還沒有到放量，不期待說現在開始每週大量增加 - 一次 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "698cddbb5b915db9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iTmhKSnBNQ1V2aXJDMUFGZXdrUmh1bVRaMmM3alhiNmFRSEM5NjVja0hENVFUY2FLRUJiZzRDdDRMNnIxZVNMX19zamRPbWxBTTZUYg?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
+      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "f9dbb4081f0ae5af",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
