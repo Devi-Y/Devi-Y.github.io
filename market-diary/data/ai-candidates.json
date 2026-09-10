@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:41:10.486Z",
+  "generatedAt": "2026-09-10T00:13:01.566Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -442,6 +442,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSmJLVGFBanB1VWl0aWpmdUxmZVBxZTJSNlFuWkdlYUlKRmoyd1hRMzdBY0FXT3J6RWMxa2J4Y3prWVVPYmtyQ2p5YzF0QzRVNTNNeA?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 07:42:04 GMT",
+      "description": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "b83ae887486d6d09",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XZU9yblNldmNiSEJScWg4Uy1LOHhpOHozWWxPc3oxQ0hXdkJxeFpyRkhLZXFNd0dMZGJzUmxnYkdmX29qeFN5V29jVE5nbm82bUVEUGowU1NmR0JwdEhwbm44WWg?oc=5",
       "pubDate": "Tue, 08 Sep 2026 02:57:01 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UaDA4S0V4dFNLbnBPcm5VQ2FZTk1pTzhyVU4yY0o1TlY3cjE5Q2hmWkNJbVhvZ196UkdOYU1DOVJvS1FjYUkwZFFDTzZuWkxfdUVzOEc0SUpjUUd6NzJmV2FB?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 07:53:46 GMT",
-      "description": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f353c6b536d6ca10",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMu…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-09T21:41:09.026Z",
+  "generatedAt": "2026-09-10T00:13:00.738Z",
   "windowDays": 7,
   "summary": {
-    "total": 43,
+    "total": 42,
     "bySignal": {
       "事实": 3,
-      "媒体": 1,
+      "媒体": 0,
       "人物": 1,
       "资金": 0,
       "热点": 38
     },
     "byTrust": {
       "A": 4,
-      "B": 1,
+      "B": 0,
       "C": 38
     },
     "s": 0,
     "a": 3,
-    "b": 40
+    "b": 39
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -305,6 +305,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSmJLVGFBanB1VWl0aWpmdUxmZVBxZTJSNlFuWkdlYUlKRmoyd1hRMzdBY0FXT3J6RWMxa2J4Y3prWVVPYmtyQ2p5YzF0QzRVNTNNeA?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 07:42:04 GMT",
+      "description": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "b83ae887486d6d09",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XZU9yblNldmNiSEJScWg4Uy1LOHhpOHozWWxPc3oxQ0hXdkJxeFpyRkhLZXFNd0dMZGJzUmxnYkdmX29qeFN5V29jVE5nbm82bUVEUGowU1NmR0JwdEhwbm44WWg?oc=5",
       "pubDate": "Tue, 08 Sep 2026 02:57:01 GMT",
@@ -582,26 +602,6 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSWgzQV94QmFGamVaWGVuYlFKNFhoTjhVZnhWS2EzbVp5enNkRll5X0EtbHZjZ05td0FnNnJUV1FneENSQzJnTG02VGdvalViOUZ4d1Eyd3hVWUZMRDYyS2RSXzQwZ2pYYkkwTFVzclpBRUNBZUJNUmdlT1VFY3NQTWdYUmZNdw?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT",
-      "description": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 42,
-      "priority": "B",
-      "id": "290835001aa0cf07",
-      "rankReason": "市场相关"
-    },
-    {
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
@@ -705,11 +705,11 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "- Xiaohongshu",
+      "title": "- xiaohongshu.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
       "pubDate": "Tue, 08 Sep 2026 08:32:34 GMT",
-      "description": "&nbsp;&nbsp; Xiaohongshu",
-      "source": "Xiaohongshu",
+      "description": "&nbsp;&nbsp; xiaohongshu.com",
+      "source": "xiaohongshu.com",
       "sourceKey": "xiaohongshu",
       "sourceMode": "social-discovery",
       "declaredTrust": "C",
@@ -718,7 +718,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 17,
       "priority": "B",
-      "id": "5dba6816abfe2da6",
+      "id": "8040aa123c3ea4b3",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -825,26 +825,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "川普、習近平、普京真的要在深圳坐到一張桌子上？ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6aklWTy1abXNUa1FXbEJIeFgxbWNkdnZYRVJTWVluZGk4Q0dEc0g1QU0yeFg3TzFMUHUydm1vYUtBMEJVaDZkZ19hRFkyTkpuUm1aTkpJZWpWSkVwaUtYX2xvOFNFVm9HbUFj?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 23:03:45 GMT",
-      "description": "川普、習近平、普京真的要在深圳坐到一張桌子上？ &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "de209119b56678e3",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "大陸職校把學生當生意 逼進工廠每人抽500元 大陸一些職校被曝把學生送進工廠實習，還和中介一起從學生身上賺錢。有的學校拿畢業證和學分卡學生，不去指定工廠，就可能畢不了業。 多家陸媒9月4日報導，上海鑄達律師事務所勞動法部門負責人張馳，接觸過不少職 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VeXFHcnJlZnpmYXNKVkt1bmRweTBZVUVlUkhrNkRXRzhHWmIxeU1oTldBWnluS3g0VGZKLThqbWZUblNlVzBfSFl0UVBLbU9iRVFfbzM3d214cHhXVGc?oc=5",
       "pubDate": "Sat, 05 Sep 2026 03:00:02 GMT",
@@ -882,5 +862,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-09T21:41:10.242Z"
+  "rankedAt": "2026-09-10T00:13:01.241Z"
 }
