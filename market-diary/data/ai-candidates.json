@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:25:03.116Z",
+  "generatedAt": "2026-09-10T18:26:17.208Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -163,37 +163,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzS3Y2T2ktMzMtZjN1R2M2R2lVeS1BbkhnM2VhUXJRenhPN21SOHFnbnlfbWlwV29LVksyb0Fwblk5QkNEcUlUMXUwX2otVkpKRDBlQXdLdDM5bjYxOHc?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 15:51:56 GMT",
-      "description": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "dc9c9d44e3aa56f8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA $GS Neutral，目標價定為 $360 FSD (Supervised) 性能與安全性評估：北美與歐洲對比 特斯拉近期披露的 FSD 使用數據，提供了驗證技術成熟度與安全性差異的實證依據。 Supervised FSD 性能 北美地區數據與行為轉向：在 HW4 硬體上，FSD 用戶約有 60% - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnanZqSUNkUnVic3ZvdjZkcHNwVUtIT053V3RtalNTNWhMcmliNTZxcHB4Qm1uSFM1azM2UWQ5ZTlxaWh6UUR4TW5mTGxNWnFYVWJqdGN2aDdKV3FRNW8xT3lPeEtGakk?oc=5",
       "pubDate": "Thu, 10 Sep 2026 10:53:02 GMT",
@@ -243,6 +212,37 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzS3Y2T2ktMzMtZjN1R2M2R2lVeS1BbkhnM2VhUXJRenhPN21SOHFnbnlfbWlwV29LVksyb0Fwblk5QkNEcUlUMXUwX2otVkpKRDBlQXdLdDM5bjYxOHc?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 15:51:56 GMT",
+      "description": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "dc9c9d44e3aa56f8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -367,37 +367,6 @@
       "ai": {
         "priority": "B",
         "summary": "今天一路綠燈 🟢 $SNDK 🟡 $SKHY 🔴 $NVDA #WEEX #GM",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "阿里前銷售總監在美國失蹤 被發現陳屍車內 中國阿里巴巴（Alibaba Group）的前銷售總監陳理（Li Chen）兩年前移民美國，近期被發現陳屍在自家車裡。 現年42歲的陳理居住在美國亞凱迪亞市，於8月21日失聯，之後一直杳無音信。亞凱迪亞市警局9月4日公布陳理的死 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UdkhpWW9pLVFpZzY4eHBWM3FFN2VjcDVFMVpwU0RibThDOVBCcFEtMmRmQXdEUFUxcDhrcVJzMEx3NkQzQS0wX0x0aWs3cFU4TkN1bEd1LVgzQWJuTUE?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 23:30:00 GMT",
-      "description": "阿里前銷售總監在美國失蹤 被發現陳屍車內 中國阿里巴巴（Alibaba Group）的前銷售總監陳理（Li Chen）兩年前移民美國，近期被發現陳屍在自家車裡。 現年42歲的陳理居住在美國亞凱迪亞市，於8月21日失聯，之後一直杳無音信。亞凱迪亞市警局9月4日公布陳理的死 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "0f114bfdcfac96d3",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "阿里前銷售總監在美國失蹤 被發現陳屍車內 中國阿里巴巴（Alibaba Group）的前銷售總監陳理（Li C…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUVFFa0NvMWM2Y3VvYWptV1dydWxPWU9VUnp2aXlzZ1A5NEZEd2htcnFIMlFxTUlnYU56MUV3b1pVRTRZNVY2R1FDMGMwZjRoblpoNmFqMWdSYVVWbjE1Yg?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
+      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "a45c4a2e8d2350a9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

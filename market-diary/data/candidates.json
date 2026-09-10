@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-10T14:25:02.669Z",
+  "generatedAt": "2026-09-10T18:26:15.322Z",
   "windowDays": 7,
   "summary": {
-    "total": 44,
+    "total": 43,
     "bySignal": {
       "事实": 4,
       "媒体": 0,
       "人物": 0,
       "资金": 0,
-      "热点": 40
+      "热点": 39
     },
     "byTrust": {
       "A": 4,
       "B": 0,
-      "C": 40
+      "C": 39
     },
     "s": 0,
     "a": 4,
-    "b": 40
+    "b": 39
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -125,26 +125,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzS3Y2T2ktMzMtZjN1R2M2R2lVeS1BbkhnM2VhUXJRenhPN21SOHFnbnlfbWlwV29LVksyb0Fwblk5QkNEcUlUMXUwX2otVkpKRDBlQXdLdDM5bjYxOHc?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 15:51:56 GMT",
-      "description": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "dc9c9d44e3aa56f8",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA $GS Neutral，目標價定為 $360 FSD (Supervised) 性能與安全性評估：北美與歐洲對比 特斯拉近期披露的 FSD 使用數據，提供了驗證技術成熟度與安全性差異的實證依據。 Supervised FSD 性能 北美地區數據與行為轉向：在 HW4 硬體上，FSD 用戶約有 60% - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnanZqSUNkUnVic3ZvdjZkcHNwVUtIT053V3RtalNTNWhMcmliNTZxcHB4Qm1uSFM1azM2UWQ5ZTlxaWh6UUR4TW5mTGxNWnFYVWJqdGN2aDdKV3FRNW8xT3lPeEtGakk?oc=5",
       "pubDate": "Thu, 10 Sep 2026 10:53:02 GMT",
@@ -179,6 +159,26 @@
       "score": 50,
       "priority": "B",
       "id": "fd726a2ee6c94a08",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzS3Y2T2ktMzMtZjN1R2M2R2lVeS1BbkhnM2VhUXJRenhPN21SOHFnbnlfbWlwV29LVksyb0Fwblk5QkNEcUlUMXUwX2otVkpKRDBlQXdLdDM5bjYxOHc?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 15:51:56 GMT",
+      "description": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "dc9c9d44e3aa56f8",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -259,26 +259,6 @@
       "score": 47,
       "priority": "B",
       "id": "ed8a87e9d8054dcd",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "阿里前銷售總監在美國失蹤 被發現陳屍車內 中國阿里巴巴（Alibaba Group）的前銷售總監陳理（Li Chen）兩年前移民美國，近期被發現陳屍在自家車裡。 現年42歲的陳理居住在美國亞凱迪亞市，於8月21日失聯，之後一直杳無音信。亞凱迪亞市警局9月4日公布陳理的死 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UdkhpWW9pLVFpZzY4eHBWM3FFN2VjcDVFMVpwU0RibThDOVBCcFEtMmRmQXdEUFUxcDhrcVJzMEx3NkQzQS0wX0x0aWs3cFU4TkN1bEd1LVgzQWJuTUE?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 23:30:00 GMT",
-      "description": "阿里前銷售總監在美國失蹤 被發現陳屍車內 中國阿里巴巴（Alibaba Group）的前銷售總監陳理（Li Chen）兩年前移民美國，近期被發現陳屍在自家車裡。 現年42歲的陳理居住在美國亞凱迪亞市，於8月21日失聯，之後一直杳無音信。亞凱迪亞市警局9月4日公布陳理的死 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "0f114bfdcfac96d3",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -505,26 +485,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab期待值已經拉滿了，我確實也覺得這次值得期待 - 這篇發出時已經event結束，文章是之前寫的小預測，好玩而已 - 從日常FSD表現來看，還沒有到放量，不期待說現在開始每週大量增加 - 一次 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JdGVnZTc4eE1ScXJycndaS0s4SUR1alpJc3BmdDlub1lETUphWXN1WFNRbmJGTFo5WHBVcm85bTFtRHVqNnhPQzZ6d1ZlLXJiSEhCc21LeWhzRHk5WjhYYm1XM2k?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 23:45:00 GMT",
-      "description": "房迷 From Me Daily 09/03/2026 - 又是羨慕特斯拉股東的一天 - 今天Cybercab期待值已經拉滿了，我確實也覺得這次值得期待 - 這篇發出時已經event結束，文章是之前寫的小預測，好玩而已 - 從日常FSD表現來看，還沒有到放量，不期待說現在開始每週大量增加 - 一次 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "698cddbb5b915db9",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUVFFa0NvMWM2Y3VvYWptV1dydWxPWU9VUnp2aXlzZ1A5NEZEd2htcnFIMlFxTUlnYU56MUV3b1pVRTRZNVY2R1FDMGMwZjRoblpoNmFqMWdSYVVWbjE1Yg?oc=5",
       "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
@@ -546,7 +506,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSmJLVGFBanB1VWl0aWpmdUxmZVBxZTJSNlFuWkdlYUlKRmoyd1hRMzdBY0FXT3J6RWMxa2J4Y3prWVVPYmtyQ2p5YzF0QzRVNTNNeA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42NEFMQ0pBY19lbnBoX1VqYzVvb3ozVHlDcXY4czVtTVFkbmdNNjNWajBrTmJrX2NKbmdjT1dZQzI2NGhISFRzbXNUQ1pvd1BkZlFybjU2R2JkaVpKMl9zNGp4NA?oc=5",
       "pubDate": "Mon, 07 Sep 2026 07:42:04 GMT",
       "description": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -558,27 +518,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "b83ae887486d6d09",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aUzUyNmNyaGljbVdzTmtTaEVFTzQxSGJHTXg4UnlBLTJpakg5MDZ2TXlnZ29zNDc3MmZQU18yY29rM2VEZ1JsZU9Yd093LTZ5TG5IY0FtaUxfNmNG?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 17:17:14 GMT",
-      "description": "2026 FutureMode（ @TaipeiWeek ）收工 🩵 活動結束後回頭看，記錄幾個我在規劃時考量的營銷點： 1｜一筆預算可以出現在哪幾個地方？ 300 份雞蛋糕、500 杯飲料，@b66ny 一日店長，在周邊店家準備兩個 rToken 流動性補給站。 除了現場發放，我會一起想包裝長 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "74b8ca3aa250d526",
+      "id": "208cdb755b2acb0b",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -719,6 +659,26 @@
       "score": 17,
       "priority": "B",
       "id": "a4913fa902645019",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "SemiVision 🇹🇼 👁️👁️ (@semivision_tw) - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTWDF4cEJHUjJ5dkJpbnd4RjV3MXFUV1VJVVNqNEVJdTk0elJueXl1VldqWm9aOEJKLUg1Q3JrbU5yclk2TGZHbUt3ZVNFUFBu?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 16:19:31 GMT",
+      "description": "SemiVision 🇹🇼 👁️👁️ (@semivision_tw) &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "b0b77b0832378c2c",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -885,6 +845,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Don't shop here.#justiceforwangwang and her puppies - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rOEs5YjZNcXJ6UV9zMlZEN0pqaW9GcGFWa2lhUFVYVDBfbVJVSV9jT055UGdFSzlUeW9tNU5hTE9nald0emZJV0lGVnJ4NUIzNVd4Wm9fX2hEY3M5RmliRldja25HZzNObjh1TA?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 16:04:41 GMT",
+      "description": "Don't shop here.#justiceforwangwang and her puppies &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "b4061cc592973e6b",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "大陸職校把學生當生意 逼進工廠每人抽500元 大陸一些職校被曝把學生送進工廠實習，還和中介一起從學生身上賺錢。有的學校拿畢業證和學分卡學生，不去指定工廠，就可能畢不了業。 多家陸媒9月4日報導，上海鑄達律師事務所勞動法部門負責人張馳，接觸過不少職 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VeXFHcnJlZnpmYXNKVkt1bmRweTBZVUVlUkhrNkRXRzhHWmIxeU1oTldBWnluS3g0VGZKLThqbWZUblNlVzBfSFl0UVBLbU9iRVFfbzM3d214cHhXVGc?oc=5",
       "pubDate": "Sat, 05 Sep 2026 03:00:02 GMT",
@@ -902,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-10T14:25:02.712Z"
+  "rankedAt": "2026-09-10T18:26:16.793Z"
 }
