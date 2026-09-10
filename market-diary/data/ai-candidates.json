@@ -1,9 +1,40 @@
 {
-  "generatedAt": "2026-09-10T09:42:05.948Z",
+  "generatedAt": "2026-09-10T14:25:03.116Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "HKEX, HKMA, DFSA and Nasdaq Dubai Form Strategic Working Group to Strengthen Hong Kong-Dubai Financial Market Connectivity",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/260910news?sc_lang=en",
+      "pubDate": "Thu, 10 Sep 2026 17:47:00 +0800",
+      "description": "HKEX, HKMA, DFSA and Nasdaq Dubai Form Strategic Working Group to Strengthen Hong Kong-Dubai Financial Market Connectivity",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "4a8c9039dc80d35e",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "港股",
       "signal": "事实",
@@ -98,37 +129,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "宏观",
-      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
-      "pubDate": "Thu, 3 Sep 2026 12:30:00 GMT",
-      "description": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 57,
-      "priority": "B",
-      "id": "4cd9818247301423",
-      "rankReason": "一级/官方信源；市场相关；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
@@ -194,10 +194,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供應鏈緊湊程度的重要窗口。租賃價格的變動直接反映了市場算力供需，並影響中小型企業獲取算力的成本與硬體投資報酬率。 8 月份 $NVDA GPU 租賃市場呈現混合走勢，反映 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRUEVGOVZxTVlGYmVMUVF3Q3ZfeEFGTy1UTzUwVjQ1X2oweVpuMERQWTh1dWVBXzNTN1hQWURHb05nWGtfWVlZZGplYjhxUWYzcWhGNDJ3bGhxNXpONm41blRsTERQdHM?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 10:03:45 GMT",
-      "description": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供應鏈緊湊程度的重要窗口。租賃價格的變動直接反映了市場算力供需，並影響中小型企業獲取算力的成本與硬體投資報酬率。 8 月份 $NVDA GPU 租賃市場呈現混合走勢，反映 &nbsp;&nbsp; x.com",
+      "title": "$TSLA $GS Neutral，目標價定為 $360 FSD (Supervised) 性能與安全性評估：北美與歐洲對比 特斯拉近期披露的 FSD 使用數據，提供了驗證技術成熟度與安全性差異的實證依據。 Supervised FSD 性能 北美地區數據與行為轉向：在 HW4 硬體上，FSD 用戶約有 60% - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnanZqSUNkUnVic3ZvdjZkcHNwVUtIT053V3RtalNTNWhMcmliNTZxcHB4Qm1uSFM1azM2UWQ5ZTlxaWh6UUR4TW5mTGxNWnFYVWJqdGN2aDdKV3FRNW8xT3lPeEtGakk?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 10:53:02 GMT",
+      "description": "$TSLA $GS Neutral，目標價定為 $360 FSD (Supervised) 性能與安全性評估：北美與歐洲對比 特斯拉近期披露的 FSD 使用數據，提供了驗證技術成熟度與安全性差異的實證依據。 Supervised FSD 性能 北美地區數據與行為轉向：在 HW4 硬體上，FSD 用戶約有 60% &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -207,42 +207,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "9514966bb767f30c",
+      "id": "b78d21a1c51c54c9",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WaDBPbzVBRFpoaUdBZS16eDdQUHI2ZHNsYmNOdTdwV2FZWmstbklKZ3QtWncxWExDaDlvQzNhUnlqdUJraG56a3VXSXMtdVFuR1FVbQ?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 09:50:53 GMT",
-      "description": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "74dd94f62d2fc6c2",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於…",
+        "summary": "$TSLA $GS Neutral，目標價定為 $360 FSD (Supervised) 性能與安全性評估：…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -318,10 +287,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00bjZUMk5JeTZDZEw4QnVEd21NQ21NM2VfWTB6b08wSC1NWGF0LW9DWGxUcGpTcGlYSzRXOTJZY1pZVzlnUlk2S3pnaE9veHJ0aDI5XzNB?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 12:23:13 GMT",
-      "description": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07) &nbsp;&nbsp; x.com",
+      "title": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供應鏈緊湊程度的重要窗口。租賃價格的變動直接反映了市場算力供需，並影響中小型企業獲取算力的成本與硬體投資報酬率。 8 月份 $NVDA GPU 租賃市場呈現混合走勢，反映 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRUEVGOVZxTVlGYmVMUVF3Q3ZfeEFGTy1UTzUwVjQ1X2oweVpuMERQWTh1dWVBXzNTN1hQWURHb05nWGtfWVlZZGplYjhxUWYzcWhGNDJ3bGhxNXpONm41blRsTERQdHM?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 10:03:45 GMT",
+      "description": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供應鏈緊湊程度的重要窗口。租賃價格的變動直接反映了市場算力供需，並影響中小型企業獲取算力的成本與硬體投資報酬率。 8 月份 $NVDA GPU 租賃市場呈現混合走勢，反映 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -331,11 +300,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "0e57ff243cfd3633",
+      "id": "9514966bb767f30c",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07)",
+        "summary": "$JPM GPU 租賃價格追蹤數據 GPU 租賃價格是觀察非超大型雲端業者（Non-hyperscaler）供…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WaDBPbzVBRFpoaUdBZS16eDdQUHI2ZHNsYmNOdTdwV2FZWmstbklKZ3QtWncxWExDaDlvQzNhUnlqdUJraG56a3VXSXMtdVFuR1FVbQ?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 09:50:53 GMT",
+      "description": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "74dd94f62d2fc6c2",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -503,68 +503,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "川普威脅要阻止美國與許多國家進行貿易，除非聯邦儲備局降低利率。https://t.co/Cv5fK90Ta9 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCN2ZFdkxpeVNReFVpTkY0ZV9wZzF1N1RwYVhfcHNEeVU4emlEc0FDZC1LbWkyVy12am5IaUNDMm1LTHp3bHRaMzBWODI2Z09ITUpmWWw2QmRueUNhbl9pWUVB?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 22:32:12 GMT",
-      "description": "川普威脅要阻止美國與許多國家進行貿易，除非聯邦儲備局降低利率。https://t.co/Cv5fK90Ta9 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ed11e9688e8096ab",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "川普威脅要阻止美國與許多國家進行貿易，除非聯邦儲備局降低利率。",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HUGVTOEhidXYtVENyT1g2TG1hNHJKbjFDUUJqSFV2SndmRVJqQjlzajhFaTdpMC0tSnM0Y3lfTlRBeS1lSGhJMlE0X1NYbnJJcWI5dFBPQlVHRlFlbDdjbjBhUERfeTI0RHZn?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 10:51:17 GMT",
-      "description": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔 https://t.co/PouJoSNbqe &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "0db2a42bb8b0d5e5",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "針對Shein等“超快時尚”產品經濟處罰在法生效 北京：由此產生一切後果由法方承擔",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5TWnlTNnUtWUlhbjZjdFF2Q3N2bkl6M2l5WWZpdHdfbmFobzNJUWdyUi1jSC1xbl8tUVV4bmR1UUhGVENOSzNHR3BlZkhvMXBHZ0RTUWRmVUpWSi1Wb0E?oc=5",
@@ -690,6 +628,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07) - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00bjZUMk5JeTZDZEw4QnVEd21NQ21NM2VfWTB6b08wSC1NWGF0LW9DWGxUcGpTcGlYSzRXOTJZY1pZVzlnUlk2S3pnaE9veHJ0aDI5XzNB?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 12:23:13 GMT",
+      "description": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07) &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "0e57ff243cfd3633",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07)",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
       "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMu…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZ1pUdXc1TjFGWlZiYnhTdUFxOU5Halhud0FSZTZKOHVXYWJ5aHZZazktSUt1VmNMcGJ2ZHR6MExrbjNQQXJwR0Z1cGNvOGtBUnprRjBNRFBsUlB6LU03ZW1DZVhwZkU?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 06:10:02 GMT",
+      "description": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "0954491e28fa3c56",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
