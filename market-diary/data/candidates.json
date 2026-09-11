@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-11T14:24:45.886Z",
+  "generatedAt": "2026-09-11T18:30:42.805Z",
   "windowDays": 7,
   "summary": {
-    "total": 49,
+    "total": 48,
     "bySignal": {
-      "事实": 4,
+      "事实": 3,
       "媒体": 0,
       "人物": 4,
       "资金": 0,
       "热点": 41
     },
     "byTrust": {
-      "A": 4,
+      "A": 3,
       "B": 4,
       "C": 41
     },
     "s": 0,
-    "a": 8,
+    "a": 7,
     "b": 41
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
@@ -142,26 +142,6 @@
       "rankReason": "高影响事件词；关键人物"
     },
     {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "pubDate": "Fri, 4 Sep 2026 15:00:00 GMT",
-      "description": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "560d80fa8f6e6491",
-      "rankReason": "一级/官方信源；高影响事件词"
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -219,26 +199,6 @@
       "score": 50,
       "priority": "B",
       "id": "c6c4f91eec593a73",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzS3Y2T2ktMzMtZjN1R2M2R2lVeS1BbkhnM2VhUXJRenhPN21SOHFnbnlfbWlwV29LVksyb0Fwblk5QkNEcUlUMXUwX2otVkpKRDBlQXdLdDM5bjYxOHc?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 15:51:56 GMT",
-      "description": "👀 甲骨文財報即將登場，市場會怎麼走？ 📊 如果財報優於預期，AI 算力與雲端概念股可能同步受惠，可關注 NVDA、AMD、AVGO、MSFT、AMZN、GOOGL。 若市場波動放大，黃金、TLT、SGOV 等防禦型資產也值得留意🐣 📌 從科技成長到避險配置，一張圖掌握財報前的 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "dc9c9d44e3aa56f8",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -785,6 +745,46 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Cybercab对我的冲击力 如果第一次开M3是十分 这次乘坐Cybercab就是一百分 相信我 你们会有同样的体会 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42NlFqNmJZcHhtNWxtWGxFd2dKTFFQb2ludHNYdzNYYml6bUxoa0o0YkFmNno2cUJYclhBWjJlaHM4bUx5SjQ1TXZ1dmxORmhtM3dMMFdqa1VmV3g4?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 21:58:32 GMT",
+      "description": "Cybercab对我的冲击力 如果第一次开M3是十分 这次乘坐Cybercab就是一百分 相信我 你们会有同样的体会 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "e9b45af3449d2bb5",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$ORCL 這季雲基建不是還在講故事，是已經多交了 850MW。 Q1 總營收 $193 億、+30%；雲基建 $74 億、+121%；RPO 再往上推到 $6640 億（年增約 $2090 億） 營運現金流創高，但資本開支仍高，自由現金流還是負的 市場前一天已在等數字，真正定價的是： 已簽約瓦 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xV3M4NXFJMEp6XzNGbHNqZnN5ME5adWd5ZEEtSnV1bWItaUw0MVlIeUpUYUo5SU0xRTNtY3Q0RnFMSjh5azhnSC1LY1ZJUXpMVWdGNw?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 02:02:10 GMT",
+      "description": "$ORCL 這季雲基建不是還在講故事，是已經多交了 850MW。 Q1 總營收 $193 億、+30%；雲基建 $74 億、+121%；RPO 再往上推到 $6640 億（年增約 $2090 億） 營運現金流創高，但資本開支仍高，自由現金流還是負的 市場前一天已在等數字，真正定價的是： 已簽約瓦 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "b1dab538e8a804bf",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "- Xiaohongshu",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
       "pubDate": "Thu, 10 Sep 2026 19:08:55 GMT",
@@ -925,26 +925,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Don't shop here.#justiceforwangwang and her puppies - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rOEs5YjZNcXJ6UV9zMlZEN0pqaW9GcGFWa2lhUFVYVDBfbVJVSV9jT055UGdFSzlUeW9tNU5hTE9nald0emZJV0lGVnJ4NUIzNVd4Wm9fX2hEY3M5RmliRldja25HZzNObjh1TA?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 16:04:41 GMT",
-      "description": "Don't shop here.#justiceforwangwang and her puppies &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "b4061cc592973e6b",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "大陸職校把學生當生意 逼進工廠每人抽500元 大陸一些職校被曝把學生送進工廠實習，還和中介一起從學生身上賺錢。有的學校拿畢業證和學分卡學生，不去指定工廠，就可能畢不了業。 多家陸媒9月4日報導，上海鑄達律師事務所勞動法部門負責人張馳，接觸過不少職 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VeXFHcnJlZnpmYXNKVkt1bmRweTBZVUVlUkhrNkRXRzhHWmIxeU1oTldBWnluS3g0VGZKLThqbWZUblNlVzBfSFl0UVBLbU9iRVFfbzM3d214cHhXVGc?oc=5",
       "pubDate": "Sat, 05 Sep 2026 03:00:02 GMT",
@@ -1002,5 +982,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-11T14:24:46.480Z"
+  "rankedAt": "2026-09-11T18:30:43.370Z"
 }
