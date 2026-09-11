@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T00:08:34.549Z",
+  "generatedAt": "2026-09-11T04:36:51.561Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -101,6 +101,37 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
+      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
+      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "7d686edc921bf3b4",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
       "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnYtOGM2TW1BQ1dGa0RyZ3pJUS1YcThuUm9qcUJvTUIwTnk1NmFKS3I0bUpwSEZ0QmdqcmYxZXRiNHFKZk15XzhMRUtLSktRN0ExcllSaTIzSmY3V0hURjN4bGl5UGNDUEdRS3h6WlYzakZVZDNqTXE2cUFIQ3FWaEdac21iOUwtQTY0Z0oxcTdLRzVlV3FHWld1eGQ?oc=5",
       "pubDate": "Thu, 10 Sep 2026 22:12:02 GMT",
@@ -185,6 +216,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85eV9SdDhCQnVGaUhnbkNRS0IwUURsWGlGREgxNVZOVTlyZWktT051alhFYjg2VmhlR1JzYWRGaE1IaDFCZWtnNWx3WHEzbmg3TjVUNg?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
+      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "c6c4f91eec593a73",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -380,68 +442,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "今天一路綠燈 🟢 $SNDK 🟡 $SKHY 🔴 $NVDA #WEEX #GM - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmdFdBSU94RmZzMWQwNTNHQXI1LWxXZVpRYU5jRjByS2VmQXpGUXp5V3VEcXoxdy14YmJycnBMUVhmUDNMdlpwY0VfaHV2X2JVaFFxbg?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 02:12:29 GMT",
-      "description": "今天一路綠燈 🟢 $SNDK 🟡 $SKHY 🔴 $NVDA #WEEX #GM &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "ed8a87e9d8054dcd",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "今天一路綠燈 🟢 $SNDK 🟡 $SKHY 🔴 $NVDA #WEEX #GM",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Highlights by Kiro (@kiro_is_baba) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rYWdFdFJxb19pT25sWjR6VXpfWElhSUMxdG0zU25scVgweUtTUVhWWEpkTlhNTFIxOEs5bW1kWXROaVJpazRrdVBlZ183dw?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 02:21:22 GMT",
-      "description": "Highlights by Kiro (@kiro_is_baba) &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "7141ec5f78d14b76",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） (@AIInvestHK) on X - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wZGdiSXRaRWZpLXQtdW9INnVOaldVVGJ3c01maGd3MWtnbGVRS3RYZlktNDRzcDFCV09sSEItOVNmSDFfTjlqUjJCeDl6b0Y3V3RmTGN3?oc=5",
       "pubDate": "Wed, 09 Sep 2026 05:03:52 GMT",
@@ -460,37 +460,6 @@
       "ai": {
         "priority": "B",
         "summary": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XZU9yblNldmNiSEJScWg4Uy1LOHhpOHozWWxPc3oxQ0hXdkJxeFpyRkhLZXFNd0dMZGJzUmxnYkdmX29qeFN5V29jVE5nbm82bUVEUGowU1NmR0JwdEhwbm44WWg?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 02:57:01 GMT",
-      "description": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 AI 融資工具」 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "dec0cf15ac56981e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "“Balance Sheet-as-a-Service” 😂 「輝達正將其強大的資產負債表變成一項策略性的 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUVFFa0NvMWM2Y3VvYWptV1dydWxPWU9VUnp2aXlzZ1A5NEZEd2htcnFIMlFxTUlnYU56MUV3b1pVRTRZNVY2R1FDMGMwZjRoblpoNmFqMWdSYVVWbjE1Yg?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
+      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "a45c4a2e8d2350a9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
