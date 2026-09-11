@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T04:36:51.561Z",
+  "generatedAt": "2026-09-11T09:39:01.284Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -67,37 +67,6 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "Exchange’s Disciplinary Action against Home Control International Limited (Stock Code: 1747) and Two Former Directors",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260908news?sc_lang=en",
-      "pubDate": "Tue, 08 Sep 2026 16:14:00 +0800",
-      "description": "Exchange’s Disciplinary Action against Home Control International Limited (Stock Code: 1747) and Two Former Directors",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 71,
-      "priority": "A",
-      "id": "5a1aa38304f5bcba",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
@@ -119,6 +88,68 @@
       "ai": {
         "priority": "A",
         "summary": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56R28zbFZDTDdYbGhGdTBNTTlPOUdzNjNUWEtNR2NNUURBNEJqcXR3OGljT1hvV3hkTHlfNnJieEtqSUdDdVotSHhwTmFydFRRYTlnZF9CeDgyNXdxQmozYVhua2NjYTJuZzVEZk1DQjcwcFhOb0hJ?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 07:05:48 GMT",
+      "description": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 &nbsp;&nbsp; tmgm.com",
+      "source": "tmgm.com",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "4f0f49a0dc7c106f",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "tmgm.com出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTU5ablRkVk03LUJ5ZnFoX3RPMzg1dU1MaDRVd194MDVFUTRURHAxMWswVFlNcEpaM1c5RE5xQnA3Zk9DOEhaekxwNzIydWttSHZTZENtUGFZTU9HZ2JPNlpRano2NWpEU3hOUl9TZXkxS1F4VURhTjhMbXB2T3lHX0JJNHNUVTZXdURraHV4ZGNGcDh1RVA5Z2NzWUNiYmlF?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 23:33:35 GMT",
+      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "fb92b5799982036d",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Is a new AI trend emerging? Jensen Huang: Cybersecurity…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -191,11 +222,42 @@
       }
     },
     {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Exchange’s Disciplinary Action against Home Control International Limited (Stock Code: 1747) and Two Former Directors",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260908news?sc_lang=en",
+      "pubDate": "Tue, 08 Sep 2026 16:14:00 +0800",
+      "description": "Exchange’s Disciplinary Action against Home Control International Limited (Stock Code: 1747) and Two Former Directors",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 68,
+      "priority": "A",
+      "id": "5a1aa38304f5bcba",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
       "title": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海外勞工觀察組織踢爆供應鏈存在嚴重勞權問題。「中國勞工觀察」即將公布調查指出，廣東多家Shein代工廠工人每天工作長達12至14小時，部分人連續工作超過 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xaGoyQ2h5SEg2NVo4VDlEd3g1SGhoZkpqenpSX1dIcHJsWEFNNmwtM3o5aEpTaFRISnRXNmxYYXhVbTZoTU5MNVM3XzA2a3FxNXNqeQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VNWFhWml0SS1qcU9SaDVsY1lhLTBYOGFhOUdSa0dkOTAxbnd3ci0zb1pVUzJ4NEhQSk4yQ1dTb3lqaklkVkQwWTVMemZrSmFVSDZNekpuODVkazJsZUNZWEc4LU9VM2M?oc=5",
       "pubDate": "Tue, 08 Sep 2026 06:03:56 GMT",
       "description": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海外勞工觀察組織踢爆供應鏈存在嚴重勞權問題。「中國勞工觀察」即將公布調查指出，廣東多家Shein代工廠工人每天工作長達12至14小時，部分人連續工作超過 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -205,9 +267,9 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
+      "score": 50,
       "priority": "B",
-      "id": "7d1b90b930bd5d9c",
+      "id": "8b917d9b4e267910",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -442,6 +504,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zQzVNU0ZTeElOczMxbXJEOHBrYzZfMVpFR0lnQ2toYUZvSWtqWmNrOGJQV1VxdndKNGdqZUhCNnlNQzhkZ0hUbS1sakZDTENaRGFuVzNxRTFHLUZaZ184b3hQNmhxOXc?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 10:01:52 GMT",
+      "description": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "61016c2ddcee7fc6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） (@AIInvestHK) on X - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wZGdiSXRaRWZpLXQtdW9INnVOaldVVGJ3c01maGd3MWtnbGVRS3RYZlktNDRzcDFCV09sSEItOVNmSDFfTjlqUjJCeDl6b0Y3V3RmTGN3?oc=5",
       "pubDate": "Wed, 09 Sep 2026 05:03:52 GMT",
@@ -646,99 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07)",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UaDA4S0V4dFNLbnBPcm5VQ2FZTk1pTzhyVU4yY0o1TlY3cjE5Q2hmWkNJbVhvZ196UkdOYU1DOVJvS1FjYUkwZFFDTzZuWkxfdUVzOEc0SUpjUUd6NzJmV2FB?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 07:53:46 GMT",
-      "description": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMusk #自動駕駛 #無人計程車 #TSLA &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f353c6b536d6ca10",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "官網表格不是賣車 @Tesla向B端伸手 #Tesla #Cybercab #Robotaxi #ElonMu…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZ1pUdXc1TjFGWlZiYnhTdUFxOU5Halhud0FSZTZKOHVXYWJ5aHZZazktSUt1VmNMcGJ2ZHR6MExrbjNQQXJwR0Z1cGNvOGtBUnprRjBNRFBsUlB6LU03ZW1DZVhwZkU?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 06:10:02 GMT",
-      "description": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "0954491e28fa3c56",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "想不到香港這麼快也有cybercab來巡展！ 到時見，希望有機會認識各位TSLA好友",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUVFFa0NvMWM2Y3VvYWptV1dydWxPWU9VUnp2aXlzZ1A5NEZEd2htcnFIMlFxTUlnYU56MUV3b1pVRTRZNVY2R1FDMGMwZjRoblpoNmFqMWdSYVVWbjE1Yg?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
-      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "a45c4a2e8d2350a9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
