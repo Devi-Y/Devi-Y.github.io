@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T21:36:44.060Z",
+  "generatedAt": "2026-09-11T00:08:34.549Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -88,6 +88,37 @@
       "ai": {
         "priority": "A",
         "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnYtOGM2TW1BQ1dGa0RyZ3pJUS1YcThuUm9qcUJvTUIwTnk1NmFKS3I0bUpwSEZ0QmdqcmYxZXRiNHFKZk15XzhMRUtLSktRN0ExcllSaTIzSmY3V0hURjN4bGl5UGNDUEdRS3h6WlYzakZVZDNqTXE2cUFIQ3FWaEdac21iOUwtQTY0Z0oxcTdLRzVlV3FHWld1eGQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 22:12:02 GMT",
+      "description": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "d6c65da8a8d3fd9e",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Jensen Huang bets on cybersecurity as the next use case…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -473,10 +504,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "永零和(@ZeroSum_AI) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE05NGF6LW1zUzc3Nnp0MUltQTZLOWFydVpRTFhwSUlOTmhPWFp1MUJ6aGRjOHNoWTlEUGJHVi13RDRhUQ?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 23:55:38 GMT",
-      "description": "永零和(@ZeroSum_AI) &nbsp;&nbsp; x.com",
+      "title": "戰壕 OG 不跟第一波上漲卻能獲得百倍收益的關鍵 ‼️ #CASHCAT 曾下跌 85% | $AI 曾下跌 75% | $PONS 曾下跌 62% 眾所周知 Memecoin 交易節奏與敘事傳播速度非常快，熱門敘事的 K 線劇本往往是第一波快速上衝隨後迎來 60% ~ 95% 的暴跌調整與籌碼換手 與 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BOWNBS1hKb2lIa3Y5U2FLWVhxcl8xNWQzakVyeVQwVk9xbHhaR2N5dmNUbmVZYk9acEdTVFNDN2xlNjlmS1B2ZVVsdnFzQTUycGtxYkRoLVZsRk1BUFgyOVZTWTcxZw?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 10:16:32 GMT",
+      "description": "戰壕 OG 不跟第一波上漲卻能獲得百倍收益的關鍵 ‼️ #CASHCAT 曾下跌 85% | $AI 曾下跌 75% | $PONS 曾下跌 62% 眾所周知 Memecoin 交易節奏與敘事傳播速度非常快，熱門敘事的 K 線劇本往往是第一波快速上衝隨後迎來 60% ~ 95% 的暴跌調整與籌碼換手 與 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -486,11 +517,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "104c5eadec728ec1",
+      "id": "9b74fdfc4713bd86",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "永零和(@ZeroSum_AI)",
+        "summary": "戰壕 OG 不跟第一波上漲卻能獲得百倍收益的關鍵 ‼️ #CASHCAT 曾下跌 85% | $AI 曾下跌 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -646,37 +677,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07)",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSkU0Rk5pNWF6Zjl0NHlic0xVQkJrR19XeFRqU2JvbjQ5ZnI0RnJhWUpkZzk2UGNSclo0WHUyZXlvc1VDY1JZWnF4eGlXNFNoRkRiWHZNTF9UXzZLUWtXWXhrOFBkZnc?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 23:35:00 GMT",
-      "description": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. MediaTek 如果有人想把專用 XPU 放進資料中心，為什麼不讓它更容易接到 $NVDA 的基礎設施上？ 對手要做自研加速器 XPU， $NVDA 就開放平台，讓這些晶片能直接接到 $NVDA 機櫃與網路裡 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ad6de67421a642d1",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "solana:LruuJRDNxyuVhpFe8eXK2keMFo9V9e4DzfERscBpump vs. …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
