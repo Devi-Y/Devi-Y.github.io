@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-12T13:36:11.198Z",
+  "generatedAt": "2026-09-12T17:07:39.581Z",
   "windowDays": 7,
   "summary": {
-    "total": 49,
+    "total": 48,
     "bySignal": {
       "事实": 3,
       "媒体": 0,
-      "人物": 5,
+      "人物": 4,
       "资金": 0,
       "热点": 41
     },
     "byTrust": {
       "A": 3,
-      "B": 5,
+      "B": 4,
       "C": 41
     },
     "s": 0,
-    "a": 8,
+    "a": 7,
     "b": 41
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
@@ -85,26 +85,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Jensen Huang Maps Nvidia's Next Two Growth Engines - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXFyUjJxRTl0T3NXZldpbURSa3d6ZU45cDJDTXoxbDRHXzVGYkJKRHE5b21MQ2RLT0g2TnVvU3hXZ3NWdFpNdW52b3hsSGJMTS10R1g5R3gxVVJsNWxGdVVmMndRNWtkQm56aXcwak9lVnYwVlozRjhXaklCRUhOeC1zaFliX0hya0NBYmprUTlGbThPc0hzWEtn?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 19:41:21 GMT",
-      "description": "Jensen Huang Maps Nvidia's Next Two Growth Engines &nbsp;&nbsp; Yahoo Finance",
-      "source": "Yahoo Finance",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "6ef292f7fcfc8d18",
-      "rankReason": "高影响事件词；关键人物"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
       "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
@@ -126,8 +106,8 @@
       "signal": "人物",
       "type": "公司事件",
       "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5QTJMdFA3bGkyTFVVTENoNUNvT2RYd0ZyMnlnT1pLNFY3bEpqekd5X1pXRUNlSmlBa3gzX3ZrZjFENmVLTktyeGVRZUZGRlItREgyV3BuXzBmYkhaSjR2SXE1VFV1YUd5enh6MnVrVXllTFJiUlc4YndBT0U?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 05:53:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56R28zbFZDTDdYbGhGdTBNTTlPOUdzNjNUWEtNR2NNUURBNEJqcXR3OGljT1hvV3hkTHlfNnJieEtqSUdDdVotSHhwTmFydFRRYTlnZF9CeDgyNXdxQmozYVhua2NjYTJuZzVEZk1DQjcwcFhOb0hJ?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 07:05:48 GMT",
       "description": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 &nbsp;&nbsp; tmgm.com",
       "source": "tmgm.com",
       "sourceKey": "people",
@@ -138,7 +118,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "049e4cc9481b4903",
+      "id": "4f0f49a0dc7c106f",
       "rankReason": "高影响事件词；关键人物"
     },
     {
@@ -745,26 +725,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "歐盟擬立法進行重大改革 針對來自中國等地的非法電商產品 https://t.co/LanP8S0UyU - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmeGZVczk2blBVMVVVNnVlTGpHQjRZSVhpelJzMS1FbWZyeWZ5QjJybFdJcmpZLWs4MUhrSnVqdDAzcEc4OW9HWmVwZVJfR04wSHdldDFsVjhEV01DbHAzMw?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 14:03:49 GMT",
-      "description": "歐盟擬立法進行重大改革 針對來自中國等地的非法電商產品 https://t.co/LanP8S0UyU &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "9a8e650a516a3e43",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "📊 2026/09/12 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 📌 本次沒有標的進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $AVGO｜IV Rank：0 🥇 $BE｜IV Rank：0 🥇 $SNDK｜IV Rank：0 🥈 $IREN｜IV Rank：2 🥉 $CLSK｜IV Ra - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SeHpTaGlONGhFdXlmcmdYblZGdUxLOTU0bEc5b25PWDVWOEdHWjJxa3E5YVVvdkt1VVowYkt6Y1lHSEwyZExON29OMUVUUE5YZ3NuVw?oc=5",
       "pubDate": "Sat, 12 Sep 2026 09:38:24 GMT",
@@ -819,6 +779,26 @@
       "score": 17,
       "priority": "B",
       "id": "e9b45af3449d2bb5",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "歐盟擬立法進行重大改革 針對來自中國等地的非法電商產品 https://t.co/LanP8S0UyU - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmeGZVczk2blBVMVVVNnVlTGpHQjRZSVhpelJzMS1FbWZyeWZ5QjJybFdJcmpZLWs4MUhrSnVqdDAzcEc4OW9HWmVwZVJfR04wSHdldDFsVjhEV01DbHAzMw?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 14:03:49 GMT",
+      "description": "歐盟擬立法進行重大改革 針對來自中國等地的非法電商產品 https://t.co/LanP8S0UyU &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "9a8e650a516a3e43",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -1002,5 +982,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-12T13:36:12.391Z"
+  "rankedAt": "2026-09-12T17:07:41.612Z"
 }

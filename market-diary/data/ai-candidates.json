@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:36:12.927Z",
+  "generatedAt": "2026-09-12T17:07:42.036Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -101,37 +101,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Jensen Huang Maps Nvidia's Next Two Growth Engines - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXFyUjJxRTl0T3NXZldpbURSa3d6ZU45cDJDTXoxbDRHXzVGYkJKRHE5b21MQ2RLT0g2TnVvU3hXZ3NWdFpNdW52b3hsSGJMTS10R1g5R3gxVVJsNWxGdVVmMndRNWtkQm56aXcwak9lVnYwVlozRjhXaklCRUhOeC1zaFliX0hya0NBYmprUTlGbThPc0hzWEtn?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 19:41:21 GMT",
-      "description": "Jensen Huang Maps Nvidia's Next Two Growth Engines &nbsp;&nbsp; Yahoo Finance",
-      "source": "Yahoo Finance",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "6ef292f7fcfc8d18",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Yahoo Finance出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
       "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
@@ -164,8 +133,8 @@
       "signal": "人物",
       "type": "公司事件",
       "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5QTJMdFA3bGkyTFVVTENoNUNvT2RYd0ZyMnlnT1pLNFY3bEpqekd5X1pXRUNlSmlBa3gzX3ZrZjFENmVLTktyeGVRZUZGRlItREgyV3BuXzBmYkhaSjR2SXE1VFV1YUd5enh6MnVrVXllTFJiUlc4YndBT0U?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 05:53:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56R28zbFZDTDdYbGhGdTBNTTlPOUdzNjNUWEtNR2NNUURBNEJqcXR3OGljT1hvV3hkTHlfNnJieEtqSUdDdVotSHhwTmFydFRRYTlnZF9CeDgyNXdxQmozYVhua2NjYTJuZzVEZk1DQjcwcFhOb0hJ?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 07:05:48 GMT",
       "description": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 &nbsp;&nbsp; tmgm.com",
       "source": "tmgm.com",
       "sourceKey": "people",
@@ -176,7 +145,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "049e4cc9481b4903",
+      "id": "4f0f49a0dc7c106f",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "OpenAI 自己的推理晶片 Jalapeño，報導口徑是跟 Broadcom 共設、往理效率與延遲打。 市場…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Highlights by Kiro (@kiro_is_baba) - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rYWdFdFJxb19pT25sWjR6VXpfWElhSUMxdG0zU25scVgweUtTUVhWWEpkTlhNTFIxOEs5bW1kWXROaVJpazRrdVBlZ183dw?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 02:21:22 GMT",
+      "description": "Highlights by Kiro (@kiro_is_baba) &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "7141ec5f78d14b76",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
