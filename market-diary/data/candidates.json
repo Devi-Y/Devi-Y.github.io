@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T17:07:39.581Z",
+  "generatedAt": "2026-09-12T19:18:45.991Z",
   "windowDays": 7,
   "summary": {
     "total": 48,
@@ -85,11 +85,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
+      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - news.futunn.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
       "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
-      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; news.futunn.com",
+      "source": "news.futunn.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -98,7 +98,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "7d686edc921bf3b4",
+      "id": "64489dd2d1e32130",
       "rankReason": "高影响事件词；关键人物"
     },
     {
@@ -125,11 +125,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - 富途牛牛",
+      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - news.futunn.com",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTU5ablRkVk03LUJ5ZnFoX3RPMzg1dU1MaDRVd194MDVFUTRURHAxMWswVFlNcEpaM1c5RE5xQnA3Zk9DOEhaekxwNzIydWttSHZTZENtUGFZTU9HZ2JPNlpRano2NWpEU3hOUl9TZXkxS1F4VURhTjhMbXB2T3lHX0JJNHNUVTZXdURraHV4ZGNGcDh1RVA5Z2NzWUNiYmlF?oc=5",
       "pubDate": "Thu, 10 Sep 2026 23:33:35 GMT",
-      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; news.futunn.com",
+      "source": "news.futunn.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -138,18 +138,18 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "fb92b5799982036d",
+      "id": "7fb790c2d91c1191",
       "rankReason": "高影响事件词；关键人物"
     },
     {
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - 富途牛牛",
+      "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - news.futunn.com",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnYtOGM2TW1BQ1dGa0RyZ3pJUS1YcThuUm9qcUJvTUIwTnk1NmFKS3I0bUpwSEZ0QmdqcmYxZXRiNHFKZk15XzhMRUtLSktRN0ExcllSaTIzSmY3V0hURjN4bGl5UGNDUEdRS3h6WlYzakZVZDNqTXE2cUFIQ3FWaEdac21iOUwtQTY0Z0oxcTdLRzVlV3FHWld1eGQ?oc=5",
       "pubDate": "Thu, 10 Sep 2026 22:12:02 GMT",
-      "description": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "description": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. &nbsp;&nbsp; news.futunn.com",
+      "source": "news.futunn.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -158,7 +158,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "d6c65da8a8d3fd9e",
+      "id": "e7e2716852c71989",
       "rankReason": "高影响事件词；关键人物"
     },
     {
@@ -305,26 +305,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA another price hike \"Reports indicate that NVIDIA has significantly increased prices\" SCOOP: NVIDIA HIKES PRICES TO SECURE AI CHIP TEST CAPACITY, PUSHING TSMC AND CHIPMAKERS TO QUALIFY ALTERNATIVE SUPPLIERS — DIGITIME - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vcFh0YzJlQ19DWENWUzlmYmNmYm5oZXM5LU5xQjNUWXpXWElQOUg3cjRvT2kyYzZWRFdrekZJQzJJVE1uaGt6MXFjaEk1NndMbmY0RXpyQ180RkhxbndfRg?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 19:06:21 GMT",
-      "description": "$NVDA another price hike \"Reports indicate that NVIDIA has significantly increased prices\" SCOOP: NVIDIA HIKES PRICES TO SECURE AI CHIP TEST CAPACITY, PUSHING TSMC AND CHIPMAKERS TO QUALIFY ALTERNATIVE SUPPLIERS — DIGITIME &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "fd726a2ee6c94a08",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA $GS Neutral，目標價定為 $360，係基於預估 Q5-Q8 EPS 的 150 倍倍率計算，反映了對核心 EV 業務利潤承壓與 AI 長線潛力的綜合權衡。 樂觀情境（Upside Scenario）：目標價 $500。觸發因子包括 EV 採用率激增、AI 產品（FSD, Optimus, Robotaxi）早期貢獻超 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kRVNFWmI5RDNZOFB4TEhUdlJIbnYxMi10ZU8wMHFLUnJDVWIzaEg1NnowN2pGcHpzMVNKWWk1Uy1ZMFk5RWtJMUFfOFo2QktnaUVhcmZ1dHg3T3lOSlU0eENiU0NVdHc?oc=5",
       "pubDate": "Tue, 08 Sep 2026 10:14:40 GMT",
@@ -399,6 +379,26 @@
       "score": 44,
       "priority": "B",
       "id": "0e57ff243cfd3633",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA another price hike \"Reports indicate that NVIDIA has significantly increased prices\" SCOOP: NVIDIA HIKES PRICES TO SECURE AI CHIP TEST CAPACITY, PUSHING TSMC AND CHIPMAKERS TO QUALIFY ALTERNATIVE SUPPLIERS — DIGITIME - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vcFh0YzJlQ19DWENWUzlmYmNmYm5oZXM5LU5xQjNUWXpXWElQOUg3cjRvT2kyYzZWRFdrekZJQzJJVE1uaGt6MXFjaEk1NndMbmY0RXpyQ180RkhxbndfRg?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 19:06:21 GMT",
+      "description": "$NVDA another price hike \"Reports indicate that NVIDIA has significantly increased prices\" SCOOP: NVIDIA HIKES PRICES TO SECURE AI CHIP TEST CAPACITY, PUSHING TSMC AND CHIPMAKERS TO QUALIFY ALTERNATIVE SUPPLIERS — DIGITIME &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "fd726a2ee6c94a08",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -982,5 +982,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-12T17:07:41.612Z"
+  "rankedAt": "2026-09-12T19:18:46.422Z"
 }
