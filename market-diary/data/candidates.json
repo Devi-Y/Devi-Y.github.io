@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:16:45.518Z",
+  "generatedAt": "2026-09-12T04:39:34.700Z",
   "windowDays": 7,
   "summary": {
     "total": 48,
@@ -185,10 +185,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85eV9SdDhCQnVGaUhnbkNRS0IwUURsWGlGREgxNVZOVTlyZWktT051alhFYjg2VmhlR1JzYWRGaE1IaDFCZWtnNWx3WHEzbmg3TjVUNg?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
-      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
+      "title": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感，希望這家公司有足夠資源撐住。 Hugging Face CEO 來找他時，我的第一個念頭是：「糟了，現在一切都很好，我其實希望他們繼續獨立。」 但現場還有其他買家。最後成交價是 1 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTenpNb0o3a2kwdHozWDZIR2QtTWh1MW1CQ01QRi1YeXlKNlhUUzlhLXlzeFZiUjJwZHF1REROcV96UVVJem54M2J5bEtmRkh1S25DYVlRM25kNFVBeW1kM3RJeWJDbEk?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 23:45:13 GMT",
+      "description": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感，希望這家公司有足夠資源撐住。 Hugging Face CEO 來找他時，我的第一個念頭是：「糟了，現在一切都很好，我其實希望他們繼續獨立。」 但現場還有其他買家。最後成交價是 1 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -198,7 +198,27 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "c6c4f91eec593a73",
+      "id": "0a9d9a8d1546827f",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數據分析 透過美國國家公路交通安全管理局（NHTSA）數據，對特斯拉 Robotaxi 進行了第三方安全性評估。這項分析僅聚焦於已啟動無人駕駛服務的區域。 事故頻率估算： 結合 NHTSA 事故 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fZWxFWUIxMGlxQTdzd202ZHRXNkI4QlQ0ZWxoMlhUc3BfRVRpQ1lDd1lEY2xNZTJka1M4Z0hqY0ZDZ3dfUlZfYlJYWDJhR3FWaU9fUk5haXJPUjdFUGRQT0Fwb1ozZEE?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 23:26:55 GMT",
+      "description": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數據分析 透過美國國家公路交通安全管理局（NHTSA）數據，對特斯拉 Robotaxi 進行了第三方安全性評估。這項分析僅聚焦於已啟動無人駕駛服務的區域。 事故頻率估算： 結合 NHTSA 事故 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "4c264f85b1cc02e9",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -219,6 +239,26 @@
       "score": 50,
       "priority": "B",
       "id": "1b9c51f526797128",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85eV9SdDhCQnVGaUhnbkNRS0IwUURsWGlGREgxNVZOVTlyZWktT051alhFYjg2VmhlR1JzYWRGaE1IaDFCZWtnNWx3WHEzbmg3TjVUNg?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
+      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c6c4f91eec593a73",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -279,26 +319,6 @@
       "score": 47,
       "priority": "B",
       "id": "fd726a2ee6c94a08",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zQzVNU0ZTeElOczMxbXJEOHBrYzZfMVpFR0lnQ2toYUZvSWtqWmNrOGJQV1VxdndKNGdqZUhCNnlNQzhkZ0hUbS1sakZDTENaRGFuVzNxRTFHLUZaZ184b3hQNmhxOXc?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 10:01:52 GMT",
-      "description": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "61016c2ddcee7fc6",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -925,26 +945,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "大陸職校把學生當生意 逼進工廠每人抽500元 大陸一些職校被曝把學生送進工廠實習，還和中介一起從學生身上賺錢。有的學校拿畢業證和學分卡學生，不去指定工廠，就可能畢不了業。 多家陸媒9月4日報導，上海鑄達律師事務所勞動法部門負責人張馳，接觸過不少職 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VeXFHcnJlZnpmYXNKVkt1bmRweTBZVUVlUkhrNkRXRzhHWmIxeU1oTldBWnluS3g0VGZKLThqbWZUblNlVzBfSFl0UVBLbU9iRVFfbzM3d214cHhXVGc?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 03:00:02 GMT",
-      "description": "大陸職校把學生當生意 逼進工廠每人抽500元 大陸一些職校被曝把學生送進工廠實習，還和中介一起從學生身上賺錢。有的學校拿畢業證和學分卡學生，不去指定工廠，就可能畢不了業。 多家陸媒9月4日報導，上海鑄達律師事務所勞動法部門負責人張馳，接觸過不少職 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "ba2dd27db06fd969",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Arc 主網上線倒數 9 天～一起來看 40 個ARC NFT項目的盤點吧~ - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIcmhWZ1ZtdU9TSFJwQk5jWlhVeFlnc3JnZmRQb1RtZHZNMFZnUUZIOXRBZHhRNVk3TXdxaTNaM0lYaG9jVDR2bmpoajdPUmFQYjJBdXRR?oc=5",
       "pubDate": "Mon, 07 Sep 2026 22:54:17 GMT",
@@ -982,5 +982,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-12T00:16:46.715Z"
+  "rankedAt": "2026-09-12T04:39:35.299Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:16:47.111Z",
+  "generatedAt": "2026-09-12T04:39:35.874Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -256,10 +256,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85eV9SdDhCQnVGaUhnbkNRS0IwUURsWGlGREgxNVZOVTlyZWktT051alhFYjg2VmhlR1JzYWRGaE1IaDFCZWtnNWx3WHEzbmg3TjVUNg?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
-      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
+      "title": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感，希望這家公司有足夠資源撐住。 Hugging Face CEO 來找他時，我的第一個念頭是：「糟了，現在一切都很好，我其實希望他們繼續獨立。」 但現場還有其他買家。最後成交價是 1 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTenpNb0o3a2kwdHozWDZIR2QtTWh1MW1CQ01QRi1YeXlKNlhUUzlhLXlzeFZiUjJwZHF1REROcV96UVVJem54M2J5bEtmRkh1S25DYVlRM25kNFVBeW1kM3RJeWJDbEk?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 23:45:13 GMT",
+      "description": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感，希望這家公司有足夠資源撐住。 Hugging Face CEO 來找他時，我的第一個念頭是：「糟了，現在一切都很好，我其實希望他們繼續獨立。」 但現場還有其他買家。最後成交價是 1 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -269,11 +269,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "c6c4f91eec593a73",
+      "id": "0a9d9a8d1546827f",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施…",
+        "summary": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數據分析 透過美國國家公路交通安全管理局（NHTSA）數據，對特斯拉 Robotaxi 進行了第三方安全性評估。這項分析僅聚焦於已啟動無人駕駛服務的區域。 事故頻率估算： 結合 NHTSA 事故 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fZWxFWUIxMGlxQTdzd202ZHRXNkI4QlQ0ZWxoMlhUc3BfRVRpQ1lDd1lEY2xNZTJka1M4Z0hqY0ZDZ3dfUlZfYlJYWDJhR3FWaU9fUk5haXJPUjdFUGRQT0Fwb1ozZEE?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 23:26:55 GMT",
+      "description": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數據分析 透過美國國家公路交通安全管理局（NHTSA）數據，對特斯拉 Robotaxi 進行了第三方安全性評估。這項分析僅聚焦於已啟動無人駕駛服務的區域。 事故頻率估算： 結合 NHTSA 事故 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "4c264f85b1cc02e9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -305,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "房迷 From Me Daily 09/11/2026 - 我因為白天常在外面跑，所以電腦前的文書類，都是晚上…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85eV9SdDhCQnVGaUhnbkNRS0IwUURsWGlGREgxNVZOVTlyZWktT051alhFYjg2VmhlR1JzYWRGaE1IaDFCZWtnNWx3WHEzbmg3TjVUNg?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
+      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c6c4f91eec593a73",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -398,37 +460,6 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zQzVNU0ZTeElOczMxbXJEOHBrYzZfMVpFR0lnQ2toYUZvSWtqWmNrOGJQV1VxdndKNGdqZUhCNnlNQzhkZ0hUbS1sakZDTENaRGFuVzNxRTFHLUZaZ184b3hQNmhxOXc?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 10:01:52 GMT",
-      "description": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "61016c2ddcee7fc6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "阿里前銷售總監在美國失蹤 被發現陳屍車內 中國阿里巴巴（Alibaba Group）的前銷售總監陳理（Li C…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42NEFMQ0pBY19lbnBoX1VqYzVvb3ozVHlDcXY4czVtTVFkbmdNNjNWajBrTmJrX2NKbmdjT1dZQzI2NGhISFRzbXNUQ1pvd1BkZlFybjU2R2JkaVpKMl9zNGp4NA?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 07:42:04 GMT",
-      "description": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1-20X）、SHEINUSDT（1-20X）U本位永續合約交易對。 开始交易 ⤵️ https://t.co/qZRwRoCfbF &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "208cdb755b2acb0b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚀 XT 合約上新 🚀 #XTfutures 🔥 XT已在 #TradFi 板塊上線 BYDUSDT（1…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
