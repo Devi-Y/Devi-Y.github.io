@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:42:46.583Z",
+  "generatedAt": "2026-09-12T00:16:47.111Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -98,68 +98,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - news.futunn.com",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTU5ablRkVk03LUJ5ZnFoX3RPMzg1dU1MaDRVd194MDVFUTRURHAxMWswVFlNcEpaM1c5RE5xQnA3Zk9DOEhaekxwNzIydWttSHZTZENtUGFZTU9HZ2JPNlpRano2NWpEU3hOUl9TZXkxS1F4VURhTjhMbXB2T3lHX0JJNHNUVTZXdURraHV4ZGNGcDh1RVA5Z2NzWUNiYmlF?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 23:33:35 GMT",
-      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; news.futunn.com",
-      "source": "news.futunn.com",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
-      "priority": "A",
-      "id": "7fb790c2d91c1191",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "news.futunn.com出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - news.futunn.com",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnYtOGM2TW1BQ1dGa0RyZ3pJUS1YcThuUm9qcUJvTUIwTnk1NmFKS3I0bUpwSEZ0QmdqcmYxZXRiNHFKZk15XzhMRUtLSktRN0ExcllSaTIzSmY3V0hURjN4bGl5UGNDUEdRS3h6WlYzakZVZDNqTXE2cUFIQ3FWaEdac21iOUwtQTY0Z0oxcTdLRzVlV3FHWld1eGQ?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 22:12:02 GMT",
-      "description": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. &nbsp;&nbsp; news.futunn.com",
-      "source": "news.futunn.com",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
-      "priority": "A",
-      "id": "e7e2716852c71989",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "news.futunn.com出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -194,11 +132,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - news.futunn.com",
+      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
       "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
-      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; news.futunn.com",
-      "source": "news.futunn.com",
+      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -207,11 +145,73 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "64489dd2d1e32130",
+      "id": "7d686edc921bf3b4",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "news.futunn.com出现一条新的公司事件信息",
+        "summary": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTU5ablRkVk03LUJ5ZnFoX3RPMzg1dU1MaDRVd194MDVFUTRURHAxMWswVFlNcEpaM1c5RE5xQnA3Zk9DOEhaekxwNzIydWttSHZTZENtUGFZTU9HZ2JPNlpRano2NWpEU3hOUl9TZXkxS1F4VURhTjhMbXB2T3lHX0JJNHNUVTZXdURraHV4ZGNGcDh1RVA5Z2NzWUNiYmlF?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 23:33:35 GMT",
+      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "fb92b5799982036d",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Is a new AI trend emerging? Jensen Huang: Cybersecurity…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnYtOGM2TW1BQ1dGa0RyZ3pJUS1YcThuUm9qcUJvTUIwTnk1NmFKS3I0bUpwSEZ0QmdqcmYxZXRiNHFKZk15XzhMRUtLSktRN0ExcllSaTIzSmY3V0hURjN4bGl5UGNDUEdRS3h6WlYzakZVZDNqTXE2cUFIQ3FWaEdac21iOUwtQTY0Z0oxcTdLRzVlV3FHWld1eGQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 22:12:02 GMT",
+      "description": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "d6c65da8a8d3fd9e",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Jensen Huang bets on cybersecurity as the next use case…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -226,7 +226,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海外勞工觀察組織踢爆供應鏈存在嚴重勞權問題。「中國勞工觀察」即將公布調查指出，廣東多家Shein代工廠工人每天工作長達12至14小時，部分人連續工作超過 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VNWFhWml0SS1qcU9SaDVsY1lhLTBYOGFhOUdSa0dkOTAxbnd3ci0zb1pVUzJ4NEhQSk4yQ1dTb3lqaklkVkQwWTVMemZrSmFVSDZNekpuODVkazJsZUNZWEc4LU9VM2M?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfdG1RNDNPUTJ1NnBEYW0tanlielJ3ZUJYVHlydUx6aUcwTnNIaVd1ZzRDTHVFV1RUVjE1MERCWWtneFhyU3lIZWpNN2lLOHR2T21fSHNCc05hLWZp?oc=5",
       "pubDate": "Tue, 08 Sep 2026 06:03:56 GMT",
       "description": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海外勞工觀察組織踢爆供應鏈存在嚴重勞權問題。「中國勞工觀察」即將公布調查指出，廣東多家Shein代工廠工人每天工作長達12至14小時，部分人連續工作超過 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -238,7 +238,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "8b917d9b4e267910",
+      "id": "1a0328f734320b18",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -274,6 +274,37 @@
       "ai": {
         "priority": "B",
         "summary": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "房迷 From Me Daily 09/11/2026 - 我因為白天常在外面跑，所以電腦前的文書類，都是晚上工作 - 有點工作狂，幾乎都沒什麼在休息 - 不過昨天我兒子主動說要去健身房，就趕緊放下工作，當個personal trainer - 畢竟架槓這些還是比較重，本來我讓他用啞鈴Goblet Squat - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PQVdFLWx3aVpUZkNyS29CU2dRdlczMVMwbjRaZzlpVk9FelRxbnZ0TGVJTEp5SHo1aDVNWVRNaE0tOTJnV3kxeVlxajNvNy16Y190dTZXdzI1S2dJNldsYjhaZzc?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 23:54:37 GMT",
+      "description": "房迷 From Me Daily 09/11/2026 - 我因為白天常在外面跑，所以電腦前的文書類，都是晚上工作 - 有點工作狂，幾乎都沒什麼在休息 - 不過昨天我兒子主動說要去健身房，就趕緊放下工作，當個personal trainer - 畢竟架槓這些還是比較重，本來我讓他用啞鈴Goblet Squat &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "1b9c51f526797128",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "房迷 From Me Daily 09/11/2026 - 我因為白天常在外面跑，所以電腦前的文書類，都是晚上…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -398,37 +429,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "5 倍不是速度炫耀，是工廠面積與單車工時被重寫。 馬斯克稱 Cybercab 產線重做後可比傳統汽車製造快 5 倍以上；Robotaxi 補充的是 unboxed：模組並行組裝，車架最後一步合攏——自動化變短、產線變小。 $TSLA 吃的是製造密度與單位資本開支；自動化賣鏟才是 $A - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUGlOeFlrQ1ptVW5ZYkJWcElfdzNUSEpqYTAya0JmcXJqMGtQMlFWTjR3Vmh2QjNFQzlZMFV4R0lodDkzT1ppSkRjeUJ0MjlyZnlwT2ZKUVNVUXo0eC02Nw?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 01:29:52 GMT",
-      "description": "5 倍不是速度炫耀，是工廠面積與單車工時被重寫。 馬斯克稱 Cybercab 產線重做後可比傳統汽車製造快 5 倍以上；Robotaxi 補充的是 unboxed：模組並行組裝，車架最後一步合攏——自動化變短、產線變小。 $TSLA 吃的是製造密度與單位資本開支；自動化賣鏟才是 $A &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e6fdeef5e2d3cd0f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "5 倍不是速度炫耀，是工廠面積與單車工時被重寫。 馬斯克稱 Cybercab 產線重做後可比傳統汽車製造快 5…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
