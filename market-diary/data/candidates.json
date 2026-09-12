@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-12T04:39:34.700Z",
+  "generatedAt": "2026-09-12T09:19:04.236Z",
   "windowDays": 7,
   "summary": {
-    "total": 48,
+    "total": 49,
     "bySignal": {
       "事实": 3,
       "媒体": 0,
-      "人物": 4,
+      "人物": 5,
       "资金": 0,
       "热点": 41
     },
     "byTrust": {
       "A": 3,
-      "B": 4,
+      "B": 5,
       "C": 41
     },
     "s": 0,
-    "a": 7,
+    "a": 8,
     "b": 41
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
@@ -62,26 +62,6 @@
       "rankReason": "一级/官方信源；高影响事件词"
     },
     {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5QTJMdFA3bGkyTFVVTENoNUNvT2RYd0ZyMnlnT1pLNFY3bEpqekd5X1pXRUNlSmlBa3gzX3ZrZjFENmVLTktyeGVRZUZGRlItREgyV3BuXzBmYkhaSjR2SXE1VFV1YUd5enh6MnVrVXllTFJiUlc4YndBT0U?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 05:53:02 GMT",
-      "description": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 &nbsp;&nbsp; tmgm.com",
-      "source": "tmgm.com",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
-      "priority": "A",
-      "id": "049e4cc9481b4903",
-      "rankReason": "高影响事件词；关键人物"
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -105,6 +85,26 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
+      "title": "Jensen Huang Maps Nvidia's Next Two Growth Engines - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXFyUjJxRTl0T3NXZldpbURSa3d6ZU45cDJDTXoxbDRHXzVGYkJKRHE5b21MQ2RLT0g2TnVvU3hXZ3NWdFpNdW52b3hsSGJMTS10R1g5R3gxVVJsNWxGdVVmMndRNWtkQm56aXcwak9lVnYwVlozRjhXaklCRUhOeC1zaFliX0hya0NBYmprUTlGbThPc0hzWEtn?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 19:41:21 GMT",
+      "description": "Jensen Huang Maps Nvidia's Next Two Growth Engines &nbsp;&nbsp; Yahoo Finance",
+      "source": "Yahoo Finance",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "6ef292f7fcfc8d18",
+      "rankReason": "高影响事件词；关键人物"
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
       "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
       "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
@@ -119,6 +119,26 @@
       "score": 66,
       "priority": "A",
       "id": "7d686edc921bf3b4",
+      "rankReason": "高影响事件词；关键人物"
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5QTJMdFA3bGkyTFVVTENoNUNvT2RYd0ZyMnlnT1pLNFY3bEpqekd5X1pXRUNlSmlBa3gzX3ZrZjFENmVLTktyeGVRZUZGRlItREgyV3BuXzBmYkhaSjR2SXE1VFV1YUd5enh6MnVrVXllTFJiUlc4YndBT0U?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 05:53:02 GMT",
+      "description": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 &nbsp;&nbsp; tmgm.com",
+      "source": "tmgm.com",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "049e4cc9481b4903",
       "rankReason": "高影响事件词；关键人物"
     },
     {
@@ -286,7 +306,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WaDBPbzVBRFpoaUdBZS16eDdQUHI2ZHNsYmNOdTdwV2FZWmstbklKZ3QtWncxWExDaDlvQzNhUnlqdUJraG56a3VXSXMtdVFuR1FVbQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfYjAzNERGR2p6MXN4NWJ0STJuTXQwMUJkdDNIZXIzUjN2UWNGdWctUVpObnlVbmFRQ2JuSEs3M3g2QjByV29kREI1Yk1LWnF4RFBkQ1hWNTRzTG14LXFYd2R5QkRwcTQ?oc=5",
       "pubDate": "Wed, 09 Sep 2026 09:50:53 GMT",
       "description": "$TSLA $GS Neutral，目標價定為 $360 Cybercab 發表與無人計程車營運現況 特斯拉於 2026 年 9 月 3 日在奧斯丁舉辦 Cybercab 媒體發表會，旨在展示其自動駕駛（AV）技術從研發邁向商業化運營的轉折點。 管理層強調，特斯拉已達成 100 萬英里的「無監督」（Unsup &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -298,7 +318,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "74dd94f62d2fc6c2",
+      "id": "c3781e99007b2766",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -325,10 +345,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） (@AIInvestHK) on X - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wZGdiSXRaRWZpLXQtdW9INnVOaldVVGJ3c01maGd3MWtnbGVRS3RYZlktNDRzcDFCV09sSEItOVNmSDFfTjlqUjJCeDl6b0Y3V3RmTGN3?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 05:03:52 GMT",
-      "description": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） (@AIInvestHK) on X &nbsp;&nbsp; x.com",
+      "title": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zQzVNU0ZTeElOczMxbXJEOHBrYzZfMVpFR0lnQ2toYUZvSWtqWmNrOGJQV1VxdndKNGdqZUhCNnlNQzhkZ0hUbS1sakZDTENaRGFuVzNxRTFHLUZaZ184b3hQNmhxOXc?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 10:01:52 GMT",
+      "description": "$NVDA $JPM Overweight ，從 280 美元升至320 美元 $NVDA F2Q27 業績表現再度震撼市場，全面超出預期。這主要受惠於數據中心業務的強勁推動力，特別是主權 AI、AI 原生雲端以及企業端需求的全面加速。 總營收達 962.21 億美元，季增 18%，年增 106%，顯著 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -338,7 +358,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "5e9b8f4e65775654",
+      "id": "61016c2ddcee7fc6",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -359,26 +379,6 @@
       "score": 47,
       "priority": "B",
       "id": "9b74fdfc4713bd86",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5TWnlTNnUtWUlhbjZjdFF2Q3N2bkl6M2l5WWZpdHdfbmFobzNJUWdyUi1jSC1xbl8tUVV4bmR1UUhGVENOSzNHR3BlZkhvMXBHZ0RTUWRmVUpWSi1Wb0E?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 06:30:03 GMT",
-      "description": "⚡️ 交易 TSLA，流動性也要看！ Bitget TSLA 股票合約在 5 bps 深度範圍達第二名的 4.3 倍，現貨流動性同樣領先！📊 從現貨到合約，關注行情，也別忽略交易深度。數據比較看圖👇 📊買好幣、買股票🔥就上 #Bitget #BitgetOnchain✅ &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "159bc8ef3355ecff",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -459,6 +459,26 @@
       "score": 44,
       "priority": "B",
       "id": "0e57ff243cfd3633",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "TSLA AUAN (@satomiyaz) - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9ndDU5SHZBUS1QSHYxVFJCNzhOd0h1MGVmLUE3OU1kTXllbGQ2NXk2MXBxRW1KQkRHNG1pX21YWFM?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 01:43:04 GMT",
+      "description": "TSLA AUAN (@satomiyaz) &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "58c088ff06648d23",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -599,6 +619,26 @@
       "score": 44,
       "priority": "B",
       "id": "4c24d0b589329611",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） (@AIInvestHK) on X - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wZGdiSXRaRWZpLXQtdW9INnVOaldVVGJ3c01maGd3MWtnbGVRS3RYZlktNDRzcDFCV09sSEItOVNmSDFfTjlqUjJCeDl6b0Y3V3RmTGN3?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 05:03:52 GMT",
+      "description": "GPU不是限速開機的門：大功率變壓器把AI CapEx鎖進三到五年| AI Tadpole （AI 小蝌蚪） (@AIInvestHK) on X &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "5e9b8f4e65775654",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -925,26 +965,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Hunan Times (@HunanTimes) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qZzZXeG1lelMtUFc1Rm1WQmpNejBxLVJRaUtIdEh5eVlkQ3d6UU9ta096TzAwZ2pLZ202MXR5d0pPUmU1ZjBTaERING5NOHc1aVJR?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 01:32:10 GMT",
-      "description": "Hunan Times (@HunanTimes) &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "a4913fa902645019",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Arc 主網上線倒數 9 天～一起來看 40 個ARC NFT項目的盤點吧~ - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIcmhWZ1ZtdU9TSFJwQk5jWlhVeFlnc3JnZmRQb1RtZHZNMFZnUUZIOXRBZHhRNVk3TXdxaTNaM0lYaG9jVDR2bmpoajdPUmFQYjJBdXRR?oc=5",
       "pubDate": "Mon, 07 Sep 2026 22:54:17 GMT",
@@ -982,5 +1002,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-12T04:39:35.299Z"
+  "rankedAt": "2026-09-12T09:19:04.583Z"
 }
