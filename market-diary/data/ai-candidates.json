@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T20:47:46.404Z",
+  "generatedAt": "2026-09-13T23:08:19.432Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -101,37 +101,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
-      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "7d686edc921bf3b4",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56R28zbFZDTDdYbGhGdTBNTTlPOUdzNjNUWEtNR2NNUURBNEJqcXR3OGljT1hvV3hkTHlfNnJieEtqSUdDdVotSHhwTmFydFRRYTlnZF9CeDgyNXdxQmozYVhua2NjYTJuZzVEZk1DQjcwcFhOb0hJ?oc=5",
       "pubDate": "Fri, 11 Sep 2026 07:05:48 GMT",
@@ -163,11 +132,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - 富途牛牛",
+      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - news.futunn.com",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTU5ablRkVk03LUJ5ZnFoX3RPMzg1dU1MaDRVd194MDVFUTRURHAxMWswVFlNcEpaM1c5RE5xQnA3Zk9DOEhaekxwNzIydWttSHZTZENtUGFZTU9HZ2JPNlpRano2NWpEU3hOUl9TZXkxS1F4VURhTjhMbXB2T3lHX0JJNHNUVTZXdURraHV4ZGNGcDh1RVA5Z2NzWUNiYmlF?oc=5",
       "pubDate": "Thu, 10 Sep 2026 23:33:35 GMT",
-      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; news.futunn.com",
+      "source": "news.futunn.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -176,42 +145,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "fb92b5799982036d",
+      "id": "7fb790c2d91c1191",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "Is a new AI trend emerging? Jensen Huang: Cybersecurity…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnYtOGM2TW1BQ1dGa0RyZ3pJUS1YcThuUm9qcUJvTUIwTnk1NmFKS3I0bUpwSEZ0QmdqcmYxZXRiNHFKZk15XzhMRUtLSktRN0ExcllSaTIzSmY3V0hURjN4bGl5UGNDUEdRS3h6WlYzakZVZDNqTXE2cUFIQ3FWaEdac21iOUwtQTY0Z0oxcTdLRzVlV3FHWld1eGQ?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 22:12:02 GMT",
-      "description": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "d6c65da8a8d3fd9e",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Jensen Huang bets on cybersecurity as the next use case…",
+        "summary": "news.futunn.com出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -243,6 +181,68 @@
       "ai": {
         "priority": "A",
         "summary": "Yahoo Finance出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - news.futunn.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
+      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; news.futunn.com",
+      "source": "news.futunn.com",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "64489dd2d1e32130",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "news.futunn.com出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. - news.futunn.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnYtOGM2TW1BQ1dGa0RyZ3pJUS1YcThuUm9qcUJvTUIwTnk1NmFKS3I0bUpwSEZ0QmdqcmYxZXRiNHFKZk15XzhMRUtLSktRN0ExcllSaTIzSmY3V0hURjN4bGl5UGNDUEdRS3h6WlYzakZVZDNqTXE2cUFIQ3FWaEdac21iOUwtQTY0Z0oxcTdLRzVlV3FHWld1eGQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 22:12:02 GMT",
+      "description": "Jensen Huang bets on cybersecurity as the next use case for AI, frankly stating that \"creating problems\" is equivalent to creating demand. &nbsp;&nbsp; news.futunn.com",
+      "source": "news.futunn.com",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "e7e2716852c71989",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "news.futunn.com出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -286,11 +286,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia把未來幾年供應承諾抬到兩千多億美元量級，核心不是再買一輪GPU，是把記憶體先鎖死。 黃仁勳自己也講過記憶體報價已經極端，而且還要往上。Rubin Ultra那邊又傳改成8層HBM，不是因為算力不夠，是記憶體太貴、堆疊策略在改。 缺貨有沒有破，比模型要不 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tS1NxWXBLN05zM0IzV2h5UXdXcDNsWVUzeXBWbTRTT2V3Q09DRDVrYXRNcnJiaUJHSnZleHNFUnNPSWFFUzVjclI1QTZqekd4WHlsYw?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 02:19:56 GMT",
-      "description": "Nvidia把未來幾年供應承諾抬到兩千多億美元量級，核心不是再買一輪GPU，是把記憶體先鎖死。 黃仁勳自己也講過記憶體報價已經極端，而且還要往上。Rubin Ultra那邊又傳改成8層HBM，不是因為算力不夠，是記憶體太貴、堆疊策略在改。 缺貨有沒有破，比模型要不 &nbsp;&nbsp; x.com",
+      "type": "宏观",
+      "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMEJySGZOcEZKRFlGQV9TcG1WN1YxMzFzT0w5Q0E2OWIzN0JtQ1IzRGFwbjd6d01iajBrcGs0NjRpZFBMdHN5cjEzNW9xd2cxdUl2anJPNGlPV0JhaVdiMg?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 21:30:22 GMT",
+      "description": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -300,11 +300,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "5fc13a6e1dc7c9a0",
+      "id": "5229f0c102d83738",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "Nvidia把未來幾年供應承諾抬到兩千多億美元量級，核心不是再買一輪GPU，是把記憶體先鎖死。 黃仁勳自己也講…",
+        "summary": "x.com出现新的宏观政策或数据更新",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到2028的東西，不會因為一篇長文隔夜蒸發。 電力、HBM、機櫃還是卡住，大廠資本開支也早鎖在預算裡。 短期是情緒，中期還是看誰交得出矽和電。 $NVDA - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfbWhJR0lnZVJiQk5ycnRXRWM0NWJMSF83b2V3Q3Y1R0lIZ0FOTzdNem13elhjbU1QNGFrV3Z3ZzcxT2FoVmdLVVZSMDQ3VlBLeklObQ?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 16:45:36 GMT",
+      "description": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到2028的東西，不會因為一篇長文隔夜蒸發。 電力、HBM、機櫃還是卡住，大廠資本開支也早鎖在預算裡。 短期是情緒，中期還是看誰交得出矽和電。 $NVDA &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a626bdd3ed225552",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到202…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -460,37 +491,6 @@
       "ai": {
         "priority": "B",
         "summary": "⚡⚡⚡最新消息：摩根士丹利上修特斯拉牛市目標到840美元，關鍵是Semi軟體收入 摩根士丹利研究完特斯拉Sem…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBROUs0MmprMFVfNEtyczE3dHpySnJxc2xhcFJoVmpJbkppX3JQR2djekwzTVZWYnY2UTBucXNYRm9XZE9wMTlwZmJ2bnlZc3NVbDFxRw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 20:20:50 GMT",
-      "description": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "4f244a57d5fec187",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
