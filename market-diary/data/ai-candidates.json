@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T00:01:03.907Z",
+  "generatedAt": "2026-09-13T04:43:59.431Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -287,6 +287,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Nvidia把未來幾年供應承諾抬到兩千多億美元量級，核心不是再買一輪GPU，是把記憶體先鎖死。 黃仁勳自己也講過記憶體報價已經極端，而且還要往上。Rubin Ultra那邊又傳改成8層HBM，不是因為算力不夠，是記憶體太貴、堆疊策略在改。 缺貨有沒有破，比模型要不 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tS1NxWXBLN05zM0IzV2h5UXdXcDNsWVUzeXBWbTRTT2V3Q09DRDVrYXRNcnJiaUJHSnZleHNFUnNPSWFFUzVjclI1QTZqekd4WHlsYw?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 02:19:56 GMT",
+      "description": "Nvidia把未來幾年供應承諾抬到兩千多億美元量級，核心不是再買一輪GPU，是把記憶體先鎖死。 黃仁勳自己也講過記憶體報價已經極端，而且還要往上。Rubin Ultra那邊又傳改成8層HBM，不是因為算力不夠，是記憶體太貴、堆疊策略在改。 缺貨有沒有破，比模型要不 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "5fc13a6e1dc7c9a0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Nvidia把未來幾年供應承諾抬到兩千多億美元量級，核心不是再買一輪GPU，是把記憶體先鎖死。 黃仁勳自己也講…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85eV9SdDhCQnVGaUhnbkNRS0IwUURsWGlGREgxNVZOVTlyZWktT051alhFYjg2VmhlR1JzYWRGaE1IaDFCZWtnNWx3WHEzbmg3TjVUNg?oc=5",
       "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
@@ -504,37 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UYmYxS2EtWGgxcEZVbDVDeUpoVzA0RXdlTGJkWG1kVlUwMGQzRzNtbWlkUlFXbFNjbF8tNmZQdXNGNlozRkJGQWlwNUpCR254NGVLM1QzSGxEZUpycy1Nb2U3ZXFsWTA?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 01:49:41 GMT",
-      "description": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最快爬坡 3. 供應瓶頸延至FY28末 營運成果 1. 2Q27營收達962.21億美元、YoY成長逾倍，成長連續第四季加速，營業利益與EPS均創高。 2. 資料中心營收達890.23億美元、QoQ增長18%。Hy &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f134f0e51190923b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Call Memo 20260827 重點摘要 1. FY28營收估增七成 2. Rubin啟動最…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07) - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00bjZUMk5JeTZDZEw4QnVEd21NQ21NM2VfWTB6b08wSC1NWGF0LW9DWGxUcGpTcGlYSzRXOTJZY1pZVzlnUlk2S3pnaE9veHJ0aDI5XzNB?oc=5",
       "pubDate": "Mon, 07 Sep 2026 12:23:13 GMT",
@@ -584,37 +584,6 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUVFFa0NvMWM2Y3VvYWptV1dydWxPWU9VUnp2aXlzZ1A5NEZEd2htcnFIMlFxTUlnYU56MUV3b1pVRTRZNVY2R1FDMGMwZjRoblpoNmFqMWdSYVVWbjE1Yg?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 03:59:10 GMT",
-      "description": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀，為公眾提供安全、輕鬆、經濟的共享出行體驗。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "a45c4a2e8d2350a9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "特斯拉 $Tsla 賽博無人駕駛電動車的訓練數據已超過1.6萬名人類駕駛員一生的駕駛經驗總和。現已在得州奧斯汀…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Ben Thompson $NVDA 其實已經在「降價」了，只是降價方式不是直接砍毛利，而是透過 backstop 和Neocloud 股權的形式呈現。 大家討論「循環融資」（circular financing），常拿過去的 Lucent 例子來比。 $NVDA 在很 多 Neocloud 交易中提供 25% 的背書，並取得這些 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RdVRtQ042WmJMWTczMF9WSmY4Uk9UUjJaSmxNb1lnb3pfbnJWQWI0cUZsV3V3cXJMNHNRS2JuY2FhQnMxSnd4bnFGQXNtR0tiNFpaRnFxTjZVZ0RPdGRnNWRmdm1WaTg?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 08:12:55 GMT",
+      "description": "Ben Thompson $NVDA 其實已經在「降價」了，只是降價方式不是直接砍毛利，而是透過 backstop 和Neocloud 股權的形式呈現。 大家討論「循環融資」（circular financing），常拿過去的 Lucent 例子來比。 $NVDA 在很 多 Neocloud 交易中提供 25% 的背書，並取得這些 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "46fa21ccd36a58a6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Ben Thompson $NVDA 其實已經在「降價」了，只是降價方式不是直接砍毛利，而是透過 backst…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
