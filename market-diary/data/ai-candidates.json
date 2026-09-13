@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T18:11:25.833Z",
+  "generatedAt": "2026-09-13T20:47:46.404Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -88,37 +88,6 @@
       "ai": {
         "priority": "A",
         "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Jensen Huang Maps Nvidia's Next Two Growth Engines - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXFyUjJxRTl0T3NXZldpbURSa3d6ZU45cDJDTXoxbDRHXzVGYkJKRHE5b21MQ2RLT0g2TnVvU3hXZ3NWdFpNdW52b3hsSGJMTS10R1g5R3gxVVJsNWxGdVVmMndRNWtkQm56aXcwak9lVnYwVlozRjhXaklCRUhOeC1zaFliX0hya0NBYmprUTlGbThPc0hzWEtn?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 19:41:21 GMT",
-      "description": "Jensen Huang Maps Nvidia's Next Two Growth Engines &nbsp;&nbsp; Yahoo Finance",
-      "source": "Yahoo Finance",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "6ef292f7fcfc8d18",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Yahoo Finance出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -254,6 +223,37 @@
     },
     {
       "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jensen Huang Maps Nvidia's Next Two Growth Engines - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXFyUjJxRTl0T3NXZldpbURSa3d6ZU45cDJDTXoxbDRHXzVGYkJKRHE5b21MQ2RLT0g2TnVvU3hXZ3NWdFpNdW52b3hsSGJMTS10R1g5R3gxVVJsNWxGdVVmMndRNWtkQm56aXcwak9lVnYwVlozRjhXaklCRUhOeC1zaFliX0hya0NBYmprUTlGbThPc0hzWEtn?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 19:41:21 GMT",
+      "description": "Jensen Huang Maps Nvidia's Next Two Growth Engines &nbsp;&nbsp; Yahoo Finance",
+      "source": "Yahoo Finance",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "6ef292f7fcfc8d18",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Yahoo Finance出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
       "signal": "热点",
       "type": "IPO",
       "title": "Shein血汗供應鏈遭揭爆！代工工人日做14小時、連上20天無休假 中國快時尚龍頭Shein才剛上市，隨即遭海外勞工觀察組織踢爆供應鏈存在嚴重勞權問題。「中國勞工觀察」即將公布調查指出，廣東多家Shein代工廠工人每天工作長達12至14小時，部分人連續工作超過 - x.com",
@@ -278,37 +278,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBROUs0MmprMFVfNEtyczE3dHpySnJxc2xhcFJoVmpJbkppX3JQR2djekwzTVZWYnY2UTBucXNYRm9XZE9wMTlwZmJ2bnlZc3NVbDFxRw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 20:20:50 GMT",
-      "description": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "4f244a57d5fec187",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -491,6 +460,37 @@
       "ai": {
         "priority": "B",
         "summary": "⚡⚡⚡最新消息：摩根士丹利上修特斯拉牛市目標到840美元，關鍵是Semi軟體收入 摩根士丹利研究完特斯拉Sem…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBROUs0MmprMFVfNEtyczE3dHpySnJxc2xhcFJoVmpJbkppX3JQR2djekwzTVZWYnY2UTBucXNYRm9XZE9wMTlwZmJ2bnlZc3NVbDFxRw?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 20:20:50 GMT",
+      "description": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "4f244a57d5fec187",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
