@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T14:24:03.462Z",
+  "generatedAt": "2026-09-13T18:11:24.882Z",
   "windowDays": 7,
   "summary": {
     "total": 50,
@@ -586,7 +586,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "5 倍不是速度炫耀，是工廠面積與單車工時被重寫。 馬斯克稱 Cybercab 產線重做後可比傳統汽車製造快 5 倍以上；Robotaxi 補充的是 unboxed：模組並行組裝，車架最後一步合攏——自動化變短、產線變小。 $TSLA 吃的是製造密度與單位資本開支；自動化賣鏟才是 $A - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wMVRKaUlNaHpicV85LUNqcUJRcjJxYksyYUFRcFdkZ0tQaVdFaUJwM1h6RXBodnFiR3VIeXpzaHh2bHpUZ1FHT014OThIT09WMTNnWA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUGlOeFlrQ1ptVW5ZYkJWcElfdzNUSEpqYTAya0JmcXJqMGtQMlFWTjR3Vmh2QjNFQzlZMFV4R0lodDkzT1ppSkRjeUJ0MjlyZnlwT2ZKUVNVUXo0eC02Nw?oc=5",
       "pubDate": "Wed, 09 Sep 2026 01:29:52 GMT",
       "description": "5 倍不是速度炫耀，是工廠面積與單車工時被重寫。 馬斯克稱 Cybercab 產線重做後可比傳統汽車製造快 5 倍以上；Robotaxi 補充的是 unboxed：模組並行組裝，車架最後一步合攏——自動化變短、產線變小。 $TSLA 吃的是製造密度與單位資本開支；自動化賣鏟才是 $A &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -598,7 +598,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "6e7fb5caa16a083b",
+      "id": "e6fdeef5e2d3cd0f",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -765,26 +765,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Cybercab对我的冲击力 如果第一次开M3是十分 这次乘坐Cybercab就是一百分 相信我 你们会有同样的体会 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42NlFqNmJZcHhtNWxtWGxFd2dKTFFQb2ludHNYdzNYYml6bUxoa0o0YkFmNno2cUJYclhBWjJlaHM4bUx5SjQ1TXZ1dmxORmhtM3dMMFdqa1VmV3g4?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 21:58:32 GMT",
-      "description": "Cybercab对我的冲击力 如果第一次开M3是十分 这次乘坐Cybercab就是一百分 相信我 你们会有同样的体会 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
-      "priority": "B",
-      "id": "e9b45af3449d2bb5",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "歐盟擬立法進行重大改革 針對來自中國等地的非法電商產品 https://t.co/LanP8S0UyU - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmeGZVczk2blBVMVVVNnVlTGpHQjRZSVhpelJzMS1FbWZyeWZ5QjJybFdJcmpZLWs4MUhrSnVqdDAzcEc4OW9HWmVwZVJfR04wSHdldDFsVjhEV01DbHAzMw?oc=5",
       "pubDate": "Fri, 11 Sep 2026 14:03:49 GMT",
@@ -859,6 +839,46 @@
       "score": 17,
       "priority": "B",
       "id": "366e6fdc0abc53d2",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$INTC in addition to below vol diff, Call volume now has exceeded puts (P/C volume ~0.73; OI near balanced to slightly call-leaning). Call premiums have outpaced puts in recent data, with unusual activity including elevated call volumes at higher strikes. Net c - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HNnVFQUpxV0ZtLWVXQ1VTWnR4em5xLWxpYTY2VUpQa1RKQlFEc0tSZXJFdGhnb1V4T2kzTGQ1VDNyTXNyMzdGdUdULU5FSl9kamYtcmlmdVo3akdUd2liNA?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 13:37:37 GMT",
+      "description": "$INTC in addition to below vol diff, Call volume now has exceeded puts (P/C volume ~0.73; OI near balanced to slightly call-leaning). Call premiums have outpaced puts in recent data, with unusual activity including elevated call volumes at higher strikes. Net c &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "e3f9a33e8a961d60",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$ORCL 這季雲基建不是還在講故事，是已經多交了 850MW。 Q1 總營收 $193 億、+30%；雲基建 $74 億、+121%；RPO 再往上推到 $6640 億（年增約 $2090 億） 營運現金流創高，但資本開支仍高，自由現金流還是負的 市場前一天已在等數字，真正定價的是： 已簽約瓦 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xV3M4NXFJMEp6XzNGbHNqZnN5ME5adWd5ZEEtSnV1bWItaUw0MVlIeUpUYUo5SU0xRTNtY3Q0RnFMSjh5azhnSC1LY1ZJUXpMVWdGNw?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 02:02:10 GMT",
+      "description": "$ORCL 這季雲基建不是還在講故事，是已經多交了 850MW。 Q1 總營收 $193 億、+30%；雲基建 $74 億、+121%；RPO 再往上推到 $6640 億（年增約 $2090 億） 營運現金流創高，但資本開支仍高，自由現金流還是負的 市場前一天已在等數字，真正定價的是： 已簽約瓦 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "b1dab538e8a804bf",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -945,26 +965,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "129億買一座火車站：輝達、Hugging Face，與會自己開電腦的GPT-6 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53alBSUEpMVi1ld2FfQnRYaVhHcEVER1NVeUZJTGE3ZEpTV05qUFpHOVNrcHdDM1FiMVVYTkQ2WmdoZkUtdjB0VVBkcFRsanpnajBrVU9R?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 15:22:38 GMT",
-      "description": "129億買一座火車站：輝達、Hugging Face，與會自己開電腦的GPT-6 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "cdf7efcc6ed80f44",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$INTC Intel is ramping up Fab 52 hiring in Arizona, alongside support in Chandler. - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yZFdTNGtWX0x2QXNXT0FINl9WS0lMcVdSRTd0RjI1R2RwOTJrZG8tQkZJOFlLUlpmclZQM05KZmVLcm1YWlhieGpHZ05pRW9TT1FlMA?oc=5",
       "pubDate": "Thu, 10 Sep 2026 13:21:24 GMT",
@@ -1022,5 +1022,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-13T14:24:04.700Z"
+  "rankedAt": "2026-09-13T18:11:25.303Z"
 }
