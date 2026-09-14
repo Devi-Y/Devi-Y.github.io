@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-14T06:15:43.821Z",
+  "generatedAt": "2026-09-14T12:50:31.933Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "Announcement - In relation to the matter of Wisdom Wealth Resources Investment Holding Group Limited (incorporated in Bermuda with limited liability) (Stock Code: 7) Cancellation of listing",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260907news?sc_lang=en",
-      "pubDate": "Mon, 07 Sep 2026 17:19:00 +0800",
-      "description": "Announcement - In relation to the matter of Wisdom Wealth Resources Investment Holding Group Limited (incorporated in Bermuda with limited liability) (Stock Code: 7) Cancellation of listing",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Sam Altman支持控制前沿AI發展節奏，OpenAI將引入獨立安全評估 - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaFExY19hTEhVQTk3bDhfX0JoY0JVc3E2eldiZXB3bTRUbVZJNWVNcmVwUjhhRGItcmE0anpnZ1VSa01jRmlYWFVuR0w5RDY0T2doWU9PdDJiSnN2X1IxRTZFMXNHMnB1SmJaSmlNbjhyZ0lmZEF4R3VhUWVxVmx6ZjBTeU0tSVBfOFNDT2dqQnpRM2E1VjRROU1PY05HOFBTNHN6U2VyTmF1MTBIbUJ1TTJib2ZPcTFRV05rMVhoOGNXX3V6UHZuODVNZWRSc0syM3hmejdBRm1aenpqZEI3Qkcyc3ZjbW5mdW9nMlh3?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 11:32:28 GMT",
+      "description": "Sam Altman支持控制前沿AI發展節奏，OpenAI將引入獨立安全評估 &nbsp;&nbsp; TradingKey",
+      "source": "TradingKey",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
       "priority": "A",
-      "id": "94413c8a003edb9b",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "id": "1a6c614a6b8dcf7d",
+      "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "港交所出现新的IPO相关信息",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "summary": "Sam Altman支持控制前沿AI發展節奏，OpenAI將引入獨立安全評估 - TradingKey",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -88,37 +88,6 @@
       "ai": {
         "priority": "A",
         "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56R28zbFZDTDdYbGhGdTBNTTlPOUdzNjNUWEtNR2NNUURBNEJqcXR3OGljT1hvV3hkTHlfNnJieEtqSUdDdVotSHhwTmFydFRRYTlnZF9CeDgyNXdxQmozYVhua2NjYTJuZzVEZk1DQjcwcFhOb0hJ?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 07:05:48 GMT",
-      "description": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 &nbsp;&nbsp; tmgm.com",
-      "source": "tmgm.com",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "4f0f49a0dc7c106f",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "tmgm.com出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -194,11 +163,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTU5ablRkVk03LUJ5ZnFoX3RPMzg1dU1MaDRVd194MDVFUTRURHAxMWswVFlNcEpaM1c5RE5xQnA3Zk9DOEhaekxwNzIydWttSHZTZENtUGFZTU9HZ2JPNlpRano2NWpEU3hOUl9TZXkxS1F4VURhTjhMbXB2T3lHX0JJNHNUVTZXdURraHV4ZGNGcDh1RVA5Z2NzWUNiYmlF?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 23:33:35 GMT",
-      "description": "Is a new AI trend emerging? Jensen Huang: Cybersecurity will become the next major application scenario &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "title": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 - tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56R28zbFZDTDdYbGhGdTBNTTlPOUdzNjNUWEtNR2NNUURBNEJqcXR3OGljT1hvV3hkTHlfNnJieEtqSUdDdVotSHhwTmFydFRRYTlnZF9CeDgyNXdxQmozYVhua2NjYTJuZzVEZk1DQjcwcFhOb0hJ?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 07:05:48 GMT",
+      "description": "Elon Musk Warns of AI \"Power Shortage\": At Least 15 Gigawatts Gap in 2027 &nbsp;&nbsp; tmgm.com",
+      "source": "tmgm.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -207,11 +176,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 63,
       "priority": "B",
-      "id": "fb92b5799982036d",
+      "id": "4f0f49a0dc7c106f",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "Is a new AI trend emerging? Jensen Huang: Cybersecurity…",
+        "summary": "tmgm.com出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -249,6 +218,68 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
+      "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "94e5fa2208a39d03",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "持仓",
+      "title": "$NVDA $JPM 增持；目標價：320.00 美元 $NVDA 的融資工具旨在支持對 AI 基礎設施更強勁的未來需求 $NVDA 還詳細介紹了 $NVDA 的幾項融資工具，包括公司與特定新雲端平台達成的收入分成協議、PORTS-Pike DC園區計劃，以及與阿波羅全球管理公司、貝萊德 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Xb1ViQTJvcktBWWx1V2Y3ZmdnR0FSUzdUVE52cnZKT3RQWWt2d1FMZWY0NVk4UmtUei1CNXVnOU5JcjZ4bk1VaXRCdEJmUXI1aUJTNks5dVpjZ1NBYnVtN2lDQ3pkWk0?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 11:45:01 GMT",
+      "description": "$NVDA $JPM 增持；目標價：320.00 美元 $NVDA 的融資工具旨在支持對 AI 基礎設施更強勁的未來需求 $NVDA 還詳細介紹了 $NVDA 的幾項融資工具，包括公司與特定新雲端平台達成的收入分成協議、PORTS-Pike DC園區計劃，以及與阿波羅全球管理公司、貝萊德 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "b5e63610c8e77e65",
+      "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA $JPM 增持；目標價：320.00 美元 $NVDA 的融資工具旨在支持對 AI 基礎設施更強勁…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -349,6 +380,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "NVIDIA CEO公開背書「Cybersecurity是AI下一個大市場」，等於把安全軟體從防禦性支出重新定價為AI平台必備層。 企業在部署Copilot/Agentic AI後，攻擊面擴大，資安預算與平台整合需求上升；資金會從純AI算力輪動至能把模型用於威脅偵測、零信任與雲原生防護的 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiWHN3WWZkazJnT0FsdzZWX19icDlmdGFIdVZHb2RnWXlBVGNnZ1gyYVk2dlNLWXNPcVJEbzZVUjRTeVdiQlc2TTBNTU11OEhUbzNBdkh2djJxSGJBczNhRQ?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 22:57:30 GMT",
+      "description": "NVIDIA CEO公開背書「Cybersecurity是AI下一個大市場」，等於把安全軟體從防禦性支出重新定價為AI平台必備層。 企業在部署Copilot/Agentic AI後，攻擊面擴大，資安預算與平台整合需求上升；資金會從純AI算力輪動至能把模型用於威脅偵測、零信任與雲原生防護的 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "6dc91665a2d79cdd",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NVIDIA CEO公開背書「Cybersecurity是AI下一個大市場」，等於把安全軟體從防禦性支出重新定…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到2028的東西，不會因為一篇長文隔夜蒸發。 電力、HBM、機櫃還是卡住，大廠資本開支也早鎖在預算裡。 短期是情緒，中期還是看誰交得出矽和電。 $NVDA - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfbWhJR0lnZVJiQk5ycnRXRWM0NWJMSF83b2V3Q3Y1R0lIZ0FOTzdNem13elhjbU1QNGFrV3Z3ZzcxT2FoVmdLVVZSMDQ3VlBLeklObQ?oc=5",
       "pubDate": "Sun, 13 Sep 2026 16:45:36 GMT",
@@ -367,6 +429,68 @@
       "ai": {
         "priority": "B",
         "summary": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到202…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Takeaways from the Sept Wrap-Up report - Cautious Market, Intact AI •July was tough; mild recovery through Aug/1H-Sept still felt challenging. Positioning remains cautious despite robust AI-infrastructure demand. Sentiment is more on worst-case capex & mo - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjZ0puczN0ZnRDVXk4Snk1aFNCT1MtY1lXSFhrSmVQQzlEdzVyaE9WSXNBVk90QkNlLUxKd05aVzMxdXhfdnpBM0dGTkxaSzhnenhkQTllbEFSREFzT3Y4?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 06:09:23 GMT",
+      "description": "Takeaways from the Sept Wrap-Up report - Cautious Market, Intact AI •July was tough; mild recovery through Aug/1H-Sept still felt challenging. Positioning remains cautious despite robust AI-infrastructure demand. Sentiment is more on worst-case capex & mo &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2d70381fa039462f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NcDZDWE1yaEtnX015VmtFN05xaEhGQV9YeldkcW9QRDRQaVYxV3A0M05nZmdISFpfNUJzcEVQZGpNT3U0eERLWnRHSjVOWGNKWmN1X0FLXzY3OF9FTWc?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 23:28:47 GMT",
+      "description": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "73e41a67f3ea37a5",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -411,10 +535,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NcDZDWE1yaEtnX015VmtFN05xaEhGQV9YeldkcW9QRDRQaVYxV3A0M05nZmdISFpfNUJzcEVQZGpNT3U0eERLWnRHSjVOWGNKWmN1X0FLXzY3OF9FTWc?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 23:28:47 GMT",
-      "description": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b &nbsp;&nbsp; x.com",
+      "title": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰。儘管 AI 基礎設施需求強勁，市場部位仍偏謹慎。情緒更多聚焦在最壞情況的資本支出與變現擔憂。 - 回調最糟階段似乎已過：部位已清理、九月升息在預期之 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYUk1rYlZyekF5eUpwSGd4TUl6ZXJwM0Y0dnd5bWxhekt6WEYwZUxQZDVGdENYdGMzM3FSOXdCMjRjMV9ILXJ2UERsYkxMREpXd2swNUpGTXJ5dWlnaXc?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 08:51:40 GMT",
+      "description": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰。儘管 AI 基礎設施需求強勁，市場部位仍偏謹慎。情緒更多聚焦在最壞情況的資本支出與變現擔憂。 - 回調最糟階段似乎已過：部位已清理、九月升息在預期之 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -424,11 +548,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "73e41a67f3ea37a5",
+      "id": "5404f42d313f51c1",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
+        "summary": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -491,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "OpenAI與Anthropic等前沿AI實驗室不會有意願大幅放緩開發，主要原因是競爭壓力及希望透過監管來阻礙…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "輝達自己拉的 Open Secure AI Alliance。7 月底成立，後來擴到上百家。 資安側能看到 CrowdStrike $CRWD 、Palo Alto $PANW 、Zscaler $ZS 、Fortinet $FTNT 、Check Point $CHKP 、Cisco $CSCO 、Cloudflare $NET 、Okta $OKTA 、SentinelOne $S 、Wiz、Rubri - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ka2VyY2hJb0o1NEtuZ083alloTkNQcERsNmhVTmRaaEU2NXNkOW10TG5pc2ROZHhuUzVRdGZaRTlnUUdJbHJqLVBEZU5JX1k0TjB2aw?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 23:04:45 GMT",
+      "description": "輝達自己拉的 Open Secure AI Alliance。7 月底成立，後來擴到上百家。 資安側能看到 CrowdStrike $CRWD 、Palo Alto $PANW 、Zscaler $ZS 、Fortinet $FTNT 、Check Point $CHKP 、Cisco $CSCO 、Cloudflare $NET 、Okta $OKTA 、SentinelOne $S 、Wiz、Rubri &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "3a0088a9e7ce8144",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "輝達自己拉的 Open Secure AI Alliance。7 月底成立，後來擴到上百家。 資安側能看到 C…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -584,161 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "⚡⚡⚡最新消息：摩根士丹利上修特斯拉牛市目標到840美元，關鍵是Semi軟體收入 摩根士丹利研究完特斯拉Sem…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "房迷 From Me Daily 09/11/2026 - 我因為白天常在外面跑，所以電腦前的文書類，都是晚上工作 - 有點工作狂，幾乎都沒什麼在休息 - 不過昨天我兒子主動說要去健身房，就趕緊放下工作，當個personal trainer - 畢竟架槓這些還是比較重，本來我讓他用啞鈴Goblet Squat - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PQVdFLWx3aVpUZkNyS29CU2dRdlczMVMwbjRaZzlpVk9FelRxbnZ0TGVJTEp5SHo1aDVNWVRNaE0tOTJnV3kxeVlxajNvNy16Y190dTZXdzI1S2dJNldsYjhaZzc?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 23:54:37 GMT",
-      "description": "房迷 From Me Daily 09/11/2026 - 我因為白天常在外面跑，所以電腦前的文書類，都是晚上工作 - 有點工作狂，幾乎都沒什麼在休息 - 不過昨天我兒子主動說要去健身房，就趕緊放下工作，當個personal trainer - 畢竟架槓這些還是比較重，本來我讓他用啞鈴Goblet Squat &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "1b9c51f526797128",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "房迷 From Me Daily 09/11/2026 - 我因為白天常在外面跑，所以電腦前的文書類，都是晚上…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "搜尋主要股東 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tMUhvZ1ZWU0ZQMWd5UW1Ed3diOGkyUWhsckhjNUo0a1l1TXhBYU5mQUk3VTJLZzM3dmxiUXdsckZaM2VVSWhqWWc4czJDSk5jLXlMcmdTcjN0MHVLeDNaZEFWNTlRRGpQRTBpaHJpMUtPdDg?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 23:11:10 GMT",
-      "description": "搜尋主要股東 &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 45,
-      "priority": "B",
-      "id": "28e58b9b1e8629e7",
-      "rankReason": "市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "搜尋主要股東 - AAStock",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85eV9SdDhCQnVGaUhnbkNRS0IwUURsWGlGREgxNVZOVTlyZWktT051alhFYjg2VmhlR1JzYWRGaE1IaDFCZWtnNWx3WHEzbmg3TjVUNg?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
-      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "c6c4f91eec593a73",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA $GS Neutral，目標價定為 $360，係基於預估 Q5-Q8 EPS 的 150 倍倍率計算，反映了對核心 EV 業務利潤承壓與 AI 長線潛力的綜合權衡。 樂觀情境（Upside Scenario）：目標價 $500。觸發因子包括 EV 採用率激增、AI 產品（FSD, Optimus, Robotaxi）早期貢獻超 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kRVNFWmI5RDNZOFB4TEhUdlJIbnYxMi10ZU8wMHFLUnJDVWIzaEg1NnowN2pGcHpzMVNKWWk1Uy1ZMFk5RWtJMUFfOFo2QktnaUVhcmZ1dHg3T3lOSlU0eENiU0NVdHc?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 10:14:40 GMT",
-      "description": "$TSLA $GS Neutral，目標價定為 $360，係基於預估 Q5-Q8 EPS 的 150 倍倍率計算，反映了對核心 EV 業務利潤承壓與 AI 長線潛力的綜合權衡。 樂觀情境（Upside Scenario）：目標價 $500。觸發因子包括 EV 採用率激增、AI 產品（FSD, Optimus, Robotaxi）早期貢獻超 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9cd633d8a937b820",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA $GS Neutral，目標價定為 $360，係基於預估 Q5-Q8 EPS 的 150 倍倍率計…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00bjZUMk5JeTZDZEw4QnVEd21NQ21NM2VfWTB6b08wSC1NWGF0LW9DWGxUcGpTcGlYSzRXOTJZY1pZVzlnUlk2S3pnaE9veHJ0aDI5XzNB?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 12:23:13 GMT",
-      "description": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07) &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "0e57ff243cfd3633",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA 股價挑戰前高，期權數據樂觀。 (09/07)",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
