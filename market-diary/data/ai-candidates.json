@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T18:37:02.087Z",
+  "generatedAt": "2026-09-14T22:29:36.940Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -267,7 +267,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
+      "score": 53,
       "priority": "B",
       "id": "14200f35d0b23976",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
@@ -309,68 +309,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMEJySGZOcEZKRFlGQV9TcG1WN1YxMzFzT0w5Q0E2OWIzN0JtQ1IzRGFwbjd6d01iajBrcGs0NjRpZFBMdHN5cjEzNW9xd2cxdUl2anJPNGlPV0JhaVdiMg?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 21:30:22 GMT",
-      "description": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5229f0c102d83738",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Tesla has set up a subsidiary in ​Vietnam to sell and service vehicles, according to a newly ‌published business registration filing. Tesla Motors Vietnam LLC was registered in Ho Chi Minh City a few days ago. The licence covers wholesale and retail sales of c - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TQUJGcEVvTk9OVDJGSHNoWGhnVDFGMkZyTmo4VDViMFUydG9GTkl2WTI4WEtYSFhTVm1zQnV0UGVWOTVCaUhFdkVSclZvbXRNZXExZHhQaVRRS1JKT2VhTjFaTm8?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 13:30:25 GMT",
-      "description": "Tesla has set up a subsidiary in ​Vietnam to sell and service vehicles, according to a newly ‌published business registration filing. Tesla Motors Vietnam LLC was registered in Ho Chi Minh City a few days ago. The licence covers wholesale and retail sales of c &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "dee0d8ad88291a6e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -473,10 +411,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NcDZDWE1yaEtnX015VmtFN05xaEhGQV9YeldkcW9QRDRQaVYxV3A0M05nZmdISFpfNUJzcEVQZGpNT3U0eERLWnRHSjVOWGNKWmN1X0FLXzY3OF9FTWc?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 23:28:47 GMT",
-      "description": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b &nbsp;&nbsp; x.com",
+      "title": "Takeaways from the Sept Wrap-Up report - Cautious Market, Intact AI •July was tough; mild recovery through Aug/1H-Sept still felt challenging. Positioning remains cautious despite robust AI-infrastructure demand. Sentiment is more on worst-case capex & mo - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjZ0puczN0ZnRDVXk4Snk1aFNCT1MtY1lXSFhrSmVQQzlEdzVyaE9WSXNBVk90QkNlLUxKd05aVzMxdXhfdnpBM0dGTkxaSzhnenhkQTllbEFSREFzT3Y4?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 06:09:23 GMT",
+      "description": "Takeaways from the Sept Wrap-Up report - Cautious Market, Intact AI •July was tough; mild recovery through Aug/1H-Sept still felt challenging. Positioning remains cautious despite robust AI-infrastructure demand. Sentiment is more on worst-case capex & mo &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -486,7 +424,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "73e41a67f3ea37a5",
+      "id": "2d70381fa039462f",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -504,10 +442,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Google recovers its costs on TPUs in 1-year, while its overall payback period for AI servers is 2-years, media report, citing Google Cloud CEO Thomas Kurian, and adding that Google TPUs have found new customers across financial, biotech, government and - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWQzNCVjctbDM5ZXVqZzhraXQtVkZFa3hwbWxxS3VlQV80VnNWRGpwOC1ILW9tY2tTbS1SbWNSU0VDZlpDdjd3MW9Zd3Y0VU5jdXBQU0NmSFBDX1Z5QXc?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 23:29:48 GMT",
-      "description": "Google recovers its costs on TPUs in 1-year, while its overall payback period for AI servers is 2-years, media report, citing Google Cloud CEO Thomas Kurian, and adding that Google TPUs have found new customers across financial, biotech, government and &nbsp;&nbsp; x.com",
+      "title": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NcDZDWE1yaEtnX015VmtFN05xaEhGQV9YeldkcW9QRDRQaVYxV3A0M05nZmdISFpfNUJzcEVQZGpNT3U0eERLWnRHSjVOWGNKWmN1X0FLXzY3OF9FTWc?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 23:28:47 GMT",
+      "description": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm b &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -517,7 +455,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "90d85b2a1f6aeddf",
+      "id": "73e41a67f3ea37a5",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -553,37 +491,6 @@
       "ai": {
         "priority": "B",
         "summary": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyM2VFc1l3SUlGVVRBZjdMVU9vLUFQMGFnQnB5RDBSLTVHWFBCcmZrN0ZKZXdzWmJueUZlZVpNVDQyLTFoNFFNcUtiVklyUk5nS2JRRng5QWVDR2xfTFI5S3psVWgwelk?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 20:57:38 GMT",
-      "description": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "e2560818f5f7e168",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -650,6 +557,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMEJySGZOcEZKRFlGQV9TcG1WN1YxMzFzT0w5Q0E2OWIzN0JtQ1IzRGFwbjd6d01iajBrcGs0NjRpZFBMdHN5cjEzNW9xd2cxdUl2anJPNGlPV0JhaVdiMg?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 21:30:22 GMT",
+      "description": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "5229f0c102d83738",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现新的宏观政策或数据更新",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "⚡⚡⚡最新消息：摩根士丹利上修特斯拉牛市目標到840美元，關鍵是Semi軟體收入 摩根士丹利研究完特斯拉Sem…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆，拉升至 2029 年約 4.27 億顆，約 5 倍成長。動力來自 1.6T／3.2T SiPho 可插拔模組，以及 2027–2029 年 NPO／CPO 初期轉換；前提是良率持續改善。 EML 短期仍是 AI - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uTWZqeDBvdXo1N2FVcjVwQ0pFeVp1cDZwY3dqNUc3Q0J5U1hJakNZNWZqa2tkX05LR3hyRGpyZjBMcE1yOFJlN1p6a2RPYVlLMjdyYw?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 15:50:48 GMT",
+      "description": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆，拉升至 2029 年約 4.27 億顆，約 5 倍成長。動力來自 1.6T／3.2T SiPho 可插拔模組，以及 2027–2029 年 NPO／CPO 初期轉換；前提是良率持續改善。 EML 短期仍是 AI &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "f59253320687abe9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyM2VFc1l3SUlGVVRBZjdMVU9vLUFQMGFnQnB5RDBSLTVHWFBCcmZrN0ZKZXdzWmJueUZlZVpNVDQyLTFoNFFNcUtiVklyUk5nS2JRRng5QWVDR2xfTFI5S3psVWgwelk?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 20:57:38 GMT",
+      "description": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "e2560818f5f7e168",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
