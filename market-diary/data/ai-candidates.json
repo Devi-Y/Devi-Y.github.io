@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:31:41.927Z",
+  "generatedAt": "2026-09-15T18:10:44.122Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -286,11 +286,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "IPO",
-      "title": "同一週出現兩件看起來打架的事。 一邊是Amodei、Altman、Musk公開說前沿節奏要控。另一邊是外電寫輝達在談進Anthropic上市，當基石投資人。 嘴上減速、口袋裡繼續綁客戶和供應鏈，這兩件事可以同時成立。投資人要分清楚：哪句是對監管和輿論講的，哪筆錢是對 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00VVA0Tlo2cmpUUHNmaDJCYnZrT2s3RlJUYWhCVlFDOTRPV0hZemxJNkRiem9Fd1FaaG01blZET0gySm1la1FaY3ZSZ3VBLURQRTN3eg?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 16:46:14 GMT",
-      "description": "同一週出現兩件看起來打架的事。 一邊是Amodei、Altman、Musk公開說前沿節奏要控。另一邊是外電寫輝達在談進Anthropic上市，當基石投資人。 嘴上減速、口袋裡繼續綁客戶和供應鏈，這兩件事可以同時成立。投資人要分清楚：哪句是對監管和輿論講的，哪筆錢是對 &nbsp;&nbsp; x.com",
+      "type": "公司事件",
+      "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wMU55Ykd3SzdaNkJVZkcxRE83QTA5X1ZmNkVzeG1odGNpOTZxOXV4R0YxQ0wtSEJPblAyLThtN2lxWml3NXdweFVRT1F3OWQwSGFtcQ?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
+      "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -298,17 +298,17 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
+      "score": 50,
       "priority": "B",
-      "id": "93305e525c911431",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "id": "983005fa963fdf39",
+      "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "同一週出現兩件看起來打架的事。 一邊是Amodei、Altman、Musk公開說前沿節奏要控。另一邊是外電寫輝…",
+        "summary": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20%…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -398,6 +398,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "市場把 Cornelis 約 $205M 融資讀成又一家要正面硬剛 $NVDA GPU 的芯片公司。錯了。 TechCrunch／公司口徑：Intel 分拆出身，做 Active Compute Fabric——讓芯片邊算邊傳，打的是 GPU 空等數據的互聯浪費；開放架構可混搭多種加速器，不是再做一張卡。產品已 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yRGNhb0U2OW83NTFXSmVWNWxLc21Ob055VUozTnNKb1dRMFZlejNLeUpxNjdmcW5UQmlfZEM2ZEJOOW4yT05OazFGMHlJd3RuLWwxQw?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 11:18:07 GMT",
+      "description": "市場把 Cornelis 約 $205M 融資讀成又一家要正面硬剛 $NVDA GPU 的芯片公司。錯了。 TechCrunch／公司口徑：Intel 分拆出身，做 Active Compute Fabric——讓芯片邊算邊傳，打的是 GPU 空等數據的互聯浪費；開放架構可混搭多種加速器，不是再做一張卡。產品已 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2a86734865948357",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "市場把 Cornelis 約 $205M 融資讀成又一家要正面硬剛 $NVDA GPU 的芯片公司。錯了。 T…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,37 +659,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBROUs0MmprMFVfNEtyczE3dHpySnJxc2xhcFJoVmpJbkppX3JQR2djekwzTVZWYnY2UTBucXNYRm9XZE9wMTlwZmJ2bnlZc3NVbDFxRw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 20:20:50 GMT",
-      "description": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "4f244a57d5fec187",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Takeaways from the Sept Wrap-Up report - Cautious Market, Intact AI •July was tough; mild recovery through Aug/1H-Sept still felt challenging. Positioning remains cautious despite robust AI-infrastructure demand. Sentiment is more on worst-case capex & mo - x.com",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjZ0puczN0ZnRDVXk4Snk1aFNCT1MtY1lXSFhrSmVQQzlEdzVyaE9WSXNBVk90QkNlLUxKd05aVzMxdXhfdnpBM0dGTkxaSzhnenhkQTllbEFSREFzT3Y4?oc=5",
       "pubDate": "Mon, 14 Sep 2026 06:09:23 GMT",
@@ -690,6 +690,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆，拉升至 2029 年約 4.27 億顆，約 5 倍成長。動力來自 1.6T／3.2T SiPho 可插拔模組，以及 2027–2029 年 NPO／CPO 初期轉換；前提是良率持續改善。 EML 短期仍是 AI - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uTWZqeDBvdXo1N2FVcjVwQ0pFeVp1cDZwY3dqNUc3Q0J5U1hJakNZNWZqa2tkX05LR3hyRGpyZjBMcE1yOFJlN1p6a2RPYVlLMjdyYw?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 15:50:48 GMT",
+      "description": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆，拉升至 2029 年約 4.27 億顆，約 5 倍成長。動力來自 1.6T／3.2T SiPho 可插拔模組，以及 2027–2029 年 NPO／CPO 初期轉換；前提是良率持續改善。 EML 短期仍是 AI &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "f59253320687abe9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰。儘管 AI 基礎設施需求強勁，市場部位仍偏謹慎。情緒更多聚焦在最壞情況的資本支出與變現擔憂。 - 回調最糟階段似乎已過：部位已清理、九月升息在預期之 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYUk1rYlZyekF5eUpwSGd4TUl6ZXJwM0Y0dnd5bWxhekt6WEYwZUxQZDVGdENYdGMzM3FSOXdCMjRjMV9ILXJ2UERsYkxMREpXd2swNUpGTXJ5dWlnaXc?oc=5",
       "pubDate": "Mon, 14 Sep 2026 08:51:40 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyM2VFc1l3SUlGVVRBZjdMVU9vLUFQMGFnQnB5RDBSLTVHWFBCcmZrN0ZKZXdzWmJueUZlZVpNVDQyLTFoNFFNcUtiVklyUk5nS2JRRng5QWVDR2xfTFI5S3psVWgwelk?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 20:57:38 GMT",
-      "description": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e2560818f5f7e168",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
