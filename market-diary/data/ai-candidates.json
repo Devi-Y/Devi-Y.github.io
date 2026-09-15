@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:10:44.122Z",
+  "generatedAt": "2026-09-15T21:18:41.634Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -194,37 +194,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sVzBZd3JzLXpCNUNpU0x6SmdVYi1WeW1DMno5ZGJZWVBBbHhwRUJfbXRTMEgwQzdDS2ZYWThhUVV2WlA3MXI2a25zbmczS2oyNVdjOA?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
-      "description": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
-      "priority": "B",
-      "id": "267e9c9c73d2ac14",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
       "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
@@ -286,9 +255,40 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "IPO",
+      "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sVzBZd3JzLXpCNUNpU0x6SmdVYi1WeW1DMno5ZGJZWVBBbHhwRUJfbXRTMEgwQzdDS2ZYWThhUVV2WlA3MXI2a25zbmczS2oyNVdjOA?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
+      "description": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "267e9c9c73d2ac14",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wMU55Ykd3SzdaNkJVZkcxRE83QTA5X1ZmNkVzeG1odGNpOTZxOXV4R0YxQ0wtSEJPblAyLThtN2lxWml3NXdweFVRT1F3OWQwSGFtcQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSeUxzeHpOV3E5UTJ0Z0NuckI0N0FuOXNMNWI1LUZndUVBTWs4M2M0M2stM2l0dVVkU0ItM05XbUFFUERjdFpxX29zb3pEWDNLNGg2Vk96WmY0ak5HbU9oRTc0d3IxQUxs?oc=5",
       "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
       "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -300,7 +300,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "983005fa963fdf39",
+      "id": "4ca7fb51c86f1ba1",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
