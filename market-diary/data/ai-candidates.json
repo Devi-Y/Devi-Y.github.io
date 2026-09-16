@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:28:45.714Z",
+  "generatedAt": "2026-09-16T16:52:10.745Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -61,37 +61,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Jensen Huang Maps Nvidia's Next Two Growth Engines - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXFyUjJxRTl0T3NXZldpbURSa3d6ZU45cDJDTXoxbDRHXzVGYkJKRHE5b21MQ2RLT0g2TnVvU3hXZ3NWdFpNdW52b3hsSGJMTS10R1g5R3gxVVJsNWxGdVVmMndRNWtkQm56aXcwak9lVnYwVlozRjhXaklCRUhOeC1zaFliX0hya0NBYmprUTlGbThPc0hzWEtn?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 19:41:21 GMT",
-      "description": "Jensen Huang Maps Nvidia's Next Two Growth Engines &nbsp;&nbsp; Yahoo Finance",
-      "source": "Yahoo Finance",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "6ef292f7fcfc8d18",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Yahoo Finance出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -318,10 +287,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XZTdLX1ZPWi1MaUJlNTZsWHlnMzBHSGFiQm5MbVFJZGwxMGl2YndaVVdzQVRrRU1tNzVtMFo5QnM5NHhGczdXMERQUnZrSUR0ZkxWRk8tOExJcjF5M1E?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
-      "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
+      "title": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14b296QWl1NE4wRGdjUFZYVHBZcDhKLVdrb3hiNWRsS25CbHpPS0tpaTNxaDVCcEo0VW94VkNwbFYzQlB4eGdMWWphOFkyc1RXUVdkaEhraW1Hd1ZNOHc?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 13:28:29 GMT",
+      "description": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -331,11 +300,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "c6941256d7be0cc8",
+      "id": "529d33fc7fe7cf70",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20%…",
+        "summary": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -433,6 +402,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XZTdLX1ZPWi1MaUJlNTZsWHlnMzBHSGFiQm5MbVFJZGwxMGl2YndaVVdzQVRrRU1tNzVtMFo5QnM5NHhGczdXMERQUnZrSUR0ZkxWRk8tOExJcjF5M1E?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
+      "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c6941256d7be0cc8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20%…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -690,37 +690,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到2028的東西，不會因為一篇長文隔夜蒸發。 電力、HBM、機櫃還是卡住，大廠資本開支也早鎖在預算裡。 短期是情緒，中期還是看誰交得出矽和電。 $NVDA - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfbWhJR0lnZVJiQk5ycnRXRWM0NWJMSF83b2V3Q3Y1R0lIZ0FOTzdNem13elhjbU1QNGFrV3Z3ZzcxT2FoVmdLVVZSMDQ3VlBLeklObQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 16:45:36 GMT",
-      "description": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到2028的東西，不會因為一篇長文隔夜蒸發。 電力、HBM、機櫃還是卡住，大廠資本開支也早鎖在預算裡。 短期是情緒，中期還是看誰交得出矽和電。 $NVDA &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "a626bdd3ed225552",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "週一開盤，市場大概會先拿上週末那組CEO口徑開刀晶片股。 放慢前沿能力，聽起來像需求要熄火。但訂單簿寫到202…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "亞洲 AI 股今天被 pacing 敘事打了一下。 軟銀跌幅最大，海力士、Kioxia、幾檔中概模型股也跟跌。 市場把減速理解成算力訂單可能往後挪，但實驗室這邊訓練沒停、融資也沒停。 股價反應的是敘事，不是產能。 $NVDA $TSM $MU - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xUklKQVRTdG1rbWxqUGdtN2Q3b195WW0tOUdybW1aWVllcVhpUTFTcHlmTmZFblIyOUpKSHo3SXNIbFU2Tmd0QTczS1B3RV8zbHFzTg?oc=5",
       "pubDate": "Mon, 14 Sep 2026 08:00:58 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "亞洲 AI 股今天被 pacing 敘事打了一下。 軟銀跌幅最大，海力士、Kioxia、幾檔中概模型股也跟跌。…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Hardik Shah (@AIStockSavvy) - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9zaVlMQ3psZzJGSWFHSTBXMUp4VXZYcFFSMXVDV2hnMG5zb3hkdTl2dmFTQWRDNnVDa2tKZlhhcw?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 07:00:00 GMT",
+      "description": "Hardik Shah (@AIStockSavvy) &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "310a3018274fffdf",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
