@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T21:18:41.634Z",
+  "generatedAt": "2026-09-16T00:17:33.749Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -226,7 +226,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xNHJtb0RWbC1TM0NSSm8zTE45V0R4Y3ZCRTNsd01JdXgwcGRjOGFkQkM0czk2NVBndTJjVUFhOXd2VXhITmVKZjhTcU1ISXQwemxJUThHMlJ2TWNEUGdTZi1fVkhnRy1FVmt2cGR4Z25tZHBSeHZjSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KeGVYblpjUWFQRDMyQ0NnNzNpSmVHZG02ejZLNFJ0M1ZnT3FBcVE5Y1o2ZllMb09fVDVacDdhM1pVUzJZVWpFYlRsdG9Pd0wzaDdyOQ?oc=5",
       "pubDate": "Sun, 13 Sep 2026 21:15:14 GMT",
       "description": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -238,7 +238,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 53,
       "priority": "B",
-      "id": "eb00e8757fdd6be2",
+      "id": "14200f35d0b23976",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -286,9 +286,40 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "宏观",
+      "title": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 第三季營收展望：1080 億美元，正負 2%。 毛利率指引重設：受 HBM 記憶體稀缺與價格大幅調升影響，第三季毛利率預計降至 74%。 底部預測：毛利率預計在第四季 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uRWROTXNueXVQa2Y0X2tTc1k2dG1DVmg1a0N2dHdXb1VTTC1hcVNSWG1qWk9Pa0ZsTmtPd21jOVhWa216Mm1vdW9Hbk5SNl85SENHVXh5Ujh0eWRib3lidVViVUhsSTg?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 22:28:17 GMT",
+      "description": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 第三季營收展望：1080 億美元，正負 2%。 毛利率指引重設：受 HBM 記憶體稀缺與價格大幅調升影響，第三季毛利率預計降至 74%。 底部預測：毛利率預計在第四季 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "9c777a345bbb7501",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSeUxzeHpOV3E5UTJ0Z0NuckI0N0FuOXNMNWI1LUZndUVBTWs4M2M0M2stM2l0dVVkU0ItM05XbUFFUERjdFpxX29zb3pEWDNLNGg2Vk96WmY0ak5HbU9oRTc0d3IxQUxs?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XZTdLX1ZPWi1MaUJlNTZsWHlnMzBHSGFiQm5MbVFJZGwxMGl2YndaVVdzQVRrRU1tNzVtMFo5QnM5NHhGczdXMERQUnZrSUR0ZkxWRk8tOExJcjF5M1E?oc=5",
       "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
       "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -300,42 +331,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "4ca7fb51c86f1ba1",
+      "id": "c6941256d7be0cc8",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20%…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TVGZUaGZlcjVISzRXd0lGbmtsX1FrVE9GWENLUFBlQV9FMkt6dFozVFQxeUF0QkpXY2xSY01wZDVubVBZNlhjV2trNTlzdlFCNDVVdF9HRkFtSDhhYzVoZEtpLXE0MUE?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 23:36:08 GMT",
-      "description": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "510b41a5db2245c0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fir…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -429,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "市場把 Cornelis 約 $205M 融資讀成又一家要正面硬剛 $NVDA GPU 的芯片公司。錯了。 T…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "市場把 OpenAI 算力讀成只靠自建美國機房。錯了。 Firmus 官宣：OpenAI 成為多年期錨定客戶，承包馬來西亞兩座 AI Factory 專用算力；公司全客戶簽約容量因此超過 900MW。亞太七座廠中兩座已運營、五座開發中，目標約 24 個月內陸續就緒。平台掛 $NVDA Vera R - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02aW1hWTd3VGJWYUNVaEZqc3g3VlFLYTRwNE85MklRVWJTN092cmpmbFdWQnd1NkpLeml3Z2taMGV6b1J1STlSc1VGdlNXUTREcFl6VA?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 22:21:35 GMT",
+      "description": "市場把 OpenAI 算力讀成只靠自建美國機房。錯了。 Firmus 官宣：OpenAI 成為多年期錨定客戶，承包馬來西亞兩座 AI Factory 專用算力；公司全客戶簽約容量因此超過 900MW。亞太七座廠中兩座已運營、五座開發中，目標約 24 個月內陸續就緒。平台掛 $NVDA Vera R &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "f5b18dba336d8d36",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "市場把 OpenAI 算力讀成只靠自建美國機房。錯了。 Firmus 官宣：OpenAI 成為多年期錨定客戶，…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰。儘管 AI 基礎設施需求強勁，市場部位仍偏謹慎。情緒更多聚焦在最壞情況的資本支出與變現擔憂。 - 回調最糟階段似乎已過：部位已清理、九月升息在預期之 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYUk1rYlZyekF5eUpwSGd4TUl6ZXJwM0Y0dnd5bWxhekt6WEYwZUxQZDVGdENYdGMzM3FSOXdCMjRjMV9ILXJ2UERsYkxMREpXd2swNUpGTXJ5dWlnaXc?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 08:51:40 GMT",
-      "description": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰。儘管 AI 基礎設施需求強勁，市場部位仍偏謹慎。情緒更多聚焦在最壞情況的資本支出與變現擔憂。 - 回調最糟階段似乎已過：部位已清理、九月升息在預期之 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "5404f42d313f51c1",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "九月總結報告的重點 — 市場謹慎，AI 動能完好 - 七月表現艱難；八月至九月上半月僅有溫和復甦，整體仍感挑戰…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
