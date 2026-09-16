@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T00:17:33.749Z",
+  "generatedAt": "2026-09-16T05:59:49.591Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -349,68 +349,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wdU56My1kVFZZUld1aHhEVGhqNzhobVRHSElxX01CSnR4b25lVWtLWWg4Z1ktVU5YYUc0aXV1QkIwSjVUdTF3NlF5LWpEZ21wSk5HVEdiSk5zc3R1OVlpUFpuOHkzMmd1bUd5dVJxQnZlUQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 02:12:01 GMT",
-      "description": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "eb9354e8570fbb0e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRV…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYemVXZ05QeWpCVTdYUktHX0EzeUpuRC1JbVlFQllpcklxTk1QbjkxdWhpQjBlSVRVX1BuWTNGcmxCZ2lHSEdRMVJTU2hNY3JzeVVhWW43OHhUNjlTcGlNZVY0UzJFclk?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 04:49:23 GMT",
-      "description": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "c892e7c8c55534f6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "市場把 Cornelis 約 $205M 融資讀成又一家要正面硬剛 $NVDA GPU 的芯片公司。錯了。 TechCrunch／公司口徑：Intel 分拆出身，做 Active Compute Fabric——讓芯片邊算邊傳，打的是 GPU 空等數據的互聯浪費；開放架構可混搭多種加速器，不是再做一張卡。產品已 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yRGNhb0U2OW83NTFXSmVWNWxLc21Ob055VUozTnNKb1dRMFZlejNLeUpxNjdmcW5UQmlfZEM2ZEJOOW4yT05OazFGMHlJd3RuLWwxQw?oc=5",
       "pubDate": "Tue, 15 Sep 2026 11:18:07 GMT",
@@ -522,6 +460,99 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14)",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Shortages continue for TSMC’s top production processes, 3nm and 2nm, and CoWoS advanced packaging, media report, mostly locked up by Nvidia and Apple. Amazon AWS has won more 3nm capacity recently, while MediaTek continues to seek more 2nm/ - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LX1FkY1I1MzZlaUdTMDk1cE01RTJudmpKNy1YazhIRHRWcTgyblZSeHNZMXhQaDR2OVpwZlhud1llUHAtQkF4Zk9tTlIzM3pTYVhnekQtSnhIdU9rZEE?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 00:45:33 GMT",
+      "description": "Shortages continue for TSMC’s top production processes, 3nm and 2nm, and CoWoS advanced packaging, media report, mostly locked up by Nvidia and Apple. Amazon AWS has won more 3nm capacity recently, while MediaTek continues to seek more 2nm/ &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "7c8e90f57c83b1ce",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wdU56My1kVFZZUld1aHhEVGhqNzhobVRHSElxX01CSnR4b25lVWtLWWg4Z1ktVU5YYUc0aXV1QkIwSjVUdTF3NlF5LWpEZ21wSk5HVEdiSk5zc3R1OVlpUFpuOHkzMmd1bUd5dVJxQnZlUQ?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 02:12:01 GMT",
+      "description": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "eb9354e8570fbb0e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRV…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYemVXZ05QeWpCVTdYUktHX0EzeUpuRC1JbVlFQllpcklxTk1QbjkxdWhpQjBlSVRVX1BuWTNGcmxCZ2lHSEdRMVJTU2hNY3JzeVVhWW43OHhUNjlTcGlNZVY0UzJFclk?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 04:49:23 GMT",
+      "description": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c892e7c8c55534f6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆，拉升至 2029 年約 4.27 億顆，約 5 倍成長。動力來自 1.6T／3.2T SiPho 可插拔模組，以及 2027–2029 年 NPO／CPO 初期轉換；前提是良率持續改善。 EML 短期仍是 AI - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uTWZqeDBvdXo1N2FVcjVwQ0pFeVp1cDZwY3dqNUc3Q0J5U1hJakNZNWZqa2tkX05LR3hyRGpyZjBMcE1yOFJlN1p6a2RPYVlLMjdyYw?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 15:50:48 GMT",
-      "description": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆，拉升至 2029 年約 4.27 億顆，約 5 倍成長。動力來自 1.6T／3.2T SiPho 可插拔模組，以及 2027–2029 年 NPO／CPO 初期轉換；前提是良率持續改善。 EML 短期仍是 AI &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "f59253320687abe9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "產能與技術主線 Mizuho 認為 CW 雷射是下一波光學主升段。產能預估從 2025 年約 8,300 萬顆…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
