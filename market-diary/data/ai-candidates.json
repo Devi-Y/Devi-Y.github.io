@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T01:23:34.524Z",
+  "generatedAt": "2026-09-17T07:37:02.219Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -225,37 +225,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
-      "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
-      "priority": "B",
-      "id": "94e5fa2208a39d03",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sVzBZd3JzLXpCNUNpU0x6SmdVYi1WeW1DMno5ZGJZWVBBbHhwRUJfbXRTMEgwQzdDS2ZYWThhUVV2WlA3MXI2a25zbmczS2oyNVdjOA?oc=5",
       "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
@@ -274,6 +243,37 @@
       "ai": {
         "priority": "B",
         "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
+      "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "94e5fa2208a39d03",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -318,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hamZ0cTVhNU5PSnhjdUlrVk9XOXdoSF9QcjVjVHQ0QkRqVjlSWDVac2t4LTFxRFB6NTRZTFFuZXAyNk9CM1ZTOGlDSzQzNjJFSWRiVQ?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
-      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3d19c70446f1de30",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVD…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
       "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
@@ -367,37 +336,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zWUJQYkRtZWtfTzhnRU12OFdDcGtyc2U3cjZHdWkyaDM1N053MXlUYktUM3RvZDQxRWNQeWtNUGpaTUQtQ1hBVFFybEdGdEdiSHd6Ug?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 05:14:31 GMT",
-      "description": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3837a4c7e5c4a81e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -504,37 +442,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XZTdLX1ZPWi1MaUJlNTZsWHlnMzBHSGFiQm5MbVFJZGwxMGl2YndaVVdzQVRrRU1tNzVtMFo5QnM5NHhGczdXMERQUnZrSUR0ZkxWRk8tOExJcjF5M1E?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
-      "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "c6941256d7be0cc8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20%…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14) - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnd2VXT1pzbDg2dmkycjBleng3bkRlSE1fSnZKRlY0aGpHYlZaMi1SallkTTRrVC1XbF9uZy04OUlzSmVKc0ZLYlpROVYzbEVjVnBOcnRn?oc=5",
       "pubDate": "Mon, 14 Sep 2026 11:14:12 GMT",
@@ -628,6 +535,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hamZ0cTVhNU5PSnhjdUlrVk9XOXdoSF9QcjVjVHQ0QkRqVjlSWDVac2t4LTFxRFB6NTRZTFFuZXAyNk9CM1ZTOGlDSzQzNjJFSWRiVQ?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
+      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "3d19c70446f1de30",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVD…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnMTBpcWFETVJsT09qM0gwak43bkw5WDQxTllvM1dMaTZQVDlkOWhRalVvQlpHaE5nbEZQeDR4RERoeEgzdEV6S0ZxT3NLS2RnT1lMQQ?oc=5",
       "pubDate": "Tue, 15 Sep 2026 23:24:24 GMT",
@@ -646,6 +584,37 @@
       "ai": {
         "priority": "B",
         "summary": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Sales…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zWUJQYkRtZWtfTzhnRU12OFdDcGtyc2U3cjZHdWkyaDM1N053MXlUYktUM3RvZDQxRWNQeWtNUGpaTUQtQ1hBVFFybEdGdEdiSHd6Ug?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 05:14:31 GMT",
+      "description": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "3837a4c7e5c4a81e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -720,11 +689,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMEJySGZOcEZKRFlGQV9TcG1WN1YxMzFzT0w5Q0E2OWIzN0JtQ1IzRGFwbjd6d01iajBrcGs0NjRpZFBMdHN5cjEzNW9xd2cxdUl2anJPNGlPV0JhaVdiMg?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 21:30:22 GMT",
-      "description": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK &nbsp;&nbsp; x.com",
+      "type": "公司事件",
+      "title": "亞洲 AI 股今天被 pacing 敘事打了一下。 軟銀跌幅最大，海力士、Kioxia、幾檔中概模型股也跟跌。 市場把減速理解成算力訂單可能往後挪，但實驗室這邊訓練沒停、融資也沒停。 股價反應的是敘事，不是產能。 $NVDA $TSM $MU - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xUklKQVRTdG1rbWxqUGdtN2Q3b195WW0tOUdybW1aWVllcVhpUTFTcHlmTmZFblIyOUpKSHo3SXNIbFU2Tmd0QTczS1B3RV8zbHFzTg?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 08:00:58 GMT",
+      "description": "亞洲 AI 股今天被 pacing 敘事打了一下。 軟銀跌幅最大，海力士、Kioxia、幾檔中概模型股也跟跌。 市場把減速理解成算力訂單可能往後挪，但實驗室這邊訓練沒停、融資也沒停。 股價反應的是敘事，不是產能。 $NVDA $TSM $MU &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -732,17 +701,48 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
+      "score": 47,
       "priority": "B",
-      "id": "5229f0c102d83738",
+      "id": "8ae498fd93cf9ee5",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "x.com出现新的宏观政策或数据更新",
+        "summary": "亞洲 AI 股今天被 pacing 敘事打了一下。 軟銀跌幅最大，海力士、Kioxia、幾檔中概模型股也跟跌。…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "宏观解读"
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "市場把 OpenAI 算力讀成只靠自建美國機房。錯了。 Firmus 官宣：OpenAI 成為多年期錨定客戶，承包馬來西亞兩座 AI Factory 專用算力；公司全客戶簽約容量因此超過 900MW。亞太七座廠中兩座已運營、五座開發中，目標約 24 個月內陸續就緒。平台掛 $NVDA Vera R - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02aW1hWTd3VGJWYUNVaEZqc3g3VlFLYTRwNE85MklRVWJTN092cmpmbFdWQnd1NkpLeml3Z2taMGV6b1J1STlSc1VGdlNXUTREcFl6VA?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 22:21:35 GMT",
+      "description": "市場把 OpenAI 算力讀成只靠自建美國機房。錯了。 Firmus 官宣：OpenAI 成為多年期錨定客戶，承包馬來西亞兩座 AI Factory 專用算力；公司全客戶簽約容量因此超過 900MW。亞太七座廠中兩座已運營、五座開發中，目標約 24 個月內陸續就緒。平台掛 $NVDA Vera R &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "f5b18dba336d8d36",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "市場把 OpenAI 算力讀成只靠自建美國機房。錯了。 Firmus 官宣：OpenAI 成為多年期錨定客戶，…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
