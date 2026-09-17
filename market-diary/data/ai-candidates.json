@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:25:11.939Z",
+  "generatedAt": "2026-09-17T18:11:16.919Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -50,7 +50,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
+      "score": 71,
       "priority": "A",
       "id": "b5b28300b78d3671",
       "rankReason": "一级/官方信源；高影响事件词",
@@ -81,7 +81,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
+      "score": 71,
       "priority": "A",
       "id": "6351f13e00154425",
       "rankReason": "一级/官方信源；高影响事件词",
@@ -156,37 +156,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sVzBZd3JzLXpCNUNpU0x6SmdVYi1WeW1DMno5ZGJZWVBBbHhwRUJfbXRTMEgwQzdDS2ZYWThhUVV2WlA3MXI2a25zbmczS2oyNVdjOA?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
-      "description": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
-      "priority": "B",
-      "id": "267e9c9c73d2ac14",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -317,37 +286,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14b296QWl1NE4wRGdjUFZYVHBZcDhKLVdrb3hiNWRsS25CbHpPS0tpaTNxaDVCcEo0VW94VkNwbFYzQlB4eGdMWWphOFkyc1RXUVdkaEhraW1Hd1ZNOHc?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 13:28:29 GMT",
-      "description": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "529d33fc7fe7cf70",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KeGVYblpjUWFQRDMyQ0NnNzNpSmVHZG02ejZLNFJ0M1ZnT3FBcVE5Y1o2ZllMb09fVDVacDdhM1pVUzJZVWpFYlRsdG9Pd0wzaDdyOQ?oc=5",
@@ -373,6 +311,37 @@
           "招股书解析"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "媒体",
+      "type": "公司事件",
+      "title": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - AAStock",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd3lkOVVaZnJyUnZYSWdsbzN6dkZfZHhlOXlkS0x5N2E4MVVnNktDNWk5d0JNRUJMODN0cFFwWUJ5TXdSQS1LT3pPMkw4eUhocS1XZ1RKbHRwUlBERFFXRlkzbmpnekZDcDAzZm9XWXJxQWJpZUprOW9iMWk3UVEteXpXS3NVOHU1QXRXQWJ5YWdxNjN5SGExV3ZSd1J0Um0weEx2Z1pXZnRoUTR4M3M5MVhURFMxQnlRbXk4?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 05:56:30 GMT",
+      "description": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns &nbsp;&nbsp; AAStock",
+      "source": "AAStock",
+      "sourceKey": "aastocks",
+      "sourceMode": "media-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 48,
+      "priority": "B",
+      "id": "650f89d109f4042c",
+      "rankReason": "市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - …",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -460,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14b296QWl1NE4wRGdjUFZYVHBZcDhKLVdrb3hiNWRsS25CbHpPS0tpaTNxaDVCcEo0VW94VkNwbFYzQlB4eGdMWWphOFkyc1RXUVdkaEhraW1Hd1ZNOHc?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 13:28:29 GMT",
+      "description": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "529d33fc7fe7cf70",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,6 +628,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzbG84dm9wVWNvb0xfQXl4Z29YY2JQd1U3ZlZCeGxveVcteDBnSF9nMUttS3ZEQjM0VE1Wb1hBYTFOdDNrRHhSSjhCc0x2VU15eVJ2ZkxNamdkMW9nU1J4RWViTE4?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 03:28:41 GMT",
+      "description": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "066b91e6977aeb32",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "🤖MEXC AI 體驗官活動來襲 ，邀你體驗我們新產品，給出反饋即可瓜分 100 USDT！ 🏆 抽出 10 位幸運得主，每人獲得 10 USDT！ ✅ 追蹤 @MEXCZH 轉發此貼文 ✅ 點擊連結前往體驗，探索並試用 MEXC AI 功能 https://t.co/H089qqS6O5 ✅ 在本篇貼文下方留言使用截 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpTmZJR3Rtb0hEQWVkVWFyYzQ2MDVPblV0Nmd5dFpOZlhsNS1ETU5rekpxeVBGRzB6alBIUjNMZzZZemNvSXFJSHZWZXlmaUVhc1FWWHpBdTdGdTA?oc=5",
       "pubDate": "Wed, 16 Sep 2026 12:30:01 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnd2VXT1pzbDg2dmkycjBleng3bkRlSE1fSnZKRlY0aGpHYlZaMi1SallkTTRrVC1XbF9uZy04OUlzSmVKc0ZLYlpROVYzbEVjVnBOcnRn?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 11:14:12 GMT",
-      "description": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14) &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "fc0296530250d109",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14)",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
