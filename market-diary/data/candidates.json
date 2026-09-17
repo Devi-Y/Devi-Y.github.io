@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-17T18:11:15.033Z",
+  "generatedAt": "2026-09-17T21:19:47.720Z",
   "windowDays": 7,
   "summary": {
-    "total": 48,
+    "total": 47,
     "bySignal": {
       "事实": 3,
       "媒体": 2,
-      "人物": 2,
+      "人物": 1,
       "资金": 0,
       "热点": 41
     },
     "byTrust": {
       "A": 3,
-      "B": 4,
+      "B": 3,
       "C": 41
     },
     "s": 0,
     "a": 3,
-    "b": 45
+    "b": 44
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -80,26 +80,6 @@
       "priority": "A",
       "id": "6351f13e00154425",
       "rankReason": "一级/官方信源；高影响事件词"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXFRZWVVN3ZHQTdEZGJ3V1YybUxlOTN0NG1xclphRFBqS3QxM09ZWkRHenkzU3BhOXpwTGZfTHYxZnBfeUVtc045blVVbHBOalBNUmxHNVZpUFRsMkNPczdlcHZPU2stUzBZTzQzZXNVZGk3WDc2cldDRXJYNU5DRGRYYldmNFY0REdWc1JFa1JvTTl6RmlQSnE1SDdCQjEyOTF3dlpmNDRvUmN3?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 21:26:23 GMT",
-      "description": "Jensen Huang Bullish on Cybersecurity Market: AI-Driven \"New Problems\" Are Creating Fresh Demand &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "7d686edc921bf3b4",
-      "rankReason": "高影响事件词；关键人物"
     },
     {
       "market": "全球",
@@ -796,7 +776,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
+      "score": 17,
       "priority": "B",
       "id": "1a6009e73d92781d",
       "rankReason": "社媒只做热点发现"
@@ -945,10 +925,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "SemiVision 🇹🇼 👁️👁️ (@semivision_tw) - x.com",
+      "title": "SemiVision 🇹🇼 👁️👁️ (@semivision_tw) on X - x.com",
       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9kU1JyN196c0FfLUpxUV9pUUFfZDlMSnR0YUNLeGNmR0tEaUFNQ1VQUlYxSHhpdWc1NVBWek45eG5jODh2OGc?oc=5",
       "pubDate": "Fri, 11 Sep 2026 07:00:00 GMT",
-      "description": "SemiVision 🇹🇼 👁️👁️ (@semivision_tw) &nbsp;&nbsp; x.com",
+      "description": "SemiVision 🇹🇼 👁️👁️ (@semivision_tw) on X &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -958,7 +938,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 14,
       "priority": "B",
-      "id": "ba5416bc0c53475e",
+      "id": "a5b23175fd9ebab7",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -982,5 +962,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-17T18:11:16.099Z"
+  "rankedAt": "2026-09-17T21:19:48.827Z"
 }
