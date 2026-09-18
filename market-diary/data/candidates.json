@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:19:47.720Z",
+  "generatedAt": "2026-09-18T00:15:15.407Z",
   "windowDays": 7,
   "summary": {
     "total": 47,
@@ -164,26 +164,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
-      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "ec14d32a13963bfd",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KeGVYblpjUWFQRDMyQ0NnNzNpSmVHZG02ejZLNFJ0M1ZnT3FBcVE5Y1o2ZllMb09fVDVacDdhM1pVUzJZVWpFYlRsdG9Pd0wzaDdyOQ?oc=5",
@@ -279,6 +259,26 @@
       "score": 47,
       "priority": "B",
       "id": "c892e7c8c55534f6",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
+      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "ec14d32a13963bfd",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -962,5 +962,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-17T21:19:48.827Z"
+  "rankedAt": "2026-09-18T00:15:16.666Z"
 }
