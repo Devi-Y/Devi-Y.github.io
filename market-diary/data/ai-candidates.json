@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:26:58.797Z",
+  "generatedAt": "2026-09-18T21:40:10.613Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -99,6 +99,37 @@
     },
     {
       "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Warren Buffett Steps Down as Chairman of Berkshire Hathaway: NYSE Content Update - Quamnet",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWFRkYy1KR1pENEE2bU10MV9MaHAwcnpMQVFiOHFFaXdKNDNqRWYyS1h6d19sb3FuRllGT1ZIYmpTSk1tb21OeF9mbHhWOXY2X3BpTV9MOTc1THJLVExN?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 15:00:01 GMT",
+      "description": "Warren Buffett Steps Down as Chairman of Berkshire Hathaway: NYSE Content Update &nbsp;&nbsp; Quamnet",
+      "source": "Quamnet",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "83dda7d0361425b5",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Quamnet出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
       "signal": "热点",
       "type": "持仓",
       "title": "$NVDA $JPM 增持；目標價：320.00 美元 $NVDA 的融資工具旨在支持對 AI 基礎設施更強勁的未來需求 $NVDA 還詳細介紹了 $NVDA 的幾項融資工具，包括公司與特定新雲端平台達成的收入分成協議、PORTS-Pike DC園區計劃，以及與阿波羅全球管理公司、貝萊德 - x.com",
@@ -131,37 +162,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "IPO",
-      "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
-      "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "94e5fa2208a39d03",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "Aurelion 報告對 NVIDIA ( $NVDA ) 市場過度擔心成長放緩與投資報酬，NVDA 仍處於 AI 生態中心，下一波成長主軸是推論（inference）、代理式 AI 與實體／機器人 AI。 核心觀點 - NVDA 不只是 GPU 公司，而是涵蓋 GPU、CPU（Vera）、網路、軟體、整機機櫃的全棧平台 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QVXV2WFpHM2ZIbHd2SUROcmFxcURwbkxjLVBGRFItSmMzaVRmWW5ITzhCYVpWLW9YUzFTSzBfWFEyZmFIbVRzX1FHYzJ5NS1ZNGtaT3FYbTdtXzBIN0E?oc=5",
@@ -181,37 +181,6 @@
       "ai": {
         "priority": "B",
         "summary": "Aurelion 報告對 NVIDIA ( $NVDA ) 市場過度擔心成長放緩與投資報酬，NVDA 仍處於 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scmozTTE3cE9EQVFsWVZfUlB0QmI5UHpXRlRHbHd6UVktVFJESFpFelVCTWROQTIzLU5jaDhyeXgzNjhYWkQ5UjZoeldVNzQ0bFlhVg?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 19:07:03 GMT",
-      "description": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "f378aec1420d42e7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerber…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -442,6 +411,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hamZ0cTVhNU5PSnhjdUlrVk9XOXdoSF9QcjVjVHQ0QkRqVjlSWDVac2t4LTFxRFB6NTRZTFFuZXAyNk9CM1ZTOGlDSzQzNjJFSWRiVQ?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
+      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "3d19c70446f1de30",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVD…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14b296QWl1NE4wRGdjUFZYVHBZcDhKLVdrb3hiNWRsS25CbHpPS0tpaTNxaDVCcEo0VW94VkNwbFYzQlB4eGdMWWphOFkyc1RXUVdkaEhraW1Hd1ZNOHc?oc=5",
       "pubDate": "Wed, 16 Sep 2026 13:28:29 GMT",
@@ -491,6 +491,37 @@
       "ai": {
         "priority": "B",
         "summary": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Sales…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scmozTTE3cE9EQVFsWVZfUlB0QmI5UHpXRlRHbHd6UVktVFJESFpFelVCTWROQTIzLU5jaDhyeXgzNjhYWkQ5UjZoeldVNzQ0bFlhVg?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 19:07:03 GMT",
+      "description": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "f378aec1420d42e7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerber…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -714,37 +745,6 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMEJySGZOcEZKRFlGQV9TcG1WN1YxMzFzT0w5Q0E2OWIzN0JtQ1IzRGFwbjd6d01iajBrcGs0NjRpZFBMdHN5cjEzNW9xd2cxdUl2anJPNGlPV0JhaVdiMg?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 21:30:22 GMT",
-      "description": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "5229f0c102d83738",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     }
