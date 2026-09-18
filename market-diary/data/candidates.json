@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-18T14:30:24.291Z",
+  "generatedAt": "2026-09-18T18:26:57.798Z",
   "windowDays": 7,
   "summary": {
-    "total": 47,
+    "total": 49,
     "bySignal": {
-      "事实": 3,
+      "事实": 5,
       "媒体": 1,
       "人物": 2,
       "资金": 0,
       "热点": 41
     },
     "byTrust": {
-      "A": 5,
+      "A": 7,
       "B": 1,
       "C": 41
     },
     "s": 0,
     "a": 3,
-    "b": 44
+    "b": 46
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -442,6 +442,46 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+      "pubDate": "Fri, 18 Sep 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 44,
+      "priority": "B",
+      "id": "c20cd7d80863d0b6",
+      "rankReason": "一级/官方信源"
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+      "pubDate": "Fri, 18 Sep 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 44,
+      "priority": "B",
+      "id": "fcd7c4044f07a0d8",
+      "rankReason": "一级/官方信源"
+    },
+    {
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
@@ -705,26 +745,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBROUs0MmprMFVfNEtyczE3dHpySnJxc2xhcFJoVmpJbkppX3JQR2djekwzTVZWYnY2UTBucXNYRm9XZE9wMTlwZmJ2bnlZc3NVbDFxRw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 20:20:50 GMT",
-      "description": "Amodei週六發文，說前沿模型推進要放慢，Altman也跟了。 市場第一反應會往監管、估值折價那邊想。 落地我更看這一層：模型再強，還是得燒電、燒記憶體、燒機房。放慢訓練節奏，短期不一定砍capex，很多合約已經簽到2027。 $ORCL $NVDA $MU 這條供應鏈，暫時 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "4f244a57d5fec187",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyM2VFc1l3SUlGVVRBZjdMVU9vLUFQMGFnQnB5RDBSLTVHWFBCcmZrN0ZKZXdzWmJueUZlZVpNVDQyLTFoNFFNcUtiVklyUk5nS2JRRng5QWVDR2xfTFI5S3psVWgwelk?oc=5",
       "pubDate": "Sun, 13 Sep 2026 20:57:38 GMT",
@@ -779,6 +799,26 @@
       "score": 44,
       "priority": "B",
       "id": "ebb163790c4b9f35",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "輝達自己拉的 Open Secure AI Alliance。7 月底成立，後來擴到上百家。 資安側能看到 CrowdStrike $CRWD 、Palo Alto $PANW 、Zscaler $ZS 、Fortinet $FTNT 、Check Point $CHKP 、Cisco $CSCO 、Cloudflare $NET 、Okta $OKTA 、SentinelOne $S 、Wiz、Rubri - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ka2VyY2hJb0o1NEtuZ083alloTkNQcERsNmhVTmRaaEU2NXNkOW10TG5pc2ROZHhuUzVRdGZaRTlnUUdJbHJqLVBEZU5JX1k0TjB2aw?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 23:04:45 GMT",
+      "description": "輝達自己拉的 Open Secure AI Alliance。7 月底成立，後來擴到上百家。 資安側能看到 CrowdStrike $CRWD 、Palo Alto $PANW 、Zscaler $ZS 、Fortinet $FTNT 、Check Point $CHKP 、Cisco $CSCO 、Cloudflare $NET 、Okta $OKTA 、SentinelOne $S 、Wiz、Rubri &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "3a0088a9e7ce8144",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -962,5 +1002,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-18T14:30:27.662Z"
+  "rankedAt": "2026-09-18T18:26:58.256Z"
 }
