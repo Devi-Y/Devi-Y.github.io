@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:15:15.407Z",
+  "generatedAt": "2026-09-18T04:45:13.235Z",
   "windowDays": 7,
   "summary": {
     "total": 47,
@@ -144,26 +144,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
-      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a0ef209f9d9dc91a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KeGVYblpjUWFQRDMyQ0NnNzNpSmVHZG02ejZLNFJ0M1ZnT3FBcVE5Y1o2ZllMb09fVDVacDdhM1pVUzJZVWpFYlRsdG9Pd0wzaDdyOQ?oc=5",
@@ -225,10 +205,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wdU56My1kVFZZUld1aHhEVGhqNzhobVRHSElxX01CSnR4b25lVWtLWWg4Z1ktVU5YYUc0aXV1QkIwSjVUdTF3NlF5LWpEZ21wSk5HVEdiSk5zc3R1OVlpUFpuOHkzMmd1bUd5dVJxQnZlUQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 02:12:01 GMT",
-      "description": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 &nbsp;&nbsp; x.com",
+      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
+      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -238,7 +218,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "eb9354e8570fbb0e",
+      "id": "a0ef209f9d9dc91a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -465,26 +445,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EUF9HcC1kMEV0WnR1QzJkeW9wYnhxMC1ldE9ZYUFJVl9fRTFLUVNIY3hQZF9ZcmdrX3B4eEZmVExUemlCcHlaNkZtcEVuR2ZXb1Vja3B5cDR1bDNNNG50T3VB?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
-      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "32bab80a5a91415d",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14) - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnd2VXT1pzbDg2dmkycjBleng3bkRlSE1fSnZKRlY0aGpHYlZaMi1SallkTTRrVC1XbF9uZy04OUlzSmVKc0ZLYlpROVYzbEVjVnBOcnRn?oc=5",
       "pubDate": "Mon, 14 Sep 2026 11:14:12 GMT",
@@ -539,6 +499,46 @@
       "score": 44,
       "priority": "B",
       "id": "4c264f85b1cc02e9",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Shortages continue for TSMC’s top production processes, 3nm and 2nm, and CoWoS advanced packaging, media report, mostly locked up by Nvidia and Apple. Amazon AWS has won more 3nm capacity recently, while MediaTek continues to seek more 2nm/ - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LX1FkY1I1MzZlaUdTMDk1cE01RTJudmpKNy1YazhIRHRWcTgyblZSeHNZMXhQaDR2OVpwZlhud1llUHAtQkF4Zk9tTlIzM3pTYVhnekQtSnhIdU9rZEE?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 00:45:33 GMT",
+      "description": "Shortages continue for TSMC’s top production processes, 3nm and 2nm, and CoWoS advanced packaging, media report, mostly locked up by Nvidia and Apple. Amazon AWS has won more 3nm capacity recently, while MediaTek continues to seek more 2nm/ &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "7c8e90f57c83b1ce",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wdU56My1kVFZZUld1aHhEVGhqNzhobVRHSElxX01CSnR4b25lVWtLWWg4Z1ktVU5YYUc0aXV1QkIwSjVUdTF3NlF5LWpEZ21wSk5HVEdiSk5zc3R1OVlpUFpuOHkzMmd1bUd5dVJxQnZlUQ?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 02:12:01 GMT",
+      "description": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "eb9354e8570fbb0e",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -786,7 +786,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "想總是抓到行情就到：https://t.co/I8OKwsDQBO - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TRE1DQWwwMi1qY0RTVWVIY3paT0ZheTlsWC1HSzJTcG9ZYXVfa2h5eHJWZzM4UUJfMEY0M0N4WmhEeDBSOUlHWG02Ni1jT2NFWVV3Tg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ReFZ2RWd3bWo0cmFlRFM2N3JkV0VCZjVtaDctQ09lZUdvR3FVZ1J1b0dJTWdUQWZYaTE2R0I5OG5KZjA0b2JKTmxWSFdCSWRzd1VBa0VWZjdCbjBfLTQw?oc=5",
       "pubDate": "Tue, 15 Sep 2026 14:29:29 GMT",
       "description": "想總是抓到行情就到：https://t.co/I8OKwsDQBO &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -798,7 +798,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 17,
       "priority": "B",
-      "id": "fe8c3a6ac02b8530",
+      "id": "8cda724062121f7b",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -962,5 +962,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-18T00:15:16.666Z"
+  "rankedAt": "2026-09-18T04:45:13.693Z"
 }

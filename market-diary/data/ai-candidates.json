@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:15:17.356Z",
+  "generatedAt": "2026-09-18T04:45:14.266Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -193,37 +193,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
-      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a0ef209f9d9dc91a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KeGVYblpjUWFQRDMyQ0NnNzNpSmVHZG02ejZLNFJ0M1ZnT3FBcVE5Y1o2ZllMb09fVDVacDdhM1pVUzJZVWpFYlRsdG9Pd0wzaDdyOQ?oc=5",
@@ -318,10 +287,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wdU56My1kVFZZUld1aHhEVGhqNzhobVRHSElxX01CSnR4b25lVWtLWWg4Z1ktVU5YYUc0aXV1QkIwSjVUdTF3NlF5LWpEZ21wSk5HVEdiSk5zc3R1OVlpUFpuOHkzMmd1bUd5dVJxQnZlUQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 02:12:01 GMT",
-      "description": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 &nbsp;&nbsp; x.com",
+      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
+      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -331,11 +300,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "eb9354e8570fbb0e",
+      "id": "a0ef209f9d9dc91a",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRV…",
+        "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -690,37 +659,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EUF9HcC1kMEV0WnR1QzJkeW9wYnhxMC1ldE9ZYUFJVl9fRTFLUVNIY3hQZF9ZcmdrX3B4eEZmVExUemlCcHlaNkZtcEVuR2ZXb1Vja3B5cDR1bDNNNG50T3VB?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 04:00:05 GMT",
-      "description": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施，中國政府隨即要求叫停。 新華社報道，9月3日，中國商務部新聞發言人黃玲指責法國以環保和可持續標準為名採取雙重標準，涉嫌違反世界貿易組織非歧視原則，並表示中方可 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "32bab80a5a91415d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "法國針對SHEIN等「超快時尚」（Ultra-fast fashion）的環境收費措施於9月1日起正式開始實施…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14) - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnd2VXT1pzbDg2dmkycjBleng3bkRlSE1fSnZKRlY0aGpHYlZaMi1SallkTTRrVC1XbF9uZy04OUlzSmVKc0ZLYlpROVYzbEVjVnBOcnRn?oc=5",
       "pubDate": "Mon, 14 Sep 2026 11:14:12 GMT",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14)",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感，希望這家公司有足夠資源撐住。 Hugging Face CEO 來找他時，我的第一個念頭是：「糟了，現在一切都很好，我其實希望他們繼續獨立。」 但現場還有其他買家。最後成交價是 1 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTenpNb0o3a2kwdHozWDZIR2QtTWh1MW1CQ01QRi1YeXlKNlhUUzlhLXlzeFZiUjJwZHF1REROcV96UVVJem54M2J5bEtmRkh1S25DYVlRM25kNFVBeW1kM3RJeWJDbEk?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 23:45:13 GMT",
+      "description": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感，希望這家公司有足夠資源撐住。 Hugging Face CEO 來找他時，我的第一個念頭是：「糟了，現在一切都很好，我其實希望他們繼續獨立。」 但現場還有其他買家。最後成交價是 1 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "0a9d9a8d1546827f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Jensen Huang Hugging Face 的願景是對的。現在開源模型正在加速，時機很敏感…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數據分析 透過美國國家公路交通安全管理局（NHTSA）數據，對特斯拉 Robotaxi 進行了第三方安全性評估。這項分析僅聚焦於已啟動無人駕駛服務的區域。 事故頻率估算： 結合 NHTSA 事故 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fZWxFWUIxMGlxQTdzd202ZHRXNkI4QlQ0ZWxoMlhUc3BfRVRpQ1lDd1lEY2xNZTJka1M4Z0hqY0ZDZ3dfUlZfYlJYWDJhR3FWaU9fUk5haXJPUjdFUGRQT0Fwb1ozZEE?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 23:26:55 GMT",
+      "description": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數據分析 透過美國國家公路交通安全管理局（NHTSA）數據，對特斯拉 Robotaxi 進行了第三方安全性評估。這項分析僅聚焦於已啟動無人駕駛服務的區域。 事故頻率估算： 結合 NHTSA 事故 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "4c264f85b1cc02e9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA $GS Neutral，目標價定為 $360 特斯拉 Robotaxi 事故頻率與 NHTSA 數…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
