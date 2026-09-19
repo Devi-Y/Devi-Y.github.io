@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T20:37:28.623Z",
+  "generatedAt": "2026-09-19T23:01:41.779Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -164,7 +164,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIV0pBSXhzTEFRMUdBbG5va2lRNW4wNGtobW9DbnBzQkx0UmZ6Vk8xZmo5Ry01bzNRQ1U3QVBlMlNBejZqbWN0a2xqMnI3ZzhDSmpHVmI2ZkJadmkxXzRlcg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
       "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
       "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -176,7 +176,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "214e8b759598a1cd",
+      "id": "94e5fa2208a39d03",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -195,7 +195,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xNHJtb0RWbC1TM0NSSm8zTE45V0R4Y3ZCRTNsd01JdXgwcGRjOGFkQkM0czk2NVBndTJjVUFhOXd2VXhITmVKZjhTcU1ISXQwemxJUThHMlJ2TWNEUGdTZi1fVkhnRy1FVmt2cGR4Z25tZHBSeHZjSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0OFlScXdheEx2UGV0VHkyQXVlLVc2c0ZILVFoWUVud1NYUWpEUkJDSDRuMk95bGh2U3djZ1JCM1h4Y2NwOHo0UEdwYnVvUkZ5NXotQnM0YVBvdWwxTUdmbFNMSnhTVVE?oc=5",
       "pubDate": "Sun, 13 Sep 2026 21:15:14 GMT",
       "description": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -207,42 +207,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "eb00e8757fdd6be2",
+      "id": "8bd157875d02ba50",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sVzBZd3JzLXpCNUNpU0x6SmdVYi1WeW1DMno5ZGJZWVBBbHhwRUJfbXRTMEgwQzdDS2ZYWThhUVV2WlA3MXI2a25zbmczS2oyNVdjOA?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
-      "description": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "267e9c9c73d2ac14",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -317,37 +286,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤即時更新。https://t.co/eogv3LN12M - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MNTlqYjNyWlQ4YTYxUnBnX0xzNU9zM2dqQVRVSGM0Y3hmclVVVjFmc21VRkdsZnVPc0FlR0tyX2Y3emtYRTZIaFA2X1psNlJKMzZDSw?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 20:57:22 GMT",
-      "description": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤即時更新。https://t.co/eogv3LN12M &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "a7c38bcf10c016a7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
@@ -367,37 +305,6 @@
       "ai": {
         "priority": "B",
         "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
-      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "ec14d32a13963bfd",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -627,6 +534,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "宏观",
+      "title": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤即時更新。https://t.co/eogv3LN12M - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MNTlqYjNyWlQ4YTYxUnBnX0xzNU9zM2dqQVRVSGM0Y3hmclVVVjFmc21VRkdsZnVPc0FlR0tyX2Y3emtYRTZIaFA2X1psNlJKMzZDSw?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 20:57:22 GMT",
+      "description": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤即時更新。https://t.co/eogv3LN12M &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "a7c38bcf10c016a7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14) - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnd2VXT1pzbDg2dmkycjBleng3bkRlSE1fSnZKRlY0aGpHYlZaMi1SallkTTRrVC1XbF9uZy04OUlzSmVKc0ZLYlpROVYzbEVjVnBOcnRn?oc=5",
@@ -721,10 +659,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14b296QWl1NE4wRGdjUFZYVHBZcDhKLVdrb3hiNWRsS25CbHpPS0tpaTNxaDVCcEo0VW94VkNwbFYzQlB4eGdMWWphOFkyc1RXUVdkaEhraW1Hd1ZNOHc?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 13:28:29 GMT",
-      "description": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG &nbsp;&nbsp; x.com",
+      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
+      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +672,73 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "529d33fc7fe7cf70",
+      "id": "ec14d32a13963bfd",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍…",
+        "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYemVXZ05QeWpCVTdYUktHX0EzeUpuRC1JbVlFQllpcklxTk1QbjkxdWhpQjBlSVRVX1BuWTNGcmxCZ2lHSEdRMVJTU2hNY3JzeVVhWW43OHhUNjlTcGlNZVY0UzJFclk?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 04:49:23 GMT",
+      "description": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "c892e7c8c55534f6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hamZ0cTVhNU5PSnhjdUlrVk9XOXdoSF9QcjVjVHQ0QkRqVjlSWDVac2t4LTFxRFB6NTRZTFFuZXAyNk9CM1ZTOGlDSzQzNjJFSWRiVQ?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
+      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "3d19c70446f1de30",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVD…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
