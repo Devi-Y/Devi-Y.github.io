@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T23:01:41.779Z",
+  "generatedAt": "2026-09-20T01:06:30.343Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -164,7 +164,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIV0pBSXhzTEFRMUdBbG5va2lRNW4wNGtobW9DbnBzQkx0UmZ6Vk8xZmo5Ry01bzNRQ1U3QVBlMlNBejZqbWN0a2xqMnI3ZzhDSmpHVmI2ZkJadmkxXzRlcg?oc=5",
       "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
       "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -176,7 +176,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "94e5fa2208a39d03",
+      "id": "214e8b759598a1cd",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
