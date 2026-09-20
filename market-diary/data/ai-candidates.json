@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:06:30.343Z",
+  "generatedAt": "2026-09-20T06:13:51.123Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -92,37 +92,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Warren Buffett Steps Down as Chairman of Berkshire Hathaway: NYSE Content Update - Quamnet",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWFRkYy1KR1pENEE2bU10MV9MaHAwcnpMQVFiOHFFaXdKNDNqRWYyS1h6d19sb3FuRllGT1ZIYmpTSk1tb21OeF9mbHhWOXY2X3BpTV9MOTc1THJLVExN?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 15:00:01 GMT",
-      "description": "Warren Buffett Steps Down as Chairman of Berkshire Hathaway: NYSE Content Update &nbsp;&nbsp; Quamnet",
-      "source": "Quamnet",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "83dda7d0361425b5",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Quamnet出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -255,6 +224,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "IPO",
+      "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zNGxVd2RGVVdfTkRsWmlvNlotczVjUFJIeDhRTTk5Y1JsWm5FZzFTWkxzVXRnWW9TTjdLdzdDa0E1SnVaakJuMjZQbC1vdkZpeXl5aVNvV0dOS2Y1NjBtYw?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
+      "description": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "742954501883a2f2",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "JPM 認為 AI 基建仍是供給不足，不是需求不足。下一階段主軸從 GPU 轉向 ASIC、網路、HBM、封裝與晶圓廠／WFE。 雲端資本支出持續上修：2026–28 年約 9530 億、1.41 兆、1.54 兆美元，2030 年上看 1.66 兆。客製化 AI ASIC 2026 年約 600–700 億美元，之後年複 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YN2hKaE1QRWVWc1Y2WFBkdGFKYk1ybGtKRU83MHZPd2RNZEdQWVIxdnZYNEduS3JBS0E5a3Z2NlBfR2JFVWVxX055bWE3Z3RmQXYtcDNaOHlnMGlmU3c?oc=5",
@@ -274,37 +274,6 @@
       "ai": {
         "priority": "B",
         "summary": "JPM 認為 AI 基建仍是供給不足，不是需求不足。下一階段主軸從 GPU 轉向 ASIC、網路、HBM、封裝…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
-      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "a0ef209f9d9dc91a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -430,37 +399,6 @@
         "priority": "B",
         "summary": "美联储出现一条新的公司事件信息",
         "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd3lkOVVaZnJyUnZYSWdsbzN6dkZfZHhlOXlkS0x5N2E4MVVnNktDNWk5d0JNRUJMODN0cFFwWUJ5TXdSQS1LT3pPMkw4eUhocS1XZ1RKbHRwUlBERFFXRlkzbmpnekZDcDAzZm9XWXJxQWJpZUprOW9iMWk3UVEteXpXS3NVOHU1QXRXQWJ5YWdxNjN5SGExV3ZSd1J0Um0weEx2Z1pXZnRoUTR4M3M5MVhURFMxQnlRbXk4?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 05:56:30 GMT",
-      "description": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 45,
-      "priority": "B",
-      "id": "650f89d109f4042c",
-      "rankReason": "市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - …",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
           "事件解读"
@@ -659,6 +597,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
+      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "a0ef209f9d9dc91a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
       "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
@@ -721,10 +690,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hamZ0cTVhNU5PSnhjdUlrVk9XOXdoSF9QcjVjVHQ0QkRqVjlSWDVac2t4LTFxRFB6NTRZTFFuZXAyNk9CM1ZTOGlDSzQzNjJFSWRiVQ?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
-      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
+      "title": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14b296QWl1NE4wRGdjUFZYVHBZcDhKLVdrb3hiNWRsS25CbHpPS0tpaTNxaDVCcEo0VW94VkNwbFYzQlB4eGdMWWphOFkyc1RXUVdkaEhraW1Hd1ZNOHc?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 13:28:29 GMT",
+      "description": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍涵蓋北美、歐洲、亞太與中東。平台由 Nokia anyRAN 軟體搭配 NVIDIA Aerial RAN Computer。 二、運營商名單 新增／擴大：A1 Group、中華電信、du、e&、Mobily、stc、TPG &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +703,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "3d19c70446f1de30",
+      "id": "529d33fc7fe7cf70",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVD…",
+        "summary": "一、消息本質 Nokia 今（2026/9/16）宣布 AI-RAN 從早期評估進入實驗室與實網試驗，合作範圍…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA CEO公開背書「Cybersecurity是AI下一個大市場」，等於把安全軟體從防禦性支出重新定價為AI平台必備層。 企業在部署Copilot/Agentic AI後，攻擊面擴大，資安預算與平台整合需求上升；資金會從純AI算力輪動至能把模型用於威脅偵測、零信任與雲原生防護的 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiWHN3WWZkazJnT0FsdzZWX19icDlmdGFIdVZHb2RnWXlBVGNnZ1gyYVk2dlNLWXNPcVJEbzZVUjRTeVdiQlc2TTBNTU11OEhUbzNBdkh2djJxSGJBczNhRQ?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 22:57:30 GMT",
+      "description": "NVIDIA CEO公開背書「Cybersecurity是AI下一個大市場」，等於把安全軟體從防禦性支出重新定價為AI平台必備層。 企業在部署Copilot/Agentic AI後，攻擊面擴大，資安預算與平台整合需求上升；資金會從純AI算力輪動至能把模型用於威脅偵測、零信任與雲原生防護的 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "6dc91665a2d79cdd",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NVIDIA CEO公開背書「Cybersecurity是AI下一個大市場」，等於把安全軟體從防禦性支出重新定…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
