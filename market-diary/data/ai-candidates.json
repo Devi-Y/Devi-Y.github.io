@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:22:37.079Z",
+  "generatedAt": "2026-09-20T16:03:13.393Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -133,7 +133,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UYVZNODBNWm9uZURnbEg2a0lqNGVJakwwbDhwa3Z5Q2Y0cjl1b0tpVGhkbmlqY1JaOHlLV0R4d2wya0xIOThSenNKYjhtTUp4U3ctVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIV0pBSXhzTEFRMUdBbG5va2lRNW4wNGtobW9DbnBzQkx0UmZ6Vk8xZmo5Ry01bzNRQ1U3QVBlMlNBejZqbWN0a2xqMnI3ZzhDSmpHVmI2ZkJadmkxXzRlcg?oc=5",
       "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
       "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -145,7 +145,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "94e5fa2208a39d03",
+      "id": "214e8b759598a1cd",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -226,7 +226,7 @@
       "signal": "热点",
       "type": "IPO",
       "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xNHJtb0RWbC1TM0NSSm8zTE45V0R4Y3ZCRTNsd01JdXgwcGRjOGFkQkM0czk2NVBndTJjVUFhOXd2VXhITmVKZjhTcU1ISXQwemxJUThHMlJ2TWNEUGdTZi1fVkhnRy1FVmt2cGR4Z25tZHBSeHZjSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0OFlScXdheEx2UGV0VHkyQXVlLVc2c0ZILVFoWUVud1NYUWpEUkJDSDRuMk95bGh2U3djZ1JCM1h4Y2NwOHo0UEdwYnVvUkZ5NXotQnM0YVBvdWwxTUdmbFNMSnhTVVE?oc=5",
       "pubDate": "Sun, 13 Sep 2026 21:15:14 GMT",
       "description": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -238,7 +238,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "eb00e8757fdd6be2",
+      "id": "8bd157875d02ba50",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -286,6 +286,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "IPO",
+      "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zNGxVd2RGVVdfTkRsWmlvNlotczVjUFJIeDhRTTk5Y1JsWm5FZzFTWkxzVXRnWW9TTjdLdzdDa0E1SnVaakJuMjZQbC1vdkZpeXl5aVNvV0dOS2Y1NjBtYw?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
+      "description": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "742954501883a2f2",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scmozTTE3cE9EQVFsWVZfUlB0QmI5UHpXRlRHbHd6UVktVFJESFpFelVCTWROQTIzLU5jaDhyeXgzNjhYWkQ5UjZoeldVNzQ0bFlhVg?oc=5",
@@ -305,37 +336,6 @@
       "ai": {
         "priority": "B",
         "summary": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerber…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xc1kwblRGR3RwM0lfVlZ4d09CX0lhdU9UZnh1TmxlRTRvZjFRR2VkMU94UFdzQXRnb3F2Q05TWWNlWVBETFVRcFZ1Tk0xVmU0SmxxRw?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 13:18:16 GMT",
-      "description": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "57cef70df73767b6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -473,37 +473,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TVGZUaGZlcjVISzRXd0lGbmtsX1FrVE9GWENLUFBlQV9FMkt6dFozVFQxeUF0QkpXY2xSY01wZDVubVBZNlhjV2trNTlzdlFCNDVVdF9HRkFtSDhhYzVoZEtpLXE0MUE?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 23:36:08 GMT",
-      "description": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "510b41a5db2245c0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fir…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA 關鍵支撐不變337，股價短期仍看跌。(09/14) - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnd2VXT1pzbDg2dmkycjBleng3bkRlSE1fSnZKRlY0aGpHYlZaMi1SallkTTRrVC1XbF9uZy04OUlzSmVKc0ZLYlpROVYzbEVjVnBOcnRn?oc=5",
       "pubDate": "Mon, 14 Sep 2026 11:14:12 GMT",
@@ -628,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYemVXZ05QeWpCVTdYUktHX0EzeUpuRC1JbVlFQllpcklxTk1QbjkxdWhpQjBlSVRVX1BuWTNGcmxCZ2lHSEdRMVJTU2hNY3JzeVVhWW43OHhUNjlTcGlNZVY0UzJFclk?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 04:49:23 GMT",
-      "description": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "c892e7c8c55534f6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
       "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
@@ -677,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYemVXZ05QeWpCVTdYUktHX0EzeUpuRC1JbVlFQllpcklxTk1QbjkxdWhpQjBlSVRVX1BuWTNGcmxCZ2lHSEdRMVJTU2hNY3JzeVVhWW43OHhUNjlTcGlNZVY0UzJFclk?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 04:49:23 GMT",
+      "description": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "c892e7c8c55534f6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "NVIDIA CEO公開背書「Cybersecurity是AI下一個大市場」，等於把安全軟體從防禦性支出重新定…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnMTBpcWFETVJsT09qM0gwak43bkw5WDQxTllvM1dMaTZQVDlkOWhRalVvQlpHaE5nbEZQeDR4RERoeEgzdEV6S0ZxT3NLS2RnT1lMQQ?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 23:24:24 GMT",
+      "description": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "dd99261ca3279e32",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Sales…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
