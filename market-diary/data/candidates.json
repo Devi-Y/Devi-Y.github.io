@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:46:12.504Z",
+  "generatedAt": "2026-09-20T21:31:19.996Z",
   "windowDays": 7,
   "summary": {
     "total": 50,
@@ -165,26 +165,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0OFlScXdheEx2UGV0VHkyQXVlLVc2c0ZILVFoWUVud1NYUWpEUkJDSDRuMk95bGh2U3djZ1JCM1h4Y2NwOHo0UEdwYnVvUkZ5NXotQnM0YVBvdWwxTUdmbFNMSnhTVVE?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 21:15:14 GMT",
-      "description": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發的能力，而不能只服從公開市場股東的短期利益。來自Fortune專訪、The Verge摘要 延後IPO雖然不會立即改變OpenAI的產品需求，代表龐大算力支出仍主要依賴 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "8bd157875d02ba50",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zNGxVd2RGVVdfTkRsWmlvNlotczVjUFJIeDhRTTk5Y1JsWm5FZzFTWkxzVXRnWW9TTjdLdzdDa0E1SnVaakJuMjZQbC1vdkZpeXl5aVNvV0dOS2Y1NjBtYw?oc=5",
       "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
@@ -200,26 +180,6 @@
       "priority": "B",
       "id": "742954501883a2f2",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scmozTTE3cE9EQVFsWVZfUlB0QmI5UHpXRlRHbHd6UVktVFJESFpFelVCTWROQTIzLU5jaDhyeXgzNjhYWkQ5UjZoeldVNzQ0bFlhVg?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 19:07:03 GMT",
-      "description": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "f378aec1420d42e7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "宏观",
@@ -265,10 +225,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
-      "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMEJySGZOcEZKRFlGQV9TcG1WN1YxMzFzT0w5Q0E2OWIzN0JtQ1IzRGFwbjd6d01iajBrcGs0NjRpZFBMdHN5cjEzNW9xd2cxdUl2anJPNGlPV0JhaVdiMg?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 21:30:22 GMT",
-      "description": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate https://t.co/NIDOrzR0bK https://t.co/NIDOrzR0bK &nbsp;&nbsp; x.com",
+      "title": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 第三季營收展望：1080 億美元，正負 2%。 毛利率指引重設：受 HBM 記憶體稀缺與價格大幅調升影響，第三季毛利率預計降至 74%。 底部預測：毛利率預計在第四季 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uRWROTXNueXVQa2Y0X2tTc1k2dG1DVmg1a0N2dHdXb1VTTC1hcVNSWG1qWk9Pa0ZsTmtPd21jOVhWa216Mm1vdW9Hbk5SNl85SENHVXh5Ujh0eWRib3lidVViVUhsSTg?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 22:28:17 GMT",
+      "description": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 第三季營收展望：1080 億美元，正負 2%。 毛利率指引重設：受 HBM 記憶體稀缺與價格大幅調升影響，第三季毛利率預計降至 74%。 底部預測：毛利率預計在第四季 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -278,7 +238,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "5229f0c102d83738",
+      "id": "9c777a345bbb7501",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -479,6 +439,26 @@
       "score": 44,
       "priority": "B",
       "id": "dd99261ca3279e32",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scmozTTE3cE9EQVFsWVZfUlB0QmI5UHpXRlRHbHd6UVktVFJESFpFelVCTWROQTIzLU5jaDhyeXgzNjhYWkQ5UjZoeldVNzQ0bFlhVg?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 19:07:03 GMT",
+      "description": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "f378aec1420d42e7",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -725,10 +705,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyM2VFc1l3SUlGVVRBZjdMVU9vLUFQMGFnQnB5RDBSLTVHWFBCcmZrN0ZKZXdzWmJueUZlZVpNVDQyLTFoNFFNcUtiVklyUk5nS2JRRng5QWVDR2xfTFI5S3psVWgwelk?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 20:57:38 GMT",
-      "description": "Dario Amodei提出讓外部評估人員持續進入AI公司測試模型，並主張業界及政府協調開發速度，讓安全機制有時間追上模型能力。OpenAI的Sam Altman與Elon Musk也公開支持加強外部監督。AP報導 目前是政策主張，不是已生效的模型訓練限制。但若大型AI實驗室真 &nbsp;&nbsp; x.com",
+      "title": "台積電 $TSM 把 3 奈米月產往上拉約七成——市場讀成輝達供給解鎖。錯了。 受益者：最先被喊到的是 $NVDA 出貨天花板鬆綁；先進製程長約客戶訂單可見度已拉到 2029–2030。 瓶頸：真正限速仍在先進封裝 CoWoS——嘉義 AP7 與亞利桑那封裝產能，目標月產約 2 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ueERGZWFWcWFuXzdxV0poZk9ueTZhLTNBZlh6UmVlZlRIdnZUSmFJR3VnUlVCaGM4Nkp1QnJqYjZIRm5vU2FvZnZraHlBNUJFbXByUVdBdkVrb2Z2dGd0Vg?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 14:28:07 GMT",
+      "description": "台積電 $TSM 把 3 奈米月產往上拉約七成——市場讀成輝達供給解鎖。錯了。 受益者：最先被喊到的是 $NVDA 出貨天花板鬆綁；先進製程長約客戶訂單可見度已拉到 2029–2030。 瓶頸：真正限速仍在先進封裝 CoWoS——嘉義 AP7 與亞利桑那封裝產能，目標月產約 2 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -738,7 +718,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "e2560818f5f7e168",
+      "id": "802b1cf55445d3f2",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -759,6 +739,26 @@
       "score": 44,
       "priority": "B",
       "id": "a9f17b116e0beca3",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "市場把 AI 放慢 當成砍 CapEx。錯了。 受益者：最先被砸的是 OpenAI 股權敘事——軟銀 $SFTBY 單日重挫逾一成；設備鏈跟跌是第二層情緒。 瓶頸：實體限速仍在先進封裝產能與已鎖長約；四大雲廠 2026 CapEx 仍指向約七千億美元量級基建，不是一封安全論文能瞬間 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80dF93ZldMRzV2RkhTNXpocFpzeFgyRzBPU3V0bE01bGhlUXB2ZDR2VlR5TkJLV2JaV29lOEtvMUs3UWdWbmlETjRadXB1SmlJOWw4NGxYcmlOVm1iVm55Ng?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 10:18:07 GMT",
+      "description": "市場把 AI 放慢 當成砍 CapEx。錯了。 受益者：最先被砸的是 OpenAI 股權敘事——軟銀 $SFTBY 單日重挫逾一成；設備鏈跟跌是第二層情緒。 瓶頸：實體限速仍在先進封裝產能與已鎖長約；四大雲廠 2026 CapEx 仍指向約七千億美元量級基建，不是一封安全論文能瞬間 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "ccbfc978d3004e95",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -846,7 +846,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$INTC 季中更新 - 基於 SOTP（分部加總估值），將目標價上調至 150 美元，理由是伺服器 CPU（18A）與 EMIB 良率優於預期，加上晶圓代工客戶擴張。 - CPU 順風：預期 GPT-6 的代理式（agentic）能力將推升伺服器 CPU 需求。 - CWF（Clear Wafer Forest）：2026 年底小 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BZm40bTBuUlV5MmZOb0JBOUNzelI5Y0lMN0V1amdFRkhndDA0MjBpYXp5NWw0ZEJiWVRzNE1vcVBadm1MYUlaRU5UdGszZ013NWphNE9RYkJ1a2lUNnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ENVhHZ1kzbGsxcFQyWXFvUEJsOUZDbWNtTWhPcnJyM3EzZzhIeVl3R0FjYmRYWjd6anBuT3d3cXhGMXlYNWk3X0VWcDl5ZmhRY2w3aXZwS2pMeHdKODFqc1FFVi1UcUpE?oc=5",
       "pubDate": "Tue, 15 Sep 2026 07:53:01 GMT",
       "description": "$INTC 季中更新 - 基於 SOTP（分部加總估值），將目標價上調至 150 美元，理由是伺服器 CPU（18A）與 EMIB 良率優於預期，加上晶圓代工客戶擴張。 - CPU 順風：預期 GPT-6 的代理式（agentic）能力將推升伺服器 CPU 需求。 - CWF（Clear Wafer Forest）：2026 年底小 &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -858,7 +858,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 28,
       "priority": "B",
-      "id": "744e55154c9fe2a4",
+      "id": "6eb1a843548012eb",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -867,7 +867,7 @@
       "type": "公司事件",
       "title": "- Xiaohongshu",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 02:59:12 GMT",
+      "pubDate": "Sun, 20 Sep 2026 17:47:07 GMT",
       "description": "&nbsp;&nbsp; Xiaohongshu",
       "source": "Xiaohongshu",
       "sourceKey": "xiaohongshu",
@@ -1022,5 +1022,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-20T18:46:13.043Z"
+  "rankedAt": "2026-09-20T21:31:20.496Z"
 }
