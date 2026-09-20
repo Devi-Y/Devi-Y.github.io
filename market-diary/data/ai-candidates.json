@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:03:13.393Z",
+  "generatedAt": "2026-09-20T18:46:13.538Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -243,37 +243,6 @@
       "ai": {
         "priority": "B",
         "summary": "Sam Altman表示OpenAI不會在2026年上市，理由之一是公司必須保留在安全風險升高時暫停或放慢開發…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "同一週出現兩件看起來打架的事。 一邊是Amodei、Altman、Musk公開說前沿節奏要控。另一邊是外電寫輝達在談進Anthropic上市，當基石投資人。 嘴上減速、口袋裡繼續綁客戶和供應鏈，這兩件事可以同時成立。投資人要分清楚：哪句是對監管和輿論講的，哪筆錢是對 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00VVA0Tlo2cmpUUHNmaDJCYnZrT2s3RlJUYWhCVlFDOTRPV0hZemxJNkRiem9Fd1FaaG01blZET0gySm1la1FaY3ZSZ3VBLURQRTN3eg?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 16:46:14 GMT",
-      "description": "同一週出現兩件看起來打架的事。 一邊是Amodei、Altman、Musk公開說前沿節奏要控。另一邊是外電寫輝達在談進Anthropic上市，當基石投資人。 嘴上減速、口袋裡繼續綁客戶和供應鏈，這兩件事可以同時成立。投資人要分清楚：哪句是對監管和輿論講的，哪筆錢是對 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "93305e525c911431",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "同一週出現兩件看起來打架的事。 一邊是Amodei、Altman、Musk公開說前沿節奏要控。另一邊是外電寫輝…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "IPO",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Sales…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xc1kwblRGR3RwM0lfVlZ4d09CX0lhdU9UZnh1TmxlRTRvZjFRR2VkMU94UFdzQXRnb3F2Q05TWWNlWVBETFVRcFZ1Tk0xVmU0SmxxRw?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 13:18:16 GMT",
+      "description": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "57cef70df73767b6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
