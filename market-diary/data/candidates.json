@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T00:14:59.992Z",
+  "generatedAt": "2026-09-21T04:57:16.640Z",
   "windowDays": 7,
   "summary": {
     "total": 49,
@@ -100,26 +100,6 @@
       "priority": "B",
       "id": "b5e63610c8e77e65",
       "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIV0pBSXhzTEFRMUdBbG5va2lRNW4wNGtobW9DbnBzQkx0UmZ6Vk8xZmo5Ry01bzNRQ1U3QVBlMlNBejZqbWN0a2xqMnI3ZzhDSmpHVmI2ZkJadmkxXzRlcg?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 03:06:17 GMT",
-      "description": "今日看點： 1、嘴上放慢、手上加速：Grok 4.8、GPT-6 Astra、Claude 新版同一周擠在一起 2、Anthropic IPO + 輝達可能當基石投資人 3、Grok 進 Copilot，模型戰變成入口戰 4、資安被輝達 $NVDA 重新定價 5、長任務 / Agent 把壓力從訓練 GPU 再壓到記憶體和推理時數 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "214e8b759598a1cd",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -259,6 +239,26 @@
       "score": 44,
       "priority": "B",
       "id": "a7c38bcf10c016a7",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "2026/09/17｜美國聯準會（Federal Reserve）三年多來首次升息，將基準利率提高 0.25個百分點至3.75%–4.00%。聯邦公開市場委員會（FOMC）以12票對0票一致通過，表示美國經濟仍以穩健速度成長，但通膨持續偏高，升息有助物價更快回到2%的政策目標。 最新經 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3akhWWENoMVo1MmlBTHk4eVJBcERjQXdTOUVFbGl3cXNESXRER3hMUTlzemFTRU02WjRwLWdYMThxVGxMaFh0SExpMEJPck9Wa0NJQV9Oa1lSdFRqaGpMS1J3?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 02:31:48 GMT",
+      "description": "2026/09/17｜美國聯準會（Federal Reserve）三年多來首次升息，將基準利率提高 0.25個百分點至3.75%–4.00%。聯邦公開市場委員會（FOMC）以12票對0票一致通過，表示美國經濟仍以穩健速度成長，但通膨持續偏高，升息有助物價更快回到2%的政策目標。 最新經 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "e7c0e038616cd4f2",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -805,11 +805,11 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "- Xiaohongshu",
+      "title": "- xiaohongshu.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
       "pubDate": "Sun, 20 Sep 2026 17:47:07 GMT",
-      "description": "&nbsp;&nbsp; Xiaohongshu",
-      "source": "Xiaohongshu",
+      "description": "&nbsp;&nbsp; xiaohongshu.com",
+      "source": "xiaohongshu.com",
       "sourceKey": "xiaohongshu",
       "sourceMode": "social-discovery",
       "declaredTrust": "C",
@@ -818,7 +818,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 20,
       "priority": "B",
-      "id": "5dba6816abfe2da6",
+      "id": "8040aa123c3ea4b3",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -1002,5 +1002,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-21T00:15:01.172Z"
+  "rankedAt": "2026-09-21T04:57:17.090Z"
 }
