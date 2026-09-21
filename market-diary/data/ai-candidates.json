@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T17:02:01.543Z",
+  "generatedAt": "2026-09-21T21:02:52.561Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -194,37 +194,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
-      "title": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zNGxVd2RGVVdfTkRsWmlvNlotczVjUFJIeDhRTTk5Y1JsWm5FZzFTWkxzVXRnWW9TTjdLdzdDa0E1SnVaakJuMjZQbC1vdkZpeXl5aVNvV0dOS2Y1NjBtYw?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 20:11:33 GMT",
-      "description": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電力／資料中心側還在鎖 GW 級容量、談 IPO 敘事。訓練日曆能改，土地、互聯、高壓設備已下單的那截不能跟著轉身。 吃錯節奏的是把放慢直接折成電力基建砍單——$VST &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "742954501883a2f2",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "模型發版可以喊 pace。電網互聯跟變壓器交期喊不回來。 週末 AI 大佬齊喊放慢 frontier；同一週電…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
       "title": "Intel十年前花167億美元買下Altera，一年前才用44.6億美元把51%股權賣給Silver Lake，估值只剩87.5億——現在Altera準備IPO，可能募資超過20億美元。 Altera正式向SEC機密送件申請美國IPO，選定Barclays、花旗、摩根大通、摩根士丹利擔任承銷商，最快可能在今 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRNUg5OVh0czl3SXExeXAweEprb014SDlkUEFFQk5jdWxRRGFjdl9jYUU2ckJjYUZNQWZJdEtjNHJqQkZJdDFSbkpBZ3YwVkQ2VERHNUhJbndlcHM?oc=5",
       "pubDate": "Wed, 16 Sep 2026 07:58:00 GMT",
@@ -274,6 +243,37 @@
       "ai": {
         "priority": "B",
         "summary": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0SExSbnY3Ym95T0gxZGZCWnlOeVBpb0J4ZmxWQ0wzZzk1VWVEVG9Rd3B0VTFtZ3JXVXk2WVA5ZUdndUZCSE9CX1otRXhNYlV0dEZSaDk4NDJIZExMNlFKNkVCNjY?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 10:20:01 GMT",
+      "description": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "9ee58d3d8bc0784b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -442,6 +442,68 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Aurelion 報告對 NVIDIA ( $NVDA ) 市場過度擔心成長放緩與投資報酬，NVDA 仍處於 AI 生態中心，下一波成長主軸是推論（inference）、代理式 AI 與實體／機器人 AI。 核心觀點 - NVDA 不只是 GPU 公司，而是涵蓋 GPU、CPU（Vera）、網路、軟體、整機機櫃的全棧平台 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QVXV2WFpHM2ZIbHd2SUROcmFxcURwbkxjLVBGRFItSmMzaVRmWW5ITzhCYVpWLW9YUzFTSzBfWFEyZmFIbVRzX1FHYzJ5NS1ZNGtaT3FYbTdtXzBIN0E?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 09:13:25 GMT",
+      "description": "Aurelion 報告對 NVIDIA ( $NVDA ) 市場過度擔心成長放緩與投資報酬，NVDA 仍處於 AI 生態中心，下一波成長主軸是推論（inference）、代理式 AI 與實體／機器人 AI。 核心觀點 - NVDA 不只是 GPU 公司，而是涵蓋 GPU、CPU（Vera）、網路、軟體、整機機櫃的全棧平台 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "0b166c9e3074cc4e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Aurelion 報告對 NVIDIA ( $NVDA ) 市場過度擔心成長放緩與投資報酬，NVDA 仍處於 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TVGZUaGZlcjVISzRXd0lGbmtsX1FrVE9GWENLUFBlQV9FMkt6dFozVFQxeUF0QkpXY2xSY01wZDVubVBZNlhjV2trNTlzdlFCNDVVdF9HRkFtSDhhYzVoZEtpLXE0MUE?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 23:36:08 GMT",
+      "description": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "510b41a5db2245c0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fir…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "AI業界領袖呼籲放慢前沿模型能力的推進速度，引發全球AI供應鏈賣壓。 $NVDA 早盤跌約3.4%， $MRVL、 $MU 及部分半導體設備股跌幅更大；相反地， $INTU漲5.6%、 $ADSK 漲4.4%、 $ADBE 漲3%，市場暫時回補先前被AI取代疑慮壓制的軟體股。 這不是「實際訂單 - x.com",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wdU56My1kVFZZUld1aHhEVGhqNzhobVRHSElxX01CSnR4b25lVWtLWWg4Z1ktVU5YYUc0aXV1QkIwSjVUdTF3NlF5LWpEZ21wSk5HVEdiSk5zc3R1OVlpUFpuOHkzMmd1bUd5dVJxQnZlUQ?oc=5",
       "pubDate": "Tue, 15 Sep 2026 02:12:01 GMT",
@@ -504,37 +566,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
-      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ec14d32a13963bfd",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang Mr. President, yes sir，現在正在台上、現場有幾千人，而且我們剛剛還在講你 川普 Jensen 能做出全世界最複雜的晶片，卻搞不定開擴音 AI 會接管世界、機器人會統治人類 這類末日說法是 hoax 機器人不 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYemVXZ05QeWpCVTdYUktHX0EzeUpuRC1JbVlFQllpcklxTk1QbjkxdWhpQjBlSVRVX1BuWTNGcmxCZ2lHSEdRMVJTU2hNY3JzeVVhWW43OHhUNjlTcGlNZVY0UzJFclk?oc=5",
       "pubDate": "Tue, 15 Sep 2026 04:49:23 GMT",
@@ -553,6 +584,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA All-In Summit Jensen Huang vs . 川普 Jensen Huang M…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
+      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "ec14d32a13963bfd",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -677,68 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzbG84dm9wVWNvb0xfQXl4Z29YY2JQd1U3ZlZCeGxveVcteDBnSF9nMUttS3ZEQjM0VE1Wb1hBYTFOdDNrRHhSSjhCc0x2VU15eVJ2ZkxNamdkMW9nU1J4RWViTE4?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 03:28:41 GMT",
-      "description": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "066b91e6977aeb32",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMSnhUdV9ObTd4eWhyNmZfODRvVHp2VGQ3M2o2N3lnYVVjYVRYcEJqMUVZR21lT1pUUnhpX1dBQW5IMEJpMjUzN1B1ckFKN28xTU5TMQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 16:19:44 GMT",
-      "description": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "b2fdb3c0575ef80f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
