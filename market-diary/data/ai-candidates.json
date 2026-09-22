@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T14:51:13.690Z",
+  "generatedAt": "2026-09-22T18:52:53.283Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -130,10 +130,41 @@
     },
     {
       "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Warren Buffett Steps Down as Chairman of Berkshire Hathaway: NYSE Content Update - Quamnet",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWFRkYy1KR1pENEE2bU10MV9MaHAwcnpMQVFiOHFFaXdKNDNqRWYyS1h6d19sb3FuRllGT1ZIYmpTSk1tb21OeF9mbHhWOXY2X3BpTV9MOTc1THJLVExN?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 15:00:01 GMT",
+      "description": "Warren Buffett Steps Down as Chairman of Berkshire Hathaway: NYSE Content Update &nbsp;&nbsp; Quamnet",
+      "source": "Quamnet",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "83dda7d0361425b5",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Quamnet出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
       "signal": "热点",
       "type": "公司事件",
       "title": "Shein、Temu 和 AliExpress 線上銷售同時下滑 https://t.co/eCcMXFPhPV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92NzVZNW5yYkVmNVMzYmxHeEpKN0tuQXp2SVJPbjZ4YnBtRmN3dHBidXQzWnlWYnRiWV9WNlkyWHVYSUNUWWY0VE9XZXF1akJBU25MakxqdzRhM01KbkdmeQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xcml2R3lQUnZhZmRPUFNuM2VCV0FNWFJZMG9JSGtxMkJ1dEhFSS1UZ0FCTVN1VnFfR18wMXNCNjJTbExYbEJJUHF5NnNoYmZoNmFtcDNkb3pITXdrcVRQY0liNE1FbXQ0LUl3?oc=5",
       "pubDate": "Mon, 21 Sep 2026 19:43:54 GMT",
       "description": "Shein、Temu 和 AliExpress 線上銷售同時下滑 https://t.co/eCcMXFPhPV &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -145,11 +176,73 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "c5baaf98f6a106bb",
+      "id": "6e38582f9cca0641",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "Shein、Temu 和 AliExpress 線上銷售同時下滑",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "一年前， $NVDA 的規模是 $AMD 的約 40 倍。如今，這差距縮小到約 5 倍，AMD 正式加入 $1 兆俱樂部。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MZlZVV1dhZTFSbWgzNDlkaXVtLXBocFluNE1FUnFhRlVMT210dGZXVHNKNUdtOFR2ZUwzaUZ0VU1JcTA5WE9WZlU0R2RZMVlZb1V5OTNPNVB3UTVaSEtIbXc5UmpodXlqS25Z?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 00:31:17 GMT",
+      "description": "一年前， $NVDA 的規模是 $AMD 的約 40 倍。如今，這差距縮小到約 5 倍，AMD 正式加入 $1 兆俱樂部。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "5d0728ce94aa8138",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "一年前， $NVDA 的規模是 $AMD 的約 40 倍。如今，這差距縮小到約 5 倍，AMD 正式加入 $1…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 底下這是輝達兩年來的波動率走勢圖。自從GPT-3掀起這波AI浪潮的序幕時，輝達是第一位巨星、領頭羊。直到去年夏天，領頭羊由 $MU/$SNDK/$INTC 接棒。 為什麼我認為她們之間存在傳承關係? 你可以看到$NVDA的波動率，即使你不需要具有數據科學專家 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmbV9GOEkyTTNNQk92RVhVQUVaUkZmLXNETTdQSS00al9pV3NjZ3Zoa3oxRU9zV1h0Z2pacVdXa2NTTzZISjcyR0hVRzBqM3FFcm5KOHpWZS05MnE4OUMwTDZIVS1aWmRSYzVlcQ?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 12:53:35 GMT",
+      "description": "$NVDA 底下這是輝達兩年來的波動率走勢圖。自從GPT-3掀起這波AI浪潮的序幕時，輝達是第一位巨星、領頭羊。直到去年夏天，領頭羊由 $MU/$SNDK/$INTC 接棒。 為什麼我認為她們之間存在傳承關係? 你可以看到$NVDA的波動率，即使你不需要具有數據科學專家 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "e41f92f76717bca7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 底下這是輝達兩年來的波動率走勢圖。自從GPT-3掀起這波AI浪潮的序幕時，輝達是第一位巨星、領頭羊…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -181,37 +274,6 @@
       "ai": {
         "priority": "B",
         "summary": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📊 2026/09/22 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：73 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $NVDA｜IV Rank：1 🥈 $BE｜IV Rank：3 🥉 $SOFI｜IV Rank：4 ◆ $AVGO｜IV Ra - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlTU1WMkNVSjB0Vm9OUlN5ZkFNU3VnbnZCRm93MGJVYnE2VnVzSWR1UjZqbHNNM1lDeFpRWmY3X2twVHVzN0VjU1VvSGhTSW5HaHZsNDYtaUZKOXcxY3kwX2FIU0RPWGxETzNjTg?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 05:51:55 GMT",
-      "description": "📊 2026/09/22 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：73 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $NVDA｜IV Rank：1 🥈 $BE｜IV Rank：3 🥉 $SOFI｜IV Rank：4 ◆ $AVGO｜IV Ra &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a5adc96bbca1f89d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📊 2026/09/22 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -287,37 +349,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic CEO達里奧前一周呼籲AI前沿發展踩煞車，黃仁勳明確反駁2030年世界末日概率為0%，視末日預測缺乏科學依據。 黃仁勳強調安全是工程問題而非停工理由，主張產業應盡可能快速 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4ySllfSHVUWk9PNGF4LWZOOUpsOWFhbU5hakU4akIyVWdZMW9Kb0g0VjhKOXkwZ3ZzWXM1SmtnRGJhempKaUpINVg2b0RQTlV4VWFnQ2MzamJISVlYb0V0bg?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 05:38:21 GMT",
-      "description": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic CEO達里奧前一周呼籲AI前沿發展踩煞車，黃仁勳明確反駁2030年世界末日概率為0%，視末日預測缺乏科學依據。 黃仁勳強調安全是工程問題而非停工理由，主張產業應盡可能快速 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "d28cb7379597c4e3",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0SExSbnY3Ym95T0gxZGZCWnlOeVBpb0J4ZmxWQ0wzZzk1VWVEVG9Rd3B0VTFtZ3JXVXk2WVA5ZUdndUZCSE9CX1otRXhNYlV0dEZSaDk4NDJIZExMNlFKNkVCNjY?oc=5",
       "pubDate": "Mon, 21 Sep 2026 10:20:01 GMT",
@@ -336,6 +367,37 @@
       "ai": {
         "priority": "B",
         "summary": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic CEO達里奧前一周呼籲AI前沿發展踩煞車，黃仁勳明確反駁2030年世界末日概率為0%，視末日預測缺乏科學依據。 黃仁勳強調安全是工程問題而非停工理由，主張產業應盡可能快速 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4ySllfSHVUWk9PNGF4LWZOOUpsOWFhbU5hakU4akIyVWdZMW9Kb0g0VjhKOXkwZ3ZzWXM1SmtnRGJhempKaUpINVg2b0RQTlV4VWFnQ2MzamJISVlYb0V0bg?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 05:38:21 GMT",
+      "description": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic CEO達里奧前一周呼籲AI前沿發展踩煞車，黃仁勳明確反駁2030年世界末日概率為0%，視末日預測缺乏科學依據。 黃仁勳強調安全是工程問題而非停工理由，主張產業應盡可能快速 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "d28cb7379597c4e3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -473,37 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45UGp0QUt5eWdkaFp4eDhaeDd3VEluVXk3azhpeU1JT3lfNkYxUGRIckFvTnN2MmJNQkRpOGdIYnVIWk55bzlwamNadkMxc2dkaTJ5RVNlTGFYVTNkanVxag?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 16:19:44 GMT",
-      "description": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "0d5df5d39ceb2922",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RS1d6RVd0TXJncFRnVzNlNmJnRzB2UGVGWUJ4NzFwVUpTRWZXdHZveHYybmRVOG1WQ28yS3hwZEs0UndIb09qR1ZZWjcwWlgwSlZ3NDhqOHh4ZW1MY1ZnZzU0NHlIcW8?oc=5",
       "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
@@ -522,37 +553,6 @@
       "ai": {
         "priority": "B",
         "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
-      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ec14d32a13963bfd",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -597,99 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnMTBpcWFETVJsT09qM0gwak43bkw5WDQxTllvM1dMaTZQVDlkOWhRalVvQlpHaE5nbEZQeDR4RERoeEgzdEV6S0ZxT3NLS2RnT1lMQQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 23:24:24 GMT",
-      "description": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "dd99261ca3279e32",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Sales…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scmozTTE3cE9EQVFsWVZfUlB0QmI5UHpXRlRHbHd6UVktVFJESFpFelVCTWROQTIzLU5jaDhyeXgzNjhYWkQ5UjZoeldVNzQ0bFlhVg?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 19:07:03 GMT",
-      "description": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerberg 公開寫：每間 lab 自己負責、也有動機用安全節奏訓練，不必一起踩剎車。$NVDA Jensen 在 All-In／媒體口徑是安全跟速度不是二選一，市場力量已經在，不需要新法、不需要新規。ABC、Forbe &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f378aec1420d42e7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Amodei 喊 pace the frontier 之後，陣營更快分出來了。 $META Zuckerber…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xc1kwblRGR3RwM0lfVlZ4d09CX0lhdU9UZnh1TmxlRTRvZjFRR2VkMU94UFdzQXRnb3F2Q05TWWNlWVBETFVRcFZ1Tk0xVmU0SmxxRw?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 13:18:16 GMT",
-      "description": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "57cef70df73767b6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzbG84dm9wVWNvb0xfQXl4Z29YY2JQd1U3ZlZCeGxveVcteDBnSF9nMUttS3ZEQjM0VE1Wb1hBYTFOdDNrRHhSSjhCc0x2VU15eVJ2ZkxNamdkMW9nU1J4RWViTE4?oc=5",
       "pubDate": "Wed, 16 Sep 2026 03:28:41 GMT",
@@ -721,10 +628,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XRG9Tb1NLcWpMdlV4R1k3NUZya2dYNTdVd09ic05kd0Q5MWo3UmxFVUNxMTVMRmdYclhRZGh4QnROUjM1bUpEUncwbmEyT1BCUEVYWEFpUUlLMFFQWkFETw?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 05:14:31 GMT",
-      "description": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel &nbsp;&nbsp; x.com",
+      "title": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnMTBpcWFETVJsT09qM0gwak43bkw5WDQxTllvM1dMaTZQVDlkOWhRalVvQlpHaE5nbEZQeDR4RERoeEgzdEV6S0ZxT3NLS2RnT1lMQQ?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 23:24:24 GMT",
+      "description": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +641,104 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "ccf5210b7cdf8804",
+      "id": "dd99261ca3279e32",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的…",
+        "summary": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Sales…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JQkxYUEpxdVp4YXJSN0ItOFZ5QlZaRHBGYkk1allzNHZaeVhDWkFPX25kVnIxZFh1SGYzMWFaYmZvWi1fZXAxMEdYMHZnY2U1YXRLY1ZPT255YjRi?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
+      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "db9272c547f2698d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVD…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
+      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "ec14d32a13963bfd",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xc1kwblRGR3RwM0lfVlZ4d09CX0lhdU9UZnh1TmxlRTRvZjFRR2VkMU94UFdzQXRnb3F2Q05TWWNlWVBETFVRcFZ1Tk0xVmU0SmxxRw?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 13:18:16 GMT",
+      "description": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "57cef70df73767b6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
