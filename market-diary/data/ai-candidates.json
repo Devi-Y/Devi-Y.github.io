@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:55:40.966Z",
+  "generatedAt": "2026-09-22T14:51:13.690Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -92,6 +92,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm",
+      "pubDate": "Tue, 22 Sep 2026 14:20:00 GMT",
+      "description": "Speech At the 2026 U.S. Treasury Market Conference, Federal Reserve Bank of New York, New York, New York",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 63,
+      "priority": "B",
+      "id": "df759196d8e7e793",
+      "rankReason": "一级/官方信源；市场相关；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -225,37 +256,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0SExSbnY3Ym95T0gxZGZCWnlOeVBpb0J4ZmxWQ0wzZzk1VWVEVG9Rd3B0VTFtZ3JXVXk2WVA5ZUdndUZCSE9CX1otRXhNYlV0dEZSaDk4NDJIZExMNlFKNkVCNjY?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 10:20:01 GMT",
-      "description": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "9ee58d3d8bc0784b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Every @Bitget_zh user is VIP 🩵 FCN 是什麼？家印哥 @xiejiayinBitget 跟你解釋一下！ FCN 固定票息票據簡單講就是：你先設定一個你想買某支美股的「低價」，等待期間結束不管有沒有成交，都能領利息 怎麼運作？假設 $NVDA 現在 225 美元，你投 1 萬 U，設定用 9 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FRmh0YWlyc1Q3ZWJfdWFicWppanRLVDJUT2txTGRlZDJHTS11Mlh5dnVUVmUwTHkyMTF4U1hTWHpKcVBuTWpPVDgwV1FJZ2p3SUl0WmJNNHQyMWZLcE1jZUZROWZ3UQ?oc=5",
       "pubDate": "Sun, 20 Sep 2026 07:34:40 GMT",
@@ -305,6 +305,37 @@
       "ai": {
         "priority": "B",
         "summary": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0SExSbnY3Ym95T0gxZGZCWnlOeVBpb0J4ZmxWQ0wzZzk1VWVEVG9Rd3B0VTFtZ3JXVXk2WVA5ZUdndUZCSE9CX1otRXhNYlV0dEZSaDk4NDJIZExMNlFKNkVCNjY?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 10:20:01 GMT",
+      "description": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "9ee58d3d8bc0784b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -442,10 +473,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSeUxzeHpOV3E5UTJ0Z0NuckI0N0FuOXNMNWI1LUZndUVBTWs4M2M0M2stM2l0dVVkU0ItM05XbUFFUERjdFpxX29zb3pEWDNLNGg2Vk96WmY0ak5HbU9oRTc0d3IxQUxs?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
-      "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
+      "title": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45UGp0QUt5eWdkaFp4eDhaeDd3VEluVXk3azhpeU1JT3lfNkYxUGRIckFvTnN2MmJNQkRpOGdIYnVIWk55bzlwamNadkMxc2dkaTJ5RVNlTGFYVTNkanVxag?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 16:19:44 GMT",
+      "description": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -455,11 +486,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "4ca7fb51c86f1ba1",
+      "id": "0d5df5d39ceb2922",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20%…",
+        "summary": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RS1d6RVd0TXJncFRnVzNlNmJnRzB2UGVGWUJ4NzFwVUpTRWZXdHZveHYybmRVOG1WQ28yS3hwZEs0UndIb09qR1ZZWjcwWlgwSlZ3NDhqOHh4ZW1MY1ZnZzU0NHlIcW8?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
+      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "51fc35266b02618d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -491,37 +553,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen H…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEODFQWkJRQXU1akNPV0dWNXN3RTJuUmF5N0VweWJFOG9ZTzMyXzF1X2t0T24zeHp0VmpRYk84amVRLVJWRTdGR25CTHlCbXN4ekNmag?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 01:54:14 GMT",
-      "description": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Labs正在合作開發NVHBM客製化高頻寬記憶體，d-Matrix也將透過NVLink Fusion連接Vera CPU。Nvidia與Emerald AI另在Silicon Valley Power完成彈性負載示範，系統可暫停低優先級工作並回應數百 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "a0ef209f9d9dc91a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Nvidia在AI Infrastructure Summit宣布，Amazon旗下Annapurna Lab…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -677,37 +708,6 @@
       "ai": {
         "priority": "B",
         "summary": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMSnhUdV9ObTd4eWhyNmZfODRvVHp2VGQ3M2o2N3lnYVVjYVRYcEJqMUVZR21lT1pUUnhpX1dBQW5IMEJpMjUzN1B1ckFKN28xTU5TMQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 16:19:44 GMT",
-      "description": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke）瞄準 GenAI 推理，計劃 2027 年初量產部署；500（Astrid）再抬 HBM 頻寬約 50%，計劃 2027 年量產部署。Bloomberg 口徑更細：450 預計 2027 上半年進機房，500 設計約一個月 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "b2fdb3c0575ef80f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "市場把自研 AI 芯片讀成只會永遠買 $NVDA。錯了。 Meta 官博更新 MTIA 路線：450（Arke…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
