@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:02:51.780Z",
+  "generatedAt": "2026-09-22T00:05:08.223Z",
   "windowDays": 7,
   "summary": {
     "total": 50,
@@ -125,10 +125,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "2026 的 CPU = 2025 的 memory，迎來超級週期 Agentic AI 正在改變整個 AI server 的 CPU:GPU 配置比例，供應鏈已經開始出現訊號： 1. $INTC CEO 表示目前只能滿足約一半客戶 CPU 需求 2. $AMD 大幅上調 Server CPU TAM 3. $NVDA 推出可獨立銷售、專為 Ag - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xVkNZNmdlbTZoUEZnRTRqU0pmS1lmRWVnN1o3MGxSLU0xbEljZzFNcmZudjVfUnlNMjlJWVI0dHgtQ1lTN1RZZmtOR0ItV1NtTmIxLUprWl9FRjQ?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 05:14:32 GMT",
-      "description": "2026 的 CPU = 2025 的 memory，迎來超級週期 Agentic AI 正在改變整個 AI server 的 CPU:GPU 配置比例，供應鏈已經開始出現訊號： 1. $INTC CEO 表示目前只能滿足約一半客戶 CPU 需求 2. $AMD 大幅上調 Server CPU TAM 3. $NVDA 推出可獨立銷售、專為 Ag &nbsp;&nbsp; x.com",
+      "title": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49%，納指漲2.26% 英特爾 $INTC 漲12% Meta Platforms $META 漲11% 高通 $QCOM 漲9% 特斯拉 $TSLA 漲3% AMD $AMD 漲近10% 納斯達克中國金龍指數收漲0.7 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxbDR4allyUnJJWDFxNUNXN21DakNSeW1RajJLY0lTZGhMbkk5Q3JGcllVczN3Zkh6c25HN1ZpcHJWS2RyV0ZBaGZMdkdiajBiM2psdEhyeE5tMVAzTS1NOA?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 20:13:41 GMT",
+      "description": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49%，納指漲2.26% 英特爾 $INTC 漲12% Meta Platforms $META 漲11% 高通 $QCOM 漲9% 特斯拉 $TSLA 漲3% AMD $AMD 漲近10% 納斯達克中國金龍指數收漲0.7 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -138,28 +138,8 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "348c569500a58cae",
+      "id": "7c6c88a0d4a7250a",
       "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "Intel十年前花167億美元買下Altera，一年前才用44.6億美元把51%股權賣給Silver Lake，估值只剩87.5億——現在Altera準備IPO，可能募資超過20億美元。 Altera正式向SEC機密送件申請美國IPO，選定Barclays、花旗、摩根大通、摩根士丹利擔任承銷商，最快可能在今 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRNUg5OVh0czl3SXExeXAweEprb014SDlkUEFFQk5jdWxRRGFjdl9jYUU2ckJjYUZNQWZJdEtjNHJqQkZJdDFSbkpBZ3YwVkQ2VERHNUhJbndlcHM?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 07:58:00 GMT",
-      "description": "Intel十年前花167億美元買下Altera，一年前才用44.6億美元把51%股權賣給Silver Lake，估值只剩87.5億——現在Altera準備IPO，可能募資超過20億美元。 Altera正式向SEC機密送件申請美國IPO，選定Barclays、花旗、摩根大通、摩根士丹利擔任承銷商，最快可能在今 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "56561af9d3008107",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -325,10 +305,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TVGZUaGZlcjVISzRXd0lGbmtsX1FrVE9GWENLUFBlQV9FMkt6dFozVFQxeUF0QkpXY2xSY01wZDVubVBZNlhjV2trNTlzdlFCNDVVdF9HRkFtSDhhYzVoZEtpLXE0MUE?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 23:36:08 GMT",
-      "description": "$NVDA Jensen Huang 大多數人其實不太了解 inference stack 有多複雜。 Fireworks AI 在很大程度上，是最早開始把這件事當成「AI 工廠」來經營的公司之一； Fireworks AI 同時為非常多不同的公司，運行、操作各種模型。 在很多方面，你們就是 TSMC of AI factories。 &nbsp;&nbsp; x.com",
+      "title": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSeUxzeHpOV3E5UTJ0Z0NuckI0N0FuOXNMNWI1LUZndUVBTWs4M2M0M2stM2l0dVVkU0ItM05XbUFFUERjdFpxX29zb3pEWDNLNGg2Vk96WmY0ak5HbU9oRTc0d3IxQUxs?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 12:15:12 GMT",
+      "description": "Edgewater 關於 $MU / $SKHY： 「Anthropic 預計在 CY27 直接採購約 20% 的記憶體，並在 CY28 提高該比例，DRAM 規模大致與 NVDA 相當。」 「Anthropic 和 OpenAI 預計將於 CY27 開始直接採購——Anthropic 聲稱明年有 400–500 億顆 1Gb 的需求，其中約 20% &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -338,7 +318,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "510b41a5db2245c0",
+      "id": "4ca7fb51c86f1ba1",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -685,10 +665,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "叮叮跨市場技術分析(2026/09/17 09:15 UTC+8) #META #NVDA 【⭐ 叮叮今日操作精華 (懶人包) ⭐】 本日操作精華： 【今天最容易做錯的，是把跌後的一根陽線當成翻多，或把強勢股的一根陰線當成趨勢反轉。】 資料以本批截圖為準，不是即時報價。以下價帶均須等待對 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FYjVtWGNZbVJNYi01RzRSQXQtRi1zd215bEdva1NBODZaRks3bFRiMlR4RWxJOURuODd5empkd21JbDFYQUpiUklKTHpjY09iVUZBNk1uOGRSU2lIc21vUXVibzdFQQ?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 01:37:32 GMT",
-      "description": "叮叮跨市場技術分析(2026/09/17 09:15 UTC+8) #META #NVDA 【⭐ 叮叮今日操作精華 (懶人包) ⭐】 本日操作精華： 【今天最容易做錯的，是把跌後的一根陽線當成翻多，或把強勢股的一根陰線當成趨勢反轉。】 資料以本批截圖為準，不是即時報價。以下價帶均須等待對 &nbsp;&nbsp; x.com",
+      "title": "市場把 Bell／$BCE 薩省 AI 機房 headline 超過 $50B、擴到約 1.2GW 讀成 Bell 自己砸五千億、還直接吃掉全省電網一成五。錯了。 口徑拆開：超過 $50B 是機房＋發電＋租戶算力／芯片總資本；Bell 設施側首期約 $1.7B，後續三座按同量級或合計約 $5B 的講法。路徑 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84eTYyYWlZVWVyWEZ1eWNFYktJREVFc0d6cU92RFgyR0gzd3BUS3c3VmJUTFMyd2ZNdFM4NlpEaFIyRFFFcmtvMzFlMk5oWUJrd2F2c0NwUG9KVGZEXzhaSA?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 08:13:13 GMT",
+      "description": "市場把 Bell／$BCE 薩省 AI 機房 headline 超過 $50B、擴到約 1.2GW 讀成 Bell 自己砸五千億、還直接吃掉全省電網一成五。錯了。 口徑拆開：超過 $50B 是機房＋發電＋租戶算力／芯片總資本；Bell 設施側首期約 $1.7B，後續三座按同量級或合計約 $5B 的講法。路徑 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -698,7 +678,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "71926b68450feb53",
+      "id": "27c64fa535e15277",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -945,6 +925,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "真的萬中選一了 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52Z2hxSnlWWGtkdFRRTFVNTXl1S1hnMktZRlRCWHlIQW01SGx0TlZhTGNiRWN1b1Vlb1dmYkJ4eG1fMnVtaS1DR3FKMnh0VmsxQmRmc214MVh2LVk1Q29Ib3J5eXNZZw?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 04:09:28 GMT",
+      "description": "真的萬中選一了 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "3f44874fca79681e",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "這個好有趣 感謝grok翻譯可以看到西班牙文推文的內容 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hUi15Q2VXUVhvSkRZS2dzaUYyWjFnYjNTemxreWF1b2l0Q1JybEhnWERFZlh1UTA2bkpxUDE4RV9FR3J3LW16bTkySHBFSlQxNVpqUzFmdTE5VmdXVmt1alBR?oc=5",
       "pubDate": "Tue, 15 Sep 2026 03:56:25 GMT",
@@ -1022,5 +1022,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-21T21:02:52.270Z"
+  "rankedAt": "2026-09-22T00:05:08.571Z"
 }
