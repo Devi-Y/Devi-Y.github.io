@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-23T00:30:16.332Z",
+  "generatedAt": "2026-09-23T05:57:51.126Z",
   "windowDays": 7,
   "summary": {
-    "total": 48,
+    "total": 43,
     "bySignal": {
       "事实": 6,
       "媒体": 0,
       "人物": 4,
       "资金": 0,
-      "热点": 38
+      "热点": 33
     },
     "byTrust": {
       "A": 9,
       "B": 1,
-      "C": 38
+      "C": 33
     },
     "s": 0,
     "a": 3,
-    "b": 45
+    "b": 40
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -115,11 +115,13 @@
       "declaredTrust": "B",
       "trustTier": "B",
       "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 63,
       "priority": "B",
       "id": "83dda7d0361425b5",
-      "rankReason": "高影响事件词；关键人物"
+      "rankReason": "高影响事件词；关键人物",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -135,11 +137,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "e41f92f76717bca7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -155,11 +159,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "56561af9d3008107",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -175,11 +181,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "c5baaf98f6a106bb",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -195,11 +203,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "7c6c88a0d4a7250a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -215,11 +225,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "2c4edd3075c76604",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -235,11 +247,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "d28cb7379597c4e3",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -255,11 +269,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "9ee58d3d8bc0784b",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "宏观",
@@ -295,11 +311,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "a7c38bcf10c016a7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -315,31 +333,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "e7c0e038616cd4f2",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "十年期美債殖利率昨天盤中一度衝上5.04%，創2007年以來新高，但今天真正的重頭戲才要登場：Fed可能要在19年來第一次，不是降息也不是按兵不動，而是升息。 CME利率期貨顯示，市場對今天(9/16，台灣時間凌晨2點)這場FOMC會議升息一碼的機率已經衝到92% - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsZXJZVXJsU2pLQzZkRkVYcFk0T2NDdUJCNVh4dTN0U3dtUTlPNmZieWF6QjBROV8xQ3hDZG1QWktHS3NSRVlWRll5Wk0tQ2FhX21icTZfdlVBTFk?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 03:35:00 GMT",
-      "description": "十年期美債殖利率昨天盤中一度衝上5.04%，創2007年以來新高，但今天真正的重頭戲才要登場：Fed可能要在19年來第一次，不是降息也不是按兵不動，而是升息。 CME利率期貨顯示，市場對今天(9/16，台灣時間凌晨2點)這場FOMC會議升息一碼的機率已經衝到92% &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "344b3d6cd41b04c6",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -355,11 +355,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "51fc35266b02618d",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -375,11 +377,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "ec14d32a13963bfd",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -395,51 +399,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "529d33fc7fe7cf70",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzbG84dm9wVWNvb0xfQXl4Z29YY2JQd1U3ZlZCeGxveVcteDBnSF9nMUttS3ZEQjM0VE1Wb1hBYTFOdDNrRHhSSjhCc0x2VU15eVJ2ZkxNamdkMW9nU1J4RWViTE4?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 03:28:41 GMT",
-      "description": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "066b91e6977aeb32",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XRG9Tb1NLcWpMdlV4R1k3NUZya2dYNTdVd09ic05kd0Q5MWo3UmxFVUNxMTVMRmdYclhRZGh4QnROUjM1bUpEUncwbmEyT1BCUEVYWEFpUUlLMFFQWkFETw?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 05:14:31 GMT",
-      "description": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ccf5210b7cdf8804",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -455,51 +421,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "53b5e405fd3342de",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JQkxYUEpxdVp4YXJSN0ItOFZ5QlZaRHBGYkk1allzNHZaeVhDWkFPX25kVnIxZFh1SGYzMWFaYmZvWi1fZXAxMEdYMHZnY2U1YXRLY1ZPT255YjRi?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
-      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "db9272c547f2698d",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "叮叮跨市場技術分析(2026/09/16 10:21 UTC+8) #META #XOM 【⭐ 叮叮今日操作精華 (懶人包) ⭐】 本日操作精華： 【反彈不代表跌勢結束，回調也不代表多頭反轉；今天要分開看每檔股票，不要整批一起追漲殺跌。】 【#NVDA NVIDIA Corporation】：日線仍在主要防線下 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FNml4YTFtRldLT3g0a25Za05MQWQ2TDBkU1dyQkwwRHNDUUNuS19aa1ZDcGtfbWw3NU1Obl9hT1E1bEJMZDBPeklnY2g2RE95MmZxRU51WGs0eURmeDI4OEhEVXJ6dw?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 02:49:22 GMT",
-      "description": "叮叮跨市場技術分析(2026/09/16 10:21 UTC+8) #META #XOM 【⭐ 叮叮今日操作精華 (懶人包) ⭐】 本日操作精華： 【反彈不代表跌勢結束，回調也不代表多頭反轉；今天要分開看每檔股票，不要整批一起追漲殺跌。】 【#NVDA NVIDIA Corporation】：日線仍在主要防線下 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f67f5d7e967d51c4",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -515,11 +443,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "71926b68450feb53",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -535,11 +465,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "e75a594c62ee1bcc",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -555,11 +487,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "c9daf4ca7a47d196",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -575,11 +509,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "a9f17b116e0beca3",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -595,11 +531,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "32254669a323dc48",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "宏观",
@@ -695,11 +633,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 34,
       "priority": "B",
       "id": "e8dc327902587d97",
-      "rankReason": "市场相关；社媒只做热点发现"
+      "rankReason": "市场相关；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -715,11 +655,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 34,
       "priority": "B",
       "id": "81409cae20a800a1",
-      "rankReason": "市场相关；社媒只做热点发现"
+      "rankReason": "市场相关；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -735,11 +677,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 31,
       "priority": "B",
       "id": "73624a28a5b61cfd",
-      "rankReason": "市场相关；社媒只做热点发现"
+      "rankReason": "市场相关；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -755,11 +699,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 20,
       "priority": "B",
       "id": "4c2b5a124faef965",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -775,31 +721,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 20,
       "priority": "B",
       "id": "81c27597b93d932e",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Reposts by 駿HaYaO (@QQ_Timmy) - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE90bE5fWVdDWE1OelVuTExOYnlBT0RPNkdnc1pabEdqbkx1UXl6c0x3aE1vRk82a3p1azI3UFVrZzNvNEN1?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 05:20:35 GMT",
-      "description": "Reposts by 駿HaYaO (@QQ_Timmy) &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "af80ea19ea7e877c",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -815,11 +743,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 20,
       "priority": "B",
       "id": "971546953407beaa",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -835,11 +765,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 20,
       "priority": "B",
       "id": "d995dad32bcf96d7",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -855,11 +787,35 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 20,
       "priority": "B",
       "id": "8040aa123c3ea4b3",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Reposts by 駿HaYaO (@QQ_Timmy) - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE90bE5fWVdDWE1OelVuTExOYnlBT0RPNkdnc1pabEdqbkx1UXl6c0x3aE1vRk82a3p1azI3UFVrZzNvNEN1?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 05:20:35 GMT",
+      "description": "Reposts by 駿HaYaO (@QQ_Timmy) &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
+      "score": 17,
+      "priority": "B",
+      "id": "af80ea19ea7e877c",
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -875,11 +831,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "1a6009e73d92781d",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -895,11 +853,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "5e72454fed38ab6e",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -915,11 +875,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "db875c530f178940",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -935,11 +897,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "b25d7dc4eb5bace6",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -955,11 +919,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "e7ee6ae5ccc2e61b",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     },
     {
       "market": "全球",
@@ -975,12 +941,14 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "77a710650e57f794",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-09-23T05:57:51.124Z"
     }
   ],
-  "rankedAt": "2026-09-23T00:30:16.732Z"
+  "rankedAt": "2026-09-23T05:57:51.180Z"
 }
