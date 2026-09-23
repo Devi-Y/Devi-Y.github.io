@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:55:06.432Z",
+  "generatedAt": "2026-09-23T20:19:55.364Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -92,68 +92,6 @@
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-      "pubDate": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "description": "Federal Reserve issues FOMC statement",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "b5b28300b78d3671",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-      "pubDate": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "description": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "6351f13e00154425",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -442,37 +380,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
-      "title": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤即時更新。https://t.co/eogv3LN12M - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MNTlqYjNyWlQ4YTYxUnBnX0xzNU9zM2dqQVRVSGM0Y3hmclVVVjFmc21VRkdsZnVPc0FlR0tyX2Y3emtYRTZIaFA2X1psNlJKMzZDSw?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 20:57:22 GMT",
-      "description": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤即時更新。https://t.co/eogv3LN12M &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "a7c38bcf10c016a7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
       "title": "2026/09/17｜美國聯準會（Federal Reserve）三年多來首次升息，將基準利率提高 0.25個百分點至3.75%–4.00%。聯邦公開市場委員會（FOMC）以12票對0票一致通過，表示美國經濟仍以穩健速度成長，但通膨持續偏高，升息有助物價更快回到2%的政策目標。 最新經 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3akhWWENoMVo1MmlBTHk4eVJBcERjQXdTOUVFbGl3cXNESXRER3hMUTlzemFTRU02WjRwLWdYMThxVGxMaFh0SExpMEJPck9Wa0NJQV9Oa1lSdFRqaGpMS1J3?oc=5",
       "pubDate": "Fri, 18 Sep 2026 02:31:48 GMT",
@@ -656,37 +563,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📍#NVDA 叮叮技術分析 (2026/09/17 09:15 UTC+8) ⚡ 關鍵信號：多週期S級共振偏空，反抽受壓順勢主跌 【核心觀點】：日線、4H與1H全線維持S級空頭主跌段，價格失守月線分水嶺216.03後開高走低，買方未收復關鍵成本，整體操作統一以各週期反抽受壓試空為主。 🎯 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MbUdTX2NZUEU3anBGMDczQzlXaUpUeVVPNGY3WjBpNERTbThJTGRIaVhmLXFxbFROWXVlX0FNcHhmbkNsQXVsWnA5ekNDLUdIcVNPTkd1M0JWYnVreGg5SjFPX1p0QQ?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 01:37:37 GMT",
-      "description": "📍#NVDA 叮叮技術分析 (2026/09/17 09:15 UTC+8) ⚡ 關鍵信號：多週期S級共振偏空，反抽受壓順勢主跌 【核心觀點】：日線、4H與1H全線維持S級空頭主跌段，價格失守月線分水嶺216.03後開高走低，買方未收復關鍵成本，整體操作統一以各週期反抽受壓試空為主。 🎯 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "c9daf4ca7a47d196",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📍#NVDA 叮叮技術分析 (2026/09/17 09:15 UTC+8) ⚡ 關鍵信號：多週期S級共振偏…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -745,6 +621,130 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+      "pubDate": "Fri, 18 Sep 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 38,
+      "priority": "B",
+      "id": "fcd7c4044f07a0d8",
+      "rankReason": "一级/官方信源",
+      "ai": {
+        "priority": "B",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+      "pubDate": "Fri, 18 Sep 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 38,
+      "priority": "B",
+      "id": "c20cd7d80863d0b6",
+      "rankReason": "一级/官方信源",
+      "ai": {
+        "priority": "B",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "盤前快報 (2026.09.23) 宏觀概況與重點數據盤點： 股指期貨：美股三大期指盤前維持高位窄幅震盪。道瓊期貨微漲 +0.10%（早盤曾漲41點），標普500期貨上漲 +0.10%（約+7點），納斯達克100期貨上漲 +0.10%。 大宗商品與外匯： WTI 原油期貨下跌 -0.70% 至約 $89.89 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41cWdIMW54NE45RHJqQ0ZBZ0gweXVWb3pVVFROSzhVeVQtR3BoaFBhTEpjd0lJQWZyeG9DRWtYYmsxa25mY0NHeFVacFUzMnlCQ293WFdMR0M0N1plbkZPU1VQdHVqQlk?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 13:26:41 GMT",
+      "description": "盤前快報 (2026.09.23) 宏觀概況與重點數據盤點： 股指期貨：美股三大期指盤前維持高位窄幅震盪。道瓊期貨微漲 +0.10%（早盤曾漲41點），標普500期貨上漲 +0.10%（約+7點），納斯達克100期貨上漲 +0.10%。 大宗商品與外匯： WTI 原油期貨下跌 -0.70% 至約 $89.89 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 34,
+      "priority": "B",
+      "id": "593b7618fe2c5508",
+      "rankReason": "市场相关；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "盤前快報 (2026.09.23) 宏觀概況與重點數據盤點： 股指期貨：美股三大期指盤前維持高位窄幅震盪。道瓊…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "⏳ 美股期權活動進入最後一週，GOOGL 整股等你贏！ 從首單美股獎勵、明星股抽獎到交易排行榜，多重福利進入最後衝刺： 🎁 每週完成首筆有效交易，前 500 名可獲 $20 等值對應美股 🤖 本週抽取 50 名用戶，每人贈送 1 股 GOOGL 🏆 累計交易量 TOP 30，瓜分 $24,00 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NSURtVDh0RERRX3ZNN3RXM3BpV0JEUlczQ1V2d3psZzJIcTg0OHNnaWdYR0dfNEVlZWVOLU1yOUotOE5EODJySGZXaTNnOGRvbzdvdlgzaW90TTZ1czM5QXNyb2doaFU?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 10:50:00 GMT",
+      "description": "⏳ 美股期權活動進入最後一週，GOOGL 整股等你贏！ 從首單美股獎勵、明星股抽獎到交易排行榜，多重福利進入最後衝刺： 🎁 每週完成首筆有效交易，前 500 名可獲 $20 等值對應美股 🤖 本週抽取 50 名用戶，每人贈送 1 股 GOOGL 🏆 累計交易量 TOP 30，瓜分 $24,00 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 31,
+      "priority": "B",
+      "id": "e8dc327902587d97",
+      "rankReason": "市场相关；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "⏳ 美股期權活動進入最後一週，GOOGL 整股等你贏！ 從首單美股獎勵、明星股抽獎到交易排行榜，多重福利進入最…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     }
