@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:06:51.633Z",
+  "generatedAt": "2026-09-23T00:30:17.365Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -156,37 +156,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "一年前， $NVDA 的規模是 $AMD 的約 40 倍。如今，這差距縮小到約 5 倍，AMD 正式加入 $1 兆俱樂部。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MZlZVV1dhZTFSbWgzNDlkaXVtLXBocFluNE1FUnFhRlVMT210dGZXVHNKNUdtOFR2ZUwzaUZ0VU1JcTA5WE9WZlU0R2RZMVlZb1V5OTNPNVB3UTVaSEtIbXc5UmpodXlqS25Z?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 00:31:17 GMT",
-      "description": "一年前， $NVDA 的規模是 $AMD 的約 40 倍。如今，這差距縮小到約 5 倍，AMD 正式加入 $1 兆俱樂部。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5d0728ce94aa8138",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "一年前， $NVDA 的規模是 $AMD 的約 40 倍。如今，這差距縮小到約 5 倍，AMD 正式加入 $1…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -442,37 +411,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
-      "title": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 第三季營收展望：1080 億美元，正負 2%。 毛利率指引重設：受 HBM 記憶體稀缺與價格大幅調升影響，第三季毛利率預計降至 74%。 底部預測：毛利率預計在第四季 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uRWROTXNueXVQa2Y0X2tTc1k2dG1DVmg1a0N2dHdXb1VTTC1hcVNSWG1qWk9Pa0ZsTmtPd21jOVhWa216Mm1vdW9Hbk5SNl85SENHVXh5Ujh0eWRib3lidVViVUhsSTg?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 22:28:17 GMT",
-      "description": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 第三季營收展望：1080 億美元，正負 2%。 毛利率指引重設：受 HBM 記憶體稀缺與價格大幅調升影響，第三季毛利率預計降至 74%。 底部預測：毛利率預計在第四季 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9c777a345bbb7501",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA $JPM 毛利率挑戰 面對記憶體成本飆升與產品迭代成本， $NVDA 採取了預期管理的透明策略。 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
       "title": "聯邦儲備局三年來首次提高利率，這是主席凱文·沃什（Kevin Warsh）的一項舉措，可能使他與川普對立。追蹤即時更新。https://t.co/eogv3LN12M - x.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MNTlqYjNyWlQ4YTYxUnBnX0xzNU9zM2dqQVRVSGM0Y3hmclVVVjFmc21VRkdsZnVPc0FlR0tyX2Y3emtYRTZIaFA2X1psNlJKMzZDSw?oc=5",
       "pubDate": "Wed, 16 Sep 2026 20:57:22 GMT",
@@ -557,37 +495,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "市場把 Tesla AI 芯片讀成只靠台積電交貨。錯了。 韓媒 Sedaily（業內口徑，9/16）：三星 Texas Taylor 廠已提前進入 AI5 試產與良率驗證，產線跑 2nm wafer；原計劃約 11 月全面運轉，因先進製程產能吃緊提前啟動。公司目標年底前完成量產驗證，明年起較大規模供貨。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwS2hZNF9qUm50Ulktb3dpSzAxUW5zelN5OXk0TXdwd21kX1BicFlwSHhKQ0NFWi0zekR4ZHdqOVhkOGdReUdlc0cybzhxZzZrdnU2OVRJNFNvTDJBNnlMNw?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 23:26:05 GMT",
-      "description": "市場把 Tesla AI 芯片讀成只靠台積電交貨。錯了。 韓媒 Sedaily（業內口徑，9/16）：三星 Texas Taylor 廠已提前進入 AI5 試產與良率驗證，產線跑 2nm wafer；原計劃約 11 月全面運轉，因先進製程產能吃緊提前啟動。公司目標年底前完成量產驗證，明年起較大規模供貨。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9c5741361fc1102d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "市場把 Tesla AI 芯片讀成只靠台積電交貨。錯了。 韓媒 Sedaily（業內口徑，9/16）：三星 T…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -690,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnMTBpcWFETVJsT09qM0gwak43bkw5WDQxTllvM1dMaTZQVDlkOWhRalVvQlpHaE5nbEZQeDR4RERoeEgzdEV6S0ZxT3NLS2RnT1lMQQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 23:24:24 GMT",
-      "description": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Salesforce 首個 CRM reasoning model，掛在 Agentforce；底座是後訓練 NVIDIA Nemotron 3 Super，語料按近 30 年 CRM 部署場景合成，不用客戶真實數據。自家 CRM benchmark &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "dd99261ca3279e32",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "市場把企業 Agent 讀成再換一個通用大模型。錯了。 $CRM 與 $NVDA 官宣：Koa 是 Sales…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) 國家主席習近平 (Xi Jinping) 舉辦的晚宴。這項舉動立刻引發了市場熱議，外界密切關注中美兩國在科技與貿易領域未來的潛在發展。 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzbG84dm9wVWNvb0xfQXl4Z29YY2JQd1U3ZlZCeGxveVcteDBnSF9nMUttS3ZEQjM0VE1Wb1hBYTFOdDNrRHhSSjhCc0x2VU15eVJ2ZkxNamdkMW9nU1J4RWViTE4?oc=5",
       "pubDate": "Wed, 16 Sep 2026 03:28:41 GMT",
@@ -739,6 +615,130 @@
       "ai": {
         "priority": "B",
         "summary": "輝達 (NVDA) 執行長預計將出席由美國前總統特朗普 (Donald Trump) 為中國 (China) …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XRG9Tb1NLcWpMdlV4R1k3NUZya2dYNTdVd09ic05kd0Q5MWo3UmxFVUNxMTVMRmdYclhRZGh4QnROUjM1bUpEUncwbmEyT1BCUEVYWEFpUUlLMFFQWkFETw?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 05:14:31 GMT",
+      "description": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的 AI 伺服器訂單，瞄準企業／自治体／研究機構／資料中心；銷售預計 2027 財年開賣。首發是業務向 NVIDIA RTX Pro 伺服器，最高可配 8 顆 RTX PRO 6000 Blackwel &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "ccf5210b7cdf8804",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "市場把夏普讀成只剩面板與消費電子。錯了。 Sharp 9/15 官宣：日本國內開始接受搭載 $NVDA 技術的…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QODFMZEh4SGlhZHhKdDhod29IektEb2NXYlRnaERvbnFFZU95a2FXSEx4UjdnaXdrWkUwQXRjSTdRYXgwTWdiRU1hejdnMmNaS3VYcllGeENGaXpJSkpDcA?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 13:18:16 GMT",
+      "description": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說 2027 年底商用，現在改成 2027 一季。同系列 960PR 排在 2027 三季。再往後，980 指向 2029。口徑是一代大概翻一倍算力。 有意思的不是單卡硬槓 $NVDA。他們自己 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "53b5e405fd3342de",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "華為今天上海峰會把 Ascend 路線圖又往前挪了。 輪值董事長汪濤講，旗艦 Ascend 960DT 原來說…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JQkxYUEpxdVp4YXJSN0ItOFZ5QlZaRHBGYkk1allzNHZaeVhDWkFPX25kVnIxZFh1SGYzMWFaYmZvWi1fZXAxMEdYMHZnY2U1YXRLY1ZPT255YjRi?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 05:17:01 GMT",
+      "description": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVDA -3.4%｜AMD -4.3%｜MU -5.2% 🔻 AVGO -4.7%｜TSM -3.4% 🔻 VST -5.2%｜GEV -8.6% 9/12 週六，Anthropic CEO 發表〈We Must Pace the Frontier〉，主張 AI 產業要「放 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "db9272c547f2698d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Dario 的信 73M 人看過，但市場只讀懂兩個字：放慢。所以週一 AI 供應鏈血流成河 👇 🔻 NVD…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "叮叮跨市場技術分析(2026/09/16 10:21 UTC+8) #META #XOM 【⭐ 叮叮今日操作精華 (懶人包) ⭐】 本日操作精華： 【反彈不代表跌勢結束，回調也不代表多頭反轉；今天要分開看每檔股票，不要整批一起追漲殺跌。】 【#NVDA NVIDIA Corporation】：日線仍在主要防線下 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FNml4YTFtRldLT3g0a25Za05MQWQ2TDBkU1dyQkwwRHNDUUNuS19aa1ZDcGtfbWw3NU1Obl9hT1E1bEJMZDBPeklnY2g2RE95MmZxRU51WGs0eURmeDI4OEhEVXJ6dw?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 02:49:22 GMT",
+      "description": "叮叮跨市場技術分析(2026/09/16 10:21 UTC+8) #META #XOM 【⭐ 叮叮今日操作精華 (懶人包) ⭐】 本日操作精華： 【反彈不代表跌勢結束，回調也不代表多頭反轉；今天要分開看每檔股票，不要整批一起追漲殺跌。】 【#NVDA NVIDIA Corporation】：日線仍在主要防線下 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "f67f5d7e967d51c4",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "叮叮跨市場技術分析(2026/09/16 10:21 UTC+8) #META #XOM 【⭐ 叮叮今日操作精…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
