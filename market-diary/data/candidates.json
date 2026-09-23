@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:19:54.492Z",
+  "generatedAt": "2026-09-23T23:40:23.239Z",
   "windowDays": 7,
   "summary": {
     "total": 47,
@@ -242,26 +242,6 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
-      "pubDate": "Tue, 22 Sep 2026 20:30:00 GMT",
-      "description": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 44,
-      "priority": "B",
-      "id": "b2025ea65de2ee5a",
-      "rankReason": "一级/官方信源"
-    },
-    {
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
@@ -299,26 +279,6 @@
       "score": 44,
       "priority": "B",
       "id": "51fc35266b02618d",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaN3lMaHJVVXQxY2M3NU96OUxMMkszemZxWThSaXhMenAxSjFxdFNnYmJhaVczUXYxTUc3YlE1b2Y0S29GbXB0a254LTF1VEJaUjJVRENDZFFYNTBDOWh2T0xrQnVySXM?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 22:26:03 GMT",
-      "description": "$NVDA 你對 Terafab 有什麼看法？Elon 宣布要蓋一座 1 億平方英尺的工廠。 Jensen Huang 和 Elon Musk 曾一起搭飛機， 在飛機上花了很多時間討論這件事，但你勸不了 Elon 不要做這件事，這是他的超能力之一。 一旦他決定要去做某件事，就很難阻止他。 這件事很 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ec14d32a13963bfd",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -420,6 +380,26 @@
       "priority": "B",
       "id": "ffb238c68db6ab4f",
       "rankReason": "一级/官方信源；关键人物"
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
+      "pubDate": "Tue, 22 Sep 2026 20:30:00 GMT",
+      "description": "Federal Reserve Board announces approval of application by BancFirst Corporation",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 41,
+      "priority": "B",
+      "id": "b2025ea65de2ee5a",
+      "rankReason": "一级/官方信源"
     },
     {
       "market": "宏观",
@@ -585,6 +565,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "你好直播間： https://t.co/vaMqtBTlUM - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15a3U4czRjdUZ4cnNacHhWSjlHVzhvcEl5RW5oaFdSMFNEWHRkLWQ1Z0k1TkIyU0RlZ19rNXF2ME9tV0s0bFdtb1o3YlZTdHFkMTMzR2RDcVp0U0dkMUZhVkk0ZnRMZw?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 11:55:36 GMT",
+      "description": "你好直播間： https://t.co/vaMqtBTlUM &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "45744df2ce93e70b",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "🔻直播通知🔻 🗓️2026/09/23 🕒8:00 p.m. 哈哈一輩子的飛機棋（也有可能會有一些別的） #祁來看台 - x.com",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IZkhrV1lBVGRpTFFISThFRDJ1MVVGbEwxMGxjVnpTbi1OcjlkM3FhU3BYRUhZMjFkZzdNbnpNZm9Zd3JTLXBMT1hBUUhTWFZ6UUdmbjNxTzV4VXl0RDZZQ19wRG9iZ3d6eHprWDlXRTM?oc=5",
       "pubDate": "Wed, 23 Sep 2026 11:55:23 GMT",
@@ -599,26 +599,6 @@
       "score": 20,
       "priority": "B",
       "id": "45a82e2f562a5f5d",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "所以日本人討厭中國， 可能並不完全出自於被右翼洗腦， 另一個原因可能是 放不下昔日站在頂端的榮光、 不願意承認自己逐漸衰敗， 一種失敗者的哀號。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxSlFuWDVaa0dnOTl3QkNGYl9waWFZcE43YXppRE9DeHpVVW1VU3NxVWFmSnJ4UXZvLUx6SU5VN2wwTzl0ZHhVS3A2NHd1Q1A4ZzNuQWVZZG9USHotZ3dsZzZrYTg?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 23:33:13 GMT",
-      "description": "所以日本人討厭中國， 可能並不完全出自於被右翼洗腦， 另一個原因可能是 放不下昔日站在頂端的榮光、 不願意承認自己逐漸衰敗， 一種失敗者的哀號。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "8b6f505628397c21",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -805,6 +785,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "所以日本人討厭中國， 可能並不完全出自於被右翼洗腦， 另一個原因可能是 放不下昔日站在頂端的榮光、 不願意承認自己逐漸衰敗， 一種失敗者的哀號。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxSlFuWDVaa0dnOTl3QkNGYl9waWFZcE43YXppRE9DeHpVVW1VU3NxVWFmSnJ4UXZvLUx6SU5VN2wwTzl0ZHhVS3A2NHd1Q1A4ZzNuQWVZZG9USHotZ3dsZzZrYTg?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 23:33:13 GMT",
+      "description": "所以日本人討厭中國， 可能並不完全出自於被右翼洗腦， 另一個原因可能是 放不下昔日站在頂端的榮光、 不願意承認自己逐漸衰敗， 一種失敗者的哀號。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "8b6f505628397c21",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Ok lang sa Amboys yan - x.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxY3N1aVZjQ2prWlFFa2pvYTV2WjV0NEp1SzdSRVVsZmNYbFdLamxzQ1BEQkFOdFpIUzJQTXM4cTN4VFp6SEtiTndibXl6QXJEcXhEUlB1VndrVm1BeUJTWnktTQ?oc=5",
       "pubDate": "Tue, 22 Sep 2026 10:27:12 GMT",
@@ -962,5 +962,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-23T20:19:54.877Z"
+  "rankedAt": "2026-09-23T23:40:24.443Z"
 }
