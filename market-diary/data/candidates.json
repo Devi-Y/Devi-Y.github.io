@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T19:08:00.368Z",
+  "generatedAt": "2026-09-24T22:22:27.708Z",
   "windowDays": 7,
   "summary": {
     "total": 47,
@@ -225,26 +225,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Shein、Temu 和 AliExpress 線上銷售同時下滑 https://t.co/eCcMXFPhPV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92NzVZNW5yYkVmNVMzYmxHeEpKN0tuQXp2SVJPbjZ4YnBtRmN3dHBidXQzWnlWYnRiWV9WNlkyWHVYSUNUWWY0VE9XZXF1akJBU25MakxqdzRhM01KbkdmeQ?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 19:43:54 GMT",
-      "description": "Shein、Temu 和 AliExpress 線上銷售同時下滑 https://t.co/eCcMXFPhPV &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "c5baaf98f6a106bb",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "📈 股票打卡激勵開啟，200 股 NVDA 等你來拿！ 🎁 前 5,000 名可搶先領 2 USDT 👉 立即參與：https://t.co/S0xJzeng7M 📅 每日打卡交易，累計達標贏 NVDA，最高可領 0.1 股 🔥 高級打卡達標，還有機會抽取 0.5 股 NVDA 🤝 邀請好友完成股票交易，每成功 1 人再得 0.01 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwV1g4blFEaFFjZFM0a1VKR2xYQk5DTlVjZlc0dGJkSi1YWV9ENnBJMkpJY2JFQnA0QWk0ZHEyeHFkTlRjZERpWHluNXNTeU80aVpaTFphSEpUMEN2MkkyRUdObzJobGM?oc=5",
       "pubDate": "Wed, 23 Sep 2026 11:47:00 GMT",
@@ -279,26 +259,6 @@
       "score": 47,
       "priority": "B",
       "id": "0899d58cae6fa428",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49%，納指漲2.26% 英特爾 $INTC 漲12% Meta Platforms $META 漲11% 高通 $QCOM 漲9% 特斯拉 $TSLA 漲3% AMD $AMD 漲近10% 納斯達克中國金龍指數收漲0.7 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxbDR4allyUnJJWDFxNUNXN21DakNSeW1RajJLY0lTZGhMbkk5Q3JGcllVczN3Zkh6c25HN1ZpcHJWS2RyV0ZBaGZMdkdiajBiM2psdEhyeE5tMVAzTS1NOA?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 20:13:41 GMT",
-      "description": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49%，納指漲2.26% 英特爾 $INTC 漲12% Meta Platforms $META 漲11% 高通 $QCOM 漲9% 特斯拉 $TSLA 漲3% AMD $AMD 漲近10% 納斯達克中國金龍指數收漲0.7 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "7c6c88a0d4a7250a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -359,6 +319,46 @@
       "score": 44,
       "priority": "B",
       "id": "e7c0e038616cd4f2",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Shein、Temu 和 AliExpress 線上銷售同時下滑 https://t.co/eCcMXFPhPV - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92NzVZNW5yYkVmNVMzYmxHeEpKN0tuQXp2SVJPbjZ4YnBtRmN3dHBidXQzWnlWYnRiWV9WNlkyWHVYSUNUWWY0VE9XZXF1akJBU25MakxqdzRhM01KbkdmeQ?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 19:43:54 GMT",
+      "description": "Shein、Temu 和 AliExpress 線上銷售同時下滑 https://t.co/eCcMXFPhPV &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "c5baaf98f6a106bb",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49%，納指漲2.26% 英特爾 $INTC 漲12% Meta Platforms $META 漲11% 高通 $QCOM 漲9% 特斯拉 $TSLA 漲3% AMD $AMD 漲近10% 納斯達克中國金龍指數收漲0.7 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxbDR4allyUnJJWDFxNUNXN21DakNSeW1RajJLY0lTZGhMbkk5Q3JGcllVczN3Zkh6c25HN1ZpcHJWS2RyV0ZBaGZMdkdiajBiM2psdEhyeE5tMVAzTS1NOA?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 20:13:41 GMT",
+      "description": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49%，納指漲2.26% 英特爾 $INTC 漲12% Meta Platforms $META 漲11% 高通 $QCOM 漲9% 特斯拉 $TSLA 漲3% AMD $AMD 漲近10% 納斯達克中國金龍指數收漲0.7 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "7c6c88a0d4a7250a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -962,5 +962,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-24T19:08:00.830Z"
+  "rankedAt": "2026-09-24T22:22:28.071Z"
 }
