@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-26T17:08:42.848Z",
+  "generatedAt": "2026-09-26T19:50:07.720Z",
   "windowDays": 7,
   "summary": {
-    "total": 48,
+    "total": 47,
     "bySignal": {
       "事实": 6,
-      "媒体": 1,
+      "媒体": 0,
       "人物": 3,
       "资金": 0,
       "热点": 38
     },
     "byTrust": {
       "A": 8,
-      "B": 2,
+      "B": 1,
       "C": 38
     },
     "s": 0,
     "a": 2,
-    "b": 46
+    "b": 45
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -180,26 +180,6 @@
       "priority": "B",
       "id": "f254e6d0fc8b45a3",
       "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "主要股東搜尋 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OX1RVd0h6aU9lSTQ2RU9Ec0FfQmN5R05ueG1WVnlSZ0Z2dXplZEhKSjdIS0wxS00yRkNTNTlmM3Y3TXQ1TExnTTJTdWNmcHNDUkR5djNHX1lsRkE4MF9VS08yWkhzYnpYSzZKMlF1ZUZaQQ?oc=5",
-      "pubDate": "Sat, 26 Sep 2026 04:13:24 GMT",
-      "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 48,
-      "priority": "B",
-      "id": "2c1d34e5882a1e6f",
-      "rankReason": "市场相关"
     },
     {
       "market": "全球",
@@ -982,5 +962,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-26T17:08:43.280Z"
+  "rankedAt": "2026-09-26T19:50:09.175Z"
 }
