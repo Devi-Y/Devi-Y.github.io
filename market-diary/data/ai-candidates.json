@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T01:31:40.653Z",
+  "generatedAt": "2026-09-26T07:38:39.201Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -70,11 +70,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "市場消息：OpenAI首席執行官Sam Altman將在聯合國演講中推動制定人工智能標準。 - 富途牛牛",
+      "title": "市場消息：OpenAI首席執行官Sam Altman將在聯合國演講中推動制定人工智能標準。 - news.futunn.com",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTBBOWNmME1UTzRJby1EOTQyNEcxZDJxWm5VemlPTVFVcEUzVDJTb3gtb185SENCSm9HYnNaSXhhOUQ2X3B0Y3g3azUwMkNEZzVTS0pLekVrc1pXWlR2WVZnMm9YbmExcmMxYURIVUFkRktoV0tVVkFTYTJwd1F4LVI0N3BxX1pFSWJUanVDbzNNZzZ1TndrT0ppQUI?oc=5",
       "pubDate": "Wed, 23 Sep 2026 10:24:42 GMT",
-      "description": "市場消息：OpenAI首席執行官Sam Altman將在聯合國演講中推動制定人工智能標準。 &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "description": "市場消息：OpenAI首席執行官Sam Altman將在聯合國演講中推動制定人工智能標準。 &nbsp;&nbsp; news.futunn.com",
+      "source": "news.futunn.com",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -83,11 +83,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "40150f888001adcb",
+      "id": "48160f35c46dd40a",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "市場消息：OpenAI首席執行官Sam Altman將在聯合國演講中推動制定人工智能標準。 - 富途牛牛",
+        "summary": "市場消息：OpenAI首席執行官Sam Altman將在聯合國演講中推動制定人工智能標準。 - news.fu…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -255,6 +255,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "Starmind 的帳，大半記在地面：太空 AI 資料中心三個月對帳 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pcnNJaDgwUWVydVYwWHh0NnNTemFoOW9CSzJpZ0pTd1o1TW5DUE5oOW15SmpUMWkzRHZEbmZFLUQxLWVjSk5uM25xUjd2NHMtV1dNOHh3?oc=5",
+      "pubDate": "Sat, 26 Sep 2026 02:36:18 GMT",
+      "description": "Starmind 的帳，大半記在地面：太空 AI 資料中心三個月對帳 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "f254e6d0fc8b45a3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Starmind 的帳，大半記在地面：太空 AI 資料中心三個月對帳",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "📉 油價與美債殖利率齊升，科技股迎來壓力測試！ 9 月 23 日，美股收低，Alphabet、NVIDIA 等科技股承壓。油價反彈與利率預期變化，讓市場焦點從 AI 熱度轉向估值壓力。 🎯 行情回調，期權交易不只一種方向 關注 GOOGL、NVDA 等熱門標的，透過 Gate 美股期權表達 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51RWh2dVRHT3BlNXRpSkFSWWltQXBWLVh3dnJsVE5ZTkRvMjJWbEhjM0ZnZFRjYzQxMXhrMW1ub2ZVTlVreGlMMjd3NlY0MEo3ek9JVkxSQkRTNlRlQVF4QzBPR0ZrelE?oc=5",
@@ -380,6 +411,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：75 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $BE｜IV Rank：1 🥈 $AVGO｜IV Rank：2 🥈 $IREN｜IV Rank：2 🥈 $NVDA｜IV Ra - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RTzVFa3ZhRk1QbGFrN0h6U2R3Tm9kZnJaQmFDQmN3TXJacE5nM2ZXb1FqV3pDUUZldnU1VW5UUjRlUDR2NVZsRnNGWEpUYUYwSDNyV1Q0OGRvZ2pWd3hGUUJIUUpXT2FfMldaXw?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 05:32:39 GMT",
+      "description": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：75 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $BE｜IV Rank：1 🥈 $AVGO｜IV Rank：2 🥈 $IREN｜IV Rank：2 🥈 $NVDA｜IV Ra &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c2be1ba12ba06cf0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "📊 2026/09/24 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：74 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $BE｜IV Rank：0 🥈 $AVGO｜IV Rank：2 🥈 $NVDA｜IV Rank：2 🥉 $IREN｜IV Ra - x.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xZVB4bVdweXgtY2RyV1RxVTBZTzFYTngxckQ5Rkw3ZUtKWW1pWkdRSm1IeHhXRkQ1c3pDUTZvRTdPalllNDlSaW1teHFHeWhOWVJHN25OVW56a0dKTERGZDc0YXRGR0U1ZVZQbQ?oc=5",
       "pubDate": "Thu, 24 Sep 2026 05:28:36 GMT",
@@ -429,37 +491,6 @@
       "ai": {
         "priority": "B",
         "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "低成本拿最高價值$1000的盲盒 以當前美股 NVIDIA（NVDA）約 $228.50 的最新市價水平重新推算模擬數據 （碎股以 0.45 股、單筆金額約 $102.8 左右為基準，輕鬆跨過 $200 門檻） 活動期（9/21–9/28）：新用戶或從未在 Backpack 交易過美股的老用戶免報名直接跑。 以 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3bmxSdlRxWDFtY0ZVUm9ta0ZTUkFHaXVUZHZySTZMWm5DOVJpMG8xeXVIak1XZ3FhQ3RDUlI0bjIxSUlWdlFrSTZCei1GMzdhNGlZT3BRZ0RjY0lNXzZNZmxrMVhKZw?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 01:43:49 GMT",
-      "description": "低成本拿最高價值$1000的盲盒 以當前美股 NVIDIA（NVDA）約 $228.50 的最新市價水平重新推算模擬數據 （碎股以 0.45 股、單筆金額約 $102.8 左右為基準，輕鬆跨過 $200 門檻） 活動期（9/21–9/28）：新用戶或從未在 Backpack 交易過美股的老用戶免報名直接跑。 以 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "fba6cd41e7bb3f60",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "低成本拿最高價值$1000的盲盒 以當前美股 NVIDIA（NVDA）約 $228.50 的最新市價水平重新推…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -559,37 +590,6 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96QTlFWWtDTzJTd0kySXdnenM0dVp0NFJYTllxM3NKc1lnSlczVF9iTmtZdXFaOHcyRGVPUmRmOEpoWk9nRE91QWFOaTJWMnlHelVaakNXZjJNc2NCaG9vVGpRcGhKZw?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 06:10:13 GMT",
-      "description": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "fe9926e2f7877d58",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -721,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic CEO達里奧前一周呼籲AI前沿發展踩煞車，黃仁勳明確反駁2030年世界末日概率為0%，視末日預測缺乏科學依據。 黃仁勳強調安全是工程問題而非停工理由，主張產業應盡可能快速 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4ySllfSHVUWk9PNGF4LWZOOUpsOWFhbU5hakU4akIyVWdZMW9Kb0g0VjhKOXkwZ3ZzWXM1SmtnRGJhempKaUpINVg2b0RQTlV4VWFnQ2MzamJISVlYb0V0bg?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 05:38:21 GMT",
-      "description": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic CEO達里奧前一周呼籲AI前沿發展踩煞車，黃仁勳明確反駁2030年世界末日概率為0%，視末日預測缺乏科學依據。 黃仁勳強調安全是工程問題而非停工理由，主張產業應盡可能快速 &nbsp;&nbsp; x.com",
+      "title": "低成本拿最高價值$1000的盲盒 以當前美股 NVIDIA（NVDA）約 $228.50 的最新市價水平重新推算模擬數據 （碎股以 0.45 股、單筆金額約 $102.8 左右為基準，輕鬆跨過 $200 門檻） 活動期（9/21–9/28）：新用戶或從未在 Backpack 交易過美股的老用戶免報名直接跑。 以 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3bmxSdlRxWDFtY0ZVUm9ta0ZTUkFHaXVUZHZySTZMWm5DOVJpMG8xeXVIak1XZ3FhQ3RDUlI0bjIxSUlWdlFrSTZCei1GMzdhNGlZT3BRZ0RjY0lNXzZNZmxrMVhKZw?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 01:43:49 GMT",
+      "description": "低成本拿最高價值$1000的盲盒 以當前美股 NVIDIA（NVDA）約 $228.50 的最新市價水平重新推算模擬數據 （碎股以 0.45 股、單筆金額約 $102.8 左右為基準，輕鬆跨過 $200 門檻） 活動期（9/21–9/28）：新用戶或從未在 Backpack 交易過美股的老用戶免報名直接跑。 以 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "d28cb7379597c4e3",
+      "id": "fba6cd41e7bb3f60",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "英偉達CEO黃仁勳在2026年9月20日CBS Sunday Morning專訪片段，針對Anthropic …",
+        "summary": "低成本拿最高價值$1000的盲盒 以當前美股 NVIDIA（NVDA）約 $228.50 的最新市價水平重新推…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
