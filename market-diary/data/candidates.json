@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-26T22:47:48.559Z",
+  "generatedAt": "2026-09-27T01:25:11.893Z",
   "windowDays": 7,
   "summary": {
-    "total": 48,
+    "total": 49,
     "bySignal": {
       "事实": 6,
       "媒体": 1,
       "人物": 3,
       "资金": 0,
-      "热点": 38
+      "热点": 39
     },
     "byTrust": {
       "A": 8,
       "B": 2,
-      "C": 38
+      "C": 39
     },
     "s": 0,
     "a": 2,
-    "b": 46
+    "b": 47
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -345,26 +345,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Kryptocean STOCKS DESK Sept 25, 2026 INDEX DOW 51,829 (+0.93%) | $SPY 771 (+0.54%) QQQ $744 (+0.46%) | IWM $282 (+0.11%) MAG7 DELL $563 (+5.01%) | MSFT $516 (+3.66%) AAPL $341 (+1.53%) | TSLA $372 (-1.54%) META $752 (-3.33%) CR - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zSjlGckQydGgzZU1iSlBVRG03ZE1wV2VxX1hMeGFrR1BOREpYM3RvNkI5eENnVDRTTXNWNnNxWjduQjU4eVpTY1dHNHNib1NWLUZMVEVkaFRzWmtJUDVjNklR?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 20:27:19 GMT",
-      "description": "Kryptocean STOCKS DESK Sept 25, 2026 INDEX DOW 51,829 (+0.93%) | $SPY 771 (+0.54%) QQQ $744 (+0.46%) | IWM $282 (+0.11%) MAG7 DELL $563 (+5.01%) | MSFT $516 (+3.66%) AAPL $341 (+1.53%) | TSLA $372 (-1.54%) META $752 (-3.33%) CR &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "fcd067295de775fa",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "體驗了 moomoo AI 的全新 Expert 模式，智能選股和行情解讀功能真的變強了很多！分析邏輯很清晰，強烈推薦大家也去試試看！ 👍🔥 #moomoo #Investing - x.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yLU5HeXUxTEVadVBZZl9DZ0RPaEtyMlY3WVpseFhhT0diaDZ5c0xhU3B1NTBLdnBpY1JRMjFRdTBhdS1NVUk1WkI4ejhRajhqcGIwRkJLbFk0dF9NS0ZWR2FtNA?oc=5",
       "pubDate": "Thu, 24 Sep 2026 14:25:51 GMT",
@@ -519,6 +499,26 @@
       "score": 44,
       "priority": "B",
       "id": "2c4edd3075c76604",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0SExSbnY3Ym95T0gxZGZCWnlOeVBpb0J4ZmxWQ0wzZzk1VWVEVG9Rd3B0VTFtZ3JXVXk2WVA5ZUdndUZCSE9CX1otRXhNYlV0dEZSaDk4NDJIZExMNlFKNkVCNjY?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 10:20:01 GMT",
+      "description": "🤖 算法 vs 經驗，第三輪你站誰？ WEEX AI Wars II 第三輪開打！選戰隊，抽獎勵👇 1️⃣ 點贊＋轉發本帖 2️⃣ 評論支持的戰隊＋WEEX UID 3️⃣ @ 2 位交易員好友 🎁 抽 10 人，各得 10 USDT ⏰ 9月26日截止 ⚔️ 加入第三輪 https://t.co/Mbw5X9ZKeS 參與陣營頭像活 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "9ee58d3d8bc0784b",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -685,11 +685,31 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "- xiaohongshu.com",
+      "title": "$UNI bitcoin-cash:native放量領漲，存儲芯片接管科技主線 🔥 🔸 納指周二再漲0.45%，連續第四個交易日上揚； 🔸 閃迪 $SNDK 大漲6.8%、美光 $MU 漲約5%， $AMD延續升勢； 🔸 油價跌至兩周低位，進一步提振科技股風險偏好。 存儲行情繼續升溫，重點關註 $SNDK - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaaUFRWVplMHd4UkdjZWx1b3NfcmF6UVBZaThMNVExSWlCT3RQc21ZVUh2ZzBRNFE2eFJiNmgzNUphX0REWFE4bjg4aFdlTGliN2dVNHJPZFVWMHM2b24zV1V0M3k?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 03:34:56 GMT",
+      "description": "$UNI bitcoin-cash:native放量領漲，存儲芯片接管科技主線 🔥 🔸 納指周二再漲0.45%，連續第四個交易日上揚； 🔸 閃迪 $SNDK 大漲6.8%、美光 $MU 漲約5%， $AMD延續升勢； 🔸 油價跌至兩周低位，進一步提振科技股風險偏好。 存儲行情繼續升溫，重點關註 $SNDK &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 28,
+      "priority": "B",
+      "id": "547eba0505d29a70",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "- Xiaohongshu",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
       "pubDate": "Sat, 26 Sep 2026 12:06:37 GMT",
-      "description": "&nbsp;&nbsp; xiaohongshu.com",
-      "source": "xiaohongshu.com",
+      "description": "&nbsp;&nbsp; Xiaohongshu",
+      "source": "Xiaohongshu",
       "sourceKey": "xiaohongshu",
       "sourceMode": "social-discovery",
       "declaredTrust": "C",
@@ -698,7 +718,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 20,
       "priority": "B",
-      "id": "8040aa123c3ea4b3",
+      "id": "5dba6816abfe2da6",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -982,5 +1002,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-26T22:47:49.969Z"
+  "rankedAt": "2026-09-27T01:25:13.174Z"
 }

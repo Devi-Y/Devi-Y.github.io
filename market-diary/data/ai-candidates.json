@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T22:47:50.442Z",
+  "generatedAt": "2026-09-27T01:25:13.643Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -504,37 +504,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Kryptocean STOCKS DESK Sept 25, 2026 INDEX DOW 51,829 (+0.93%) | $SPY 771 (+0.54%) QQQ $744 (+0.46%) | IWM $282 (+0.11%) MAG7 DELL $563 (+5.01%) | MSFT $516 (+3.66%) AAPL $341 (+1.53%) | TSLA $372 (-1.54%) META $752 (-3.33%) CR - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zSjlGckQydGgzZU1iSlBVRG03ZE1wV2VxX1hMeGFrR1BOREpYM3RvNkI5eENnVDRTTXNWNnNxWjduQjU4eVpTY1dHNHNib1NWLUZMVEVkaFRzWmtJUDVjNklR?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 20:27:19 GMT",
-      "description": "Kryptocean STOCKS DESK Sept 25, 2026 INDEX DOW 51,829 (+0.93%) | $SPY 771 (+0.54%) QQQ $744 (+0.46%) | IWM $282 (+0.11%) MAG7 DELL $563 (+5.01%) | MSFT $516 (+3.66%) AAPL $341 (+1.53%) | TSLA $372 (-1.54%) META $752 (-3.33%) CR &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "fcd067295de775fa",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "體驗了 moomoo AI 的全新 Expert 模式，智能選股和行情解讀功能真的變強了很多！分析邏輯很清晰，強烈推薦大家也去試試看！ 👍🔥 #moomoo #Investing - x.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yLU5HeXUxTEVadVBZZl9DZ0RPaEtyMlY3WVpseFhhT0diaDZ5c0xhU3B1NTBLdnBpY1JRMjFRdTBhdS1NVUk1WkI4ejhRajhqcGIwRkJLbFk0dF9NS0ZWR2FtNA?oc=5",
       "pubDate": "Thu, 24 Sep 2026 14:25:51 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Every @Bitget_zh user is VIP 🩵 FCN 是什麼？家印哥 @xiejiayinBitget 跟你解釋一下！ FCN 固定票息票據簡單講就是：你先設定一個你想買某支美股的「低價」，等待期間結束不管有沒有成交，都能領利息 怎麼運作？假設 $NVDA 現在 225 美元，你投 1 萬 U，設定用 9 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FRmh0YWlyc1Q3ZWJfdWFicWppanRLVDJUT2txTGRlZDJHTS11Mlh5dnVUVmUwTHkyMTF4U1hTWHpKcVBuTWpPVDgwV1FJZ2p3SUl0WmJNNHQyMWZLcE1jZUZROWZ3UQ?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 07:34:40 GMT",
+      "description": "Every @Bitget_zh user is VIP 🩵 FCN 是什麼？家印哥 @xiejiayinBitget 跟你解釋一下！ FCN 固定票息票據簡單講就是：你先設定一個你想買某支美股的「低價」，等待期間結束不管有沒有成交，都能領利息 怎麼運作？假設 $NVDA 現在 225 美元，你投 1 萬 U，設定用 9 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "2c4edd3075c76604",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Every @Bitget_zh user is VIP 🩵 FCN 是什麼？家印哥 @xiejiayinB…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
