@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:56:34.303Z",
+  "generatedAt": "2026-09-27T18:21:50.630Z",
   "windowDays": 7,
   "summary": {
     "total": 49,
@@ -262,34 +262,14 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "體驗了 moomoo AI 的全新 Expert 模式，智能選股和行情解讀功能真的變強了很多！分析邏輯很清晰，強烈推薦大家也去試試看！ 👍🔥 #moomoo #Investing - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yLU5HeXUxTEVadVBZZl9DZ0RPaEtyMlY3WVpseFhhT0diaDZ5c0xhU3B1NTBLdnBpY1JRMjFRdTBhdS1NVUk1WkI4ejhRajhqcGIwRkJLbFk0dF9NS0ZWR2FtNA?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 14:25:51 GMT",
-      "description": "體驗了 moomoo AI 的全新 Expert 模式，智能選股和行情解讀功能真的變強了很多！分析邏輯很清晰，強烈推薦大家也去試試看！ 👍🔥 #moomoo #Investing &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "5cf6d815fabb04ec",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
       "market": "港股",
       "signal": "媒体",
       "type": "公司事件",
-      "title": "主要股東搜尋 - aastocks.com",
+      "title": "主要股東搜尋 - AAStock",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OX1RVd0h6aU9lSTQ2RU9Ec0FfQmN5R05ueG1WVnlSZ0Z2dXplZEhKSjdIS0wxS00yRkNTNTlmM3Y3TXQ1TExnTTJTdWNmcHNDUkR5djNHX1lsRkE4MF9VS08yWkhzYnpYSzZKMlF1ZUZaQQ?oc=5",
       "pubDate": "Sat, 26 Sep 2026 04:13:24 GMT",
-      "description": "主要股東搜尋 &nbsp;&nbsp; aastocks.com",
-      "source": "aastocks.com",
+      "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
+      "source": "AAStock",
       "sourceKey": "aastocks",
       "sourceMode": "media-discovery",
       "declaredTrust": "B",
@@ -298,7 +278,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 45,
       "priority": "B",
-      "id": "66b08481d4ff205f",
+      "id": "2c1d34e5882a1e6f",
       "rankReason": "市场相关"
     },
     {
@@ -319,26 +299,6 @@
       "score": 44,
       "priority": "B",
       "id": "adaaa29187d46807",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96QTlFWWtDTzJTd0kySXdnenM0dVp0NFJYTllxM3NKc1lnSlczVF9iTmtZdXFaOHcyRGVPUmRmOEpoWk9nRE91QWFOaTJWMnlHelVaakNXZjJNc2NCaG9vVGpRcGhKZw?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 06:10:13 GMT",
-      "description": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "fe9926e2f7877d58",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -519,6 +479,26 @@
       "score": 44,
       "priority": "B",
       "id": "fba6cd41e7bb3f60",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "體驗了 moomoo AI 的全新 Expert 模式，智能選股和行情解讀功能真的變強了很多！分析邏輯很清晰，強烈推薦大家也去試試看！ 👍🔥 #moomoo #Investing - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yLU5HeXUxTEVadVBZZl9DZ0RPaEtyMlY3WVpseFhhT0diaDZ5c0xhU3B1NTBLdnBpY1JRMjFRdTBhdS1NVUk1WkI4ejhRajhqcGIwRkJLbFk0dF9NS0ZWR2FtNA?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 14:25:51 GMT",
+      "description": "體驗了 moomoo AI 的全新 Expert 模式，智能選股和行情解讀功能真的變強了很多！分析邏輯很清晰，強烈推薦大家也去試試看！ 👍🔥 #moomoo #Investing &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "5cf6d815fabb04ec",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -705,6 +685,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "- Xiaohongshu",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 12:31:22 GMT",
+      "description": "&nbsp;&nbsp; Xiaohongshu",
+      "source": "Xiaohongshu",
+      "sourceKey": "xiaohongshu",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "5dba6816abfe2da6",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "昨天找的這家，谷歌地圖評分高的黎巴嫩餐廳，去了沒失望。很地道美味，還餵了不斷跑來的鴿子，就一點兒米飯，因為太好吃不要給太多它們😝，也不想它們吃太多胖死。摩洛哥服務生見我要打包帶走pita麵餅，有芝士的要七八歐，推薦0.8歐一個的，我點了兩個，他最後 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BQk1qZVNnOV9qSmZyUWtrQ3pTdFozYmJCTDB1SHVCcjJodlZrckNiMVRZZjFuTjBid2RpQU9MMkd1aFIwQUtYT1ljOTY0aXZGY2VwODlYaFZ3cVdsUFhTNFRIR08?oc=5",
       "pubDate": "Fri, 25 Sep 2026 06:02:05 GMT",
@@ -745,12 +745,12 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "- Xiaohongshu",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
-      "pubDate": "Sat, 26 Sep 2026 12:06:37 GMT",
-      "description": "&nbsp;&nbsp; Xiaohongshu",
-      "source": "Xiaohongshu",
-      "sourceKey": "xiaohongshu",
+      "title": "Surf 最新一批的 Mystery Box 開賣！ 我小衝了一箱，抽到等值 228U 的 $SPY 相當於 Surf Pro 會員一年免費 即使運氣普普只抽到最等級的箱子，也有 163U 的價值 也就是說只要 65U 就可以買到 Surf Pro 年度會員 賣的蠻快的，庫存剩不到一半 對了，現在 Surf 支援研 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tZDFCSDN0dlNqaXBLb3Y3STdWVHpRNWtXeGVvaEJ1UGhudGZaRWxrOVowQ3VHMV8zN3VFcFdnX2hsQVFYQnJTbFlkY2VSUVRjbTZBRXhWVDZKcm5RLVE?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 02:18:40 GMT",
+      "description": "Surf 最新一批的 Mystery Box 開賣！ 我小衝了一箱，抽到等值 228U 的 $SPY 相當於 Surf Pro 會員一年免費 即使運氣普普只抽到最等級的箱子，也有 163U 的價值 也就是說只要 65U 就可以買到 Surf Pro 年度會員 賣的蠻快的，庫存剩不到一半 對了，現在 Surf 支援研 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
       "declaredTrust": "C",
       "trustTier": "C",
@@ -758,7 +758,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 17,
       "priority": "B",
-      "id": "5dba6816abfe2da6",
+      "id": "d163da1c8469561a",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -1002,5 +1002,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-09-27T13:56:35.617Z"
+  "rankedAt": "2026-09-27T18:21:51.074Z"
 }
