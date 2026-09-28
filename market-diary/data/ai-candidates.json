@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-09-28T00:43:23.967Z",
+  "generatedAt": "2026-09-28T06:51:04.130Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "Exchange Publishes Consultation Paper on Phase II of Listing Framework Competitiveness Review",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260921news?sc_lang=en",
-      "pubDate": "Mon, 21 Sep 2026 10:21:00 +0800",
-      "description": "Exchange Publishes Consultation Paper on Phase II of Listing Framework Competitiveness Review",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
-      "priority": "A",
-      "id": "4518b56ebca082dc",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所出现新的IPO相关信息",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "港股",
       "signal": "事实",
@@ -88,6 +57,68 @@
       "ai": {
         "priority": "A",
         "summary": "市場消息：OpenAI首席執行官Sam Altman將在聯合國演講中推動制定人工智能標準。 - 富途牛牛",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "HKEX Launches “A Place to Connect” Exhibition Celebrating 40 Years of Hong Kong’s Modern Stock Exchange",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/2609282news?sc_lang=en",
+      "pubDate": "Mon, 28 Sep 2026 13:58:00 +0800",
+      "description": "HKEX Launches “A Place to Connect” Exhibition Celebrating 40 Years of Hong Kong’s Modern Stock Exchange",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 58,
+      "priority": "B",
+      "id": "d6c80e22ba8ea4a7",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "HKEX Welcomes Four New ETFs Tracking HKEX Cross-Market Indices",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/260928news?sc_lang=en",
+      "pubDate": "Mon, 28 Sep 2026 09:29:00 +0800",
+      "description": "HKEX Welcomes Four New ETFs Tracking HKEX Cross-Market Indices",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 58,
+      "priority": "B",
+      "id": "d898968aa45bc2a0",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "港交所出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -163,10 +194,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 重點不是 80 億，是繳得起。 真正讓我覺得幸運的，不是那個數字本身，而是自己有能力繳得出 80 億。 我不怕繳稅，我只怕變窮。 我主張把員工薪水盡可能發高，不是用最低成本換工作，能多給員工、能多繳稅，都是成功後的特權與責任。 如果將來能繳更多稅，只 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwdHEzWlg0Qm5aMnUyUGMwSFJEWk1HQVBIcHE2YVUyU0pnNEhWRWtkdlZBV0Jhd0pfQ3V6VUZKY3Z3WG5fS2JqV2hRSTRkcFJrbFlhUW50Z0d5TGdYdC1TcF9hMURyVE0?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 03:23:25 GMT",
-      "description": "$NVDA 重點不是 80 億，是繳得起。 真正讓我覺得幸運的，不是那個數字本身，而是自己有能力繳得出 80 億。 我不怕繳稅，我只怕變窮。 我主張把員工薪水盡可能發高，不是用最低成本換工作，能多給員工、能多繳稅，都是成功後的特權與責任。 如果將來能繳更多稅，只 &nbsp;&nbsp; x.com",
+      "title": "中國正考慮放寬對新款$NVDA晶片採購的限制。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01UE5WUmtsZFlwMjRia29xbmtpMm1vT0FERWRyck5OVzdzU1VMd1AzaWFsdm45cjhDNVpmc1JBOHRGN21yenlveVNZNUljWlh5d0FaWTNQWVFiODdqbm04MXA4SmpseE5qSzcwT1JB?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 02:07:33 GMT",
+      "description": "中國正考慮放寬對新款$NVDA晶片採購的限制。 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -176,11 +207,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "506d4abec76efbae",
+      "id": "268df37c8060bede",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 重點不是 80 億，是繳得起。 真正讓我覺得幸運的，不是那個數字本身，而是自己有能力繳得出 80 …",
+        "summary": "中國正考慮放寬對新款$NVDA晶片採購的限制。",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -256,6 +287,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA 重點不是 80 億，是繳得起。 真正讓我覺得幸運的，不是那個數字本身，而是自己有能力繳得出 80 億。 我不怕繳稅，我只怕變窮。 我主張把員工薪水盡可能發高，不是用最低成本換工作，能多給員工、能多繳稅，都是成功後的特權與責任。 如果將來能繳更多稅，只 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwdHEzWlg0Qm5aMnUyUGMwSFJEWk1HQVBIcHE2YVUyU0pnNEhWRWtkdlZBV0Jhd0pfQ3V6VUZKY3Z3WG5fS2JqV2hRSTRkcFJrbFlhUW50Z0d5TGdYdC1TcF9hMURyVE0?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 03:23:25 GMT",
+      "description": "$NVDA 重點不是 80 億，是繳得起。 真正讓我覺得幸運的，不是那個數字本身，而是自己有能力繳得出 80 億。 我不怕繳稅，我只怕變窮。 我主張把員工薪水盡可能發高，不是用最低成本換工作，能多給員工、能多繳稅，都是成功後的特權與責任。 如果將來能繳更多稅，只 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "506d4abec76efbae",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 重點不是 80 億，是繳得起。 真正讓我覺得幸運的，不是那個數字本身，而是自己有能力繳得出 80 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Akamai–Anthropic 交易： 9月24日宣布 116 億美元、為期 7 年的加速 CPU 協議（潛在還可再擴大 90 億美元）。Anthropic 將使用 Akamai 的分散式 AI 基礎設施與軟體，來應付不斷成長的 CPU 工作負載。 預期會用到 Vera CPU：Nvidia 先前已提及 Akamai 的 Vera 部署 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB2UGt3b3J0eWt2LUwwdzVJSlNYRFBXSkdMU0xhWUNCaGoxeVFuaXNHcDNqcHZLcjZlOXpaVmpVZ1o1VWhOZFJ5M3Q5N1NMU1U5RkFlcEttWXZYZGh4YVE?oc=5",
       "pubDate": "Fri, 25 Sep 2026 10:29:15 GMT",
@@ -305,37 +367,6 @@
       "ai": {
         "priority": "B",
         "summary": "🔥 AI硬件盤前集體點火，算力鏈全面升溫！ $ARM 領漲 4.23%， $AMD 漲 2.20%， $IN…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：75 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $BE｜IV Rank：1 🥈 $AVGO｜IV Rank：2 🥈 $IREN｜IV Rank：2 🥈 $NVDA｜IV Ra - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RTzVFa3ZhRk1QbGFrN0h6U2R3Tm9kZnJaQmFDQmN3TXJacE5nM2ZXb1FqV3pDUUZldnU1VW5UUjRlUDR2NVZsRnNGWEpUYUYwSDNyV1Q0OGRvZ2pWd3hGUUJIUUpXT2FfMldaXw?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 05:32:39 GMT",
-      "description": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：75 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $BE｜IV Rank：1 🥈 $AVGO｜IV Rank：2 🥈 $IREN｜IV Rank：2 🥈 $NVDA｜IV Ra &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "c2be1ba12ba06cf0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -429,37 +460,6 @@
       "ai": {
         "priority": "B",
         "summary": "📉 油價與美債殖利率齊升，科技股迎來壓力測試！ 9 月 23 日，美股收低，Alphabet、NVIDIA …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96QTlFWWtDTzJTd0kySXdnenM0dVp0NFJYTllxM3NKc1lnSlczVF9iTmtZdXFaOHcyRGVPUmRmOEpoWk9nRE91QWFOaTJWMnlHelVaakNXZjJNc2NCaG9vVGpRcGhKZw?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 06:10:13 GMT",
-      "description": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "fe9926e2f7877d58",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "台湾一季度GDP增长率有14.55% 真有股经济上行的美了",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -566,37 +566,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "2026 的 CPU = 2025 的 memory，迎來超級週期 Agentic AI 正在改變整個 AI server 的 CPU:GPU 配置比例，供應鏈已經開始出現訊號： 1. $INTC CEO 表示目前只能滿足約一半客戶 CPU 需求 2. $AMD 大幅上調 Server CPU TAM 3. $NVDA 推出可獨立銷售、專為 Ag - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xVkNZNmdlbTZoUEZnRTRqU0pmS1lmRWVnN1o3MGxSLU0xbEljZzFNcmZudjVfUnlNMjlJWVI0dHgtQ1lTN1RZZmtOR0ItV1NtTmIxLUprWl9FRjQ?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 05:14:32 GMT",
-      "description": "2026 的 CPU = 2025 的 memory，迎來超級週期 Agentic AI 正在改變整個 AI server 的 CPU:GPU 配置比例，供應鏈已經開始出現訊號： 1. $INTC CEO 表示目前只能滿足約一半客戶 CPU 需求 2. $AMD 大幅上調 Server CPU TAM 3. $NVDA 推出可獨立銷售、專為 Ag &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "348c569500a58cae",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "2026 的 CPU = 2025 的 memory，迎來超級週期 Agentic AI 正在改變整個 AI …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49%，納指漲2.26% 英特爾 $INTC 漲12% Meta Platforms $META 漲11% 高通 $QCOM 漲9% 特斯拉 $TSLA 漲3% AMD $AMD 漲近10% 納斯達克中國金龍指數收漲0.7 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxbDR4allyUnJJWDFxNUNXN21DakNSeW1RajJLY0lTZGhMbkk5Q3JGcllVczN3Zkh6c25HN1ZpcHJWS2RyV0ZBaGZMdkdiajBiM2psdEhyeE5tMVAzTS1NOA?oc=5",
       "pubDate": "Mon, 21 Sep 2026 20:13:41 GMT",
@@ -615,6 +584,37 @@
       "ai": {
         "priority": "B",
         "summary": "美股收盤：納指漲超2%， $META 大漲11% 美股週一收盤，道指初步收漲0.7%，標普500指數漲1.49…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：75 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $BE｜IV Rank：1 🥈 $AVGO｜IV Rank：2 🥈 $IREN｜IV Rank：2 🥈 $NVDA｜IV Ra - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RTzVFa3ZhRk1QbGFrN0h6U2R3Tm9kZnJaQmFDQmN3TXJacE5nM2ZXb1FqV3pDUUZldnU1VW5UUjRlUDR2NVZsRnNGWEpUYUYwSDNyV1Q0OGRvZ2pWd3hGUUJIUUpXT2FfMldaXw?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 05:32:39 GMT",
+      "description": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：75 📌 本次僅有 1 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $BE｜IV Rank：1 🥈 $AVGO｜IV Rank：2 🥈 $IREN｜IV Rank：2 🥈 $NVDA｜IV Ra &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "c2be1ba12ba06cf0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "📊 2026/09/25 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
