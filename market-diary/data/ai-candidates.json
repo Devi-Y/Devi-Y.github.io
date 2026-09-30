@@ -1,9 +1,40 @@
 {
-  "generatedAt": "2026-09-30T13:40:41.066Z",
+  "generatedAt": "2026-09-30T19:17:13.774Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "link": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
+      "pubDate": "Wed, 30 Sep 2026 20:43:00 +0800",
+      "description": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "source": "HKEX · Market Communications",
+      "sourceKey": "hkex-market",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "6003732bea2d9c5f",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所发布最新IPO申请、除牌及停牌报告",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "宏观",
       "signal": "人物",
@@ -19,7 +50,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 79,
+      "score": 76,
       "priority": "A",
       "id": "ce0126d45cf9ef51",
       "rankReason": "一级/官方信源；高影响事件词；关键人物",
@@ -30,37 +61,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Waller, Payments in the Age of AI Agents",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
-      "pubDate": "Tue, 29 Sep 2026 19:00:00 GMT",
-      "description": "Speech At Sibos 2026, Miami, Florida",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 79,
-      "priority": "A",
-      "id": "860f09be7cb559f2",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -92,6 +92,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Waller, Payments in the Age of AI Agents",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+      "pubDate": "Tue, 29 Sep 2026 19:00:00 GMT",
+      "description": "Speech At Sibos 2026, Miami, Florida",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 76,
+      "priority": "A",
+      "id": "860f09be7cb559f2",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -287,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "IonQ宣布將把Superion 256量子電腦部署至NVIDIA加速量子研究中心（NVAQC），成為該中心首台現場量子處理器。系統將透過NVQLink直連GB200 NVL72，並由CUDA-Q平台編排工作負載，推動混合量子-經典計算、軟體開發與大規模系統原型研究。 合作重點包括金 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ncHBhSTIwWVA4SzhXakYwR2tCSzNPWlZBMnRELUpzaHlsYVZOM0lBeS1IYVpHS21GSjZLNjZ4UVRlVTBQNHhWUWpQbFgxN0Y2SGxWVWJ3SXJxZWRwX2c?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 23:46:29 GMT",
-      "description": "IonQ宣布將把Superion 256量子電腦部署至NVIDIA加速量子研究中心（NVAQC），成為該中心首台現場量子處理器。系統將透過NVQLink直連GB200 NVL72，並由CUDA-Q平台編排工作負載，推動混合量子-經典計算、軟體開發與大規模系統原型研究。 合作重點包括金 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "b31736fd828a597a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "IonQ宣布將把Superion 256量子電腦部署至NVIDIA加速量子研究中心（NVAQC），成為該中心首…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "CPU 與 GPU 變成共生，TAM 大幅擴張 Agentic AI 不是只要 GPU。GPU 負責生成 token，CPU 負責工具呼叫、程式執行、檢索與資料庫互動。因此系統整體運算都重要，CPU 延遲與任務完成速度會影響 GPU 利用率與使用者體驗。 預估伺服器 CPU TAM 從 2026 年 61 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EcFhzVlVFZ2pLQnFEQVNvS3ZrTjJFdENCMHZadHlRa1FyN01ObV8tOXNoUW9VYnIzbDE4VmZMUlg1QUhETzJtamdPNmlFX2VFQWpNd3Y2Q2V5NzU3b3l2WUEwRENkbjY0?oc=5",
       "pubDate": "Wed, 30 Sep 2026 06:36:52 GMT",
@@ -342,37 +342,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Bowman, Opening Remarks",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
-      "pubDate": "Tue, 29 Sep 2026 15:00:00 GMT",
-      "description": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 49,
-      "priority": "B",
-      "id": "f7c5620892f4dafc",
-      "rankReason": "一级/官方信源；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -683,6 +652,37 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Bowman, Opening Remarks",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
+      "pubDate": "Tue, 29 Sep 2026 15:00:00 GMT",
+      "description": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 46,
+      "priority": "B",
+      "id": "f7c5620892f4dafc",
+      "rankReason": "一级/官方信源；关键人物",
+      "ai": {
+        "priority": "B",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
