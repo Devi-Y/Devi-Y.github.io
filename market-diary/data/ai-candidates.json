@@ -1,9 +1,40 @@
 {
-  "generatedAt": "2026-10-01T08:53:39.262Z",
+  "generatedAt": "2026-10-01T16:25:28.486Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+      "pubDate": "Thu, 1 Oct 2026 14:00:00 GMT",
+      "description": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 79,
+      "priority": "A",
+      "id": "2ca3b97d7d59969c",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "港股",
       "signal": "事实",
@@ -19,7 +50,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 80,
+      "score": 77,
       "priority": "A",
       "id": "6003732bea2d9c5f",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
@@ -143,7 +174,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 58,
+      "score": 55,
       "priority": "B",
       "id": "cd667e4f2ca6e2fe",
       "rankReason": "一级/官方信源；市场相关",
@@ -318,10 +349,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺，台北內湖、高雄鼓山各招 5 到 10 人，工作是每天駕駛原型車 6 到 8 小時。9 月 30 日，X 帳號 @ryanwang 在「TSLA 特斯拉华语投资者」社群先後貼出這份職缺，以及寫信 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpNHE5YUNPWV9WcnNDeVh3dEd0TmVqaWZQb1JuUXFOQVFBYUQ2V19uYU5NUklMU2g1WXh2dm9LYUp1T1pUY0FvWmxFVzI2Wm1DY0dRMEUzZnFJekU?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 01:54:35 GMT",
-      "description": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺，台北內湖、高雄鼓山各招 5 到 10 人，工作是每天駕駛原型車 6 到 8 小時。9 月 30 日，X 帳號 @ryanwang 在「TSLA 特斯拉华语投资者」社群先後貼出這份職缺，以及寫信 &nbsp;&nbsp; x.com",
+      "title": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QOVRUWk44dUs0RzliQWp0OFVaTGEyMFhIdWl5ODJCZFUwLXUtWE4zNjZHS2p5dHZfajBFVGQzT0Q4YnFLdEdpRjNFVVY0bU9IdXVHODdZdmdMRnNMUjFTU1RSTQ?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 10:01:06 GMT",
+      "description": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -331,42 +362,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "8e72510ff088cb59",
+      "id": "68ba9afb81dfce20",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqQ3VrXy1pT09aMnk0NFFwYkttZ0xOY2Jxd2hkX1EwYWEzaFdpTXBGRnB1Vk1BMHlMNVVHekZTdlZYUFladmJ3UzQ5TExLRFJVYW5CYWVKb0M5bktVV0RSWkRlSERqR2c?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 09:27:00 GMT",
-      "description": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "9931aad8a2df63d9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 40…",
+        "summary": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -398,6 +398,37 @@
       "ai": {
         "priority": "B",
         "summary": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺，台北內湖、高雄鼓山各招 5 到 10 人，工作是每天駕駛原型車 6 到 8 小時。9 月 30 日，X 帳號 @ryanwang 在「TSLA 特斯拉华语投资者」社群先後貼出這份職缺，以及寫信 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpNHE5YUNPWV9WcnNDeVh3dEd0TmVqaWZQb1JuUXFOQVFBYUQ2V19uYU5NUklMU2g1WXh2dm9LYUp1T1pUY0FvWmxFVzI2Wm1DY0dRMEUzZnFJekU?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 01:54:35 GMT",
+      "description": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺，台北內湖、高雄鼓山各招 5 到 10 人，工作是每天駕駛原型車 6 到 8 小時。9 月 30 日，X 帳號 @ryanwang 在「TSLA 特斯拉华语投资者」社群先後貼出這份職缺，以及寫信 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "8e72510ff088cb59",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -535,37 +566,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "估值那麼低，你們都不買，那我自己買 老黃砸銀彈Nvidia宣布加碼回購股票1500億 $NVDA 回購計劃總額達到2350億美元,公司預計將在2028財年之前執行該回購計劃。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SYVVPVDB1aXdBc09sbVRZX243a2JITjY4bVlHbEtLeEhqM0hPSGQzQ0lkdVFULXY5RmQxUzZ4QlRjUHhBSGU0SEo4bUN5OV80WFFfZmJ1M1FsUFNjLTNz?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 11:12:41 GMT",
-      "description": "估值那麼低，你們都不買，那我自己買 老黃砸銀彈Nvidia宣布加碼回購股票1500億 $NVDA 回購計劃總額達到2350億美元,公司預計將在2028財年之前執行該回購計劃。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "882181154cab838d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "估值那麼低，你們都不買，那我自己買 老黃砸銀彈Nvidia宣布加碼回購股票1500億 $NVDA 回購計劃總額…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "9月29日 Gate 网格套利榜 NMR_USDT | 60.39% US_USDT | 37.62% HBAR_USDT | 36.37% GRASS_USDT | 32.23% MARSCOIN_USDT | 32.1% 使用 Gate 合約網格交易 $NVDA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLcHJrZjhwLW81QmhrX3lmZnZmRTlidGl4Z29yWVJOSFFfaHkzMmNTN2h6Vm9hZFpXcTZGT3JlanM5UGU0dVZaN1prX1FEZ0lSb1h6ajRQWVFqODhCR2Jnc1l2Y2ZNS0U?oc=5",
       "pubDate": "Tue, 29 Sep 2026 09:31:00 GMT",
@@ -628,6 +628,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqQ3VrXy1pT09aMnk0NFFwYkttZ0xOY2Jxd2hkX1EwYWEzaFdpTXBGRnB1Vk1BMHlMNVVHekZTdlZYUFladmJ3UzQ5TExLRFJVYW5CYWVKb0M5bktVV0RSWkRlSERqR2c?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 09:27:00 GMT",
+      "description": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "9931aad8a2df63d9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 40…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$NVDA 這是我一直不明白的地方，垂直藍線之後，輝達股價表現然不錯，但市場關注度就是無法再回到去年夏季以前。 垂直藍色虛線這個時間點，恰好也是記憶體/存儲股開始起漲的時間點，$MU/$SNDK 漲成高原狀的波動率，和後續股價的拋物線式拉升，這是大家已知 - x.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yZUs5ZWQtb2pIQk5YUWNYSEo2OVZ0NVVISVFGNkszMHFMVlhXTjcxaVBwRDYtZkFfRmlCaHplX3JRZEZsb0NEWTFZbnc4aHQ0bDVFbWNRMGE4eGV2N2xOS0RvWEJ2aHByMDVoZA?oc=5",
       "pubDate": "Tue, 29 Sep 2026 12:44:17 GMT",
@@ -646,37 +677,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 這是我一直不明白的地方，垂直藍線之後，輝達股價表現然不錯，但市場關注度就是無法再回到去年夏季以前。…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "IonQ宣布將把Superion 256量子電腦部署至NVIDIA加速量子研究中心（NVAQC），成為該中心首台現場量子處理器。系統將透過NVQLink直連GB200 NVL72，並由CUDA-Q平台編排工作負載，推動混合量子-經典計算、軟體開發與大規模系統原型研究。 合作重點包括金 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ncHBhSTIwWVA4SzhXakYwR2tCSzNPWlZBMnRELUpzaHlsYVZOM0lBeS1IYVpHS21GSjZLNjZ4UVRlVTBQNHhWUWpQbFgxN0Y2SGxWVWJ3SXJxZWRwX2c?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 23:46:29 GMT",
-      "description": "IonQ宣布將把Superion 256量子電腦部署至NVIDIA加速量子研究中心（NVAQC），成為該中心首台現場量子處理器。系統將透過NVQLink直連GB200 NVL72，並由CUDA-Q平台編排工作負載，推動混合量子-經典計算、軟體開發與大規模系統原型研究。 合作重點包括金 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "b31736fd828a597a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "IonQ宣布將把Superion 256量子電腦部署至NVIDIA加速量子研究中心（NVAQC），成為該中心首…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
