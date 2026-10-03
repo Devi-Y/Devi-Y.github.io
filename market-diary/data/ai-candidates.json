@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-10-03T12:30:49.803Z",
+  "generatedAt": "2026-10-03T17:14:57.962Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "link": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
-      "pubDate": "Wed, 30 Sep 2026 20:43:00 +0800",
-      "description": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "source": "HKEX · Market Communications",
-      "sourceKey": "hkex-market",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 77,
-      "priority": "A",
-      "id": "6003732bea2d9c5f",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所发布最新IPO申请、除牌及停牌报告",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "宏观",
       "signal": "人物",
@@ -92,6 +61,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "link": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
+      "pubDate": "Wed, 30 Sep 2026 20:43:00 +0800",
+      "description": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "source": "HKEX · Market Communications",
+      "sourceKey": "hkex-market",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "6003732bea2d9c5f",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所发布最新IPO申请、除牌及停牌报告",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -236,7 +236,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 55,
+      "score": 52,
       "priority": "B",
       "id": "cd667e4f2ca6e2fe",
       "rankReason": "一级/官方信源；市场相关",
@@ -408,6 +408,37 @@
       }
     },
     {
+      "market": "港股",
+      "signal": "媒体",
+      "type": "公司事件",
+      "title": "主要股東搜尋 - AAStock",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SR2cyQnNZRnlBcmk5Y2xmWDlIakNERUVBVHU2SnlvcFB1eXQ5SXdsLXVTTDNONlJFazFPcGI5UDNvTzZYQ05Sb1JqYkVTWFhIWXhjUHNyOWxfNjdaVVZSQWpGeEhmTjBtejFURmtkMGI5UQ?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 07:13:29 GMT",
+      "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
+      "source": "AAStock",
+      "sourceKey": "aastocks",
+      "sourceMode": "media-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 48,
+      "priority": "B",
+      "id": "4c9ace71435ab1bd",
+      "rankReason": "市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "主要股東搜尋 - AAStock",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
@@ -563,37 +594,6 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "主要股東搜尋 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rcGh6NjkxVzh1YjZPWnNuRzJOVVJfX0NQbU1Xby01c0VPdk1IZkhvazZreDRpNzVPMElXRUxZWFpUS2g3ZjlodC1nZ1FtVFpyUVctSzVvSG5lTXV6M3hnVS0xd2lldnhtTUNzMmdHUE11Rkk?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 04:49:12 GMT",
-      "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 45,
-      "priority": "B",
-      "id": "c3b8f8dda2f872cb",
-      "rankReason": "市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "主要股東搜尋 - AAStock",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "事实",
       "type": "宏观",
@@ -621,68 +621,6 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-      "pubDate": "Fri, 2 Oct 2026 15:00:00 GMT",
-      "description": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 44,
-      "priority": "B",
-      "id": "438cd6223af91119",
-      "rankReason": "一级/官方信源",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "Takeaways - CPO Accelerates, Yet Stock Implications Vary: •Nvidia CPO scale-out progressing faster than expected. Spectrum-X CPO switches in mass production thanks to improving yields at key component suppliers. •Nvidia CPO scale out switch shipment f - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53eW9jYmtVQmJsQ2ZnUVRDRlEwSWVLU2RTYlFEV1dCUWF5SW9xOHZuMlhkWTYyaDhuR2loZFF6R2tmaXNhUjFoNXdTSmE5cmNrODN1czV5WUZENDYzNE9n?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 05:21:25 GMT",
-      "description": "Takeaways - CPO Accelerates, Yet Stock Implications Vary: •Nvidia CPO scale-out progressing faster than expected. Spectrum-X CPO switches in mass production thanks to improving yields at key component suppliers. •Nvidia CPO scale out switch shipment f &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "a48b758876410f1f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "x.com出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 重點不是 80 億，是繳得起。 真正讓我覺得幸運的，不是那個數字本身，而是自己有能力繳得出 80 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA is reportedly working with insurers to make GPUs easier to finance for smaller cloud providers by protecting lenders if a borrower defaults. That could make GPU residual value part of the underwriting process and open more institutional capital to AI infr - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwSkpmY0k1ckRSOTVNb1Q2eW1ITm5tdEZRRWRtamp3UFFnMEJWenpHYjVfT0JwT1ZWVDNpT2c2RGdSa2lua0xELVdEUXIwTUpjUXVJaVg5ckdtaUFZOEo1WUVfTDk5QQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 10:29:17 GMT",
+      "description": "$NVDA is reportedly working with insurers to make GPUs easier to finance for smaller cloud providers by protecting lenders if a borrower defaults. That could make GPU residual value part of the underwriting process and open more institutional capital to AI infr &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "1b9f05c4c90c5a62",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "x.com出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "估值那麼低，你們都不買，那我自己買 老黃砸銀彈Nvidia宣布加碼回購股票1500億 $NVDA 回購計劃總額達到2350億美元,公司預計將在2028財年之前執行該回購計劃。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SYVVPVDB1aXdBc09sbVRZX243a2JITjY4bVlHbEtLeEhqM0hPSGQzQ0lkdVFULXY5RmQxUzZ4QlRjUHhBSGU0SEo4bUN5OV80WFFfZmJ1M1FsUFNjLTNz?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 11:12:41 GMT",
+      "description": "估值那麼低，你們都不買，那我自己買 老黃砸銀彈Nvidia宣布加碼回購股票1500億 $NVDA 回購計劃總額達到2350億美元,公司預計將在2028財年之前執行該回購計劃。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "882181154cab838d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "估值那麼低，你們都不買，那我自己買 老黃砸銀彈Nvidia宣布加碼回購股票1500億 $NVDA 回購計劃總額…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
