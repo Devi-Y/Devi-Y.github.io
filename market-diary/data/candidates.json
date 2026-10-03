@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-02T20:42:44.151Z",
+  "generatedAt": "2026-10-03T00:28:28.508Z",
   "windowDays": 7,
   "summary": {
-    "total": 55,
+    "total": 56,
     "bySignal": {
-      "事实": 8,
+      "事实": 9,
       "媒体": 1,
       "人物": 8,
       "资金": 0,
       "热点": 38
     },
     "byTrust": {
-      "A": 15,
+      "A": 16,
       "B": 2,
       "C": 38
     },
     "s": 0,
     "a": 6,
-    "b": 49
+    "b": 50
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -140,6 +140,26 @@
       "priority": "A",
       "id": "860f09be7cb559f2",
       "rankReason": "一级/官方信源；高影响事件词；关键人物"
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "pubDate": "Fri, 2 Oct 2026 20:45:00 GMT",
+      "description": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 58,
+      "priority": "B",
+      "id": "5cfe54de9b266072",
+      "rankReason": "一级/官方信源；市场相关"
     },
     {
       "market": "宏观",
@@ -665,10 +685,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "我不喜歡AI對於藝術類的創作 因為那就像在看屍塊 而且把是把別人家親兒子打死切碎 再組合其它家100個兒子碎片 湊出來的合成獸 然後再把他牽出來炫耀 「看，這比你家兒子懂事多了」 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBERmVKdEJHUC1MbFJCZHN2T2dEQlRfNW5vSDBmbndjdTUtbnBWd2xVa0d0WjJvcjZBclUyZ1RSV1dOR01vOFRYQlR2YnpRbUtCWnZEQXdHMi03OUZSRUZj?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 08:00:14 GMT",
-      "description": "我不喜歡AI對於藝術類的創作 因為那就像在看屍塊 而且把是把別人家親兒子打死切碎 再組合其它家100個兒子碎片 湊出來的合成獸 然後再把他牽出來炫耀 「看，這比你家兒子懂事多了」 &nbsp;&nbsp; x.com",
+      "title": "9月26日至27日，OpenAI揭露，9月20日，一個在離線沙箱中訓練的智慧體利用DNS漏洞，向外部聊天機器人發送了約20個查詢。這是該公司在不到三個月內披露的第二次漏洞事件，此前7月發生了「擁抱臉」（Hugging Face）事件。 OpenAI暫停了其最強大模型的訓練、評 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jV3dWUERkNEtEc0hyMlRjU0xOcERuVmdiRUwxeHVncmhabjNRekxwck9rRkEtMFFmUEFhZ0xGdDktSlJzczM1S3BvOHhGcnVTdlQ5WTFDa2hIZU1WTVAwUk5nUUV0UXM?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 02:33:16 GMT",
+      "description": "9月26日至27日，OpenAI揭露，9月20日，一個在離線沙箱中訓練的智慧體利用DNS漏洞，向外部聊天機器人發送了約20個查詢。這是該公司在不到三個月內披露的第二次漏洞事件，此前7月發生了「擁抱臉」（Hugging Face）事件。 OpenAI暫停了其最強大模型的訓練、評 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -678,7 +698,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "12f4c29752a9cca5",
+      "id": "01b6119c0019167b",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -700,6 +720,26 @@
       "priority": "B",
       "id": "f7c5620892f4dafc",
       "rankReason": "一级/官方信源；关键人物"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "個股推薦：直球對決，現在要買哪些股票會賺錢 今天如我們之前的劇本預期都照規定演出，該漲的都漲、該噴的都噴了，這些不是偶然，是機構大人早就在佈局的事，只是提早跟大家講，大人再找一個機會配合演出，接下來十月最重要的除了美聯儲會議以外就是第三季財 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kQjlJZmZlWmpjUHV0dWV0dm9WSnZyUEN3MkNzeE43Qlg5LXRiSlozMVVnWnpMYnVMajgydDZKOFBvY25uZW1qbTh6YmwzMFFKSG1zd0xEV3dEUHMzN0pWQ1lB?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 22:22:43 GMT",
+      "description": "個股推薦：直球對決，現在要買哪些股票會賺錢 今天如我們之前的劇本預期都照規定演出，該漲的都漲、該噴的都噴了，這些不是偶然，是機構大人早就在佈局的事，只是提早跟大家講，大人再找一個機會配合演出，接下來十月最重要的除了美聯儲會議以外就是第三季財 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 34,
+      "priority": "B",
+      "id": "073f86ceef3f0338",
+      "rankReason": "市场相关；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -1100,27 +1140,7 @@
       "priority": "B",
       "id": "a6c3355d237e7fe4",
       "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "逐月節🎑 來喝杯茶🍵 #原神 #genshin #申鶴 #shenhe #cosplay - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JQjQ3U3NjQS1pN3VROUtVWnc1cWVTN29lenB3M183QWVWbEJnY19seHY5dHNVWGFnNzdKSnBGX29BN2d3ZFFxcjdoaHp1d05wc3o0aHdUVlY2SHpWWnFz?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 23:33:04 GMT",
-      "description": "逐月節🎑 來喝杯茶🍵 #原神 #genshin #申鶴 #shenhe #cosplay &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "0f41231b9f212b7d",
-      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-02T20:42:44.547Z"
+  "rankedAt": "2026-10-03T00:28:29.065Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T20:42:44.960Z",
+  "generatedAt": "2026-10-03T00:28:29.419Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -185,6 +185,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "pubDate": "Fri, 2 Oct 2026 20:45:00 GMT",
+      "description": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 58,
+      "priority": "B",
+      "id": "5cfe54de9b266072",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -712,37 +743,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "希音（SHEIN）上半年同比大幅下滑 50.4% https://t.co/aiMGlGfyN8 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fUTIwc0dSV3UxVmduQXVCOXkzTHk1YVRvQkVfWVZIc0IzRGNMaGpWc1d0bFptMTVoTWYxb0VyeHA2LXVIbHI5bTdRdVc4cjZWRlo5aEUyVTR4eXdWY0htVQ?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 20:18:03 GMT",
-      "description": "希音（SHEIN）上半年同比大幅下滑 50.4% https://t.co/aiMGlGfyN8 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ee748130349c4dfc",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "希音（SHEIN）上半年同比大幅下滑 50.4%",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
