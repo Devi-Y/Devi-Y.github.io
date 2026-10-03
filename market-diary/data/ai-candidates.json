@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T17:14:57.962Z",
+  "generatedAt": "2026-10-03T19:51:12.123Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -473,37 +473,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺，台北內湖、高雄鼓山各招 5 到 10 人，工作是每天駕駛原型車 6 到 8 小時。9 月 30 日，X 帳號 @ryanwang 在「TSLA 特斯拉华语投资者」社群先後貼出這份職缺，以及寫信 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpNHE5YUNPWV9WcnNDeVh3dEd0TmVqaWZQb1JuUXFOQVFBYUQ2V19uYU5NUklMU2g1WXh2dm9LYUp1T1pUY0FvWmxFVzI2Wm1DY0dRMEUzZnFJekU?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 01:54:35 GMT",
-      "description": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺，台北內湖、高雄鼓山各招 5 到 10 人，工作是每天駕駛原型車 6 到 8 小時。9 月 30 日，X 帳號 @ryanwang 在「TSLA 特斯拉华语投资者」社群先後貼出這份職缺，以及寫信 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "8e72510ff088cb59",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "台灣特斯拉在 104 人力銀行與特斯拉亞太官方徵才頁刊出「Vehicle Operator 車輛測試人員」職缺…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升 根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。 一、NV - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IU0dFelM0bXBNbG5LbGZhdE9sazQ4WEJ0ZjRxaVdPMHEtMEZaU0NxbGp3M04wYm5VZXl5MEczakZpNU5uWHRhckVYbDhrVDhBaUNLanhvNWpWNnoxb1E?oc=5",
       "pubDate": "Thu, 01 Oct 2026 05:58:15 GMT",
@@ -549,37 +518,6 @@
       "score": 46,
       "priority": "B",
       "id": "ef40aed7ac4bf048",
-      "rankReason": "一级/官方信源；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Cook, The Dual Mandate in Rural America",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-      "pubDate": "Wed, 30 Sep 2026 19:25:00 GMT",
-      "description": "Speech At the 2026 Investing in Rural America Conference, Federal Reserve Bank of Richmond, Asheville, North Carolina",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 46,
-      "priority": "B",
-      "id": "a212c34ae00753b3",
       "rankReason": "一级/官方信源；关键人物",
       "ai": {
         "priority": "B",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "估值那麼低，你們都不買，那我自己買 老黃砸銀彈Nvidia宣布加碼回購股票1500億 $NVDA 回購計劃總額…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "9月29日 Gate 网格套利榜 NMR_USDT | 60.39% US_USDT | 37.62% HBAR_USDT | 36.37% GRASS_USDT | 32.23% MARSCOIN_USDT | 32.1% 使用 Gate 合約網格交易 $NVDA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLcHJrZjhwLW81QmhrX3lmZnZmRTlidGl4Z29yWVJOSFFfaHkzMmNTN2h6Vm9hZFpXcTZGT3JlanM5UGU0dVZaN1prX1FEZ0lSb1h6ajRQWVFqODhCR2Jnc1l2Y2ZNS0U?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 09:31:00 GMT",
+      "description": "9月29日 Gate 网格套利榜 NMR_USDT | 60.39% US_USDT | 37.62% HBAR_USDT | 36.37% GRASS_USDT | 32.23% MARSCOIN_USDT | 32.1% 使用 Gate 合約網格交易 $NVDA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "4a801b06124a7f12",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "9月29日 Gate 网格套利榜 NMR_USDT | 60.39% US_USDT | 37.62% HBA…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 USDT SNDKUSDT 合約網格 20x 做多 | 36,408.34 USDT SPCXUSDT 合約網格 5x 做多 | 18,987.23 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約網格交易 $NVDA，捕捉熱門市場機 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rRk14ZFJPamhkeWd5OEN0NTd4eDc0ZjFIVERJRjVVanNtWll2Zm5LanJneDBaSVhjUGl0QTEwcVhnS0YzMEw4VkxFOURYMjY5NXFyc2lSNWN2a0cyY1EwcGFubExQUVE?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 09:45:00 GMT",
+      "description": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 USDT SNDKUSDT 合約網格 20x 做多 | 36,408.34 USDT SPCXUSDT 合約網格 5x 做多 | 18,987.23 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約網格交易 $NVDA，捕捉熱門市場機 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "13bae049a3081854",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 U…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
