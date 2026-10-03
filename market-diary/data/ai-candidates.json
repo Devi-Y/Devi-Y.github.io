@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T00:28:29.419Z",
+  "generatedAt": "2026-10-03T06:30:14.878Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -473,37 +473,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "📊 2026/09/30 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：85 🥈 $WFC｜IV Rank：62 📌 本次共有 2 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $IREN｜IV Rank：2 🥇 $NVDA｜IV Rank：2 🥈 $BE｜IV Ra - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfei12MFVGbkJWb3B1dWlTWlNLQ1RuemM5OXdIdS1RX1o4WEEwX0p3MXM3dDJ2Z1VieXh2TzYycE5pOE1vWFd2MzVBcGtFWkRxWHhSdzBseGVJdUpKYTlxZ1BWcW9fMmNnY051cw?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 06:27:49 GMT",
-      "description": "📊 2026/09/30 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NKE｜IV Rank：85 🥈 $WFC｜IV Rank：62 📌 本次共有 2 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $IREN｜IV Rank：2 🥇 $NVDA｜IV Rank：2 🥈 $BE｜IV Ra &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "bd9c6b34a687ee93",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📊 2026/09/30 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升 根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。 一、NV - x.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IU0dFelM0bXBNbG5LbGZhdE9sazQ4WEJ0ZjRxaVdPMHEtMEZaU0NxbGp3M04wYm5VZXl5MEczakZpNU5uWHRhckVYbDhrVDhBaUNLanhvNWpWNnoxb1E?oc=5",
       "pubDate": "Thu, 01 Oct 2026 05:58:15 GMT",
@@ -743,6 +712,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "希音（SHEIN）上半年同比大幅下滑 50.4% https://t.co/aiMGlGfyN8 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fUTIwc0dSV3UxVmduQXVCOXkzTHk1YVRvQkVfWVZIc0IzRGNMaGpWc1d0bFptMTVoTWYxb0VyeHA2LXVIbHI5bTdRdVc4cjZWRlo5aEUyVTR4eXdWY0htVQ?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 20:18:03 GMT",
+      "description": "希音（SHEIN）上半年同比大幅下滑 50.4% https://t.co/aiMGlGfyN8 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "ee748130349c4dfc",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "希音（SHEIN）上半年同比大幅下滑 50.4%",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
