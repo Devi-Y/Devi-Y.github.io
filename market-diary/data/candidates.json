@@ -1,46 +1,26 @@
 {
-  "generatedAt": "2026-10-04T15:20:47.700Z",
+  "generatedAt": "2026-10-04T19:36:03.394Z",
   "windowDays": 7,
   "summary": {
-    "total": 56,
+    "total": 55,
     "bySignal": {
       "事实": 9,
       "媒体": 1,
       "人物": 8,
       "资金": 0,
-      "热点": 38
+      "热点": 37
     },
     "byTrust": {
       "A": 16,
       "B": 2,
-      "C": 38
+      "C": 37
     },
     "s": 0,
     "a": 6,
-    "b": 50
+    "b": 49
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "宏观",
-      "title": "Jefferson, The U.S. Economy and Monetary Policy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-      "pubDate": "Thu, 1 Oct 2026 17:30:00 GMT",
-      "description": "Speech At the Darden School of Business, University of Virginia, Charlottesville, Virginia",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 76,
-      "priority": "A",
-      "id": "c1f2558ee612dfa4",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物"
-    },
     {
       "market": "港股",
       "signal": "事实",
@@ -60,6 +40,26 @@
       "priority": "A",
       "id": "6003732bea2d9c5f",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型"
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "宏观",
+      "title": "Jefferson, The U.S. Economy and Monetary Policy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+      "pubDate": "Thu, 1 Oct 2026 17:30:00 GMT",
+      "description": "Speech At the Darden School of Business, University of Virginia, Charlottesville, Virginia",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 73,
+      "priority": "A",
+      "id": "c1f2558ee612dfa4",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物"
     },
     {
       "market": "宏观",
@@ -265,26 +265,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZXZCb3dYZDY1eHE1d3ZOVkdtOW5ab0pmT3pjNzNGYlhVelpfNGtmMWxNU09LOVhHWFU0NGJoSFA0bjV2THFPa3R0a3A4UGx4YWczbzZWU0trdmd1OHBYU3loMWtmM3JhaWw5dg?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 10:52:57 GMT",
-      "description": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "f9889934802032e7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🧳 黃金週出發，你會帶哪些美股產品同行？ $AAPL 拍風景？ $TSLA 去自駕？ $SBUX 來杯咖啡... 💬 留下1–3個旅途中會用到的美股＋一句理由。 🎁 將選出5位旅行家，每人贈送10 USDT旅行金！ 📅 10月5日，下一場黃金週小遊戲見～ #WEEX #GoldenWeek就在WEE - x.com",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EM0habHN5NFVaeHozUHM4Sl8ySnhFb2ZiYWRiSUNtbnpCNHRqeXZ6Q2UtanhwVlBDRVBCZ1NtMnhNMkNkTU80QnBSYzZ4ZURTV3FSNXFCRDN4QmYyazlobTBLdlhIWGRGeXZ5VXFIbw?oc=5",
       "pubDate": "Sat, 03 Oct 2026 03:54:46 GMT",
@@ -340,26 +320,6 @@
       "priority": "B",
       "id": "0cd87c37d7756b20",
       "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
-      "pubDate": "Thu, 1 Oct 2026 19:00:00 GMT",
-      "description": "Speech At the Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C.",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 46,
-      "priority": "B",
-      "id": "ef40aed7ac4bf048",
-      "rankReason": "一级/官方信源；关键人物"
     },
     {
       "market": "港股",
@@ -645,6 +605,26 @@
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
+      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+      "pubDate": "Thu, 1 Oct 2026 19:00:00 GMT",
+      "description": "Speech At the Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C.",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 43,
+      "priority": "B",
+      "id": "ef40aed7ac4bf048",
+      "rankReason": "一级/官方信源；关键人物"
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
       "title": "Cook, The Dual Mandate in Rural America",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
       "pubDate": "Wed, 30 Sep 2026 19:25:00 GMT",
@@ -726,7 +706,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "輝達董事會將回購授權額度增加了1,500億美元，創下公司史上最大增幅。 目前剩餘回購額度總計2,350億美元，將在2028財年前執行完畢。 黃仁勳表示，輝達的現金流使「有能力進行投資…並將資本返還給股東」。同一天，輝達發布了一個開放式代理安全平台。股價 $NV - x.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE43TTh5MC0xVi1SZURNd3pCVzJFd2pXdlRFZnJwS1BfcVFVVk5MYXd6VUZLUFItNHE5R2hmQzItOG5sVlc5bmtSdXV4cmt4aHZySzczTFJfZ2xoTzl0NC1kdTVWcmRsZkU5bnEzX0ktSFhwZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZSmlFSFBuM1dOd3daTkxkejhJZFRPSkdVQlZpaWxBSW5ER1VOTWR5ZTkxX2xOLU5GTldfR0tVNVVja0lEVHhiV2lFaEdxbWpWbEpPZmxLSU1ka3Z3Q201YklZNFJCb3c?oc=5",
       "pubDate": "Tue, 29 Sep 2026 02:38:44 GMT",
       "description": "輝達董事會將回購授權額度增加了1,500億美元，創下公司史上最大增幅。 目前剩餘回購額度總計2,350億美元，將在2028財年前執行完畢。 黃仁勳表示，輝達的現金流使「有能力進行投資…並將資本返還給股東」。同一天，輝達發布了一個開放式代理安全平台。股價 $NV &nbsp;&nbsp; x.com",
       "source": "x.com",
@@ -738,7 +718,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 28,
       "priority": "B",
-      "id": "845f33cfa238662c",
+      "id": "348fd9c78ad3d972",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -1005,6 +985,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "這條線拉了這麼久，竟然還沒拉到尾巴，未免也太長了吧！ 圖文報導：https://t.co/RHr1NiWxJV #張俊傑 #高金素梅 #大帳房 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFam42Y2k3TzdrbzNhaFRmcTBNSUJkdWV1T2twQ0w0eXU3MFpVbTdzd01xNHM1c1dWWVNGcWMtbWFTT0Z4WDVvT2FkLUJpSzV0X0RYcWR4M09CQQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 07:54:30 GMT",
+      "description": "這條線拉了這麼久，竟然還沒拉到尾巴，未免也太長了吧！ 圖文報導：https://t.co/RHr1NiWxJV #張俊傑 #高金素梅 #大帳房 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "0bc74f69f34c841f",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "省去繁瑣步驟，更專注於交易行動🔥 一次設定 TP 和 SL，接著儲存交易模板，重複使用🔄 👉 探索 TradFi 與 Bitunix Ultra：https://t.co/1pqyXMt8KP - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2aFdwX3k5eXNyUVJBWmdtNUg0ajY1U0V4RnFxTUNWMlg0WEFsYUd6LXFndF83aDhMcnJZQ1dRZDVGV3RxXzhpQWlSYjF5eGI3Q2xraWN4WjNMMmQtcXhyblJOc01LQVk?oc=5",
       "pubDate": "Tue, 29 Sep 2026 07:48:43 GMT",
@@ -1085,26 +1085,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "這條線拉了這麼久，竟然還沒拉到尾巴，未免也太長了吧！ 圖文報導：https://t.co/RHr1NiWxJV #張俊傑 #高金素梅 #大帳房 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFam42Y2k3TzdrbzNhaFRmcTBNSUJkdWV1T2twQ0w0eXU3MFpVbTdzd01xNHM1c1dWWVNGcWMtbWFTT0Z4WDVvT2FkLUJpSzV0X0RYcWR4M09CQQ?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 07:54:30 GMT",
-      "description": "這條線拉了這麼久，竟然還沒拉到尾巴，未免也太長了吧！ 圖文報導：https://t.co/RHr1NiWxJV #張俊傑 #高金素梅 #大帳房 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "0bc74f69f34c841f",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "《南懷瑾與心經》 南懷瑾先生一生深入研究並弘揚佛法，其中《般若波羅蜜多心經》（簡稱《心經》）是他極為重視且經常隨宜講授的般若法門經典之一。 南懷瑾先生對《心經》的講述與闡釋，不走純學術考證或繁瑣名相堆砌的路子，而是立足於禪宗宗風與實修體驗，將這部僅2 - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CdVhtLUg0ekZHWEI4U3hJbGpSNGdKMndYbF9ndFZCLWVtU2dlWTVxMy1oc1hDbjJSVVpVai0wb05QVEdIdXNhbE1iOXlIeXdUUjQwVTdPeUFtZ2dKUktoZXJfa3pkMGs?oc=5",
       "pubDate": "Mon, 28 Sep 2026 04:29:04 GMT",
@@ -1142,5 +1122,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-04T15:20:49.151Z"
+  "rankedAt": "2026-10-04T19:36:04.789Z"
 }
