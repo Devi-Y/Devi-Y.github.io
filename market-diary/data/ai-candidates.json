@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T09:44:25.660Z",
+  "generatedAt": "2026-10-04T15:20:49.708Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -30,37 +30,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
-      "pubDate": "Thu, 1 Oct 2026 14:00:00 GMT",
-      "description": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 76,
-      "priority": "A",
-      "id": "2ca3b97d7d59969c",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -154,6 +123,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+      "pubDate": "Thu, 1 Oct 2026 14:00:00 GMT",
+      "description": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 73,
+      "priority": "A",
+      "id": "2ca3b97d7d59969c",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -380,10 +380,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96bW5nLVQtNnhPdEpEdUhTMExQdEd5OUh6REFXSWNyX0lOSy11d0RJb09kM2NOWkJuejdheDduZl85elVQeXcwSlNHbFBXYjBycG9adjVwWDVpZ0VFRzBF?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 09:45:55 GMT",
-      "description": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 &nbsp;&nbsp; x.com",
+      "title": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZXZCb3dYZDY1eHE1d3ZOVkdtOW5ab0pmT3pjNzNGYlhVelpfNGtmMWxNU09LOVhHWFU0NGJoSFA0bjV2THFPa3R0a3A4UGx4YWczbzZWU0trdmd1OHBYU3loMWtmM3JhaWw5dg?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 10:52:57 GMT",
+      "description": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -393,42 +393,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "12b2f69b9e45d791",
+      "id": "f9889934802032e7",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QOVRUWk44dUs0RzliQWp0OFVaTGEyMFhIdWl5ODJCZFUwLXUtWE4zNjZHS2p5dHZfajBFVGQzT0Q4YnFLdEdpRjNFVVY0bU9IdXVHODdZdmdMRnNMUjFTU1RSTQ?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 10:01:06 GMT",
-      "description": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "68ba9afb81dfce20",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$…",
+        "summary": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -460,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "🧳 黃金週出發，你會帶哪些美股產品同行？ $AAPL 拍風景？ $TSLA 去自駕？ $SBUX 來杯咖啡.…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96bW5nLVQtNnhPdEpEdUhTMExQdEd5OUh6REFXSWNyX0lOSy11d0RJb09kM2NOWkJuejdheDduZl85elVQeXcwSlNHbFBXYjBycG9adjVwWDVpZ0VFRzBF?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 09:45:55 GMT",
+      "description": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "12b2f69b9e45d791",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -597,6 +597,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QOVRUWk44dUs0RzliQWp0OFVaTGEyMFhIdWl5ODJCZFUwLXUtWE4zNjZHS2p5dHZfajBFVGQzT0Q4YnFLdEdpRjNFVVY0bU9IdXVHODdZdmdMRnNMUjFTU1RSTQ?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 10:01:06 GMT",
+      "description": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "68ba9afb81dfce20",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$NVDA is reportedly working with insurers to make GPUs easier to finance for smaller cloud providers by protecting lenders if a borrower defaults. That could make GPU residual value part of the underwriting process and open more institutional capital to AI infr - x.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwSkpmY0k1ckRSOTVNb1Q2eW1ITm5tdEZRRWRtamp3UFFnMEJWenpHYjVfT0JwT1ZWVDNpT2c2RGdSa2lua0xELVdEUXIwTUpjUXVJaVg5ckdtaUFZOEo1WUVfTDk5QQ?oc=5",
       "pubDate": "Tue, 29 Sep 2026 10:29:17 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 U…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqQ3VrXy1pT09aMnk0NFFwYkttZ0xOY2Jxd2hkX1EwYWEzaFdpTXBGRnB1Vk1BMHlMNVVHekZTdlZYUFladmJ3UzQ5TExLRFJVYW5CYWVKb0M5bktVV0RSWkRlSERqR2c?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 09:27:00 GMT",
-      "description": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9931aad8a2df63d9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 40…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
