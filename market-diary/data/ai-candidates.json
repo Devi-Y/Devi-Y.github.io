@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T07:32:26.275Z",
+  "generatedAt": "2026-10-06T15:08:45.151Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -30,6 +30,68 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261006news?sc_lang=en",
+      "pubDate": "Tue, 06 Oct 2026 16:30:00 +0800",
+      "description": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "40f1753f0f87fec3",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610062news?sc_lang=en",
+      "pubDate": "Tue, 06 Oct 2026 15:51:00 +0800",
+      "description": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "f7876a10eb92c469",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -147,6 +209,37 @@
       "priority": "A",
       "id": "860f09be7cb559f2",
       "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
+      "pubDate": "Tue, 6 Oct 2026 14:45:00 GMT",
+      "description": "Speech At the 2026 Community Banking Research Conference, sponsored by the Federal Reserve System, the Conference of State Bank Supervisors, and the Federal Deposit Insurance Corporation, St. Louis, Missouri",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 63,
+      "priority": "B",
+      "id": "0a8518ae17390ad1",
+      "rankReason": "一级/官方信源；市场相关；关键人物",
       "ai": {
         "priority": "A",
         "summary": "美联储出现一条新的公司事件信息",
@@ -298,7 +391,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
+      "score": 47,
       "priority": "B",
       "id": "bc0e9264a40b7a1c",
       "rankReason": "高影响事件词；社媒只做热点发现",
@@ -309,68 +402,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdFBTNTlHbVFCRi1UUVVmY1hFQlNVRFMycFpkR0Z1bVpjYlRtTWFVeDkzTHZna3RnSFVFQUUzbHpMc3AxX1FyTmlOajVQd19XWmZUNUxkRmx3Nk9sWW16Uw?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 09:54:26 GMT",
-      "description": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "fb7cb43be2cf05aa",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測，回測日期範圍: 2023-01-03 ～ 2026-10-02 到期日(DTE): 2 週 行權價設定 9% OTM。 以美國七大科技股為例，進行回測的結果，僅有NVDA、AMZN 小幅勝出 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lRURtY0lJMDhob2hMUGdJZUczOVM4Sng4NE5xdEEza3JZblV5UERDUjkzRGxmYjljb1M5MUUwZGZ2bmFVYlNNVl82cmFMTU0xeWlGZWdlLWVGWnZSRjBOd2l3?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 08:47:15 GMT",
-      "description": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測，回測日期範圍: 2023-01-03 ～ 2026-10-02 到期日(DTE): 2 週 行權價設定 9% OTM。 以美國七大科技股為例，進行回測的結果，僅有NVDA、AMZN 小幅勝出 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "3aeb7eab21f8fb41",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -398,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdFBTNTlHbVFCRi1UUVVmY1hFQlNVRFMycFpkR0Z1bVpjYlRtTWFVeDkzTHZna3RnSFVFQUUzbHpMc3AxX1FyTmlOajVQd19XWmZUNUxkRmx3Nk9sWW16Uw?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 09:54:26 GMT",
+      "description": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "fb7cb43be2cf05aa",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -442,68 +504,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim Culpan 報導，台積電正探討與其合作，協助這家新創營運德州新廠，並可能把 Terafab 作為自身未來德州晶圓廠的錨定客戶。 消息傳出後，馬斯克回覆「目前只是討論，但可能會有後續」。 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85X0JKa010MWtHUU1NZlVRMEY5alEzYzlIQ3liZjNMbmFVcjFWODFKQkY4Q1pUNUFQUkVZclpXak5iOXRvWldaanh4LWZ1blZwS041bkhnVmJpcE1KQjQ2blhiSHhhSkRR?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 10:39:13 GMT",
-      "description": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim Culpan 報導，台積電正探討與其合作，協助這家新創營運德州新廠，並可能把 Terafab 作為自身未來德州晶圓廠的錨定客戶。 消息傳出後，馬斯克回覆「目前只是討論，但可能會有後續」。 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "7f28436ae0f5fa0f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yeWdheDJHNW1ZSDlhRmMta09nenpHZjd4MWZrRVBEUzNEb2Iwa1lxNjI2aVRlTU04ZjU4VmNZYWJXY0xYSTRNMzl5STFVREFfZGtZcGJ0R2FrYXgyTHpRcVBuMnlabmpUR25NYnFXamI?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 09:45:55 GMT",
-      "description": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "fee5cf9ac4abc2b2",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 - x.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZXZCb3dYZDY1eHE1d3ZOVkdtOW5ab0pmT3pjNzNGYlhVelpfNGtmMWxNU09LOVhHWFU0NGJoSFA0bjV2THFPa3R0a3A4UGx4YWczbzZWU0trdmd1OHBYU3loMWtmM3JhaWw5dg?oc=5",
       "pubDate": "Sun, 04 Oct 2026 10:52:57 GMT",
@@ -522,6 +522,68 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 50 日線 347.58 之上，200 日線 393.18 仲喺上面未收復。近 3 個月計仍然跌 11.7%，上周五呢一下先補返一部分。 站內有 462 個散戶寶用戶持有。 數據時間 10/04 美西 17:27，周末 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xbTZnVW9FSjA1bzNTMkdxNFRZb3FFSEd0czFjZ2czWVZBM0FwaTUwRmVhYnc5RXJyY3dxMHFuQlBYODNWdDlManUxdm1MVWwxZlZNd05HakNhWVJieUU3c2hOM3gyTTNKSWow?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 00:48:35 GMT",
+      "description": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 50 日線 347.58 之上，200 日線 393.18 仲喺上面未收復。近 3 個月計仍然跌 11.7%，上周五呢一下先補返一部分。 站內有 462 個散戶寶用戶持有。 數據時間 10/04 美西 17:27，周末 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "1224a381bbed76a3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "瘋了， 還不 All in NVDA 嗎？ - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TS1pqZUJoWXVrU0ozSXd5STJ1UVJfNHRBYWxaY01lMG92UllZcmloTkJaY3FDbjc2dkV6NzJJaUhZM2FpUDVZLTdZM1RXVXFXaFNxeHZKcEJ3NXByS3NEWW1PbDg?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 10:09:14 GMT",
+      "description": "瘋了， 還不 All in NVDA 嗎？ &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "69b6151f70fe3345",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "瘋了， 還不 All in NVDA 嗎？",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,10 +690,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA is reportedly working with insurers to make GPUs easier to finance for smaller cloud providers by protecting lenders if a borrower defaults. That could make GPU residual value part of the underwriting process and open more institutional capital to AI infr - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwSkpmY0k1ckRSOTVNb1Q2eW1ITm5tdEZRRWRtamp3UFFnMEJWenpHYjVfT0JwT1ZWVDNpT2c2RGdSa2lua0xELVdEUXIwTUpjUXVJaVg5ckdtaUFZOEo1WUVfTDk5QQ?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 10:29:17 GMT",
-      "description": "$NVDA is reportedly working with insurers to make GPUs easier to finance for smaller cloud providers by protecting lenders if a borrower defaults. That could make GPU residual value part of the underwriting process and open more institutional capital to AI infr &nbsp;&nbsp; x.com",
+      "title": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測，回測日期範圍: 2023-01-03 ～ 2026-10-02 到期日(DTE): 2 週 行權價設定 9% OTM。 以美國七大科技股為例，進行回測的結果，僅有NVDA、AMZN 小幅勝出 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lRURtY0lJMDhob2hMUGdJZUczOVM4Sng4NE5xdEEza3JZblV5UERDUjkzRGxmYjljb1M5MUUwZGZ2bmFVYlNNVl82cmFMTU0xeWlGZWdlLWVGWnZSRjBOd2l3?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 08:47:15 GMT",
+      "description": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測，回測日期範圍: 2023-01-03 ～ 2026-10-02 到期日(DTE): 2 週 行權價設定 9% OTM。 以美國七大科技股為例，進行回測的結果，僅有NVDA、AMZN 小幅勝出 &nbsp;&nbsp; x.com",
       "source": "x.com",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -641,73 +703,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "1b9f05c4c90c5a62",
+      "id": "3aeb7eab21f8fb41",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "x.com出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "9月29日 Gate 网格套利榜 NMR_USDT | 60.39% US_USDT | 37.62% HBAR_USDT | 36.37% GRASS_USDT | 32.23% MARSCOIN_USDT | 32.1% 使用 Gate 合約網格交易 $NVDA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLcHJrZjhwLW81QmhrX3lmZnZmRTlidGl4Z29yWVJOSFFfaHkzMmNTN2h6Vm9hZFpXcTZGT3JlanM5UGU0dVZaN1prX1FEZ0lSb1h6ajRQWVFqODhCR2Jnc1l2Y2ZNS0U?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 09:31:00 GMT",
-      "description": "9月29日 Gate 网格套利榜 NMR_USDT | 60.39% US_USDT | 37.62% HBAR_USDT | 36.37% GRASS_USDT | 32.23% MARSCOIN_USDT | 32.1% 使用 Gate 合約網格交易 $NVDA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "4a801b06124a7f12",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "9月29日 Gate 网格套利榜 NMR_USDT | 60.39% US_USDT | 37.62% HBA…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 USDT SNDKUSDT 合約網格 20x 做多 | 36,408.34 USDT SPCXUSDT 合約網格 5x 做多 | 18,987.23 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約網格交易 $NVDA，捕捉熱門市場機 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rRk14ZFJPamhkeWd5OEN0NTd4eDc0ZjFIVERJRjVVanNtWll2Zm5LanJneDBaSVhjUGl0QTEwcVhnS0YzMEw4VkxFOURYMjY5NXFyc2lSNWN2a0cyY1EwcGFubExQUVE?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 09:45:00 GMT",
-      "description": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 USDT SNDKUSDT 合約網格 20x 做多 | 36,408.34 USDT SPCXUSDT 合約網格 5x 做多 | 18,987.23 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約網格交易 $NVDA，捕捉熱門市場機 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "13bae049a3081854",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 U…",
+        "summary": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
