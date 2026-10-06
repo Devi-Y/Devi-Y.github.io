@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:24:45.919Z",
+  "generatedAt": "2026-10-06T00:47:32.737Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -160,37 +160,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-      "pubDate": "Fri, 2 Oct 2026 20:45:00 GMT",
-      "description": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 55,
-      "priority": "B",
-      "id": "5cfe54de9b266072",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
@@ -218,6 +187,37 @@
           "招股书解析"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "pubDate": "Fri, 2 Oct 2026 20:45:00 GMT",
+      "description": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 52,
+      "priority": "B",
+      "id": "5cfe54de9b266072",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -336,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,069.18 ，跌 2.57% 。離 52 週高位仲有段距離，但 RSI(14) 仲企喺 74.9 ，熱度未散。 財報出咗 4 日。頁面列嘅下季 EPS 預估係 35.36 美元，過去 12 個月加埋先得 21.38 。 - x.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zVmpPWDVydnZBSmpUUGU1dHdNWmUtUDkxUkkwdHJaTU1xOGRpZk1jcEhqd2gxTFdmTHRpalFlZTlpdlFLc3c4anF4cTk2R1RBVTlzRk1qQ0kzdnNVN1VTazdveG10UFhrTjRj?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 03:55:15 GMT",
+      "description": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,069.18 ，跌 2.57% 。離 52 週高位仲有段距離，但 RSI(14) 仲企喺 74.9 ，熱度未散。 財報出咗 4 日。頁面列嘅下季 EPS 預估係 35.36 美元，過去 12 個月加埋先得 21.38 。 &nbsp;&nbsp; x.com",
+      "source": "x.com",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "fe0555ef2f43d0c2",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -501,33 +532,33 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
+      "market": "港股",
+      "signal": "媒体",
       "type": "公司事件",
-      "title": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZXZCb3dYZDY1eHE1d3ZOVkdtOW5ab0pmT3pjNzNGYlhVelpfNGtmMWxNU09LOVhHWFU0NGJoSFA0bjV2THFPa3R0a3A4UGx4YWczbzZWU0trdmd1OHBYU3loMWtmM3JhaWw5dg?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 10:52:57 GMT",
-      "description": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
+      "title": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - secure.aastocks.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZC1NN2wyRklGclFfazBhV21BTUFaRGRnN1l5R0xIS2dTMmVlR1NVZmgwcW5jY1BucFA2VC1maS16R3lfX2JzUFpVRmZXTVAtMjFFLUVLaTdSOVdCSEd5VzBhamF4bW9nUkljWkxzSnZvS2RuYnIwUkZMZ01IbnB1UUFxYjFGNVNxNUhXYw?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 00:06:28 GMT",
+      "description": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns &nbsp;&nbsp; secure.aastocks.com",
+      "source": "secure.aastocks.com",
+      "sourceKey": "aastocks",
+      "sourceMode": "media-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 45,
       "priority": "B",
-      "id": "f9889934802032e7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
+      "id": "f0ce55435e41d7e2",
+      "rankReason": "市场相关",
       "ai": {
         "priority": "B",
-        "summary": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "summary": "免費即時技術投資分析HK Stock Free Real Time Technical Patterns - …",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
           "事件解读"
         ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -563,33 +594,33 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "希音（SHEIN）上半年同比大幅下滑 50.4% https://t.co/aiMGlGfyN8 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fUTIwc0dSV3UxVmduQXVCOXkzTHk1YVRvQkVfWVZIc0IzRGNMaGpWc1d0bFptMTVoTWYxb0VyeHA2LXVIbHI5bTdRdVc4cjZWRlo5aEUyVTR4eXdWY0htVQ?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 20:18:03 GMT",
-      "description": "希音（SHEIN）上半年同比大幅下滑 50.4% https://t.co/aiMGlGfyN8 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
+      "pubDate": "Mon, 5 Oct 2026 20:30:00 GMT",
+      "description": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
       "score": 44,
       "priority": "B",
-      "id": "ee748130349c4dfc",
-      "rankReason": "高影响事件词；社媒只做热点发现",
+      "id": "1b6c6ea303491ca8",
+      "rankReason": "一级/官方信源",
       "ai": {
         "priority": "B",
-        "summary": "希音（SHEIN）上半年同比大幅下滑 50.4%",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
         "contentDirection": [
           "快讯",
-          "事件解读"
+          "宏观解读"
         ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "9月29日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 46,895.87 U…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 - x.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqQ3VrXy1pT09aMnk0NFFwYkttZ0xOY2Jxd2hkX1EwYWEzaFdpTXBGRnB1Vk1BMHlMNVVHekZTdlZYUFladmJ3UzQ5TExLRFJVYW5CYWVKb0M5bktVV0RSWkRlSERqR2c?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 09:27:00 GMT",
-      "description": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 &nbsp;&nbsp; x.com",
-      "source": "x.com",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9931aad8a2df63d9",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 40…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
