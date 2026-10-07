@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-07T14:28:33.005Z",
+  "generatedAt": "2026-10-07T20:35:48.275Z",
   "windowDays": 7,
   "summary": {
-    "total": 51,
+    "total": 50,
     "bySignal": {
       "事实": 6,
       "媒体": 2,
-      "人物": 5,
+      "人物": 4,
       "资金": 0,
       "热点": 38
     },
     "byTrust": {
-      "A": 11,
+      "A": 10,
       "B": 2,
       "C": 38
     },
     "s": 0,
     "a": 4,
-    "b": 47
+    "b": 46
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -116,7 +116,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 63,
+      "score": 60,
       "priority": "B",
       "id": "0a8518ae17390ad1",
       "rankReason": "一级/官方信源；市场相关；关键人物"
@@ -542,26 +542,6 @@
       "rankReason": "一级/官方信源；关键人物"
     },
     {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Cook, The Dual Mandate in Rural America",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-      "pubDate": "Wed, 30 Sep 2026 19:25:00 GMT",
-      "description": "Speech At the 2026 Investing in Rural America Conference, Federal Reserve Bank of Richmond, Asheville, North Carolina",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 43,
-      "priority": "B",
-      "id": "a212c34ae00753b3",
-      "rankReason": "一级/官方信源；关键人物"
-    },
-    {
       "market": "港股",
       "signal": "媒体",
       "type": "公司事件",
@@ -785,6 +765,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "葉門政府軍已經佔領了包括杜巴布區（Dhubab位於海峽入口處）的一個簡易機場在內的關鍵位置。 杜巴布區是重要的石油運輸通道，胡塞武裝上個月奪取該通道的舉動震驚了能源市場。 同時，據葉門政府軍方消息透露，胡塞武裝在塔伊茲市附近取得了重要進展，奪取了 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCNDcwNFIxZTJyb01vcUd3cWsyeDE1TlVVY2VIUk1ma1dqVUFtX2NjQm8wY0pRRmI3SHpGS05RTFZtM1h3Z0lwWEFod1prRDl0a21TS3BuNG9DMEVNWERNU1RVbUFLU2s?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 17:23:36 GMT",
+      "description": "葉門政府軍已經佔領了包括杜巴布區（Dhubab位於海峽入口處）的一個簡易機場在內的關鍵位置。 杜巴布區是重要的石油運輸通道，胡塞武裝上個月奪取該通道的舉動震驚了能源市場。 同時，據葉門政府軍方消息透露，胡塞武裝在塔伊茲市附近取得了重要進展，奪取了 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "fd3a8a58d612bd32",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "- Xiaohongshu",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
       "pubDate": "Tue, 06 Oct 2026 01:42:27 GMT",
@@ -965,26 +965,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "美東時間今晚7點（亞太時間早上7點）請鎖定【大時局直播】，🌟高潔+秦鵬+石山🌟為您帶來最新最熱的消息，深挖新聞背後的真相！ 💥駕駛艙刀光血影！1分鐘急墜5000公尺 174名乘客以為活不了；美軍撤出伊拉克伊朗歡呼 革命衛隊竟號召美國人選民主黨？！👉 https://t. - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RUHZvMXc1VmZuMWdHVE1obkNqSWVFQXhyR1ZQNjBhWTkxakl1eTVqSlRkUkN5NEkwRDNOWXZxZVJNZWwtVlZXdVFWOTE5ZFlBNnRERmFxWW82V1FidmNJbDhDbFB1MTY2VFZUenhEUlhrQQ?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 21:25:34 GMT",
-      "description": "美東時間今晚7點（亞太時間早上7點）請鎖定【大時局直播】，🌟高潔+秦鵬+石山🌟為您帶來最新最熱的消息，深挖新聞背後的真相！ 💥駕駛艙刀光血影！1分鐘急墜5000公尺 174名乘客以為活不了；美軍撤出伊拉克伊朗歡呼 革命衛隊竟號召美國人選民主黨？！👉 https://t. &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "f9910e3b2af40b6f",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "國殤祭文： 今天是中國人民的國傷日，1949年10月1日，不是解放，是國殤。 毛所謂站起來了，其實許多人從此跪下了，中國從此失去民主自由的希望…… 請關注：@ChinaTruth - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NajJCNWc2QWhxeFFUWk0xbHFTbWFVa2JsLVliS045OEZDancwQUVqZUxYbnR3Vk02bU5aaGxlUjZVemdSQWRmV21sdTZjU0xSbm81S3FST25FM0VhcUpWWg?oc=5",
       "pubDate": "Thu, 01 Oct 2026 09:05:02 GMT",
@@ -1042,5 +1022,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-07T14:28:34.366Z"
+  "rankedAt": "2026-10-07T20:35:49.709Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T14:28:34.823Z",
+  "generatedAt": "2026-10-07T20:35:50.517Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -143,12 +143,12 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 63,
+      "score": 60,
       "priority": "B",
       "id": "0a8518ae17390ad1",
       "rankReason": "一级/官方信源；市场相关；关键人物",
       "ai": {
-        "priority": "A",
+        "priority": "B",
         "summary": "美联储出现一条新的公司事件信息",
         "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
         "contentDirection": [
