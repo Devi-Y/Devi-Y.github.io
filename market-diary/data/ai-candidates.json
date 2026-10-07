@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T00:40:12.095Z",
+  "generatedAt": "2026-10-07T07:12:19.596Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -256,6 +256,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
+      "title": "【探熱針】昨晚(10月1日)在美上市非美股表現。BABA: -0.08%，JD: -0.86%，TSM: +0.66%，ASML: -0.18%，SAP: +1.11%，SHOP: +0.53%，LULU: -0.34%，PBR: +0.53%。 - X",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ19ZWXY5ZXljSTRyMURnY3lTZW0yN2lDeWI0MlluVnZfNXhFcENYNlBtOXNIYU9jUEdQcTlnaG16Ni1rWWZxY1JWRDF4cC1jcmhGMDFGTHN6LUNfTHh3VXhPZEQ3LXNjRy1MYTZvUWxtNEZFT053Tk05b195akRnY1JRcmZvWW9DSk5MWlV6WDZ0RnM?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 23:05:24 GMT",
+      "description": "【探熱針】昨晚(10月1日)在美上市非美股表現。BABA: -0.08%，JD: -0.86%，TSM: +0.66%，ASML: -0.18%，SAP: +1.11%，SHOP: +0.53%，LULU: -0.34%，PBR: +0.53%。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "13500a4c736e20a9",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【探熱針】昨晚(10月1日)在美上市非美股表現。BABA: -0.08%，JD: -0.86%，TSM: +0…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
       "title": "$NVDA 股價盤中觸及歷史新高237.87美元（上漲約2.5%），創下自5月以來的新高，市值達到約5.6-5.7兆美元。董事會批准了1,500億美元的新股票回購計劃，加上先前已批准的850億美元，到2028財年，回購總額將達到約2,350億美元，據稱是公司史上規模最大的股票 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EaTdHZHBRZmRwOWQzRnJZT2huZlFqeTB4M1NPNnE4UlNYaDNfRlpJVjBRbE1YY1pDTTZGamhPZ0c2SVZfaXlaSnpSelZOTkgtZWpyODMwRWxHRjhwSGRHSEJ5MzRheTQ?oc=5",
       "pubDate": "Sun, 04 Oct 2026 00:07:51 GMT",
@@ -278,6 +309,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Taiwan Op-Ed: Elon Musk would not be a good partner for TSMC because he is pro-China for business reasons and “extremely unfriendly to Taiwan”, one media says, adding that if TSMC worked on TeraFab, other clients would likely be unhappy because the - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCUlVVLUVTem1BeWVzWXE1SzBicU5GX0Q0OWtXRUlNeThoNXpCQW5ZTUh6bG5tVTVlM0FCazVuQ1FHUmgxRDZHTm5DMDlKdnRkc0pueFNMdFpXd1lHWnc?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 00:06:32 GMT",
+      "description": "Taiwan Op-Ed: Elon Musk would not be a good partner for TSMC because he is pro-China for business reasons and “extremely unfriendly to Taiwan”, one media says, adding that if TSMC worked on TeraFab, other clients would likely be unhappy because the &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a6c8b42b965cc4a8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -470,6 +532,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "瘋了， 還不 All in NVDA 嗎？ - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TS1pqZUJoWXVrU0ozSXd5STJ1UVJfNHRBYWxaY01lMG92UllZcmloTkJaY3FDbjc2dkV6NzJJaUhZM2FpUDVZLTdZM1RXVXFXaFNxeHZKcEJ3NXByS3NEWW1PbDg?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 10:09:14 GMT",
+      "description": "瘋了， 還不 All in NVDA 嗎？ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "6fbd0a0155e5f5eb",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "瘋了， 還不 All in NVDA 嗎？ - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "港股",
       "signal": "媒体",
       "type": "公司事件",
@@ -646,99 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim Culpan 報導，台積電正探討與其合作，協助這家新創營運德州新廠，並可能把 Terafab 作為自身未來德州晶圓廠的錨定客戶。 消息傳出後，馬斯克回覆「目前只是討論，但可能會有後續」。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85X0JKa010MWtHUU1NZlVRMEY5alEzYzlIQ3liZjNMbmFVcjFWODFKQkY4Q1pUNUFQUkVZclpXak5iOXRvWldaanh4LWZ1blZwS041bkhnVmJpcE1KQjQ2blhiSHhhSkRR?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 10:39:13 GMT",
-      "description": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim Culpan 報導，台積電正探討與其合作，協助這家新創營運德州新廠，並可能把 Terafab 作為自身未來德州晶圓廠的錨定客戶。 消息傳出後，馬斯克回覆「目前只是討論，但可能會有後續」。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "4ee07132e8a9a1b1",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 - X",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yeWdheDJHNW1ZSDlhRmMta09nenpHZjd4MWZrRVBEUzNEb2Iwa1lxNjI2aVRlTU04ZjU4VmNZYWJXY0xYSTRNMzl5STFVREFfZGtZcGJ0R2FrYXgyTHpRcVBuMnlabmpUR25NYnFXamI?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 09:45:55 GMT",
-      "description": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "c56c1b73d41bfa62",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "CPU 與 GPU 變成共生，TAM 大幅擴張 Agentic AI 不是只要 GPU。GPU 負責生成 token，CPU 負責工具呼叫、程式執行、檢索與資料庫互動。因此系統整體運算都重要，CPU 延遲與任務完成速度會影響 GPU 利用率與使用者體驗。 預估伺服器 CPU TAM 從 2026 年 61 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5WGFLaHpYNEZmOU4yVTU4eE1tREVqN29XNTF3ekY3bXFGcHhjS0hrVXVKYU9GbEtKN2JxT292ckkzc3E2MTlUakpfNUpjYU4yaVhJdjBjQi1FMXl0M3c?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 06:36:52 GMT",
-      "description": "CPU 與 GPU 變成共生，TAM 大幅擴張 Agentic AI 不是只要 GPU。GPU 負責生成 token，CPU 負責工具呼叫、程式執行、檢索與資料庫互動。因此系統整體運算都重要，CPU 延遲與任務完成速度會影響 GPU 利用率與使用者體驗。 預估伺服器 CPU TAM 從 2026 年 61 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "715d3cfb5744e46e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "CPU 與 GPU 變成共生，TAM 大幅擴張 Agentic AI 不是只要 GPU。GPU 負責生成 to…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
