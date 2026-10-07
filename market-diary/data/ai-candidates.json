@@ -1,102 +1,9 @@
 {
-  "generatedAt": "2026-10-07T07:12:19.596Z",
+  "generatedAt": "2026-10-07T14:28:34.823Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "link": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
-      "pubDate": "Wed, 30 Sep 2026 20:43:00 +0800",
-      "description": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "source": "HKEX · Market Communications",
-      "sourceKey": "hkex-market",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
-      "priority": "A",
-      "id": "6003732bea2d9c5f",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所发布最新IPO申请、除牌及停牌报告",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261006news?sc_lang=en",
-      "pubDate": "Tue, 06 Oct 2026 16:30:00 +0800",
-      "description": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
-      "priority": "A",
-      "id": "40f1753f0f87fec3",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610062news?sc_lang=en",
-      "pubDate": "Tue, 06 Oct 2026 15:51:00 +0800",
-      "description": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
-      "priority": "A",
-      "id": "f7876a10eb92c469",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "宏观",
       "signal": "人物",
@@ -160,6 +67,68 @@
       }
     },
     {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261006news?sc_lang=en",
+      "pubDate": "Tue, 06 Oct 2026 16:30:00 +0800",
+      "description": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 71,
+      "priority": "A",
+      "id": "40f1753f0f87fec3",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610062news?sc_lang=en",
+      "pubDate": "Tue, 06 Oct 2026 15:51:00 +0800",
+      "description": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 71,
+      "priority": "A",
+      "id": "f7876a10eb92c469",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -208,37 +177,6 @@
       "score": 52,
       "priority": "B",
       "id": "5cfe54de9b266072",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-      "pubDate": "Wed, 30 Sep 2026 13:00:00 GMT",
-      "description": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 52,
-      "priority": "B",
-      "id": "cd667e4f2ca6e2fe",
       "rankReason": "一级/官方信源；市场相关",
       "ai": {
         "priority": "B",
@@ -380,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv - X",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hQTBRTVkzWDkxV1RTcHY3X0FnNWtwOVozdkZZTE53UnlNeDEzYmQ2ZVd1M2RXZldrUkdwSzZwd05YMW9JU0xENWhLeGhaRDVDazQ0cHc5Q083NFktc29uQzNTWEtFSmZtWGtB?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 11:51:35 GMT",
-      "description": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "786fe19472211efe",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdFBTNTlHbVFCRi1UUVVmY1hFQlNVRFMycFpkR0Z1bVpjYlRtTWFVeDkzTHZna3RnSFVFQUUzbHpMc3AxX1FyTmlOajVQd19XWmZUNUxkRmx3Nk9sWW16Uw?oc=5",
       "pubDate": "Mon, 05 Oct 2026 09:54:26 GMT",
@@ -473,37 +380,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 - X",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZXZCb3dYZDY1eHE1d3ZOVkdtOW5ab0pmT3pjNzNGYlhVelpfNGtmMWxNU09LOVhHWFU0NGJoSFA0bjV2THFPa3R0a3A4UGx4YWczbzZWU0trdmd1OHBYU3loMWtmM3JhaWw5dg?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 10:52:57 GMT",
-      "description": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "6e1882c2db85a654",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 50 日線 347.58 之上，200 日線 393.18 仲喺上面未收復。近 3 個月計仍然跌 11.7%，上周五呢一下先補返一部分。 站內有 462 個散戶寶用戶持有。 數據時間 10/04 美西 17:27，周末 - X",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xbTZnVW9FSjA1bzNTMkdxNFRZb3FFSEd0czFjZ2czWVZBM0FwaTUwRmVhYnc5RXJyY3dxMHFuQlBYODNWdDlManUxdm1MVWwxZlZNd05HakNhWVJieUU3c2hOM3gyTTNKSWow?oc=5",
       "pubDate": "Mon, 05 Oct 2026 00:48:35 GMT",
@@ -553,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "瘋了， 還不 All in NVDA 嗎？ - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QbTE4WnFVb0hYSEtmajdTclpsTWdLRHJIMG9vRmFfUlJFN1U1bGllRE12ajJ2dnJ4d2NnS2xaSS1aSE5ONkpneVNRcVZRT3UzMGFtY29QQlNlVVhhRjQxa29Qd0x4dmYxVEZweVN2VXBoZw?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 03:44:12 GMT",
+      "description": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "bb0c9da5bb50f670",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？\ud83d…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -659,10 +566,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqQ3VrXy1pT09aMnk0NFFwYkttZ0xOY2Jxd2hkX1EwYWEzaFdpTXBGRnB1Vk1BMHlMNVVHekZTdlZYUFladmJ3UzQ5TExLRFJVYW5CYWVKb0M5bktVV0RSWkRlSERqR2c?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 09:27:00 GMT",
-      "description": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 400+ 美股標的全覆蓋 🎁 合約首筆交易： 合約新手首筆美股合約交易可直接領取 3 USDT 🏆 全民衝榜： 交易量達標即可上榜，單人最高獨得 8,000 USDT 👑 VIP 加碼： VIP 5 及以上大戶 &nbsp;&nbsp; X",
+      "title": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv - X",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hQTBRTVkzWDkxV1RTcHY3X0FnNWtwOVozdkZZTE53UnlNeDEzYmQ2ZVd1M2RXZldrUkdwSzZwd05YMW9JU0xENWhLeGhaRDVDazQ0cHc5Q083NFktc29uQzNTWEtFSmZtWGtB?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 11:51:35 GMT",
+      "description": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -672,11 +579,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "fdbca44173ed5c2f",
+      "id": "786fe19472211efe",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "📈 美股合約交易賽重磅開跑，衝榜最高獨拿 8,000 USDT $NVDA、$TSLA、$AAPL 等 40…",
+        "summary": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +646,99 @@
       "ai": {
         "priority": "B",
         "summary": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim Culpan 報導，台積電正探討與其合作，協助這家新創營運德州新廠，並可能把 Terafab 作為自身未來德州晶圓廠的錨定客戶。 消息傳出後，馬斯克回覆「目前只是討論，但可能會有後續」。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85X0JKa010MWtHUU1NZlVRMEY5alEzYzlIQ3liZjNMbmFVcjFWODFKQkY4Q1pUNUFQUkVZclpXak5iOXRvWldaanh4LWZ1blZwS041bkhnVmJpcE1KQjQ2blhiSHhhSkRR?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 10:39:13 GMT",
+      "description": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim Culpan 報導，台積電正探討與其合作，協助這家新創營運德州新廠，並可能把 Terafab 作為自身未來德州晶圓廠的錨定客戶。 消息傳出後，馬斯克回覆「目前只是討論，但可能會有後續」。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "4ee07132e8a9a1b1",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 - X",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yeWdheDJHNW1ZSDlhRmMta09nenpHZjd4MWZrRVBEUzNEb2Iwa1lxNjI2aVRlTU04ZjU4VmNZYWJXY0xYSTRNMzl5STFVREFfZGtZcGJ0R2FrYXgyTHpRcVBuMnlabmpUR25NYnFXamI?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 09:45:55 GMT",
+      "description": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "c56c1b73d41bfa62",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 - X",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZXZCb3dYZDY1eHE1d3ZOVkdtOW5ab0pmT3pjNzNGYlhVelpfNGtmMWxNU09LOVhHWFU0NGJoSFA0bjV2THFPa3R0a3A4UGx4YWczbzZWU0trdmd1OHBYU3loMWtmM3JhaWw5dg?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 10:52:57 GMT",
+      "description": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "6e1882c2db85a654",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
