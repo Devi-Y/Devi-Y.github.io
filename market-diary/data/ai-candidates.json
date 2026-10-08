@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T00:58:16.520Z",
+  "generatedAt": "2026-10-08T07:21:20.480Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -255,6 +255,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "據報SpaceX擬舉債400億美元購買輝達晶片，包括100億銀行貸款與300億投資級債券。$NVDA 可望受惠，電力、散熱與網通需求也值得關注。 管理層稱ARR可達1,000億美元，仍需營收與現金流驗證。 大叔觀點：GPU可以借錢買，利息得靠現金付。盯融資條件、算力售 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMbm5LU25SZnhYMHlnRkF4SktrSkV6V245R2V2a0RxTzhTajVMS1hxVzZnVnMxVVQ4ZmVXVVBjUVJuQ0dNajFhbmM4dE5aWm5teTcxc09iWXU2eS1ZSGlvT2cyWmVzWDA?oc=5",
+      "pubDate": "Thu, 08 Oct 2026 02:02:52 GMT",
+      "description": "據報SpaceX擬舉債400億美元購買輝達晶片，包括100億銀行貸款與300億投資級債券。$NVDA 可望受惠，電力、散熱與網通需求也值得關注。 管理層稱ARR可達1,000億美元，仍需營收與現金流驗證。 大叔觀點：GPU可以借錢買，利息得靠現金付。盯融資條件、算力售 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "4500bd58ac2050e9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "據報SpaceX擬舉債400億美元購買輝達晶片，包括100億銀行貸款與300億投資級債券。$NVDA 可望受惠…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PaGZzdHItUVozbzZyaWFPaFBJclpicUVLT3R5V1UwUXFDMl9ETWZSdEwzSFhBOTM4emVseXJhRXZVekpMb0x3YUJXOTh3TUlTN1N4NnRfSTA0ZE9faExlOS00YmJPd0pZNDd2WHlyaklsZw?oc=5",
@@ -318,37 +349,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,069.18 ，跌 2.57% 。離 52 週高位仲有段距離，但 RSI(14) 仲企喺 74.9 ，熱度未散。 財報出咗 4 日。頁面列嘅下季 EPS 預估係 35.36 美元，過去 12 個月加埋先得 21.38 。 - X",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zVmpPWDVydnZBSmpUUGU1dHdNWmUtUDkxUkkwdHJaTU1xOGRpZk1jcEhqd2gxTFdmTHRpalFlZTlpdlFLc3c4anF4cTk2R1RBVTlzRk1qQ0kzdnNVN1VTazdveG10UFhrTjRj?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 03:55:15 GMT",
-      "description": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,069.18 ，跌 2.57% 。離 52 週高位仲有段距離，但 RSI(14) 仲企喺 74.9 ，熱度未散。 財報出咗 4 日。頁面列嘅下季 EPS 預估係 35.36 美元，過去 12 個月加埋先得 21.38 。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "0f0504d547b1a929",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "瘋了， 還不 All in NVDA 嗎？ - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TS1pqZUJoWXVrU0ozSXd5STJ1UVJfNHRBYWxaY01lMG92UllZcmloTkJaY3FDbjc2dkV6NzJJaUhZM2FpUDVZLTdZM1RXVXFXaFNxeHZKcEJ3NXByS3NEWW1PbDg?oc=5",
       "pubDate": "Mon, 05 Oct 2026 10:09:14 GMT",
@@ -367,37 +367,6 @@
       "ai": {
         "priority": "B",
         "summary": "瘋了， 還不 All in NVDA 嗎？ - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QbTE4WnFVb0hYSEtmajdTclpsTWdLRHJIMG9vRmFfUlJFN1U1bGllRE12ajJ2dnJ4d2NnS2xaSS1aSE5ONkpneVNRcVZRT3UzMGFtY29QQlNlVVhhRjQxa29Qd0x4dmYxVEZweVN2VXBoZw?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 03:44:12 GMT",
-      "description": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "bb0c9da5bb50f670",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？\ud83d…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -473,37 +442,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測，回測日期範圍: 2023-01-03 ～ 2026-10-02 到期日(DTE): 2 週 行權價設定 9% OTM。 以美國七大科技股為例，進行回測的結果，僅有NVDA、AMZN 小幅勝出 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lRURtY0lJMDhob2hMUGdJZUczOVM4Sng4NE5xdEEza3JZblV5UERDUjkzRGxmYjljb1M5MUUwZGZ2bmFVYlNNVl82cmFMTU0xeWlGZWdlLWVGWnZSRjBOd2l3?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 08:47:15 GMT",
-      "description": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測，回測日期範圍: 2023-01-03 ～ 2026-10-02 到期日(DTE): 2 週 行權價設定 9% OTM。 以美國七大科技股為例，進行回測的結果，僅有NVDA、AMZN 小幅勝出 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "7f8a69140e21c9f8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "對手中持股長期做Covered Call，究竟能否增加收益? 這個問題的答案眾說紛紜，我利用假日做了一個小回測…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv - X",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hQTBRTVkzWDkxV1RTcHY3X0FnNWtwOVozdkZZTE53UnlNeDEzYmQ2ZVd1M2RXZldrUkdwSzZwd05YMW9JU0xENWhLeGhaRDVDazQ0cHc5Q083NFktc29uQzNTWEtFSmZtWGtB?oc=5",
       "pubDate": "Sun, 04 Oct 2026 11:51:35 GMT",
@@ -535,6 +473,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,069.18 ，跌 2.57% 。離 52 週高位仲有段距離，但 RSI(14) 仲企喺 74.9 ，熱度未散。 財報出咗 4 日。頁面列嘅下季 EPS 預估係 35.36 美元，過去 12 個月加埋先得 21.38 。 - X",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zVmpPWDVydnZBSmpUUGU1dHdNWmUtUDkxUkkwdHJaTU1xOGRpZk1jcEhqd2gxTFdmTHRpalFlZTlpdlFLc3c4anF4cTk2R1RBVTlzRk1qQ0kzdnNVN1VTazdveG10UFhrTjRj?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 03:55:15 GMT",
+      "description": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,069.18 ，跌 2.57% 。離 52 週高位仲有段距離，但 RSI(14) 仲企喺 74.9 ，熱度未散。 財報出咗 4 日。頁面列嘅下季 EPS 預估係 35.36 美元，過去 12 個月加埋先得 21.38 。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "0f0504d547b1a929",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "站內持倉榜第一仍然係 $MU ，1,034 人加咗入自己個面板，多過 $NVDA 三倍有多。 頁面報價 $1,…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "🧳 黃金週出發，你會帶哪些美股產品同行？ $AAPL 拍風景？ $TSLA 去自駕？ $SBUX 來杯咖啡... 💬 留下1–3個旅途中會用到的美股＋一句理由。 🎁 將選出5位旅行家，每人贈送10 USDT旅行金！ 📅 10月5日，下一場黃金週小遊戲見～ #WEEX #GoldenWeek就在WEE - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sR3JEVEhwS0hFaEhMMFJybm5BUEwtMXNnNlJtSGh1UER6Unh0YW9KVzd6WHA5bExyQnJnUGlsbzYyd1FTSlB4QnF1RTJtSkVCNFdCdzJPeW8tel8zRzh1WWhWYl8?oc=5",
       "pubDate": "Sat, 03 Oct 2026 03:54:46 GMT",
@@ -553,37 +522,6 @@
       "ai": {
         "priority": "B",
         "summary": "🧳 黃金週出發，你會帶哪些美股產品同行？ $AAPL 拍風景？ $TSLA 去自駕？ $SBUX 來杯咖啡.…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升 根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。 一、NV - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IU0dFelM0bXBNbG5LbGZhdE9sazQ4WEJ0ZjRxaVdPMHEtMEZaU0NxbGp3M04wYm5VZXl5MEczakZpNU5uWHRhckVYbDhrVDhBaUNLanhvNWpWNnoxb1E?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 05:58:15 GMT",
-      "description": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升 根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。 一、NV &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "773fdcf422ec7df3",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -721,6 +659,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ocFhkaWFRdUxIMWtNUDY4bzIxazdDZ3FMTUw1M2xzd1JnUUdzNFAtR21tdGRwOTF0amowTTZRLVdfaHd6YWJTeHdSeVZ6T1VWNFZUY0xJRzhJRXdnWVVQYm9LZmJWRTdTeFRuRWpMUlk3UQ?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 03:44:12 GMT",
+      "description": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "8e53ecf361aca909",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？\ud83d…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "我覺得 Backpack 最新的 AI Search，可能比「AI 搜尋」這四個字更值得看 因為以前你想交易一個東西，第一件事是： 先知道它在哪裡。 想買股票？ 找 Stocks。 想做 BTC Perp？ 找 Derivatives。 想找 Earn？ 換一個頁面。 想找某個市場？ 先知道 ticker。 $NVDA、$BTC、 - X",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QZERIRFdvcmtDdFdiRURjVE9tWnFOSDJTcVFHdmZDSVBIbDRIUWl4WUxzQk16c0xQQm84XzVqQmR5VlNtdmZFZTZtdEg4TDJ6bVRTcTlvbVZ5MWE4d0QwaXVwTmIwZw?oc=5",
       "pubDate": "Sun, 04 Oct 2026 02:17:53 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "我覺得 Backpack 最新的 AI Search，可能比「AI 搜尋」這四個字更值得看 因為以前你想交易一…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "日本應該要直接禁止SHEIN與Temu才對 不是什麼提供銷售資訊 日本強化進口邊境管控 將要求SHEIN等業者提供銷售資訊 https://t.co/KSz1xp9BC5 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84bld5M1N6Sm8tdGNxYWdiYVF1ZVMzYVREY1dxWWRHZXY4MHpUanRVcWdZMWxPM0haQUhSOGd2b1VuZzBhdDJhRXVKMlZYcGRJd2dFd3EwSEpMUGJzOEJkRg?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 14:42:21 GMT",
+      "description": "日本應該要直接禁止SHEIN與Temu才對 不是什麼提供銷售資訊 日本強化進口邊境管控 將要求SHEIN等業者提供銷售資訊 https://t.co/KSz1xp9BC5 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "9cb5ae6f5307a5ca",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "日本應該要直接禁止SHEIN與Temu才對 不是什麼提供銷售資訊 日本強化進口邊境管控 將要求SHEIN等業者…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
