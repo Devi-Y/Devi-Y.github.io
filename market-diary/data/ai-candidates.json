@@ -1,9 +1,164 @@
 {
-  "generatedAt": "2026-10-08T07:21:20.480Z",
+  "generatedAt": "2026-10-08T15:34:11.220Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Aidigong Maternal & Child Health Limited (Incorporated in Bermuda with limited liability) (Stock Code: 286) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610082news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:34:00 +0800",
+      "description": "Announcement - In relation to the matter of Aidigong Maternal & Child Health Limited (Incorporated in Bermuda with limited liability) (Stock Code: 286) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "8195a7a47b967021",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Khoon Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 924) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610083news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:33:00 +0800",
+      "description": "Announcement - In relation to the matter of Khoon Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 924)) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "d0c25838adf3d4ab",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of China 21st Century Education Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1598) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610084news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:32:00 +0800",
+      "description": "Announcement - In relation to the matter of China 21st Century Education Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1598) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "0e5e7e9728db1f64",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of China Come Ride New Energy Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8039) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610085news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:31:00 +0800",
+      "description": "Announcement - In relation to the matter of China Come Ride New Energy Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8039) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "614988be171f6553",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "SFC, AFRC and the Exchange Join Forces to Address Disclaimers of Opinion solely relating to Going Concern",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261008news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 17:48:00 +0800",
+      "description": "SFC, AFRC and the Exchange Join Forces to Address Disclaimers of Opinion solely relating to Going Concern",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "b9336863c66c9302",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "宏观",
       "signal": "人物",
@@ -30,37 +185,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
-      "pubDate": "Thu, 1 Oct 2026 14:00:00 GMT",
-      "description": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 73,
-      "priority": "A",
-      "id": "2ca3b97d7d59969c",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -123,6 +247,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "宏观",
+      "title": "Waller, The Signaling Value of the Summary of Economic Projections",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "pubDate": "Thu, 8 Oct 2026 08:30:00 GMT",
+      "description": "Speech At the Istanbul Economic Forum, Central Bank of the Republic of T&uuml;rkiye, Istanbul, T&uuml;rkiye",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 63,
+      "priority": "B",
+      "id": "78f20e26a7e5e1ec",
+      "rankReason": "一级/官方信源；市场相关；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -286,99 +441,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PaGZzdHItUVozbzZyaWFPaFBJclpicUVLT3R5V1UwUXFDMl9ETWZSdEwzSFhBOTM4emVseXJhRXZVekpMb0x3YUJXOTh3TUlTN1N4NnRfSTA0ZE9faExlOS00YmJPd0pZNDd2WHlyaklsZw?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 14:04:19 GMT",
-      "description": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e1b76e6383fa4e36",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdFBTNTlHbVFCRi1UUVVmY1hFQlNVRFMycFpkR0Z1bVpjYlRtTWFVeDkzTHZna3RnSFVFQUUzbHpMc3AxX1FyTmlOajVQd19XWmZUNUxkRmx3Nk9sWW16Uw?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 09:54:26 GMT",
-      "description": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "1964d1141bd8c422",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "瘋了， 還不 All in NVDA 嗎？ - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TS1pqZUJoWXVrU0ozSXd5STJ1UVJfNHRBYWxaY01lMG92UllZcmloTkJaY3FDbjc2dkV6NzJJaUhZM2FpUDVZLTdZM1RXVXFXaFNxeHZKcEJ3NXByS3NEWW1PbDg?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 10:09:14 GMT",
-      "description": "瘋了， 還不 All in NVDA 嗎？ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "6fbd0a0155e5f5eb",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "瘋了， 還不 All in NVDA 嗎？ - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "Taiwan Op-Ed: Elon Musk would not be a good partner for TSMC because he is pro-China for business reasons and “extremely unfriendly to Taiwan”, one media says, adding that if TSMC worked on TeraFab, other clients would likely be unhappy because the - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCUlVVLUVTem1BeWVzWXE1SzBicU5GX0Q0OWtXRUlNeThoNXpCQW5ZTUh6bG5tVTVlM0FCazVuQ1FHUmgxRDZHTm5DMDlKdnRkc0pueFNMdFpXd1lHWnc?oc=5",
@@ -410,11 +472,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QOVRUWk44dUs0RzliQWp0OFVaTGEyMFhIdWl5ODJCZFUwLXUtWE4zNjZHS2p5dHZfajBFVGQzT0Q4YnFLdEdpRjNFVVY0bU9IdXVHODdZdmdMRnNMUjFTU1RSTQ?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 10:01:06 GMT",
-      "description": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$AMZN 等熱門標的，LBank 美國科技股交易季正式開啟。 新用戶可解鎖 10 USDT 合約獎金，活躍交易者還可每日簽到並衝擊排行榜，贏取更多獎勵。 交易美國科技股：https://t.co/aVLj9pa &nbsp;&nbsp; X",
+      "type": "宏观",
+      "title": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PaGZzdHItUVozbzZyaWFPaFBJclpicUVLT3R5V1UwUXFDMl9ETWZSdEwzSFhBOTM4emVseXJhRXZVekpMb0x3YUJXOTh3TUlTN1N4NnRfSTA0ZE9faExlOS00YmJPd0pZNDd2WHlyaklsZw?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 14:04:19 GMT",
+      "description": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -424,15 +486,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "ef40642bc6aea1a1",
+      "id": "e1b76e6383fa4e36",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "30,000 USDT，24 個美國科技股市場。🔥 從 $NVDA、$AMD 到 $TSLA、$AAPL、$…",
+        "summary": "X出现新的宏观政策或数据更新",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "事件解读"
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -460,6 +522,37 @@
       "ai": {
         "priority": "B",
         "summary": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdFBTNTlHbVFCRi1UUVVmY1hFQlNVRFMycFpkR0Z1bVpjYlRtTWFVeDkzTHZna3RnSFVFQUUzbHpMc3AxX1FyTmlOajVQd19XWmZUNUxkRmx3Nk9sWW16Uw?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 09:54:26 GMT",
+      "description": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少。 投行就一面倒。美銀 20 多 5 空，高盛 14 比 4，摩根大通 9 比 1。 最新收錄嗰 8 條表態全部係看多。摩根大通被轉述話 $TSLA 獲利預期由 2028 年開始加速，伯恩斯 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "1964d1141bd8c422",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -646,99 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ocFhkaWFRdUxIMWtNUDY4bzIxazdDZ3FMTUw1M2xzd1JnUUdzNFAtR21tdGRwOTF0amowTTZRLVdfaHd6YWJTeHdSeVZ6T1VWNFZUY0xJRzhJRXdnWVVQYm9LZmJWRTdTeFRuRWpMUlk3UQ?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 03:44:12 GMT",
-      "description": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？👇 🟢 大摩 MS：「走出電動車寒冬？」 油價高企加上自動駕駛改進，需求正回暖。儲能落空？只是季度波動。 🟡 高盛 GS：公開認錯 直言「此前謹慎的看法是錯的」，上調交付預測，但下 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "8e53ecf361aca909",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚗 $TSLA 3Q 交付大爆冷：486,532 輛，大幅超過約 46.2 萬的共識 華爾街三大行怎麼看？\ud83d…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "我覺得 Backpack 最新的 AI Search，可能比「AI 搜尋」這四個字更值得看 因為以前你想交易一個東西，第一件事是： 先知道它在哪裡。 想買股票？ 找 Stocks。 想做 BTC Perp？ 找 Derivatives。 想找 Earn？ 換一個頁面。 想找某個市場？ 先知道 ticker。 $NVDA、$BTC、 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QZERIRFdvcmtDdFdiRURjVE9tWnFOSDJTcVFHdmZDSVBIbDRIUWl4WUxzQk16c0xQQm84XzVqQmR5VlNtdmZFZTZtdEg4TDJ6bVRTcTlvbVZ5MWE4d0QwaXVwTmIwZw?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 02:17:53 GMT",
-      "description": "我覺得 Backpack 最新的 AI Search，可能比「AI 搜尋」這四個字更值得看 因為以前你想交易一個東西，第一件事是： 先知道它在哪裡。 想買股票？ 找 Stocks。 想做 BTC Perp？ 找 Derivatives。 想找 Earn？ 換一個頁面。 想找某個市場？ 先知道 ticker。 $NVDA、$BTC、 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "d695bda51980b33d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "我覺得 Backpack 最新的 AI Search，可能比「AI 搜尋」這四個字更值得看 因為以前你想交易一…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "日本應該要直接禁止SHEIN與Temu才對 不是什麼提供銷售資訊 日本強化進口邊境管控 將要求SHEIN等業者提供銷售資訊 https://t.co/KSz1xp9BC5 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84bld5M1N6Sm8tdGNxYWdiYVF1ZVMzYVREY1dxWWRHZXY4MHpUanRVcWdZMWxPM0haQUhSOGd2b1VuZzBhdDJhRXVKMlZYcGRJd2dFd3EwSEpMUGJzOEJkRg?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 14:42:21 GMT",
-      "description": "日本應該要直接禁止SHEIN與Temu才對 不是什麼提供銷售資訊 日本強化進口邊境管控 將要求SHEIN等業者提供銷售資訊 https://t.co/KSz1xp9BC5 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "9cb5ae6f5307a5ca",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "日本應該要直接禁止SHEIN與Temu才對 不是什麼提供銷售資訊 日本強化進口邊境管控 將要求SHEIN等業者…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
