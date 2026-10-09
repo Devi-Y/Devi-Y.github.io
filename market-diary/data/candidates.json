@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-09T16:09:58.742Z",
+  "generatedAt": "2026-10-09T20:52:08.896Z",
   "windowDays": 7,
   "summary": {
-    "total": 54,
+    "total": 52,
     "bySignal": {
-      "事实": 12,
+      "事实": 10,
       "媒体": 2,
       "人物": 2,
       "资金": 0,
       "热点": 38
     },
     "byTrust": {
-      "A": 14,
+      "A": 12,
       "B": 2,
       "C": 38
     },
     "s": 0,
     "a": 9,
-    "b": 45
+    "b": 43
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -136,7 +136,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
+      "score": 71,
       "priority": "A",
       "id": "f4bf24eaecfe0dcc",
       "rankReason": "一级/官方信源；高影响事件词"
@@ -242,26 +242,6 @@
       "rankReason": "一级/官方信源；市场相关；关键人物"
     },
     {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-      "pubDate": "Fri, 2 Oct 2026 20:45:00 GMT",
-      "description": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 52,
-      "priority": "B",
-      "id": "5cfe54de9b266072",
-      "rankReason": "一级/官方信源；市场相关"
-    },
-    {
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
@@ -339,6 +319,26 @@
       "score": 44,
       "priority": "B",
       "id": "e1b76e6383fa4e36",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "好啦，美光財報出來沒有開盤直接噴 20%，然後大家又開始了。週期股，要崩了，漲完了。 我先講一個數字。粗利率 86%。記憶體這麼久，沒看過美光有這種毛利。這個數字高到我自己都有點怕。所以你說它是週期股，我不反對。記憶體就是週期股，這個沒什麼好吵的。 但 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14YzVBWEtvYTRkdWJBdnJLcW5qdXE0ejhiS2t0aHlVZDNHekloR29BN3gtUHpZQ3dEMEhrMDcxcE1hdmVkVGRsa2RzdUl4cjJlZnVUNnZxbE9TaDVDNGFV?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 03:20:10 GMT",
+      "description": "好啦，美光財報出來沒有開盤直接噴 20%，然後大家又開始了。週期股，要崩了，漲完了。 我先講一個數字。粗利率 86%。記憶體這麼久，沒看過美光有這種毛利。這個數字高到我自己都有點怕。所以你說它是週期股，我不反對。記憶體就是週期股，這個沒什麼好吵的。 但 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "fdbaf39193e4a5ef",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -642,26 +642,6 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": ". $PONS 持續下跌且跌破 0.4 美元 , 生態還有哪些寶藏 ✨ 這週 Robinhood Chain 上、發行超過一週、市值仍在 1000 萬美元以上、而且 7 日是正報酬的老幣，我們也整理出來了 robinhood:0x18e674231a58c239dc7daedcffe15ec3a24cff5c $ORBIO $BONER $CASH - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TeEVUd0R1S1BZdlJkTHNZQ2djTTBnVThqUjlFOFNyMGttU0tYMVhiSW9fTWwyWGJ0UnJ6MWdhNzhSc0MxSWJOc29FbkdkS3ZhODRNc2NqaTNfU0xlcTNhUWIyOTBCV3l2eFhIZFhuX3B4QQ?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 18:09:36 GMT",
-      "description": ". $PONS 持續下跌且跌破 0.4 美元 , 生態還有哪些寶藏 ✨ 這週 Robinhood Chain 上、發行超過一週、市值仍在 1000 萬美元以上、而且 7 日是正報酬的老幣，我們也整理出來了 robinhood:0x18e674231a58c239dc7daedcffe15ec3a24cff5c $ORBIO $BONER $CASH &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f03001e9aae56f6f",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
       "market": "港股",
       "signal": "媒体",
       "type": "公司事件",
@@ -719,26 +699,6 @@
       "score": 38,
       "priority": "B",
       "id": "1b6c6ea303491ca8",
-      "rankReason": "一级/官方信源"
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
-      "pubDate": "Fri, 2 Oct 2026 20:00:00 GMT",
-      "description": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 38,
-      "priority": "B",
-      "id": "fa85b16d80bbbf54",
       "rankReason": "一级/官方信源"
     },
     {
@@ -1102,5 +1062,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-09T16:09:59.077Z"
+  "rankedAt": "2026-10-09T20:52:10.105Z"
 }
