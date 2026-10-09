@@ -1,9 +1,133 @@
 {
-  "generatedAt": "2026-10-08T21:18:34.059Z",
+  "generatedAt": "2026-10-09T02:07:30.824Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Aidigong Maternal & Child Health Limited (Incorporated in Bermuda with limited liability) (Stock Code: 286) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610082news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:34:00 +0800",
+      "description": "Announcement - In relation to the matter of Aidigong Maternal & Child Health Limited (Incorporated in Bermuda with limited liability) (Stock Code: 286) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "8195a7a47b967021",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Khoon Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 924) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610083news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:33:00 +0800",
+      "description": "Announcement - In relation to the matter of Khoon Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 924)) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "d0c25838adf3d4ab",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of China 21st Century Education Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1598) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610084news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:32:00 +0800",
+      "description": "Announcement - In relation to the matter of China 21st Century Education Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1598) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "0e5e7e9728db1f64",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of China Come Ride New Energy Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8039) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610085news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 16:31:00 +0800",
+      "description": "Announcement - In relation to the matter of China Come Ride New Energy Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8039) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "614988be171f6553",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "宏观",
       "signal": "事实",
@@ -38,29 +162,29 @@
     {
       "market": "港股",
       "signal": "事实",
-      "type": "IPO",
-      "title": "通告 - 關於中國來騎哦新能源集團有限公司（於開曼群島註冊成立之有限公司） （股份代號：8039）取消上市地位 - HKEX",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRHkwWlhrTHEyeTRqY2gyeUQtQU1iLXdsUnB2bTljR3labFpKbEJmUnVTWXc2bU1jY3otbVNIM0V0em1VMEZiSHhMQV9SYWpsMVNqUUZvQkQ5TWFIYlItdjVvUmFkaFhfcF9vUDhKVWszZGJrbHB1Z0FlQVlpTERLVzM3T18zanI1YXpKNg?oc=5",
-      "pubDate": "Thu, 08 Oct 2026 08:38:57 GMT",
-      "description": "通告 - 關於中國來騎哦新能源集團有限公司（於開曼群島註冊成立之有限公司） （股份代號：8039）取消上市地位 &nbsp;&nbsp; HKEX",
-      "source": "HKEX",
+      "type": "公司事件",
+      "title": "SFC, AFRC and the Exchange Join Forces to Address Disclaimers of Opinion solely relating to Going Concern",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261008news?sc_lang=en",
+      "pubDate": "Thu, 08 Oct 2026 17:48:00 +0800",
+      "description": "SFC, AFRC and the Exchange Join Forces to Address Disclaimers of Opinion solely relating to Going Concern",
+      "source": "HKEX · Regulatory Announcements",
       "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss->google-fallback",
+      "sourceMode": "direct-rss",
       "declaredTrust": "A",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
       "priority": "A",
-      "id": "30073d526565212b",
-      "rankReason": "高影响事件词；高转化内容类型；降级发现待回原文",
+      "id": "b9336863c66c9302",
+      "rankReason": "一级/官方信源；高影响事件词",
       "ai": {
         "priority": "A",
-        "summary": "通告 - 關於中國來騎哦新能源集團有限公司（於開曼群島註冊成立之有限公司） （股份代號：8039）取消上市地位…",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -69,29 +193,29 @@
     {
       "market": "港股",
       "signal": "事实",
-      "type": "IPO",
-      "title": "通告 - 關於坤集團有限公司 （於開曼群島註冊成立之有限公司） （股份代號：924）取消上市地位 - HKEX",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcFBLd2w0UF9FZjU5NUJrRmxGTGNzSFRIMXlzT1lGWWNXR25hVEZCTzdoQWs0STBHTFE2M0Q3REJabFd4SlM2NU1hNE9kbUg1SXMyaEJHU2Y1S0MtcW10aFltRUFZRzZkU1dFb3pfR2xxcFFwb2xsREcyOTgwZEJyLUMwM3YyOV9wUS15Vg?oc=5",
-      "pubDate": "Thu, 08 Oct 2026 08:37:41 GMT",
-      "description": "通告 - 關於坤集團有限公司 （於開曼群島註冊成立之有限公司） （股份代號：924）取消上市地位 &nbsp;&nbsp; HKEX",
-      "source": "HKEX",
+      "type": "公司事件",
+      "title": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261006news?sc_lang=en",
+      "pubDate": "Tue, 06 Oct 2026 16:30:00 +0800",
+      "description": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
+      "source": "HKEX · Regulatory Announcements",
       "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss->google-fallback",
+      "sourceMode": "direct-rss",
       "declaredTrust": "A",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 71,
       "priority": "A",
-      "id": "e07abf426d78d749",
-      "rankReason": "高影响事件词；高转化内容类型；降级发现待回原文",
+      "id": "40f1753f0f87fec3",
+      "rankReason": "一级/官方信源；高影响事件词",
       "ai": {
         "priority": "A",
-        "summary": "通告 - 關於坤集團有限公司 （於開曼群島註冊成立之有限公司） （股份代號：924）取消上市地位 - HKEX",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -100,60 +224,29 @@
     {
       "market": "港股",
       "signal": "事实",
-      "type": "IPO",
-      "title": "證監會、會財局及聯交所攜手應對上市發行人財務報表載有僅因持續經營問題而發出之「無法表示意見」個案增加所引起的監管關注 - HKEX",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORFE0dVRmZk9iLXhaeW5hYklZeWVQVm5LbENfRnlDZEZ2TzAtbXFQSmdTbU5oZDdhQXJxR1dIMlZzQkF2cDRyS1JTN0JINGo4TlN1TEpHRXp3ckN4Z1dNN1ZWemNoOXZPckdKb25rSG0yd0VYaWU4ci1rbDJST290M2NMV1dYWVozYkNj?oc=5",
-      "pubDate": "Thu, 08 Oct 2026 08:38:55 GMT",
-      "description": "證監會、會財局及聯交所攜手應對上市發行人財務報表載有僅因持續經營問題而發出之「無法表示意見」個案增加所引起的監管關注 &nbsp;&nbsp; HKEX",
-      "source": "HKEX",
+      "type": "公司事件",
+      "title": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610062news?sc_lang=en",
+      "pubDate": "Tue, 06 Oct 2026 15:51:00 +0800",
+      "description": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
+      "source": "HKEX · Regulatory Announcements",
       "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss->google-fallback",
+      "sourceMode": "direct-rss",
       "declaredTrust": "A",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 71,
       "priority": "A",
-      "id": "50df665effd7b8a6",
-      "rankReason": "高影响事件词；高转化内容类型；降级发现待回原文",
+      "id": "f7876a10eb92c469",
+      "rankReason": "一级/官方信源；高影响事件词",
       "ai": {
         "priority": "A",
-        "summary": "證監會、會財局及聯交所攜手應對上市發行人財務報表載有僅因持續經營問題而發出之「無法表示意見」個案增加所引起的監…",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "通告 - 關於中國21世紀教育集團有限公司（於開曼群島註冊成立之有限公司） （股份代號：1598）取消上市地位 - HKEX",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaFhhd0FISUotT21CSmR3LTdLamh6N2s2VkJxaWdJN3FHWnljYXNCUlVwYl9vNTRmeHhsWGJmaEtndzBsaVZiUUtGUmxGb3J4NmI3NlJzRWlJaER2MG81dWhKSGFqMXZrcXBVSW5NVWNMV3BuUFJEXzlLWVhqbFQwUERwWGQ4MXpsWXZ1YQ?oc=5",
-      "pubDate": "Thu, 08 Oct 2026 08:37:41 GMT",
-      "description": "通告 - 關於中國21世紀教育集團有限公司（於開曼群島註冊成立之有限公司） （股份代號：1598）取消上市地位 &nbsp;&nbsp; HKEX",
-      "source": "HKEX",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss->google-fallback",
-      "declaredTrust": "A",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "239aa9aad47135ec",
-      "rankReason": "高影响事件词；高转化内容类型；降级发现待回原文",
-      "ai": {
-        "priority": "A",
-        "summary": "通告 - 關於中國21世紀教育集團有限公司（於開曼群島註冊成立之有限公司） （股份代號：1598）取消上市地位…",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -222,37 +315,6 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "Display of Adjusted Previous Closing Price of CSOP Samsung Electronics Daily Max (-2x) Inverse Product (stock code 7347) on OTP- - HKEX",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNa0J2ZXdsX3NoWUJnV0JyVjM3QkNyTEdGZjB3NjhoNzAyTGdmVnJPd3AyeTF2LUxmdVpBT3FsUi1qanpfTEthWmlXd0lsd3U0dUZwam55RzZUS1ByZ3dxQkpoRVlYQkJaaWxRdzF5cmt2WkhLbDE5UXlUdUt4SVhoWnZScDN3WkNkUmROdnk3U2FtZWI1QjFxS2puM3BBekxuMnBVWl9wcGZyLXlNUnVROUR3UVhmejlKaVhXSHM5TzEtblZKRG40a1lBZm9lSjFG?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 04:59:06 GMT",
-      "description": "Display of Adjusted Previous Closing Price of CSOP Samsung Electronics Daily Max (-2x) Inverse Product (stock code 7347) on OTP- &nbsp;&nbsp; HKEX",
-      "source": "HKEX",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss->google-fallback",
-      "declaredTrust": "A",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 54,
-      "priority": "B",
-      "id": "c3c0b3dde5a06746",
-      "rankReason": "高影响事件词；降级发现待回原文",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "事实",
       "type": "宏观",
@@ -280,37 +342,6 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "【探熱針】昨晚(10月1日)在美上市非美股表現。BABA: -0.08%，JD: -0.86%，TSM: +0.66%，ASML: -0.18%，SAP: +1.11%，SHOP: +0.53%，LULU: -0.34%，PBR: +0.53%。 - X",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ19ZWXY5ZXljSTRyMURnY3lTZW0yN2lDeWI0MlluVnZfNXhFcENYNlBtOXNIYU9jUEdQcTlnaG16Ni1rWWZxY1JWRDF4cC1jcmhGMDFGTHN6LUNfTHh3VXhPZEQ3LXNjRy1MYTZvUWxtNEZFT053Tk05b195akRnY1JRcmZvWW9DSk5MWlV6WDZ0RnM?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 23:05:24 GMT",
-      "description": "【探熱針】昨晚(10月1日)在美上市非美股表現。BABA: -0.08%，JD: -0.86%，TSM: +0.66%，ASML: -0.18%，SAP: +1.11%，SHOP: +0.53%，LULU: -0.34%，PBR: +0.53%。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "13500a4c736e20a9",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【探熱針】昨晚(10月1日)在美上市非美股表現。BABA: -0.08%，JD: -0.86%，TSM: +0…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -360,7 +391,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
+      "score": 47,
       "priority": "B",
       "id": "4500bd58ac2050e9",
       "rankReason": "高影响事件词；社媒只做热点发现",
@@ -373,68 +404,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "賣鏟子的開始借錢給淘金者 以前AI晶片廠靠「賣鏟子給淘金的人」賺錢。現在Broadcom做的事情更進一步——它直接借錢給淘金的人，條件是：這筆錢只能拿來跟它買鏟子。 Anthropic的IPO招股書裡，藏著一段比$2兆估值本身更值得細讀的揭露：Broadcom答應借給Anth - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1menVIbndvX01hOEpDR2lQNEx0SnAzS2pSNFFzNmFvSzFGRUREVDdQMFVISW5RbXVGTTlfYWNUcXQyMEVKSVF6R09SY2FqT0gxV1poSE93YjNlUXI0T0RQR3EwRk9zUQ?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 03:55:00 GMT",
-      "description": "賣鏟子的開始借錢給淘金者 以前AI晶片廠靠「賣鏟子給淘金的人」賺錢。現在Broadcom做的事情更進一步——它直接借錢給淘金的人，條件是：這筆錢只能拿來跟它買鏟子。 Anthropic的IPO招股書裡，藏著一段比$2兆估值本身更值得細讀的揭露：Broadcom答應借給Anth &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "57710619523cbf4e",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "賣鏟子的開始借錢給淘金者 以前AI晶片廠靠「賣鏟子給淘金的人」賺錢。現在Broadcom做的事情更進一步——它…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "持仓",
-      "title": "Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share - HKEX",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPenc0QXZCZ0NIZERCY0VkVlFTbDM3WmQ1NDBWRmtld2VXZHZSWmkwM0cxRGdaeWhyVkF4N3htTF9LYWx6OXBqYkRCb3Z5cHB3MWZXSDVrcUlsMEVSRUdRelEzN2cwcWdiNlZYdXV1bFl4WF81Wm9lRUx5X3gzaTY0Z0RvMGV5Y3JVUGhzR0hER216cmQ1cGh4cDFuQ3VjdmZnMnZ3ZzREbzRnbkVoU3hnTmxGSjhLN0xNY3RFM0doeHd5MnBzYjZUbzhrbFpBaXRw?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 05:31:01 GMT",
-      "description": "Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share &nbsp;&nbsp; HKEX",
-      "source": "HKEX",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss->google-fallback",
-      "declaredTrust": "A",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 49,
-      "priority": "B",
-      "id": "91d3b5e8a59ae591",
-      "rankReason": "市场相关；公开资金信号；降级发现待回原文",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现一条新的持仓信息",
-        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -466,37 +435,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "持仓",
-      "title": "Display of Adjusted Previous Closing Price of Glory Flame Holdings Limited (stock code 8059) on OTP-C for its 20-into-1 Share Co - HKEX",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRTZWb25IWUN4bklGeHh4TmhUcEtFTkh6VFRQVnpxbGRWQUwyVG1qTkpNQ1VxSWsyTTBua2xCTTlHX2pBaEd2M3psSmtXT3RRdUp3QzFFeGFET0ZpWHBtVGdNNk5CT1I0Q3dkZHZQbFFJR1lLdHYyZmpuZ2hOSmE1dFJOajU2U0xuQk1JQ0dWQThNN0c4RFp1RFdJM3BnektCa2RvblRHRENIMGZxWFJCUkdmVFBtRWpZcVYtVkUyWHNGSXdHTWlTM0l0UVpCX3lX?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 04:59:05 GMT",
-      "description": "Display of Adjusted Previous Closing Price of Glory Flame Holdings Limited (stock code 8059) on OTP-C for its 20-into-1 Share Co &nbsp;&nbsp; HKEX",
-      "source": "HKEX",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss->google-fallback",
-      "declaredTrust": "A",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 46,
-      "priority": "B",
-      "id": "0872bd9f0af7bd86",
-      "rankReason": "市场相关；公开资金信号；降级发现待回原文",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现一条新的持仓信息",
-        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -722,7 +660,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 - X",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yeWdheDJHNW1ZSDlhRmMta09nenpHZjd4MWZrRVBEUzNEb2Iwa1lxNjI2aVRlTU04ZjU4VmNZYWJXY0xYSTRNMzl5STFVREFfZGtZcGJ0R2FrYXgyTHpRcVBuMnlabmpUR25NYnFXamI?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96bW5nLVQtNnhPdEpEdUhTMExQdEd5OUh6REFXSWNyX0lOSy11d0RJb09kM2NOWkJuejdheDduZl85elVQeXcwSlNHbFBXYjBycG9adjVwWDVpZ0VFRzBF?oc=5",
       "pubDate": "Sat, 03 Oct 2026 09:45:55 GMT",
       "description": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 &nbsp;&nbsp; X",
       "source": "X",
@@ -734,11 +672,73 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "c56c1b73d41bfa62",
+      "id": "9c95dd3118713088",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 - X",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZXZCb3dYZDY1eHE1d3ZOVkdtOW5ab0pmT3pjNzNGYlhVelpfNGtmMWxNU09LOVhHWFU0NGJoSFA0bjV2THFPa3R0a3A4UGx4YWczbzZWU0trdmd1OHBYU3loMWtmM3JhaWw5dg?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 10:52:57 GMT",
+      "description": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半都有相當強勁的上漲，在這些個股上操作Covered Call難度相對高得多。 特斯拉最近兩年上漲沒主流AI股那麼強勁，但仍具有高流動性。 如果我們在長持特斯拉的兩年期 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "6e1882c2db85a654",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 50 日線 347.58 之上，200 日線 393.18 仲喺上面未收復。近 3 個月計仍然跌 11.7%，上周五呢一下先補返一部分。 站內有 462 個散戶寶用戶持有。 數據時間 10/04 美西 17:27，周末 - X",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xbTZnVW9FSjA1bzNTMkdxNFRZb3FFSEd0czFjZ2czWVZBM0FwaTUwRmVhYnc5RXJyY3dxMHFuQlBYODNWdDlManUxdm1MVWwxZlZNd05HakNhWVJieUU3c2hOM3gyTTNKSWow?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 00:48:35 GMT",
+      "description": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 50 日線 347.58 之上，200 日線 393.18 仲喺上面未收復。近 3 個月計仍然跌 11.7%，上周五呢一下先補返一部分。 站內有 462 個散戶寶用戶持有。 數據時間 10/04 美西 17:27，周末 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "07bed54ebbc9345e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
