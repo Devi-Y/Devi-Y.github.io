@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-10T18:33:13.832Z",
+  "generatedAt": "2026-10-10T22:29:30.327Z",
   "windowDays": 7,
   "summary": {
     "total": 42,
     "bySignal": {
       "事实": 10,
-      "媒体": 2,
+      "媒体": 1,
       "人物": 2,
       "资金": 0,
-      "热点": 28
+      "热点": 29
     },
     "byTrust": {
       "A": 12,
-      "B": 2,
-      "C": 28
+      "B": 1,
+      "C": 29
     },
     "s": 0,
     "a": 9,
@@ -265,10 +265,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "CoreWeave 正加速布局韓國市場，除與多家當地資料中心業者洽談合作外，也打算以 Weights & Biases（W&B）客戶為基礎，擴大 AI 推論業務。 來源：ZDNet Korea（2026年10月9日） 韓國市場布局 - 美國 AI 基礎設施（neocloud）業者 CoreWeave 正與多家韓國資料中心 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QbFM0MF83ZU9NZDJwdmJsTXl0X1VYa2dEejIyeC1fTHJlVVlxaDVfa3VsVVc1a0F0ZFJqcEtsQ3kyY1l4dTNPa1RnSGVpalgxZ29oWEZPRFBiLUw1VFE?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 14:20:28 GMT",
-      "description": "CoreWeave 正加速布局韓國市場，除與多家當地資料中心業者洽談合作外，也打算以 Weights & Biases（W&B）客戶為基礎，擴大 AI 推論業務。 來源：ZDNet Korea（2026年10月9日） 韓國市場布局 - 美國 AI 基礎設施（neocloud）業者 CoreWeave 正與多家韓國資料中心 &nbsp;&nbsp; X",
+      "title": "據報SpaceX擬舉債400億美元購買輝達晶片，包括100億銀行貸款與300億投資級債券。$NVDA 可望受惠，電力、散熱與網通需求也值得關注。 管理層稱ARR可達1,000億美元，仍需營收與現金流驗證。 大叔觀點：GPU可以借錢買，利息得靠現金付。盯融資條件、算力售 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMbm5LU25SZnhYMHlnRkF4SktrSkV6V245R2V2a0RxTzhTajVMS1hxVzZnVnMxVVQ4ZmVXVVBjUVJuQ0dNajFhbmM4dE5aWm5teTcxc09iWXU2eS1ZSGlvT2cyWmVzWDA?oc=5",
+      "pubDate": "Thu, 08 Oct 2026 02:02:52 GMT",
+      "description": "據報SpaceX擬舉債400億美元購買輝達晶片，包括100億銀行貸款與300億投資級債券。$NVDA 可望受惠，電力、散熱與網通需求也值得關注。 管理層稱ARR可達1,000億美元，仍需營收與現金流驗證。 大叔觀點：GPU可以借錢買，利息得靠現金付。盯融資條件、算力售 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -278,7 +278,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "8c735a815a8542a3",
+      "id": "4500bd58ac2050e9",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -562,26 +562,6 @@
       "rankReason": "市场相关"
     },
     {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "主要股東搜尋 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GQzQzbUtHNk9KelZWYVB2SVMxdzdUWUZHeEd2bUE5bTNQWFM2clhEc09KbEpJQ0J4YXJwQ0RFX2EzZ21jV1Y3RXlIN0pfZjVuOF91YVU3YkFFZ292TTViVnNkZ0RMbGhjXzZKYzc2UTVrQQ?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 21:25:13 GMT",
-      "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 42,
-      "priority": "B",
-      "id": "5459d9ac38ce6f41",
-      "rankReason": "市场相关"
-    },
-    {
       "market": "宏观",
       "signal": "事实",
       "type": "宏观",
@@ -639,6 +619,26 @@
       "score": 20,
       "priority": "B",
       "id": "44a180368d3bb53f",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "好真实的世界，虽然但是还是很羡慕。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OV0c1dG9NSW9GczB2VmY2QWFaTDgwd25xMEEyMTZFX0FBb2RRWGJnbEdYeEJ5Q2NpZW91bUpuRTBELWJoRTVQTnRBRzN4OXJBVTNPOEd1bmR5SldlS0dSTnB3?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 01:47:38 GMT",
+      "description": "好真实的世界，虽然但是还是很羡慕。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "1e1688f1f57b9551",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -862,5 +862,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-10T18:33:15.208Z"
+  "rankedAt": "2026-10-10T22:29:31.513Z"
 }
