@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:52:10.958Z",
+  "generatedAt": "2026-10-10T00:48:06.184Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -503,37 +503,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "【開盤前必讀】昨夜總經大事與美股多空分析 ⁣ 1️⃣ 大盤：標普+0.73%、那指+1.19%、道瓊+0.49% ⁣ 2️⃣ 法國赤字目標占GDP由5.4%降至5%，法德利差兩週擴至130至140基點，財政風波未完 ⁣ 3️⃣ 美國初領失業金19.7萬、挑戰者裁員43K均降至低點，勞市未鬆弛 - X",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZUk94VG5XNDRWUFhuVUdNaWZYaDNpaUtscF93RTNoT1JyWk9haGRvSm1uTEh4ZE93R2hTN1ZCbnp3cHRBLUtqeTJpSTQtZHNad0tuZkQzRE9teEZtX01oR1MwQkZMRm5ialFiOUFaWjU?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 00:28:45 GMT",
-      "description": "【開盤前必讀】昨夜總經大事與美股多空分析 ⁣ 1️⃣ 大盤：標普+0.73%、那指+1.19%、道瓊+0.49% ⁣ 2️⃣ 法國赤字目標占GDP由5.4%降至5%，法德利差兩週擴至130至140基點，財政風波未完 ⁣ 3️⃣ 美國初領失業金19.7萬、挑戰者裁員43K均降至低點，勞市未鬆弛 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "94ed5b5b6d027477",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【開盤前必讀】昨夜總經大事與美股多空分析 ⁣ 1️⃣ 大盤：標普+0.73%、那指+1.19%、道瓊+0.49…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv - X",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hQTBRTVkzWDkxV1RTcHY3X0FnNWtwOVozdkZZTE53UnlNeDEzYmQ2ZVd1M2RXZldrUkdwSzZwd05YMW9JU0xENWhLeGhaRDVDazQ0cHc5Q083NFktc29uQzNTWEtFSmZtWGtB?oc=5",
@@ -584,6 +553,37 @@
       "ai": {
         "priority": "B",
         "summary": "散戶寶機構研究頁近 30 天嘅多空點算，ARK 係唯一一間打和嘅：看多 46 次，看空 49 次，空方仲多少少…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "J.P. Morgan TSMC 合作內容（尚未定案） Elon Musk 表示 Tesla／SPCX 正與台積電談美國半導體產能，背景是台積電考慮在德州建第二座美國廠集群。可能形式是純代工，或類似 JSMC、ESMC 的合資，為 Tesla／SPCX 提供專屬產能。預計 2030 年以後投產；美國擴 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41eXBYVjh0bENnZmV5NnNPejNEaHFBcHRBNFJOQ0hZWVJxQUV4QVRYRjNLUXBTWEVaVnNCV2hCSFpvMWZwSi1MaE1KV2wwNUhTTll4MzFIaGRLQTNlYmc?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 00:31:10 GMT",
+      "description": "J.P. Morgan TSMC 合作內容（尚未定案） Elon Musk 表示 Tesla／SPCX 正與台積電談美國半導體產能，背景是台積電考慮在德州建第二座美國廠集群。可能形式是純代工，或類似 JSMC、ESMC 的合資，為 Tesla／SPCX 提供專屬產能。預計 2030 年以後投產；美國擴 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "a68ba4d63024b869",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "J.P. Morgan TSMC 合作內容（尚未定案） Elon Musk 表示 Tesla／SPCX 正與台…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -691,7 +691,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 - X",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96bW5nLVQtNnhPdEpEdUhTMExQdEd5OUh6REFXSWNyX0lOSy11d0RJb09kM2NOWkJuejdheDduZl85elVQeXcwSlNHbFBXYjBycG9adjVwWDVpZ0VFRzBF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yeWdheDJHNW1ZSDlhRmMta09nenpHZjd4MWZrRVBEUzNEb2Iwa1lxNjI2aVRlTU04ZjU4VmNZYWJXY0xYSTRNMzl5STFVREFfZGtZcGJ0R2FrYXgyTHpRcVBuMnlabmpUR25NYnFXamI?oc=5",
       "pubDate": "Sat, 03 Oct 2026 09:45:55 GMT",
       "description": "前彭博的人今天寫了一句，台積電在看德州那座 Terafab。 你第一眼會以為，喔，要合作了。先別急。沒有合約，沒有金額。台積電還是那句，市場傳聞，不評論。 馬斯克三月就講過這座廠。特斯拉、SpaceX、xAI 要的是一年 1 太瓦的運算。他說得很白，台積電如果做得出這 &nbsp;&nbsp; X",
       "source": "X",
@@ -703,7 +703,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "9c95dd3118713088",
+      "id": "c56c1b73d41bfa62",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
