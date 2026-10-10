@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T00:48:06.184Z",
+  "generatedAt": "2026-10-10T07:03:55.557Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -348,37 +348,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1MjNqX0Q4cHFBQ21VSDJrRnJBdmVnekFYZVdoeU5acnFZaXBaZm5OWlJKajVwSHppakNGaWJOQkNBVW1lcW5xdF9TT1ZNX0lBMWIzUDJQWkh0Q3lmOGc?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 03:58:19 GMT",
-      "description": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "c6b3200b50d31ab8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "$NVDA 股價盤中觸及歷史新高237.87美元（上漲約2.5%），創下自5月以來的新高，市值達到約5.6-5.7兆美元。董事會批准了1,500億美元的新股票回購計劃，加上先前已批准的850億美元，到2028財年，回購總額將達到約2,350億美元，據稱是公司史上規模最大的股票 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EaTdHZHBRZmRwOWQzRnJZT2huZlFqeTB4M1NPNnE4UlNYaDNfRlpJVjBRbE1YY1pDTTZGamhPZ0c2SVZfaXlaSnpSelZOTkgtZWpyODMwRWxHRjhwSGRHSEJ5MzRheTQ?oc=5",
@@ -433,6 +402,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1MjNqX0Q4cHFBQ21VSDJrRnJBdmVnekFYZVdoeU5acnFZaXBaZm5OWlJKajVwSHppakNGaWJOQkNBVW1lcW5xdF9TT1ZNX0lBMWIzUDJQWkh0Q3lmOGc?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 03:58:19 GMT",
+      "description": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c6b3200b50d31ab8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -628,37 +628,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🧳 黃金週出發，你會帶哪些美股產品同行？ $AAPL 拍風景？ $TSLA 去自駕？ $SBUX 來杯咖啡... 💬 留下1–3個旅途中會用到的美股＋一句理由。 🎁 將選出5位旅行家，每人贈送10 USDT旅行金！ 📅 10月5日，下一場黃金週小遊戲見～ #WEEX #GoldenWeek就在WEE - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sR3JEVEhwS0hFaEhMMFJybm5BUEwtMXNnNlJtSGh1UER6Unh0YW9KVzd6WHA5bExyQnJnUGlsbzYyd1FTSlB4QnF1RTJtSkVCNFdCdzJPeW8tel8zRzh1WWhWYl8?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 03:54:46 GMT",
-      "description": "🧳 黃金週出發，你會帶哪些美股產品同行？ $AAPL 拍風景？ $TSLA 去自駕？ $SBUX 來杯咖啡... 💬 留下1–3個旅途中會用到的美股＋一句理由。 🎁 將選出5位旅行家，每人贈送10 USDT旅行金！ 📅 10月5日，下一場黃金週小遊戲見～ #WEEX #GoldenWeek就在WEE &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "52605a7741c27f94",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🧳 黃金週出發，你會帶哪些美股產品同行？ $AAPL 拍風景？ $TSLA 去自駕？ $SBUX 來杯咖啡.…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "馬斯克旗下 Tesla 與 SpaceX 規劃中的德州半導體廠 Terafab 據《Culpium》 Tim Culpan 報導，台積電正探討與其合作，協助這家新創營運德州新廠，並可能把 Terafab 作為自身未來德州晶圓廠的錨定客戶。 消息傳出後，馬斯克回覆「目前只是討論，但可能會有後續」。 - X",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85X0JKa010MWtHUU1NZlVRMEY5alEzYzlIQ3liZjNMbmFVcjFWODFKQkY4Q1pUNUFQUkVZclpXak5iOXRvWldaanh4LWZ1blZwS041bkhnVmJpcE1KQjQ2blhiSHhhSkRR?oc=5",
       "pubDate": "Sat, 03 Oct 2026 10:39:13 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA 長持特斯拉，可以透過Covered Call操作獲取額外26%收益 ! 由於美國科技股近幾年來多半…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 50 日線 347.58 之上，200 日線 393.18 仲喺上面未收復。近 3 個月計仍然跌 11.7%，上周五呢一下先補返一部分。 站內有 462 個散戶寶用戶持有。 數據時間 10/04 美西 17:27，周末 - X",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xbTZnVW9FSjA1bzNTMkdxNFRZb3FFSEd0czFjZ2czWVZBM0FwaTUwRmVhYnc5RXJyY3dxMHFuQlBYODNWdDlManUxdm1MVWwxZlZNd05HakNhWVJieUU3c2hOM3gyTTNKSWow?oc=5",
+      "pubDate": "Mon, 05 Oct 2026 00:48:35 GMT",
+      "description": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 50 日線 347.58 之上，200 日線 393.18 仲喺上面未收復。近 3 個月計仍然跌 11.7%，上周五呢一下先補返一部分。 站內有 462 個散戶寶用戶持有。 數據時間 10/04 美西 17:27，周末 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "07bed54ebbc9345e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA 頁面最新報 371.43，升 4.89%，成交 55.33M，明顯大過 30 日均量。 股價企返 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
