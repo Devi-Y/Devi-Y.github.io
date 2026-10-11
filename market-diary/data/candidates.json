@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-11T15:37:58.965Z",
+  "generatedAt": "2026-10-11T20:14:24.756Z",
   "windowDays": 7,
   "summary": {
     "total": 39,
     "bySignal": {
       "事实": 11,
       "媒体": 1,
-      "人物": 2,
+      "人物": 3,
       "资金": 0,
-      "热点": 25
+      "热点": 24
     },
     "byTrust": {
       "A": 13,
-      "B": 1,
-      "C": 25
+      "B": 2,
+      "C": 24
     },
     "s": 0,
     "a": 9,
@@ -264,6 +264,26 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kUE1mb3huRllROXZUSmpjeENOMUwyMmM1UlFTUzc2UTZkQVVxdHBDLTNsdVp0ek9BeTQ0SFZnRlNuWG5QclI2Nm5oLXpURWotQkNKSGZRZnRFeF9MTzJwb2RfNHhHMHM?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 17:46:42 GMT",
+      "description": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "57117c9b3e2b746d",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PaGZzdHItUVozbzZyaWFPaFBJclpicUVLT3R5V1UwUXFDMl9ETWZSdEwzSFhBOTM4emVseXJhRXZVekpMb0x3YUJXOTh3TUlTN1N4NnRfSTA0ZE9faExlOS00YmJPd0pZNDd2WHlyaklsZw?oc=5",
@@ -462,26 +482,6 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": ". $PONS 持續下跌且跌破 0.4 美元 , 生態還有哪些寶藏 ✨ 這週 Robinhood Chain 上、發行超過一週、市值仍在 1000 萬美元以上、而且 7 日是正報酬的老幣，我們也整理出來了 robinhood:0x18e674231a58c239dc7daedcffe15ec3a24cff5c $ORBIO $BONER $CASH - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TeEVUd0R1S1BZdlJkTHNZQ2djTTBnVThqUjlFOFNyMGttU0tYMVhiSW9fTWwyWGJ0UnJ6MWdhNzhSc0MxSWJOc29FbkdkS3ZhODRNc2NqaTNfU0xlcTNhUWIyOTBCV3l2eFhIZFhuX3B4QQ?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 18:09:36 GMT",
-      "description": ". $PONS 持續下跌且跌破 0.4 美元 , 生態還有哪些寶藏 ✨ 這週 Robinhood Chain 上、發行超過一週、市值仍在 1000 萬美元以上、而且 7 日是正報酬的老幣，我們也整理出來了 robinhood:0x18e674231a58c239dc7daedcffe15ec3a24cff5c $ORBIO $BONER $CASH &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f03001e9aae56f6f",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
       "market": "港股",
       "signal": "媒体",
       "type": "公司事件",
@@ -520,6 +520,26 @@
       "priority": "B",
       "id": "1b6c6ea303491ca8",
       "rankReason": "一级/官方信源"
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "股災預兆浮現？巴菲特與阿克曼揭示市場動盪下的投資心法 - Life 生活網",
+      "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxNYXBqdGVOeUFvaE84RmRYd3oycGdpNDNJVWRiM3hwc1FPLVRpdFRoX3U5UjJpUElkaFo0bG44Tkxrd09SckwxRlAtREZtOHdpMmRDbzlYU3FEVDlHdWw3UTFENy0yYXFFclBiM19ocnVwYVRiVm42QzJiTzNHeDMtdzBFajlTS0tvZVotVVZYdERzaDU4aS1iTG52dWx3ckdxS09HdDlaZURmMUpiTVFqN1pGZ1NqZ0dacFQ3N2pUSnhZZ1AxQ09vN2tpZ1JBckNpcFpKX3BDWV9Ta0F1ZDdxbGdMSUc0U1NMQnhISEZqdnBtekNQdTNyVHhWaE53YUNYdU1XTkFpTnI5c1Z2eGlrUE5oWmNfWjNBYXQyMi1PWldkdThVWTNsbGdrMUhmc3pkOUctX2RwVC1XVmx6ZmFzNTI0Y21wUWRncnV0eGxZbzZET2NtSURILTRhc1ZOa0lqZGhiQVVhWUU2QUxXYldZTnRKZGM?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 01:31:06 GMT",
+      "description": "股災預兆浮現？巴菲特與阿克曼揭示市場動盪下的投資心法 &nbsp;&nbsp; Life 生活網",
+      "source": "Life 生活網",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 36,
+      "priority": "B",
+      "id": "ba7210fb2cdd38d7",
+      "rankReason": "关键人物"
     },
     {
       "market": "全球",
@@ -765,26 +785,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "【週報】2026年10月第1週（9月28日至10月2日；截至10月2日） - X",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDZTdoMkpkNUNWWmJCb2F2RlU0N1JlM25fTUpfSzlTNzBySFJmZXg1TW0zckJ5RERuS0t1RWNrVkJwRDM5ZkNwWlU3dG5yckV6WUY0blNrcXVFUFFJaDUwV2kycVExQ3Qt?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 17:43:37 GMT",
-      "description": "【週報】2026年10月第1週（9月28日至10月2日；截至10月2日） &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "9549a491299071e1",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "- Xiaohongshu",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
       "pubDate": "Tue, 06 Oct 2026 01:42:27 GMT",
@@ -802,5 +802,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-11T15:37:59.546Z"
+  "rankedAt": "2026-10-11T20:14:25.153Z"
 }

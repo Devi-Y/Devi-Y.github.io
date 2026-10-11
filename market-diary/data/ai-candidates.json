@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T15:37:59.851Z",
+  "generatedAt": "2026-10-11T20:14:25.577Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -379,6 +379,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kUE1mb3huRllROXZUSmpjeENOMUwyMmM1UlFTUzc2UTZkQVVxdHBDLTNsdVp0ek9BeTQ0SFZnRlNuWG5QclI2Nm5oLXpURWotQkNKSGZRZnRFeF9MTzJwb2RfNHhHMHM?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 17:46:42 GMT",
+      "description": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "57117c9b3e2b746d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $I…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PaGZzdHItUVozbzZyaWFPaFBJclpicUVLT3R5V1UwUXFDMl9ETWZSdEwzSFhBOTM4emVseXJhRXZVekpMb0x3YUJXOTh3TUlTN1N4NnRfSTA0ZE9faExlOS00YmJPd0pZNDd2WHlyaklsZw?oc=5",
@@ -677,37 +708,6 @@
       "ai": {
         "priority": "B",
         "summary": "我感覺spacex 比tesla 強太多了 剛開始 ，倉位是1:3 現在差不多1:1了 spacex 明顯跑贏…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": ". $PONS 持續下跌且跌破 0.4 美元 , 生態還有哪些寶藏 ✨ 這週 Robinhood Chain 上、發行超過一週、市值仍在 1000 萬美元以上、而且 7 日是正報酬的老幣，我們也整理出來了 robinhood:0x18e674231a58c239dc7daedcffe15ec3a24cff5c $ORBIO $BONER $CASH - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TeEVUd0R1S1BZdlJkTHNZQ2djTTBnVThqUjlFOFNyMGttU0tYMVhiSW9fTWwyWGJ0UnJ6MWdhNzhSc0MxSWJOc29FbkdkS3ZhODRNc2NqaTNfU0xlcTNhUWIyOTBCV3l2eFhIZFhuX3B4QQ?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 18:09:36 GMT",
-      "description": ". $PONS 持續下跌且跌破 0.4 美元 , 生態還有哪些寶藏 ✨ 這週 Robinhood Chain 上、發行超過一週、市值仍在 1000 萬美元以上、而且 7 日是正報酬的老幣，我們也整理出來了 robinhood:0x18e674231a58c239dc7daedcffe15ec3a24cff5c $ORBIO $BONER $CASH &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f03001e9aae56f6f",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": ". $PONS 持續下跌且跌破 0.4 美元 , 生態還有哪些寶藏 ✨ 這週 Robinhood Chain …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
