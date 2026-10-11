@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-11T20:14:24.756Z",
+  "generatedAt": "2026-10-11T23:39:30.627Z",
   "windowDays": 7,
   "summary": {
-    "total": 39,
+    "total": 38,
     "bySignal": {
       "事实": 11,
       "媒体": 1,
       "人物": 3,
       "资金": 0,
-      "热点": 24
+      "热点": 23
     },
     "byTrust": {
       "A": 13,
       "B": 2,
-      "C": 24
+      "C": 23
     },
     "s": 0,
     "a": 9,
-    "b": 30
+    "b": 29
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -136,7 +136,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 71,
+      "score": 68,
       "priority": "A",
       "id": "f4bf24eaecfe0dcc",
       "rankReason": "一级/官方信源；高影响事件词"
@@ -285,6 +285,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
+      "title": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1MjNqX0Q4cHFBQ21VSDJrRnJBdmVnekFYZVdoeU5acnFZaXBaZm5OWlJKajVwSHppakNGaWJOQkNBVW1lcW5xdF9TT1ZNX0lBMWIzUDJQWkh0Q3lmOGc?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 03:58:19 GMT",
+      "description": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c6b3200b50d31ab8",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
       "title": "$ARM's Next Growth Engine BofA's Sept. 29 model puts $ARM's own merchant CPU revenue at $0.9B in 2027 and $15B in 2030, nearly a 17x ramp. Separately, the Arm-based server CPU market expands from $23.6B in 2026 to $99.7B in 2030, spanning $N - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PaGZzdHItUVozbzZyaWFPaFBJclpicUVLT3R5V1UwUXFDMl9ETWZSdEwzSFhBOTM4emVseXJhRXZVekpMb0x3YUJXOTh3TUlTN1N4NnRfSTA0ZE9faExlOS00YmJPd0pZNDd2WHlyaklsZw?oc=5",
       "pubDate": "Mon, 05 Oct 2026 14:04:19 GMT",
@@ -299,26 +319,6 @@
       "score": 44,
       "priority": "B",
       "id": "e1b76e6383fa4e36",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "好啦，美光財報出來沒有開盤直接噴 20%，然後大家又開始了。週期股，要崩了，漲完了。 我先講一個數字。粗利率 86%。記憶體這麼久，沒看過美光有這種毛利。這個數字高到我自己都有點怕。所以你說它是週期股，我不反對。記憶體就是週期股，這個沒什麼好吵的。 但 - X",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14YzVBWEtvYTRkdWJBdnJLcW5qdXE0ejhiS2t0aHlVZDNHekloR29BN3gtUHpZQ3dEMEhrMDcxcE1hdmVkVGRsa2RzdUl4cjJlZnVUNnZxbE9TaDVDNGFV?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 03:20:10 GMT",
-      "description": "好啦，美光財報出來沒有開盤直接噴 20%，然後大家又開始了。週期股，要崩了，漲完了。 我先講一個數字。粗利率 86%。記憶體這麼久，沒看過美光有這種毛利。這個數字高到我自己都有點怕。所以你說它是週期股，我不反對。記憶體就是週期股，這個沒什麼好吵的。 但 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "fdbaf39193e4a5ef",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -705,26 +705,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "https://t.co/KSrkYP6xhu - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3aWU2U1g2ME9SbGd2UDAza0NiSW1lMDFHZWJhLVlUNlBOem5QV3lmNmFEeWxIZUNNUlAwdUVCOEJtbE83MEhpQkVjbEJFWWFGaHQyMmJyWmhldDczbWU0Rjkybw?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 22:21:46 GMT",
-      "description": "https://t.co/KSrkYP6xhu &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "08b06e30cd86556b",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "葉門政府軍已經佔領了包括杜巴布區（Dhubab位於海峽入口處）的一個簡易機場在內的關鍵位置。 杜巴布區是重要的石油運輸通道，胡塞武裝上個月奪取該通道的舉動震驚了能源市場。 同時，據葉門政府軍方消息透露，胡塞武裝在塔伊茲市附近取得了重要進展，奪取了 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCNDcwNFIxZTJyb01vcUd3cWsyeDE1TlVVY2VIUk1ma1dqVUFtX2NjQm8wY0pRRmI3SHpGS05RTFZtM1h3Z0lwWEFod1prRDl0a21TS3BuNG9DMEVNWERNU1RVbUFLU2s?oc=5",
       "pubDate": "Mon, 05 Oct 2026 17:23:36 GMT",
@@ -802,5 +782,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-11T20:14:25.153Z"
+  "rankedAt": "2026-10-11T23:39:30.683Z"
 }
