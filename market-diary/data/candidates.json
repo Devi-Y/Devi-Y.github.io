@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-10T22:29:30.327Z",
+  "generatedAt": "2026-10-11T01:50:52.143Z",
   "windowDays": 7,
   "summary": {
-    "total": 42,
+    "total": 43,
     "bySignal": {
-      "事实": 10,
+      "事实": 11,
       "媒体": 1,
       "人物": 2,
       "资金": 0,
       "热点": 29
     },
     "byTrust": {
-      "A": 12,
+      "A": 13,
       "B": 1,
       "C": 29
     },
     "s": 0,
     "a": 9,
-    "b": 33
+    "b": 34
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -222,6 +222,26 @@
       "rankReason": "一级/官方信源；市场相关；关键人物"
     },
     {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "香港金融管理局 - Associate (Technology Service – Application Development)（英文版本） - Hong Kong Monetary Authority",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWwxSmVORmY4bDNZWkR0MXJ2S1pXd042VHNaQkdVMUNMX1lGRFg5RzFzbzlPMUZRMFNLNVBHd1Boa2RDZnlHaVozRkdrSk9GTmdPS2x5QjJqaTNfU3hIdm54cWZIZlc4MmZSQnIyMXBHNmhNdlNkOEp2MXdibHRHSkpFa1NNU2RZOVE?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 03:36:21 GMT",
+      "description": "香港金融管理局 - Associate (Technology Service – Application Development)（英文版本） &nbsp;&nbsp; Hong Kong Monetary Authority",
+      "source": "Hong Kong Monetary Authority",
+      "sourceKey": "hkma",
+      "sourceMode": "official-domain-discovery",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 58,
+      "priority": "B",
+      "id": "ae6f03d6e2fcc615",
+      "rankReason": "一级/官方信源；市场相关"
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -240,26 +260,6 @@
       "priority": "B",
       "id": "0a8518ae17390ad1",
       "rankReason": "一级/官方信源；市场相关；关键人物"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "IPO",
-      "title": "$NVDA 股價盤中觸及歷史新高237.87美元（上漲約2.5%），創下自5月以來的新高，市值達到約5.6-5.7兆美元。董事會批准了1,500億美元的新股票回購計劃，加上先前已批准的850億美元，到2028財年，回購總額將達到約2,350億美元，據稱是公司史上規模最大的股票 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EaTdHZHBRZmRwOWQzRnJZT2huZlFqeTB4M1NPNnE4UlNYaDNfRlpJVjBRbE1YY1pDTTZGamhPZ0c2SVZfaXlaSnpSelZOTkgtZWpyODMwRWxHRjhwSGRHSEJ5MzRheTQ?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 00:07:51 GMT",
-      "description": "$NVDA 股價盤中觸及歷史新高237.87美元（上漲約2.5%），創下自5月以來的新高，市值達到約5.6-5.7兆美元。董事會批准了1,500億美元的新股票回購計劃，加上先前已批准的850億美元，到2028財年，回購總額將達到約2,350億美元，據稱是公司史上規模最大的股票 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "952989e2f9c3f586",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -605,6 +605,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Leonard (@Leoskie_L) - X",
+      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1Oa3ZOd2pycGhvU0dUd0xiY3Q3bUo4ZE1XQ04tNkc5ZWpDRWxGVUprajJHNV9EQmR0TG9z?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 00:50:08 GMT",
+      "description": "Leonard (@Leoskie_L) &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "92f92b6dedd13d4c",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "👍 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KVHFZQUx0OGNWYkM3OVJhaWppaFNrR1VkNncyREtYN3EwT256cERTdVJGcWJjNExIVEpvakMzSS0tSFVpMFRpMUoxVUpCc0xNX3JvMHJSb3RRODRRTnc?oc=5",
       "pubDate": "Sat, 10 Oct 2026 04:39:31 GMT",
@@ -862,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-10T22:29:31.513Z"
+  "rankedAt": "2026-10-11T01:50:52.546Z"
 }
