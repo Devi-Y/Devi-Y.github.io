@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T08:46:58.552Z",
+  "generatedAt": "2026-10-11T15:37:59.851Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -205,7 +205,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 71,
+      "score": 68,
       "priority": "A",
       "id": "b9336863c66c9302",
       "rankReason": "一级/官方信源；高影响事件词",
@@ -442,6 +442,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$MSFT $NVDA 4,000 個工程師年，塞進一台筆電 整場對談真正的主角，其實是一顆晶片。💻⚡ 黃仁勳：「超過 4,000 個工程師年。這是一個巨大的計畫。」「我們徹底重新發明了個人電腦。」 他說他們把遊戲 PC、工作站和雲端超算統一成一顆超晶片，是「兩顆巨大的晶片熔 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92ZGZ5Vm92UExVUXNUNnJ0a3BNb1B2VUhpQjhzVDFHbmVJZ0pTakJ3TGdHTXBsU05xNzhDTEE2aW5nYnowczJXS2ZFUktQYm9zN1U5T29rMWFtajFRY1pN?oc=5",
+      "pubDate": "Thu, 08 Oct 2026 12:46:56 GMT",
+      "description": "$MSFT $NVDA 4,000 個工程師年，塞進一台筆電 整場對談真正的主角，其實是一顆晶片。💻⚡ 黃仁勳：「超過 4,000 個工程師年。這是一個巨大的計畫。」「我們徹底重新發明了個人電腦。」 他說他們把遊戲 PC、工作站和雲端超算統一成一顆超晶片，是「兩顆巨大的晶片熔 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "52e733b09db7cf7d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$MSFT $NVDA 4,000 個工程師年，塞進一台筆電 整場對談真正的主角，其實是一顆晶片。💻⚡ 黃仁…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "據報SpaceX擬舉債400億美元購買輝達晶片，包括100億銀行貸款與300億投資級債券。$NVDA 可望受惠，電力、散熱與網通需求也值得關注。 管理層稱ARR可達1,000億美元，仍需營收與現金流驗證。 大叔觀點：GPU可以借錢買，利息得靠現金付。盯融資條件、算力售 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMbm5LU25SZnhYMHlnRkF4SktrSkV6V245R2V2a0RxTzhTajVMS1hxVzZnVnMxVVQ4ZmVXVVBjUVJuQ0dNajFhbmM4dE5aWm5teTcxc09iWXU2eS1ZSGlvT2cyWmVzWDA?oc=5",
       "pubDate": "Thu, 08 Oct 2026 02:02:52 GMT",
@@ -460,37 +491,6 @@
       "ai": {
         "priority": "B",
         "summary": "據報SpaceX擬舉債400億美元購買輝達晶片，包括100億銀行貸款與300億投資級債券。$NVDA 可望受惠…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv - X",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hQTBRTVkzWDkxV1RTcHY3X0FnNWtwOVozdkZZTE53UnlNeDEzYmQ2ZVd1M2RXZldrUkdwSzZwd05YMW9JU0xENWhLeGhaRDVDazQ0cHc5Q083NFktc29uQzNTWEtFSmZtWGtB?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 11:51:35 GMT",
-      "description": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $AAOI ，之後第 4 係 $BE 484 人，第 5 係 $TSLA 462 人，第 6 係 $INTC 451 人。頁面特別寫明，加入人數唔係買賣訊號，亦唔代表漲跌。 https://t.co/YNG2xPb8Kv &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "786fe19472211efe",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "持倉雷達頁而家收錄 260 檔標的，累計 12,045 人次加入面板。頭三名係 $MU 、 $SNDK 、 $…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
