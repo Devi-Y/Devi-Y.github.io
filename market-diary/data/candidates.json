@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-12T15:18:07.974Z",
+  "generatedAt": "2026-10-12T22:56:46.180Z",
   "windowDays": 7,
   "summary": {
-    "total": 32,
+    "total": 31,
     "bySignal": {
       "事实": 12,
       "媒体": 0,
       "人物": 3,
       "资金": 0,
-      "热点": 17
+      "热点": 16
     },
     "byTrust": {
       "A": 14,
       "B": 1,
-      "C": 17
+      "C": 16
     },
     "s": 0,
     "a": 9,
-    "b": 23
+    "b": 22
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -262,6 +262,26 @@
       "rankReason": "一级/官方信源；市场相关；关键人物"
     },
     {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "香港金融管理局 - Associate (Technology Service – Application Development)（英文版本） - Hong Kong Monetary Authority",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWwxSmVORmY4bDNZWkR0MXJ2S1pXd042VHNaQkdVMUNMX1lGRFg5RzFzbzlPMUZRMFNLNVBHd1Boa2RDZnlHaVozRkdrSk9GTmdPS2x5QjJqaTNfU3hIdm54cWZIZlc4MmZSQnIyMXBHNmhNdlNkOEp2MXdibHRHSkpFa1NNU2RZOVE?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 03:36:21 GMT",
+      "description": "香港金融管理局 - Associate (Technology Service – Application Development)（英文版本） &nbsp;&nbsp; Hong Kong Monetary Authority",
+      "source": "Hong Kong Monetary Authority",
+      "sourceKey": "hkma",
+      "sourceMode": "official-domain-discovery",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 55,
+      "priority": "B",
+      "id": "ae6f03d6e2fcc615",
+      "rankReason": "一级/官方信源；市场相关"
+    },
+    {
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
@@ -276,7 +296,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
+      "score": 47,
       "priority": "B",
       "id": "57117c9b3e2b746d",
       "rankReason": "高影响事件词；社媒只做热点发现"
@@ -402,26 +422,6 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
-      "pubDate": "Mon, 5 Oct 2026 20:30:00 GMT",
-      "description": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 38,
-      "priority": "B",
-      "id": "1b6c6ea303491ca8",
-      "rankReason": "一级/官方信源"
-    },
-    {
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
@@ -445,6 +445,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "大牛市的龍頭戰法一年一換，10 年可以 1467 倍收益，分散成前十名剩下 16 倍，前五十名剩下 5.9 倍，其實就接近 QQQ、SPY、SPMO 的績效了 - X",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QcTlIT3dMbmJQZkI2SngwVzlPWXVXaE5GZ1VMTF9wRENNYU9mZFQtc3VCNlYzT3RTdVg0X3BTU1N6dFg3dXIwb1Q3aTlmY19zb28zUWNVSzkweXQ4aF9jMHFqajhNRmM2YkozSE9ibw?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 14:38:28 GMT",
+      "description": "大牛市的龍頭戰法一年一換，10 年可以 1467 倍收益，分散成前十名剩下 16 倍，前五十名剩下 5.9 倍，其實就接近 QQQ、SPY、SPMO 的績效了 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "267b8919ddf303ef",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "轉：【日本人加入俄軍參戰三年 分析俄軍死傷慘重 仍大量往前線\"人命填線\"原因】 ​ 面對外界對於「俄軍傷亡慘重，為何仍不斷往前線填人」的疑惑，這位在第一線死裡逃生的俄軍日本傭兵，給出了第一手的基層視角解答… ​ 時間回到2023年8月，曾服役於日本陸上自衛 - X",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14TzJyOG56YllqT3dzYjlpUUVNYkpfNjlzdEJxMVJRemhRcE5NajJOUndTQnpibTNKaVc3V0dodjN4Tm95dVlKYWFJaUY2TjVob1NEQzQ5YkRzSE4tLTV3RktWcw?oc=5",
       "pubDate": "Sun, 11 Oct 2026 10:47:49 GMT",
@@ -459,26 +479,6 @@
       "score": 17,
       "priority": "B",
       "id": "888d6e1356c07cc7",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "不是吧不是吧 还有人不知道在香港生活如何省钱生存？ 先加这个 【兩餸飯】群组啊 https://t.co/dZBv04NEfQ 关注我，获取更多生活小技巧 - X",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SQjNKM1hoVzRJSVlFeGw4TzgwNE84RHdxdWlyekZCVTR4WG9CYk1NRDNWZUF5bkJ5TW9zVWJrWlNCT2JxUlQ4LUhsRHR1X0s5QmNxT1JFU0E5VjUzNTc0?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 11:21:43 GMT",
-      "description": "不是吧不是吧 还有人不知道在香港生活如何省钱生存？ 先加这个 【兩餸飯】群组啊 https://t.co/dZBv04NEfQ 关注我，获取更多生活小技巧 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
-      "priority": "B",
-      "id": "de08365b85b5eb55",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -565,26 +565,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "葉門政府軍已經佔領了包括杜巴布區（Dhubab位於海峽入口處）的一個簡易機場在內的關鍵位置。 杜巴布區是重要的石油運輸通道，胡塞武裝上個月奪取該通道的舉動震驚了能源市場。 同時，據葉門政府軍方消息透露，胡塞武裝在塔伊茲市附近取得了重要進展，奪取了 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCNDcwNFIxZTJyb01vcUd3cWsyeDE1TlVVY2VIUk1ma1dqVUFtX2NjQm8wY0pRRmI3SHpGS05RTFZtM1h3Z0lwWEFod1prRDl0a21TS3BuNG9DMEVNWERNU1RVbUFLU2s?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 17:23:36 GMT",
-      "description": "葉門政府軍已經佔領了包括杜巴布區（Dhubab位於海峽入口處）的一個簡易機場在內的關鍵位置。 杜巴布區是重要的石油運輸通道，胡塞武裝上個月奪取該通道的舉動震驚了能源市場。 同時，據葉門政府軍方消息透露，胡塞武裝在塔伊茲市附近取得了重要進展，奪取了 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "fd3a8a58d612bd32",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "你早上不给他喂点小零食，他就会一直给你信号。 - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Rc05MRmc5Zk13TkpySkhrSGZpUXpKUGg5TWNrSUVVMDVGckhVX2ZfMGpDUlhOaTNpWjFGTkszU3MtMkNiWnN5RHplLXpwcWF6MEJVVG56VnY5NlNyUWppb3gyN2k?oc=5",
       "pubDate": "Tue, 06 Oct 2026 12:30:28 GMT",
@@ -662,5 +642,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-12T15:18:08.773Z"
+  "rankedAt": "2026-10-12T22:56:47.534Z"
 }
