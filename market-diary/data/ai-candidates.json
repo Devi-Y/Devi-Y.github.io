@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T22:56:47.807Z",
+  "generatedAt": "2026-10-13T03:31:59.220Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -411,10 +411,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kUE1mb3huRllROXZUSmpjeENOMUwyMmM1UlFTUzc2UTZkQVVxdHBDLTNsdVp0ek9BeTQ0SFZnRlNuWG5QclI2Nm5oLXpURWotQkNKSGZRZnRFeF9MTzJwb2RfNHhHMHM?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 17:46:42 GMT",
-      "description": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 &nbsp;&nbsp; X",
+      "title": "輝達NVDA還沒跌到位！老師揭秘為何現在不適合進場補倉。想要避險或操作槓桿，這招策略你必須學起來，看完影片別盲目進場！#輝達 #NVDA #股票分析 #美股 #投資理財 #技術分析 - X",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01cEt4UUUxQ3lKVVdaeDJ2UFp1UFNoR1hRdVdRSl9hYjVIYlZSWmdISTBOZlhTWXFYMlhsT3JRQlNJVWlQRWxMcVJRSlpBTTNTMklTSFczaUhrNnZhWk5obTd0RFpKNXdUV05xVA?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 22:23:31 GMT",
+      "description": "輝達NVDA還沒跌到位！老師揭秘為何現在不適合進場補倉。想要避險或操作槓桿，這招策略你必須學起來，看完影片別盲目進場！#輝達 #NVDA #股票分析 #美股 #投資理財 #技術分析 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -424,11 +424,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "57117c9b3e2b746d",
+      "id": "0eebb3ee7e5097db",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $I…",
+        "summary": "輝達NVDA還沒跌到位！老師揭秘為何現在不適合進場補倉。想要避險或操作槓桿，這招策略你必須學起來，看完影片別盲…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -466,37 +466,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1MjNqX0Q4cHFBQ21VSDJrRnJBdmVnekFYZVdoeU5acnFZaXBaZm5OWlJKajVwSHppakNGaWJOQkNBVW1lcW5xdF9TT1ZNX0lBMWIzUDJQWkh0Q3lmOGc?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 03:58:19 GMT",
-      "description": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比 8 月底媒體（含《金融時報》）據投資者信息報導的約 700 億美元 少約 200 億美元。 數字為何對不上 - 知情人士稱，差距主要來自計算口徑不同：Anthropic 把 AWS、Google Cloud 等 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "c6b3200b50d31ab8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "FINANCIAL TIMES OpenAI 告訴投資者：截至 9 月底，年化營收接近 500 億美元。 這比…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -566,37 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "我感覺spacex 比tesla 強太多了 剛開始 ，倉位是1:3 現在差不多1:1了 spacex 明顯跑贏垃圾tsla - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9meFltZTQySmFRclJuWHBSazBlX05sSmxOUVp0aS1wcUY5bUVJU0NFc1l3Z045RW9CdXhZbDM2aldGTEdobHhabzhNZDJlRjNRaUo3cGU1UVFTdC13Wkp0cHpUUDB3UQ?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 01:45:22 GMT",
-      "description": "我感覺spacex 比tesla 強太多了 剛開始 ，倉位是1:3 現在差不多1:1了 spacex 明顯跑贏垃圾tsla &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "1256c223c39fde32",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "我感覺spacex 比tesla 強太多了 剛開始 ，倉位是1:3 現在差不多1:1了 spacex 明顯跑贏…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "CoreWeave 正加速布局韓國市場，除與多家當地資料中心業者洽談合作外，也打算以 Weights & Biases（W&B）客戶為基礎，擴大 AI 推論業務。 來源：ZDNet Korea（2026年10月9日） 韓國市場布局 - 美國 AI 基礎設施（neocloud）業者 CoreWeave 正與多家韓國資料中心 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QbFM0MF83ZU9NZDJwdmJsTXl0X1VYa2dEejIyeC1fTHJlVVlxaDVfa3VsVVc1a0F0ZFJqcEtsQ3kyY1l4dTNPa1RnSGVpalgxZ29oWEZPRFBiLUw1VFE?oc=5",
       "pubDate": "Fri, 09 Oct 2026 14:20:28 GMT",
@@ -639,7 +577,7 @@
       "trustTier": "B",
       "confidence": "B",
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 36,
+      "score": 33,
       "priority": "B",
       "id": "ba7210fb2cdd38d7",
       "rankReason": "关键人物",
@@ -677,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "大牛市的龍頭戰法一年一換，10 年可以 1467 倍收益，分散成前十名剩下 16 倍，前五十名剩下 5.9 倍…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "華為「五界亂華」煞車踩斷中國車未來？ 中官方「整肅止血」歐盟嚇壞進口腰斬！？【關鍵時刻】20261012-4 張炤和 https://t.co/UlmULmFeiY via @YouTube - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Pdm9CTjN6NDRrUk5qOXVoZGR0UDFFTUI1amRZa2dVZXJkdy0yNWxWemdHLWlXeGxxbkdUMzM1YzlhWUFpeVZDdF8yNU9mVzZBbUExc1ZfeEkxdnlTa29tYlhTTQ?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 22:48:30 GMT",
+      "description": "華為「五界亂華」煞車踩斷中國車未來？ 中官方「整肅止血」歐盟嚇壞進口腰斬！？【關鍵時刻】20261012-4 張炤和 https://t.co/UlmULmFeiY via @YouTube &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "4f1b50ad81e79e1e",
+      "rankReason": "社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "華為「五界亂華」煞車踩斷中國車未來？ 中官方「整肅止血」歐盟嚇壞進口腰斬！？【關鍵時刻】20261012-4 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "「沒有它，根本起不了步」 黃仁勳在台上替微軟的一個新東西背書，話說得非常重。🔑 「Satya 剛剛說的，會是下一代 IT 的地基。」 「就像 Windows 和 DirectX 改變了應用程式的寫法，MXC 會改變 agent 被打造和部署的方式。」 「沒有它，根本起不了步。這是大事。」 MXC 是 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HV25Tdk5YTkN2bElUdFlCV3VHVlpkYjJKS3JMMDh3RVRiR3JWMUk1YkoyYi1kOHNPUEl0S3ZZNE5ibUdkSWNkdmlFeTNTdG4xZXFRd0cyMWw1dmdObFFV?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 12:37:09 GMT",
+      "description": "「沒有它，根本起不了步」 黃仁勳在台上替微軟的一個新東西背書，話說得非常重。🔑 「Satya 剛剛說的，會是下一代 IT 的地基。」 「就像 Windows 和 DirectX 改變了應用程式的寫法，MXC 會改變 agent 被打造和部署的方式。」 「沒有它，根本起不了步。這是大事。」 MXC 是 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "69bd05ed377ef04c",
+      "rankReason": "社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "「沒有它，根本起不了步」 黃仁勳在台上替微軟的一個新東西背書，話說得非常重。🔑 「Satya 剛剛說的，會是…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
