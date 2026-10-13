@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T11:44:39.913Z",
+  "generatedAt": "2026-10-13T19:14:38.690Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -30,6 +30,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "pubDate": "Tue, 13 Oct 2026 18:00:00 GMT",
+      "description": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "e3b16892edfa877f",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储公布贴现率会议纪要",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -284,37 +315,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
-      "pubDate": "Tue, 6 Oct 2026 14:45:00 GMT",
-      "description": "Speech At the 2026 Community Banking Research Conference, sponsored by the Federal Reserve System, the Conference of State Bank Supervisors, and the Federal Deposit Insurance Corporation, St. Louis, Missouri",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 57,
-      "priority": "B",
-      "id": "0a8518ae17390ad1",
-      "rankReason": "一级/官方信源；市场相关；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -373,6 +373,68 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "📈 股票交易打卡：多重獎勵疊加，瓜分 200 股 NVDA！ 🎁 前 5,000 名可搶先領 2 USDT 👉 立即參與：https://t.co/PRLAaaBdyQ 📅 每日打卡交易，累計達標贏 NVDA，最高可領 0.1 股 🔥 高級打卡達標，還有機會抽取 0.5 股 NVDA 🤝 邀請好友完成股票交易，每成功 1 人再 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZQ0tWcXBaNXRfTkJMeWw0bW5hc2NyVGs0MVQ1cGNINnVoZ00wSjNxZGRWR01sdC1ObWEyekE2LUphNlhFRDN2aThyclBuWXluWFRDZmY0ekc2Vjlk?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 10:32:00 GMT",
+      "description": "📈 股票交易打卡：多重獎勵疊加，瓜分 200 股 NVDA！ 🎁 前 5,000 名可搶先領 2 USDT 👉 立即參與：https://t.co/PRLAaaBdyQ 📅 每日打卡交易，累計達標贏 NVDA，最高可領 0.1 股 🔥 高級打卡達標，還有機會抽取 0.5 股 NVDA 🤝 邀請好友完成股票交易，每成功 1 人再 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2d51da1c253bb840",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "📈 股票交易打卡：多重獎勵疊加，瓜分 200 股 NVDA！ 🎁 前 5,000 名可搶先領 2 USDT…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Uptober 財報季持續升溫。🔥📈 從 $JPM、$TSM 到 $GOOGL、$MSFT、$TSLA、$AAPL 和 $AMZN，各大企業正成為市場焦點。 重磅財報。更大的市場波動值得關注。 在 LBank 全天候 24/7 交易股票掛鉤市場。 你正在關注哪份財報？👀 探索 TradFi 市場:https://t.co/kjpIy - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YWXlzdFRlVmtsRW0zUHhKdUtBVHhUSTd4NklQdHQzOEU3RzR2N1pzNVJhTWY4NXhibkgta01PTjRQczh2aTdmeFl6aUN5VWltMzRvdFlYUWpkQW5sOWdhajhXQQ?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 11:50:28 GMT",
+      "description": "Uptober 財報季持續升溫。🔥📈 從 $JPM、$TSM 到 $GOOGL、$MSFT、$TSLA、$AAPL 和 $AMZN，各大企業正成為市場焦點。 重磅財報。更大的市場波動值得關注。 在 LBank 全天候 24/7 交易股票掛鉤市場。 你正在關注哪份財報？👀 探索 TradFi 市場:https://t.co/kjpIy &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "4a8fe37190b3b163",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Uptober 財報季持續升溫。🔥📈 從 $JPM、$TSM 到 $GOOGL、$MSFT、$TSLA、$…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -659,72 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "大牛市的龍頭戰法一年一換，10 年可以 1467 倍收益，分散成前十名剩下 16 倍，前五十名剩下 5.9 倍，其實就接近 QQQ、SPY、SPMO 的績效了 - X",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QcTlIT3dMbmJQZkI2SngwVzlPWXVXaE5GZ1VMTF9wRENNYU9mZFQtc3VCNlYzT3RTdVg0X3BTU1N6dFg3dXIwb1Q3aTlmY19zb28zUWNVSzkweXQ4aF9jMHFqajhNRmM2YkozSE9ibw?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 14:38:28 GMT",
-      "description": "大牛市的龍頭戰法一年一換，10 年可以 1467 倍收益，分散成前十名剩下 16 倍，前五十名剩下 5.9 倍，其實就接近 QQQ、SPY、SPMO 的績效了 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "267b8919ddf303ef",
-      "rankReason": "社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "大牛市的龍頭戰法一年一換，10 年可以 1467 倍收益，分散成前十名剩下 16 倍，前五十名剩下 5.9 倍…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "華為「五界亂華」煞車踩斷中國車未來？ 中官方「整肅止血」歐盟嚇壞進口腰斬！？【關鍵時刻】20261012-4 張炤和 https://t.co/UlmULmFeiY via @YouTube - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Pdm9CTjN6NDRrUk5qOXVoZGR0UDFFTUI1amRZa2dVZXJkdy0yNWxWemdHLWlXeGxxbkdUMzM1YzlhWUFpeVZDdF8yNU9mVzZBbUExc1ZfeEkxdnlTa29tYlhTTQ?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 22:48:30 GMT",
-      "description": "華為「五界亂華」煞車踩斷中國車未來？ 中官方「整肅止血」歐盟嚇壞進口腰斬！？【關鍵時刻】20261012-4 張炤和 https://t.co/UlmULmFeiY via @YouTube &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "4f1b50ad81e79e1e",
-      "rankReason": "社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "華為「五界亂華」煞車踩斷中國車未來？ 中官方「整肅止血」歐盟嚇壞進口腰斬！？【關鍵時刻】20261012-4 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "2026-10-13 標普只跌0.06%，半導體卻在退潮 https://t.co/xsA7z8suYP - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BeWdYQmxJemd0d2lhdTNfUDVQSG9JQ0tNcDNMYU5pS005OVl3MktOdmpqUG0weGYtV3Y5c0ctZGRxbVhaZUNoZGZfWlJYdjA0OXFnVUlqY0FnNG9GZ2h1NQ?oc=5",
+      "title": "2026-10-13 標普只跌0.06%，半導體卻在退潮 - X",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAySkdMNldCek5aYmdFNVVrbkctNmZzLU1hMFltRFltaThfb21JQUpDdHZQOGlISHNsM1BiTDVIZ1lKbUhQNDk1SUFjeFlSWmd4aFNpQ3N3?oc=5",
       "pubDate": "Tue, 13 Oct 2026 08:51:16 GMT",
-      "description": "2026-10-13 標普只跌0.06%，半導體卻在退潮 https://t.co/xsA7z8suYP &nbsp;&nbsp; X",
+      "description": "2026-10-13 標普只跌0.06%，半導體卻在退潮 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,7 +734,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 20,
       "priority": "B",
-      "id": "162f2509cc6b6e10",
+      "id": "da9a5ee06cfd5127",
       "rankReason": "社媒只做热点发现",
       "ai": {
         "priority": "B",
