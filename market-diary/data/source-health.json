@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:41:34.849Z",
+  "generatedAt": "2026-10-14T18:35:50.642Z",
   "summary": {
     "ok": 21,
     "fallback": 9,
@@ -17,8 +17,8 @@
       "status": "ok",
       "route": "direct",
       "count": 3,
-      "checkedAt": "2026-10-14T13:41:23.522Z",
-      "latencyMs": 1057
+      "checkedAt": "2026-10-14T18:35:38.431Z",
+      "latencyMs": 145
     },
     {
       "key": "fed-speeches",
@@ -28,8 +28,8 @@
       "status": "ok",
       "route": "direct",
       "count": 1,
-      "checkedAt": "2026-10-14T13:41:22.599Z",
-      "latencyMs": 96
+      "checkedAt": "2026-10-14T18:35:38.434Z",
+      "latencyMs": 100
     },
     {
       "key": "bls",
@@ -39,8 +39,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:24.990Z",
-      "latencyMs": 2486,
+      "checkedAt": "2026-10-14T18:35:40.619Z",
+      "latencyMs": 2283,
       "directError": "HTTP 403"
     },
     {
@@ -51,8 +51,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:34.789Z",
-      "latencyMs": 12284,
+      "checkedAt": "2026-10-14T18:35:50.596Z",
+      "latencyMs": 12259,
       "directError": "The operation was aborted due to timeout"
     },
     {
@@ -63,8 +63,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:34.846Z",
-      "latencyMs": 12247,
+      "checkedAt": "2026-10-14T18:35:50.638Z",
+      "latencyMs": 12207,
       "directError": "The operation was aborted due to timeout"
     },
     {
@@ -75,8 +75,8 @@
       "status": "ok",
       "route": "direct",
       "count": 3,
-      "checkedAt": "2026-10-14T13:41:27.037Z",
-      "latencyMs": 3515
+      "checkedAt": "2026-10-14T18:35:42.812Z",
+      "latencyMs": 4378
     },
     {
       "key": "hkex-reg",
@@ -86,8 +86,8 @@
       "status": "ok",
       "route": "direct",
       "count": 7,
-      "checkedAt": "2026-10-14T13:41:26.381Z",
-      "latencyMs": 1391
+      "checkedAt": "2026-10-14T18:35:42.328Z",
+      "latencyMs": 1708
     },
     {
       "key": "hkex-market",
@@ -97,8 +97,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:27.002Z",
-      "latencyMs": 621
+      "checkedAt": "2026-10-14T18:35:43.034Z",
+      "latencyMs": 706
     },
     {
       "key": "sec-8k",
@@ -108,8 +108,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:27.294Z",
-      "latencyMs": 291,
+      "checkedAt": "2026-10-14T18:35:43.079Z",
+      "latencyMs": 267,
       "directError": "HTTP 403"
     },
     {
@@ -120,8 +120,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:27.439Z",
-      "latencyMs": 402,
+      "checkedAt": "2026-10-14T18:35:43.402Z",
+      "latencyMs": 368,
       "directError": "HTTP 403"
     },
     {
@@ -132,8 +132,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:27.563Z",
-      "latencyMs": 269,
+      "checkedAt": "2026-10-14T18:35:43.408Z",
+      "latencyMs": 329,
       "directError": "HTTP 403"
     },
     {
@@ -144,8 +144,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:27.888Z",
-      "latencyMs": 449,
+      "checkedAt": "2026-10-14T18:35:43.683Z",
+      "latencyMs": 281,
       "directError": "HTTP 403"
     },
     {
@@ -156,8 +156,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:27.892Z",
-      "latencyMs": 329,
+      "checkedAt": "2026-10-14T18:35:43.638Z",
+      "latencyMs": 230,
       "directError": "HTTP 403"
     },
     {
@@ -168,8 +168,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.253Z",
-      "latencyMs": 365,
+      "checkedAt": "2026-10-14T18:35:44.032Z",
+      "latencyMs": 394,
       "directError": "HTTP 403"
     },
     {
@@ -180,8 +180,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.114Z",
-      "latencyMs": 222
+      "checkedAt": "2026-10-14T18:35:43.900Z",
+      "latencyMs": 217
     },
     {
       "key": "csrc",
@@ -191,8 +191,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.351Z",
-      "latencyMs": 237
+      "checkedAt": "2026-10-14T18:35:44.111Z",
+      "latencyMs": 211
     },
     {
       "key": "hkma",
@@ -202,8 +202,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.459Z",
-      "latencyMs": 206
+      "checkedAt": "2026-10-14T18:35:44.246Z",
+      "latencyMs": 214
     },
     {
       "key": "hk-gov",
@@ -213,8 +213,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.555Z",
-      "latencyMs": 204
+      "checkedAt": "2026-10-14T18:35:44.344Z",
+      "latencyMs": 233
     },
     {
       "key": "ir-nvidia",
@@ -224,8 +224,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.691Z",
-      "latencyMs": 232
+      "checkedAt": "2026-10-14T18:35:44.497Z",
+      "latencyMs": 251
     },
     {
       "key": "ir-tesla",
@@ -235,8 +235,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.808Z",
-      "latencyMs": 253
+      "checkedAt": "2026-10-14T18:35:44.591Z",
+      "latencyMs": 247
     },
     {
       "key": "ir-apple",
@@ -246,8 +246,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:28.914Z",
-      "latencyMs": 223
+      "checkedAt": "2026-10-14T18:35:44.719Z",
+      "latencyMs": 222
     },
     {
       "key": "ir-alibaba",
@@ -257,8 +257,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.036Z",
-      "latencyMs": 228
+      "checkedAt": "2026-10-14T18:35:44.835Z",
+      "latencyMs": 244
     },
     {
       "key": "reuters",
@@ -268,8 +268,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.154Z",
-      "latencyMs": 240
+      "checkedAt": "2026-10-14T18:35:44.963Z",
+      "latencyMs": 244
     },
     {
       "key": "cnbc",
@@ -279,8 +279,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.219Z",
-      "latencyMs": 183
+      "checkedAt": "2026-10-14T18:35:45.047Z",
+      "latencyMs": 212
     },
     {
       "key": "yicai",
@@ -290,8 +290,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.398Z",
-      "latencyMs": 244
+      "checkedAt": "2026-10-14T18:35:45.162Z",
+      "latencyMs": 199
     },
     {
       "key": "aastocks",
@@ -301,8 +301,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.413Z",
-      "latencyMs": 194
+      "checkedAt": "2026-10-14T18:35:45.295Z",
+      "latencyMs": 248
     },
     {
       "key": "people",
@@ -312,8 +312,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.773Z",
-      "latencyMs": 375
+      "checkedAt": "2026-10-14T18:35:45.567Z",
+      "latencyMs": 405
     },
     {
       "key": "x-fallback",
@@ -323,8 +323,8 @@
       "status": "ok",
       "route": "direct",
       "count": 40,
-      "checkedAt": "2026-10-14T13:41:29.806Z",
-      "latencyMs": 392
+      "checkedAt": "2026-10-14T18:35:45.764Z",
+      "latencyMs": 469
     },
     {
       "key": "xiaohongshu",
@@ -334,8 +334,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.984Z",
-      "latencyMs": 211
+      "checkedAt": "2026-10-14T18:35:45.769Z",
+      "latencyMs": 202
     },
     {
       "key": "us-house",
@@ -345,8 +345,8 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:30.026Z",
-      "latencyMs": 220
+      "checkedAt": "2026-10-14T18:35:45.974Z",
+      "latencyMs": 210
     },
     {
       "key": "x-api",
@@ -357,7 +357,7 @@
       "mode": "x-api",
       "status": "not-configured",
       "count": 0,
-      "checkedAt": "2026-10-14T13:41:29.984Z",
+      "checkedAt": "2026-10-14T18:35:45.769Z",
       "note": "配置 X_BEARER_TOKEN 后启用官方 Recent Search"
     }
   ]
