@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-13T23:16:43.633Z",
+  "generatedAt": "2026-10-14T01:55:18.232Z",
   "windowDays": 7,
   "summary": {
-    "total": 37,
+    "total": 40,
     "bySignal": {
       "事实": 12,
       "媒体": 0,
       "人物": 2,
       "资金": 0,
-      "热点": 23
+      "热点": 26
     },
     "byTrust": {
       "A": 13,
       "B": 1,
-      "C": 23
+      "C": 26
     },
     "s": 1,
     "a": 8,
-    "b": 28
+    "b": 31
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -285,6 +285,46 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "NVIDIA 同 Cisco 新聞稿 Oct 12：OCP 場上宣佈 Ultra-Dense Small Form Factor Pluggable，簡稱 USFP，係新一代 pluggable 光模組規格，目標畀 AI factory 嘅 Ethernet fabric 用。 稿入面釘死嘅數字：每 lane 電訊號去到 400Gb/s，整粒模組容量最高 12.8Tb/s；對比 20 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94YmZFSkdZblNHUW9ZMlJieEtiakladDJ3TnU2bEtjNjFSSTcwbWZ1M1R6OFBqU3ZVNDY3cFhJNXh4UGdqS2tWN2haLWxSeDZ1MWVqZTBUSHo3RGs3a3hKZg?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 04:02:10 GMT",
+      "description": "NVIDIA 同 Cisco 新聞稿 Oct 12：OCP 場上宣佈 Ultra-Dense Small Form Factor Pluggable，簡稱 USFP，係新一代 pluggable 光模組規格，目標畀 AI factory 嘅 Ethernet fabric 用。 稿入面釘死嘅數字：每 lane 電訊號去到 400Gb/s，整粒模組容量最高 12.8Tb/s；對比 20 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "eee7609e6e83d480",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "特斯拉還能衝嗎？專家精闢分析：這波情緒面看多，但基本面仍需拿出新業績來兌現高本益比。想知道前任教他賺翻的真相嗎？影片揭曉特斯拉操作心法！ #特斯拉 #TSLA #美股 #投資理財 #股市分析 - X",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PWFRLX2FwMVdjNGdsNWNKTWdYTXQ5b3c4cTlZVGNhMUJzcTRXbFR5WE9fbWJQbjZlOGFFMVhLbUtkamQxeVZWRXM1OHJsRWFYTmtyamRBeGNrQmN4R1dPMldkVjhxSTlvNUtRcQ?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 19:31:23 GMT",
+      "description": "特斯拉還能衝嗎？專家精闢分析：這波情緒面看多，但基本面仍需拿出新業績來兌現高本益比。想知道前任教他賺翻的真相嗎？影片揭曉特斯拉操作心法！ #特斯拉 #TSLA #美股 #投資理財 #股市分析 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "4f8e89b1caa305be",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$TSLA｜Citi：稅優退潮、純電市佔腰斬——Tesla 仍握美國 BEV 過半 🌊 大環境很差 美國純電車（BEV）市佔去年 9 月稅收抵免到期衝到 12.7%，其後 11 月至今年 2 月掉到 4.9%，3 月以來大約 6%。前九月只有 6.2%（去年同期 8.5%），整段市場像卡在 6–7%。近端真正 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Lc1ZLVkdXTmhXSVlOdGd1WEpzN2RabHFlSzQ1LUE5NW9aLThfaUtKTF8wRWJydVk3VGdWRDRhd3BzdDNVU2pXSjlUdGNyek1yVHJmbHV3UmV4eUEwaEhVQklEVG10Rk0?oc=5",
       "pubDate": "Tue, 13 Oct 2026 02:55:39 GMT",
@@ -325,6 +365,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kUE1mb3huRllROXZUSmpjeENOMUwyMmM1UlFTUzc2UTZkQVVxdHBDLTNsdVp0ek9BeTQ0SFZnRlNuWG5QclI2Nm5oLXpURWotQkNKSGZRZnRFeF9MTzJwb2RfNHhHMHM?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 17:46:42 GMT",
+      "description": "$NVDA 下一個千億美元機會浮現！AI Agent（人工智能代理）可能重塑整個伺服器市場， $AMD、 $INTC 面臨新一輪挑戰！** 市場一直把 $NVDA 視為全球最強的 GPU（圖形處理器）公司，但投資者可能忽略了另一個潛在增長引擎：Vera 伺服器 CPU（中央處理器）。 有分 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "57117c9b3e2b746d",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "輝達NVDA還沒跌到位！老師揭秘為何現在不適合進場補倉。想要避險或操作槓桿，這招策略你必須學起來，看完影片別盲目進場！#輝達 #NVDA #股票分析 #美股 #投資理財 #技術分析 - X",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01cEt4UUUxQ3lKVVdaeDJ2UFp1UFNoR1hRdVdRSl9hYjVIYlZSWmdISTBOZlhTWXFYMlhsT3JRQlNJVWlQRWxMcVJRSlpBTTNTMklTSFczaUhrNnZhWk5obTd0RFpKNXdUV05xVA?oc=5",
       "pubDate": "Sun, 11 Oct 2026 22:23:31 GMT",
@@ -339,26 +399,6 @@
       "score": 47,
       "priority": "B",
       "id": "0eebb3ee7e5097db",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "特斯拉股價暴漲真相曝光！馬斯克豪賭川普陣營，這一波行情還有多少空間？王老師深度解析大選前最後的股市瘋狂與關鍵時間點，這場資本狂歡即將見頂還是繼續衝？立即揭秘！ #特斯拉 #TSLA #馬斯克 #美國大選 #股票投資 #投資理財 - X",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KdklMZ2lWUjFCS2NoaG5yLV9nbkNCWGsxc3BjaDR3TnE0ZGJTSjJidjFjWUE4a0JkVUFvd1hXZHBrT3RuOWtWOUU1M2lDRUl4eEtyNUU3S1hqcjVlZmFxdk5sVFVXazhva3lvSQ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 00:45:22 GMT",
-      "description": "特斯拉股價暴漲真相曝光！馬斯克豪賭川普陣營，這一波行情還有多少空間？王老師深度解析大選前最後的股市瘋狂與關鍵時間點，這場資本狂歡即將見頂還是繼續衝？立即揭秘！ #特斯拉 #TSLA #馬斯克 #美國大選 #股票投資 #投資理財 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "de836c5371b5c4ed",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -399,6 +439,26 @@
       "score": 44,
       "priority": "B",
       "id": "abe41d03da368fbb",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "特斯拉股價暴漲真相曝光！馬斯克豪賭川普陣營，這一波行情還有多少空間？王老師深度解析大選前最後的股市瘋狂與關鍵時間點，這場資本狂歡即將見頂還是繼續衝？立即揭秘！ #特斯拉 #TSLA #馬斯克 #美國大選 #股票投資 #投資理財 - X",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KdklMZ2lWUjFCS2NoaG5yLV9nbkNCWGsxc3BjaDR3TnE0ZGJTSjJidjFjWUE4a0JkVUFvd1hXZHBrT3RuOWtWOUU1M2lDRUl4eEtyNUU3S1hqcjVlZmFxdk5sVFVXazhva3lvSQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 00:45:22 GMT",
+      "description": "特斯拉股價暴漲真相曝光！馬斯克豪賭川普陣營，這一波行情還有多少空間？王老師深度解析大選前最後的股市瘋狂與關鍵時間點，這場資本狂歡即將見頂還是繼續衝？立即揭秘！ #特斯拉 #TSLA #馬斯克 #美國大選 #股票投資 #投資理財 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "de836c5371b5c4ed",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -525,26 +585,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "電詐園區上演中國人弄死中國人的殘酷劇情，中國人心中除了金錢和利益，沒有什麼同胞不同胞和是非黑白的。 有一點可以肯定的是，這些中國人絕大多數是來自中國大陸的，他們與海外土生土長的華人，在心理上有巨大的區別。 所以，在海外千萬不要與來自中國大陸 - X",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tejl4ZjlXZ0U5WGVyaWVxYVZyNHRGcEpaVWRDSUlURXlIZkZ6Z0NXVjYzNnI1dVRwYXFSSTgxa2xMRzE3aDlad0F6cnZJbGpLOEJhc0RZS01Kdk9za1dmbWpTc3RCdEFmamlqeXF3?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 01:44:55 GMT",
-      "description": "電詐園區上演中國人弄死中國人的殘酷劇情，中國人心中除了金錢和利益，沒有什麼同胞不同胞和是非黑白的。 有一點可以肯定的是，這些中國人絕大多數是來自中國大陸的，他們與海外土生土長的華人，在心理上有巨大的區別。 所以，在海外千萬不要與來自中國大陸 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "f1e04216b05a3075",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "📊 2026/10/13 更新隱含波動率排名（IV Rank）： 🔥 IV Rank 特別高（選擇權價格偏貴）： 🥇 $NFLX｜IV Rank：71 🥈 $WFC｜IV Rank：64 📌 本次共有 2 檔進入高 IV 區。 ❄️ IV Rank 特別低（選擇權價格偏便宜）： 🥇 $AVGO｜IV Rank：0 🥇 $CIFR｜IV Rank：0 🥇 $RKLB｜IV - X",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8ycFc2SUUyMDU5RWhuM3ZCRXMxMXZaNDhrclJzcFVqSTgzenRDUUlnNFZaSWI0amxPZUpRX0JNU3B2d2lBaTFxeEFaWmZLZUllVnBaa0dmTzJLMUlGYUVFUGN3?oc=5",
       "pubDate": "Tue, 13 Oct 2026 11:11:11 GMT",
@@ -619,6 +659,26 @@
       "score": 17,
       "priority": "B",
       "id": "267b8919ddf303ef",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "電詐園區上演中國人弄死中國人的殘酷劇情，中國人心中除了金錢和利益，沒有什麼同胞不同胞和是非黑白的。 有一點可以肯定的是，這些中國人絕大多數是來自中國大陸的，他們與海外土生土長的華人，在心理上有巨大的區別。 所以，在海外千萬不要與來自中國大陸 - X",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tejl4ZjlXZ0U5WGVyaWVxYVZyNHRGcEpaVWRDSUlURXlIZkZ6Z0NXVjYzNnI1dVRwYXFSSTgxa2xMRzE3aDlad0F6cnZJbGpLOEJhc0RZS01Kdk9za1dmbWpTc3RCdEFmamlqeXF3?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 01:44:55 GMT",
+      "description": "電詐園區上演中國人弄死中國人的殘酷劇情，中國人心中除了金錢和利益，沒有什麼同胞不同胞和是非黑白的。 有一點可以肯定的是，這些中國人絕大多數是來自中國大陸的，他們與海外土生土長的華人，在心理上有巨大的區別。 所以，在海外千萬不要與來自中國大陸 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "f1e04216b05a3075",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -762,5 +822,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-13T23:16:44.104Z"
+  "rankedAt": "2026-10-14T01:55:19.640Z"
 }
