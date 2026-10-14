@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T18:35:51.552Z",
+  "generatedAt": "2026-10-14T22:17:06.949Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -380,6 +380,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
+      "title": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UYm0xOWRCdVVscnpicXhYbTRVd2F4T3ZfTV83XzhGalMtOVc3anY3Y1hIS0lBMDZ3X3JsYXRrbno0dmJfcmtJSnhKUWhYVWpValZPdm1sQTdHRUNPb3c?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 04:00:06 GMT",
+      "description": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "49f9b80a35ff319e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
       "title": "今晚 CPI 出牌，你選防禦還是進攻？⚔️ 🛡️ 防禦組： $COST $KO 🚀 成長組： $TSLA $NVDA 市場有不同劇本，WEEX 有多種選擇。 https://t.co/QKAdZDwyxW 你猜通脹偏熱，還是降溫？評論區亮出判斷👇 #WEEX #Tradfi #CPI - X",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81N0xOQlhBU1hkZlIzQzNXZ2JVakZ5WUtnUUhtNFBDZUNBU3RZdmY3MzFtWGNNdXBYbmdxdDRKYTJ6d0t3NnJrUEJQNmI1N0lMYVlQQzhLTmFHdEVLUjdrSTJ6Y3JBbW9Hb0Z1M1BVSQ?oc=5",
       "pubDate": "Wed, 14 Oct 2026 07:01:17 GMT",
@@ -433,37 +464,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "用 VOO+QQQM 構建投資組合怎麼樣？ 首先要說， $VOO （標普500指數）與 $QQQM （納斯達克100指數）存在50%以上的市值重合，重合的部分主要是 $NVDA $AAPL $MSFT $GOOGL $AMZN 這些科技巨頭。 也就是說，這些大科技股跌，這兩隻ETF都會跌，只是跌幅 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ORTFTMUZBZlZ0cWhqaGRVNFB6VjYyLTRiZGlkMGRHWkZFN2FvVnRKaXV5b0dOWFVzUUNuSnVCT0I2RjF6RmZiZTFBUHBwRkVra3ZWSjVWWlpaWTB1eFNHbDB3dm4?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 03:29:37 GMT",
-      "description": "用 VOO+QQQM 構建投資組合怎麼樣？ 首先要說， $VOO （標普500指數）與 $QQQM （納斯達克100指數）存在50%以上的市值重合，重合的部分主要是 $NVDA $AAPL $MSFT $GOOGL $AMZN 這些科技巨頭。 也就是說，這些大科技股跌，這兩隻ETF都會跌，只是跌幅 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a168298edece0660",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "用 VOO+QQQM 構建投資組合怎麼樣？ 首先要說， $VOO （標普500指數）與 $QQQM （納斯達克…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -565,11 +565,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "特斯拉還能衝嗎？專家精闢分析：這波情緒面看多，但基本面仍需拿出新業績來兌現高本益比。想知道前任教他賺翻的真相嗎？影片揭曉特斯拉操作心法！ #特斯拉 #TSLA #美股 #投資理財 #股市分析 - X",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PWFRLX2FwMVdjNGdsNWNKTWdYTXQ5b3c4cTlZVGNhMUJzcTRXbFR5WE9fbWJQbjZlOGFFMVhLbUtkamQxeVZWRXM1OHJsRWFYTmtyamRBeGNrQmN4R1dPMldkVjhxSTlvNUtRcQ?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 19:31:23 GMT",
-      "description": "特斯拉還能衝嗎？專家精闢分析：這波情緒面看多，但基本面仍需拿出新業績來兌現高本益比。想知道前任教他賺翻的真相嗎？影片揭曉特斯拉操作心法！ #特斯拉 #TSLA #美股 #投資理財 #股市分析 &nbsp;&nbsp; X",
+      "type": "宏观",
+      "title": "傳輝達洽購估值 250 億美元新創，背後的盤算是什麼？👇 路透轉述《金融時報》報導，輝達（NVDA）正洽談加深對 Reflection 的投資或收購。報導引述直接知情人士說法，談判仍處早期階段，交易也可能破局。 多位知情人士告訴《金融時報》，協議可能在數週內達成；路透轉 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OY3FfQnJfR3FoY2tQMGItUDRrbDU2TWluRHdQMmZQNGdIcGJXMy1nenpMcDl1S3JRcmlLNTlXZnNRaGpLRVM4M3Rha2xGTVJqdHVpV0hYZlluZkhaX2ZLY3pmZTg0UQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 23:30:07 GMT",
+      "description": "傳輝達洽購估值 250 億美元新創，背後的盤算是什麼？👇 路透轉述《金融時報》報導，輝達（NVDA）正洽談加深對 Reflection 的投資或收購。報導引述直接知情人士說法，談判仍處早期階段，交易也可能破局。 多位知情人士告訴《金融時報》，協議可能在數週內達成；路透轉 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -577,48 +577,17 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
+      "score": 47,
       "priority": "B",
-      "id": "4f8e89b1caa305be",
+      "id": "7b4d4dd2f2636dd6",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "特斯拉還能衝嗎？專家精闢分析：這波情緒面看多，但基本面仍需拿出新業績來兌現高本益比。想知道前任教他賺翻的真相嗎…",
+        "summary": "傳輝達洽購估值 250 億美元新創，背後的盤算是什麼？👇 路透轉述《金融時報》報導，輝達（NVDA）正洽談加…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LcFFFR1BMNmdrM2JUdkJ5ZjVKRUc4SGF3bHpFR0I3XzZuLTNPVkRMZVAxendjUkhmeXRudDh1ZnBubHg2NE0zWjdhQWJ1STkxenRkYjl0UzI3TjdqV0dYSDk2TDZUZw?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 01:30:02 GMT",
-      "description": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "c1c9c709e5a7e998",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "NVIDIA 同 Cisco 新聞稿 Oct 12：OCP 場上宣佈 Ultra-Dense Small Fo…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "股市瘋漲就等於穩賺？專家揭露拋物線走勢背後的殘酷真相！當股價垂直上升時，往往隱藏著暴跌的危機。別只看熱鬧，投資背後的社會發展邏輯才是關鍵。快來看這段深入解析。 #輝達 #特斯拉 #美股 #投資理財 #NVIDIA #TSLA - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81aTBiLVJiRkt1WnpuNUFwX09HMGVhd213MUVMakJZbFMxOEhfTEwxS0J5Rms1QjAwcEFiNEd2S3JuSVJEMTB3Q0lMdy16ZGl5N3pNcU1OeTh2QVI2ajFzbDF3?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 22:48:22 GMT",
+      "description": "股市瘋漲就等於穩賺？專家揭露拋物線走勢背後的殘酷真相！當股價垂直上升時，往往隱藏著暴跌的危機。別只看熱鬧，投資背後的社會發展邏輯才是關鍵。快來看這段深入解析。 #輝達 #特斯拉 #美股 #投資理財 #NVIDIA #TSLA &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "89880e1237f46cfb",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "股市瘋漲就等於穩賺？專家揭露拋物線走勢背後的殘酷真相！當股價垂直上升時，往往隱藏著暴跌的危機。別只看熱鬧，投資…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
