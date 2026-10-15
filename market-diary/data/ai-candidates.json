@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T11:24:30.809Z",
+  "generatedAt": "2026-10-15T16:58:00.618Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -256,6 +256,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Siemens 公司新聞稿 10/14： $SIEGY 同 $NVDA 把 cuLitho 接進 Calibre，專攻先進製程計算微影。 公司寫死嘅數：全芯片 OPC 工作負載最高可加速約 12 倍；關鍵微影模擬加速約 10 至 17 倍。目標係 High-NA EUV，同曲線 Inverse Lithography（ILT）喺量產級全芯片 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OUVZGZFhFbDJRZXh5WFI0MURiUWxtZVBmbU1ZLWl4eDJBNXdEZE9kaGpIREQ4RTQwaXV3NEd6YnpDdkJXSFpmVlNlakdLeXBKQVRSdWduaHQ1YnJyVmNMMw?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 04:07:46 GMT",
+      "description": "Siemens 公司新聞稿 10/14： $SIEGY 同 $NVDA 把 cuLitho 接進 Calibre，專攻先進製程計算微影。 公司寫死嘅數：全芯片 OPC 工作負載最高可加速約 12 倍；關鍵微影模擬加速約 10 至 17 倍。目標係 High-NA EUV，同曲線 Inverse Lithography（ILT）喺量產級全芯片 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "565b8ca1d185d2d4",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Siemens 公司新聞稿 10/14： $SIEGY 同 $NVDA 把 cuLitho 接進 Calibr…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提供適合的操作策略，投資大戶們千萬別錯過！ #投資 #ETF #股票 #股市分析 #理財建議 - X",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLdlJKLWhvT295eHlpbGNxRS1MUG9PQ0dhRmhFbFZvbFB5YWF0R0JCV1JMU1Y4b29Kd0xNNGJqTHlSb09rdmRxR0lPY0RJZHhPSDQtUldBLTJsSlBsaGJ6VW5B?oc=5",
       "pubDate": "Wed, 14 Oct 2026 22:26:21 GMT",
@@ -336,37 +367,6 @@
       "ai": {
         "priority": "B",
         "summary": "今晚 CPI 出牌，你選防禦還是進攻？⚔️ 🛡️ 防禦組： $COST $KO 🚀 成長組： $TSLA …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "【全集】IMF震撼上修台灣GDP「衝10.7%」世界NO.1！中國陷債務危機「官媒公然造假圖」見不得台灣好？！｜張炤和 20261013【關鍵時... https://t.co/bMyt767ljd via @YouTube - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIcE4wN0RLSF9vQzVMRmFtTVlXT3NpRXZ6RmpwWFNRZ3UtRjRQbUtMUnMwNlQ2WHdvbl9QczVsa2NrejZVaEpvdE1PY3lIczNlbW5DWGZvYUtySjhzeEUtM0ZKWQ?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 07:06:15 GMT",
-      "description": "【全集】IMF震撼上修台灣GDP「衝10.7%」世界NO.1！中國陷債務危機「官媒公然造假圖」見不得台灣好？！｜張炤和 20261013【關鍵時... https://t.co/bMyt767ljd via @YouTube &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "f10091ad5a5d1299",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【全集】IMF震撼上修台灣GDP「衝10.7%」世界NO.1！中國陷債務危機「官媒公然造假圖」見不得台灣好？！…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -659,37 +659,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "@BabaYoger 謝謝巴巴驗證ww - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2MFBEMUIzYmsxYm00cl9CUFJaOG1BemQ1WE5wcTl5aFdZNDBYMkQtbl96bmpSeE85Z2Y5enNzNWV2QkRxYlRXVVg2SWxnbjFCZU9pd3BLMmlaeWFn?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 12:54:30 GMT",
-      "description": "@BabaYoger 謝謝巴巴驗證ww &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "da20ecb245b1cbd8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "@BabaYoger 謝謝巴巴驗證ww - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "特斯拉還能衝嗎？專家精闢分析：這波情緒面看多，但基本面仍需拿出新業績來兌現高本益比。想知道前任教他賺翻的真相嗎？影片揭曉特斯拉操作心法！ #特斯拉 #TSLA #美股 #投資理財 #股市分析 - X",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PWFRLX2FwMVdjNGdsNWNKTWdYTXQ5b3c4cTlZVGNhMUJzcTRXbFR5WE9fbWJQbjZlOGFFMVhLbUtkamQxeVZWRXM1OHJsRWFYTmtyamRBeGNrQmN4R1dPMldkVjhxSTlvNUtRcQ?oc=5",
       "pubDate": "Tue, 13 Oct 2026 19:31:23 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "半導體狂熱不再？ AI 發展急煞！ @elonmusk 、 @sama 支持 @DarioAmodei \" 放…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LcFFFR1BMNmdrM2JUdkJ5ZjVKRUc4SGF3bHpFR0I3XzZuLTNPVkRMZVAxendjUkhmeXRudDh1ZnBubHg2NE0zWjdhQWJ1STkxenRkYjl0UzI3TjdqV0dYSDk2TDZUZw?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 01:30:02 GMT",
+      "description": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c1c9c709e5a7e998",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
