@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T00:33:51.386Z",
+  "generatedAt": "2026-10-15T05:53:26.148Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -30,6 +30,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "pubDate": "Thu, 15 Oct 2026 02:55:00 GMT",
+      "description": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 79,
+      "priority": "A",
+      "id": "e4d2d6090f2d0d0d",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -360,7 +391,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 55,
+      "score": 52,
       "priority": "B",
       "id": "caf1a28433b8b8d9",
       "rankReason": "一级/官方信源；市场相关",
@@ -473,39 +504,8 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "為什麼特斯拉總是漲不停？這支影片帶你看穿「太空大餅」背後的財富密碼。當大眾無法親眼驗證，資訊皆由機構餵養時，這個餅究竟有多好畫？點擊觀看深度解析！ #特斯拉 #TSLA #太空經濟 #投資策略 #美股分析 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14RjRMM1N0ZXd3cV9iM0lLUW92SUU2RXVSblFjeVFrQmdQdGM3MGstT3RZemZtX0tRa0xlcWNKa0E1c2NkTUJFaHFpZGd3Tk84aks2VkpqS0EwelJFVXpnZzBR?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 01:21:20 GMT",
-      "description": "為什麼特斯拉總是漲不停？這支影片帶你看穿「太空大餅」背後的財富密碼。當大眾無法親眼驗證，資訊皆由機構餵養時，這個餅究竟有多好畫？點擊觀看深度解析！ #特斯拉 #TSLA #太空經濟 #投資策略 #美股分析 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "11c28fc9ad7ae603",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "為什麼特斯拉總是漲不停？這支影片帶你看穿「太空大餅」背後的財富密碼。當大眾無法親眼驗證，資訊皆由機構餵養時，這…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提供適合的操作策略，投資大戶們千萬別錯過！ #投資 #ETF #股票 #股市分析 #理財建議 - X",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uamdmZWJvYTByU0tidmdGdUNqQ0VSOC1ZRV9IUGV3akREOC1TZ2Vjclh1blRfVzRtTlJ2b000NDJUVzBJbTAwblg1MTlsVldLTmhxcmhZQkZnajJhMTVseHNSekNveGNjalFqOQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLdlJKLWhvT295eHlpbGNxRS1MUG9PQ0dhRmhFbFZvbFB5YWF0R0JCV1JMU1Y4b29Kd0xNNGJqTHlSb09rdmRxR0lPY0RJZHhPSDQtUldBLTJsSlBsaGJ6VW5B?oc=5",
       "pubDate": "Wed, 14 Oct 2026 22:26:21 GMT",
       "description": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提供適合的操作策略，投資大戶們千萬別錯過！ #投資 #ETF #股票 #股市分析 #理財建議 &nbsp;&nbsp; X",
       "source": "X",
@@ -517,42 +517,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "ef8f84b79f27f583",
+      "id": "10c0463d6dcb2f08",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LcFFFR1BMNmdrM2JUdkJ5ZjVKRUc4SGF3bHpFR0I3XzZuLTNPVkRMZVAxendjUkhmeXRudDh1ZnBubHg2NE0zWjdhQWJ1STkxenRkYjl0UzI3TjdqV0dYSDk2TDZUZw?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 01:30:02 GMT",
-      "description": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "c1c9c709e5a7e998",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -588,6 +557,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UYm0xOWRCdVVscnpicXhYbTRVd2F4T3ZfTV83XzhGalMtOVc3anY3Y1hIS0lBMDZ3X3JsYXRrbno0dmJfcmtJSnhKUWhYVWpValZPdm1sQTdHRUNPb3c?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 04:00:06 GMT",
+      "description": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "49f9b80a35ff319e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
