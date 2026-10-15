@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:57:59.547Z",
+  "generatedAt": "2026-10-15T20:20:03.835Z",
   "windowDays": 7,
   "summary": {
     "total": 45,
@@ -405,26 +405,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "@BabaYoger 你好一起不穿 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jRkhub0xjZ2JkcWJzdGliZnNvMWJ3VWhHanRUZmdSLV9HVjJ6enl3c0NVQzdVVHpYa283TFNPajlCZTRWZmJMNEk2OXAxOWd0bFkxX0V4ZVpkNHN1?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 17:39:46 GMT",
-      "description": "@BabaYoger 你好一起不穿 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "290e25a7688f984a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "為什麼特斯拉總是漲不停？這支影片帶你看穿「太空大餅」背後的財富密碼。當大眾無法親眼驗證，資訊皆由機構餵養時，這個餅究竟有多好畫？點擊觀看深度解析！ #特斯拉 #TSLA #太空經濟 #投資策略 #美股分析 - X",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FVXhkM3Z4emptY3RFWFh1U00tcXJxMVpFd0EtUW5odmNub1h3U3lrTDZsaTlrU1hvUFJ3MHpPUi1KamhZSHBYYk92bkJCTlhpc3hGMzVGWXQ4Q1NoYlN2X3FFVzJSbU5zVzA0bw?oc=5",
       "pubDate": "Wed, 14 Oct 2026 01:21:20 GMT",
@@ -539,6 +519,26 @@
       "score": 44,
       "priority": "B",
       "id": "57117c9b3e2b746d",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "@BabaYoger 你好一起不穿 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jRkhub0xjZ2JkcWJzdGliZnNvMWJ3VWhHanRUZmdSLV9HVjJ6enl3c0NVQzdVVHpYa283TFNPajlCZTRWZmJMNEk2OXAxOWd0bFkxX0V4ZVpkNHN1?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 17:39:46 GMT",
+      "description": "@BabaYoger 你好一起不穿 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "290e25a7688f984a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -786,7 +786,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "資生堂旗下法國公司起訴希音不正當競爭 索賠超過260萬歐元 rfi.​my/D83g - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FU2o0SmxOQkRDUnpSMEh1TDVoeEgzU0JGR3kyWUFtdWJVZUpkRU5YNlIwRWJqUHBEd3FfanBmdzJ6bVQtYTcwWlpVaWVRVzF4YlFGZVRLZDlPbzVuNlVpZA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGaWo3VldOdmpiak5yRnBwd0w4dzA5QVF1WXpmZndVUmJuVGdPM3Y1UzhsVk5IcWU4YjJfR2xWSFNWREhOQ1JHLXdXMUZGeW9kMHJUTWg3NW5Qc3JmSXROMmhrNWZzMm9ZSGQ4?oc=5",
       "pubDate": "Tue, 13 Oct 2026 21:46:11 GMT",
       "description": "資生堂旗下法國公司起訴希音不正當競爭 索賠超過260萬歐元 rfi.​my/D83g &nbsp;&nbsp; X",
       "source": "X",
@@ -798,7 +798,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 17,
       "priority": "B",
-      "id": "f6d9833e3ae414d6",
+      "id": "60cca6c0c048777e",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -922,5 +922,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-15T16:58:00.090Z"
+  "rankedAt": "2026-10-15T20:20:04.241Z"
 }

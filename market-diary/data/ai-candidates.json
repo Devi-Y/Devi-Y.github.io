@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:58:00.618Z",
+  "generatedAt": "2026-10-15T20:20:04.603Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -597,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "@BabaYoger 你好一起不穿 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jRkhub0xjZ2JkcWJzdGliZnNvMWJ3VWhHanRUZmdSLV9HVjJ6enl3c0NVQzdVVHpYa283TFNPajlCZTRWZmJMNEk2OXAxOWd0bFkxX0V4ZVpkNHN1?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 17:39:46 GMT",
-      "description": "@BabaYoger 你好一起不穿 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "290e25a7688f984a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "@BabaYoger 你好一起不穿 - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "為什麼特斯拉總是漲不停？這支影片帶你看穿「太空大餅」背後的財富密碼。當大眾無法親眼驗證，資訊皆由機構餵養時，這個餅究竟有多好畫？點擊觀看深度解析！ #特斯拉 #TSLA #太空經濟 #投資策略 #美股分析 - X",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FVXhkM3Z4emptY3RFWFh1U00tcXJxMVpFd0EtUW5odmNub1h3U3lrTDZsaTlrU1hvUFJ3MHpPUi1KamhZSHBYYk92bkJCTlhpc3hGMzVGWXQ4Q1NoYlN2X3FFVzJSbU5zVzA0bw?oc=5",
       "pubDate": "Wed, 14 Oct 2026 01:21:20 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "今年6月，@lexfridman 跟 @JensenHuang 黃仁勳在台灣拍了一支90分鐘影片，直到昨天才公開 兩人從Computex一路吃到台灣夜市，邊吃蚵仔煎、豬腳飯跟鹹豆漿，邊聊AI算力經濟學、地緣政治，以及台灣供應鏈30年來的生存哲學 簡單整理我覺得值得看的重點 （有興 - X",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GMGhnZlFvbmd3TUs2UWNuNXFIRG5XZzRMMWlWSTJZZ090N1VaQ3ZhTFdEcEU2TVpPUkNuR1JUamg0ckd5elY5RURGOXJESVd0TEkzV3Z6RUFuWHJMdDVNT292eFBkNTRFbEJDZUVpNA?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 06:40:43 GMT",
+      "description": "今年6月，@lexfridman 跟 @JensenHuang 黃仁勳在台灣拍了一支90分鐘影片，直到昨天才公開 兩人從Computex一路吃到台灣夜市，邊吃蚵仔煎、豬腳飯跟鹹豆漿，邊聊AI算力經濟學、地緣政治，以及台灣供應鏈30年來的生存哲學 簡單整理我覺得值得看的重點 （有興 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "84db2646a26b2483",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "今年6月，@lexfridman 跟 @JensenHuang 黃仁勳在台灣拍了一支90分鐘影片，直到昨天才公…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
