@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:17:06.949Z",
+  "generatedAt": "2026-10-15T00:33:51.386Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -380,37 +380,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
-      "title": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UYm0xOWRCdVVscnpicXhYbTRVd2F4T3ZfTV83XzhGalMtOVc3anY3Y1hIS0lBMDZ3X3JsYXRrbno0dmJfcmtJSnhKUWhYVWpValZPdm1sQTdHRUNPb3c?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 04:00:06 GMT",
-      "description": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "49f9b80a35ff319e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
       "title": "今晚 CPI 出牌，你選防禦還是進攻？⚔️ 🛡️ 防禦組： $COST $KO 🚀 成長組： $TSLA $NVDA 市場有不同劇本，WEEX 有多種選擇。 https://t.co/QKAdZDwyxW 你猜通脹偏熱，還是降溫？評論區亮出判斷👇 #WEEX #Tradfi #CPI - X",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81N0xOQlhBU1hkZlIzQzNXZ2JVakZ5WUtnUUhtNFBDZUNBU3RZdmY3MzFtWGNNdXBYbmdxdDRKYTJ6d0t3NnJrUEJQNmI1N0lMYVlQQzhLTmFHdEVLUjdrSTJ6Y3JBbW9Hb0Z1M1BVSQ?oc=5",
       "pubDate": "Wed, 14 Oct 2026 07:01:17 GMT",
@@ -464,37 +433,6 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB HBM4，微軟稱每兆瓦可產出的token比「領先GPU系統」多40%，但比較對象與測試條件尚待揭露。 這讓AI推論的競爭更聚焦每個token的成本，也可能壓縮 $NVDA、 $AM - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pYjZxX3VrekNVcnd1eml5cjd1ampmSnJGMDRzMDY1bjdoeDBxaWxrSlR4NmtWaWpTUWJMUTBYWkF6WlNmWWVUYVJvd0tnYm94ckhaSWM4a1NQa1RGVDJvN1lxT3Rkdmc?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 23:56:09 GMT",
-      "description": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB HBM4，微軟稱每兆瓦可產出的token比「領先GPU系統」多40%，但比較對象與測試條件尚待揭露。 這讓AI推論的競爭更聚焦每個token的成本，也可能壓縮 $NVDA、 $AM &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "43ec207b925df7bf",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -565,11 +503,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "傳輝達洽購估值 250 億美元新創，背後的盤算是什麼？👇 路透轉述《金融時報》報導，輝達（NVDA）正洽談加深對 Reflection 的投資或收購。報導引述直接知情人士說法，談判仍處早期階段，交易也可能破局。 多位知情人士告訴《金融時報》，協議可能在數週內達成；路透轉 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OY3FfQnJfR3FoY2tQMGItUDRrbDU2TWluRHdQMmZQNGdIcGJXMy1nenpMcDl1S3JRcmlLNTlXZnNRaGpLRVM4M3Rha2xGTVJqdHVpV0hYZlluZkhaX2ZLY3pmZTg0UQ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 23:30:07 GMT",
-      "description": "傳輝達洽購估值 250 億美元新創，背後的盤算是什麼？👇 路透轉述《金融時報》報導，輝達（NVDA）正洽談加深對 Reflection 的投資或收購。報導引述直接知情人士說法，談判仍處早期階段，交易也可能破局。 多位知情人士告訴《金融時報》，協議可能在數週內達成；路透轉 &nbsp;&nbsp; X",
+      "type": "公司事件",
+      "title": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提供適合的操作策略，投資大戶們千萬別錯過！ #投資 #ETF #股票 #股市分析 #理財建議 - X",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uamdmZWJvYTByU0tidmdGdUNqQ0VSOC1ZRV9IUGV3akREOC1TZ2Vjclh1blRfVzRtTlJ2b000NDJUVzBJbTAwblg1MTlsVldLTmhxcmhZQkZnajJhMTVseHNSekNveGNjalFqOQ?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 22:26:21 GMT",
+      "description": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提供適合的操作策略，投資大戶們千萬別錯過！ #投資 #ETF #股票 #股市分析 #理財建議 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -577,17 +515,79 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
+      "score": 50,
       "priority": "B",
-      "id": "7b4d4dd2f2636dd6",
+      "id": "ef8f84b79f27f583",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "傳輝達洽購估值 250 億美元新創，背後的盤算是什麼？👇 路透轉述《金融時報》報導，輝達（NVDA）正洽談加…",
+        "summary": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "宏观解读"
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LcFFFR1BMNmdrM2JUdkJ5ZjVKRUc4SGF3bHpFR0I3XzZuLTNPVkRMZVAxendjUkhmeXRudDh1ZnBubHg2NE0zWjdhQWJ1STkxenRkYjl0UzI3TjdqV0dYSDk2TDZUZw?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 01:30:02 GMT",
+      "description": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此次藏寶圖直接出現在 @JensenHuang 本人的推文中， 從巨頭 Anthropic、@Microsoft 到曾一度被市場抨擊將要毀滅的軟體股@CrowdStrike、@Cloudflare 等皆 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "c1c9c709e5a7e998",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "回顧黃董藏寶圖！ NVIDIA 推出開放式代理安全平台， 哪些公司掌握著人類未來的資訊與隱私控制權？ 👉 此…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "普丁AI命脈被掐死「比能源被轟更痛」！俄羅斯2000多顆A100全沒了 美烏「唱雙簧」逼停戰？【關鍵時刻】張炤和 https://t.co/ZQLpW0ZbnI via @YouTube - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlb1JtR0ZWX0ZrX2NOYlI3ejdVSXl6ZXVhWXZWUnduZWJoLVExMmRiZy0tX18xNmR4VUpka01qcVhPcDJDeFVHUGhpa2lQb1dzeVhSNnZnQkFqY2FoNVNIV0RBUQ?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 17:20:05 GMT",
+      "description": "普丁AI命脈被掐死「比能源被轟更痛」！俄羅斯2000多顆A100全沒了 美烏「唱雙簧」逼停戰？【關鍵時刻】張炤和 https://t.co/ZQLpW0ZbnI via @YouTube &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "08d0dd8e3011f629",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "普丁AI命脈被掐死「比能源被轟更痛」！俄羅斯2000多顆A100全沒了 美烏「唱雙簧」逼停戰？【關鍵時刻】張炤…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -659,6 +659,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB HBM4，微軟稱每兆瓦可產出的token比「領先GPU系統」多40%，但比較對象與測試條件尚待揭露。 這讓AI推論的競爭更聚焦每個token的成本，也可能壓縮 $NVDA、 $AM - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uOVpIa19qQmVzMUZNbVpyZ250bVVna3hCQThoNERqalIyX2ZLYkFnbGNXUHppeXlrLVFVS0NQOXFQVjJrNDZDZXJJWjJOM3UycjBPeUtGSGtCRFM0X2hvd1poWEdKeV9hdkFVZlhSMlJfdw?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 23:56:09 GMT",
+      "description": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB HBM4，微軟稱每兆瓦可產出的token比「領先GPU系統」多40%，但比較對象與測試條件尚待揭露。 這讓AI推論的競爭更聚焦每個token的成本，也可能壓縮 $NVDA、 $AM &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "ffdf78bc512e0f02",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Navitas 公司新聞稿 Oct 12：同 NVIDIA 合作，推咗一塊 24 kW、800 V 轉 12 V 嘅 DC-DC 供電板，用 GaNFast，對準 NVIDIA MGX 同 AI 機房 800 VDC 架構。OCP 場上會喺 NVIDIA AI Factory MGX Wall 夥伴區展出。 公司寫死嘅規格：滿載目標效率 97%，功率密度超 - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWclZaanU2N09pcXBudTJaNG51eFpibG1nT21HVFdSbXNhTkN5WkNuM05qbElFX09oMUk0YkxIU3NmX0NtRHMzYUdYTDJJQWxSVlNUQkc0T0hjSExXazQtUQ?oc=5",
       "pubDate": "Tue, 13 Oct 2026 08:09:30 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "NVIDIA 同 Cisco 新聞稿 Oct 12：OCP 場上宣佈 Ultra-Dense Small Fo…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "股市瘋漲就等於穩賺？專家揭露拋物線走勢背後的殘酷真相！當股價垂直上升時，往往隱藏著暴跌的危機。別只看熱鬧，投資背後的社會發展邏輯才是關鍵。快來看這段深入解析。 #輝達 #特斯拉 #美股 #投資理財 #NVIDIA #TSLA - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81aTBiLVJiRkt1WnpuNUFwX09HMGVhd213MUVMakJZbFMxOEhfTEwxS0J5Rms1QjAwcEFiNEd2S3JuSVJEMTB3Q0lMdy16ZGl5N3pNcU1OeTh2QVI2ajFzbDF3?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 22:48:22 GMT",
-      "description": "股市瘋漲就等於穩賺？專家揭露拋物線走勢背後的殘酷真相！當股價垂直上升時，往往隱藏著暴跌的危機。別只看熱鬧，投資背後的社會發展邏輯才是關鍵。快來看這段深入解析。 #輝達 #特斯拉 #美股 #投資理財 #NVIDIA #TSLA &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "89880e1237f46cfb",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "股市瘋漲就等於穩賺？專家揭露拋物線走勢背後的殘酷真相！當股價垂直上升時，往往隱藏著暴跌的危機。別只看熱鬧，投資…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
