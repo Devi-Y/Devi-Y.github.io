@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T14:50:12.212Z",
+  "generatedAt": "2026-10-16T18:47:56.748Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -112,7 +112,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 71,
+      "score": 68,
       "priority": "A",
       "id": "e3b16892edfa877f",
       "rankReason": "一级/官方信源；高影响事件词",
@@ -318,6 +318,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "飛天跑車來了！與特斯拉 Roadster 一起突破天際🚀 在 Bitunix TradFi 全天候隨時交易 $TSLA 讓每次的波動以最即時的策略佈局 不錯過市場任何每一個關鍵時刻👀 #TradFi #Tesla #Roadster #TSLA - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZWGZCM1paRkpNWXRQVGdvRFdXd2xNSGxQWXowdGcydFlRQ0pSMzY3c08zSjJkQVVKY0k4ZmdPclE0N05PXzRZeU9NUlk2eDY2bkk1UUdSbzVadzh5?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 11:46:25 GMT",
+      "description": "飛天跑車來了！與特斯拉 Roadster 一起突破天際🚀 在 Bitunix TradFi 全天候隨時交易 $TSLA 讓每次的波動以最即時的策略佈局 不錯過市場任何每一個關鍵時刻👀 #TradFi #Tesla #Roadster #TSLA &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "9149f2552b920e91",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "飛天跑車來了！與特斯拉 Roadster 一起突破天際🚀 在 Bitunix TradFi 全天候隨時交易 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Tesla 今晚開盤走勢 #tsla - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjek94MUlJSzROWHVaYUhubUNzclpoWFg0ejIxQk92cDlQZ2JCOE5CS3MwX1hHeG9WazVSV0N1Z0NFV2F6UWhpdGc2S21CLU9GQ2dTQWl4UTI1c0NEbVhULQ?oc=5",
       "pubDate": "Fri, 16 Oct 2026 07:38:52 GMT",
@@ -380,6 +411,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "彭博 10/16（專訪經濟部長龔明鑫，10/12 錄）：台灣要喺美國起多座產業園區，撐 $NVDA 呢條 AI 硬件供應鏈。首座落德州，部長口中每座建設成本約 20 億至 40 億美元，唔止一座。 官方口徑：園區幫手畀台積電（ $TSM ）同鴻海呢啲組裝鏈背後嘅中小供應商赴美設廠；政 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KRDhoMm5pRl92OFRBRWJtMmUwSE4yWmZjajM2QVlLeEF5NVo0bGlqS0NEWjVOMWU4bmJWQnB4VHQyQU1nSEhVN09qQ3JKdG81N3d2cHR3WGt4MDB1Y0kyZA?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 08:11:00 GMT",
+      "description": "彭博 10/16（專訪經濟部長龔明鑫，10/12 錄）：台灣要喺美國起多座產業園區，撐 $NVDA 呢條 AI 硬件供應鏈。首座落德州，部長口中每座建設成本約 20 億至 40 億美元，唔止一座。 官方口徑：園區幫手畀台積電（ $TSM ）同鴻海呢啲組裝鏈背後嘅中小供應商赴美設廠；政 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "24f994314c3e4628",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "彭博 10/16（專訪經濟部長龔明鑫，10/12 錄）：台灣要喺美國起多座產業園區，撐 $NVDA 呢條 AI…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "不管你喜不喜歡 Elon， 但這太瘋狂了 我要買一個 $Tsla - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yQjNMZWFzTl9sT2g2NDNMZHhfbUZ6QlV4UFJMdXNMSG1LX0g5Ynp1cDVIaGVDcGtSYUFIMGw0ZXlFUTBPWE5neGd1eWRSOVF6WmZzSFFhQTgzcTFjSlVZSQ?oc=5",
       "pubDate": "Fri, 16 Oct 2026 01:37:52 GMT",
@@ -411,10 +473,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkSVdkS0JzZXVEQzh0OEpWaE10dF9rUk91aC1fV0RrcDlJc1VIVGdUOGJGQ1lJZHl1NENRM2ZQdkgtTEcwVEZZTjZDZ1B1YjZnZy05eG5rRXhVSnhs?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 07:14:42 GMT",
-      "description": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 &nbsp;&nbsp; X",
+      "title": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 USDT BTCUSDT 合約馬丁 5x 做多 | 2,219.66 USDT SNDKUSDT 合約馬丁 20x 做多 | 1,466.56 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約馬丁交易 $TSLA，捕捉熱門市場機會 htt - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GcTBhVXFyVEp4UTdNdXJLXzBnUi1HZ2o3Yk5WSmVIcDItdkwyUXE2M19IanNObHdJWENON1AwMUlGLV9kXzZHS3NJZkJ5MXNqSkhVVVNNTlhhcjEtT3lfWUVLWnVhZkE?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 09:42:00 GMT",
+      "description": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 USDT BTCUSDT 合約馬丁 5x 做多 | 2,219.66 USDT SNDKUSDT 合約馬丁 20x 做多 | 1,466.56 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約馬丁交易 $TSLA，捕捉熱門市場機會 htt &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -424,11 +486,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "e26e4f27e81a3155",
+      "id": "26cfef0f63bb5587",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與…",
+        "summary": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 US…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -503,68 +565,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "$META Alexandr Wang 小時候幾乎每個人都有很大的夢想，想當太空人、拯救地球、改變世界 但長大後，經過學校、進入職場，這些希望、野心與做夢的能力逐漸被「吸走」或「打磨掉」。人們變得像「殭屍」，失去了 agency。 AI，透過像 Muse 這樣的個人 agent，可以讓這條 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45MnZFNFRETlZfNU5VdWRuRks3aENSYzM3Unh6VkV4OHlFX1gtTjFhN2tNeVJteGxPbTVkSGtMSFdxQXMxU2ZFUjZSYkxPeThOdEpnS1VJTm5HM2ZaWHROQjlfQWVTMkRCOTAtLWxvam9JZw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 10:10:47 GMT",
-      "description": "$META Alexandr Wang 小時候幾乎每個人都有很大的夢想，想當太空人、拯救地球、改變世界 但長大後，經過學校、進入職場，這些希望、野心與做夢的能力逐漸被「吸走」或「打磨掉」。人們變得像「殭屍」，失去了 agency。 AI，透過像 Muse 這樣的個人 agent，可以讓這條 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "0f5abf63d3caa861",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$META Alexandr Wang 小時候幾乎每個人都有很大的夢想，想當太空人、拯救地球、改變世界 但長大…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "BANDAI 2027年1月發售：模型 HG 1/144 突擊自由高達(Strike Freedom Gundam) SEED FREEDOM ZERO Ver. (暫稱) 2,700Yen https://t.co/b4Ei7dv0Jp #BANDAI #GUNPLA - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DNFF0VVNYUnAzckVxVmc4YXZiWTZMVWt5MzZNcXh5RFdRbGI0M3ZqRkxvcFp5S251X1V6RVp2MUpYNFhqWnBibjRlc3Z4dmdaT0R6ZVhsdEd3bGhYNlE?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 18:41:10 GMT",
-      "description": "BANDAI 2027年1月發售：模型 HG 1/144 突擊自由高達(Strike Freedom Gundam) SEED FREEDOM ZERO Ver. (暫稱) 2,700Yen https://t.co/b4Ei7dv0Jp #BANDAI #GUNPLA &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "4f25c1446d3e91a6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "BANDAI 2027年1月發售：模型 HG 1/144 突擊自由高達(Strike Freedom Gund…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "宏观",
       "title": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UYm0xOWRCdVVscnpicXhYbTRVd2F4T3ZfTV83XzhGalMtOVc3anY3Y1hIS0lBMDZ3X3JsYXRrbno0dmJfcmtJSnhKUWhYVWpValZPdm1sQTdHRUNPb3c?oc=5",
@@ -619,6 +619,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA $NVDA CEO JENSEN HUANG JUST SAID: - WE DON'T NEED TO BACKSTOP COREWEAVE $CRWV - COREWEAVE'S COST OF CAPITAL IS ACTUALLY DECREASING - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LZGF4YmJwZGJfT0RrMjcyWlFCYmZBbVNaX1NVZ2FveEtlOFc2YUliS3A2SmxKSmVNTEg3RFQyQVh4NDFDRE1UTHBUdnNjd2dzb1EwMm1uWGZIS3lLOHZSbFZUSQ?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 15:27:09 GMT",
+      "description": "NVIDIA $NVDA CEO JENSEN HUANG JUST SAID: - WE DON'T NEED TO BACKSTOP COREWEAVE $CRWV - COREWEAVE'S COST OF CAPITAL IS ACTUALLY DECREASING &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "5efc77b2395f7eeb",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "Siemens 公司新聞稿 10/14： $SIEGY 同 $NVDA 把 cuLitho 接進 Calibr…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB HBM4，微軟稱每兆瓦可產出的token比「領先GPU系統」多40%，但比較對象與測試條件尚待揭露。 這讓AI推論的競爭更聚焦每個token的成本，也可能壓縮 $NVDA、 $AM - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uOVpIa19qQmVzMUZNbVpyZ250bVVna3hCQThoNERqalIyX2ZLYkFnbGNXUHppeXlrLVFVS0NQOXFQVjJrNDZDZXJJWjJOM3UycjBPeUtGSGtCRFM0X2hvd1poWEdKeV9hdkFVZlhSMlJfdw?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 23:56:09 GMT",
-      "description": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB HBM4，微軟稱每兆瓦可產出的token比「領先GPU系統」多40%，但比較對象與測試條件尚待揭露。 這讓AI推論的競爭更聚焦每個token的成本，也可能壓縮 $NVDA、 $AM &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "ffdf78bc512e0f02",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "微軟在OCP峰會發表Maia 300，宣布Maia系列自2027年起成為主要AI推論系統。每顆搭載288GB …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
