@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-10-16T04:28:04.239Z",
+  "generatedAt": "2026-10-16T09:46:32.546Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "持仓",
-      "title": "Exchange's Disciplinary Action against RMH Holdings Limited (Stock Code: 8437) and Six Former Directors",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261013news?sc_lang=en",
-      "pubDate": "Tue, 13 Oct 2026 16:30:00 +0800",
-      "description": "Exchange's Disciplinary Action against RMH Holdings Limited (Stock Code: 8437) and Six Former Directors",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 79,
-      "priority": "A",
-      "id": "827f703104076dde",
-      "rankReason": "一级/官方信源；高影响事件词；公开资金信号",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所出现一条新的持仓信息",
-        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "港股",
       "signal": "事实",
@@ -89,6 +58,37 @@
         "priority": "A",
         "summary": "美联储出现一条新的公司事件信息",
         "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "持仓",
+      "title": "Exchange's Disciplinary Action against RMH Holdings Limited (Stock Code: 8437) and Six Former Directors",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261013news?sc_lang=en",
+      "pubDate": "Tue, 13 Oct 2026 16:30:00 +0800",
+      "description": "Exchange's Disciplinary Action against RMH Holdings Limited (Stock Code: 8437) and Six Former Directors",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 76,
+      "priority": "A",
+      "id": "827f703104076dde",
+      "rankReason": "一级/官方信源；高影响事件词；公开资金信号",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现一条新的持仓信息",
+        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
         "contentDirection": [
           "快讯",
           "事件解读"
@@ -163,6 +163,37 @@
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
+      "title": "HKEX Sets Roadmap for T+1 Transition in Securities Market",
+      "link": "https://www.hkex.com.hk/News/Market-Communications/2026/261016news?sc_lang=en",
+      "pubDate": "Fri, 16 Oct 2026 16:35:00 +0800",
+      "description": "HKEX Sets Roadmap for T+1 Transition in Securities Market",
+      "source": "HKEX · Market Communications",
+      "sourceKey": "hkex-market",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 58,
+      "priority": "B",
+      "id": "8021a742640f581f",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
       "title": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
       "link": "https://www.hkex.com.hk/News/News-Release/2026/261012news?sc_lang=en",
       "pubDate": "Mon, 12 Oct 2026 12:00:00 +0800",
@@ -187,37 +218,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "PPI 降了，科技股就能漲？先別急著下結論。 市場不只看總值，更看核心與環比： 📈 核心偏熱：通脹黏性仍在，降息預期可能受壓 📉 廣泛降溫：利率壓力或緩解， $NVDA $AMD 估值有望獲支撐 ⚠️ 若降溫源於需求走弱，盈利擔憂也可能拖累股價 關註數據落地後的市場反 - X",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2TXYwdlRVWmRoMkRkWVF0eC1xNkNwMWY1UUFHWGoycFBCNVhLX0FkNXdsNHI3dVVqVE9YdjRKN3FvUEZLWEVpM1NvUFBFSElWbDlZMXhQWTBaQ1hIYU8xNDUzUENNd3EwUjRZcGdqYw?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 07:48:01 GMT",
-      "description": "PPI 降了，科技股就能漲？先別急著下結論。 市場不只看總值，更看核心與環比： 📈 核心偏熱：通脹黏性仍在，降息預期可能受壓 📉 廣泛降溫：利率壓力或緩解， $NVDA $AMD 估值有望獲支撐 ⚠️ 若降溫源於需求走弱，盈利擔憂也可能拖累股價 關註數據落地後的市場反 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "818cb19689307180",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "PPI 降了，科技股就能漲？先別急著下結論。 市場不只看總值，更看核心與環比： 📈 核心偏熱：通脹黏性仍在，…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -257,7 +257,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見的錯誤，把「AI 能力／進步」和「AI 安全」當成兩件分開的事情來談。這是一種謬誤（fallacy）。 兩者不應該被視為彼此獨立的對話。安全不是等技術發展完再處理的事，而 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0d09ZaS0wcG02WWVTUjNrQTZpNDZ6aDZhbXZfRHBPQXB2bVBTWmhIOWFZcU02T3dGT2xocjNrX0xmSF8weEZWM0ZPVGtCUnAwXzVOTDVaeERDaERsRmJHYmhaNjdzSEU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FY19yaGxoMTcxT3ZKLVVIS0pNLWtkYTQ2Rnptd2dMSlVNN1djSFZaWldGSDhBTTNFalRvbExtQmlfRFhqTnJiOU92VEJkcjRYTG40dDdSYnpSOE82enRnU0t2SG5pMk5zNFhTOE05NEp2Zw?oc=5",
       "pubDate": "Thu, 15 Oct 2026 23:39:36 GMT",
       "description": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見的錯誤，把「AI 能力／進步」和「AI 安全」當成兩件分開的事情來談。這是一種謬誤（fallacy）。 兩者不應該被視為彼此獨立的對話。安全不是等技術發展完再處理的事，而 &nbsp;&nbsp; X",
       "source": "X",
@@ -269,11 +269,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "7d98f50df9765228",
+      "id": "c09ea69b16b6df6f",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Tesla 今晚開盤走勢 #tsla - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjek94MUlJSzROWHVaYUhubUNzclpoWFg0ejIxQk92cDlQZ2JCOE5CS3MwX1hHeG9WazVSV0N1Z0NFV2F6UWhpdGc2S21CLU9GQ2dTQWl4UTI1c0NEbVhULQ?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:38:52 GMT",
+      "description": "Tesla 今晚開盤走勢 #tsla &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "4459b3ed6b25d4be",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Tesla 今晚開盤走勢 #tsla - X",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -336,161 +367,6 @@
       "ai": {
         "priority": "B",
         "summary": "英偉達股價持續飆升，目標直指280美元？華爾街賭它會跌，但大盤SMH卻力挽狂瀾！這場多空博弈究竟誰能勝出？這支…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA 會飛了，錢包跟得上嗎？🚀 新款 Roadster 亮相，猜猜這輛「會飛的車」，售價會是多少？ 👀 💬 評論區報個價 小編今年要是賺到 100 萬美元，就買一輛抽給大家。🥹 #WEEX #TSLA #Roadster - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50eVVmU3pKcmJ5d0l6OVBzdzV4T2V4aV9OYjd5cVBzNGtvOFJ5b05TWGxoMWpQT0dVNS1hTG9EdTY5clNyZXlpY29VZnh0YUdZV0NrZC1XLXZqdW85UDlsUzBZQlk?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 02:54:33 GMT",
-      "description": "$TSLA 會飛了，錢包跟得上嗎？🚀 新款 Roadster 亮相，猜猜這輛「會飛的車」，售價會是多少？ 👀 💬 評論區報個價 小編今年要是賺到 100 萬美元，就買一輛抽給大家。🥹 #WEEX #TSLA #Roadster &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "6d8e3359513c6a87",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA 會飛了，錢包跟得上嗎？🚀 新款 Roadster 亮相，猜猜這輛「會飛的車」，售價會是多少？ \ud83d…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📈 本週美股熱點雷達已更新！ 🔥 ⏳ 涵蓋期間：10 月 12 日至 16 日 一眼掌握本週美股交易重點！聚焦 3 大主題、6 檔精選股票與 7 大市場事件，協助你掌握最新機會。 🔹 聯準會政策與美債標售 9 月 FOMC 會議紀要、10 月升息展望，以及逾 610 億美元的長期美債標售。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZmR2dThkeWpJUGFkbHlYdzZVV21EYzNJNFBpckxxQXF3VURod0NZQ3FHOURENHVsWnVoWWxXLWs2NWZ3T1VpdlV5MWl6OHNQcWtKVDBzOWpTaWFkSWc?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 07:00:07 GMT",
-      "description": "📈 本週美股熱點雷達已更新！ 🔥 ⏳ 涵蓋期間：10 月 12 日至 16 日 一眼掌握本週美股交易重點！聚焦 3 大主題、6 檔精選股票與 7 大市場事件，協助你掌握最新機會。 🔹 聯準會政策與美債標售 9 月 FOMC 會議紀要、10 月升息展望，以及逾 610 億美元的長期美債標售。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "49eba30a2d63b7cc",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📈 本週美股熱點雷達已更新！ 🔥 ⏳ 涵蓋期間：10 月 12 日至 16 日 一眼掌握本週美股交易重點！…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "BANDAI 2027年1月發售：模型 HG 1/144 突擊自由高達(Strike Freedom Gundam) SEED FREEDOM ZERO Ver. (暫稱) 2,700Yen https://t.co/b4Ei7dv0Jp #BANDAI #GUNPLA - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DNFF0VVNYUnAzckVxVmc4YXZiWTZMVWt5MzZNcXh5RFdRbGI0M3ZqRkxvcFp5S251X1V6RVp2MUpYNFhqWnBibjRlc3Z4dmdaT0R6ZVhsdEd3bGhYNlE?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 18:41:10 GMT",
-      "description": "BANDAI 2027年1月發售：模型 HG 1/144 突擊自由高達(Strike Freedom Gundam) SEED FREEDOM ZERO Ver. (暫稱) 2,700Yen https://t.co/b4Ei7dv0Jp #BANDAI #GUNPLA &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "4f25c1446d3e91a6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "BANDAI 2027年1月發售：模型 HG 1/144 突擊自由高達(Strike Freedom Gund…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Taiwan’s first two F-16 Block 70s arrived with Viper Shield hardware installed but software unfinished, raising questions over their electronic protection. 🔗https://t.co/peq1NL3lxk #Taiwan #F16 #ViperShield #TaiwanDefense #Military - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9INms1Ui1pZWo1eGZWZDR5LXdYZ3VhVHB5V3paRFlTWW9zTmZzWHg4MnRXV2s1aDh0N056c2llQ0tSTWJEbWEyYm5qQzd2WVZqd0pxdGdGRmxKZFhhaHlyR0kxNEl4Zw?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 19:00:00 GMT",
-      "description": "Taiwan’s first two F-16 Block 70s arrived with Viper Shield hardware installed but software unfinished, raising questions over their electronic protection. 🔗https://t.co/peq1NL3lxk #Taiwan #F16 #ViperShield #TaiwanDefense #Military &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "16e182eef38f59d1",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Taiwan’s upgraded F-16Vs will wait until 2028 for automatic crash-avoidance systems, nearly three years after a fatal training accident renewed scrutiny. 🔗https://t.co/wYvo6uttDg #Taiwan #F16V #TaiwanDefense #MilitaryAviation #AutoGCAS - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FY2Q1NzNvMTdMUWpVeDE3MnRndGs5LXBacEZxRGVac05leUxGVkNyVmVwRWdkSkxIOGk1YlFKTjBBbGM2R1hPT0h2ZGcxelJtRS1Eek85djRVWGdRZWFGQW1rMTlJdw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 02:00:01 GMT",
-      "description": "Taiwan’s upgraded F-16Vs will wait until 2028 for automatic crash-avoidance systems, nearly three years after a fatal training accident renewed scrutiny. 🔗https://t.co/wYvo6uttDg #Taiwan #F16V #TaiwanDefense #MilitaryAviation #AutoGCAS &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a00c49ebe2a74697",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -659,6 +535,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "用 VOO+QQQM 構建投資組合怎麼樣？ 首先要說， $VOO （標普500指數）與 $QQQM （納斯達克100指數）存在50%以上的市值重合，重合的部分主要是 $NVDA $AAPL $MSFT $GOOGL $AMZN 這些科技巨頭。 也就是說，這些大科技股跌，這兩隻ETF都會跌，只是跌幅 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ORTFTMUZBZlZ0cWhqaGRVNFB6VjYyLTRiZGlkMGRHWkZFN2FvVnRKaXV5b0dOWFVzUUNuSnVCT0I2RjF6RmZiZTFBUHBwRkVra3ZWSjVWWlpaWTB1eFNHbDB3dm4?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 03:29:37 GMT",
+      "description": "用 VOO+QQQM 構建投資組合怎麼樣？ 首先要說， $VOO （標普500指數）與 $QQQM （納斯達克100指數）存在50%以上的市值重合，重合的部分主要是 $NVDA $AAPL $MSFT $GOOGL $AMZN 這些科技巨頭。 也就是說，這些大科技股跌，這兩隻ETF都會跌，只是跌幅 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "a168298edece0660",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "用 VOO+QQQM 構建投資組合怎麼樣？ 首先要說， $VOO （標普500指數）與 $QQQM （納斯達克…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Siemens 公司新聞稿 10/14： $SIEGY 同 $NVDA 把 cuLitho 接進 Calibre，專攻先進製程計算微影。 公司寫死嘅數：全芯片 OPC 工作負載最高可加速約 12 倍；關鍵微影模擬加速約 10 至 17 倍。目標係 High-NA EUV，同曲線 Inverse Lithography（ILT）喺量產級全芯片 - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OUVZGZFhFbDJRZXh5WFI0MURiUWxtZVBmbU1ZLWl4eDJBNXdEZE9kaGpIREQ4RTQwaXV3NEd6YnpDdkJXSFpmVlNlakdLeXBKQVRSdWduaHQ1YnJyVmNMMw?oc=5",
       "pubDate": "Thu, 15 Oct 2026 04:07:46 GMT",
@@ -721,10 +628,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Navitas 公司新聞稿 Oct 12：同 NVIDIA 合作，推咗一塊 24 kW、800 V 轉 12 V 嘅 DC-DC 供電板，用 GaNFast，對準 NVIDIA MGX 同 AI 機房 800 VDC 架構。OCP 場上會喺 NVIDIA AI Factory MGX Wall 夥伴區展出。 公司寫死嘅規格：滿載目標效率 97%，功率密度超 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWclZaanU2N09pcXBudTJaNG51eFpibG1nT21HVFdSbXNhTkN5WkNuM05qbElFX09oMUk0YkxIU3NmX0NtRHMzYUdYTDJJQWxSVlNUQkc0T0hjSExXazQtUQ?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 08:09:30 GMT",
-      "description": "Navitas 公司新聞稿 Oct 12：同 NVIDIA 合作，推咗一塊 24 kW、800 V 轉 12 V 嘅 DC-DC 供電板，用 GaNFast，對準 NVIDIA MGX 同 AI 機房 800 VDC 架構。OCP 場上會喺 NVIDIA AI Factory MGX Wall 夥伴區展出。 公司寫死嘅規格：滿載目標效率 97%，功率密度超 &nbsp;&nbsp; X",
+      "title": "🚀 XT TradFi 每日漲幅榜 | 10月14日 🔥 $MEITUAN +7.33% 🔥 $SHEIN +7.04% 🔥 $MVLL +6.99% 🔥 $ORCL +5.02% 🔥 $NATGAS +5.00% 從股票到大宗商品，使用 USDT 探索全球市場，把握多元市場動態！ 🔗 https://t.co/fu4QbeOxVp #XTexchange #XTTradFi - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVM3NWaUdGSzR6a29jSmxkeFdOZ25XYURMLURnMEtvM1FaUHFTLTAtZDdvQUdCZzRQSkwwQVFnaDY2Q2JxREF1WUtwWWluZEEtbkNLOXN1ZV9kZUljYUE4Yzc3QQ?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 06:49:48 GMT",
+      "description": "🚀 XT TradFi 每日漲幅榜 | 10月14日 🔥 $MEITUAN +7.33% 🔥 $SHEIN +7.04% 🔥 $MVLL +6.99% 🔥 $ORCL +5.02% 🔥 $NATGAS +5.00% 從股票到大宗商品，使用 USDT 探索全球市場，把握多元市場動態！ 🔗 https://t.co/fu4QbeOxVp #XTexchange #XTTradFi &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +641,104 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "1a62ac577909d659",
+      "id": "f4dd61f7b97d8e12",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "Navitas 公司新聞稿 Oct 12：同 NVIDIA 合作，推咗一塊 24 kW、800 V 轉 12 …",
+        "summary": "🚀 XT TradFi 每日漲幅榜 | 10月14日 🔥 $MEITUAN +7.33% 🔥 $SHEI…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提供適合的操作策略，投資大戶們千萬別錯過！ #投資 #ETF #股票 #股市分析 #理財建議 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLdlJKLWhvT295eHlpbGNxRS1MUG9PQ0dhRmhFbFZvbFB5YWF0R0JCV1JMU1Y4b29Kd0xNNGJqTHlSb09rdmRxR0lPY0RJZHhPSDQtUldBLTJsSlBsaGJ6VW5B?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 22:26:21 GMT",
+      "description": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提供適合的操作策略，投資大戶們千萬別錯過！ #投資 #ETF #股票 #股市分析 #理財建議 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "10c0463d6dcb2f08",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "被譽為溫柔版NVDA的投資標的究竟值得持有嗎？創作者深入解析這檔ETF的特性，分析其股價走勢與大盤的差異，更提…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "📈 本週美股熱點雷達已更新！ 🔥 ⏳ 涵蓋期間：10 月 12 日至 16 日 一眼掌握本週美股交易重點！聚焦 3 大主題、6 檔精選股票與 7 大市場事件，協助你掌握最新機會。 🔹 聯準會政策與美債標售 9 月 FOMC 會議紀要、10 月升息展望，以及逾 610 億美元的長期美債標售。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZmR2dThkeWpJUGFkbHlYdzZVV21EYzNJNFBpckxxQXF3VURod0NZQ3FHOURENHVsWnVoWWxXLWs2NWZ3T1VpdlV5MWl6OHNQcWtKVDBzOWpTaWFkSWc?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 07:00:07 GMT",
+      "description": "📈 本週美股熱點雷達已更新！ 🔥 ⏳ 涵蓋期間：10 月 12 日至 16 日 一眼掌握本週美股交易重點！聚焦 3 大主題、6 檔精選股票與 7 大市場事件，協助你掌握最新機會。 🔹 聯準會政策與美債標售 9 月 FOMC 會議紀要、10 月升息展望，以及逾 610 億美元的長期美債標售。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "49eba30a2d63b7cc",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "📈 本週美股熱點雷達已更新！ 🔥 ⏳ 涵蓋期間：10 月 12 日至 16 日 一眼掌握本週美股交易重點！…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "受 #通膨升溫 與 AI 業者過度仰賴 #舉債擴張 的雙重夾擊，美股週三收黑，#標普500 指數下跌 1.11%、#那斯達克指數 下跌 1.88%，#道瓊 則在醫療保健類股支撐下微跌 0.09%！ #科技股 賣壓核心聚焦於 #AI融資風險，AI 雲端服務商 CoreWeave（ $CRWV ） 旗下兩檔 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10UHZqQmRZTjltalZuZnIybU9nTGJJYjFaSld0Rk9LbXY1Z1lwSndya0l2LVl2blpvTjdiSnRTMUx5d1JCcFhYcjV5d2k0U215ZTRrT1BMRE1WeUlqT3V1b0FId25mdw?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 01:36:18 GMT",
+      "description": "受 #通膨升溫 與 AI 業者過度仰賴 #舉債擴張 的雙重夾擊，美股週三收黑，#標普500 指數下跌 1.11%、#那斯達克指數 下跌 1.88%，#道瓊 則在醫療保健類股支撐下微跌 0.09%！ #科技股 賣壓核心聚焦於 #AI融資風險，AI 雲端服務商 CoreWeave（ $CRWV ） 旗下兩檔 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "8009472219e79b24",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "受 #通膨升溫 與 AI 業者過度仰賴 #舉債擴張 的雙重夾擊，美股週三收黑，#標普500 指數下跌 1.11…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
