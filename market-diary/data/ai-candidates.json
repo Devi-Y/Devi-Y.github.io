@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T14:12:15.607Z",
+  "generatedAt": "2026-10-17T17:08:06.580Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -349,37 +349,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "輝達把光引擎搬上中介層（OOI) 大家以為 CPO 就是把光引擎搬到晶片「旁邊」，已經夠近了。其實 NVIDIA 下一步要把光引擎搬「進」同一片 interposer，跟 HBM 一樣近。 10/13 SEMICON West，NVIDIA 研究員 Nikola Nedovic 講了一個東西叫 OOI，optics-on-interposer - X",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4VmVJSTQ3X2E4bWM3Tmx5LWZ1WWloZEtibTlQcTRTT2JYV2dJRHpSOF8yclNGNVJXQmxVU0pLUHpsLXRvLXRYSlMxcGpXcXR1N1VWREctN011QTVFbVVhWEt1anVKZ2R4Q3c?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 03:08:10 GMT",
-      "description": "輝達把光引擎搬上中介層（OOI) 大家以為 CPO 就是把光引擎搬到晶片「旁邊」，已經夠近了。其實 NVIDIA 下一步要把光引擎搬「進」同一片 interposer，跟 HBM 一樣近。 10/13 SEMICON West，NVIDIA 研究員 Nikola Nedovic 講了一個東西叫 OOI，optics-on-interposer &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "f449dac661d3b0ee",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "輝達把光引擎搬上中介層（OOI) 大家以為 CPO 就是把光引擎搬到晶片「旁邊」，已經夠近了。其實 NVIDI…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jRUVSUkZXUFZELWlnc2lhMGp2djJWSnFYeHE4dU9sLTl2TWlIU2E0YWl5bmFEYW5ybjZCLTkyQ2FVRkl4SkhoQ0prOUppLUItc2ZYc1lpb0xrQ1NGekE?oc=5",
       "pubDate": "Fri, 16 Oct 2026 00:23:20 GMT",
@@ -584,6 +553,37 @@
       "ai": {
         "priority": "B",
         "summary": "特斯拉股票 $TSLA 在 Elon Musk 揭曉飛行版 Tesla Roadster 後，飆升超過 +5%…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "特斯拉第二代Roadster發表後，展示短暫騰空與空中翻轉等功能，激勵TSLA股票衍生品交易活絡。RootData數據顯示，過去24小時交易額合計約5.31億美元，未平倉合約價值約2.41億美元。其中幣安、Hyperliquid、Bitget交易量居前，合約價格普遍上漲約4%。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMEZ5allteXY4RGFNeWRsWWhHNzdqZEtmc2dWUElkLW5laXVDQU1acmduRjZaT1dUckY5RWFJdC0xRHVtX215UkhXQ25VMXNKNmZERHRoQktFR3BDOTVKSDE2bFY?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 08:44:20 GMT",
+      "description": "特斯拉第二代Roadster發表後，展示短暫騰空與空中翻轉等功能，激勵TSLA股票衍生品交易活絡。RootData數據顯示，過去24小時交易額合計約5.31億美元，未平倉合約價值約2.41億美元。其中幣安、Hyperliquid、Bitget交易量居前，合約價格普遍上漲約4%。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "1dd79430440ea41c",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "特斯拉第二代Roadster發表後，展示短暫騰空與空中翻轉等功能，激勵TSLA股票衍生品交易活絡。RootDa…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
