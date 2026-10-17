@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:22:22.281Z",
+  "generatedAt": "2026-10-17T22:16:32.991Z",
   "windowDays": 7,
   "summary": {
     "total": 48,
@@ -82,26 +82,6 @@
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型"
     },
     {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "The Philadelphia Semiconductor Index has fallen for eight consecutive trading sessions. Jensen Huang stated, \"This too shall pass,\" noting that the AI revolution is only just beginning. - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0tFZUpxQ2RKd2Q5YnMyWWNXY0kxelRZZmVCTk1YcGFHOW1yb3RaUDlpSTdQRnhWS1A0U21MMnp1NVI5NFhlMlRIM2tDOUFUVkdwMEpYeUVBYUJaZm9pN1kyVVdkejVYdnBJbTlWTl9ybDIta0VlVmMyN2NJa1pXQ3o3OG96cXhYb3RKd2RRM2hNSzZ1eHFfMEU4Q09nNlBHYlkxTERFUHhieHNxcEF0VTlWM3BGVUR4eHptcg?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 21:45:35 GMT",
-      "description": "The Philadelphia Semiconductor Index has fallen for eight consecutive trading sessions. Jensen Huang stated, \"This too shall pass,\" noting that the AI revolution is only just beginning. &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
-      "priority": "A",
-      "id": "585fe328fbe6d9fc",
-      "rankReason": "高影响事件词；关键人物"
-    },
-    {
       "market": "宏观",
       "signal": "事实",
       "type": "宏观",
@@ -140,6 +120,26 @@
       "priority": "A",
       "id": "23ef4513ec4f3308",
       "rankReason": "一级/官方信源；高影响事件词"
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "The Philadelphia Semiconductor Index has fallen for eight consecutive trading sessions. Jensen Huang stated, \"This too shall pass,\" noting that the AI revolution is only just beginning. - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0tFZUpxQ2RKd2Q5YnMyWWNXY0kxelRZZmVCTk1YcGFHOW1yb3RaUDlpSTdQRnhWS1A0U21MMnp1NVI5NFhlMlRIM2tDOUFUVkdwMEpYeUVBYUJaZm9pN1kyVVdkejVYdnBJbTlWTl9ybDIta0VlVmMyN2NJa1pXQ3o3OG96cXhYb3RKd2RRM2hNSzZ1eHFfMEU4Q09nNlBHYlkxTERFUHhieHNxcEF0VTlWM3BGVUR4eHptcg?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 21:45:35 GMT",
+      "description": "The Philadelphia Semiconductor Index has fallen for eight consecutive trading sessions. Jensen Huang stated, \"This too shall pass,\" noting that the AI revolution is only just beginning. &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "585fe328fbe6d9fc",
+      "rankReason": "高影响事件词；关键人物"
     },
     {
       "market": "港股",
@@ -219,26 +219,6 @@
       "score": 50,
       "priority": "B",
       "id": "deab4adaf0a47837",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05d3g4WjBSVDBVNE5hZzF4YWpOOFhPWXBlR2NJcUJhMVJST0pFODJMM3QyTmlaNzBsR0NOYTRKWEtLODFpYzl5SkRVRmJfbnA5bVlYbmhRaEJmVjhobzJLbg?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 07:44:03 GMT",
-      "description": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "0155d0092a7f23bf",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -782,26 +762,6 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "AI server giant Wistron’s board approved 2 new capital spending projects and a plan to buy a factory from Coretronic Corp. for no more than NT$1 billion to convert for AI server production, media report. The 2 new capex projects are for NT$6.5 billion and NT$ - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwY3ZYSHBERm1oZGFXZ0RjVTJ4dVJ1QU5GQllkUGZ2bHhoVVE1bGFjMzZMNVhCMWJXSmJWd2VfcHlGNEYwV1FSNk5XeXRJYm15Qm1Da3F2WjVGMEp4SHc?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 22:40:16 GMT",
-      "description": "AI server giant Wistron’s board approved 2 new capital spending projects and a plan to buy a factory from Coretronic Corp. for no more than NT$1 billion to convert for AI server production, media report. The 2 new capex projects are for NT$6.5 billion and NT$ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "40dea173194cc017",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
       "market": "宏观",
       "signal": "事实",
       "type": "宏观",
@@ -879,6 +839,26 @@
       "score": 34,
       "priority": "B",
       "id": "2ba6f45f92215514",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "彭博 10/16：Volta Infrastructure 嗰筆 50 億美元槓桿貸款周四賣出，條款比銀行起初開價更寬。知情人士話最終定價係基準息加 650 基點、發行價 95 美仙，孳息高過 11%。摩根大通同高盛只包銷其中 13 億，用嚟付 $BTDR 挪威數據中心租金；另外 37 億買約 3.6 萬塊 $ - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqd2RaQXpseVBEWF9pLXZSU1MyRWd6VFV2eE9Ydm1sdWVyUnA2M0plN3YwQmIyVVhoT05HVU9GTnR6QXVBT2xoeW9HSTk4N2FJS2c0X1kyUDJfSlpxeE54Rg?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 08:06:54 GMT",
+      "description": "彭博 10/16：Volta Infrastructure 嗰筆 50 億美元槓桿貸款周四賣出，條款比銀行起初開價更寬。知情人士話最終定價係基準息加 650 基點、發行價 95 美仙，孳息高過 11%。摩根大通同高盛只包銷其中 13 億，用嚟付 $BTDR 挪威數據中心租金；另外 37 億買約 3.6 萬塊 $ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 34,
+      "priority": "B",
+      "id": "dae828e259b7a8ea",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -980,7 +960,27 @@
       "priority": "B",
       "id": "77923e22a7b19234",
       "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "說到胸部 很多人不信主播有C 我也不信自己有C 而且在實況圈滿G-Z在跑的一堆根本C超小 但買內衣什麼的真的A/B會很緊 有問過人為什麼就算是C看起來還是平平 大概是以下3個理由 1. 長得比較圓扁胸 2. 他們兩看得比較開 3. 主播愛穿無鋼圈內衣豪無聚攏可言 會把 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41VHkxMHRfZVNLN2dVaG9aNk1NUVQ5VVpSU0tZUmg1RkZEVnRKbXdwZ1BkY0wwcjhJQ1N3QTl0d3JWczRiQTAzbWZNZVpDVExORGNxMzVoRURFWFVZbFBZ?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 08:39:53 GMT",
+      "description": "說到胸部 很多人不信主播有C 我也不信自己有C 而且在實況圈滿G-Z在跑的一堆根本C超小 但買內衣什麼的真的A/B會很緊 有問過人為什麼就算是C看起來還是平平 大概是以下3個理由 1. 長得比較圓扁胸 2. 他們兩看得比較開 3. 主播愛穿無鋼圈內衣豪無聚攏可言 會把 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 14,
+      "priority": "B",
+      "id": "4766d5ac76bb66a4",
+      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-17T19:22:23.689Z"
+  "rankedAt": "2026-10-17T22:16:35.057Z"
 }
