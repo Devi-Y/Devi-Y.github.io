@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T09:34:40.518Z",
+  "generatedAt": "2026-10-18T14:00:10.975Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -318,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2）。也許需要有一次非常慘烈的下跌挖坑動作，才有可能打開上行空間。 橫向波動了五年，無數人套在裡面。挖坑會非常非常痛，但是沒辦法，只有深蹲才能跳得高 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MS3U3a21JS294d3hjcGtFUTZCcWMtOXF2YzlITjlqVnlmSnhjd0txcUUxOFQtaTVNNHpCZmRqdEVUWHRyVmlEUEJmZHI1T19BRHUwVnJ3RkdldjdzTGR1QWJhVVA?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 01:56:02 GMT",
-      "description": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2）。也許需要有一次非常慘烈的下跌挖坑動作，才有可能打開上行空間。 橫向波動了五年，無數人套在裡面。挖坑會非常非常痛，但是沒辦法，只有深蹲才能跳得高 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "724b0256118c4bd5",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VSFB6em9FdV9wTVVCX3E5aHFmQ0R4OXJkRnlabTdYdVVJRnZUSXZXTE1NNU91REx4VXdVb29sdDlXdHhSWVZNOXh4QkhhRVk2NEFPYkxXWjZLT3RhdjhuWWNqcXNHR0xTODZYSGN2R1hoQQ?oc=5",
       "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
@@ -367,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2）。也許需要有一次非常慘烈的下跌挖坑動作，才有可能打開上行空間。 橫向波動了五年，無數人套在裡面。挖坑會非常非常痛，但是沒辦法，只有深蹲才能跳得高 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MS3U3a21JS294d3hjcGtFUTZCcWMtOXF2YzlITjlqVnlmSnhjd0txcUUxOFQtaTVNNHpCZmRqdEVUWHRyVmlEUEJmZHI1T19BRHUwVnJ3RkdldjdzTGR1QWJhVVA?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 01:56:02 GMT",
+      "description": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2）。也許需要有一次非常慘烈的下跌挖坑動作，才有可能打開上行空間。 橫向波動了五年，無數人套在裡面。挖坑會非常非常痛，但是沒辦法，只有深蹲才能跳得高 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "724b0256118c4bd5",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
