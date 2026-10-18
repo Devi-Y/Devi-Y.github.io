@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T22:16:35.572Z",
+  "generatedAt": "2026-10-18T00:04:26.908Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -218,6 +218,37 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "财报",
+      "title": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBidTcxcVhTZGh2M2pwbXpPckk5ejBqeXpldUVDY0VWelEyNmNXZ0VlUDc5aE1EVEk4VlR3X3lnRk9jSDEzdkwwOUFYR011aV8xdWhiR2VldF9RRFR1aENXUA?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 14:29:52 GMT",
+      "description": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "8c45724983f91580",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X发布最新业绩信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "不管你喜不喜歡 Elon， 但這太瘋狂了 我要買一個 $Tsla - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 USDT BTCUSDT 合約馬丁 5x 做多 | 2,219.66 USDT SNDKUSDT 合約馬丁 20x 做多 | 1,466.56 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約馬丁交易 $TSLA，捕捉熱門市場機會 htt - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZZmM3MXFCV29hUzg0bXZTR0JaOEdXZ3BURXJRQ1pJU0VjYkhHVlBEbkpFLXhSVDBGZjVwT21xZHRiQ2tGY0Q3MHZNX0VBT0NXaTJ4NnNaQ1hNQUlv?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 09:42:00 GMT",
-      "description": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 USDT BTCUSDT 合約馬丁 5x 做多 | 2,219.66 USDT SNDKUSDT 合約馬丁 20x 做多 | 1,466.56 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約馬丁交易 $TSLA，捕捉熱門市場機會 htt &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "c74756a0fc4d2933",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 US…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

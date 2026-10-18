@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-17T22:16:32.991Z",
+  "generatedAt": "2026-10-18T00:04:26.060Z",
   "windowDays": 7,
   "summary": {
-    "total": 48,
+    "total": 47,
     "bySignal": {
       "事实": 9,
       "媒体": 0,
       "人物": 2,
       "资金": 0,
-      "热点": 37
+      "热点": 36
     },
     "byTrust": {
       "A": 10,
       "B": 1,
-      "C": 37
+      "C": 36
     },
     "s": 0,
     "a": 6,
-    "b": 42
+    "b": 41
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -160,6 +160,26 @@
       "priority": "B",
       "id": "8021a742640f581f",
       "rankReason": "一级/官方信源；市场相关"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "财报",
+      "title": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBidTcxcVhTZGh2M2pwbXpPckk5ejBqeXpldUVDY0VWelEyNmNXZ0VlUDc5aE1EVEk4VlR3X3lnRk9jSDEzdkwwOUFYR011aV8xdWhiR2VldF9RRFR1aENXUA?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 14:29:52 GMT",
+      "description": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "8c45724983f91580",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
       "market": "港股",
@@ -836,29 +856,9 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 34,
+      "score": 31,
       "priority": "B",
       "id": "2ba6f45f92215514",
-      "rankReason": "市场相关；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "彭博 10/16：Volta Infrastructure 嗰筆 50 億美元槓桿貸款周四賣出，條款比銀行起初開價更寬。知情人士話最終定價係基準息加 650 基點、發行價 95 美仙，孳息高過 11%。摩根大通同高盛只包銷其中 13 億，用嚟付 $BTDR 挪威數據中心租金；另外 37 億買約 3.6 萬塊 $ - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqd2RaQXpseVBEWF9pLXZSU1MyRWd6VFV2eE9Ydm1sdWVyUnA2M0plN3YwQmIyVVhoT05HVU9GTnR6QXVBT2xoeW9HSTk4N2FJS2c0X1kyUDJfSlpxeE54Rg?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 08:06:54 GMT",
-      "description": "彭博 10/16：Volta Infrastructure 嗰筆 50 億美元槓桿貸款周四賣出，條款比銀行起初開價更寬。知情人士話最終定價係基準息加 650 基點、發行價 95 美仙，孳息高過 11%。摩根大通同高盛只包銷其中 13 億，用嚟付 $BTDR 挪威數據中心租金；另外 37 億買約 3.6 萬塊 $ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 34,
-      "priority": "B",
-      "id": "dae828e259b7a8ea",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -960,27 +960,7 @@
       "priority": "B",
       "id": "77923e22a7b19234",
       "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "說到胸部 很多人不信主播有C 我也不信自己有C 而且在實況圈滿G-Z在跑的一堆根本C超小 但買內衣什麼的真的A/B會很緊 有問過人為什麼就算是C看起來還是平平 大概是以下3個理由 1. 長得比較圓扁胸 2. 他們兩看得比較開 3. 主播愛穿無鋼圈內衣豪無聚攏可言 會把 - X",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41VHkxMHRfZVNLN2dVaG9aNk1NUVQ5VVpSU0tZUmg1RkZEVnRKbXdwZ1BkY0wwcjhJQ1N3QTl0d3JWczRiQTAzbWZNZVpDVExORGNxMzVoRURFWFVZbFBZ?oc=5",
-      "pubDate": "Mon, 12 Oct 2026 08:39:53 GMT",
-      "description": "說到胸部 很多人不信主播有C 我也不信自己有C 而且在實況圈滿G-Z在跑的一堆根本C超小 但買內衣什麼的真的A/B會很緊 有問過人為什麼就算是C看起來還是平平 大概是以下3個理由 1. 長得比較圓扁胸 2. 他們兩看得比較開 3. 主播愛穿無鋼圈內衣豪無聚攏可言 會把 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "4766d5ac76bb66a4",
-      "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-17T22:16:35.057Z"
+  "rankedAt": "2026-10-18T00:04:26.458Z"
 }
