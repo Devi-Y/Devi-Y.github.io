@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-10-18T00:04:26.908Z",
+  "generatedAt": "2026-10-18T04:28:21.945Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
-      "pubDate": "Thu, 15 Oct 2026 02:55:00 GMT",
-      "description": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 76,
-      "priority": "A",
-      "id": "e4d2d6090f2d0d0d",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "港股",
       "signal": "事实",
@@ -92,6 +61,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "pubDate": "Thu, 15 Oct 2026 02:55:00 GMT",
+      "description": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 73,
+      "priority": "A",
+      "id": "e4d2d6090f2d0d0d",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -222,37 +222,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "财报",
-      "title": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBidTcxcVhTZGh2M2pwbXpPckk5ejBqeXpldUVDY0VWelEyNmNXZ0VlUDc5aE1EVEk4VlR3X3lnRk9jSDEzdkwwOUFYR011aV8xdWhiR2VldF9RRFR1aENXUA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 14:29:52 GMT",
-      "description": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
-      "priority": "B",
-      "id": "8c45724983f91580",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X发布最新业绩信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "财报解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -286,11 +255,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZmxQWS0yQUtoWEI2a3l6ZnFkYlcxU3NzMGRDRVZjWVFRc3huX0tZRHMtN1ZTSnJWdlE2TWxWOERFMXBzeTE0Y1pzMjhHUGZmLUlHQzJiRXU4SkRQTjFzT2s5dFBZMzVCNW83bTRiVTkwZw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 01:43:40 GMT",
-      "description": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 &nbsp;&nbsp; X",
+      "type": "宏观",
+      "title": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHZjMxOUpOcE5BQl84d01rRHNybWxqLWRnN085aHM1aUdZQnFiUUV4TjRsdUFvNERaSmdPV1E0aXlHbkEyY201NHVYRm8wSERGaFNQSmo3N00xc3NXaFFvWDdPcWp3a2s?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 02:48:57 GMT",
+      "description": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -300,11 +269,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "e46fbfff96089c0d",
+      "id": "048a57837d29cea9",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $S…",
+        "summary": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LRjRKeXE5bHpVblpzMVVCdjF0ZWdHMzA0UmpxMGZiRWZwSVY4aEJaWGtjZ3hMX1JDdmR1WTk5bVRxT0NoaGVzVHlmalJEYm1FRGI5Q3l5LTgxMUxwbXlBR2pwTTY1enM?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
+      "description": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "3ed633aa8e6e46df",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -349,10 +349,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "會飛的特斯拉，華爾街會買賬麼？ 📈 $TSLA 下一段走勢，你來畫！ ✅ 追蹤 @weexglobal_ch ✍️ 保存底圖，接著最後一根K線續畫 💬 評論區曬圖 看漲、看跌、橫盤？畫出你的判斷！ 🎁 選出 3 份精彩作品，各送 10 USDT！ #WEEX週末不無聊 #TSLA #特斯拉 - X",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZTTNlemlKZGZnUTQ2TWVtXzRsQWdlczB5dzdsV19SZmJUdXBDbU5BQTBoanZwTi1zNDNNV2J3YTJPUmlPMTFjdnFZTVJtVWFhaHR6M1dpQkQ1cVE4X0R5bk5uZ1pBNzl1V09aVU92OA?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 08:51:36 GMT",
-      "description": "會飛的特斯拉，華爾街會買賬麼？ 📈 $TSLA 下一段走勢，你來畫！ ✅ 追蹤 @weexglobal_ch ✍️ 保存底圖，接著最後一根K線續畫 💬 評論區曬圖 看漲、看跌、橫盤？畫出你的判斷！ 🎁 選出 3 份精彩作品，各送 10 USDT！ #WEEX週末不無聊 #TSLA #特斯拉 &nbsp;&nbsp; X",
+      "title": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05d3g4WjBSVDBVNE5hZzF4YWpOOFhPWXBlR2NJcUJhMVJST0pFODJMM3QyTmlaNzBsR0NOYTRKWEtLODFpYzl5SkRVRmJfbnA5bVlYbmhRaEJmVjhobzJLbg?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:44:03 GMT",
+      "description": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -362,11 +362,73 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "da5131595ff36562",
+      "id": "0155d0092a7f23bf",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "會飛的特斯拉，華爾街會買賬麼？ 📈 $TSLA 下一段走勢，你來畫！ ✅ 追蹤 @weexglobal_ch…",
+        "summary": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "關心 $TSLA 的網友過來看看👇 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ublR3NGZ4WG5vSTNDTE51MFVNR05ScThGREdVZVJuNGpKR21scDNaWGJMaVZaZGxwbUdNV2tqbzVhR2NPR19sUEdzdlF3OWU3d2J4VXp2X1d2cFNwTFREaklvV0o?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 01:56:34 GMT",
+      "description": "關心 $TSLA 的網友過來看看👇 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "5d3934c780a1f1fc",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "關心 $TSLA 的網友過來看看👇 - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2）。也許需要有一次非常慘烈的下跌挖坑動作，才有可能打開上行空間。 橫向波動了五年，無數人套在裡面。挖坑會非常非常痛，但是沒辦法，只有深蹲才能跳得高 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MS3U3a21JS294d3hjcGtFUTZCcWMtOXF2YzlITjlqVnlmSnhjd0txcUUxOFQtaTVNNHpCZmRqdEVUWHRyVmlEUEJmZHI1T19BRHUwVnJ3RkdldjdzTGR1QWJhVVA?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 01:56:02 GMT",
+      "description": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2）。也許需要有一次非常慘烈的下跌挖坑動作，才有可能打開上行空間。 橫向波動了五年，無數人套在裡面。挖坑會非常非常痛，但是沒辦法，只有深蹲才能跳得高 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "724b0256118c4bd5",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -504,8 +566,39 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZmxQWS0yQUtoWEI2a3l6ZnFkYlcxU3NzMGRDRVZjWVFRc3huX0tZRHMtN1ZTSnJWdlE2TWxWOERFMXBzeTE0Y1pzMjhHUGZmLUlHQzJiRXU4SkRQTjFzT2s5dFBZMzVCNW83bTRiVTkwZw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 01:43:40 GMT",
+      "description": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "e46fbfff96089c0d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $S…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "飛天跑車來了！與特斯拉 Roadster 一起突破天際🚀 在 Bitunix TradFi 全天候隨時交易 $TSLA 讓每次的波動以最即時的策略佈局 不錯過市場任何每一個關鍵時刻👀 #TradFi #Tesla #Roadster #TSLA - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZWGZCM1paRkpNWXRQVGdvRFdXd2xNSGxQWXowdGcydFlRQ0pSMzY3c08zSjJkQVVKY0k4ZmdPclE0N05PXzRZeU9NUlk2eDY2bkk1UUdSbzVadzh5?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CVENBQnJES0FXbVhJRTcwalBCcG1zVUVTT3pwWWQxVFFZa1dYWjRBZ2ZRbEhpSFN2aE1nQUZ5eS1WYzBwTlhROVhJZlZLdUFPdnp4TGdRWExFUFVrMVJzNmg1VVFGZ2s?oc=5",
       "pubDate": "Fri, 16 Oct 2026 11:46:25 GMT",
       "description": "飛天跑車來了！與特斯拉 Roadster 一起突破天際🚀 在 Bitunix TradFi 全天候隨時交易 $TSLA 讓每次的波動以最即時的策略佈局 不錯過市場任何每一個關鍵時刻👀 #TradFi #Tesla #Roadster #TSLA &nbsp;&nbsp; X",
       "source": "X",
@@ -517,7 +610,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "9149f2552b920e91",
+      "id": "9574798b479f902d",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -628,68 +721,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "NVIDIA 公司新聞稿 10/13（路透 10/14 倫敦同步）： $NVDA 承諾未來五年向英國捐出等值 2.5 億美元算力，每年約 5,000 萬，專攻 agentic AI 安全同保安研究。 算力經英國本地 NVIDIA Cloud Partners 交付，基建留喺英國；供應商、架構同商業條款仍未敲定。受惠範圍包 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55Z0hOZGN0OXNEbDcxTTAtZExxQjNmVjV1Z2hTNGxnYzFQWjVGWTAzVkpfOXlaWmlPNC14Mk5LQ2JISm9vcHJNc3VoT0d4QktUSGpZNHNzX0czSEhnSkpZbA?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 01:06:46 GMT",
-      "description": "NVIDIA 公司新聞稿 10/13（路透 10/14 倫敦同步）： $NVDA 承諾未來五年向英國捐出等值 2.5 億美元算力，每年約 5,000 萬，專攻 agentic AI 安全同保安研究。 算力經英國本地 NVIDIA Cloud Partners 交付，基建留喺英國；供應商、架構同商業條款仍未敲定。受惠範圍包 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "806f1c400cec9361",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "NVIDIA 公司新聞稿 10/13（路透 10/14 倫敦同步）： $NVDA 承諾未來五年向英國捐出等值 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84eE9YSGY4Z2szN21PdDdlaXZfQnFzVDRVX0dONkRCZFk5VGJPT2JaUWpOZjVtRXNEYlNzY3NuOW00TERqc1AzMm1LNWsyY29CYXk0MEVjUUNGcWxVZnRpLUpKTUI2ODg?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 07:14:42 GMT",
-      "description": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "784e6bbfb5f5db23",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "彭博 10/16（專訪經濟部長龔明鑫，10/12 錄）：台灣要喺美國起多座產業園區，撐 $NVDA 呢條 AI 硬件供應鏈。首座落德州，部長口中每座建設成本約 20 億至 40 億美元，唔止一座。 官方口徑：園區幫手畀台積電（ $TSM ）同鴻海呢啲組裝鏈背後嘅中小供應商赴美設廠；政 - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KRDhoMm5pRl92OFRBRWJtMmUwSE4yWmZjajM2QVlLeEF5NVo0bGlqS0NEWjVOMWU4bmJWQnB4VHQyQU1nSEhVN09qQ3JKdG81N3d2cHR3WGt4MDB1Y0kyZA?oc=5",
       "pubDate": "Fri, 16 Oct 2026 08:11:00 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "彭博 10/16（專訪經濟部長龔明鑫，10/12 錄）：台灣要喺美國起多座產業園區，撐 $NVDA 呢條 AI…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "不管你喜不喜歡 Elon， 但這太瘋狂了 我要買一個 $Tsla - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yQjNMZWFzTl9sT2g2NDNMZHhfbUZ6QlV4UFJMdXNMSG1LX0g5Ynp1cDVIaGVDcGtSYUFIMGw0ZXlFUTBPWE5neGd1eWRSOVF6WmZzSFFhQTgzcTFjSlVZSQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 01:37:52 GMT",
-      "description": "不管你喜不喜歡 Elon， 但這太瘋狂了 我要買一個 $Tsla &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "d597238a1a856c7a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "不管你喜不喜歡 Elon， 但這太瘋狂了 我要買一個 $Tsla - X",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
