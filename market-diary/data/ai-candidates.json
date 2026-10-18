@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:28:21.945Z",
+  "generatedAt": "2026-10-18T09:34:40.518Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -222,6 +222,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "财报",
+      "title": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBidTcxcVhTZGh2M2pwbXpPckk5ejBqeXpldUVDY0VWelEyNmNXZ0VlUDc5aE1EVEk4VlR3X3lnRk9jSDEzdkwwOUFYR011aV8xdWhiR2VldF9RRFR1aENXUA?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 14:29:52 GMT",
+      "description": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 53,
+      "priority": "B",
+      "id": "8c45724983f91580",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X发布最新业绩信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -287,130 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LRjRKeXE5bHpVblpzMVVCdjF0ZWdHMzA0UmpxMGZiRWZwSVY4aEJaWGtjZ3hMX1JDdmR1WTk5bVRxT0NoaGVzVHlmalJEYm1FRGI5Q3l5LTgxMUxwbXlBR2pwTTY1enM?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
-      "description": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3ed633aa8e6e46df",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YWhCdzE1N1g1MjdaVFhBdmE1VmFUQ01qRFlqUS0wQlB1UFQyQ2lLanFHYWZybVF4SG8ya0g5dG1BMDcxb09VeTZneFlQVEFoYkdpWWpyQ3l5ZHJ4N1BNM2djZnk?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 06:44:01 GMT",
-      "description": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "deab4adaf0a47837",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO -…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05d3g4WjBSVDBVNE5hZzF4YWpOOFhPWXBlR2NJcUJhMVJST0pFODJMM3QyTmlaNzBsR0NOYTRKWEtLODFpYzl5SkRVRmJfbnA5bVlYbmhRaEJmVjhobzJLbg?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 07:44:03 GMT",
-      "description": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "0155d0092a7f23bf",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "關心 $TSLA 的網友過來看看👇 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ublR3NGZ4WG5vSTNDTE51MFVNR05ScThGREdVZVJuNGpKR21scDNaWGJMaVZaZGxwbUdNV2tqbzVhR2NPR19sUEdzdlF3OWU3d2J4VXp2X1d2cFNwTFREaklvV0o?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 01:56:34 GMT",
-      "description": "關心 $TSLA 的網友過來看看👇 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5d3934c780a1f1fc",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "關心 $TSLA 的網友過來看看👇 - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2）。也許需要有一次非常慘烈的下跌挖坑動作，才有可能打開上行空間。 橫向波動了五年，無數人套在裡面。挖坑會非常非常痛，但是沒辦法，只有深蹲才能跳得高 - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MS3U3a21JS294d3hjcGtFUTZCcWMtOXF2YzlITjlqVnlmSnhjd0txcUUxOFQtaTVNNHpCZmRqdEVUWHRyVmlEUEJmZHI1T19BRHUwVnJ3RkdldjdzTGR1QWJhVVA?oc=5",
       "pubDate": "Sun, 18 Oct 2026 01:56:02 GMT",
@@ -429,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA 日K級別很明顯是三點鐘方向的趨勢，橫向波動了五年多時間。與2013～2019年的行情非常相似（圖2…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VSFB6em9FdV9wTVVCX3E5aHFmQ0R4OXJkRnlabTdYdVVJRnZUSXZXTE1NNU91REx4VXdVb29sdDlXdHhSWVZNOXh4QkhhRVk2NEFPYkxXWjZLT3RhdjhuWWNqcXNHR0xTODZYSGN2R1hoQQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
+      "description": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "20e14ea23ad1c8fa",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "彭博 10/16（專訪經濟部長龔明鑫，10/12 錄）：台灣要喺美國起多座產業園區，撐 $NVDA 呢條 AI…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YWhCdzE1N1g1MjdaVFhBdmE1VmFUQ01qRFlqUS0wQlB1UFQyQ2lLanFHYWZybVF4SG8ya0g5dG1BMDcxb09VeTZneFlQVEFoYkdpWWpyQ3l5ZHJ4N1BNM2djZnk?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 06:44:01 GMT",
+      "description": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "deab4adaf0a47837",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO -…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84eE9YSGY4Z2szN21PdDdlaXZfQnFzVDRVX0dONkRCZFk5VGJPT2JaUWpOZjVtRXNEYlNzY3NuOW00TERqc1AzMm1LNWsyY29CYXk0MEVjUUNGcWxVZnRpLUpKTUI2ODg?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:14:42 GMT",
+      "description": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "784e6bbfb5f5db23",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
