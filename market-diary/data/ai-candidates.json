@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T01:14:09.675Z",
+  "generatedAt": "2026-10-19T06:12:44.893Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -160,37 +160,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "The Philadelphia Semiconductor Index has fallen for eight consecutive trading sessions. Jensen Huang stated, \"This too shall pass,\" noting that the AI revolution is only just beginning. - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0tFZUpxQ2RKd2Q5YnMyWWNXY0kxelRZZmVCTk1YcGFHOW1yb3RaUDlpSTdQRnhWS1A0U21MMnp1NVI5NFhlMlRIM2tDOUFUVkdwMEpYeUVBYUJaZm9pN1kyVVdkejVYdnBJbTlWTl9ybDIta0VlVmMyN2NJa1pXQ3o3OG96cXhYb3RKd2RRM2hNSzZ1eHFfMEU4Q09nNlBHYlkxTERFUHhieHNxcEF0VTlWM3BGVUR4eHptcg?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 21:45:35 GMT",
-      "description": "The Philadelphia Semiconductor Index has fallen for eight consecutive trading sessions. Jensen Huang stated, \"This too shall pass,\" noting that the AI revolution is only just beginning. &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "585fe328fbe6d9fc",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "The Philadelphia Semiconductor Index has fallen for eig…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -284,37 +253,6 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/261012news?sc_lang=en",
-      "pubDate": "Mon, 12 Oct 2026 12:00:00 +0800",
-      "description": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 52,
-      "priority": "B",
-      "id": "caf1a28433b8b8d9",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
@@ -348,42 +286,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mNHFPX0JwTndmWWJOUmlJSlZjTnBjaXVNQkZrSnljYS00V3dOenRRX1Bmd0x0b2g0RkgtbElIYjZOY0tVNTlZMmZKVjhpbDFSOHB5UTRJMGZfM2xxVEJJZ2FMc2YwcEUzUFZlc0ZZM296Zw?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 02:48:57 GMT",
-      "description": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "4b4c66d9323e3cef",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
-      "title": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國對華限制再靠攏。部長話措施生效之後，未經許可把受管制 AI 硬件運去中國，會變成對外貿易法下嘅刑事罪行。 而家台灣對未授權 AI 芯片出境仲唔當刑事；執法多數靠 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkUHZnQUVUbHRHaEdoSjRjbmREclpKYTlkeHAwTkJIUkVOWjdNa2QtbTY4UVRYNndFaE4tQm5mYmhhV013WEY1d1RoblhDT1oxQTZGb3Z4NURGNmwtczRZUQ?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 04:06:44 GMT",
-      "description": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國對華限制再靠攏。部長話措施生效之後，未經許可把受管制 AI 硬件運去中國，會變成對外貿易法下嘅刑事罪行。 而家台灣對未授權 AI 芯片出境仲唔當刑事；執法多數靠 &nbsp;&nbsp; X",
+      "title": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YWhCdzE1N1g1MjdaVFhBdmE1VmFUQ01qRFlqUS0wQlB1UFQyQ2lLanFHYWZybVF4SG8ya0g5dG1BMDcxb09VeTZneFlQVEFoYkdpWWpyQ3l5ZHJ4N1BNM2djZnk?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 06:44:01 GMT",
+      "description": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -391,13 +298,13 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
+      "score": 47,
       "priority": "B",
-      "id": "dd327042a45d6147",
+      "id": "deab4adaf0a47837",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國…",
+        "summary": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO -…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -690,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YWhCdzE1N1g1MjdaVFhBdmE1VmFUQ01qRFlqUS0wQlB1UFQyQ2lLanFHYWZybVF4SG8ya0g5dG1BMDcxb09VeTZneFlQVEFoYkdpWWpyQ3l5ZHJ4N1BNM2djZnk?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 06:44:01 GMT",
-      "description": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "deab4adaf0a47837",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO -…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84eE9YSGY4Z2szN21PdDdlaXZfQnFzVDRVX0dONkRCZFk5VGJPT2JaUWpOZjVtRXNEYlNzY3NuOW00TERqc1AzMm1LNWsyY29CYXk0MEVjUUNGcWxVZnRpLUpKTUI2ODg?oc=5",
       "pubDate": "Fri, 16 Oct 2026 07:14:42 GMT",
@@ -739,6 +615,130 @@
       "ai": {
         "priority": "B",
         "summary": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05d3g4WjBSVDBVNE5hZzF4YWpOOFhPWXBlR2NJcUJhMVJST0pFODJMM3QyTmlaNzBsR0NOYTRKWEtLODFpYzl5SkRVRmJfbnA5bVlYbmhRaEJmVjhobzJLbg?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:44:03 GMT",
+      "description": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "0155d0092a7f23bf",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣至少可以撐到 2027 年。佢講而家需求同供應之間條缺口仍然好闊，供應仲喺擴。 呢周芯片股捱沽，南韓股市波動亦大。稿入面跌浪有 $NVDA 、海力士呢啲名。財長口徑係南韓經 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qN3d2VktFSWRyUzlDWUVKY1hxZGRLTEpPamNDaEtrRDlmVG9fdkdVZnRaaFVULU1GLWRocDYzVU5iekJTUmFmVF91U1d1b0M2bjVYQmJ4Y0U1N2dNNkZUNw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 01:10:14 GMT",
+      "description": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣至少可以撐到 2027 年。佢講而家需求同供應之間條缺口仍然好闊，供應仲喺擴。 呢周芯片股捱沽，南韓股市波動亦大。稿入面跌浪有 $NVDA 、海力士呢啲名。財長口徑係南韓經 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "31ef0f8c9a081042",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 USDT BTCUSDT 合約馬丁 5x 做多 | 2,219.66 USDT SNDKUSDT 合約馬丁 20x 做多 | 1,466.56 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約馬丁交易 $TSLA，捕捉熱門市場機會 htt - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZZmM3MXFCV29hUzg0bXZTR0JaOEdXZ3BURXJRQ1pJU0VjYkhHVlBEbkpFLXhSVDBGZjVwT21xZHRiQ2tGY0Q3MHZNX0VBT0NXaTJ4NnNaQ1hNQUlv?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 09:42:00 GMT",
+      "description": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 USDT BTCUSDT 合約馬丁 5x 做多 | 2,219.66 USDT SNDKUSDT 合約馬丁 20x 做多 | 1,466.56 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約馬丁交易 $TSLA，捕捉熱門市場機會 htt &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c74756a0fc4d2933",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "10月16日 Gate 熱門策略收益排行榜 HYPEUSDT 合約馬丁 5x 做多 | 2,588.53 US…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國對華限制再靠攏。部長話措施生效之後，未經許可把受管制 AI 硬件運去中國，會變成對外貿易法下嘅刑事罪行。 而家台灣對未授權 AI 芯片出境仲唔當刑事；執法多數靠 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkUHZnQUVUbHRHaEdoSjRjbmREclpKYTlkeHAwTkJIUkVOWjdNa2QtbTY4UVRYNndFaE4tQm5mYmhhV013WEY1d1RoblhDT1oxQTZGb3Z4NURGNmwtczRZUQ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 04:06:44 GMT",
+      "description": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國對華限制再靠攏。部長話措施生效之後，未經許可把受管制 AI 硬件運去中國，會變成對外貿易法下嘅刑事罪行。 而家台灣對未授權 AI 芯片出境仲唔當刑事；執法多數靠 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "dd327042a45d6147",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
