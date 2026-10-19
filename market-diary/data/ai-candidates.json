@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T23:09:24.775Z",
+  "generatedAt": "2026-10-19T01:14:09.675Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -348,11 +348,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VSFB6em9FdV9wTVVCX3E5aHFmQ0R4OXJkRnlabTdYdVVJRnZUSXZXTE1NNU91REx4VXdVb29sdDlXdHhSWVZNOXh4QkhhRVk2NEFPYkxXWjZLT3RhdjhuWWNqcXNHR0xTODZYSGN2R1hoQQ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
-      "description": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ &nbsp;&nbsp; X",
+      "type": "宏观",
+      "title": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mNHFPX0JwTndmWWJOUmlJSlZjTnBjaXVNQkZrSnljYS00V3dOenRRX1Bmd0x0b2g0RkgtbElIYjZOY0tVNTlZMmZKVjhpbDFSOHB5UTRJMGZfM2xxVEJJZ2FMc2YwcEUzUFZlc0ZZM296Zw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 02:48:57 GMT",
+      "description": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -362,46 +362,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "20e14ea23ad1c8fa",
+      "id": "4b4c66d9323e3cef",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整…",
+        "summary": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣至少可以撐到 2027 年。佢講而家需求同供應之間條缺口仍然好闊，供應仲喺擴。 呢周芯片股捱沽，南韓股市波動亦大。稿入面跌浪有 $NVDA 、海力士呢啲名。財長口徑係南韓經 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qN3d2VktFSWRyUzlDWUVKY1hxZGRLTEpPamNDaEtrRDlmVG9fdkdVZnRaaFVULU1GLWRocDYzVU5iekJTUmFmVF91U1d1b0M2bjVYQmJ4Y0U1N2dNNkZUNw?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 01:10:14 GMT",
-      "description": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣至少可以撐到 2027 年。佢講而家需求同供應之間條缺口仍然好闊，供應仲喺擴。 呢周芯片股捱沽，南韓股市波動亦大。稿入面跌浪有 $NVDA 、海力士呢啲名。財長口徑係南韓經 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "31ef0f8c9a081042",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -429,68 +398,6 @@
       "ai": {
         "priority": "B",
         "summary": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jRUVSUkZXUFZELWlnc2lhMGp2djJWSnFYeHE4dU9sLTl2TWlIU2E0YWl5bmFEYW5ybjZCLTkyQ2FVRkl4SkhoQ0prOUppLUItc2ZYc1lpb0xrQ1NGekE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 00:23:20 GMT",
-      "description": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "b812997b2c5dd87a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見的錯誤，把「AI 能力／進步」和「AI 安全」當成兩件分開的事情來談。這是一種謬誤（fallacy）。 兩者不應該被視為彼此獨立的對話。安全不是等技術發展完再處理的事，而 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0d09ZaS0wcG02WWVTUjNrQTZpNDZ6aDZhbXZfRHBPQXB2bVBTWmhIOWFZcU02T3dGT2xocjNrX0xmSF8weEZWM0ZPVGtCUnAwXzVOTDVaeERDaERsRmJHYmhaNjdzSEU?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 23:39:36 GMT",
-      "description": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見的錯誤，把「AI 能力／進步」和「AI 安全」當成兩件分開的事情來談。這是一種謬誤（fallacy）。 兩者不應該被視為彼此獨立的對話。安全不是等技術發展完再處理的事，而 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "7d98f50df9765228",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -584,6 +491,37 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $S…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VSFB6em9FdV9wTVVCX3E5aHFmQ0R4OXJkRnlabTdYdVVJRnZUSXZXTE1NNU91REx4VXdVb29sdDlXdHhSWVZNOXh4QkhhRVk2NEFPYkxXWjZLT3RhdjhuWWNqcXNHR0xTODZYSGN2R1hoQQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
+      "description": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "20e14ea23ad1c8fa",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "彭博 10/16（專訪經濟部長龔明鑫，10/12 錄）：台灣要喺美國起多座產業園區，撐 $NVDA 呢條 AI…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YWhCdzE1N1g1MjdaVFhBdmE1VmFUQ01qRFlqUS0wQlB1UFQyQ2lLanFHYWZybVF4SG8ya0g5dG1BMDcxb09VeTZneFlQVEFoYkdpWWpyQ3l5ZHJ4N1BNM2djZnk?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 06:44:01 GMT",
+      "description": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "deab4adaf0a47837",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO -…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84eE9YSGY4Z2szN21PdDdlaXZfQnFzVDRVX0dONkRCZFk5VGJPT2JaUWpOZjVtRXNEYlNzY3NuOW00TERqc1AzMm1LNWsyY29CYXk0MEVjUUNGcWxVZnRpLUpKTUI2ODg?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:14:42 GMT",
+      "description": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與市場期待，特斯拉再度成為焦點。 🎯 關注新品，也關注你的期權交易計畫透過 Gate 美股期權，選擇 TSLA 等熱門標的，結合方向判斷、目標價格與持有週期，用 Call 或 Put 表達市 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "784e6bbfb5f5db23",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 特斯拉 Roadster 發布引關注，TSLA 迎來新品話題！圍繞新一代 Roadster 的產品展示與…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
