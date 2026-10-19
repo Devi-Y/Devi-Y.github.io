@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T19:19:14.525Z",
+  "generatedAt": "2026-10-19T23:37:39.719Z",
   "windowDays": 7,
   "summary": {
     "total": 43,
@@ -205,10 +205,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針對今年 8 月發表、架構於第七代 HBM4E 之上的次世代客製化高頻寬記憶體「#NVHBM」，向 #三星電子、#SK海力士 與 #美光 三大記憶體供應商下達統一規格要求！ 負 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tb3Zzc254d3FOa1hWQldydmVfMEN0cnJTenRQcGl1YnQ0WV96dkZPeENVdHVXRUNvS0xEcTBlS1RzQnVCTm5oRzFBbkNJS3Y3U01JR0Mtc0p5b1ZTckdoTUdhbnk2UQ?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 05:18:09 GMT",
-      "description": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針對今年 8 月發表、架構於第七代 HBM4E 之上的次世代客製化高頻寬記憶體「#NVHBM」，向 #三星電子、#SK海力士 與 #美光 三大記憶體供應商下達統一規格要求！ 負 &nbsp;&nbsp; X",
+      "title": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1td3NTRHFqMjEtcjZzTGZKQzJhSFVzdjgzU2p2cXMyZ1kxeXlIX2p2S0ljR2FrRkJlcU0yb0s2NWZoRjU4cTNzWVBaOE1qQ2F3bTYxc3pXN0QtamRW?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 10:35:00 GMT",
+      "description": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -218,7 +218,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "135396a42c0c5f89",
+      "id": "017e51817ba8dd30",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -404,26 +404,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UYm0xOWRCdVVscnpicXhYbTRVd2F4T3ZfTV83XzhGalMtOVc3anY3Y1hIS0lBMDZ3X3JsYXRrbno0dmJfcmtJSnhKUWhYVWpValZPdm1sQTdHRUNPb3c?oc=5",
-      "pubDate": "Wed, 14 Oct 2026 04:00:06 GMT",
-      "description": "🔥 美國 CPI 即將公布，市場聚焦通膨走向！ ⏳ 10/14 公布 9 月 CPI，市場預期整體增幅 0.5%–0.6%、核心增幅 0.2%。能源衝擊是否持續，將牽動聯準會利率決策與市場波動 📊 👀 關注三大板塊： ⚡️ 能源｜XOM、CVX 🤖 AI 科技｜NVDA、AMD 🚚 工業運輸｜CAT、FDX 📚 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "49f9b80a35ff319e",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jRUVSUkZXUFZELWlnc2lhMGp2djJWSnFYeHE4dU9sLTl2TWlIU2E0YWl5bmFEYW5ybjZCLTkyQ2FVRkl4SkhoQ0prOUppLUItc2ZYc1lpb0xrQ1NGekE?oc=5",
@@ -485,26 +465,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53NzFlS0hQVzNJWVBrX3RzYXdWcjFnYzZDZmlFNVZNQ3pQWDhCYmExeWg3djN6WFdock0wcEp3WDcyM2lwSXg5bmhScFV6S3lMTzFWQXhad242M2hp?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 09:20:00 GMT",
-      "description": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "47f63d11b4076016",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tenZxYjFaaU9OTkZmamx5TmQ1VXB3NU9WdU1jVXVKbS1XMUJEdVV6T19ReTNSMjBpMFUxMG5COHRIejU3ZmMzcG1KT3E5aFFXOXpfVDZma1RuWmkwRFpNZS10anIwSmo1d21mSDRIMVFqZw?oc=5",
       "pubDate": "Fri, 16 Oct 2026 10:17:51 GMT",
@@ -539,6 +499,26 @@
       "score": 44,
       "priority": "B",
       "id": "2d51da1c253bb840",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53NzFlS0hQVzNJWVBrX3RzYXdWcjFnYzZDZmlFNVZNQ3pQWDhCYmExeWg3djN6WFdock0wcEp3WDcyM2lwSXg5bmhScFV6S3lMTzFWQXhad242M2hp?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 09:20:00 GMT",
+      "description": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "47f63d11b4076016",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -816,7 +796,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 31,
+      "score": 28,
       "priority": "B",
       "id": "2ba6f45f92215514",
       "rankReason": "市场相关；社媒只做热点发现"
@@ -839,6 +819,26 @@
       "score": 17,
       "priority": "B",
       "id": "09579892d4489315",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "大家以為 CPO 還要等三到五年。Lightmatter 的人說：明年就開始部署，2028、2029 年加速。 影片是 Counterpoint 10/15 放出來的訪談。講話的是 Lightmatter 生態系副總 Steve Klinger，訪問他的是 Counterpoint 的 Michael Kanellos。 Kanellos 先問：兩年前大家都說 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IQjR1QW5zaHc3elc0NWVDaFFXbW05Mmk2S1J0aDJyWDJGLUtxckVuNy1TdjRVNDJEOWpvMmxwQ05XbmxmM0JxTVZiWVpWcmVlTkJRWTJMdGNaejc1eEx3?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 05:56:21 GMT",
+      "description": "大家以為 CPO 還要等三到五年。Lightmatter 的人說：明年就開始部署，2028、2029 年加速。 影片是 Counterpoint 10/15 放出來的訪談。講話的是 Lightmatter 生態系副總 Steve Klinger，訪問他的是 Counterpoint 的 Michael Kanellos。 Kanellos 先問：兩年前大家都說 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "d43da1c39d1c2fd9",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -882,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-19T19:19:15.604Z"
+  "rankedAt": "2026-10-19T23:37:41.069Z"
 }
