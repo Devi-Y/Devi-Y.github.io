@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:13:49.614Z",
+  "generatedAt": "2026-10-20T22:17:28.872Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -350,7 +350,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zc2QzRGtsWGVvdzRCRzNSOE90dHNFU3Bjd1YxMWVvRzd0SUdKNEh0NDctaDNqRGNUVHFYck0wMDFuQ3pmd054OHJ4dGJVMkZFUmZtSTBqeGI1bC1qNFBqeE5PQU5BZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qYkJ3TEpuaE8zTmNTazlFczNjMnRadUx6X3pkT0xrOEtNUTQtZnJuOTAzbTZvbmJpdGVJZDUwNHl4Rk9FMkE0WkFaTDk5TnBhdkNicFhNMllPVU9teDhDc240b0JUQm8zZklhUmI3R18?oc=5",
       "pubDate": "Tue, 20 Oct 2026 01:37:14 GMT",
       "description": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， &nbsp;&nbsp; X",
       "source": "X",
@@ -362,7 +362,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "47b78a507ccee5bc",
+      "id": "42de3b8386158003",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
