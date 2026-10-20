@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T23:37:41.415Z",
+  "generatedAt": "2026-10-20T04:45:59.665Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -160,6 +160,37 @@
       }
     },
     {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en",
+      "pubDate": "Tue, 20 Oct 2026 10:06:00 +0800",
+      "description": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 58,
+      "priority": "B",
+      "id": "12a4791671bb98ad",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "港交所出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "全球",
       "signal": "热点",
       "type": "IPO",
@@ -287,10 +318,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1td3NTRHFqMjEtcjZzTGZKQzJhSFVzdjgzU2p2cXMyZ1kxeXlIX2p2S0ljR2FrRkJlcU0yb0s2NWZoRjU4cTNzWVBaOE1qQ2F3bTYxc3pXN0QtamRW?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 10:35:00 GMT",
-      "description": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 &nbsp;&nbsp; X",
+      "title": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% ARIA_USDT | 70.12% ZEREBRO_USDT | 39.04% BR_USDT | 38.40% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55aHQzX3o2S0NpcHpfYU0wT1NhRmVVb0pCU0E5dmxLMGVKNVQwbDk0R3dEb2dzMEdPYndMMXNNMVdiamJyV003NmtMblFnelBEZFBsQl9ZOXRXTTZW?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 11:50:00 GMT",
+      "description": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% ARIA_USDT | 70.12% ZEREBRO_USDT | 39.04% BR_USDT | 38.40% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -300,11 +331,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "017e51817ba8dd30",
+      "id": "d0e1a1360c259ce5",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。…",
+        "summary": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% A…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針對今年 8 月發表、架構於第七代 HBM4E 之上的次世代客製化高頻寬記憶體「#NVHBM」，向 #三星電子、#SK海力士 與 #美光 三大記憶體供應商下達統一規格要求！ 負 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tb3Zzc254d3FOa1hWQldydmVfMEN0cnJTenRQcGl1YnQ0WV96dkZPeENVdHVXRUNvS0xEcTBlS1RzQnVCTm5oRzFBbkNJS3Y3U01JR0Mtc0p5b1ZTckdoTUdhbnk2UQ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 05:18:09 GMT",
+      "description": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針對今年 8 月發表、架構於第七代 HBM4E 之上的次世代客製化高頻寬記憶體「#NVHBM」，向 #三星電子、#SK海力士 與 #美光 三大記憶體供應商下達統一規格要求！ 負 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "135396a42c0c5f89",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -429,37 +491,6 @@
       "ai": {
         "priority": "B",
         "summary": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO -…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZmxQWS0yQUtoWEI2a3l6ZnFkYlcxU3NzMGRDRVZjWVFRc3huX0tZRHMtN1ZTSnJWdlE2TWxWOERFMXBzeTE0Y1pzMjhHUGZmLUlHQzJiRXU4SkRQTjFzT2s5dFBZMzVCNW83bTRiVTkwZw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 01:43:40 GMT",
-      "description": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e46fbfff96089c0d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $S…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -690,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tenZxYjFaaU9OTkZmamx5TmQ1VXB3NU9WdU1jVXVKbS1XMUJEdVV6T19ReTNSMjBpMFUxMG5COHRIejU3ZmMzcG1KT3E5aFFXOXpfVDZma1RuWmkwRFpNZS10anIwSmo1d21mSDRIMVFqZw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 10:17:51 GMT",
-      "description": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 &nbsp;&nbsp; X",
+      "title": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53NzFlS0hQVzNJWVBrX3RzYXdWcjFnYzZDZmlFNVZNQ3pQWDhCYmExeWg3djN6WFdock0wcEp3WDcyM2lwSXg5bmhScFV6S3lMTzFWQXhad242M2hp?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 09:20:00 GMT",
+      "description": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -703,42 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "6aac86c7abb5ec31",
+      "id": "47f63d11b4076016",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "📈 股票交易打卡：多重獎勵疊加，瓜分 200 股 NVDA！ 🎁 前 5,000 名可搶先領 2 USDT 👉 立即參與：https://t.co/PRLAaaBdyQ 📅 每日打卡交易，累計達標贏 NVDA，最高可領 0.1 股 🔥 高級打卡達標，還有機會抽取 0.5 股 NVDA 🤝 邀請好友完成股票交易，每成功 1 人再 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZQ0tWcXBaNXRfTkJMeWw0bW5hc2NyVGs0MVQ1cGNINnVoZ00wSjNxZGRWR01sdC1ObWEyekE2LUphNlhFRDN2aThyclBuWXluWFRDZmY0ekc2Vjlk?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 10:32:00 GMT",
-      "description": "📈 股票交易打卡：多重獎勵疊加，瓜分 200 股 NVDA！ 🎁 前 5,000 名可搶先領 2 USDT 👉 立即參與：https://t.co/PRLAaaBdyQ 📅 每日打卡交易，累計達標贏 NVDA，最高可領 0.1 股 🔥 高級打卡達標，還有機會抽取 0.5 股 NVDA 🤝 邀請好友完成股票交易，每成功 1 人再 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "2d51da1c253bb840",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📈 股票交易打卡：多重獎勵疊加，瓜分 200 股 NVDA！ 🎁 前 5,000 名可搶先領 2 USDT…",
+        "summary": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% R…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
