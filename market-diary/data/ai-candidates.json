@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:02:59.150Z",
+  "generatedAt": "2026-10-20T19:13:49.614Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -92,37 +92,6 @@
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
-      "pubDate": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "description": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "e3b16892edfa877f",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储公布贴现率会议纪要",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -256,6 +225,68 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ZlIzMjFPUUl6bFpSYjlaVnFqTFRDODR0RmlmcVcwV2hIUDNtdUwzbDBXQVU2NS1xN0hfMzZHbzJmQU1MZDNWMEhtWS02cDZwLUhmQko1VzhLTWtQN2c?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 16:16:00 GMT",
+      "description": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "cb402cf60e8da0c4",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "MEXC 同步推出 TSLA Fever 活動，總獎池 500,000 USDT 🎁 🔹 TSLAX、TSLAON 等指定現貨交易對享 0 手續費 🔹 先報名，再完成指定任務取得抽獎機會 🔹 有機會抽中價值 1,000 USDT 的 TSLAX，獎項另含 SPCXX、SPCXON！ 看財報，也別錯過活動福利👇 https://t. - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JUTZVX3gwczJiNU85M1F5UnFGNzdzU0NsODJ6ZmZ2Q0ZlWTNxSm5jREE0TUZ1LWFvREZWT090WmpzeFlpNUh3QTdCVWswcEo4bTB3VlhqZ2lXLWs?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 08:43:46 GMT",
+      "description": "MEXC 同步推出 TSLA Fever 活動，總獎池 500,000 USDT 🎁 🔹 TSLAX、TSLAON 等指定現貨交易對享 0 手續費 🔹 先報名，再完成指定任務取得抽獎機會 🔹 有機會抽中價值 1,000 USDT 的 TSLAX，獎項另含 SPCXX、SPCXON！ 看財報，也別錯過活動福利👇 https://t. &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a82079328cbc40ff",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "MEXC 同步推出 TSLA Fever 活動，總獎池 500,000 USDT 🎁 🔹 TSLAX、TS…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖接力交成績單，誰能帶來驚喜？ - X",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hUkRXc2xmbXVQc2Vzd0NnQjJnUEEtUHBEd1J1S0Zxc011blpJRGJtdnlrMU5oaVJfLTZRTG5mUWxsQzNXUkhGN3R5MGFBMURJQ1cwTXlCZjNQc00?oc=5",
       "pubDate": "Tue, 20 Oct 2026 04:56:57 GMT",
@@ -274,6 +305,37 @@
       "ai": {
         "priority": "B",
         "summary": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sUnQ5b01wdExSQVJGY2VySWt4Q2gzQm80NThmVk5hSnBWX2UyOUJORTZLX1E0VjNIeXU3WU9rbjcwU3VOdm02ZEhQWk1lMUNPa3l4SnZjcFlEN0U?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 07:15:57 GMT",
+      "description": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "9af412e0aa5570f8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -371,6 +433,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% ARIA_USDT | 70.12% ZEREBRO_USDT | 39.04% BR_USDT | 38.40% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55aHQzX3o2S0NpcHpfYU0wT1NhRmVVb0pCU0E5dmxLMGVKNVQwbDk0R3dEb2dzMEdPYndMMXNNMVdiamJyV003NmtMblFnelBEZFBsQl9ZOXRXTTZW?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 11:50:00 GMT",
+      "description": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% ARIA_USDT | 70.12% ZEREBRO_USDT | 39.04% BR_USDT | 38.40% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "d0e1a1360c259ce5",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% A…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -566,37 +659,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國對華限制再靠攏。部長話措施生效之後，未經許可把受管制 AI 硬件運去中國，會變成對外貿易法下嘅刑事罪行。 而家台灣對未授權 AI 芯片出境仲唔當刑事；執法多數靠 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkUHZnQUVUbHRHaEdoSjRjbmREclpKYTlkeHAwTkJIUkVOWjdNa2QtbTY4UVRYNndFaE4tQm5mYmhhV013WEY1d1RoblhDT1oxQTZGb3Z4NURGNmwtczRZUQ?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 04:06:44 GMT",
-      "description": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國對華限制再靠攏。部長話措施生效之後，未經許可把受管制 AI 硬件運去中國，會變成對外貿易法下嘅刑事罪行。 而家台灣對未授權 AI 芯片出境仲唔當刑事；執法多數靠 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "dd327042a45d6147",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "彭博 10/16（經濟部長龔明鑫 10/12 專訪）：台灣準備把 AI 伺服器同尖端半導體加進管制清單，同美國…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YWhCdzE1N1g1MjdaVFhBdmE1VmFUQ01qRFlqUS0wQlB1UFQyQ2lLanFHYWZybVF4SG8ya0g5dG1BMDcxb09VeTZneFlQVEFoYkdpWWpyQ3l5ZHJ4N1BNM2djZnk?oc=5",
       "pubDate": "Sat, 17 Oct 2026 06:44:01 GMT",
@@ -677,68 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tenZxYjFaaU9OTkZmamx5TmQ1VXB3NU9WdU1jVXVKbS1XMUJEdVV6T19ReTNSMjBpMFUxMG5COHRIejU3ZmMzcG1KT3E5aFFXOXpfVDZma1RuWmkwRFpNZS10anIwSmo1d21mSDRIMVFqZw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 10:17:51 GMT",
-      "description": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "6aac86c7abb5ec31",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZmxQWS0yQUtoWEI2a3l6ZnFkYlcxU3NzMGRDRVZjWVFRc3huX0tZRHMtN1ZTSnJWdlE2TWxWOERFMXBzeTE0Y1pzMjhHUGZmLUlHQzJiRXU4SkRQTjFzT2s5dFBZMzVCNW83bTRiVTkwZw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 01:43:40 GMT",
-      "description": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "e46fbfff96089c0d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $S…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
