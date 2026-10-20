@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T10:01:16.370Z",
+  "generatedAt": "2026-10-20T15:02:59.150Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -224,37 +224,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zNmlORmRWY1hYc2NhT3Y4RkluOWtneUpCYUJDTzZHaGNuMk8tQWV1QTZJWEpncUc5Wm5senRxRGxvYi0zSk5JS3dVRmh5a19OSk9zNFlZUmZkeHZpOGxnNkc3djZ0eVk?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 12:48:24 GMT",
-      "description": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "740d4659a7228c54",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AG…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "财报",
       "title": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBidTcxcVhTZGh2M2pwbXpPckk5ejBqeXpldUVDY0VWelEyNmNXZ0VlUDc5aE1EVEk4VlR3X3lnRk9jSDEzdkwwOUFYR011aV8xdWhiR2VldF9RRFR1aENXUA?oc=5",
@@ -278,37 +247,6 @@
         "contentDirection": [
           "快讯",
           "财报解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1td3NTRHFqMjEtcjZzTGZKQzJhSFVzdjgzU2p2cXMyZ1kxeXlIX2p2S0ljR2FrRkJlcU0yb0s2NWZoRjU4cTNzWVBaOE1qQ2F3bTYxc3pXN0QtamRW?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 10:35:00 GMT",
-      "description": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "017e51817ba8dd30",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -348,6 +286,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zc2QzRGtsWGVvdzRCRzNSOE90dHNFU3Bjd1YxMWVvRzd0SUdKNEh0NDctaDNqRGNUVHFYck0wMDFuQ3pmd054OHJ4dGJVMkZFUmZtSTBqeGI1bC1qNFBqeE5PQU5BZw?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 01:37:14 GMT",
+      "description": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "47b78a507ccee5bc",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4T0R5d3E4SS02TG1tREx1dlNKbzB0Z0xna0FjSGZFQTRBU3pmVk5ZcjA0TldWdG44RUlhWlVmQjI1VnBMY0RNeFlvN2V2b3NHQnVRb0N4c0hEYk40ekE?oc=5",
@@ -367,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zNmlORmRWY1hYc2NhT3Y4RkluOWtneUpCYUJDTzZHaGNuMk8tQWV1QTZJWEpncUc5Wm5senRxRGxvYi0zSk5JS3dVRmh5a19OSk9zNFlZUmZkeHZpOGxnNkc3djZ0eVk?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 12:48:24 GMT",
+      "description": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "740d4659a7228c54",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AG…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -429,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1td3NTRHFqMjEtcjZzTGZKQzJhSFVzdjgzU2p2cXMyZ1kxeXlIX2p2S0ljR2FrRkJlcU0yb0s2NWZoRjU4cTNzWVBaOE1qQ2F3bTYxc3pXN0QtamRW?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 10:35:00 GMT",
+      "description": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。從汽車業務盈利能力到後續增長展望，市場將迎來新的觀察窗口。 💻 把關注清單變成你的期權交易計畫 開啟 Gate Web「股票」→「股票期權」，選擇 TSLA 等熱門標的，按 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "017e51817ba8dd30",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 新品熱度之後，特斯拉即將交出業績答卷！ Tesla 將於美東時間 10 月 21 日盤後公布第三季財報。…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -659,68 +690,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Uptober 財報季持續升溫。🔥📈 從 $JPM、$TSM 到 $GOOGL、$MSFT、$TSLA、$AAPL 和 $AMZN，各大企業正成為市場焦點。 重磅財報。更大的市場波動值得關注。 在 LBank 全天候 24/7 交易股票掛鉤市場。 你正在關注哪份財報？👀 探索 TradFi 市場:https://t.co/kjpIy - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YWXlzdFRlVmtsRW0zUHhKdUtBVHhUSTd4NklQdHQzOEU3RzR2N1pzNVJhTWY4NXhibkgta01PTjRQczh2aTdmeFl6aUN5VWltMzRvdFlYUWpkQW5sOWdhajhXQQ?oc=5",
-      "pubDate": "Tue, 13 Oct 2026 11:50:28 GMT",
-      "description": "Uptober 財報季持續升溫。🔥📈 從 $JPM、$TSM 到 $GOOGL、$MSFT、$TSLA、$AAPL 和 $AMZN，各大企業正成為市場焦點。 重磅財報。更大的市場波動值得關注。 在 LBank 全天候 24/7 交易股票掛鉤市場。 你正在關注哪份財報？👀 探索 TradFi 市場:https://t.co/kjpIy &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "4a8fe37190b3b163",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Uptober 財報季持續升溫。🔥📈 從 $JPM、$TSM 到 $GOOGL、$MSFT、$TSLA、$…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53NzFlS0hQVzNJWVBrX3RzYXdWcjFnYzZDZmlFNVZNQ3pQWDhCYmExeWg3djN6WFdock0wcEp3WDcyM2lwSXg5bmhScFV6S3lMTzFWQXhad242M2hp?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 09:20:00 GMT",
-      "description": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% RLC_USDT | 22.06% TIA_USDT | 20.39% NEAR_USDT | 20.01% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1v6Xx #網格交易 #震盪行情 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "47f63d11b4076016",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "10月16日 Gate 网格套利榜 INJ_USDT | 32.32% ZRO_USDT | 25.68% R…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tenZxYjFaaU9OTkZmamx5TmQ1VXB3NU9WdU1jVXVKbS1XMUJEdVV6T19ReTNSMjBpMFUxMG5COHRIejU3ZmMzcG1KT3E5aFFXOXpfVDZma1RuWmkwRFpNZS10anIwSmo1d21mSDRIMVFqZw?oc=5",
       "pubDate": "Fri, 16 Oct 2026 10:17:51 GMT",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZmxQWS0yQUtoWEI2a3l6ZnFkYlcxU3NzMGRDRVZjWVFRc3huX0tZRHMtN1ZTSnJWdlE2TWxWOERFMXBzeTE0Y1pzMjhHUGZmLUlHQzJiRXU4SkRQTjFzT2s5dFBZMzVCNW83bTRiVTkwZw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 01:43:40 GMT",
+      "description": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "e46fbfff96089c0d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $S…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
