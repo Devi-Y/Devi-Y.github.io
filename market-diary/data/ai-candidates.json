@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T13:45:00.784Z",
+  "generatedAt": "2026-10-21T18:36:05.543Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -194,6 +194,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T1pONW1BdzBpaGdNa2VtbUVVRTBFSlpSclVvb3JsQzllVWhScUt4V2RKY1NhbmQtSm5BdjNZZDdtSk5hWUlSOFg2OVJheTNzbWZCWmZmQ2J4R2syU1hpVjR5UDQ?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:36:04 GMT",
+      "description": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "72a503a53bec80e3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（D…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA 於 GTC 柏林宣布，與六家供應鏈夥伴擴充載板、先進封裝、測試及光學引擎之產能，以強化供應鏈之韌性及備援。黃仁勳表示：「需求極為強勁，產能則為限制所在。」 2、載板：未來三年 - X",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UOHpqVnlRZWhqTV9aXzE4WFZqelI2MlVFZVhPR3Q4ajdYNUItVjY1ODNEb0xueWNfYVJLV2hiYVVySE1JWWF1czFRM21LS0VnaGQ1UGpFOUNQVWVPa0o2LWdzVEM3VDJo?oc=5",
       "pubDate": "Wed, 21 Oct 2026 12:33:39 GMT",
@@ -212,37 +243,6 @@
       "ai": {
         "priority": "B",
         "summary": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ZlIzMjFPUUl6bFpSYjlaVnFqTFRDODR0RmlmcVcwV2hIUDNtdUwzbDBXQVU2NS1xN0hfMzZHbzJmQU1MZDNWMEhtWS02cDZwLUhmQko1VzhLTWtQN2c?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 16:16:00 GMT",
-      "description": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "cb402cf60e8da0c4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -287,6 +287,68 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FOGVUR1YzTEJwTDZIaTd1Sm53c0I5WFBMZWhOUEhxTnNBS2d3bzFBdnVGZmNPd2hRZGN5NWpBQjRxakM2LVRka2JHOWtrOG52SlJPU0wtMGp2Z0E?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 14:35:48 GMT",
+      "description": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a61f519ac5af9fe3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robotaxi、Optimus 最新進展備受關注 📈 利潤率與現金流成為市場焦點 $TSLA 能否再帶來驚喜，還是即將迎來更大波動？👀 🔗 前往 XT TradFi 交易 TSLAXUSDT 永續合約： https://t.co/BfXZu - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mMHRtcllqeTRrWGNPVlBtU1BpcEc5VmxtR0VBQjNiUjVsR2gwTmE2XzFPb2RBSTl4a3dKX2hWN1Ezd1hwR3lOWjY1bDlsdG9IeDV4cUhfcXIzdnJ4a2FUbkVyRQ?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 06:56:27 GMT",
+      "description": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robotaxi、Optimus 最新進展備受關注 📈 利潤率與現金流成為市場焦點 $TSLA 能否再帶來驚喜，還是即將迎來更大波動？👀 🔗 前往 XT TradFi 交易 TSLAXUSDT 永續合約： https://t.co/BfXZu &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "c709def627a8b92d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robo…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
       "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
@@ -318,37 +380,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
-      "title": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4T0R5d3E4SS02TG1tREx1dlNKbzB0Z0xna0FjSGZFQTRBU3pmVk5ZcjA0TldWdG44RUlhWlVmQjI1VnBMY0RNeFlvN2V2b3NHQnVRb0N4c0hEYk40ekE?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 15:07:00 GMT",
-      "description": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "f5f24b7fea45ec53",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
       "title": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zNmlORmRWY1hYc2NhT3Y4RkluOWtneUpCYUJDTzZHaGNuMk8tQWV1QTZJWEpncUc5Wm5senRxRGxvYi0zSk5JS3dVRmh5a19OSk9zNFlZUmZkeHZpOGxnNkc3djZ0eVk?oc=5",
       "pubDate": "Mon, 19 Oct 2026 12:48:24 GMT",
@@ -371,6 +402,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ZlIzMjFPUUl6bFpSYjlaVnFqTFRDODR0RmlmcVcwV2hIUDNtdUwzbDBXQVU2NS1xN0hfMzZHbzJmQU1MZDNWMEhtWS02cDZwLUhmQko1VzhLTWtQN2c?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 16:16:00 GMT",
+      "description": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "cb402cf60e8da0c4",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -429,37 +491,6 @@
       "ai": {
         "priority": "B",
         "summary": "MEXC 同步推出 TSLA Fever 活動，總獎池 500,000 USDT 🎁 🔹 TSLAX、TS…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針對今年 8 月發表、架構於第七代 HBM4E 之上的次世代客製化高頻寬記憶體「#NVHBM」，向 #三星電子、#SK海力士 與 #美光 三大記憶體供應商下達統一規格要求！ 負 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tb3Zzc254d3FOa1hWQldydmVfMEN0cnJTenRQcGl1YnQ0WV96dkZPeENVdHVXRUNvS0xEcTBlS1RzQnVCTm5oRzFBbkNJS3Y3U01JR0Mtc0p5b1ZTckdoTUdhbnk2UQ?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 05:18:09 GMT",
-      "description": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針對今年 8 月發表、架構於第七代 HBM4E 之上的次世代客製化高頻寬記憶體「#NVHBM」，向 #三星電子、#SK海力士 與 #美光 三大記憶體供應商下達統一規格要求！ 負 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "135396a42c0c5f89",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,37 +659,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， - X",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qYkJ3TEpuaE8zTmNTazlFczNjMnRadUx6X3pkT0xrOEtNUTQtZnJuOTAzbTZvbmJpdGVJZDUwNHl4Rk9FMkE0WkFaTDk5TnBhdkNicFhNMllPVU9teDhDc240b0JUQm8zZklhUmI3R18?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 01:37:14 GMT",
-      "description": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "42de3b8386158003",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "摩根大通（J.P. Morgan）〈英特爾：上調至中立：股價逼近 85 美元目標價；轉型雖然還要好幾年，但管理層執行穩健，我們的信心正在建立；AI 將持續是順風〉2026-10-16 - 上調理由：股價從 6 月高點回落約 36%，同業只回落 20% 到 25%，風險報酬變得比較均衡。從 2022 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LTEZfaVIzVzhmNmZ1am5nNTBjdmRKSnA2bk9uQnhMd01BWGEzM2lNM1BaWGVDQXZKYnRqSV9Ta1FNaXFNeTJuYlZaUTFFcWg1NG9Zc1RWa3NMaDhfdkE?oc=5",
       "pubDate": "Mon, 19 Oct 2026 06:02:00 GMT",
@@ -689,6 +689,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "宏观",
+      "title": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4T0R5d3E4SS02TG1tREx1dlNKbzB0Z0xna0FjSGZFQTRBU3pmVk5ZcjA0TldWdG44RUlhWlVmQjI1VnBMY0RNeFlvN2V2b3NHQnVRb0N4c0hEYk40ekE?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 15:07:00 GMT",
+      "description": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "f5f24b7fea45ec53",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YWhCdzE1N1g1MjdaVFhBdmE1VmFUQ01qRFlqUS0wQlB1UFQyQ2lLanFHYWZybVF4SG8ya0g5dG1BMDcxb09VeTZneFlQVEFoYkdpWWpyQ3l5ZHJ4N1BNM2djZnk?oc=5",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "統一回覆關心半導體行情的朋友們 $SOXX $SMH $MU $DRAM $AMD $NVDA $AVGO -…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jRUVSUkZXUFZELWlnc2lhMGp2djJWSnFYeHE4dU9sLTl2TWlIU2E0YWl5bmFEYW5ybjZCLTkyQ2FVRkl4SkhoQ0prOUppLUItc2ZYc1lpb0xrQ1NGekE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 00:23:20 GMT",
-      "description": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "b812997b2c5dd87a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
