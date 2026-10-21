@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T22:17:28.872Z",
+  "generatedAt": "2026-10-21T01:33:24.326Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -473,37 +473,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VSFB6em9FdV9wTVVCX3E5aHFmQ0R4OXJkRnlabTdYdVVJRnZUSXZXTE1NNU91REx4VXdVb29sdDlXdHhSWVZNOXh4QkhhRVk2NEFPYkxXWjZLT3RhdjhuWWNqcXNHR0xTODZYSGN2R1hoQQ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
-      "description": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "20e14ea23ad1c8fa",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "剛好 $TSM 又下來，是不是考慮再來撿一波？ 根據韓媒《#首爾經濟日報》報導，#輝達（ @nvidia ）針對今年 8 月發表、架構於第七代 HBM4E 之上的次世代客製化高頻寬記憶體「#NVHBM」，向 #三星電子、#SK海力士 與 #美光 三大記憶體供應商下達統一規格要求！ 負 - X",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tb3Zzc254d3FOa1hWQldydmVfMEN0cnJTenRQcGl1YnQ0WV96dkZPeENVdHVXRUNvS0xEcTBlS1RzQnVCTm5oRzFBbkNJS3Y3U01JR0Mtc0p5b1ZTckdoTUdhbnk2UQ?oc=5",
       "pubDate": "Mon, 19 Oct 2026 05:18:09 GMT",
@@ -566,10 +535,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣至少可以撐到 2027 年。佢講而家需求同供應之間條缺口仍然好闊，供應仲喺擴。 呢周芯片股捱沽，南韓股市波動亦大。稿入面跌浪有 $NVDA 、海力士呢啲名。財長口徑係南韓經 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qN3d2VktFSWRyUzlDWUVKY1hxZGRLTEpPamNDaEtrRDlmVG9fdkdVZnRaaFVULU1GLWRocDYzVU5iekJTUmFmVF91U1d1b0M2bjVYQmJ4Y0U1N2dNNkZUNw?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 01:10:14 GMT",
-      "description": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣至少可以撐到 2027 年。佢講而家需求同供應之間條缺口仍然好闊，供應仲喺擴。 呢周芯片股捱沽，南韓股市波動亦大。稿入面跌浪有 $NVDA 、海力士呢啲名。財長口徑係南韓經 &nbsp;&nbsp; X",
+      "title": "摩根大通（J.P. Morgan）〈英特爾：上調至中立：股價逼近 85 美元目標價；轉型雖然還要好幾年，但管理層執行穩健，我們的信心正在建立；AI 將持續是順風〉2026-10-16 - 上調理由：股價從 6 月高點回落約 36%，同業只回落 20% 到 25%，風險報酬變得比較均衡。從 2022 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LTEZfaVIzVzhmNmZ1am5nNTBjdmRKSnA2bk9uQnhMd01BWGEzM2lNM1BaWGVDQXZKYnRqSV9Ta1FNaXFNeTJuYlZaUTFFcWg1NG9Zc1RWa3NMaDhfdkE?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 06:02:00 GMT",
+      "description": "摩根大通（J.P. Morgan）〈英特爾：上調至中立：股價逼近 85 美元目標價；轉型雖然還要好幾年，但管理層執行穩健，我們的信心正在建立；AI 將持續是順風〉2026-10-16 - 上調理由：股價從 6 月高點回落約 36%，同業只回落 20% 到 25%，風險報酬變得比較均衡。從 2022 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -579,11 +548,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "31ef0f8c9a081042",
+      "id": "3d38cc37b3edfd0e",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "CNBC 10/17：南韓財長 Lee Hyoung-Il 喺曼谷 IMF／世銀年會場邊接受訪問，話半導體景氣…",
+        "summary": "摩根大通（J.P. Morgan）〈英特爾：上調至中立：股價逼近 85 美元目標價；轉型雖然還要好幾年，但管理…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -615,37 +584,6 @@
       "ai": {
         "priority": "B",
         "summary": "〈英特爾執行長陳立武專訪〉2026-10-18 - 中美技術差距：英特爾（Intel, INTC）執行長陳立武…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "摩根大通（J.P. Morgan）〈英特爾：上調至中立：股價逼近 85 美元目標價；轉型雖然還要好幾年，但管理層執行穩健，我們的信心正在建立；AI 將持續是順風〉2026-10-16 - 上調理由：股價從 6 月高點回落約 36%，同業只回落 20% 到 25%，風險報酬變得比較均衡。從 2022 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LTEZfaVIzVzhmNmZ1am5nNTBjdmRKSnA2bk9uQnhMd01BWGEzM2lNM1BaWGVDQXZKYnRqSV9Ta1FNaXFNeTJuYlZaUTFFcWg1NG9Zc1RWa3NMaDhfdkE?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 06:02:00 GMT",
-      "description": "摩根大通（J.P. Morgan）〈英特爾：上調至中立：股價逼近 85 美元目標價；轉型雖然還要好幾年，但管理層執行穩健，我們的信心正在建立；AI 將持續是順風〉2026-10-16 - 上調理由：股價從 6 月高點回落約 36%，同業只回落 20% 到 25%，風險報酬變得比較均衡。從 2022 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "3d38cc37b3edfd0e",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "摩根大通（J.P. Morgan）〈英特爾：上調至中立：股價逼近 85 美元目標價；轉型雖然還要好幾年，但管理…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang 安全至關重要。 我們必須以安全且負責任的方式發展這項技術。 但有一個常見…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tenZxYjFaaU9OTkZmamx5TmQ1VXB3NU9WdU1jVXVKbS1XMUJEdVV6T19ReTNSMjBpMFUxMG5COHRIejU3ZmMzcG1KT3E5aFFXOXpfVDZma1RuWmkwRFpNZS10anIwSmo1d21mSDRIMVFqZw?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 10:17:51 GMT",
+      "description": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "6aac86c7abb5ec31",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA x $SPCX 聯名款 - Roadster 也太扯 - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZmxQWS0yQUtoWEI2a3l6ZnFkYlcxU3NzMGRDRVZjWVFRc3huX0tZRHMtN1ZTSnJWdlE2TWxWOERFMXBzeTE0Y1pzMjhHUGZmLUlHQzJiRXU4SkRQTjFzT2s5dFBZMzVCNW83bTRiVTkwZw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 01:43:40 GMT",
+      "description": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $SPCX 開發的推進器 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "e46fbfff96089c0d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$TSLA Roadster 進行現場發射測試，達到了 0 到 60 英里加速僅 0.81 秒，4 個由 $S…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
