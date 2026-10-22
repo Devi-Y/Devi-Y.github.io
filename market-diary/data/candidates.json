@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:18:37.553Z",
+  "generatedAt": "2026-10-22T01:28:59.693Z",
   "windowDays": 7,
   "summary": {
     "total": 40,
@@ -244,26 +244,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
-      "description": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "31e5dc496866efe7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "宏观",
       "title": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zNmlORmRWY1hYc2NhT3Y4RkluOWtneUpCYUJDTzZHaGNuMk8tQWV1QTZJWEpncUc5Wm5senRxRGxvYi0zSk5JS3dVRmh5a19OSk9zNFlZUmZkeHZpOGxnNkc3djZ0eVk?oc=5",
@@ -439,6 +419,26 @@
       "score": 47,
       "priority": "B",
       "id": "42de3b8386158003",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
+      "description": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "31e5dc496866efe7",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -685,10 +685,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "NVIDIA 公司新聞稿 10/13（路透 10/14 倫敦同步）： $NVDA 承諾未來五年向英國捐出等值 2.5 億美元算力，每年約 5,000 萬，專攻 agentic AI 安全同保安研究。 算力經英國本地 NVIDIA Cloud Partners 交付，基建留喺英國；供應商、架構同商業條款仍未敲定。受惠範圍包 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55Z0hOZGN0OXNEbDcxTTAtZExxQjNmVjV1Z2hTNGxnYzFQWjVGWTAzVkpfOXlaWmlPNC14Mk5LQ2JISm9vcHJNc3VoT0d4QktUSGpZNHNzX0czSEhnSkpZbA?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 01:06:46 GMT",
-      "description": "NVIDIA 公司新聞稿 10/13（路透 10/14 倫敦同步）： $NVDA 承諾未來五年向英國捐出等值 2.5 億美元算力，每年約 5,000 萬，專攻 agentic AI 安全同保安研究。 算力經英國本地 NVIDIA Cloud Partners 交付，基建留喺英國；供應商、架構同商業條款仍未敲定。受惠範圍包 &nbsp;&nbsp; X",
+      "title": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05d3g4WjBSVDBVNE5hZzF4YWpOOFhPWXBlR2NJcUJhMVJST0pFODJMM3QyTmlaNzBsR0NOYTRKWEtLODFpYzl5SkRVRmJfbnA5bVlYbmhRaEJmVjhobzJLbg?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:44:03 GMT",
+      "description": "昨天靠白天 $TSLA 的收益，頂住了盤中科技股的回撤，本來4%收益，回撤到1.39% 早上看特斯拉會飛，馬上全倉買入，有時候果斷決策，是非常關鍵的。 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -698,7 +698,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "806f1c400cec9361",
+      "id": "0155d0092a7f23bf",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -822,5 +822,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-21T22:18:37.875Z"
+  "rankedAt": "2026-10-22T01:29:00.248Z"
 }

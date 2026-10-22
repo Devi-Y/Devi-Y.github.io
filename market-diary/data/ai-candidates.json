@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:18:38.285Z",
+  "generatedAt": "2026-10-22T01:29:00.733Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -348,37 +348,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
-      "description": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "31e5dc496866efe7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "宏观",
       "title": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zNmlORmRWY1hYc2NhT3Y4RkluOWtneUpCYUJDTzZHaGNuMk8tQWV1QTZJWEpncUc5Wm5senRxRGxvYi0zSk5JS3dVRmh5a19OSk9zNFlZUmZkeHZpOGxnNkc3djZ0eVk?oc=5",
@@ -646,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
+      "description": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "31e5dc496866efe7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
