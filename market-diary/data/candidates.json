@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T18:30:39.176Z",
+  "generatedAt": "2026-10-22T22:17:58.994Z",
   "windowDays": 7,
   "summary": {
     "total": 43,
@@ -825,6 +825,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Elon Musk has just confirmed that @SpaceX will attempt to catch Starship on flight 15 next month. They've released a new simulation video of what it will look like: - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LT0E4ZkVoSFRRV3VsbDVZQmEyTElnSFdEdERWRGJlQlNsWmcxQVdpVFRMNWVYb0ptVDFHVElKUFNvTTRTeVBfOTY0dVpZSTZLdHRFSlIzeFBwSVhVVDd2a1lmTEw?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 20:42:24 GMT",
+      "description": "Elon Musk has just confirmed that @SpaceX will attempt to catch Starship on flight 15 next month. They've released a new simulation video of what it will look like: &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 17,
+      "priority": "B",
+      "id": "424fb886e687a2c1",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "🎁 100% 中獎！Gate 社交第 2️⃣ 5️⃣ 期成長值抽獎開啟 完成社交任務，參與抽獎，最高贏 10,000 USDT 及 Gate 周邊！ 👉 立即抽獎：https://t.co/sLSVlFXRxt 🎯 成長值這樣賺 1️⃣ 廣場互動：發帖、點讚、評論、分享，最高 600/天 2️⃣ 直播互動：觀看、點讚、評論、分享 - X",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xb1FnZkJWT0FyWlEtWjlwYW5yN093Q0tXdkJManVvZVpxekVhNXhWbnFBV09LS1labnl4cGpXVTJqTVJzN2hCSTI0VkczNjA5LVMzZHI2TC01OUhO?oc=5",
       "pubDate": "Fri, 16 Oct 2026 11:00:03 GMT",
@@ -839,26 +859,6 @@
       "score": 14,
       "priority": "B",
       "id": "77923e22a7b19234",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "美伊戰爭打了大半年，S&P 500 卻還能不斷突破歷史新高？ @KobeissiLetter 拆解指數成分告訴你為什麼現在是「牛熊並存」的時代 💡 結論是：一旦未來消除了悲觀總經帶來的「隱形折價」，將會出現一波猛烈的上漲行情 相比年初市場預期今年至少降息 3 次，現在的時空 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1obUZfb1ptNXJkOUpyNzhjR2lsT0FsS2JYTXQwUGxtX2dQMkViTlFWNDVPMG4xMWM3dUpNTS16VW9IYTU2VTJJZDZ6LUJNX0RnLUhuSDZIRzNvdmlic084WHZtU1RPUQ?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 14:16:13 GMT",
-      "description": "美伊戰爭打了大半年，S&P 500 卻還能不斷突破歷史新高？ @KobeissiLetter 拆解指數成分告訴你為什麼現在是「牛熊並存」的時代 💡 結論是：一旦未來消除了悲觀總經帶來的「隱形折價」，將會出現一波猛烈的上漲行情 相比年初市場預期今年至少降息 3 次，現在的時空 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 14,
-      "priority": "B",
-      "id": "09579892d4489315",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -882,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-22T18:30:39.671Z"
+  "rankedAt": "2026-10-22T22:17:59.794Z"
 }
