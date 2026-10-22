@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-22T13:45:27.276Z",
+  "generatedAt": "2026-10-22T18:30:39.176Z",
   "windowDays": 7,
   "summary": {
-    "total": 42,
+    "total": 43,
     "bySignal": {
-      "事实": 6,
+      "事实": 7,
       "媒体": 0,
       "人物": 1,
       "资金": 0,
       "热点": 35
     },
     "byTrust": {
-      "A": 6,
+      "A": 7,
       "B": 1,
       "C": 35
     },
     "s": 0,
     "a": 5,
-    "b": 37
+    "b": 38
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -116,7 +116,7 @@
       "trustTier": "B",
       "confidence": "B",
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
+      "score": 66,
       "priority": "A",
       "id": "fb7fb3efd448be79",
       "rankReason": "高影响事件词；关键人物"
@@ -219,26 +219,6 @@
       "score": 50,
       "priority": "B",
       "id": "202f85db9b58e88a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FOGVUR1YzTEJwTDZIaTd1Sm53c0I5WFBMZWhOUEhxTnNBS2d3bzFBdnVGZmNPd2hRZGN5NWpBQjRxakM2LVRka2JHOWtrOG52SlJPU0wtMGp2Z0E?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 14:35:48 GMT",
-      "description": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a61f519ac5af9fe3",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -385,6 +365,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FOGVUR1YzTEJwTDZIaTd1Sm53c0I5WFBMZWhOUEhxTnNBS2d3bzFBdnVGZmNPd2hRZGN5NWpBQjRxakM2LVRka2JHOWtrOG52SlJPU0wtMGp2Z0E?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 14:35:48 GMT",
+      "description": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "a61f519ac5af9fe3",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖接力交成績單，誰能帶來驚喜？ - X",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hUkRXc2xmbXVQc2Vzd0NnQjJnUEEtUHBEd1J1S0Zxc011blpJRGJtdnlrMU5oaVJfLTZRTG5mUWxsQzNXUkhGN3R5MGFBMURJQ1cwTXlCZjNQc00?oc=5",
       "pubDate": "Tue, 20 Oct 2026 04:56:57 GMT",
@@ -405,26 +405,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sUnQ5b01wdExSQVJGY2VySWt4Q2gzQm80NThmVk5hSnBWX2UyOUJORTZLX1E0VjNIeXU3WU9rbjcwU3VOdm02ZEhQWk1lMUNPa3l4SnZjcFlEN0U?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 07:15:57 GMT",
-      "description": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "9af412e0aa5570f8",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robotaxi、Optimus 最新進展備受關注 📈 利潤率與現金流成為市場焦點 $TSLA 能否再帶來驚喜，還是即將迎來更大波動？👀 🔗 前往 XT TradFi 交易 TSLAXUSDT 永續合約： https://t.co/BfXZu - X",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mMHRtcllqeTRrWGNPVlBtU1BpcEc5VmxtR0VBQjNiUjVsR2gwTmE2XzFPb2RBSTl4a3dKX2hWN1Ezd1hwR3lOWjY1bDlsdG9IeDV4cUhfcXIzdnJ4a2FUbkVyRQ?oc=5",
       "pubDate": "Wed, 21 Oct 2026 06:56:27 GMT",
@@ -439,6 +419,26 @@
       "score": 47,
       "priority": "B",
       "id": "c709def627a8b92d",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sUnQ5b01wdExSQVJGY2VySWt4Q2gzQm80NThmVk5hSnBWX2UyOUJORTZLX1E0VjNIeXU3WU9rbjcwU3VOdm02ZEhQWk1lMUNPa3l4SnZjcFlEN0U?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 07:15:57 GMT",
+      "description": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "9af412e0aa5570f8",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -802,6 +802,26 @@
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "pubDate": "Fri, 16 Oct 2026 15:00:00 GMT",
+      "description": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 38,
+      "priority": "B",
+      "id": "f9ec4150e90d54d4",
+      "rankReason": "一级/官方信源"
+    },
+    {
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
@@ -862,5 +882,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-22T13:45:28.437Z"
+  "rankedAt": "2026-10-22T18:30:39.671Z"
 }

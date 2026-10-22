@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T13:45:28.846Z",
+  "generatedAt": "2026-10-22T18:30:40.274Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -143,7 +143,7 @@
       "trustTier": "B",
       "confidence": "B",
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
+      "score": 66,
       "priority": "A",
       "id": "fb7fb3efd448be79",
       "rankReason": "高影响事件词；关键人物",
@@ -305,37 +305,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FOGVUR1YzTEJwTDZIaTd1Sm53c0I5WFBMZWhOUEhxTnNBS2d3bzFBdnVGZmNPd2hRZGN5NWpBQjRxakM2LVRka2JHOWtrOG52SlJPU0wtMGp2Z0E?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 14:35:48 GMT",
-      "description": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a61f519ac5af9fe3",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -566,6 +535,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FOGVUR1YzTEJwTDZIaTd1Sm53c0I5WFBMZWhOUEhxTnNBS2d3bzFBdnVGZmNPd2hRZGN5NWpBQjRxakM2LVRka2JHOWtrOG52SlJPU0wtMGp2Z0E?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 14:35:48 GMT",
+      "description": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報，你看多還是看空？👇 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "a61f519ac5af9fe3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 $TSLA 財報即將揭曉！ 交車數據已經過關，接下來就看獲利與未來展望能不能撐起市場期待 👀 這次財報…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖接力交成績單，誰能帶來驚喜？ - X",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hUkRXc2xmbXVQc2Vzd0NnQjJnUEEtUHBEd1J1S0Zxc011blpJRGJtdnlrMU5oaVJfLTZRTG5mUWxsQzNXUkhGN3R5MGFBMURJQ1cwTXlCZjNQc00?oc=5",
       "pubDate": "Tue, 20 Oct 2026 04:56:57 GMT",
@@ -597,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sUnQ5b01wdExSQVJGY2VySWt4Q2gzQm80NThmVk5hSnBWX2UyOUJORTZLX1E0VjNIeXU3WU9rbjcwU3VOdm02ZEhQWk1lMUNPa3l4SnZjcFlEN0U?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 07:15:57 GMT",
-      "description": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "9af412e0aa5570f8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robotaxi、Optimus 最新進展備受關注 📈 利潤率與現金流成為市場焦點 $TSLA 能否再帶來驚喜，還是即將迎來更大波動？👀 🔗 前往 XT TradFi 交易 TSLAXUSDT 永續合約： https://t.co/BfXZu - X",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mMHRtcllqeTRrWGNPVlBtU1BpcEc5VmxtR0VBQjNiUjVsR2gwTmE2XzFPb2RBSTl4a3dKX2hWN1Ezd1hwR3lOWjY1bDlsdG9IeDV4cUhfcXIzdnJ4a2FUbkVyRQ?oc=5",
       "pubDate": "Wed, 21 Oct 2026 06:56:27 GMT",
@@ -646,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robo…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sUnQ5b01wdExSQVJGY2VySWt4Q2gzQm80NThmVk5hSnBWX2UyOUJORTZLX1E0VjNIeXU3WU9rbjcwU3VOdm02ZEhQWk1lMUNPa3l4SnZjcFlEN0U?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 07:15:57 GMT",
+      "description": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "9af412e0aa5570f8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
