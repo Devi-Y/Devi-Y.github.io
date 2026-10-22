@@ -1,9 +1,102 @@
 {
-  "generatedAt": "2026-10-22T07:31:42.841Z",
+  "generatedAt": "2026-10-22T13:45:28.846Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Differ Group Auto Limited (In Liquidation) (incorporated in the Cayman Islands with limited liability) (Stock Code: 6878) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610223news?sc_lang=en",
+      "pubDate": "Thu, 22 Oct 2026 17:12:00 +0800",
+      "description": "Announcement - In relation to the matter of Differ Group Auto Limited (In Liquidation) (incorporated in the Cayman Islands with limited liability) (Stock Code: 6878) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "6c9b299cf9d3edc0",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of AM Group Holdings Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 1849) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610222news?sc_lang=en",
+      "pubDate": "Thu, 22 Oct 2026 17:08:00 +0800",
+      "description": "Announcement - In relation to the matter of AM Group Holdings Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 1849) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "01e8e18b000b419a",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Sino Oil and Gas Holdings Limited (In Liquidation) (Incorporated in Bermuda with limited liability) (Stock Code: 702) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261022news?sc_lang=en",
+      "pubDate": "Thu, 22 Oct 2026 17:05:00 +0800",
+      "description": "Announcement - In relation to the matter of Sino Oil and Gas Holdings Limited (In Liquidation) (Incorporated in Bermuda with limited liability) (Stock Code: 702) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "889809d41c83cea6",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "港股",
       "signal": "事实",
@@ -30,6 +123,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jensen Huang: Demand for AI computing power is extremely strong, but capital shortages are constraining the expansion of the \"new cloud\" - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPREZOME9lRllKS1B0ckFmc3lkZ3RwVVdKdTFZelNSSnM0TlB0SWNzM2VfQVhRRjFld1B6MnZHTTc2ZjJoeG13UVFDb1F3ZFU4Z0s3dXpGM25FY0pmYWJJbDFGZFdxaDlvblpTaW5UTlBPNFlUVFZsZXRUeEpZYU9lZ21JelVHUllONzFTcVZHc2hIVWZBcERUMktNNWpPTzRDeWsyVjVSODM?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 14:44:00 GMT",
+      "description": "Jensen Huang: Demand for AI computing power is extremely strong, but capital shortages are constraining the expansion of the \"new cloud\" &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "fb7fb3efd448be79",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Jensen Huang: Demand for AI computing power is extremel…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -163,68 +287,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T1pONW1BdzBpaGdNa2VtbUVVRTBFSlpSclVvb3JsQzllVWhScUt4V2RKY1NhbmQtSm5BdjNZZDdtSk5hWUlSOFg2OVJheTNzbWZCWmZmQ2J4R2syU1hpVjR5UDQ?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 10:36:04 GMT",
-      "description": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "72a503a53bec80e3",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（D…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA 於 GTC 柏林宣布，與六家供應鏈夥伴擴充載板、先進封裝、測試及光學引擎之產能，以強化供應鏈之韌性及備援。黃仁勳表示：「需求極為強勁，產能則為限制所在。」 2、載板：未來三年 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FUTJpbFRsOGJTV29hcWNOU1NPaDk2Mml0aHpxR3RsUDN3ZFNQcXdRQ202UzlwY1paWnZ6U0VqSENaQmhUa0VaZnlXTlJ5NWN2X0k4Z1ZlMHZhWWtnWUE?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 12:33:39 GMT",
-      "description": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA 於 GTC 柏林宣布，與六家供應鏈夥伴擴充載板、先進封裝、測試及光學引擎之產能，以強化供應鏈之韌性及備援。黃仁勳表示：「需求極為強勁，產能則為限制所在。」 2、載板：未來三年 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "1b000296b6b4ff43",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcV84ZG1tSXpMR1JmbjRYLVpWeGJhY01lRVpleFZOeDNNWVN4QUo5UEN1UzFkYVd0YWh0bWh2QURzQWFMcGVYNmFTZ05LR1gtekJiOHhpSjZzLTlrbm53RlJOMjdhQ1U?oc=5",
       "pubDate": "Wed, 21 Oct 2026 22:50:40 GMT",
@@ -243,37 +305,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 TSLAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿！ - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Zd3ptZEN4T1ZIQVlwNnZTS3VGOU5TU3FJZ3dnYWVPZUEtUk8tRkdJUVNNZi1vekJNMTJkM0VaVlhsRWRray11YnJmRHpCN3lBQkRxY0hUaF9HaGJ0?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 10:40:00 GMT",
-      "description": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 TSLAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿！ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "ee4a6ee10f786456",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -317,11 +348,42 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zNmlORmRWY1hYc2NhT3Y4RkluOWtneUpCYUJDTzZHaGNuMk8tQWV1QTZJWEpncUc5Wm5senRxRGxvYi0zSk5JS3dVRmh5a19OSk9zNFlZUmZkeHZpOGxnNkc3djZ0eVk?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 12:48:24 GMT",
-      "description": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AGSD）技術的快速迭代，中國 AI 短劇產業正迎來一場深遠的結構性變革。 野村指出，AGSD 產業已正式跨越早期單純追求「低成本內容生產」的粗放階段，全面轉型為由「專業化與品質驅動」的精 &nbsp;&nbsp; X",
+      "type": "公司事件",
+      "title": "凌晨$META跟$TSLA財報都不算差，盤後卻一個抗跌一個更脆，這切口挺準：現在市場要的不是你還有多少錢可以砸，而是AI投入能不能覆蓋過去、當下跟未來的資本開支。 $META營收跟得上支出，所以信心還在；自由現金流被擠、2027折舊壓力還沒拆開講，短線撐得住 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PZFhPaUhRVGFfSXdQc1hfUlVuQ1pxcVplTlZaR1BxSjZNUml4WnFXM1hBaWVpMThIN0JFcnl0OXVHVE5mV2lGN2xrMXVLUU1INzRwM0Z0NmFuVVZ4WWtnZQ?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 11:12:51 GMT",
+      "description": "凌晨$META跟$TSLA財報都不算差，盤後卻一個抗跌一個更脆，這切口挺準：現在市場要的不是你還有多少錢可以砸，而是AI投入能不能覆蓋過去、當下跟未來的資本開支。 $META營收跟得上支出，所以信心還在；自由現金流被擠、2027折舊壓力還沒拆開講，短線撐得住 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a5cd518b5f7cdc5a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "凌晨$META跟$TSLA財報都不算差，盤後卻一個抗跌一個更脆，這切口挺準：現在市場要的不是你還有多少錢可以砸…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T1pONW1BdzBpaGdNa2VtbUVVRTBFSlpSclVvb3JsQzllVWhScUt4V2RKY1NhbmQtSm5BdjNZZDdtSk5hWUlSOFg2OVJheTNzbWZCWmZmQ2J4R2syU1hpVjR5UDQ?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:36:04 GMT",
+      "description": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -331,15 +393,77 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "740d4659a7228c54",
+      "id": "72a503a53bec80e3",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "野村 ：AI 生成視頻產業化 隨著 AI 生成視頻（AI-Generated Short Dramas, AG…",
+        "summary": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（D…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "宏观解读"
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA 於 GTC 柏林宣布，與六家供應鏈夥伴擴充載板、先進封裝、測試及光學引擎之產能，以強化供應鏈之韌性及備援。黃仁勳表示：「需求極為強勁，產能則為限制所在。」 2、載板：未來三年 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FUTJpbFRsOGJTV29hcWNOU1NPaDk2Mml0aHpxR3RsUDN3ZFNQcXdRQ202UzlwY1paWnZ6U0VqSENaQmhUa0VaZnlXTlJ5NWN2X0k4Z1ZlMHZhWWtnWUE?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 12:33:39 GMT",
+      "description": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA 於 GTC 柏林宣布，與六家供應鏈夥伴擴充載板、先進封裝、測試及光學引擎之產能，以強化供應鏈之韌性及備援。黃仁勳表示：「需求極為強勁，產能則為限制所在。」 2、載板：未來三年 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "1b000296b6b4ff43",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 TSLAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿！ - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Zd3ptZEN4T1ZIQVlwNnZTS3VGOU5TU3FJZ3dnYWVPZUEtUk8tRkdJUVNNZi1vekJNMTJkM0VaVlhsRWRray11YnJmRHpCN3lBQkRxY0hUaF9HaGJ0?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:40:00 GMT",
+      "description": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 TSLAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿！ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "ee4a6ee10f786456",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -398,37 +522,6 @@
       "ai": {
         "priority": "B",
         "summary": "路透社（Reuters）〈馬斯克稱，SpaceX 與特斯拉之 Terafab 目標於 2028 年量產晶片〉 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% ARIA_USDT | 70.12% ZEREBRO_USDT | 39.04% BR_USDT | 38.40% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55aHQzX3o2S0NpcHpfYU0wT1NhRmVVb0pCU0E5dmxLMGVKNVQwbDk0R3dEb2dzMEdPYndMMXNNMVdiamJyV003NmtMblFnelBEZFBsQl9ZOXRXTTZW?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 11:50:00 GMT",
-      "description": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% ARIA_USDT | 70.12% ZEREBRO_USDT | 39.04% BR_USDT | 38.40% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "d0e1a1360c259ce5",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "10月19日 Gate 网格套利榜 Q_USDT | 148.98% WOD_USDT | 100.33% A…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -597,10 +690,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "我整理了一份 機器人板塊幾個股票的觀察清單： $TSLA ： 整機機器人 $AMBA 、 $QCOM ：端側AI芯片 $CGNX 、 $ADI 、 $OUST ：視覺/感知 $NVDA ：物理AI平台 $SYM ：倉儲機器人 $AMZN ：機器人應用/物流自動化 $ISRG ：醫療機器人 $TER ：協作機器人 $ROK ：傳 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41dDlBWms5cEkxTjlKbDNvZlF3cmxMVzJOMGY0WEg1ajUxZzJ3YmJ0Q2FkUkphZC11am5ZZVIwOGFxZEFyUzMxZWtQRkppNXdLalp1S1lsMUhmVFcySWRLMw?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 08:13:08 GMT",
-      "description": "我整理了一份 機器人板塊幾個股票的觀察清單： $TSLA ： 整機機器人 $AMBA 、 $QCOM ：端側AI芯片 $CGNX 、 $ADI 、 $OUST ：視覺/感知 $NVDA ：物理AI平台 $SYM ：倉儲機器人 $AMZN ：機器人應用/物流自動化 $ISRG ：醫療機器人 $TER ：協作機器人 $ROK ：傳 &nbsp;&nbsp; X",
+      "title": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計算、網路、液冷、配線全部組裝、驗證好再出貨。 準備好的場地，部署時間從約 6 個月壓縮到最短 14 天，2027 年初開始全球交付。 夥伴包括 $DELL 、 $HPE 、Lenovo、Schneider - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xMmR6dlRkLUVRb2E4WUVwNmc1NzRRVno4LXVhOUhyd291V25DOEtNaWlOTDB3Zm15dElsVjE5NElqQkhUdEtHVThoNy1FVHJyM0RZRUE5RG02eS13dU9lQg?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:43:14 GMT",
+      "description": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計算、網路、液冷、配線全部組裝、驗證好再出貨。 準備好的場地，部署時間從約 6 個月壓縮到最短 14 天，2027 年初開始全球交付。 夥伴包括 $DELL 、 $HPE 、Lenovo、Schneider &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -610,42 +703,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "170e1b6732dbf9b5",
+      "id": "12e568125b2231ce",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "我整理了一份 機器人板塊幾個股票的觀察清單： $TSLA ： 整機機器人 $AMBA 、 $QCOM ：端側A…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， - X",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qYkJ3TEpuaE8zTmNTazlFczNjMnRadUx6X3pkT0xrOEtNUTQtZnJuOTAzbTZvbmJpdGVJZDUwNHl4Rk9FMkE0WkFaTDk5TnBhdkNicFhNMllPVU9teDhDc240b0JUQm8zZklhUmI3R18?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 01:37:14 GMT",
-      "description": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將同時迎來多個巨頭的財報和 #FOMC ，只能說 11/3 美國期中選舉前可能會持續這方向不明的波動... 歷經上週猛烈賣壓後（那指上週重挫 4.5%、標普跌近 2%）， &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "42de3b8386158003",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "上週和昨日的大跌看起來今天有了部分的支撐，不過這週開始有大型科技巨頭 $TSLA 的財報，下週 10/29 將…",
+        "summary": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -677,68 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4T0R5d3E4SS02TG1tREx1dlNKbzB0Z0xna0FjSGZFQTRBU3pmVk5ZcjA0TldWdG44RUlhWlVmQjI1VnBMY0RNeFlvN2V2b3NHQnVRb0N4c0hEYk40ekE?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 15:07:00 GMT",
-      "description": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "f5f24b7fea45ec53",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jRUVSUkZXUFZELWlnc2lhMGp2djJWSnFYeHE4dU9sLTl2TWlIU2E0YWl5bmFEYW5ybjZCLTkyQ2FVRkl4SkhoQ0prOUppLUItc2ZYc1lpb0xrQ1NGekE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 00:23:20 GMT",
-      "description": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global Summit 2026 展示其 NVLink PTFE 板原型，並點名 7 家供應商（圖表中）。 重點整理： - PTFE 混成（hybrid） 仍是 VR300 NVL576 Switch 板的首選方案——在性能與製造之間取得平衡。 - 長 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "b812997b2c5dd87a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "進一步更新 PTFE 採用情況：NVDA 在 OCP 展示 PTFE Nvidia 在 OCP Global …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
