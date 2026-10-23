@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T18:18:31.282Z",
+  "generatedAt": "2026-10-23T22:08:08.100Z",
   "windowDays": 7,
   "summary": {
     "total": 46,
@@ -115,11 +115,13 @@
       "declaredTrust": "B",
       "trustTier": "B",
       "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 66,
       "priority": "A",
       "id": "fb7fb3efd448be79",
-      "rankReason": "高影响事件词；关键人物"
+      "rankReason": "高影响事件词；关键人物",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "港股",
@@ -155,11 +157,13 @@
       "declaredTrust": "B",
       "trustTier": "B",
       "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 53,
       "priority": "B",
       "id": "8778d2fa0848020f",
-      "rankReason": "市场相关；关键人物"
+      "rankReason": "市场相关；关键人物",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "港股",
@@ -195,11 +199,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "0b7106562e4596f0",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -215,11 +221,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "7f95add4688d37da",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -235,11 +243,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "285db8f086673727",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -255,11 +265,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "27f17ad0542dcad7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -275,11 +287,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "54265d425a2fbe85",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -295,11 +309,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 50,
       "priority": "B",
       "id": "465edd8400ef5bb6",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -315,11 +331,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "72a503a53bec80e3",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -335,11 +353,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "202f85db9b58e88a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -355,11 +375,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "ee4a6ee10f786456",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -375,11 +397,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "424113962bac7f33",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -395,11 +419,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "a61f519ac5af9fe3",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -415,11 +441,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "a5cd518b5f7cdc5a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -435,11 +463,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "12e568125b2231ce",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -455,11 +485,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "2dfc55fc8dd549bb",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -475,11 +507,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "eed491d9e9f2c3d1",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -495,11 +529,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 47,
       "priority": "B",
       "id": "31e5dc496866efe7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -515,11 +551,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "f5f24b7fea45ec53",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -535,11 +573,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "740d4659a7228c54",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -555,11 +595,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "4b4c66d9323e3cef",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -575,11 +617,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "cb402cf60e8da0c4",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -595,11 +639,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "e46fbfff96089c0d",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -615,11 +661,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "d0e1a1360c259ce5",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -635,11 +683,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "e8126d89e5feac90",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -655,11 +705,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "3ed633aa8e6e46df",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -675,11 +727,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "53fc7beea4763218",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -695,11 +749,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "9af412e0aa5570f8",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -715,11 +771,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "1f9070930df1a2dc",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -735,11 +793,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "deab4adaf0a47837",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -755,11 +815,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "42de3b8386158003",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -775,11 +837,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "0155d0092a7f23bf",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -795,11 +859,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "31ef0f8c9a081042",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -815,11 +881,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "64b688eac232163d",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -835,11 +903,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 44,
       "priority": "B",
       "id": "3d38cc37b3edfd0e",
-      "rankReason": "高影响事件词；社媒只做热点发现"
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -855,11 +925,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 17,
       "priority": "B",
       "id": "9030163a698663ea",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -875,11 +947,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "24735ea7f32b6fdf",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -895,11 +969,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "09579892d4489315",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -915,11 +991,13 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "d43da1c39d1c2fd9",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     },
     {
       "market": "全球",
@@ -935,12 +1013,14 @@
       "declaredTrust": "C",
       "trustTier": "C",
       "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验；本轮来源抓取失败，沿用7日窗口内最近一次候选，使用前需重新确认时效",
       "score": 14,
       "priority": "B",
       "id": "5dba6816abfe2da6",
-      "rankReason": "社媒只做热点发现"
+      "rankReason": "社媒只做热点发现",
+      "carryOver": true,
+      "carriedAt": "2026-10-23T22:08:08.097Z"
     }
   ],
-  "rankedAt": "2026-10-23T18:18:34.973Z"
+  "rankedAt": "2026-10-23T22:08:08.149Z"
 }
