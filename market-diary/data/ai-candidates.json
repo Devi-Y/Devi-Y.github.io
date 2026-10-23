@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T13:23:18.887Z",
+  "generatedAt": "2026-10-23T18:18:36.102Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -255,6 +255,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "宏观",
+      "title": "Tesla ($TSLA) builds its own cars, batteries and robots. For chip substrates, it's writing a check so someone else builds the line. Maeil Business (MK) exclusive, Oct 22, citing industry sources: ▸ Tesla puts in ~₩1.1 trillion for a dedicated FC-BGA line at Samsun - X",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QVUZLbjhOakFOUTJpa1hWWXdwRTkxNTZEUElDcEZBOHNVOUFmQi1EOUpGTzVJOTN1NFk3WkU0Z2o1TEgwM3NlVGdBSXRTWGlLVnR1dk1Hek1GdVpFNzBudjVNcmI0UkZJUlE?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 13:32:24 GMT",
+      "description": "Tesla ($TSLA) builds its own cars, batteries and robots. For chip substrates, it's writing a check so someone else builds the line. Maeil Business (MK) exclusive, Oct 22, citing industry sources: ▸ Tesla puts in ~₩1.1 trillion for a dedicated FC-BGA line at Samsun &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "0b7106562e4596f0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现新的宏观政策或数据更新",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "IPO",
       "title": "ZDNet Korea〈「上市在即」的 iPhone Duo，日東紡「T-glass」供應成變數〉 - 卡關的是 T-glass：日東紡（Nitto Boseki, 3110.T）的 T-glass 是 PCB 和 CCL 用的高階玻璃纖維紗。輝達（NVIDIA, NVDA）等公司的 AI 晶片只用它，所以供不應求，日東紡也優先供應 AI 晶片。 - 蘋 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FN0gtZkstTWRzdG56bjhURGV2ZlluZzdaNTJMZWNGb1JjNGpiNDIyaElsZVBwUjM0dG5jdEFRaUp6OW82MEEyaTctOC01QTloSHlyQkRTSDBiNDlrVlE?oc=5",
@@ -278,37 +309,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "财报",
-      "title": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBidTcxcVhTZGh2M2pwbXpPckk5ejBqeXpldUVDY0VWelEyNmNXZ0VlUDc5aE1EVEk4VlR3X3lnRk9jSDEzdkwwOUFYR011aV8xdWhiR2VldF9RRFR1aENXUA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 14:29:52 GMT",
-      "description": "@LanceRoberts @thedailyshot $MU and $NVDA carrying 36% of S&P earnings growth this quarter. Selective is putting it mildly. Rest of the index is mostly along for the ride. &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "8c45724983f91580",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X发布最新业绩信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "财报解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -367,6 +367,37 @@
       "ai": {
         "priority": "B",
         "summary": "在 Bitunix TradFi 永續合約全天候隨時交易 $TSLA ✅ 每次的波動都能即時佈局最新策略🌟 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "10月23日 Gate 股票套利榜 UNITREE_USDT | 22.18% MINIMAX_USDT | 18.94% ZHONGJI_USDT | 14.71% ZHIPU_USDT | 14.15% CXMT_USDT | 12.93% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oTklXOWQzT3dZNnpRTF8wOEs5Qmx4N0hOdmpiSFRmWVVYajRqcXNTNUZVZDBpRTBZRkt2ZHZTaHJFZHZxOUNvZC1iLS1KYmQ1akdPNE4wazJwUl9E?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 09:11:00 GMT",
+      "description": "10月23日 Gate 股票套利榜 UNITREE_USDT | 22.18% MINIMAX_USDT | 18.94% ZHONGJI_USDT | 14.71% ZHIPU_USDT | 14.15% CXMT_USDT | 12.93% 使用 Gate 合約網格交易 $TSLA，把握熱門資產波動機會 https://t.co/JSQSd1vEN5 #網格交易 #震盪行情 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "54265d425a2fbe85",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "10月23日 Gate 股票套利榜 UNITREE_USDT | 22.18% MINIMAX_USDT | …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -491,37 +522,6 @@
       "ai": {
         "priority": "B",
         "summary": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ZlIzMjFPUUl6bFpSYjlaVnFqTFRDODR0RmlmcVcwV2hIUDNtdUwzbDBXQVU2NS1xN0hfMzZHbzJmQU1MZDNWMEhtWS02cDZwLUhmQko1VzhLTWtQN2c?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 16:16:00 GMT",
-      "description": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "cb402cf60e8da0c4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -721,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA、Layer2、MEME 板塊同步走強 🇺🇸 美股市場 🚗 TSLA 盤後跌逾 3%，市場持續消化財報 📱 META 盤後漲約 3% 🚀 SpaceX 相關報價上漲約 7% 📊 市場每天都有新故事，下一個熱點會在哪 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qTUcxNHlWTDFBUkVRVDUyY0ZySkdkU2tCTzBjdHZQbkxyQ2thSjNHR0FkRnRUSmJqUmppRlRVSTlvaGFoVFBDMkNWaHpsVGhNVFFNSEh3Uk5xOEU?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 09:12:15 GMT",
-      "description": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA、Layer2、MEME 板塊同步走強 🇺🇸 美股市場 🚗 TSLA 盤後跌逾 3%，市場持續消化財報 📱 META 盤後漲約 3% 🚀 SpaceX 相關報價上漲約 7% 📊 市場每天都有新故事，下一個熱點會在哪 &nbsp;&nbsp; X",
+      "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
+      "description": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "8b6627fddea75230",
+      "id": "31e5dc496866efe7",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA…",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
