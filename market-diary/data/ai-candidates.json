@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:18:00.655Z",
+  "generatedAt": "2026-10-23T01:28:44.199Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -191,6 +191,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Will the memory market shift from a \"chip shortage\" to a \"red ocean\"? Jensen Huang weighs in: Unlikely to see oversupply by 2029 - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeHEwMnRPbWZPZnJPbXA5djdCanphakROOWVORi05TWtBeW1Hb2ZqdWVJeUpJMHA3cDFmckRpZnhKaktVUWpCemFVSWNtQjlnbVNCeVJuY2VKd1h0UmZYWld5Y2lNYlFLelVMTnFXM1BOUGNBZXpVM1cxcGV5RUJfamtpV3NOcHh3T1VuZWFMX0YzUTVnY0MzcHJLcw?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 00:06:36 GMT",
+      "description": "Will the memory market shift from a \"chip shortage\" to a \"red ocean\"? Jensen Huang weighs in: Unlikely to see oversupply by 2029 &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 53,
+      "priority": "B",
+      "id": "8778d2fa0848020f",
+      "rankReason": "市场相关；关键人物",
+      "ai": {
+        "priority": "B",
+        "summary": "Will the memory market shift from a \"chip shortage\" to …",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -287,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcV84ZG1tSXpMR1JmbjRYLVpWeGJhY01lRVpleFZOeDNNWVN4QUo5UEN1UzFkYVd0YWh0bWh2QURzQWFMcGVYNmFTZ05LR1gtekJiOHhpSjZzLTlrbm53RlJOMjdhQ1U?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 22:50:40 GMT",
-      "description": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "202f85db9b58e88a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "凌晨$META跟$TSLA財報都不算差，盤後卻一個抗跌一個更脆，這切口挺準：現在市場要的不是你還有多少錢可以砸，而是AI投入能不能覆蓋過去、當下跟未來的資本開支。 $META營收跟得上支出，所以信心還在；自由現金流被擠、2027折舊壓力還沒拆開講，短線撐得住 - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PZFhPaUhRVGFfSXdQc1hfUlVuQ1pxcVplTlZaR1BxSjZNUml4WnFXM1hBaWVpMThIN0JFcnl0OXVHVE5mV2lGN2xrMXVLUU1INzRwM0Z0NmFuVVZ4WWtnZQ?oc=5",
       "pubDate": "Thu, 22 Oct 2026 11:12:51 GMT",
@@ -336,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "凌晨$META跟$TSLA財報都不算差，盤後卻一個抗跌一個更脆，這切口挺準：現在市場要的不是你還有多少錢可以砸…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84X3RuZDRQaUowNXZiMk5GNlAtVHZ3aUJ1ekd1dnlfYlZBNkJmbUt3dGJlY1I2azBOMWFsQWhnQ2VDbVd1ZnBDcGtjSjhxaXdkdEEzQkt0R3hKWENtQVZ2dA?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 03:25:31 GMT",
+      "description": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2dfc55fc8dd549bb",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -398,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcV84ZG1tSXpMR1JmbjRYLVpWeGJhY01lRVpleFZOeDNNWVN4QUo5UEN1UzFkYVd0YWh0bWh2QURzQWFMcGVYNmFTZ05LR1gtekJiOHhpSjZzLTlrbm53RlJOMjdhQ1U?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 22:50:40 GMT",
+      "description": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "202f85db9b58e88a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -677,68 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "📊 TSLA × META 財報將至，增長故事能否兌現？兩家公司均將於美東時間 10 月 21 日盤後公布第…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計算、網路、液冷、配線全部組裝、驗證好再出貨。 準備好的場地，部署時間從約 6 個月壓縮到最短 14 天，2027 年初開始全球交付。 夥伴包括 $DELL 、 $HPE 、Lenovo、Schneider - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xMmR6dlRkLUVRb2E4WUVwNmc1NzRRVno4LXVhOUhyd291V25DOEtNaWlOTDB3Zm15dElsVjE5NElqQkhUdEtHVThoNy1FVHJyM0RZRUE5RG02eS13dU9lQg?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 10:43:14 GMT",
-      "description": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計算、網路、液冷、配線全部組裝、驗證好再出貨。 準備好的場地，部署時間從約 6 個月壓縮到最短 14 天，2027 年初開始全球交付。 夥伴包括 $DELL 、 $HPE 、Lenovo、Schneider &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "12e568125b2231ce",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
-      "description": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "31e5dc496866efe7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
