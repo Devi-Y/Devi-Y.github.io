@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T01:28:44.199Z",
+  "generatedAt": "2026-10-23T07:28:42.244Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -160,37 +160,6 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en",
-      "pubDate": "Tue, 20 Oct 2026 10:06:00 +0800",
-      "description": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 55,
-      "priority": "B",
-      "id": "12a4791671bb98ad",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
@@ -216,6 +185,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en",
+      "pubDate": "Tue, 20 Oct 2026 10:06:00 +0800",
+      "description": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 52,
+      "priority": "B",
+      "id": "12a4791671bb98ad",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "港交所出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -349,10 +349,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84X3RuZDRQaUowNXZiMk5GNlAtVHZ3aUJ1ekd1dnlfYlZBNkJmbUt3dGJlY1I2azBOMWFsQWhnQ2VDbVd1ZnBDcGtjSjhxaXdkdEEzQkt0R3hKWENtQVZ2dA?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 03:25:31 GMT",
-      "description": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 &nbsp;&nbsp; X",
+      "title": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperliquid大戶逆勢加倉META、NVDA等美股多頭，加密牛市有望延續，但8萬美元能否守穩是反彈關鍵。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oNXBtV1podE02M2NhYjFWSXIyaUh0YXVYUHhnQzFBNF9MY0RsNjRHUHlFX05DcVpOVFBpejNYMmk2Z2dGcWNPMWpBQkg2ZDI0T3dDZGdZQjl4UVJ5aTBZV24zaFY?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 05:38:25 GMT",
+      "description": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperliquid大戶逆勢加倉META、NVDA等美股多頭，加密牛市有望延續，但8萬美元能否守穩是反彈關鍵。 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -362,11 +362,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "2dfc55fc8dd549bb",
+      "id": "465edd8400ef5bb6",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，…",
+        "summary": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperli…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -398,37 +398,6 @@
       "ai": {
         "priority": "B",
         "summary": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（D…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA 於 GTC 柏林宣布，與六家供應鏈夥伴擴充載板、先進封裝、測試及光學引擎之產能，以強化供應鏈之韌性及備援。黃仁勳表示：「需求極為強勁，產能則為限制所在。」 2、載板：未來三年 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FUTJpbFRsOGJTV29hcWNOU1NPaDk2Mml0aHpxR3RsUDN3ZFNQcXdRQ202UzlwY1paWnZ6U0VqSENaQmhUa0VaZnlXTlJ5NWN2X0k4Z1ZlMHZhWWtnWUE?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 12:33:39 GMT",
-      "description": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA 於 GTC 柏林宣布，與六家供應鏈夥伴擴充載板、先進封裝、測試及光學引擎之產能，以強化供應鏈之韌性及備援。黃仁勳表示：「需求極為強勁，產能則為限制所在。」 2、載板：未來三年 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "1b000296b6b4ff43",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "NVIDIA（ $NVDA）〈NVIDIA 與供應鏈夥伴擴充產能，加速 AI 基礎設施建設〉 1、NVIDIA…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,99 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖接力交成績單，誰能帶來驚喜？ - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hUkRXc2xmbXVQc2Vzd0NnQjJnUEEtUHBEd1J1S0Zxc011blpJRGJtdnlrMU5oaVJfLTZRTG5mUWxsQzNXUkhGN3R5MGFBMURJQ1cwTXlCZjNQc00?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 04:56:57 GMT",
-      "description": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖接力交成績單，誰能帶來驚喜？ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "53fc7beea4763218",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robotaxi、Optimus 最新進展備受關注 📈 利潤率與現金流成為市場焦點 $TSLA 能否再帶來驚喜，還是即將迎來更大波動？👀 🔗 前往 XT TradFi 交易 TSLAXUSDT 永續合約： https://t.co/BfXZu - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mMHRtcllqeTRrWGNPVlBtU1BpcEc5VmxtR0VBQjNiUjVsR2gwTmE2XzFPb2RBSTl4a3dKX2hWN1Ezd1hwR3lOWjY1bDlsdG9IeDV4cUhfcXIzdnJ4a2FUbkVyRQ?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 06:56:27 GMT",
-      "description": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robotaxi、Optimus 最新進展備受關注 📈 利潤率與現金流成為市場焦點 $TSLA 能否再帶來驚喜，還是即將迎來更大波動？👀 🔗 前往 XT TradFi 交易 TSLAXUSDT 永續合約： https://t.co/BfXZu &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "c709def627a8b92d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚗 Tesla Q3 財報即將揭曉！ 📊 汽車交付量達 486,532 輛，超出市場預期！ 🤖 Robo…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sUnQ5b01wdExSQVJGY2VySWt4Q2gzQm80NThmVk5hSnBWX2UyOUJORTZLX1E0VjNIeXU3WU9rbjcwU3VOdm02ZEhQWk1lMUNPa3l4SnZjcFlEN0U?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 07:15:57 GMT",
-      "description": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI 板塊繼續吸引資金目光 🤖 加密、美股、原油都有戲！ 這波行情，你站哪一邊？🔥 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "9af412e0aa5570f8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "今天的市場有點熱鬧啊 👀 幣圈 $WLD、 $ARB 帶頭衝，美股 $AMZN、 $TSLA 也沒閒著 AI…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "📊 TSLA × META 財報將至，增長故事能否兌現？兩家公司均將於美東時間 10 月 21 日盤後公布第三季業績，一場圍繞盈利表現與未來指引的檢驗即將開啟。 🚗 TSLA 看什麼？ 汽車利潤率、儲能業務，以及 Robotaxi 的後續進展。 🤖 META 看什麼？ 廣告增長能否延續，A - X",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wbDlNaEVHVVRmWE1vcjNjMGFKNy0ybkpNdFV6QzFNZVlIV25RS3k0N2o2VlhWbTA2N1FCTzlNWkpmLTMyV0FvWHNGOUt4ZjJ2VzNVOXVwZWh4VzFW?oc=5",
       "pubDate": "Tue, 20 Oct 2026 11:32:00 GMT",
@@ -743,6 +619,130 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計算、網路、液冷、配線全部組裝、驗證好再出貨。 準備好的場地，部署時間從約 6 個月壓縮到最短 14 天，2027 年初開始全球交付。 夥伴包括 $DELL 、 $HPE 、Lenovo、Schneider - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xMmR6dlRkLUVRb2E4WUVwNmc1NzRRVno4LXVhOUhyd291V25DOEtNaWlOTDB3Zm15dElsVjE5NElqQkhUdEtHVThoNy1FVHJyM0RZRUE5RG02eS13dU9lQg?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:43:14 GMT",
+      "description": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計算、網路、液冷、配線全部組裝、驗證好再出貨。 準備好的場地，部署時間從約 6 個月壓縮到最短 14 天，2027 年初開始全球交付。 夥伴包括 $DELL 、 $HPE 、Lenovo、Schneider &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "12e568125b2231ce",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "英偉達 $NVDA 推出 DSX POD——模組化容器式 Vera Rubin AI 工廠。 夥伴在工廠裡把計…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84X3RuZDRQaUowNXZiMk5GNlAtVHZ3aUJ1ekd1dnlfYlZBNkJmbUt3dGJlY1I2azBOMWFsQWhnQ2VDbVd1ZnBDcGtjSjhxaXdkdEEzQkt0R3hKWENtQVZ2dA?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 03:25:31 GMT",
+      "description": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "2dfc55fc8dd549bb",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13V3FLZXlveWVUNFAzbkdQUVF5YkV5Tk9EQ0N3ZHFOY3JBeTF0VklaWXV2eEl6WlFSemttWGFYbV85NzRlV2tOMGkyYW90RVVueWdRZzZEVWc0bFVhSnc?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 23:59:58 GMT",
+      "description": "The AI wave continued to fuel Taiwan’s export orders in September, surging 62.4% year-on-year to a record high US$114.2 billion, media report. Orders from the United States rose 79.4% to $45.4B, topping all destinations. By product category, electronics ord &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "31e5dc496866efe7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4T0R5d3E4SS02TG1tREx1dlNKbzB0Z0xna0FjSGZFQTRBU3pmVk5ZcjA0TldWdG44RUlhWlVmQjI1VnBMY0RNeFlvN2V2b3NHQnVRb0N4c0hEYk40ekE?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 15:07:00 GMT",
+      "description": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "f5f24b7fea45ec53",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
