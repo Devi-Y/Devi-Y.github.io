@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T20:45:38.261Z",
+  "generatedAt": "2026-10-24T23:10:30.300Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -132,6 +132,37 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
+      "title": "NVIDIA's GTC Berlin conference is about to kick off! Jensen Huang will deliver the keynote address, drawing attention to AI factories and European investments. - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWI1ZTBJQzRXR3FrdXhValFMUF80bTNlal81Q0huYkt3TnAtU2huNDdwWXp0bHN6cDdnbHU3VDBJUDlOUmJ1SElselNNeGdKOWVHU2Zhd0VuWXVQcGs5RVJNTGhmWE5ib2gwV3dCcjd3OHRqejVKN2tMQUFTUEpNV3lkYmdHeHM?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 01:07:00 GMT",
+      "description": "NVIDIA's GTC Berlin conference is about to kick off! Jensen Huang will deliver the keynote address, drawing attention to AI factories and European investments. &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "c106f95e77f9d932",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "NVIDIA's GTC Berlin conference is about to kick off! Je…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
       "title": "Jensen Huang: Demand for AI computing power is extremely strong, but capital shortages are constraining the expansion of the \"new cloud\" - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPREZOME9lRllKS1B0ckFmc3lkZ3RwVVdKdTFZelNSSnM0TlB0SWNzM2VfQVhRRjFld1B6MnZHTTc2ZjJoeG13UVFDb1F3ZFU4Z0s3dXpGM25FY0pmYWJJbDFGZFdxaDlvblpTaW5UTlBPNFlUVFZsZXRUeEpZYU9lZ21JelVHUllONzFTcVZHc2hIVWZBcERUMktNNWpPTzRDeWsyVjVSODM?oc=5",
       "pubDate": "Thu, 22 Oct 2026 12:25:21 GMT",
@@ -218,6 +249,37 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "Intel, Nvidia, and AMD are putting money down to lock high-end substrate capacity. Taiwanese makers are expanding fast. $INTC $NVDA $AMD Economic Daily News reports industry sources saying the three companies have paid deposits totaling more than - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QV0xSWU9obFd1bnVpUF9vNjQ4SWtXREpMU0xBLXoyVXhxWnM0RHVUWUpFT1pXTTlIT2dYWGJRaVl6c3NFQlBDR2hlM0MzdWhUNS1sR19rR2o2VXRSR2JWcTBhVDFDMEU?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 01:24:49 GMT",
+      "description": "Intel, Nvidia, and AMD are putting money down to lock high-end substrate capacity. Taiwanese makers are expanding fast. $INTC $NVDA $AMD Economic Daily News reports industry sources saying the three companies have paid deposits totaling more than &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a5851e36322e1e89",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现新的宏观政策或数据更新",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -398,37 +460,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA GTC Berlin Call Memo 20261021 重點摘要 1. 推DSX Pod加速A…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcV84ZG1tSXpMR1JmbjRYLVpWeGJhY01lRVpleFZOeDNNWVN4QUo5UEN1UzFkYVd0YWh0bWh2QURzQWFMcGVYNmFTZ05LR1gtekJiOHhpSjZzLTlrbm53RlJOMjdhQ1U?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 22:50:40 GMT",
-      "description": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "202f85db9b58e88a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -677,37 +708,6 @@
       "ai": {
         "priority": "B",
         "summary": "輝達 (NVDA) 執行長黃仁勳表示，美國 (U.S.) 必須認真看待中國 (China) 在人工智慧 (AI…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA、Layer2、MEME 板塊同步走強 🇺🇸 美股市場 🚗 TSLA 盤後跌逾 3%，市場持續消化財報 📱 META 盤後漲約 3% 🚀 SpaceX 相關報價上漲約 7% 📊 市場每天都有新故事，下一個熱點會在哪 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qTUcxNHlWTDFBUkVRVDUyY0ZySkdkU2tCTzBjdHZQbkxyQ2thSjNHR0FkRnRUSmJqUmppRlRVSTlvaGFoVFBDMkNWaHpsVGhNVFFNSEh3Uk5xOEU?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 09:12:15 GMT",
-      "description": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA、Layer2、MEME 板塊同步走強 🇺🇸 美股市場 🚗 TSLA 盤後跌逾 3%，市場持續消化財報 📱 META 盤後漲約 3% 🚀 SpaceX 相關報價上漲約 7% 📊 市場每天都有新故事，下一個熱點會在哪 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "8b6627fddea75230",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
