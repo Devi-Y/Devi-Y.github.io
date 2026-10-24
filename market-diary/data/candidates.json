@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-24T18:06:56.213Z",
+  "generatedAt": "2026-10-24T20:45:37.375Z",
   "windowDays": 7,
   "summary": {
-    "total": 47,
+    "total": 48,
     "bySignal": {
       "事实": 6,
       "媒体": 0,
       "人物": 1,
       "资金": 0,
-      "热点": 40
+      "热点": 41
     },
     "byTrust": {
       "A": 6,
       "B": 1,
-      "C": 40
+      "C": 41
     },
     "s": 0,
     "a": 5,
-    "b": 42
+    "b": 43
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -180,6 +180,26 @@
       "priority": "B",
       "id": "7f95add4688d37da",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkcGRMX3RiUHZ6NGRoeFJxQzluU2ZHd05NU1dHX0NQdF9TNDRIaEs1LWp2OW1EbzJEZ205VHZDNk5EcDFLY3dVNTNvblhQZWNTdjFXTXZhc2tfNzg?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 02:05:19 GMT",
+      "description": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "36da8488697bf16a",
+      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -605,26 +625,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T1pONW1BdzBpaGdNa2VtbUVVRTBFSlpSclVvb3JsQzllVWhScUt4V2RKY1NhbmQtSm5BdjNZZDdtSk5hWUlSOFg2OVJheTNzbWZCWmZmQ2J4R2syU1hpVjR5UDQ?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 10:36:04 GMT",
-      "description": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "72a503a53bec80e3",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LRjRKeXE5bHpVblpzMVVCdjF0ZWdHMzA0UmpxMGZiRWZwSVY4aEJaWGtjZ3hMX1JDdmR1WTk5bVRxT0NoaGVzVHlmalJEYm1FRGI5Q3l5LTgxMUxwbXlBR2pwTTY1enM?oc=5",
       "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
@@ -639,6 +639,26 @@
       "score": 44,
       "priority": "B",
       "id": "3ed633aa8e6e46df",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T1pONW1BdzBpaGdNa2VtbUVVRTBFSlpSclVvb3JsQzllVWhScUt4V2RKY1NhbmQtSm5BdjNZZDdtSk5hWUlSOFg2OVJheTNzbWZCWmZmQ2J4R2syU1hpVjR5UDQ?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:36:04 GMT",
+      "description": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "72a503a53bec80e3",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -885,26 +905,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "https://t.co/7wU6LoeEt4 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByZTlaeTNhQkFwaGVyT2hsNllPd3VBYVpLZjBUYUY1cXJsN3k0bi1oRGcxcXJJWDRVbWZ0cnI1azRBd3pMaTg0LWxIWFJ4ZUtveGg0LU5ySEpTNERTRlJIekhyZXkyd2M?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 01:24:50 GMT",
-      "description": "https://t.co/7wU6LoeEt4 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 20,
-      "priority": "B",
-      "id": "063a96859b342024",
-      "rankReason": "社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "三星泰勒一廠 2nm 6,000 片，是三星泰勒一廠最後一塊空地的大小。 韓國 ZDNet 10/23 引業界消息：三星電子（005930）最近下單，在德州泰勒一廠加裝每月約 6,000 片的 2nm 設備，目的是把廠裡剩下的閒置空間全部填滿。 算起來： ▸ 先前採購的設備目標每月 1 萬片 - X",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CSV9DTnRqTGdZbExzMW5sZlFxNkxNSVhIQVlZZ1YyZFR5Y1FxT0JzZjIxUjZDZ1QzSTJEUjdRNGRkaS1Gdk5jVUdPRFBsSmtKQUswUUpVUEVWLWhGcXhN?oc=5",
       "pubDate": "Sat, 24 Oct 2026 05:30:00 GMT",
@@ -919,6 +919,26 @@
       "score": 20,
       "priority": "B",
       "id": "1ae18ec8bdcd7447",
+      "rankReason": "社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "- Xiaohongshu",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 17:25:24 GMT",
+      "description": "&nbsp;&nbsp; Xiaohongshu",
+      "source": "Xiaohongshu",
+      "sourceKey": "xiaohongshu",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 20,
+      "priority": "B",
+      "id": "5dba6816abfe2da6",
       "rankReason": "社媒只做热点发现"
     },
     {
@@ -962,5 +982,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-24T18:06:56.847Z"
+  "rankedAt": "2026-10-24T20:45:37.901Z"
 }
