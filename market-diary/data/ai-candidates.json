@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T23:10:30.300Z",
+  "generatedAt": "2026-10-25T01:07:53.169Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -143,7 +143,7 @@
       "trustTier": "B",
       "confidence": "B",
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
+      "score": 66,
       "priority": "A",
       "id": "c106f95e77f9d932",
       "rankReason": "高影响事件词；关键人物",

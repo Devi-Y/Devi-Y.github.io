@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T23:10:29.095Z",
+  "generatedAt": "2026-10-25T01:07:51.998Z",
   "windowDays": 7,
   "summary": {
     "total": 49,
@@ -116,7 +116,7 @@
       "trustTier": "B",
       "confidence": "B",
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
+      "score": 66,
       "priority": "A",
       "id": "c106f95e77f9d932",
       "rankReason": "高影响事件词；关键人物"
@@ -504,6 +504,26 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "宏观",
+      "title": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mNHFPX0JwTndmWWJOUmlJSlZjTnBjaXVNQkZrSnljYS00V3dOenRRX1Bmd0x0b2g0RkgtbElIYjZOY0tVNTlZMmZKVjhpbDFSOHB5UTRJMGZfM2xxVEJJZ2FMc2YwcEUzUFZlc0ZZM296Zw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 02:48:57 GMT",
+      "description": "CoreWeave $CRWV 週五跌11.9%至61.39美元，全週跌25.2%。5年期CDS一度升至約1,195基點，部分公司債殖利率突破16%，總債務約500–510億美元。 市場正在質疑借錢買GPU、出租算力的模式，能否賺到足夠現金支付利息與設備更新。高殖利率不代表全部既有 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "4b4c66d9323e3cef",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcV84ZG1tSXpMR1JmbjRYLVpWeGJhY01lRVpleFZOeDNNWVN4QUo5UEN1UzFkYVd0YWh0bWh2QURzQWFMcGVYNmFTZ05LR1gtekJiOHhpSjZzLTlrbm53RlJOMjdhQ1U?oc=5",
@@ -605,28 +625,8 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LRjRKeXE5bHpVblpzMVVCdjF0ZWdHMzA0UmpxMGZiRWZwSVY4aEJaWGtjZ3hMX1JDdmR1WTk5bVRxT0NoaGVzVHlmalJEYm1FRGI5Q3l5LTgxMUxwbXlBR2pwTTY1enM?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 23:57:55 GMT",
-      "description": "$NVDA Jensen Huang RTX Spark 14 mm 筆電 將 CPU、GPU 和 RAM 整合到單一矽晶片中，由 $ARM 架構驅動，並採用尖端的 3 奈米製程。 1 petaflop 的本地 AI 處理能力！在自己的裝置運行擁有 1200 億參數的 AI 模型 ！ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "3ed633aa8e6e46df",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "MEXC 同步推出 TSLA Fever 活動，總獎池 500,000 USDT 🎁 🔹 TSLAX、TSLAON 等指定現貨交易對享 0 手續費 🔹 先報名，再完成指定任務取得抽獎機會 🔹 有機會抽中價值 1,000 USDT 的 TSLAX，獎項另含 SPCXX、SPCXON！ 看財報，也別錯過活動福利👇 https://t. - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JUTZVX3gwczJiNU85M1F5UnFGNzdzU0NsODJ6ZmZ2Q0ZlWTNxSm5jREE0TUZ1LWFvREZWT090WmpzeFlpNUh3QTdCVWswcEo4bTB3VlhqZ2lXLWs?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsXzZwZjNncUFGdmZQSVlYVVBaVm9ZWHV0VXB4OHNUTjEyVFlqS3kzZ01TNFViNE9fdE00cXhCZDBrdEpOaGduTFZ1RVJmTTF1Z3RPcjZJcnQ4a1F5NE9tSXEybHY3dw?oc=5",
       "pubDate": "Tue, 20 Oct 2026 08:43:46 GMT",
       "description": "MEXC 同步推出 TSLA Fever 活動，總獎池 500,000 USDT 🎁 🔹 TSLAX、TSLAON 等指定現貨交易對享 0 手續費 🔹 先報名，再完成指定任務取得抽獎機會 🔹 有機會抽中價值 1,000 USDT 的 TSLAX，獎項另含 SPCXX、SPCXON！ 看財報，也別錯過活動福利👇 https://t. &nbsp;&nbsp; X",
       "source": "X",
@@ -638,7 +638,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "a82079328cbc40ff",
+      "id": "e8126d89e5feac90",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -1002,5 +1002,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-24T23:10:29.753Z"
+  "rankedAt": "2026-10-25T01:07:52.532Z"
 }
