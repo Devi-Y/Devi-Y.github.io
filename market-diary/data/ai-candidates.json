@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T01:07:53.169Z",
+  "generatedAt": "2026-10-25T06:04:47.924Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -255,37 +255,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "Intel, Nvidia, and AMD are putting money down to lock high-end substrate capacity. Taiwanese makers are expanding fast. $INTC $NVDA $AMD Economic Daily News reports industry sources saying the three companies have paid deposits totaling more than - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QV0xSWU9obFd1bnVpUF9vNjQ4SWtXREpMU0xBLXoyVXhxWnM0RHVUWUpFT1pXTTlIT2dYWGJRaVl6c3NFQlBDR2hlM0MzdWhUNS1sR19rR2o2VXRSR2JWcTBhVDFDMEU?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 01:24:49 GMT",
-      "description": "Intel, Nvidia, and AMD are putting money down to lock high-end substrate capacity. Taiwanese makers are expanding fast. $INTC $NVDA $AMD Economic Daily News reports industry sources saying the three companies have paid deposits totaling more than &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a5851e36322e1e89",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "IPO",
       "title": "ZDNet Korea〈「上市在即」的 iPhone Duo，日東紡「T-glass」供應成變數〉 - 卡關的是 T-glass：日東紡（Nitto Boseki, 3110.T）的 T-glass 是 PCB 和 CCL 用的高階玻璃纖維紗。輝達（NVIDIA, NVDA）等公司的 AI 晶片只用它，所以供不應求，日東紡也優先供應 AI 晶片。 - 蘋 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FN0gtZkstTWRzdG56bjhURGV2ZlluZzdaNTJMZWNGb1JjNGpiNDIyaElsZVBwUjM0dG5jdEFRaUp6OW82MEEyaTctOC01QTloSHlyQkRTSDBiNDlrVlE?oc=5",
@@ -309,68 +278,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkcGRMX3RiUHZ6NGRoeFJxQzluU2ZHd05NU1dHX0NQdF9TNDRIaEs1LWp2OW1EbzJEZ205VHZDNk5EcDFLY3dVNTNvblhQZWNTdjFXTXZhc2tfNzg?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 02:05:19 GMT",
-      "description": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "36da8488697bf16a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$JPM ：Hardware Sector Analysis 半導體與 AI 供應鏈的資本配置實力 硬體產業處於半導體與 AI 供應鏈的核心戰略位置。強勁的現金生成能力，使其能夠在支持高額股東回報的同時，支撐因 AI 產能擴充而顯著增加的資本支出。然而，隨著晶圓製造與 AI 設施投資大幅拉 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxNFJKOThZclRxbTE2SmNvWWpWbUE0TDhRMkRqWFpJZVVuWHNVTEJIaW1OOElmWVJWMGFWV3JBUWIxX0ZuckFnNzJGemxrUVIwWXBNanhOVmsyeUs4SXgzZExzeEdQMzA?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 06:01:51 GMT",
-      "description": "$JPM ：Hardware Sector Analysis 半導體與 AI 供應鏈的資本配置實力 硬體產業處於半導體與 AI 供應鏈的核心戰略位置。強勁的現金生成能力，使其能夠在支持高額股東回報的同時，支撐因 AI 產能擴充而顯著增加的資本支出。然而，隨著晶圓製造與 AI 設施投資大幅拉 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "1fff450395de71c4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$JPM ：Hardware Sector Analysis 半導體與 AI 供應鏈的資本配置實力 硬體產業處…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -410,6 +317,68 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "公司事件",
+      "title": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WbnRmS2ltXy1mLUFPNFVSenZuS3dBT0hfVnRVaVA5WHZJNDZnN3pFdGJQbUFNM2NvQXRRa29PMFA4NVhzWE02NHRnZ1JScUwtdDFmRUpfUDg0TTlqQ0E?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 03:44:04 GMT",
+      "description": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "09e28fde42a2dd9a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trilli…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "Intel, Nvidia, and AMD are putting money down to lock high-end substrate capacity. Taiwanese makers are expanding fast. $INTC $NVDA $AMD Economic Daily News reports industry sources saying the three companies have paid deposits totaling more than - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QV0xSWU9obFd1bnVpUF9vNjQ4SWtXREpMU0xBLXoyVXhxWnM0RHVUWUpFT1pXTTlIT2dYWGJRaVl6c3NFQlBDR2hlM0MzdWhUNS1sR19rR2o2VXRSR2JWcTBhVDFDMEU?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 01:24:49 GMT",
+      "description": "Intel, Nvidia, and AMD are putting money down to lock high-end substrate capacity. Taiwanese makers are expanding fast. $INTC $NVDA $AMD Economic Daily News reports industry sources saying the three companies have paid deposits totaling more than &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "a5851e36322e1e89",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现新的宏观政策或数据更新",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "宏观",
       "title": "Tesla ($TSLA) builds its own cars, batteries and robots. For chip substrates, it's writing a check so someone else builds the line. Maeil Business (MK) exclusive, Oct 22, citing industry sources: ▸ Tesla puts in ~₩1.1 trillion for a dedicated FC-BGA line at Samsun - X",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QVUZLbjhOakFOUTJpa1hWWXdwRTkxNTZEUElDcEZBOHNVOUFmQi1EOUpGTzVJOTN1NFk3WkU0Z2o1TEgwM3NlVGdBSXRTWGlLVnR1dk1Hek1GdVpFNzBudjVNcmI0UkZJUlE?oc=5",
@@ -433,6 +402,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkcGRMX3RiUHZ6NGRoeFJxQzluU2ZHd05NU1dHX0NQdF9TNDRIaEs1LWp2OW1EbzJEZ205VHZDNk5EcDFLY3dVNTNvblhQZWNTdjFXTXZhc2tfNzg?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 02:05:19 GMT",
+      "description": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "36da8488697bf16a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -597,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84X3RuZDRQaUowNXZiMk5GNlAtVHZ3aUJ1ekd1dnlfYlZBNkJmbUt3dGJlY1I2azBOMWFsQWhnQ2VDbVd1ZnBDcGtjSjhxaXdkdEEzQkt0R3hKWENtQVZ2dA?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 03:25:31 GMT",
-      "description": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，減也殺⋯ 這就是打地鼠行情的特點 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "2dfc55fc8dd549bb",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$META 因為增加資本開支。而盤後股價漲幅收窄轉下跌； $TSLA 因為減少資本開支。盤後股價下跌 增也殺，…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperliquid大戶逆勢加倉META、NVDA等美股多頭，加密牛市有望延續，但8萬美元能否守穩是反彈關鍵。 - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oNXBtV1podE02M2NhYjFWSXIyaUh0YXVYUHhnQzFBNF9MY0RsNjRHUHlFX05DcVpOVFBpejNYMmk2Z2dGcWNPMWpBQkg2ZDI0T3dDZGdZQjl4UVJ5aTBZV24zaFY?oc=5",
       "pubDate": "Fri, 23 Oct 2026 05:38:25 GMT",
@@ -720,11 +689,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4T0R5d3E4SS02TG1tREx1dlNKbzB0Z0xna0FjSGZFQTRBU3pmVk5ZcjA0TldWdG44RUlhWlVmQjI1VnBMY0RNeFlvN2V2b3NHQnVRb0N4c0hEYk40ekE?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 15:07:00 GMT",
-      "description": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」〉2026-10-18 - 新做法：三星電子（Samsung Electronics, 005930.KS）為輝達（NVIDIA, NVDA）客製的 NVHBM，基礎晶粒改由台積電（TSMC, https://t.co/X7ajlAm18q / TSM）用 &nbsp;&nbsp; X",
+      "type": "公司事件",
+      "title": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA、Layer2、MEME 板塊同步走強 🇺🇸 美股市場 🚗 TSLA 盤後跌逾 3%，市場持續消化財報 📱 META 盤後漲約 3% 🚀 SpaceX 相關報價上漲約 7% 📊 市場每天都有新故事，下一個熱點會在哪 - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qTUcxNHlWTDFBUkVRVDUyY0ZySkdkU2tCTzBjdHZQbkxyQ2thSjNHR0FkRnRUSmJqUmppRlRVSTlvaGFoVFBDMkNWaHpsVGhNVFFNSEh3Uk5xOEU?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 09:12:15 GMT",
+      "description": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA、Layer2、MEME 板塊同步走強 🇺🇸 美股市場 🚗 TSLA 盤後跌逾 3%，市場持續消化財報 📱 META 盤後漲約 3% 🚀 SpaceX 相關報價上漲約 7% 📊 市場每天都有新故事，下一個熱點會在哪 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -732,17 +701,48 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
+      "score": 47,
       "priority": "B",
-      "id": "f5f24b7fea45ec53",
+      "id": "8b6627fddea75230",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "首爾經濟新聞（Seoul Economic Daily）〈【獨家】三星電子將與台積電合作生產「新一代 HBM」…",
+        "summary": "🚨 10/22 市場熱點一次看！ 🪙 加密市場 🔥 LIT 強漲 13.2%，成為市場焦點 📈 RWA…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "宏观解读"
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "英飛凌公司稿 10/21（配 GTC Berlin）：同 $NVDA 加深 800 VDC AI 數據中心供電合作，焦點落喺高壓 intermediate bus converter（IBC）呢一級。 稿入面寫，GaN 喺 IBC 級切換頻率可以去到最高 1 MHz，相對矽係更高頻、磁件可以再細；轉換比涵蓋 800 V 去 50 V、12 V - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lanNlNGYwN29YaTYxR0ctN0JuM0p3MUNwMml1M0FEM1EtNDdNYm1mWFdmV1dPaFVzbWl5cDd4cERBQXRLZEZLUWtlWTNmczdsdV85aFpsdmQ5MENlaWVvNw?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 04:05:23 GMT",
+      "description": "英飛凌公司稿 10/21（配 GTC Berlin）：同 $NVDA 加深 800 VDC AI 數據中心供電合作，焦點落喺高壓 intermediate bus converter（IBC）呢一級。 稿入面寫，GaN 喺 IBC 級切換頻率可以去到最高 1 MHz，相對矽係更高頻、磁件可以再細；轉換比涵蓋 800 V 去 50 V、12 V &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "8c64f24e19ac601f",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "英飛凌公司稿 10/21（配 GTC Berlin）：同 $NVDA 加深 800 VDC AI 數據中心供電…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
