@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:45:08.320Z",
+  "generatedAt": "2026-10-26T00:20:04.233Z",
   "windowDays": 7,
   "summary": {
     "total": 47,
@@ -625,26 +625,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T1pONW1BdzBpaGdNa2VtbUVVRTBFSlpSclVvb3JsQzllVWhScUt4V2RKY1NhbmQtSm5BdjNZZDdtSk5hWUlSOFg2OVJheTNzbWZCWmZmQ2J4R2syU1hpVjR5UDQ?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 10:36:04 GMT",
-      "description": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "72a503a53bec80e3",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "GM！每天追劇、聽歌、滑社群，這週換追財報 👀 $NFLX $T $META $TSLA $SPOT 五大咖接力交成績單，誰能帶來驚喜？ - X",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hUkRXc2xmbXVQc2Vzd0NnQjJnUEEtUHBEd1J1S0Zxc011blpJRGJtdnlrMU5oaVJfLTZRTG5mUWxsQzNXUkhGN3R5MGFBMURJQ1cwTXlCZjNQc00?oc=5",
       "pubDate": "Tue, 20 Oct 2026 04:56:57 GMT",
@@ -659,6 +639,26 @@
       "score": 44,
       "priority": "B",
       "id": "53fc7beea4763218",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T1pONW1BdzBpaGdNa2VtbUVVRTBFSlpSclVvb3JsQzllVWhScUt4V2RKY1NhbmQtSm5BdjNZZDdtSk5hWUlSOFg2OVJheTNzbWZCWmZmQ2J4R2syU1hpVjR5UDQ?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:36:04 GMT",
+      "description": "\" $NVDA 正在預付費用來鎖定測試產能！KYEC 只是 OSAT（外包封裝測試廠）——請自己做盡職調查（DD），看看真正供應設備的是誰！\" 京元電子向上爬, 首要就是Advantest了, 但不可能只使用一家廠商的ATE, 所以一定會有 $TER 。之前 $NVDA 也在搶 $FORM 的探 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "72a503a53bec80e3",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -962,5 +962,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-25T21:45:08.853Z"
+  "rankedAt": "2026-10-26T00:20:05.138Z"
 }
