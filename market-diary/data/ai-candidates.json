@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T19:16:20.207Z",
+  "generatedAt": "2026-10-26T23:08:40.603Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -535,37 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42MmF6eW1ROUQ3T3N2YUN4a0w5SnBzSUZuU25oS080VnRkOXluMFNoUnRTSEUwSmRnSnpqMnRqZEFTN0VzMlJBenVUU002M1IwZThlLUE3a2Z5N200b0E?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 10:58:47 GMT",
-      "description": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "3d810e0db45afaaf",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Jensen Huang $NVDA 以前只是 GPU 公司，後來成為全球最大、成長最快的 networking 公司。 現在正成為最大的 CPU 公司之一，而且肯定是成長最快的。 $NVDA也進入儲存、知識基礎設施、安全（OpenShell、Sentry）等領域。 per gigawatt 能賣出的金額在 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FYTRWNm1yVUhhNE05aW1ISW14bUxnZFFyZU00QTJsSXgteGZKRF9Lb0RpWGhSZTgtYTRPeW55TXdidXVERHp1TzlvaUZxN3pOZDBBN0pyR0M4TGdaRU5JeVdFZ0IwTDQ?oc=5",
       "pubDate": "Sun, 25 Oct 2026 08:49:27 GMT",
@@ -584,6 +553,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang $NVDA 以前只是 GPU 公司，後來成為全球最大、成長最快的 net…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42MmF6eW1ROUQ3T3N2YUN4a0w5SnBzSUZuU25oS080VnRkOXluMFNoUnRTSEUwSmRnSnpqMnRqZEFTN0VzMlJBenVUU002M1IwZThlLUE3a2Z5N200b0E?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 10:58:47 GMT",
+      "description": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "3d810e0db45afaaf",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -658,37 +658,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WbnRmS2ltXy1mLUFPNFVSenZuS3dBT0hfVnRVaVA5WHZJNDZnN3pFdGJQbUFNM2NvQXRRa29PMFA4NVhzWE02NHRnZ1JScUwtdDFmRUpfUDg0TTlqQ0E?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 03:44:04 GMT",
-      "description": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "09e28fde42a2dd9a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trilli…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "宏观",
       "title": "Tesla ($TSLA) builds its own cars, batteries and robots. For chip substrates, it's writing a check so someone else builds the line. Maeil Business (MK) exclusive, Oct 22, citing industry sources: ▸ Tesla puts in ~₩1.1 trillion for a dedicated FC-BGA line at Samsun - X",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QVUZLbjhOakFOUTJpa1hWWXdwRTkxNTZEUElDcEZBOHNVOUFmQi1EOUpGTzVJOTN1NFk3WkU0Z2o1TEgwM3NlVGdBSXRTWGlLVnR1dk1Hek1GdVpFNzBudjVNcmI0UkZJUlE?oc=5",
@@ -712,6 +681,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcV84ZG1tSXpMR1JmbjRYLVpWeGJhY01lRVpleFZOeDNNWVN4QUo5UEN1UzFkYVd0YWh0bWh2QURzQWFMcGVYNmFTZ05LR1gtekJiOHhpSjZzLTlrbm53RlJOMjdhQ1U?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 22:50:40 GMT",
+      "description": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "202f85db9b58e88a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
