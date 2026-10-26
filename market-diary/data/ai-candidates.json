@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:20:05.579Z",
+  "generatedAt": "2026-10-26T06:09:57.903Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -123,6 +123,37 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "NVIDIA's GTC Berlin conference is about to kick off! Jensen Huang will deliver the keynote address, drawing attention to AI factories and European investments. - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWI1ZTBJQzRXR3FrdXhValFMUF80bTNlal81Q0huYkt3TnAtU2huNDdwWXp0bHN6cDdnbHU3VDBJUDlOUmJ1SElselNNeGdKOWVHU2Zhd0VuWXVQcGs5RVJNTGhmWE5ib2gwV3dCcjd3OHRqejVKN2tMQUFTUEpNV3lkYmdHeHM?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 01:07:00 GMT",
+      "description": "NVIDIA's GTC Berlin conference is about to kick off! Jensen Huang will deliver the keynote address, drawing attention to AI factories and European investments. &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "c106f95e77f9d932",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "NVIDIA's GTC Berlin conference is about to kick off! Je…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -305,37 +336,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang $NVDA 以前只是 GPU 公司，後來成為全球最大、成長最快的 net…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WbnRmS2ltXy1mLUFPNFVSenZuS3dBT0hfVnRVaVA5WHZJNDZnN3pFdGJQbUFNM2NvQXRRa29PMFA4NVhzWE02NHRnZ1JScUwtdDFmRUpfUDg0TTlqQ0E?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 03:44:04 GMT",
-      "description": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "09e28fde42a2dd9a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trilli…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -566,37 +566,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperliquid大戶逆勢加倉META、NVDA等美股多頭，加密牛市有望延續，但8萬美元能否守穩是反彈關鍵。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oNXBtV1podE02M2NhYjFWSXIyaUh0YXVYUHhnQzFBNF9MY0RsNjRHUHlFX05DcVpOVFBpejNYMmk2Z2dGcWNPMWpBQkg2ZDI0T3dDZGdZQjl4UVJ5aTBZV24zaFY?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 05:38:25 GMT",
-      "description": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperliquid大戶逆勢加倉META、NVDA等美股多頭，加密牛市有望延續，但8萬美元能否守穩是反彈關鍵。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "465edd8400ef5bb6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperli…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "10月23日 Gate 熱門策略收益排行榜 SOLUSDT 合約網格 100x 做多 | 33,036.75 USDT BTCUSDT 合約網格 4x 做多 | 11,894.99 USDT BTCUSDT 合約網格 25x 做多 | 9,518.49 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約網格交易 $TSLA，捕捉熱門市場機會 h - X",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tVVJzOV9vejMxalU4Q3VGVEpuNUxsM05KX0FKM01nX0s2RF8zRWJrMm9pSDd0OFpjeHQyRnc2UzR3UWsyTHFVZlJ2VURrR1VuUVJqaXA5R2FMcUtY?oc=5",
       "pubDate": "Fri, 23 Oct 2026 09:30:00 GMT",
@@ -677,6 +646,37 @@
       "ai": {
         "priority": "B",
         "summary": "美銀〈Agentic 需求或帶動 AI CPU：2030 年出貨上看約 2,600 萬顆〉 1、Agentic…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WbnRmS2ltXy1mLUFPNFVSenZuS3dBT0hfVnRVaVA5WHZJNDZnN3pFdGJQbUFNM2NvQXRRa29PMFA4NVhzWE02NHRnZ1JScUwtdDFmRUpfUDg0TTlqQ0E?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 03:44:04 GMT",
+      "description": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "09e28fde42a2dd9a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trilli…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
