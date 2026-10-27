@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-10-27T07:48:39.398Z",
+  "generatedAt": "2026-10-27T14:28:00.506Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "持仓",
-      "title": "新雲端股票拋售潮持續 Elon Musk 警告將出現「小魚等級死亡」 - Business Insider Taiwan",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sZzFPX0tfYUxPbm1QdERSTzFZdHkxVjN3ODBUODc2Yk95ano4eVltdERuSnAwcDV2RXJMUm10YUd3R0tBdlVjSlJFeF90cGoycVNwRkVR?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 12:00:34 GMT",
-      "description": "新雲端股票拋售潮持續 Elon Musk 警告將出現「小魚等級死亡」 &nbsp;&nbsp; Business Insider Taiwan",
-      "source": "Business Insider Taiwan",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 77,
-      "priority": "A",
-      "id": "5fcf664a213a5561",
-      "rankReason": "高影响事件词；关键人物；公开资金信号",
-      "ai": {
-        "priority": "A",
-        "summary": "新雲端股票拋售潮持續 Elon Musk 警告將出現「小魚等級死亡」 - Business Insider T…",
-        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "港股",
       "signal": "事实",
@@ -129,31 +98,31 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "Announcement - In relation to the matter of China Ocean Group Development Limited (Incorporated in Bermuda with limited liability) (Stock Code: 8047) Cancellation of listing",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610202news?sc_lang=en",
-      "pubDate": "Tue, 20 Oct 2026 16:33:00 +0800",
-      "description": "Announcement - In relation to the matter of China Ocean Group Development Limited (Incorporated in Bermuda with limited liability) (Stock Code: 8047) Cancellation of listing",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "market": "全球",
+      "signal": "人物",
+      "type": "持仓",
+      "title": "新雲端股票拋售潮持續 Elon Musk 警告將出現「小魚等級死亡」 - Business Insider Taiwan",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sZzFPX0tfYUxPbm1QdERSTzFZdHkxVjN3ODBUODc2Yk95ano4eVltdERuSnAwcDV2RXJMUm10YUd3R0tBdlVjSlJFeF90cGoycVNwRkVR?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 12:00:34 GMT",
+      "description": "新雲端股票拋售潮持續 Elon Musk 警告將出現「小魚等級死亡」 &nbsp;&nbsp; Business Insider Taiwan",
+      "source": "Business Insider Taiwan",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 74,
       "priority": "A",
-      "id": "7aecd87bf5d7f174",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "id": "5fcf664a213a5561",
+      "rankReason": "高影响事件词；关键人物；公开资金信号",
       "ai": {
         "priority": "A",
-        "summary": "港交所出现新的IPO相关信息",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "summary": "新雲端股票拋售潮持續 Elon Musk 警告將出現「小魚等級死亡」 - Business Insider T…",
+        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -222,6 +191,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "IPO",
+      "title": "ZDNet Korea〈「品質爭議」iPhone Duo……「終究是鉸鏈拖累」〉2026年10月26日 1、蘋果（ $AAPL）iPhone Duo 主要國家上市（約23日）後，Reddit／MacRumors 論壇出現鉸鏈中央「光劍」狀白色線、面板破損案例；業界指設計缺陷，重設鉸鏈恐不可避免。 2、供應鏈： 1） - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YTmRNV2s0aHowUDNMQzlya1lqMUlVdXhIOV9ZZ1NGM2x3bVptTHVQcS1NSklBbkNDR2poV3E4LVU3aVBDdVllZXllU2JYWFAtbjlaRWRnRi14blJzWFE?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 05:50:00 GMT",
+      "description": "ZDNet Korea〈「品質爭議」iPhone Duo……「終究是鉸鏈拖累」〉2026年10月26日 1、蘋果（ $AAPL）iPhone Duo 主要國家上市（約23日）後，Reddit／MacRumors 論壇出現鉸鏈中央「光劍」狀白色線、面板破損案例；業界指設計缺陷，重設鉸鏈恐不可避免。 2、供應鏈： 1） &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "60dbbb17d3771c92",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "ZDNet Korea〈「品質爭議」iPhone Duo……「終究是鉸鏈拖累」〉2026年10月26日 1、蘋…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -249,37 +249,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "TrendForce〈Weekly Radar 007: NVIDIA Moves to Secure Substrate Capacity〉2026年10月26日 1、NVIDIA（ $NVDA）積極鎖定基板產能：未來三年擬將其產品基板產能提高2.5倍；ABF交期「非常緊俏」約48–56週，遠高於均衡水準約12週。 2、供應鏈儀表板： 1）非常緊 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zR3VpMDFWeDg0N0F1YzhQRkZaOXhBZG51bXdxZDRlcTlOaHdoWmd4ODdOTldhTU5nRmEyRGp4Mjg3OXRRWk9WVmhzTjU5LTltcmhnaEpNS21YcTN4Y2c?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 12:32:13 GMT",
-      "description": "TrendForce〈Weekly Radar 007: NVIDIA Moves to Secure Substrate Capacity〉2026年10月26日 1、NVIDIA（ $NVDA）積極鎖定基板產能：未來三年擬將其產品基板產能提高2.5倍；ABF交期「非常緊俏」約48–56週，遠高於均衡水準約12週。 2、供應鏈儀表板： 1）非常緊 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "8e191397e1dcd10a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "TrendForce〈Weekly Radar 007: NVIDIA Moves to Secure Sub…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -318,37 +287,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hNXJFdnBJUWdSd3pkeTl1NTZMT2ZpR0hZYVY2Nkl0Q2dMQzJxOFRWMUlNWjhvYkhlYkM5bEdhdlUtTmJDZTg5OEJwZ0d2dmRBWThWbmY3anFKQjVfWHlTbWYxbw?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 11:09:47 GMT",
-      "description": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "beda0e5fb2b9f52d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA $AMD - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xb096SEVDcVd6ZnFMYnFuU3pmTzlzWXNBeDk5NGN2V0tFcTV2SGFZeXhqalpLeUVwS3dhT0ZoeFVGdnJhYWM2UmtOR2IzMjZYSnJEdzItS2hudEVSaU1CN2dROGY?oc=5",
       "pubDate": "Mon, 26 Oct 2026 17:19:20 GMT",
@@ -367,6 +305,37 @@
       "ai": {
         "priority": "B",
         "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "科技股又開始秀肌肉了 💪 AI 熱度不減、半導體持續發力，TSLA 也交出亮眼表現 不只加密市場有機會，美股同樣精彩 🔥 下一波資金會流向哪個板塊？👀 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SalZHRUliX2ZGRWhEcG9yaUJQemNQcjRVNUw5MzJOblZfQTRSbTRJYzFoTDhMeHNxekRnanpqT0ZuUzBQYXltNEE1aVo2VVFDWHZWZkZOSkcySmxuY0VaOGlaUHRHdw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 10:29:33 GMT",
+      "description": "科技股又開始秀肌肉了 💪 AI 熱度不減、半導體持續發力，TSLA 也交出亮眼表現 不只加密市場有機會，美股同樣精彩 🔥 下一波資金會流向哪個板塊？👀 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "ce625058e2bbf0ed",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "科技股又開始秀肌肉了 💪 AI 熱度不減、半導體持續發力，TSLA 也交出亮眼表現 不只加密市場有機會，美股…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -411,10 +380,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用戶加倉人次就一路喺度郁。 全站標的 287 檔，累計加入 12,441 人次。熱度頭三：$MU 1,045 人、$SNDK 616 人、$INTC 517 人；後面 AAOI 473、TSLA／ - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJeFhYdWF0N2Jma0xvczNCUk1hTTNFdEJOSHoySndhREkzSUEtQzR0QkRHWlluZkNWX2ctR3Aya21CRGd5UXh6aXk2NnI5Z0c5ZFpWQnZZQTdhbzJPRExaeQ?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 09:48:30 GMT",
-      "description": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用戶加倉人次就一路喺度郁。 全站標的 287 檔，累計加入 12,441 人次。熱度頭三：$MU 1,045 人、$SNDK 616 人、$INTC 517 人；後面 AAOI 473、TSLA／ &nbsp;&nbsp; X",
+      "title": "新增 23 個合約幣對，累計達到 1,027 個。 熱點換賽道，WEEX 的選擇繼續擴容。 從 $NVDA $SKHYNIX 到 $SPCX $TSLA $ZEC ， 交易不止加密，機會盡在 WEEX 💛 https://t.co/OcALOnNhQG #WEEX #Tradfi #美股 - X",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYQl9PdEZRSThya05udzNVSWhwWjVsdUNiRTFoZmJXdGd4dXNLUTlpR1pJb0RYbTZZWldURUVHTV9hV1ZSam12V0hMbVd1V1dMTGpadFladDZBTUJ1ajJRQ250cnQzR0JiVk1iY2JJMA?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 08:50:51 GMT",
+      "description": "新增 23 個合約幣對，累計達到 1,027 個。 熱點換賽道，WEEX 的選擇繼續擴容。 從 $NVDA $SKHYNIX 到 $SPCX $TSLA $ZEC ， 交易不止加密，機會盡在 WEEX 💛 https://t.co/OcALOnNhQG #WEEX #Tradfi #美股 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -424,15 +393,46 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "0f4b5546d5b45327",
+      "id": "608f55c88346ce53",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用…",
+        "summary": "新增 23 個合約幣對，累計達到 1,027 個。 熱點換賽道，WEEX 的選擇繼續擴容。 從 $NVDA $…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "TrendForce〈Weekly Radar 007: NVIDIA Moves to Secure Substrate Capacity〉2026年10月26日 1、NVIDIA（ $NVDA）積極鎖定基板產能：未來三年擬將其產品基板產能提高2.5倍；ABF交期「非常緊俏」約48–56週，遠高於均衡水準約12週。 2、供應鏈儀表板： 1）非常緊 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zR3VpMDFWeDg0N0F1YzhQRkZaOXhBZG51bXdxZDRlcTlOaHdoWmd4ODdOTldhTU5nRmEyRGp4Mjg3OXRRWk9WVmhzTjU5LTltcmhnaEpNS21YcTN4Y2c?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 12:32:13 GMT",
+      "description": "TrendForce〈Weekly Radar 007: NVIDIA Moves to Secure Substrate Capacity〉2026年10月26日 1、NVIDIA（ $NVDA）積極鎖定基板產能：未來三年擬將其產品基板產能提高2.5倍；ABF交期「非常緊俏」約48–56週，遠高於均衡水準約12週。 2、供應鏈儀表板： 1）非常緊 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "8e191397e1dcd10a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "TrendForce〈Weekly Radar 007: NVIDIA Moves to Secure Sub…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -522,6 +522,99 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang $NVDA 以前只是 GPU 公司，後來成為全球最大、成長最快的 net…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hNXJFdnBJUWdSd3pkeTl1NTZMT2ZpR0hZYVY2Nkl0Q2dMQzJxOFRWMUlNWjhvYkhlYkM5bEdhdlUtTmJDZTg5OEJwZ0d2dmRBWThWbmY3anFKQjVfWHlTbWYxbw?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 11:09:47 GMT",
+      "description": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "beda0e5fb2b9f52d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "美銀〈Agentic 需求或帶動 AI CPU：2030 年出貨上看約 2,600 萬顆〉 1、Agentic CPU 需求框架： 1）估每新增 10 億 Agentic 用戶，約帶來逾 2,000 萬顆 AI CPU 增量需求。 2）Agentic CPU 出貨由 2026 曆年約 250 萬顆，估至 2030 曆年約 2,600 萬顆。 3）至 2030 曆年相 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZcHVFQ2htSW5RdHpzQndaRHNESEZvd212M1dWTTNMUW5obkhkdUtuWERkaUxZMEIyWjJCendjM01wXzhab05RYkpfQk1ja3VZVDFtUC1nV1kzaXR6cUE?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 15:40:54 GMT",
+      "description": "美銀〈Agentic 需求或帶動 AI CPU：2030 年出貨上看約 2,600 萬顆〉 1、Agentic CPU 需求框架： 1）估每新增 10 億 Agentic 用戶，約帶來逾 2,000 萬顆 AI CPU 增量需求。 2）Agentic CPU 出貨由 2026 曆年約 250 萬顆，估至 2030 曆年約 2,600 萬顆。 3）至 2030 曆年相 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "ce866e640d1c3f76",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "美銀〈Agentic 需求或帶動 AI CPU：2030 年出貨上看約 2,600 萬顆〉 1、Agentic…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WbnRmS2ltXy1mLUFPNFVSenZuS3dBT0hfVnRVaVA5WHZJNDZnN3pFdGJQbUFNM2NvQXRRa29PMFA4NVhzWE02NHRnZ1JScUwtdDFmRUpfUDg0TTlqQ0E?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 03:44:04 GMT",
+      "description": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trillion Stock Rout Into Trap〉2026年10月25日 1、彭博彙編數據顯示，中國股市自5月高點以來市值蒸發約3.5兆美元；上週賣壓加劇，境內基準滬深300進入熊市，香港科技股指數亦逼近抹去兩年前大規模增長支 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "09e28fde42a2dd9a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "彭博社（Bloomberg）〈Sinking Profits Turn China’s $3.5 Trilli…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -646,99 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA GTC Berlin Call Memo 20261021 重點摘要 1. 推DSX Pod加速A…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcV84ZG1tSXpMR1JmbjRYLVpWeGJhY01lRVpleFZOeDNNWVN4QUo5UEN1UzFkYVd0YWh0bWh2QURzQWFMcGVYNmFTZ05LR1gtekJiOHhpSjZzLTlrbm53RlJOMjdhQ1U?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 22:50:40 GMT",
-      "description": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 但最終選擇 TSMC，是因向 Morris Chang 提出很多要求，Morris 常常直接回覆「我們做不到」。 Morris 全程都在談公司治理、誠信、夥伴關係與長期思維，幾乎沒有講其他商業細 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "202f85db9b58e88a",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 當時對 $TSMC 和 UMC 兩家公司的印象都很好，都是優秀的公司。 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 TSLAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿！ - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Zd3ptZEN4T1ZIQVlwNnZTS3VGOU5TU3FJZ3dnYWVPZUEtUk8tRkdJUVNNZi1vekJNMTJkM0VaVlhsRWRray11YnJmRHpCN3lBQkRxY0hUaF9HaGJ0?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 10:40:00 GMT",
-      "description": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 TSLAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿！ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "ee4a6ee10f786456",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ZlIzMjFPUUl6bFpSYjlaVnFqTFRDODR0RmlmcVcwV2hIUDNtdUwzbDBXQVU2NS1xN0hfMzZHbzJmQU1MZDNWMEhtWS02cDZwLUhmQko1VzhLTWtQN2c?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 16:16:00 GMT",
-      "description": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "cb402cf60e8da0c4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
