@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T02:03:13.605Z",
+  "generatedAt": "2026-10-27T07:48:39.398Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -224,37 +224,6 @@
     {
       "market": "港股",
       "signal": "事实",
-      "type": "宏观",
-      "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en",
-      "pubDate": "Tue, 20 Oct 2026 10:06:00 +0800",
-      "description": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 52,
-      "priority": "B",
-      "id": "12a4791671bb98ad",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
       "type": "公司事件",
       "title": "HKEX Launches Artificial Intelligence and Semiconductor Indices",
       "link": "https://www.hkex.com.hk/News/News-Release/2026/261023news?sc_lang=en",
@@ -380,37 +349,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$BABA be like, “Hey, we wanted that first!” 🤣 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByaXVSR05RdWo0Z3l5MmNnTlEySC1CdzF0Zll5ZUNQVDNwZlpfTGtFbXN1MFM3cnhMSUdzdnlRRUs2UEwwV201bnF0ZUJzd3MtdjdmOGpWb2xIbzdHQmRFUE5KQUc?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 13:29:57 GMT",
-      "description": "$BABA be like, “Hey, we wanted that first!” 🤣 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "4d6893ad2d953c4c",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA $AMD - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xb096SEVDcVd6ZnFMYnFuU3pmTzlzWXNBeDk5NGN2V0tFcTV2SGFZeXhqalpLeUVwS3dhT0ZoeFVGdnJhYWM2UmtOR2IzMjZYSnJEdzItS2hudEVSaU1CN2dROGY?oc=5",
       "pubDate": "Mon, 26 Oct 2026 17:19:20 GMT",
@@ -442,10 +380,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkcGRMX3RiUHZ6NGRoeFJxQzluU2ZHd05NU1dHX0NQdF9TNDRIaEs1LWp2OW1EbzJEZ205VHZDNk5EcDFLY3dVNTNvblhQZWNTdjFXTXZhc2tfNzg?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 02:05:19 GMT",
-      "description": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO &nbsp;&nbsp; X",
+      "title": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi - X",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VdzRrUXRtVFZNTzExV3FKaG82MVpzQTA1YnZwQ2gxdl9nUVgwN05udmRLeThCajZGZHhCUksyb29uMW8zZmJBdGNDQXFyZDVvQWpWR0ZPV0dBeHhZZV83Uk9XbmxtS1R6UW9ERlR3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 06:31:12 GMT",
+      "description": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -453,13 +391,44 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
+      "score": 50,
       "priority": "B",
-      "id": "36da8488697bf16a",
+      "id": "bce7de079b9a5d62",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 - X",
+        "summary": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用戶加倉人次就一路喺度郁。 全站標的 287 檔，累計加入 12,441 人次。熱度頭三：$MU 1,045 人、$SNDK 616 人、$INTC 517 人；後面 AAOI 473、TSLA／ - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJeFhYdWF0N2Jma0xvczNCUk1hTTNFdEJOSHoySndhREkzSUEtQzR0QkRHWlluZkNWX2ctR3Aya21CRGd5UXh6aXk2NnI5Z0c5ZFpWQnZZQTdhbzJPRExaeQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 09:48:30 GMT",
+      "description": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用戶加倉人次就一路喺度郁。 全站標的 287 檔，累計加入 12,441 人次。熱度頭三：$MU 1,045 人、$SNDK 616 人、$INTC 517 人；後面 AAOI 473、TSLA／ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "0f4b5546d5b45327",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -565,37 +534,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "$JPM ：Hardware Sector Analysis 半導體與 AI 供應鏈的資本配置實力 硬體產業處於半導體與 AI 供應鏈的核心戰略位置。強勁的現金生成能力，使其能夠在支持高額股東回報的同時，支撐因 AI 產能擴充而顯著增加的資本支出。然而，隨著晶圓製造與 AI 設施投資大幅拉 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxNFJKOThZclRxbTE2SmNvWWpWbUE0TDhRMkRqWFpJZVVuWHNVTEJIaW1OOElmWVJWMGFWV3JBUWIxX0ZuckFnNzJGemxrUVIwWXBNanhOVmsyeUs4SXgzZExzeEdQMzA?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 06:01:51 GMT",
-      "description": "$JPM ：Hardware Sector Analysis 半導體與 AI 供應鏈的資本配置實力 硬體產業處於半導體與 AI 供應鏈的核心戰略位置。強勁的現金生成能力，使其能夠在支持高額股東回報的同時，支撐因 AI 產能擴充而顯著增加的資本支出。然而，隨著晶圓製造與 AI 設施投資大幅拉 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "1fff450395de71c4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$JPM ：Hardware Sector Analysis 半導體與 AI 供應鏈的資本配置實力 硬體產業處…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "宏观",
       "title": "Intel, Nvidia, and AMD are putting money down to lock high-end substrate capacity. Taiwanese makers are expanding fast. $INTC $NVDA $AMD Economic Daily News reports industry sources saying the three companies have paid deposits totaling more than - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QV0xSWU9obFd1bnVpUF9vNjQ4SWtXREpMU0xBLXoyVXhxWnM0RHVUWUpFT1pXTTlIT2dYWGJRaVl6c3NFQlBDR2hlM0MzdWhUNS1sR19rR2o2VXRSR2JWcTBhVDFDMEU?oc=5",
@@ -650,6 +588,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO - X",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkcGRMX3RiUHZ6NGRoeFJxQzluU2ZHd05NU1dHX0NQdF9TNDRIaEs1LWp2OW1EbzJEZ205VHZDNk5EcDFLY3dVNTNvblhQZWNTdjFXTXZhc2tfNzg?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 02:05:19 GMT",
+      "description": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 https://t.co/CujgHfAJUO &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "36da8488697bf16a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【財經新聞】Shein同意支付1億與美國聯邦貿易委員會和解訴訟 - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "🚀 財報明星股合約挑戰正式開啟！ 📈 交易 TSLA、META、MSFT、GOOGL 等股票合約，解鎖熱門…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ZlIzMjFPUUl6bFpSYjlaVnFqTFRDODR0RmlmcVcwV2hIUDNtdUwzbDBXQVU2NS1xN0hfMzZHbzJmQU1MZDNWMEhtWS02cDZwLUhmQko1VzhLTWtQN2c?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 16:16:00 GMT",
+      "description": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：住友電工（Sumitomo Electric Industries, 5802.T）可望於 2027 年 3 月期財年取得輝達（NVIDIA, NVDA）超高功率 CPO 雷射認證，並於 2028 年 3 月期下半年擴大量產。 2、 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "cb402cf60e8da0c4",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "野村（Nomura）〈住友電工 CPO 雷射認證與磷化銦基板供應鏈〉2026-10-13 1、認證與量產時程：…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
