@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:12:18.637Z",
+  "generatedAt": "2026-10-29T02:25:18.957Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -287,37 +287,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "老朋友，回來交易股票，最高領 110 USDT TSLA 倉位空投 有一段時間沒交易股票了？Gate 為受邀股票老用戶準備了限時回歸福利。 🎁 回歸首單禮報名後完成首筆不少於 100 USDT 的有效股票交易，即可領取 10 USDT TSLA 倉位空投。限量 500 份，先到先得。 🚀 交 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14bjJkaVJob2IxYVJvMUJob0JISUY5elJ6SDYtOGFvX2pUcUR5UlltOC1rNlRHSFFnd2Fyd25PY3lFYUpWcXE5N2Y4Y0huQnNDeWlHcmFPX2tQNU1f?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 01:37:17 GMT",
-      "description": "老朋友，回來交易股票，最高領 110 USDT TSLA 倉位空投 有一段時間沒交易股票了？Gate 為受邀股票老用戶準備了限時回歸福利。 🎁 回歸首單禮報名後完成首筆不少於 100 USDT 的有效股票交易，即可領取 10 USDT TSLA 倉位空投。限量 500 份，先到先得。 🚀 交 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "943108e4a68b30b0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "老朋友，回來交易股票，最高領 110 USDT TSLA 倉位空投 有一段時間沒交易股票了？Gate 為受邀股…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "📢 持倉上限提升，交易布局更靈活！ MEXC 已於 10/27 22:00（UTC+8）上調 SOXL、SNDK 等 21 個合約交易對的持倉限額，涵蓋 NVDA、TSLA、MU、AMD 等熱門標的。 🔹 部分合約調整後持倉上限： • SNDK：1,500 萬 USDT • MU：1,110 萬 USDT • TSLA：753 萬 USDT - X",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85dFM4ZXZVNW9yNm8tM2RJNjBPOHVMWGhiZklvTndCUlVhN2RULWFuc19PcVB4YzU0WnBGX1NLcUtVSUcxQXp5YWFMdnJCdlMxTmEwcHh1YnZnS0E?oc=5",
       "pubDate": "Wed, 28 Oct 2026 06:27:52 GMT",
@@ -367,6 +336,37 @@
       "ai": {
         "priority": "B",
         "summary": "如果說 @elonmusk 負責把未來帶進現實 🚀 那我們負責把福利帶給大家 💰 這次 $500K $TS…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "10月28日 Gate 熱門策略收益排行榜 ETHUSDT 合約網格 200x 做多 | 6,570.61 USDT ETHUSDT 合約網格 50x 做多 | 5,679.51 USDT SOLUSDT 合約網格 100x 做多 | 4,736.89 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約網格交易 $TSLA，捕捉熱門市場機會 h - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QdUphVC0wb2xJcmd1TVBodWFPb2x5a3JkaGtMWkppUW9waEpjVmpXbFhwcUNpbXpHNF9lRi1hcDhzT3VPb2FVdy1EcFJ1VjRCYWNxTkZWcDZtcWlC?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 10:42:00 GMT",
+      "description": "10月28日 Gate 熱門策略收益排行榜 ETHUSDT 合約網格 200x 做多 | 6,570.61 USDT ETHUSDT 合約網格 50x 做多 | 5,679.51 USDT SOLUSDT 合約網格 100x 做多 | 4,736.89 USDT 多空雙向，最高 200 倍槓桿 使用 Gate 合約網格交易 $TSLA，捕捉熱門市場機會 h &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "900ceeda2c2e5a36",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "10月28日 Gate 熱門策略收益排行榜 ETHUSDT 合約網格 200x 做多 | 6,570.61 U…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -435,6 +435,130 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "老朋友，回來交易股票，最高領 110 USDT TSLA 倉位空投 有一段時間沒交易股票了？Gate 為受邀股票老用戶準備了限時回歸福利。 🎁 回歸首單禮報名後完成首筆不少於 100 USDT 的有效股票交易，即可領取 10 USDT TSLA 倉位空投。限量 500 份，先到先得。 🚀 交 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14bjJkaVJob2IxYVJvMUJob0JISUY5elJ6SDYtOGFvX2pUcUR5UlltOC1rNlRHSFFnd2Fyd25PY3lFYUpWcXE5N2Y4Y0huQnNDeWlHcmFPX2tQNU1f?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 01:37:17 GMT",
+      "description": "老朋友，回來交易股票，最高領 110 USDT TSLA 倉位空投 有一段時間沒交易股票了？Gate 為受邀股票老用戶準備了限時回歸福利。 🎁 回歸首單禮報名後完成首筆不少於 100 USDT 的有效股票交易，即可領取 10 USDT TSLA 倉位空投。限量 500 份，先到先得。 🚀 交 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "943108e4a68b30b0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "老朋友，回來交易股票，最高領 110 USDT TSLA 倉位空投 有一段時間沒交易股票了？Gate 為受邀股…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hNXJFdnBJUWdSd3pkeTl1NTZMT2ZpR0hZYVY2Nkl0Q2dMQzJxOFRWMUlNWjhvYkhlYkM5bEdhdlUtTmJDZTg5OEJwZ0d2dmRBWThWbmY3anFKQjVfWHlTbWYxbw?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 11:09:47 GMT",
+      "description": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "beda0e5fb2b9f52d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了！ 根據 #輝達（ $NVDA ）於美國時間 10 月 26 日發布的官方新聞稿，輝達將正式投入 30 億美元認購 @AIatMeta 新發行的普通股！ 此筆投資直接對接 #Meta 同日宣布、最高總 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11OHE2Q3hfVWlXZ245V3M4RmlTa2JJVHo4VEhpX21OUXRpRGN6aThlQ090TWJobGZpM3ZmTXRnVGdJaFJ5RG9DamswRmltM3JRMGV3WUVOdGNGVURaTk5UVDNKcjlWdw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 14:24:38 GMT",
+      "description": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了！ 根據 #輝達（ $NVDA ）於美國時間 10 月 26 日發布的官方新聞稿，輝達將正式投入 30 億美元認購 @AIatMeta 新發行的普通股！ 此筆投資直接對接 #Meta 同日宣布、最高總 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "e56821ee9be9af40",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA $AMD - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xb096SEVDcVd6ZnFMYnFuU3pmTzlzWXNBeDk5NGN2V0tFcTV2SGFZeXhqalpLeUVwS3dhT0ZoeFVGdnJhYWM2UmtOR2IzMjZYSnJEdzItS2hudEVSaU1CN2dROGY?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 17:19:20 GMT",
+      "description": "$NVDA $AMD &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "d058a9e569e996aa",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -566,6 +690,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用戶加倉人次就一路喺度郁。 全站標的 287 檔，累計加入 12,441 人次。熱度頭三：$MU 1,045 人、$SNDK 616 人、$INTC 517 人；後面 AAOI 473、TSLA／ - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJeFhYdWF0N2Jma0xvczNCUk1hTTNFdEJOSHoySndhREkzSUEtQzR0QkRHWlluZkNWX2ctR3Aya21CRGd5UXh6aXk2NnI5Z0c5ZFpWQnZZQTdhbzJPRExaeQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 09:48:30 GMT",
+      "description": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用戶加倉人次就一路喺度郁。 全站標的 287 檔，累計加入 12,441 人次。熱度頭三：$MU 1,045 人、$SNDK 616 人、$INTC 517 人；後面 AAOI 473、TSLA／ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "0f4b5546d5b45327",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "散戶寶持倉雷達，香港時間 10/26 傍晚頁面顯示即時彙整。美股現金盤未開，價錢仲係上個交易日收市之後嗰輪，用…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "路透／CNA〈Oracle擴大NVIDIA合作並導入谷歌TPU、Cerebras等〉 1、與NVIDIA擴產 1）Oracle（ $ORCL）擴大雲端AI晶片合作，Vera Rubin伺服器目標「數吉瓦級」；交易金額未揭露。 2）黃仁勳此前稱Vera Rubin對NVIDIA（ $NVDA）每吉瓦營收可達約400億美元。 2、算 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YX1l3X1NOSGwzRU1WSTNSdjltbXJOX2R5cm5SX3EzLVU2QUtjakp2bGptWEJLb0RORG9zRTJLMC11ZlJTTFhQaUg2TEJobUtiQzdWUFNRa0dqczRNa2c?oc=5",
       "pubDate": "Tue, 27 Oct 2026 16:15:21 GMT",
@@ -590,161 +745,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "里昂證券（LS Securities）〈CPO Value Chain〉 1、CPO價值鏈分環節 1）平台／ASIC：NVIDIA、Broadcom；已實際推出並供貨CPO；追蹤出貨量與導入率。 2）光學DSP／互連：Marvell、Broadcom；具備1.6T DSP／400G；追蹤轉CPO後的產品組態。 3）雷射：Coherent、Lu - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KeV8yV212RWIwM21lX2hVbWppTFhjUGk3Z0tWXzN1MDcwT2lvSlZwLW12dXR2N3M3ZjdIVkZNeFFQMFN5TWxkYzZ5M2x2aGhVVFdmUDJUeWpWZ1NMbHc?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 15:44:04 GMT",
-      "description": "里昂證券（LS Securities）〈CPO Value Chain〉 1、CPO價值鏈分環節 1）平台／ASIC：NVIDIA、Broadcom；已實際推出並供貨CPO；追蹤出貨量與導入率。 2）光學DSP／互連：Marvell、Broadcom；具備1.6T DSP／400G；追蹤轉CPO後的產品組態。 3）雷射：Coherent、Lu &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e367fe306e5d627d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "里昂證券（LS Securities）〈CPO Value Chain〉 1、CPO價值鏈分環節 1）平台／A…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA $AMD - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xb096SEVDcVd6ZnFMYnFuU3pmTzlzWXNBeDk5NGN2V0tFcTV2SGFZeXhqalpLeUVwS3dhT0ZoeFVGdnJhYWM2UmtOR2IzMjZYSnJEdzItS2hudEVSaU1CN2dROGY?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 17:19:20 GMT",
-      "description": "$NVDA $AMD &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "d058a9e569e996aa",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hNXJFdnBJUWdSd3pkeTl1NTZMT2ZpR0hZYVY2Nkl0Q2dMQzJxOFRWMUlNWjhvYkhlYkM5bEdhdlUtTmJDZTg5OEJwZ0d2dmRBWThWbmY3anFKQjVfWHlTbWYxbw?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 11:09:47 GMT",
-      "description": "BREAKING $AMD $NVDA $AVGO to buy up to $5B on $META Class A shares &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "beda0e5fb2b9f52d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了！ 根據 #輝達（ $NVDA ）於美國時間 10 月 26 日發布的官方新聞稿，輝達將正式投入 30 億美元認購 @AIatMeta 新發行的普通股！ 此筆投資直接對接 #Meta 同日宣布、最高總 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11OHE2Q3hfVWlXZ245V3M4RmlTa2JJVHo4VEhpX21OUXRpRGN6aThlQ090TWJobGZpM3ZmTXRnVGdJaFJ5RG9DamswRmltM3JRMGV3WUVOdGNGVURaTk5UVDNKcjlWdw?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 14:24:38 GMT",
-      "description": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了！ 根據 #輝達（ $NVDA ）於美國時間 10 月 26 日發布的官方新聞稿，輝達將正式投入 30 億美元認購 @AIatMeta 新發行的普通股！ 此筆投資直接對接 #Meta 同日宣布、最高總 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e56821ee9be9af40",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "主要股東搜尋 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GSUh0czctS19pZ2pWZTdlVGNrdmZmaV9BWjBFaG50dlpGVEZiSk5pdjRfS0J4VlBmYVdWNGVfQVBSMTdMWXVEa0luV2VfVnoyMFROcDVxT2xlSnJYX2FMaWNQakYzc2NwUzNLZ2hSVFg?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 19:55:12 GMT",
-      "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 45,
-      "priority": "B",
-      "id": "a997116d1ef03137",
-      "rankReason": "市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "主要股東搜尋 - AAStock",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     }
