@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-29T16:54:50.273Z",
+  "generatedAt": "2026-10-29T21:47:30.590Z",
   "windowDays": 7,
   "summary": {
-    "total": 51,
+    "total": 52,
     "bySignal": {
-      "事实": 7,
+      "事实": 8,
       "媒体": 1,
       "人物": 3,
       "资金": 0,
       "热点": 40
     },
     "byTrust": {
-      "A": 7,
+      "A": 8,
       "B": 4,
       "C": 40
     },
     "s": 0,
-    "a": 7,
-    "b": 44
+    "a": 6,
+    "b": 46
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -116,7 +116,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
+      "score": 71,
       "priority": "A",
       "id": "84d1de499d88b99f",
       "rankReason": "一级/官方信源；高影响事件词"
@@ -156,8 +156,8 @@
       "trustTier": "B",
       "confidence": "B",
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
+      "score": 63,
+      "priority": "B",
       "id": "19cf8f0f46ccb5a6",
       "rankReason": "高影响事件词；关键人物"
     },
@@ -365,26 +365,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA $AMD - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xb096SEVDcVd6ZnFMYnFuU3pmTzlzWXNBeDk5NGN2V0tFcTV2SGFZeXhqalpLeUVwS3dhT0ZoeFVGdnJhYWM2UmtOR2IzMjZYSnJEdzItS2hudEVSaU1CN2dROGY?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 17:19:20 GMT",
-      "description": "$NVDA $AMD &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "d058a9e569e996aa",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "科技股又開始秀肌肉了 💪 AI 熱度不減、半導體持續發力，TSLA 也交出亮眼表現 不只加密市場有機會，美股同樣精彩 🔥 下一波資金會流向哪個板塊？👀 - X",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxdDhpT0VQaDFjZTZhQXR6MEhVaUZMTGg1ek9mbFdJSWhqellVWkp4czZuVEVTYlp4elNoZkVIcm1kY19VZFFIUEZHbUlTdTdSNTcwMXpPYWNUczJzcWpEaTVyY21fZw?oc=5",
       "pubDate": "Tue, 27 Oct 2026 10:29:33 GMT",
@@ -500,6 +480,26 @@
       "priority": "B",
       "id": "a997116d1ef03137",
       "rankReason": "市场相关"
+    },
+    {
+      "market": "宏观",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "pubDate": "Thu, 29 Oct 2026 20:30:00 GMT",
+      "description": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "source": "Federal Reserve · Press",
+      "sourceKey": "fed-press",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 44,
+      "priority": "B",
+      "id": "72881accf09b59a8",
+      "rankReason": "一级/官方信源"
     },
     {
       "market": "全球",
@@ -625,26 +625,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42MmF6eW1ROUQ3T3N2YUN4a0w5SnBzSUZuU25oS080VnRkOXluMFNoUnRTSEUwSmRnSnpqMnRqZEFTN0VzMlJBenVUU002M1IwZThlLUE3a2Z5N200b0E?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 10:58:47 GMT",
-      "description": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "3d810e0db45afaaf",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Jensen Huang $NVDA 以前只是 GPU 公司，後來成為全球最大、成長最快的 networking 公司。 現在正成為最大的 CPU 公司之一，而且肯定是成長最快的。 $NVDA也進入儲存、知識基礎設施、安全（OpenShell、Sentry）等領域。 per gigawatt 能賣出的金額在 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FYTRWNm1yVUhhNE05aW1ISW14bUxnZFFyZU00QTJsSXgteGZKRF9Lb0RpWGhSZTgtYTRPeW55TXdidXVERHp1TzlvaUZxN3pOZDBBN0pyR0M4TGdaRU5JeVdFZ0IwTDQ?oc=5",
       "pubDate": "Sun, 25 Oct 2026 08:49:27 GMT",
@@ -745,6 +725,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "$NVDA $AMD - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xb096SEVDcVd6ZnFMYnFuU3pmTzlzWXNBeDk5NGN2V0tFcTV2SGFZeXhqalpLeUVwS3dhT0ZoeFVGdnJhYWM2UmtOR2IzMjZYSnJEdzItS2hudEVSaU1CN2dROGY?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 17:19:20 GMT",
+      "description": "$NVDA $AMD &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "d058a9e569e996aa",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "全球股市賣壓籠罩，比特幣展現韌性，多位分析師及機構看好其脫離科技股影響，強調8萬美元為關鍵支撐。Hyperliquid大戶逆勢加倉META、NVDA等美股多頭，加密牛市有望延續，但8萬美元能否守穩是反彈關鍵。 - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oNXBtV1podE02M2NhYjFWSXIyaUh0YXVYUHhnQzFBNF9MY0RsNjRHUHlFX05DcVpOVFBpejNYMmk2Z2dGcWNPMWpBQkg2ZDI0T3dDZGdZQjl4UVJ5aTBZV24zaFY?oc=5",
       "pubDate": "Fri, 23 Oct 2026 05:38:25 GMT",
@@ -779,6 +779,26 @@
       "score": 44,
       "priority": "B",
       "id": "7107ace0533f9a0a",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "輝達 (NVDA) 執行長黃仁勳表示，美國 (U.S.) 必須認真看待中國 (China) 在人工智慧 (AI) 與半導體的實力，絕不能低估華為等企業的研發潛能。他強調中國在晶片製造與技術創新上的追趕速度極快，限制措施無法完全阻礙其供應鏈的自主發展。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JanVJRGNXTXViNFFhWjJhek9uSkFYYmZCUVVuMi1MR0YzSTJjQi1SejFZS2NqZ2lUX3ZCSnA5SnhrMm1VN3hSTUM0bE9KVnB5dG55OVZ5dWZjM0Q1cTJtdUx6T0g?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 01:14:47 GMT",
+      "description": "輝達 (NVDA) 執行長黃仁勳表示，美國 (U.S.) 必須認真看待中國 (China) 在人工智慧 (AI) 與半導體的實力，絕不能低估華為等企業的研發潛能。他強調中國在晶片製造與技術創新上的追趕速度極快，限制措施無法完全阻礙其供應鏈的自主發展。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "1ed2d7f5b5db5f5a",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -1042,5 +1062,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-29T16:54:50.961Z"
+  "rankedAt": "2026-10-29T21:47:31.854Z"
 }
