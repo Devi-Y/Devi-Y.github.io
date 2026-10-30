@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T15:54:29.328Z",
+  "generatedAt": "2026-10-30T20:46:34.026Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -329,7 +329,7 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
+      "score": 53,
       "priority": "B",
       "id": "e5f6609e4271487a",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
@@ -380,6 +380,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pdG02clZWRl9qUUQwZVdEZFVPcVBZNlc2TWloTmtVel9mWDgxVW55Vk5GZ1FkejlaM1BQZlRzRTBhak1NZDFybE5wMGhaczNVVU5XbVZPbFhwMENUd2ZpV2Z3?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 00:41:24 GMT",
+      "description": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "b12a161d1e9786cf",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "〈MediaTek 3Q26／4Q26電話會重點〉 1、結論與評等 1）3Q26優於財測，公司再上修ASIC展望：2026年資料中心ASIC約25億美元、2027年上看前次指引上緣約160億美元、市佔目標約20%；手機受成本壓抑，但旗艦AP與2nm SoC帶動組合與ASP；Smart Edge擴張、AS - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxTlFmLU9hMlE1UDBjUUhqMVJ3ejlMbkw2VzM3cVQ4MzZHRmt3QlNRUVdudXhWWGhBcWR2Wlo3Q19tSE4ySVRTQVBGaHlNNkpoRXpUb2NPTEhZelZ0bXc?oc=5",
       "pubDate": "Fri, 30 Oct 2026 13:29:38 GMT",
@@ -398,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "〈MediaTek 3Q26／4Q26電話會重點〉 1、結論與評等 1）3Q26優於財測，公司再上修ASIC展…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0V1VSTFJCWlJoYTVucVdIRmxpWFpGR2h2c2FwZEwyNDE5UVd6bXo2a0R5NmtnaTlWMXhYTW1UMkpjb3lCOHNoMU03Ry1fbUhFSTJtWmUtTjNsVklvLUtOYQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 22:25:46 GMT",
+      "description": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "230d72ba7a220b65",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -615,68 +677,6 @@
       "ai": {
         "priority": "B",
         "summary": "如果說 @elonmusk 負責把未來帶進現實 🚀 那我們負責把福利帶給大家 💰 這次 $500K $TS…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Meta推出最高975億美元股權融資計畫，支應AI資料中心建設：普通股發行擴至250億美元、每股625美元；另有125億美元強制可轉換優先股，以及明年初啟動、最高600億美元的ATM市場售股計畫。$NVDA 投資30億美元，$AMD、$AVGO 也表達參與興趣。 資金將投入 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uZ1dJUHp3bE4tdWl6OXJJUnpQUmc3NlBqMmtaY0w1OE9LNDljMTh3YXJFeWZiQWthNkZ4X0FBZDNNLTVKazBaQzVWaHY3bkR3N0M0ZUxGN2xoa0QtWVZiYl94alBRSDA?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 15:59:18 GMT",
-      "description": "Meta推出最高975億美元股權融資計畫，支應AI資料中心建設：普通股發行擴至250億美元、每股625美元；另有125億美元強制可轉換優先股，以及明年初啟動、最高600億美元的ATM市場售股計畫。$NVDA 投資30億美元，$AMD、$AVGO 也表達參與興趣。 資金將投入 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e69687fcdcc71c9c",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Meta推出最高975億美元股權融資計畫，支應AI資料中心建設：普通股發行擴至250億美元、每股625美元；另…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "路透／CNA〈Oracle擴大NVIDIA合作並導入谷歌TPU、Cerebras等〉 1、與NVIDIA擴產 1）Oracle（ $ORCL）擴大雲端AI晶片合作，Vera Rubin伺服器目標「數吉瓦級」；交易金額未揭露。 2）黃仁勳此前稱Vera Rubin對NVIDIA（ $NVDA）每吉瓦營收可達約400億美元。 2、算 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YX1l3X1NOSGwzRU1WSTNSdjltbXJOX2R5cm5SX3EzLVU2QUtjakp2bGptWEJLb0RORG9zRTJLMC11ZlJTTFhQaUg2TEJobUtiQzdWUFNRa0dqczRNa2c?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 16:15:21 GMT",
-      "description": "路透／CNA〈Oracle擴大NVIDIA合作並導入谷歌TPU、Cerebras等〉 1、與NVIDIA擴產 1）Oracle（ $ORCL）擴大雲端AI晶片合作，Vera Rubin伺服器目標「數吉瓦級」；交易金額未揭露。 2）黃仁勳此前稱Vera Rubin對NVIDIA（ $NVDA）每吉瓦營收可達約400億美元。 2、算 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "0ab77cae71976391",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "路透／CNA〈Oracle擴大NVIDIA合作並導入谷歌TPU、Cerebras等〉 1、與NVIDIA擴產 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
