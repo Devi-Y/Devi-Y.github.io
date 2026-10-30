@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T01:56:48.054Z",
+  "generatedAt": "2026-10-30T08:36:14.001Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -112,7 +112,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 80,
+      "score": 77,
       "priority": "A",
       "id": "439bd5da20ccf7fb",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
@@ -191,6 +191,37 @@
       }
     },
     {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "Banks’ Contact Persons for Handling Customer Complaints 銀 行處 理客 戶投 訴聯 絡人 - Hong Kong Monetary Authority",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb1lJVWhXSk5EUWhManhtc3p6SDk0NXhCUUphdnMyek53d3R3MmxzRXJMZmtEaVhwRGpBYmUtNm5GYnNQdGdFTHdUVUtzMmxPUXA0b1R1RzJnM3VTLTc4SlJaYjl5R0lYeHVDNlN2UHJwUWt1NnluSlU2RFBMR1FFZkZ4SkZJOE9r?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "description": "Banks’ Contact Persons for Handling Customer Complaints 銀 行處 理客 戶投 訴聯 絡人 &nbsp;&nbsp; Hong Kong Monetary Authority",
+      "source": "Hong Kong Monetary Authority",
+      "sourceKey": "hkma",
+      "sourceMode": "official-domain-discovery",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 68,
+      "priority": "A",
+      "id": "23ef4513ec4f3308",
+      "rankReason": "一级/官方信源；高影响事件词",
+      "ai": {
+        "priority": "A",
+        "summary": "Banks’ Contact Persons for Handling Customer Complaints…",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
@@ -253,44 +284,13 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX Launches Artificial Intelligence and Semiconductor Indices",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/261023news?sc_lang=en",
-      "pubDate": "Fri, 23 Oct 2026 16:30:00 +0800",
-      "description": "HKEX Launches Artificial Intelligence and Semiconductor Indices",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 52,
-      "priority": "B",
-      "id": "6ddd783666258204",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "热点",
-      "type": "财报",
-      "title": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JZERlZGItQl9lLWgxRENITWt5bTl2RzB4czlrNWRaNFpBMEJIUEJLM0VtOTI4UUNYVERHNDE1aUluT2d2MkpwZEFnWXBxekxzejZSUGtOUE5sN1NBRHc?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 01:18:04 GMT",
-      "description": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe &nbsp;&nbsp; X",
+      "type": "IPO",
+      "title": "從17歲創業到納斯達克上市，王老師分享如何在AI時代打造現金流王國。本期揭秘美股ABC震盪結構，深入探討NVDA與科技股未來走向！掌握關鍵技術節點，投資人必看。 #美股 #AI #王道論市 #投資 #納斯達克 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yaFgxcUZveXdBVDN5XzNFVUd6SHJmY0tMTlB4UFZGRDA2WnpSckEzbk5DVHhLamxyWnpFWmRjNEEycHJLNFZMMzhENXA4T28wdEMzWlY4R2dWR3VaYVJHUnRR?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 18:53:26 GMT",
+      "description": "從17歲創業到納斯達克上市，王老師分享如何在AI時代打造現金流王國。本期揭秘美股ABC震盪結構，深入探討NVDA與科技股未來走向！掌握關鍵技術節點，投資人必看。 #美股 #AI #王道論市 #投資 #納斯達克 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -298,17 +298,17 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
+      "score": 55,
       "priority": "B",
-      "id": "af5d74e7b7a3d65d",
+      "id": "e5f6609e4271487a",
       "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "X出现新的财报或业绩信息",
+        "summary": "從17歲創業到納斯達克上市，王老師分享如何在AI時代打造現金流王國。本期揭秘美股ABC震盪結構，深入探討NVD…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
-          "快讯",
-          "财报解读"
+          "IPO",
+          "招股书解析"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -349,10 +349,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路」〉 1、核心問題 1）AI工廠效能取決於資料傳輸，而非僅GPU算力；傳輸路徑太窄時GPU會閒置等待資料。 2）GPU越快，記憶體與網路頻寬越成為瓶頸。 2、銅與光分工 1）銅線適合晶片內與 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kRVgybzFadFgwUFREeTN6ODdaOWV1TW5QRDJhZkt5bndEQmtxSzJ0aE5mMEdMbVlkZ0JObjFfTnBJcWFlNHo0VlM2aFU1dHpsMHFMZ3U0Zzc4TV8tYWc?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 06:03:55 GMT",
-      "description": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路」〉 1、核心問題 1）AI工廠效能取決於資料傳輸，而非僅GPU算力；傳輸路徑太窄時GPU會閒置等待資料。 2）GPU越快，記憶體與網路頻寬越成為瓶頸。 2、銅與光分工 1）銅線適合晶片內與 &nbsp;&nbsp; X",
+      "title": "$NVDA 期權交易數據喜憂參半，但213美元岌岌可危 (10/29) $NVDA近期相關消息: 1. NVIDIA 與 Meta 宣布深化 Muse AI 代理與模型合作，NVIDIA 投入 30 億美元參與 Meta 的股權融資。 2. Oracle 合作擴大 Vera Rubin 至多GW規模。 3. SpaceX 完成約 400 億美元融 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tSTF3N3l3V1cxMXAzc0s5NnVZZGREYXU4emZwcWVpYnBmZ0NnbHVkTXdweE1CRkY2OXNUbmdUSEVwRnVGNFdveV9GNG51WjhqUHI3dk5BOGF5WWZBSWRQNHZR?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 11:30:54 GMT",
+      "description": "$NVDA 期權交易數據喜憂參半，但213美元岌岌可危 (10/29) $NVDA近期相關消息: 1. NVIDIA 與 Meta 宣布深化 Muse AI 代理與模型合作，NVIDIA 投入 30 億美元參與 Meta 的股權融資。 2. Oracle 合作擴大 Vera Rubin 至多GW規模。 3. SpaceX 完成約 400 億美元融 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -362,17 +362,110 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "22be3ca9829b31b0",
+      "id": "a4ca1edf3f98f0dd",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路…",
+        "summary": "$NVDA 期權交易數據喜憂參半，但213美元岌岌可危 (10/29) $NVDA近期相關消息: 1. NVI…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Barclays策略師Alex Altmann在Bloomberg《Odd Lots》估計，2027年標普500獲利增長約75%將來自AI生態系，其中約三分之二來自半導體，換算就是整體獲利增量約一半靠晶片。這是策略師的預估，但也點出指數的集中風險：AI支出一旦轉弱，影響會延伸到標普整體E - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzZGtDcDljcWhwSl9hWjlpQ1VFQ0o0T0tpczZ2WURxTE5yYno2R2t4Y1VrYzI3TzlJNHYxSlBnOTdxb1lBbmlmeGVablVQaENkQ1ROaTYtZmRaekpVOWhlNXZuX2g3Uk0?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 15:17:51 GMT",
+      "description": "Barclays策略師Alex Altmann在Bloomberg《Odd Lots》估計，2027年標普500獲利增長約75%將來自AI生態系，其中約三分之二來自半導體，換算就是整體獲利增量約一半靠晶片。這是策略師的預估，但也點出指數的集中風險：AI支出一旦轉弱，影響會延伸到標普整體E &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "899c93770bad4fcd",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Barclays策略師Alex Altmann在Bloomberg《Odd Lots》估計，2027年標普50…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0V1VSTFJCWlJoYTVucVdIRmxpWFpGR2h2c2FwZEwyNDE5UVd6bXo2a0R5NmtnaTlWMXhYTW1UMkpjb3lCOHNoMU03Ry1fbUhFSTJtWmUtTjNsVklvLUtOYQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 22:25:46 GMT",
+      "description": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "230d72ba7a220b65",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "IREN, CRWV, NBIS, APLD Stocks Fall Pre-Market as Analyst Echoes Elon Musk’s Neocloud Debt Warning: ‘Putting GPUs as Collateral Isn’t Enough Anymore - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOWm5DdjRmeWVkMWZSa3YwaS1sMXF3T3JGUDdpTFRfY2h3RXQyUVAzN01pM3VkcG5Gd01nS3NnaVdIb09EaHF3bFA4Y1FjQkpaTHN0aWVwSEZrdWFwVHZNTnZxSUpIQllxZktic0VXRUFKZ0JpS05WVWJMbzY5amlxWkhZTElKbDEta3JaV0U4QnlvaDlwWHVyZUZFdS1XRFZ5bmNITlI0T2FGaWFfZU16TzI2eWdGeE9mX3dod0tGNXJ5WGtOTWtVZzhGLWdheEhvOWotSFFTMkNncjREUWwtdHZzRVhCUXN4NU9HeUNMOXVvVU1BN21FVllMQmt4X2drRUpLM1RqWjVYMDQ5UWFoRHNPakFRVWdKZXFmcXV3RWpEaGVscW5j?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 07:00:00 GMT",
+      "description": "IREN, CRWV, NBIS, APLD Stocks Fall Pre-Market as Analyst Echoes Elon Musk’s Neocloud Debt Warning: ‘Putting GPUs as Collateral Isn’t Enough Anymore &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 47,
+      "priority": "B",
+      "id": "c886212d72a237f2",
+      "rankReason": "市场相关；关键人物",
+      "ai": {
+        "priority": "B",
+        "summary": "TradingView出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -429,37 +522,6 @@
       "ai": {
         "priority": "B",
         "summary": "10月28日 Gate 股票套利榜 AGPU_USDT | 19.85% SNXX_USDT | 18.81%…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了！ 根據 #輝達（ $NVDA ）於美國時間 10 月 26 日發布的官方新聞稿，輝達將正式投入 30 億美元認購 @AIatMeta 新發行的普通股！ 此筆投資直接對接 #Meta 同日宣布、最高總 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11OHE2Q3hfVWlXZ245V3M4RmlTa2JJVHo4VEhpX21OUXRpRGN6aThlQ090TWJobGZpM3ZmTXRnVGdJaFJ5RG9DamswRmltM3JRMGV3WUVOdGNGVURaTk5UVDNKcjlWdw?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 14:24:38 GMT",
-      "description": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了！ 根據 #輝達（ $NVDA ）於美國時間 10 月 26 日發布的官方新聞稿，輝達將正式投入 30 億美元認購 @AIatMeta 新發行的普通股！ 此筆投資直接對接 #Meta 同日宣布、最高總 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e56821ee9be9af40",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "大新聞啊，最近剛玩 #Muse 和 #GrokBot 上癮，馬上久未動作的 @JensenHuang 就出招了…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,10 +690,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hVzRxZ0t2WEhLdEZCQ1B3dXJWdVlHSXlEc3Bjdnl4RHZPOFdJQnRBaHdpZ3JScmFBVU9PY2dxN0ZmSWdPWWprNnBPcWEybEUtNGM5STMyb3ItanFwR2JlUmJERQ?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 06:31:12 GMT",
-      "description": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi &nbsp;&nbsp; X",
+      "title": "新增 23 個合約幣對，累計達到 1,027 個。 熱點換賽道，WEEX 的選擇繼續擴容。 從 $NVDA $SKHYNIX 到 $SPCX $TSLA $ZEC ， 交易不止加密，機會盡在 WEEX 💛 https://t.co/OcALOnNhQG #WEEX #Tradfi #美股 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByUWhHOU0zVjBFRDY5SjFSSFNGcEpTWWFPWmF0enNlRHp5cjdteWg3M3c4VEw5d21sWWdvX0NaLS1vQzNLVFVUSmVVOGRQdGNhcVpSWENwMXFWZlVtMjJtbkNjYk4?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 08:50:51 GMT",
+      "description": "新增 23 個合約幣對，累計達到 1,027 個。 熱點換賽道，WEEX 的選擇繼續擴容。 從 $NVDA $SKHYNIX 到 $SPCX $TSLA $ZEC ， 交易不止加密，機會盡在 WEEX 💛 https://t.co/OcALOnNhQG #WEEX #Tradfi #美股 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -641,11 +703,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "165cf302c4c89758",
+      "id": "10c0fc2f14f403f5",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 …",
+        "summary": "新增 23 個合約幣對，累計達到 1,027 個。 熱點換賽道，WEEX 的選擇繼續擴容。 從 $NVDA $…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -659,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "野村 ： ByteDance 的主導地位、工具競爭與多模型工作流 ByteDance Dominance, Tool Competition, and Multi-Model Workflows 在 AI 視頻生成領域，技術工具正在從單一模型依賴，快速演進為「多模型協同編排（Multi-Model Orchestration）」的現代化工作流。製作方 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Pc1VvaVMwYmVOVUxLeHZBU1FjUGV1ald0b2tZQjZHYjBoOFZDV0RwNU5rSnEyakhicHhqeVFxc2hKam9iaFFsbzJxcU5ndU14TnREdmZPN3k3UG5lZm9UeW5LVDBMMTg?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 04:33:50 GMT",
-      "description": "野村 ： ByteDance 的主導地位、工具競爭與多模型工作流 ByteDance Dominance, Tool Competition, and Multi-Model Workflows 在 AI 視頻生成領域，技術工具正在從單一模型依賴，快速演進為「多模型協同編排（Multi-Model Orchestration）」的現代化工作流。製作方 &nbsp;&nbsp; X",
+      "title": "路透／CNA〈Oracle擴大NVIDIA合作並導入谷歌TPU、Cerebras等〉 1、與NVIDIA擴產 1）Oracle（ $ORCL）擴大雲端AI晶片合作，Vera Rubin伺服器目標「數吉瓦級」；交易金額未揭露。 2）黃仁勳此前稱Vera Rubin對NVIDIA（ $NVDA）每吉瓦營收可達約400億美元。 2、算 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YX1l3X1NOSGwzRU1WSTNSdjltbXJOX2R5cm5SX3EzLVU2QUtjakp2bGptWEJLb0RORG9zRTJLMC11ZlJTTFhQaUg2TEJobUtiQzdWUFNRa0dqczRNa2c?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:15:21 GMT",
+      "description": "路透／CNA〈Oracle擴大NVIDIA合作並導入谷歌TPU、Cerebras等〉 1、與NVIDIA擴產 1）Oracle（ $ORCL）擴大雲端AI晶片合作，Vera Rubin伺服器目標「數吉瓦級」；交易金額未揭露。 2）黃仁勳此前稱Vera Rubin對NVIDIA（ $NVDA）每吉瓦營收可達約400億美元。 2、算 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -672,79 +734,17 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "cfed3feb408593ca",
+      "id": "0ab77cae71976391",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "野村 ： ByteDance 的主導地位、工具競爭與多模型工作流 ByteDance Dominance, T…",
+        "summary": "路透／CNA〈Oracle擴大NVIDIA合作並導入谷歌TPU、Cerebras等〉 1、與NVIDIA擴產 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "媒体",
-      "type": "公司事件",
-      "title": "主要股東搜尋 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GSUh0czctS19pZ2pWZTdlVGNrdmZmaV9BWjBFaG50dlpGVEZiSk5pdjRfS0J4VlBmYVdWNGVfQVBSMTdMWXVEa0luV2VfVnoyMFROcDVxT2xlSnJYX2FMaWNQakYzc2NwUzNLZ2hSVFg?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 19:55:12 GMT",
-      "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
-      "source": "AAStock",
-      "sourceKey": "aastocks",
-      "sourceMode": "media-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 45,
-      "priority": "B",
-      "id": "a997116d1ef03137",
-      "rankReason": "市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "主要股東搜尋 - AAStock",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "pubDate": "Thu, 29 Oct 2026 20:30:00 GMT",
-      "description": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 44,
-      "priority": "B",
-      "id": "72881accf09b59a8",
-      "rankReason": "一级/官方信源",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     }
