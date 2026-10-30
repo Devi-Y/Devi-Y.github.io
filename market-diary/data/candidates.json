@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-29T21:47:30.590Z",
+  "generatedAt": "2026-10-30T01:56:47.128Z",
   "windowDays": 7,
   "summary": {
-    "total": 52,
+    "total": 53,
     "bySignal": {
       "事实": 8,
       "媒体": 1,
       "人物": 3,
       "资金": 0,
-      "热点": 40
+      "热点": 41
     },
     "byTrust": {
       "A": 8,
       "B": 4,
-      "C": 40
+      "C": 41
     },
     "s": 0,
     "a": 6,
-    "b": 46
+    "b": 47
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -182,26 +182,6 @@
       "rankReason": "高影响事件词；关键人物"
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "财报",
-      "title": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JZERlZGItQl9lLWgxRENITWt5bTl2RzB4czlrNWRaNFpBMEJIUEJLM0VtOTI4UUNYVERHNDE1aUluT2d2MkpwZEFnWXBxekxzejZSUGtOUE5sN1NBRHc?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 01:18:04 GMT",
-      "description": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
-      "priority": "B",
-      "id": "af5d74e7b7a3d65d",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -220,6 +200,26 @@
       "priority": "B",
       "id": "6ddd783666258204",
       "rankReason": "一级/官方信源；市场相关"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "财报",
+      "title": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JZERlZGItQl9lLWgxRENITWt5bTl2RzB4czlrNWRaNFpBMEJIUEJLM0VtOTI4UUNYVERHNDE1aUluT2d2MkpwZEFnWXBxekxzejZSUGtOUE5sN1NBRHc?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 01:18:04 GMT",
+      "description": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "af5d74e7b7a3d65d",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -405,26 +405,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi - X",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VdzRrUXRtVFZNTzExV3FKaG82MVpzQTA1YnZwQ2gxdl9nUVgwN05udmRLeThCajZGZHhCUksyb29uMW8zZmJBdGNDQXFyZDVvQWpWR0ZPV0dBeHhZZV83Uk9XbmxtS1R6UW9ERlR3?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 06:31:12 GMT",
-      "description": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "bce7de079b9a5d62",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Meta推出最高975億美元股權融資計畫，支應AI資料中心建設：普通股發行擴至250億美元、每股625美元；另有125億美元強制可轉換優先股，以及明年初啟動、最高600億美元的ATM市場售股計畫。$NVDA 投資30億美元，$AMD、$AVGO 也表達參與興趣。 資金將投入 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uZ1dJUHp3bE4tdWl6OXJJUnpQUmc3NlBqMmtaY0w1OE9LNDljMTh3YXJFeWZiQWthNkZ4X0FBZDNNLTVKazBaQzVWaHY3bkR3N0M0ZUxGN2xoa0QtWVZiYl94alBRSDA?oc=5",
       "pubDate": "Tue, 27 Oct 2026 15:59:18 GMT",
@@ -439,6 +419,26 @@
       "score": 47,
       "priority": "B",
       "id": "e69687fcdcc71c9c",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hVzRxZ0t2WEhLdEZCQ1B3dXJWdVlHSXlEc3Bjdnl4RHZPOFdJQnRBaHdpZ3JScmFBVU9PY2dxN0ZmSWdPWWprNnBPcWEybEUtNGM5STMyb3ItanFwR2JlUmJERQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 06:31:12 GMT",
+      "description": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "165cf302c4c89758",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -625,6 +625,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42MmF6eW1ROUQ3T3N2YUN4a0w5SnBzSUZuU25oS080VnRkOXluMFNoUnRTSEUwSmRnSnpqMnRqZEFTN0VzMlJBenVUU002M1IwZThlLUE3a2Z5N200b0E?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 10:58:47 GMT",
+      "description": "摩根士丹利（Morgan Stanley）〈Nvidia GTC 柏林：為強勁的 2027 鋪路〉 1、重申加碼（Overweight）／半導體 Top Pick，目標價 300 美元（10月21日收盤 221.97 美元）；認為供應鏈、土地／電力／機殼與融資挑戰均可轉為 Nvidia（ $NVDA）機會。 2、2027 敘事：Vera Rubi &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "3d810e0db45afaaf",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "$NVDA Jensen Huang $NVDA 以前只是 GPU 公司，後來成為全球最大、成長最快的 networking 公司。 現在正成為最大的 CPU 公司之一，而且肯定是成長最快的。 $NVDA也進入儲存、知識基礎設施、安全（OpenShell、Sentry）等領域。 per gigawatt 能賣出的金額在 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FYTRWNm1yVUhhNE05aW1ISW14bUxnZFFyZU00QTJsSXgteGZKRF9Lb0RpWGhSZTgtYTRPeW55TXdidXVERHp1TzlvaUZxN3pOZDBBN0pyR0M4TGdaRU5JeVdFZ0IwTDQ?oc=5",
       "pubDate": "Sun, 25 Oct 2026 08:49:27 GMT",
@@ -785,26 +805,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "輝達 (NVDA) 執行長黃仁勳表示，美國 (U.S.) 必須認真看待中國 (China) 在人工智慧 (AI) 與半導體的實力，絕不能低估華為等企業的研發潛能。他強調中國在晶片製造與技術創新上的追趕速度極快，限制措施無法完全阻礙其供應鏈的自主發展。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JanVJRGNXTXViNFFhWjJhek9uSkFYYmZCUVVuMi1MR0YzSTJjQi1SejFZS2NqZ2lUX3ZCSnA5SnhrMm1VN3hSTUM0bE9KVnB5dG55OVZ5dWZjM0Q1cTJtdUx6T0g?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 01:14:47 GMT",
-      "description": "輝達 (NVDA) 執行長黃仁勳表示，美國 (U.S.) 必須認真看待中國 (China) 在人工智慧 (AI) 與半導體的實力，絕不能低估華為等企業的研發潛能。他強調中國在晶片製造與技術創新上的追趕速度極快，限制措施無法完全阻礙其供應鏈的自主發展。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "1ed2d7f5b5db5f5a",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "美銀〈Agentic 需求或帶動 AI CPU：2030 年出貨上看約 2,600 萬顆〉 1、Agentic CPU 需求框架： 1）估每新增 10 億 Agentic 用戶，約帶來逾 2,000 萬顆 AI CPU 增量需求。 2）Agentic CPU 出貨由 2026 曆年約 250 萬顆，估至 2030 曆年約 2,600 萬顆。 3）至 2030 曆年相 - X",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53dlE2M0prSkZzdWxFSENOWlZlZWhiNkhuRkFOcERLYkQxLUxSbk1TSUpHeUlUTU1yWVh6YXFVeFpLdmNJU1daVUJ5S1p3ZmVZRFBiRHFtbWNGbUZvSTdxZTNTWTRlZGty?oc=5",
       "pubDate": "Sat, 24 Oct 2026 15:40:54 GMT",
@@ -879,6 +879,26 @@
       "score": 34,
       "priority": "B",
       "id": "14c79a67de88953f",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "無意中刷到一位網友（算是一位視頻博主吧），他持有一隻太空股，曾經大漲了幾倍，但是近期股價自歷史高點大幅下跌近-70%，然而他依然堅持己見，不斷加倉硬扛。 這件事讓我想起自己也曾經有過類似的經歷：一隻股票賺了幾倍沒走，然後市場大幅下跌中認為自己沒 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qcHU0SVlyYTc2Y2IyWHhGY2NISlFPV3kzUW45TUxRSXd0c1VtMjFSN21NWUxtYnJvaGp3akN1ckx1TE5NOG84UHh3MkZTUmRfOWh1SzF2eG9JZF96aWYtYWNJVlg?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 02:39:15 GMT",
+      "description": "無意中刷到一位網友（算是一位視頻博主吧），他持有一隻太空股，曾經大漲了幾倍，但是近期股價自歷史高點大幅下跌近-70%，然而他依然堅持己見，不斷加倉硬扛。 這件事讓我想起自己也曾經有過類似的經歷：一隻股票賺了幾倍沒走，然後市場大幅下跌中認為自己沒 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 31,
+      "priority": "B",
+      "id": "c91ed7e76108d585",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -1062,5 +1082,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-29T21:47:31.854Z"
+  "rankedAt": "2026-10-30T01:56:47.525Z"
 }

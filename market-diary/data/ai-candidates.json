@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T21:47:32.535Z",
+  "generatedAt": "2026-10-30T01:56:48.054Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -253,37 +253,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "财报",
-      "title": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JZERlZGItQl9lLWgxRENITWt5bTl2RzB4czlrNWRaNFpBMEJIUEJLM0VtOTI4UUNYVERHNDE1aUluT2d2MkpwZEFnWXBxekxzejZSUGtOUE5sN1NBRHc?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 01:18:04 GMT",
-      "description": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 53,
-      "priority": "B",
-      "id": "af5d74e7b7a3d65d",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现新的财报或业绩信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "财报解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -311,6 +280,37 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "财报",
+      "title": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JZERlZGItQl9lLWgxRENITWt5bTl2RzB4czlrNWRaNFpBMEJIUEJLM0VtOTI4UUNYVERHNDE1aUluT2d2MkpwZEFnWXBxekxzejZSUGtOUE5sN1NBRHc?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 01:18:04 GMT",
+      "description": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "af5d74e7b7a3d65d",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现新的财报或业绩信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -597,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi - X",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VdzRrUXRtVFZNTzExV3FKaG82MVpzQTA1YnZwQ2gxdl9nUVgwN05udmRLeThCajZGZHhCUksyb29uMW8zZmJBdGNDQXFyZDVvQWpWR0ZPV0dBeHhZZV83Uk9XbmxtS1R6UW9ERlR3?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 06:31:12 GMT",
-      "description": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "bce7de079b9a5d62",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Meta推出最高975億美元股權融資計畫，支應AI資料中心建設：普通股發行擴至250億美元、每股625美元；另有125億美元強制可轉換優先股，以及明年初啟動、最高600億美元的ATM市場售股計畫。$NVDA 投資30億美元，$AMD、$AVGO 也表達參與興趣。 資金將投入 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uZ1dJUHp3bE4tdWl6OXJJUnpQUmc3NlBqMmtaY0w1OE9LNDljMTh3YXJFeWZiQWthNkZ4X0FBZDNNLTVKazBaQzVWaHY3bkR3N0M0ZUxGN2xoa0QtWVZiYl94alBRSDA?oc=5",
       "pubDate": "Tue, 27 Oct 2026 15:59:18 GMT",
@@ -646,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "Meta推出最高975億美元股權融資計畫，支應AI資料中心建設：普通股發行擴至250億美元、每股625美元；另…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hVzRxZ0t2WEhLdEZCQ1B3dXJWdVlHSXlEc3Bjdnl4RHZPOFdJQnRBaHdpZ3JScmFBVU9PY2dxN0ZmSWdPWWprNnBPcWEybEUtNGM5STMyb3ItanFwR2JlUmJERQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 06:31:12 GMT",
+      "description": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 XT TradFi 交易 TSLAXUSDT 永續合約 https://t.co/jJx3sbvgB7 #TSLA #XTexchange #XTtradFi &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "165cf302c4c89758",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🚗 Tesla 強勢反彈！ Barclays 將目標價上調至 $450。 這波動能還能持續多久？👀 前往 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
