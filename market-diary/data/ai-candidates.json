@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T20:46:34.026Z",
+  "generatedAt": "2026-10-31T00:46:08.351Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -380,37 +380,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pdG02clZWRl9qUUQwZVdEZFVPcVBZNlc2TWloTmtVel9mWDgxVW55Vk5GZ1FkejlaM1BQZlRzRTBhak1NZDFybE5wMGhaczNVVU5XbVZPbFhwMENUd2ZpV2Z3?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 00:41:24 GMT",
-      "description": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "b12a161d1e9786cf",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "〈MediaTek 3Q26／4Q26電話會重點〉 1、結論與評等 1）3Q26優於財測，公司再上修ASIC展望：2026年資料中心ASIC約25億美元、2027年上看前次指引上緣約160億美元、市佔目標約20%；手機受成本壓抑，但旗艦AP與2nm SoC帶動組合與ASP；Smart Edge擴張、AS - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxTlFmLU9hMlE1UDBjUUhqMVJ3ejlMbkw2VzM3cVQ4MzZHRmt3QlNRUVdudXhWWGhBcWR2Wlo3Q19tSE4ySVRTQVBGaHlNNkpoRXpUb2NPTEhZelZ0bXc?oc=5",
       "pubDate": "Fri, 30 Oct 2026 13:29:38 GMT",
@@ -429,37 +398,6 @@
       "ai": {
         "priority": "B",
         "summary": "〈MediaTek 3Q26／4Q26電話會重點〉 1、結論與評等 1）3Q26優於財測，公司再上修ASIC展…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0V1VSTFJCWlJoYTVucVdIRmxpWFpGR2h2c2FwZEwyNDE5UVd6bXo2a0R5NmtnaTlWMXhYTW1UMkpjb3lCOHNoMU03Ry1fbUhFSTJtWmUtTjNsVklvLUtOYQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 22:25:46 GMT",
-      "description": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "230d72ba7a220b65",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -522,37 +460,6 @@
       "ai": {
         "priority": "B",
         "summary": "老朋友，回來交易股票，最高領 110 USDT TSLA 倉位空投 有一段時間沒交易股票了？Gate 為受邀股…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "〈NVIDIA測試產能倍增與MEMS探針卡供應格局〉） 1、NVIDIA測試產能 1）NVIDIA（ $NVDA）計畫將AI半導體測試能力自2026年至2027年倍增。 2、供應格局 1）對NVIDIA之MEMS探針卡供應：第一Technoprobe（TECH.MI）、第二FormFactor（ $FORM）。 2）Technoprob - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96OXo4S3hDSmFEajZzbXpCOXRWSV92UVRheFVVYkFJZjQ0aUp6VG01czR6cWpCY3hhS2MydWlvV1B2eTAwajZsTXREYUEzc3RUdHZTOVhXQ1owZlRrRUE?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 14:12:00 GMT",
-      "description": "〈NVIDIA測試產能倍增與MEMS探針卡供應格局〉） 1、NVIDIA測試產能 1）NVIDIA（ $NVDA）計畫將AI半導體測試能力自2026年至2027年倍增。 2、供應格局 1）對NVIDIA之MEMS探針卡供應：第一Technoprobe（TECH.MI）、第二FormFactor（ $FORM）。 2）Technoprob &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "ce14bcce8b29e106",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "〈NVIDIA測試產能倍增與MEMS探針卡供應格局〉） 1、NVIDIA測試產能 1）NVIDIA（ $NVD…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -660,7 +567,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "如果說 @elonmusk 負責把未來帶進現實 🚀 那我們負責把福利帶給大家 💰 這次 $500K $TSLA 獎池已經準備好了！ 距離活動結束只剩 2 天，還沒上車的真的要快 👀 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hcU9NY0dBclQ1NEJyYVo1OXBmSXFXeW9tNGxJMDBtV1MwYmF6Q0xreHdKQS0yN1dnT3Y4VXh1T3BmXy1xbHFkcHZyMGVvR2VlVDdRd0JUbHphLVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QSGFSWDhSN3VzRm9ybHB6bG9LR2F6MmtjV0xYaTZ5MWJSbDA5N3B1QWpWLWZLZjFKMXQxTUc0TGhTczFCX0NPNk94SVZiSDZsdXdPU0FPZHZQNGtvd2tGMXJUanhDNXFiQnluOA?oc=5",
       "pubDate": "Wed, 28 Oct 2026 13:12:24 GMT",
       "description": "如果說 @elonmusk 負責把未來帶進現實 🚀 那我們負責把福利帶給大家 💰 這次 $500K $TSLA 獎池已經準備好了！ 距離活動結束只剩 2 天，還沒上車的真的要快 👀 &nbsp;&nbsp; X",
       "source": "X",
@@ -672,11 +579,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "f4c9db73e077a5e2",
+      "id": "5b6a12b8c4b6143c",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
         "summary": "如果說 @elonmusk 負責把未來帶進現實 🚀 那我們負責把福利帶給大家 💰 這次 $500K $TS…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pdG02clZWRl9qUUQwZVdEZFVPcVBZNlc2TWloTmtVel9mWDgxVW55Vk5GZ1FkejlaM1BQZlRzRTBhak1NZDFybE5wMGhaczNVVU5XbVZPbFhwMENUd2ZpV2Z3?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 00:41:24 GMT",
+      "description": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "b12a161d1e9786cf",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "特斯拉暴跌反而是抄底機會？王老師親授獨門收租心法，剖析美股ABC震盪結構與時間之窗，教你如何在波動市場中精準操…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 期權交易數據喜憂參半，但213美元岌岌可危 (10/29) $NVDA近期相關消息: 1. NVIDIA 與 Meta 宣布深化 Muse AI 代理與模型合作，NVIDIA 投入 30 億美元參與 Meta 的股權融資。 2. Oracle 合作擴大 Vera Rubin 至多GW規模。 3. SpaceX 完成約 400 億美元融 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tSTF3N3l3V1cxMXAzc0s5NnVZZGREYXU4emZwcWVpYnBmZ0NnbHVkTXdweE1CRkY2OXNUbmdUSEVwRnVGNFdveV9GNG51WjhqUHI3dk5BOGF5WWZBSWRQNHZR?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 11:30:54 GMT",
+      "description": "$NVDA 期權交易數據喜憂參半，但213美元岌岌可危 (10/29) $NVDA近期相關消息: 1. NVIDIA 與 Meta 宣布深化 Muse AI 代理與模型合作，NVIDIA 投入 30 億美元參與 Meta 的股權融資。 2. Oracle 合作擴大 Vera Rubin 至多GW規模。 3. SpaceX 完成約 400 億美元融 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "a4ca1edf3f98f0dd",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 期權交易數據喜憂參半，但213美元岌岌可危 (10/29) $NVDA近期相關消息: 1. NVI…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛在隱憂，更公開CRWD最新支撐點位與獲利信號。精彩觀點不容錯過！ #英偉達 #NVDA #美股 #AI投資 #美股分析 #投資理財 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DclhkelJ2ZWUtX0VzN1BZbW1Rcm1iVmotRE55blB0UGZial9NR3dXQ29NbFhtYVA3RWRoOEdfV1M1dHV2TUVGUkIydzRaemVXSnphcHAzME83UG9oRGVxLUVR?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 01:46:22 GMT",
+      "description": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛在隱憂，更公開CRWD最新支撐點位與獲利信號。精彩觀點不容錯過！ #英偉達 #NVDA #美股 #AI投資 #美股分析 #投資理財 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "2a8be58d2d33ae19",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
