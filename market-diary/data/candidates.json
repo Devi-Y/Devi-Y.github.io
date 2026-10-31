@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-31T18:31:45.779Z",
+  "generatedAt": "2026-10-31T22:27:50.038Z",
   "windowDays": 7,
   "summary": {
-    "total": 63,
+    "total": 62,
     "bySignal": {
       "事实": 18,
       "媒体": 1,
       "人物": 4,
       "资金": 0,
-      "热点": 40
+      "热点": 39
     },
     "byTrust": {
       "A": 18,
       "B": 5,
-      "C": 40
+      "C": 39
     },
     "s": 0,
     "a": 8,
-    "b": 55
+    "b": 54
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -340,26 +340,6 @@
       "priority": "B",
       "id": "c886212d72a237f2",
       "rankReason": "市场相关；关键人物"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pdG02clZWRl9qUUQwZVdEZFVPcVBZNlc2TWloTmtVel9mWDgxVW55Vk5GZ1FkejlaM1BQZlRzRTBhak1NZDFybE5wMGhaczNVVU5XbVZPbFhwMENUd2ZpV2Z3?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 00:41:24 GMT",
-      "description": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "b12a161d1e9786cf",
-      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -766,7 +746,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "科技股又開始秀肌肉了 💪 AI 熱度不減、半導體持續發力，TSLA 也交出亮眼表現 不只加密市場有機會，美股同樣精彩 🔥 下一波資金會流向哪個板塊？👀 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51b3JJa1I0TlRuaHB3bEo5QmEzcVZpSWpscHlGdnhMSmFFMzAteVNCbG1GRGxwR2cwVVhnZFpqWDN5MGlLQVMtdm02WWxOb1ZUSHRoODgybTJVd0k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sUDlIUVRSSExMTE1WSDBuZmJsbElKUjZ6ejFETkMwN054N2htVWJvNnpHUDRxRVIwZE5wbDlkMGNWb3plU1ZnWTRIaU5PRWhvT1J1N1pFenFILWVhblItY1BYZEJwUXp0WmZtYQ?oc=5",
       "pubDate": "Tue, 27 Oct 2026 10:29:33 GMT",
       "description": "科技股又開始秀肌肉了 💪 AI 熱度不減、半導體持續發力，TSLA 也交出亮眼表現 不只加密市場有機會，美股同樣精彩 🔥 下一波資金會流向哪個板塊？👀 &nbsp;&nbsp; X",
       "source": "X",
@@ -778,7 +758,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 44,
       "priority": "B",
-      "id": "9de75aec9249b2c6",
+      "id": "35c4068c59c78945",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -1282,5 +1262,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-10-31T18:31:46.142Z"
+  "rankedAt": "2026-10-31T22:27:51.166Z"
 }
