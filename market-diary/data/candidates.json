@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-01T16:00:19.306Z",
+  "generatedAt": "2026-11-01T20:29:45.162Z",
   "windowDays": 7,
   "summary": {
-    "total": 61,
+    "total": 57,
     "bySignal": {
-      "事实": 15,
+      "事实": 14,
       "媒体": 1,
-      "人物": 6,
+      "人物": 3,
       "资金": 0,
       "热点": 39
     },
     "byTrust": {
-      "A": 15,
-      "B": 7,
+      "A": 14,
+      "B": 4,
       "C": 39
     },
     "s": 0,
     "a": 8,
-    "b": 53
+    "b": 49
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -184,26 +184,6 @@
     {
       "market": "全球",
       "signal": "人物",
-      "type": "宏观",
-      "title": "Kevin Warsh-Led Fed Faces Inflation Test Ahead Of Midterms As Stephen Moore Calls For Another Hike: Crypto Bettors Weigh In - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUGxQM0ZyQ0JzcTRUdFE0WUtVUjJvVlRqaVNFLVE2eFpjRHdPbHcxaFpxVk5QSE1mNGxVYTJxckRQV2VUVVl1MHZBaDVnbHlKX285MFhQUUtOVjBfTnU4eFpfLVJrX3Z5dEpJc1lLdTdPcXdGZENvNVZpVndDRDZ6N1FPd3AyQkp4b3NXbG5yWjN0dkVkRDF5bDRSdkUyRXgwNjRmckxscTlsb3BpQWk1eTNocXpKOXRJTzQzLUlXUDhnVFZ2WFhkYWpFdXZTalhRcVdCbmZsWUlIZnAwMXhEaDJ0M1l6RE5zZTZiZkVJLU5WdXMydUNVM3lHUkxXaXUtX2diNExKd1NhR09Q?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 07:16:30 GMT",
-      "description": "Kevin Warsh-Led Fed Faces Inflation Test Ahead Of Midterms As Stephen Moore Calls For Another Hike: Crypto Bettors Weigh In &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "5abf458d04506798",
-      "rankReason": "高影响事件词；关键人物"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
       "type": "公司事件",
       "title": "Elon Musk Sends Strong Warning to Nvidia-Backed Stocks - TradingView",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRTV0NWRGLWFsZFREYTN3QUE0QWo2TFlGOENzbjduaEVxQXhIbTZpSnRaZkt3V0dLZ2RfOS0tR3lYV3EwNEpWSV84RC1VZ1loYnJZVUgzcE1UU2lYTkFidXFjS2pCaXlMa09qaEd6RGtiV1JKdDk4ZVBranpKcTJCaGp3R0VZLV8taVVKY2FQOXhTYzd6SnN2M3BObDlBd1dXZjlUSkNrMk92SGRaUGpHQXlmdw?oc=5",
@@ -239,26 +219,6 @@
       "score": 63,
       "priority": "B",
       "id": "f7054d7e0b5ed412",
-      "rankReason": "高影响事件词；关键人物"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "【21:39 即時新聞】CoreWeave(CRWV)勁揚5%：Elon Musk示警後資金回流、AI雲端風險消化-CMoney 研究員 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOGNwUDdTSy1wZ2xfNE95T2JCNTdCSXF5VVFZUHNTNWZ0em1PTTlTcjA2UUdKUlFkUFQzb3c0Y1JMOExfUXFKVkNGV2xYdWwtcWlsOUw4cE1wYl9fUXA4OTJwMGtudWUyYWFWcUhIZXBwVW9xZ0UtQXRZZmZWTjd6aEpsV2ZVLVZ1VTlPR3dn?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 13:39:50 GMT",
-      "description": "【21:39 即時新聞】CoreWeave(CRWV)勁揚5%：Elon Musk示警後資金回流、AI雲端風險消化-CMoney 研究員 &nbsp;&nbsp; CMoney投資網誌",
-      "source": "CMoney投資網誌",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "08cdc080a118239e",
       "rankReason": "高影响事件词；关键人物"
     },
     {
@@ -460,26 +420,6 @@
       "priority": "B",
       "id": "21e0721a041a3c1b",
       "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "SpaceX完成400億美元債務融資、大舉採購GPU！Elon Musk預言逾200家算力供應商將出現倒閉潮 - Mashdigi",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNNk1mMHZKNVV1VUtxX0hnZEFXcVdyM0ZWUVdnYTVwU1RVdVNnekJlYUxkby1ydFdOb1BUZDNoeUw4eGdvby1ueDF5Nm9GMFdMVUxyVVNYSVA5ZEpvSW80dUx6dEdrbUtyRVczWTlUOEFiTGxNaFpOUEpVNUNRck9zMGk1TTM1SWVKSlNRSm1sYlRYTm4xYlFQSGZQOUEzWndWVlg5b2xSVDg2dFJ2YXhpelZnSjdCLWQ2MmZHNm1OaG5USU9IT1g0Tmg1M0NpUG1TT0FPU3hCX3NLMlpLRmVYR1otR1lNU2NKWllmY0F5elI4V2VJTVJwSjM4TDI2dWtCVmxQaU1kTEJ0MXNFR2FQN3JhZ09nVWs?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 03:28:40 GMT",
-      "description": "SpaceX完成400億美元債務融資、大舉採購GPU！Elon Musk預言逾200家算力供應商將出現倒閉潮 &nbsp;&nbsp; Mashdigi",
-      "source": "Mashdigi",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 47,
-      "priority": "B",
-      "id": "a04139c5d0477823",
-      "rankReason": "市场相关；关键人物"
     },
     {
       "market": "全球",
@@ -885,6 +825,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "特斯拉被套牢不用怕！這支影片公開股票收租秘訣，讓你即使股價下跌也能馬上收回一萬美金。長線投資者必看，讓你的持股開始產生現金流！ #美股 #特斯拉 #投資理財 #股票收租 #被動收入 #TSLA - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YY2ZGX0dhZXpjelZnZENwNHl4R0JDSUpzUmhHazBOUXBBMy1XS2pTZzF6QVdZbU1XZTdqdVcyNFBCWlItRExTb0tFY0g1VXZzYlRDZExYb3d5WDBTLWNjRzZR?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 01:02:30 GMT",
+      "description": "特斯拉被套牢不用怕！這支影片公開股票收租秘訣，讓你即使股價下跌也能馬上收回一萬美金。長線投資者必看，讓你的持股開始產生現金流！ #美股 #特斯拉 #投資理財 #股票收租 #被動收入 #TSLA &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "bd314d9944d3a1f3",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "特斯拉暴跌反而是抄底機會？王老師親授獨門收租心法，剖析美股ABC震盪結構與時間之窗，教你如何在波動市場中精準操作，不再盲目追高！馬上觀看最新技術分析觀點。 #特斯拉 #美股 #投資 #王道論市 #TSLA #股票分析 #交易策略 - X",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82T1QyMVZKM0twTS12bjFhZmNIQVk4MkhXNWF4SGlGTzZ4QVc4d3QzMTBaQ2REeVJnc3VIQkJsUUlTTlY5NE8tYjBLQmQ2R3Y3RDhXY0pGVmxrZGItaGd5b0ln?oc=5",
       "pubDate": "Wed, 28 Oct 2026 16:22:22 GMT",
@@ -899,26 +859,6 @@
       "score": 44,
       "priority": "B",
       "id": "39d43be1d46a344e",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛在隱憂，更公開CRWD最新支撐點位與獲利信號。精彩觀點不容錯過！ #英偉達 #NVDA #美股 #AI投資 #美股分析 #投資理財 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DclhkelJ2ZWUtX0VzN1BZbW1Rcm1iVmotRE55blB0UGZial9NR3dXQ29NbFhtYVA3RWRoOEdfV1M1dHV2TUVGUkIydzRaemVXSnphcHAzME83UG9oRGVxLUVR?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 01:46:22 GMT",
-      "description": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛在隱憂，更公開CRWD最新支撐點位與獲利信號。精彩觀點不容錯過！ #英偉達 #NVDA #美股 #AI投資 #美股分析 #投資理財 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "2a8be58d2d33ae19",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -1059,26 +999,6 @@
       "score": 41,
       "priority": "B",
       "id": "5c1980bf2c38a1a6",
-      "rankReason": "一级/官方信源"
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "香港金融管理局 - Senior Associate, Asset Servicing Operations (Service Delivery & Oversight)（英文版本） - Hong Kong Monetary Authority",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWjd6eDhUN3dsME13ajUyMmFHRUVhSjV4bWJLNFlDRndidGtNczBpYUEzY3ExekxQcDR6Vk5IZFJyNnBlVlZoaG1YVnNoMkt0OHQ3ZXlsX2dELURuY3kzcFRwVHI4TERHNnp2YWRCY05jdGZhYkpCWmYyeE1hYWc2cmczdWk5SDdhMkE?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 02:21:16 GMT",
-      "description": "香港金融管理局 - Senior Associate, Asset Servicing Operations (Service Delivery & Oversight)（英文版本） &nbsp;&nbsp; Hong Kong Monetary Authority",
-      "source": "Hong Kong Monetary Authority",
-      "sourceKey": "hkma",
-      "sourceMode": "official-domain-discovery",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 41,
-      "priority": "B",
-      "id": "6dbcf9db20539301",
       "rankReason": "一级/官方信源"
     },
     {
@@ -1242,5 +1162,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-11-01T16:00:19.655Z"
+  "rankedAt": "2026-11-01T20:29:45.527Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T16:00:20.311Z",
+  "generatedAt": "2026-11-01T20:29:45.817Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -255,37 +255,6 @@
     {
       "market": "全球",
       "signal": "人物",
-      "type": "宏观",
-      "title": "Kevin Warsh-Led Fed Faces Inflation Test Ahead Of Midterms As Stephen Moore Calls For Another Hike: Crypto Bettors Weigh In - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUGxQM0ZyQ0JzcTRUdFE0WUtVUjJvVlRqaVNFLVE2eFpjRHdPbHcxaFpxVk5QSE1mNGxVYTJxckRQV2VUVVl1MHZBaDVnbHlKX285MFhQUUtOVjBfTnU4eFpfLVJrX3Z5dEpJc1lLdTdPcXdGZENvNVZpVndDRDZ6N1FPd3AyQkp4b3NXbG5yWjN0dkVkRDF5bDRSdkUyRXgwNjRmckxscTlsb3BpQWk1eTNocXpKOXRJTzQzLUlXUDhnVFZ2WFhkYWpFdXZTalhRcVdCbmZsWUlIZnAwMXhEaDJ0M1l6RE5zZTZiZkVJLU5WdXMydUNVM3lHUkxXaXUtX2diNExKd1NhR09Q?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 07:16:30 GMT",
-      "description": "Kevin Warsh-Led Fed Faces Inflation Test Ahead Of Midterms As Stephen Moore Calls For Another Hike: Crypto Bettors Weigh In &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "5abf458d04506798",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "TradingView出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
       "type": "公司事件",
       "title": "Elon Musk Sends Strong Warning to Nvidia-Backed Stocks - TradingView",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRTV0NWRGLWFsZFREYTN3QUE0QWo2TFlGOENzbjduaEVxQXhIbTZpSnRaZkt3V0dLZ2RfOS0tR3lYV3EwNEpWSV84RC1VZ1loYnJZVUgzcE1UU2lYTkFidXFjS2pCaXlMa09qaEd6RGtiV1JKdDk4ZVBranpKcTJCaGp3R0VZLV8taVVKY2FQOXhTYzd6SnN2M3BObDlBd1dXZjlUSkNrMk92SGRaUGpHQXlmdw?oc=5",
@@ -336,37 +305,6 @@
       "ai": {
         "priority": "A",
         "summary": "Elon Musk publicly expresses bearish sentiment on the \"…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "【21:39 即時新聞】CoreWeave(CRWV)勁揚5%：Elon Musk示警後資金回流、AI雲端風險消化-CMoney 研究員 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOGNwUDdTSy1wZ2xfNE95T2JCNTdCSXF5VVFZUHNTNWZ0em1PTTlTcjA2UUdKUlFkUFQzb3c0Y1JMOExfUXFKVkNGV2xYdWwtcWlsOUw4cE1wYl9fUXA4OTJwMGtudWUyYWFWcUhIZXBwVW9xZ0UtQXRZZmZWTjd6aEpsV2ZVLVZ1VTlPR3dn?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 13:39:50 GMT",
-      "description": "【21:39 即時新聞】CoreWeave(CRWV)勁揚5%：Elon Musk示警後資金回流、AI雲端風險消化-CMoney 研究員 &nbsp;&nbsp; CMoney投資網誌",
-      "source": "CMoney投資網誌",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "08cdc080a118239e",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "【21:39 即時新聞】CoreWeave(CRWV)勁揚5%：Elon Musk示警後資金回流、AI雲端風險…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -688,37 +626,6 @@
     },
     {
       "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "SpaceX完成400億美元債務融資、大舉採購GPU！Elon Musk預言逾200家算力供應商將出現倒閉潮 - Mashdigi",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNNk1mMHZKNVV1VUtxX0hnZEFXcVdyM0ZWUVdnYTVwU1RVdVNnekJlYUxkby1ydFdOb1BUZDNoeUw4eGdvby1ueDF5Nm9GMFdMVUxyVVNYSVA5ZEpvSW80dUx6dEdrbUtyRVczWTlUOEFiTGxNaFpOUEpVNUNRck9zMGk1TTM1SWVKSlNRSm1sYlRYTm4xYlFQSGZQOUEzWndWVlg5b2xSVDg2dFJ2YXhpelZnSjdCLWQ2MmZHNm1OaG5USU9IT1g0Tmg1M0NpUG1TT0FPU3hCX3NLMlpLRmVYR1otR1lNU2NKWllmY0F5elI4V2VJTVJwSjM4TDI2dWtCVmxQaU1kTEJ0MXNFR2FQN3JhZ09nVWs?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 03:28:40 GMT",
-      "description": "SpaceX完成400億美元債務融資、大舉採購GPU！Elon Musk預言逾200家算力供應商將出現倒閉潮 &nbsp;&nbsp; Mashdigi",
-      "source": "Mashdigi",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 47,
-      "priority": "B",
-      "id": "a04139c5d0477823",
-      "rankReason": "市场相关；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "SpaceX完成400億美元債務融資、大舉採購GPU！Elon Musk預言逾200家算力供應商將出現倒閉潮 …",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
       "signal": "热点",
       "type": "公司事件",
       "title": "$NVDA Jensen Huang 台灣晶片霸權的起源，追溯到荷蘭消費電子巨頭 - 歐洲的 GE- Philips 後來分拆出成為 $TSM 的晶圓廠，也分拆出成為 $ASML 的半導體製造設備公司。 種子在 1950 年代就種下了。當時台灣的 李國鼎致力於把科學與科技製造帶進台灣，並成功吸 - X",
@@ -739,6 +646,99 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang 台灣晶片霸權的起源，追溯到荷蘭消費電子巨頭 - 歐洲的 GE- Phil…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Ticker or Treat？行情來敲門。🎃 $BTC $NVDA 黃金、原油， 今晚你選哪顆「糖」？ #WEEX每一天 #GM #Halloween - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00ZDRFQzRsUUVBbHZ1d3ZXR21TdzM4WXN4ZGtLVlhndjVjc1lPUVNSY0p3MmhRWEo5M1A3Z3NtQ2tvU1d3YzFzdVlpdXlMVlBnX0prSXQ3anQwemxIVkJ0bEYydVc?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 02:59:38 GMT",
+      "description": "Ticker or Treat？行情來敲門。🎃 $BTC $NVDA 黃金、原油， 今晚你選哪顆「糖」？ #WEEX每一天 #GM #Halloween &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "6c588c26bde870db",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Ticker or Treat？行情來敲門。🎃 $BTC $NVDA 黃金、原油， 今晚你選哪顆「糖」？ #…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "散戶持倉雷達。頁面彙整 287 檔標的、12,485 人次加入。美股休市中，跟住呢版鎖住嘅人數榜。 頭幾位：$MU 1,045 人、$SNDK 616 人、$INTC 528 人；再落 AAOI、BE、TSLA。 下一步睇吓呢幾檔技術面同空頭占比有冇一齊偏。 - X",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tNl82MzdKdnNfN29pS09XR3FLVGNaMUVlcWtPcC1zS0dpdUQwblI0M1g0R3JIWEZ1V21ubFNYMlE2emFxbkhCYlgybklPNGhvNV9aOC0tQ2VUa1RaNFNzUXJmVWFTZnM3ZXc4?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 05:51:53 GMT",
+      "description": "散戶持倉雷達。頁面彙整 287 檔標的、12,485 人次加入。美股休市中，跟住呢版鎖住嘅人數榜。 頭幾位：$MU 1,045 人、$SNDK 616 人、$INTC 528 人；再落 AAOI、BE、TSLA。 下一步睇吓呢幾檔技術面同空頭占比有冇一齊偏。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "4330ad617768ef8b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "散戶持倉雷達。頁面彙整 287 檔標的、12,485 人次加入。美股休市中，跟住呢版鎖住嘅人數榜。 頭幾位：$…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "TSLA 股價突破關鍵壓力，交易氣氛非常謹慎。 (10/30) 近期相關消息: 1. 德州授權車隊突破1,000輛門檻，Cybercab首次超過Model Y成為多數（約540–570輛Cybercab vs 約500輛Model Y）。 2. 拉脫維亞成為第10個核准Tesla - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TVEtIdXdSelpuMU1RUDIzOVJvWExoc3Q0aDRFM3VrT1FLcGlVQUE1WTNGeDM5SF9EYzFiRENieHdYVml0WHlIcVBYdnJmVUlCWnlWU3FrQzZGZDN0Z3dQY2RR?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:23:44 GMT",
+      "description": "TSLA 股價突破關鍵壓力，交易氣氛非常謹慎。 (10/30) 近期相關消息: 1. 德州授權車隊突破1,000輛門檻，Cybercab首次超過Model Y成為多數（約540–570輛Cybercab vs 約500輛Model Y）。 2. 拉脫維亞成為第10個核准Tesla &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "1c2230b5ecbe036a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "TSLA 股價突破關鍵壓力，交易氣氛非常謹慎。 (10/30) 近期相關消息: 1. 德州授權車隊突破1,00…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
