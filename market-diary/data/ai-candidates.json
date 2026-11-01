@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T22:27:51.737Z",
+  "generatedAt": "2026-11-01T02:12:10.987Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -410,11 +410,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "30年技術分析經驗無人能敵？王老師直言特斯拉賺夠了為何還不退休？不僅是技術面的深度剖析，更是一場關於躺平與自律的人生哲學課。投資者必看，揭開美股震盪背後的市場邏輯！ #王道論市 #技術分析 #美股投資 #特斯拉 #TSLA #NVDA #投資理財 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XUlpCc2F2OVNZekticFBXUWx0dDk0dnlPcGh3TmJNWFpEbHdHSHZSM0E0UDJtaGpqOGhCbG5VQkREUDlkSnlQYUFWaUdfNWFXelR2WWpOZ1cweHZVT2hZYlRn?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 00:51:23 GMT",
-      "description": "30年技術分析經驗無人能敵？王老師直言特斯拉賺夠了為何還不退休？不僅是技術面的深度剖析，更是一場關於躺平與自律的人生哲學課。投資者必看，揭開美股震盪背後的市場邏輯！ #王道論市 #技術分析 #美股投資 #特斯拉 #TSLA #NVDA #投資理財 &nbsp;&nbsp; X",
+      "type": "IPO",
+      "title": "據媒體轉述Anthropic公開IPO申報，公司擬以 $ANT 在Nasdaq上市，由高盛、摩根士丹利主辦。2026上半年營收163億美元，高於2025全年46億；Q2營收116億，首次錄得9.74億美元營業利益。但上半年淨損仍達807億美元，營業轉盈與最終損益必須分開看。 Q2算力成 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNT0tZb0hmaDQwLXk5dWhPNFZKcDZwT1Y1OEw2R1BBaHF1RkZOb2hTa1cxcE1mRjBqVHotaEI3cTZQVVlDeTFBNTJDaTVrNTktaV9XVVpfclN2QmhKb3IxeFRiaDgxd1JSeVdjaU9TTGZlQQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:11:17 GMT",
+      "description": "據媒體轉述Anthropic公開IPO申報，公司擬以 $ANT 在Nasdaq上市，由高盛、摩根士丹利主辦。2026上半年營收163億美元，高於2025全年46億；Q2營收116億，首次錄得9.74億美元營業利益。但上半年淨損仍達807億美元，營業轉盈與最終損益必須分開看。 Q2算力成 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -424,46 +424,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "2d37ecd0eb578094",
-      "rankReason": "高影响事件词；社媒只做热点发现",
+      "id": "d70a8ed66166ff81",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "30年技術分析經驗無人能敵？王老師直言特斯拉賺夠了為何還不退休？不僅是技術面的深度剖析，更是一場關於躺平與自律…",
+        "summary": "據媒體轉述Anthropic公開IPO申報，公司擬以 $ANT 在Nasdaq上市，由高盛、摩根士丹利主辦。2…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "@wenhaoDLH $TSLA 目前的形態看上去不錯，可以 345元 為底線看多做多。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaWXZuVGpxbFNwdlpsbkpvYlBEdEc2ekRwclJRbmFld19fVm1SLXphOFc1OGJ1VFNvUkJWajh3bC1WVGsyZzJKVEFVNGtDWGdjcEllb1NfQTRmdlVuMnFGS1BKQi0?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 03:24:51 GMT",
-      "description": "@wenhaoDLH $TSLA 目前的形態看上去不錯，可以 345元 為底線看多做多。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "95f30b87e53f58ed",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "@wenhaoDLH $TSLA 目前的形態看上去不錯，可以 345元 為底線看多做多。 - X",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
+          "IPO",
+          "招股书解析"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -504,10 +473,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "TSLA 股價突破關鍵壓力，交易氣氛非常謹慎。 (10/30) 近期相關消息: 1. 德州授權車隊突破1,000輛門檻，Cybercab首次超過Model Y成為多數（約540–570輛Cybercab vs 約500輛Model Y）。 2. 拉脫維亞成為第10個核准Tesla - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TVEtIdXdSelpuMU1RUDIzOVJvWExoc3Q0aDRFM3VrT1FLcGlVQUE1WTNGeDM5SF9EYzFiRENieHdYVml0WHlIcVBYdnJmVUlCWnlWU3FrQzZGZDN0Z3dQY2RR?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 12:23:44 GMT",
-      "description": "TSLA 股價突破關鍵壓力，交易氣氛非常謹慎。 (10/30) 近期相關消息: 1. 德州授權車隊突破1,000輛門檻，Cybercab首次超過Model Y成為多數（約540–570輛Cybercab vs 約500輛Model Y）。 2. 拉脫維亞成為第10個核准Tesla &nbsp;&nbsp; X",
+      "title": "〈NVIDIA測試產能倍增與MEMS探針卡供應格局〉） 1、NVIDIA測試產能 1）NVIDIA（ $NVDA）計畫將AI半導體測試能力自2026年至2027年倍增。 2、供應格局 1）對NVIDIA之MEMS探針卡供應：第一Technoprobe（TECH.MI）、第二FormFactor（ $FORM）。 2）Technoprob - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96OXo4S3hDSmFEajZzbXpCOXRWSV92UVRheFVVYkFJZjQ0aUp6VG01czR6cWpCY3hhS2MydWlvV1B2eTAwajZsTXREYUEzc3RUdHZTOVhXQ1owZlRrRUE?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 14:12:00 GMT",
+      "description": "〈NVIDIA測試產能倍增與MEMS探針卡供應格局〉） 1、NVIDIA測試產能 1）NVIDIA（ $NVDA）計畫將AI半導體測試能力自2026年至2027年倍增。 2、供應格局 1）對NVIDIA之MEMS探針卡供應：第一Technoprobe（TECH.MI）、第二FormFactor（ $FORM）。 2）Technoprob &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -517,11 +486,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "1c2230b5ecbe036a",
+      "id": "ce14bcce8b29e106",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "TSLA 股價突破關鍵壓力，交易氣氛非常謹慎。 (10/30) 近期相關消息: 1. 德州授權車隊突破1,00…",
+        "summary": "〈NVIDIA測試產能倍增與MEMS探針卡供應格局〉） 1、NVIDIA測試產能 1）NVIDIA（ $NVD…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -535,10 +504,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛在隱憂，更公開CRWD最新支撐點位與獲利信號。精彩觀點不容錯過！ #英偉達 #NVDA #美股 #AI投資 #美股分析 #投資理財 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DclhkelJ2ZWUtX0VzN1BZbW1Rcm1iVmotRE55blB0UGZial9NR3dXQ29NbFhtYVA3RWRoOEdfV1M1dHV2TUVGUkIydzRaemVXSnphcHAzME83UG9oRGVxLUVR?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 01:46:22 GMT",
-      "description": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛在隱憂，更公開CRWD最新支撐點位與獲利信號。精彩觀點不容錯過！ #英偉達 #NVDA #美股 #AI投資 #美股分析 #投資理財 &nbsp;&nbsp; X",
+      "title": "〈鴻海科技日：劉揚偉談加乘力與垂直整合，AI伺服器機架週產能翻倍〉 1、產能與規模 1）第七屆鴻海科技日為歷年最大；AI伺服器機架週產能自上次科技日約1,000架增至約2,000架（約翻倍）。 2）全球廠區逾270個，管理土地逾4,000萬平方公尺（約6,500座足球場）。 2、精 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15a0dXWFlxREN4Tm13cVdZbWl2Wi1mVnl6YmFVN2gzc0kzTTlvV04wNTVpUEZqMVhjcWtvTGticmhZVG5ZQlF0TEdVdVNIMlA1ZW9OZnFvQ1pwZjY0UWc?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 14:40:00 GMT",
+      "description": "〈鴻海科技日：劉揚偉談加乘力與垂直整合，AI伺服器機架週產能翻倍〉 1、產能與規模 1）第七屆鴻海科技日為歷年最大；AI伺服器機架週產能自上次科技日約1,000架增至約2,000架（約翻倍）。 2）全球廠區逾270個，管理土地逾4,000萬平方公尺（約6,500座足球場）。 2、精 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -548,11 +517,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "2a8be58d2d33ae19",
+      "id": "14d79004d262a6ce",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "英偉達五年後股價怎麼看？專家大膽預測未來走勢，揭秘AI板塊布局與短線操作關鍵！不僅深入解析NVDA回購背後的潛…",
+        "summary": "〈鴻海科技日：劉揚偉談加乘力與垂直整合，AI伺服器機架週產能翻倍〉 1、產能與規模 1）第七屆鴻海科技日為歷年…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路」〉 1、核心問題 1）AI工廠效能取決於資料傳輸，而非僅GPU算力；傳輸路徑太窄時GPU會閒置等待資料。 2）GPU越快，記憶體與網路頻寬越成為瓶頸。 2、銅與光分工 1）銅線適合晶片內與 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kRVgybzFadFgwUFREeTN6ODdaOWV1TW5QRDJhZkt5bndEQmtxSzJ0aE5mMEdMbVlkZ0JObjFfTnBJcWFlNHo0VlM2aFU1dHpsMHFMZ3U0Zzc4TV8tYWc?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 06:03:55 GMT",
+      "description": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路」〉 1、核心問題 1）AI工廠效能取決於資料傳輸，而非僅GPU算力；傳輸路徑太窄時GPU會閒置等待資料。 2）GPU越快，記憶體與網路頻寬越成為瓶頸。 2、銅與光分工 1）銅線適合晶片內與 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "22be3ca9829b31b0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -584,37 +584,6 @@
       "ai": {
         "priority": "B",
         "summary": "〈MediaTek 3Q26／4Q26電話會重點〉 1、結論與評等 1）3Q26優於財測，公司再上修ASIC展…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0V1VSTFJCWlJoYTVucVdIRmxpWFpGR2h2c2FwZEwyNDE5UVd6bXo2a0R5NmtnaTlWMXhYTW1UMkpjb3lCOHNoMU03Ry1fbUhFSTJtWmUtTjNsVklvLUtOYQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 22:25:46 GMT",
-      "description": "This is fun I took a walk outside earlier And now I think I’m going to shower I might even cut my nails and call my mom later tonight This is a healthy correction of my habits &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "230d72ba7a220b65",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "香港金融管理局 - Senior Associate, Solutions Delivery (Change …",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
+      "title": "香港金融管理局 - Associate Director, Solutions Delivery (Test Management)（英文版本） - Hong Kong Monetary Authority",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDJkUnpKX0p0eTM2dVlNY2JPUUprZkpCOXlQei04UUhka0k3WHZ5QXdzbkFQVmRFb0IxTnRqQjdvSzE4UWh1ZVh5UllmLV9sZElTbTZibjdvLVlZYnFOSTJaWmk3eGZZYWxXeDdOeXIxOVg2R09CS0gwTmxkdUNCNlZ6S2c0d1d2Z2c?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 02:21:16 GMT",
+      "description": "香港金融管理局 - Associate Director, Solutions Delivery (Test Management)（英文版本） &nbsp;&nbsp; Hong Kong Monetary Authority",
+      "source": "Hong Kong Monetary Authority",
+      "sourceKey": "hkma",
+      "sourceMode": "official-domain-discovery",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 44,
+      "priority": "B",
+      "id": "5c1980bf2c38a1a6",
+      "rankReason": "一级/官方信源",
+      "ai": {
+        "priority": "B",
+        "summary": "香港金融管理局 - Associate Director, Solutions Delivery (Test …",
         "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
         "contentDirection": [
           "快讯",
