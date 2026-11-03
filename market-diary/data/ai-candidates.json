@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T17:49:13.485Z",
+  "generatedAt": "2026-11-03T23:18:59.684Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -181,6 +181,68 @@
       "ai": {
         "priority": "A",
         "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Top 20 in Trading Volume | Jensen Huang personally approved the largest chip merger in history; Tesla's European sales surged; Apple warns of risks from AI agents - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMjY4MU43SnNYM0Yyc3pvd24xRkFkaElfNHlzcTZYUUNnZ3RTd29IZWxCcnZVRG9aTVZVWXJvMG9Fam1zSVl6bjRkeElKMjRNYWFLamotVDRUNU13RWdRZ0puR0tVRkROdVN5YjZuQTBKand1U0kzMDk5US1PeVdURTc2UWJ0WlJqRDlrLUx4ckRkRk1hN0NtZVpveWNBTklhR3pWSGRjVQ?oc=5",
+      "pubDate": "Tue, 03 Nov 2026 22:05:25 GMT",
+      "description": "Top 20 in Trading Volume | Jensen Huang personally approved the largest chip merger in history; Tesla's European sales surged; Apple warns of risks from AI agents &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "ea2ccf058fb1dfc4",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Top 20 in Trading Volume | Jensen Huang personally appr…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Sam Altman’s ChatGPT AI Predicts a Monster Chainlink Move - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVFEzSENYZUVzM2VMS1gxc2tSakZ4VTRBdU9tc0M3dGtYOXdPZnE5bHdZNHAxTVQtUk9jeEJ1eDdZZHFqSjRGOHNHTmdTWlJuaHpGZTl3X2VfeW1WMDRoSVRMbGY4c1pYcXlIekZxQktuemx3NUk4LVpwSVJpWGJoVWJOZkpOUi0tUG9WOEFIZFdVMUYtRjlTcVdFV29HZThTUE5Za1d0SUFjN0JVLUszZ1p1cVZibUFr?oc=5",
+      "pubDate": "Tue, 03 Nov 2026 10:32:13 GMT",
+      "description": "Sam Altman’s ChatGPT AI Predicts a Monster Chainlink Move &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "9390ab9ced9a897a",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "TradingView出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -659,37 +721,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "特斯拉剛入手就遇股災？王老師解析美股ABC震盪結構與野村證券的崩盤警訊！AI資本支出還有多少空間？科技巨頭分化該如何應對？精華盤點一次看懂。#美股 #特斯拉 #TSLA #QQQ #投資 #王道論市 #股市分析 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81Yk9HLTVYMnFaUW1fZHJmRWxFMnlQalJ5cHFkRlhGeWZOQVNSU3djQnRTdVdabTNqNFh3MzNPQ3BkcW9JNWV2ekl2S1dZLXhWbGFuSGtPMEpXWG5BRVpzTTln?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 21:32:23 GMT",
-      "description": "特斯拉剛入手就遇股災？王老師解析美股ABC震盪結構與野村證券的崩盤警訊！AI資本支出還有多少空間？科技巨頭分化該如何應對？精華盤點一次看懂。#美股 #特斯拉 #TSLA #QQQ #投資 #王道論市 #股市分析 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "acad00a996fddb08",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "特斯拉剛入手就遇股災？王老師解析美股ABC震盪結構與野村證券的崩盤警訊！AI資本支出還有多少空間？科技巨頭分化…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "WSJ 報導：ETF 發行商們為了規避法規對單一持股上限（不超過 25%）和集中度（超過 5% 的持股總和不超過 50%）的限制，大比例配置既有 ETF （如 $XLK ）的方式利用結構漏洞，推出了例如 $XLKM 這類「增強型行業 ETF」。 XLKM 對 $NVDA $AAPL $MSFT 等頭部企 - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WQVhaUk1MTW03cThZakhYMTQxV3FEaFZKSWJyTjdtWko2dkVfSEpFOUpHdkZxV3ozS0lIbWtSTV9ZdW5IbDJTYVI4R3ZNbHRvOF9CQUdxVnU2STVGSDExZTBhMmo?oc=5",
       "pubDate": "Mon, 02 Nov 2026 17:02:40 GMT",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "WSJ 報導：ETF 發行商們為了規避法規對單一持股上限（不超過 25%）和集中度（超過 5% 的持股總和不超…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Jensen Huang 建一個1 GW的資料中心大約要花500億美元。 預期每年能產生約400億美元的營收。 因此，只要延遲3個月，就等於損失約100億美元的營收，這筆帳會讓任何人焦慮 DSX Pod的價值，在於大幅縮短上線時間 傳統方式從設備抵達、安裝到真正開 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ORFRvNHF3bWhrb0doa3dzOEZ4YW9YWk4yT2w1WnllbDM0VGF0SmEweURxRC1PZ3k3RzZwU1Z3Q2VZZFd5Mi0wUGtSay1RV0ltVE90MzVpUThlZGJ6ZzZmdThrSjJWcW8?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 07:44:16 GMT",
-      "description": "$NVDA Jensen Huang 建一個1 GW的資料中心大約要花500億美元。 預期每年能產生約400億美元的營收。 因此，只要延遲3個月，就等於損失約100億美元的營收，這筆帳會讓任何人焦慮 DSX Pod的價值，在於大幅縮短上線時間 傳統方式從設備抵達、安裝到真正開 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "1c431b90d8617efe",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 建一個1 GW的資料中心大約要花500億美元。 預期每年能產生約400億…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
