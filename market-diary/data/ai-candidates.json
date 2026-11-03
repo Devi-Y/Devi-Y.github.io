@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T18:18:44.008Z",
+  "generatedAt": "2026-11-03T01:33:37.280Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -160,68 +160,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "pubDate": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "description": "Federal Reserve issues FOMC statement",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 68,
-      "priority": "A",
-      "id": "84d1de499d88b99f",
-      "rankReason": "一级/官方信源；高影响事件词",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Elon Musk Sends Strong Warning to Nvidia-Backed Stocks - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRTV0NWRGLWFsZFREYTN3QUE0QWo2TFlGOENzbjduaEVxQXhIbTZpSnRaZkt3V0dLZ2RfOS0tR3lYV3EwNEpWSV84RC1VZ1loYnJZVUgzcE1UU2lYTkFidXFjS2pCaXlMa09qaEd6RGtiV1JKdDk4ZVBranpKcTJCaGp3R0VZLV8taVVKY2FQOXhTYzd6SnN2M3BObDlBd1dXZjlUSkNrMk92SGRaUGpHQXlmdw?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 18:40:04 GMT",
-      "description": "Elon Musk Sends Strong Warning to Nvidia-Backed Stocks &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "19cf8f0f46ccb5a6",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -249,37 +187,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "财报",
-      "title": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JZERlZGItQl9lLWgxRENITWt5bTl2RzB4czlrNWRaNFpBMEJIUEJLM0VtOTI4UUNYVERHNDE1aUluT2d2MkpwZEFnWXBxekxzejZSUGtOUE5sN1NBRHc?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 01:18:04 GMT",
-      "description": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media report. Foxconn has revealed major initial results: -Slashe &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "af5d74e7b7a3d65d",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现新的财报或业绩信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "财报解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -348,11 +255,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "IPO",
-      "title": "據媒體轉述Anthropic公開IPO申報，公司擬以 $ANT 在Nasdaq上市，由高盛、摩根士丹利主辦。2026上半年營收163億美元，高於2025全年46億；Q2營收116億，首次錄得9.74億美元營業利益。但上半年淨損仍達807億美元，營業轉盈與最終損益必須分開看。 Q2算力成 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNT0tZb0hmaDQwLXk5dWhPNFZKcDZwT1Y1OEw2R1BBaHF1RkZOb2hTa1cxcE1mRjBqVHotaEI3cTZQVVlDeTFBNTJDaTVrNTktaV9XVVpfclN2QmhKb3IxeFRiaDgxd1JSeVdjaU9TTGZlQQ?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 16:11:17 GMT",
-      "description": "據媒體轉述Anthropic公開IPO申報，公司擬以 $ANT 在Nasdaq上市，由高盛、摩根士丹利主辦。2026上半年營收163億美元，高於2025全年46億；Q2營收116億，首次錄得9.74億美元營業利益。但上半年淨損仍達807億美元，營業轉盈與最終損益必須分開看。 Q2算力成 &nbsp;&nbsp; X",
+      "type": "公司事件",
+      "title": "WSJ 報導：ETF 發行商們為了規避法規對單一持股上限（不超過 25%）和集中度（超過 5% 的持股總和不超過 50%）的限制，大比例配置既有 ETF （如 $XLK ）的方式利用結構漏洞，推出了例如 $XLKM 這類「增強型行業 ETF」。 XLKM 對 $NVDA $AAPL $MSFT 等頭部企 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WQVhaUk1MTW03cThZakhYMTQxV3FEaFZKSWJyTjdtWko2dkVfSEpFOUpHdkZxV3ozS0lIbWtSTV9ZdW5IbDJTYVI4R3ZNbHRvOF9CQUdxVnU2STVGSDExZTBhMmo?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 17:02:40 GMT",
+      "description": "WSJ 報導：ETF 發行商們為了規避法規對單一持股上限（不超過 25%）和集中度（超過 5% 的持股總和不超過 50%）的限制，大比例配置既有 ETF （如 $XLK ）的方式利用結構漏洞，推出了例如 $XLKM 這類「增強型行業 ETF」。 XLKM 對 $NVDA $AAPL $MSFT 等頭部企 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -362,15 +269,46 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "d70a8ed66166ff81",
-      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "id": "26827ddb71964314",
+      "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "據媒體轉述Anthropic公開IPO申報，公司擬以 $ANT 在Nasdaq上市，由高盛、摩根士丹利主辦。2…",
+        "summary": "WSJ 報導：ETF 發行商們為了規避法規對單一持股上限（不超過 25%）和集中度（超過 5% 的持股總和不超…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
-          "IPO",
-          "招股书解析"
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "10/27 $NVDA 同 $ORCL 新聞稿：NVIDIA Vera Rubin NVL72 同 Vera CPU 已喺 Oracle Cloud Infrastructure 正式上線；兩家計劃把 Vera Rubin NVL72 Supercluster 擴到 multi-gigawatt 級。 機架規格寫死：每架 72 顆 GPU，用 NVLink 連。OpenAI 喺稿入面講，Abilen - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tRldsdDlRV05oZW55QnV0SUxKX2xTLV9HM0tWeVpwc1NEUmZXTndMc091cHdvclJXbWRCVFFiaHNudVo4OGJMSERJLV8xZlpYQkdGcnd5SzZ2NEV1NzlnWA?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 08:03:58 GMT",
+      "description": "10/27 $NVDA 同 $ORCL 新聞稿：NVIDIA Vera Rubin NVL72 同 Vera CPU 已喺 Oracle Cloud Infrastructure 正式上線；兩家計劃把 Vera Rubin NVL72 Supercluster 擴到 multi-gigawatt 級。 機架規格寫死：每架 72 顆 GPU，用 NVLink 連。OpenAI 喺稿入面講，Abilen &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "998536296718ab64",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "10/27 $NVDA 同 $ORCL 新聞稿：NVIDIA Vera Rubin NVL72 同 Vera …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -411,37 +349,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "半導體行業觀察〈英偉達，下一代CPO〉SEMICON West 2026相關 1、NVIDIA（ $NVDA）在SEMICON West 2026展示兩項面向下一代AI互連的研究：Optics-on-Interposer（OOI，光引擎上中介層）與DWDM（密集波分複用）單纖256Gb／s。兩者仍處研究階段，尚未公布產 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaNzBTUkdzNEJSZHFnampzQzRFN05nVFRWZGs1QWwzMVhrZWlZdXFUeVhzVkZxS2d3VmxYTkhnR0ZZaU90OWxBek9Bd25BQXJUbWYwUjA0eGhhc0VZVVE?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 04:14:41 GMT",
-      "description": "半導體行業觀察〈英偉達，下一代CPO〉SEMICON West 2026相關 1、NVIDIA（ $NVDA）在SEMICON West 2026展示兩項面向下一代AI互連的研究：Optics-on-Interposer（OOI，光引擎上中介層）與DWDM（密集波分複用）單纖256Gb／s。兩者仍處研究階段，尚未公布產 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "e1c7f29ce823a4f6",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "半導體行業觀察〈英偉達，下一代CPO〉SEMICON West 2026相關 1、NVIDIA（ $NVDA）…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Jensen Huang 我不認為HBM 等記憶體會很快過剩 記憶體有個很棒的特性，就是你永遠都可以用得更多。 當然，透過架構上的設計，我們可以根據需要調整資源配置。 但 HBM 會被使用很多年，還有 LPDDR 也是。 - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pb0g2NW56Rm43MTg4WmExV1NvWldQNU43WUFVS2M2d2ZvcGZnTmw1a1IyV0F6eVlDMVRYa1kwdm1zWHV1dG45SXFWWDBwbHNYcEI2U0Q3UHFZOXdiaXJ1Xzhzd19sNmwtTk83aE44dUk0Zw?oc=5",
       "pubDate": "Sun, 01 Nov 2026 04:58:32 GMT",
@@ -460,6 +367,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Jensen Huang 我不認為HBM 等記憶體會很快過剩 記憶體有個很棒的特性，就是你永遠都可…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "半導體行業觀察〈英偉達，下一代CPO〉SEMICON West 2026相關 1、NVIDIA（ $NVDA）在SEMICON West 2026展示兩項面向下一代AI互連的研究：Optics-on-Interposer（OOI，光引擎上中介層）與DWDM（密集波分複用）單纖256Gb／s。兩者仍處研究階段，尚未公布產 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaNzBTUkdzNEJSZHFnampzQzRFN05nVFRWZGs1QWwzMVhrZWlZdXFUeVhzVkZxS2d3VmxYTkhnR0ZZaU90OWxBek9Bd25BQXJUbWYwUjA0eGhhc0VZVVE?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 04:14:41 GMT",
+      "description": "半導體行業觀察〈英偉達，下一代CPO〉SEMICON West 2026相關 1、NVIDIA（ $NVDA）在SEMICON West 2026展示兩項面向下一代AI互連的研究：Optics-on-Interposer（OOI，光引擎上中介層）與DWDM（密集波分複用）單纖256Gb／s。兩者仍處研究階段，尚未公布產 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "e1c7f29ce823a4f6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "半導體行業觀察〈英偉達，下一代CPO〉SEMICON West 2026相關 1、NVIDIA（ $NVDA）…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -597,37 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "特斯拉剛入手就遇股災？王老師解析美股ABC震盪結構與野村證券的崩盤警訊！AI資本支出還有多少空間？科技巨頭分化該如何應對？精華盤點一次看懂。#美股 #特斯拉 #TSLA #QQQ #投資 #王道論市 #股市分析 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81Yk9HLTVYMnFaUW1fZHJmRWxFMnlQalJ5cHFkRlhGeWZOQVNSU3djQnRTdVdabTNqNFh3MzNPQ3BkcW9JNWV2ekl2S1dZLXhWbGFuSGtPMEpXWG5BRVpzTTln?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 21:32:23 GMT",
-      "description": "特斯拉剛入手就遇股災？王老師解析美股ABC震盪結構與野村證券的崩盤警訊！AI資本支出還有多少空間？科技巨頭分化該如何應對？精華盤點一次看懂。#美股 #特斯拉 #TSLA #QQQ #投資 #王道論市 #股市分析 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "acad00a996fddb08",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "特斯拉剛入手就遇股災？王老師解析美股ABC震盪結構與野村證券的崩盤警訊！AI資本支出還有多少空間？科技巨頭分化…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "$NVDA Jensen Huang 建一個1 GW的資料中心大約要花500億美元。 預期每年能產生約400億美元的營收。 因此，只要延遲3個月，就等於損失約100億美元的營收，這筆帳會讓任何人焦慮 DSX Pod的價值，在於大幅縮短上線時間 傳統方式從設備抵達、安裝到真正開 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ORFRvNHF3bWhrb0doa3dzOEZ4YW9YWk4yT2w1WnllbDM0VGF0SmEweURxRC1PZ3k3RzZwU1Z3Q2VZZFd5Mi0wUGtSay1RV0ltVE90MzVpUThlZGJ6ZzZmdThrSjJWcW8?oc=5",
       "pubDate": "Sun, 01 Nov 2026 07:44:16 GMT",
@@ -721,10 +628,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "特斯拉瘋狂時代真的結束了嗎？王老師直言預測市場沒用，並揭秘特斯拉股價未來關鍵走勢。想知道這波套現機會在哪？完整解析請看影片！ #特斯拉 #TSLA #投資策略 #美股 #王老師 #交易心法 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55YUZUYk9PaHBZNDlTWlFLUF9VUDNDLXhYMDJWRkJEOFpQYk1hV2Z5RjhhUURSenNzVGhVSjk1MVVqUXJrZXcxQURGVGt4VEpsVVVUOGxXcmwwWUc3Vm56TVVn?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 16:50:22 GMT",
-      "description": "特斯拉瘋狂時代真的結束了嗎？王老師直言預測市場沒用，並揭秘特斯拉股價未來關鍵走勢。想知道這波套現機會在哪？完整解析請看影片！ #特斯拉 #TSLA #投資策略 #美股 #王老師 #交易心法 &nbsp;&nbsp; X",
+      "title": "歐盟徵收關稅後 中國購物平台銷售下滑 歐盟針對包裹徵收的新關稅正給低價進口商品帶來壓力。在德國，Shein、Temu和AliExpress的銷售額大幅下滑；與此同時，歐洲各地的海關部門也報告稱，小額包裹的數量有所減少。 自7月1日起，歐盟針對從歐盟境外進口、價值 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrQ0Q5S2VHZGtOenhJRVY2cy1aYURyQmFZeVNTMGY3b09PYXprZXhOMFJ1R0dPUzFwZWc2aC1PYUJxZDc1MGVFSVhHMS1wamZYblh1ZzRTQ1JVZF96Smc?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 06:00:00 GMT",
+      "description": "歐盟徵收關稅後 中國購物平台銷售下滑 歐盟針對包裹徵收的新關稅正給低價進口商品帶來壓力。在德國，Shein、Temu和AliExpress的銷售額大幅下滑；與此同時，歐洲各地的海關部門也報告稱，小額包裹的數量有所減少。 自7月1日起，歐盟針對從歐盟境外進口、價值 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +641,104 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "a7a3abd6a63d756e",
+      "id": "a85113847af76d19",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "特斯拉瘋狂時代真的結束了嗎？王老師直言預測市場沒用，並揭秘特斯拉股價未來關鍵走勢。想知道這波套現機會在哪？完整…",
+        "summary": "歐盟徵收關稅後 中國購物平台銷售下滑 歐盟針對包裹徵收的新關稅正給低價進口商品帶來壓力。在德國，Shein、T…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "散戶持倉雷達。頁面彙整 287 檔標的、12,485 人次加入。美股休市中，跟住呢版鎖住嘅人數榜。 頭幾位：$MU 1,045 人、$SNDK 616 人、$INTC 528 人；再落 AAOI、BE、TSLA。 下一步睇吓呢幾檔技術面同空頭占比有冇一齊偏。 - X",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tNl82MzdKdnNfN29pS09XR3FLVGNaMUVlcWtPcC1zS0dpdUQwblI0M1g0R3JIWEZ1V21ubFNYMlE2emFxbkhCYlgybklPNGhvNV9aOC0tQ2VUa1RaNFNzUXJmVWFTZnM3ZXc4?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 05:51:53 GMT",
+      "description": "散戶持倉雷達。頁面彙整 287 檔標的、12,485 人次加入。美股休市中，跟住呢版鎖住嘅人數榜。 頭幾位：$MU 1,045 人、$SNDK 616 人、$INTC 528 人；再落 AAOI、BE、TSLA。 下一步睇吓呢幾檔技術面同空頭占比有冇一齊偏。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "4330ad617768ef8b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "散戶持倉雷達。頁面彙整 287 檔標的、12,485 人次加入。美股休市中，跟住呢版鎖住嘅人數榜。 頭幾位：$…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "從今年 7 月到 10 月底，美股到發生了什麼事 能源板塊大漲 19.8%、醫療股上漲 14.4%，但同一時間，科技板塊只漲 0.9%，通訊服務更是下跌 10%，當一堆人還在天天研究 AI 泡沫會不會破、NVDA跌這麼多能不能抄底、半導體什麼時候會反彈時，市場上其他板塊漲得好 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0XzFYZjdwOXZVVkp3d0V0Tk1UVVFDRktoeUQzUGpQOXlsLS1yUDB1QnRERW4zUVJkekZDVm5veFNUamtncm1OenBGZXdOTlhYSlNSaEpGSFFHZFlrUjktQ25B?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 04:20:51 GMT",
+      "description": "從今年 7 月到 10 月底，美股到發生了什麼事 能源板塊大漲 19.8%、醫療股上漲 14.4%，但同一時間，科技板塊只漲 0.9%，通訊服務更是下跌 10%，當一堆人還在天天研究 AI 泡沫會不會破、NVDA跌這麼多能不能抄底、半導體什麼時候會反彈時，市場上其他板塊漲得好 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "5f1aa3817a3f4ba0",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "從今年 7 月到 10 月底，美股到發生了什麼事 能源板塊大漲 19.8%、醫療股上漲 14.4%，但同一時間…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "@wenhaoDLH $TSLA 目前的形態看上去不錯，可以 345元 為底線看多做多。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaWXZuVGpxbFNwdlpsbkpvYlBEdEc2ekRwclJRbmFld19fVm1SLXphOFc1OGJ1VFNvUkJWajh3bC1WVGsyZzJKVEFVNGtDWGdjcEllb1NfQTRmdlVuMnFGS1BKQi0?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 03:24:51 GMT",
+      "description": "@wenhaoDLH $TSLA 目前的形態看上去不錯，可以 345元 為底線看多做多。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "95f30b87e53f58ed",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "@wenhaoDLH $TSLA 目前的形態看上去不錯，可以 345元 為底線看多做多。 - X",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
