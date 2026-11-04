@@ -1,9 +1,102 @@
 {
-  "generatedAt": "2026-11-04T06:12:59.872Z",
+  "generatedAt": "2026-11-04T14:29:03.622Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Century Sunshine Group Holdings Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 509) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611043news?sc_lang=en",
+      "pubDate": "Wed, 04 Nov 2026 17:01:00 +0800",
+      "description": "Announcement - In relation to the matter of Century Sunshine Group Holdings Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 509) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "b826299ed303e981",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Grand Baoxin Auto Group Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 1293) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611042news?sc_lang=en",
+      "pubDate": "Wed, 04 Nov 2026 16:42:00 +0800",
+      "description": "Announcement - In relation to the matter of Grand Baoxin Auto Group Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 1293) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "1d9296f619b72e69",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Glory Sun Land Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 299) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611041news?sc_lang=en",
+      "pubDate": "Wed, 04 Nov 2026 15:12:00 +0800",
+      "description": "Announcement - In relation to the matter of Glory Sun Land Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 299) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 80,
+      "priority": "A",
+      "id": "36eb0b249d7a4d43",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
     {
       "market": "港股",
       "signal": "事实",
@@ -174,7 +267,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 74,
+      "score": 71,
       "priority": "A",
       "id": "d7c3543724b27831",
       "rankReason": "一级/官方信源；高影响事件词",
@@ -329,7 +422,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 58,
+      "score": 55,
       "priority": "B",
       "id": "b721d0f72ed93d46",
       "rankReason": "一级/官方信源；市场相关",
@@ -380,37 +473,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "宏观",
-      "title": "英國《金融時報》（FT）〈英偉達要求數據中心客戶減少對華業務敞口〉 1、核心要求：據五名知情人士透露，NVIDIA（ $NVDA）近幾個月告知雲端運算客戶，須將至少51%的服務銷售給非中國公司，此前並無此類限制。 2、執行方式： 1）指示以口頭傳達，由NVIDIA銷售與區域 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KNlVkaWw1WGIzTzVBMzVVRDJTQU5hUGQxTjF1ZktmT25ZeWplTm9MLUloQm8xY0NTY1FtYnJNVkpJbWQ4T1BIcF9aZnBRbE1GMHFENTVwR21MWTVsaXc?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 06:34:58 GMT",
-      "description": "英國《金融時報》（FT）〈英偉達要求數據中心客戶減少對華業務敞口〉 1、核心要求：據五名知情人士透露，NVIDIA（ $NVDA）近幾個月告知雲端運算客戶，須將至少51%的服務銷售給非中國公司，此前並無此類限制。 2、執行方式： 1）指示以口頭傳達，由NVIDIA銷售與區域 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "35fd2b78528d8a11",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "英國《金融時報》（FT）〈英偉達要求數據中心客戶減少對華業務敞口〉 1、核心要求：據五名知情人士透露，NVID…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
       "title": "$ORCL 提出約200億美元AI資料中心籌資計畫，包括約100億美元普通股與100億美元投資級債券； 股票據報折價約11%，股價下跌8.76%。 當天標普500從盤中漲約1%轉為收跌0.51%，科技類股跌2.95%，資金轉向非必需消費、金融與原物料。$NVDA 也由漲轉跌，收 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zXzNWdG15ekFNUno3LXNoRWhLMm9VLThOZW16TzVucFRoWVZjZmdlNnVRRXpybHFLQWJ6NlZ6bXRlZHVKaDhmTUpJb2g3TUR3Y0R3V3h2WU9WaTN5VGl4UnhpVzlQUXM?oc=5",
       "pubDate": "Wed, 04 Nov 2026 05:10:34 GMT",
@@ -442,6 +504,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "【連結——SHEIN村的侷限與“大中國”】桃井裕理：“幹活的都是40～60歲的人，快乾不動了”，探訪廣州郊外的“SHEIN村”，這裡的時間好像停留在中國改革開放初期。中國正迎來經濟結構的轉型期，學者李稻葵稱“中國不會像日本那樣出現產業空洞化”。一個“大中國市場”在 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhZ2N5TnJjbDZKLVJkcHJKbHpwOF9Mdm9DNFA4amJuU2tsTXc3RmhGcXlxWGF6UWhWcnhDcnIxTUh0cXdndjQzbXFNOXF4Vlg0S19CRThjaFpNMC1Za093aXQ4Y2tIdw?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 08:25:22 GMT",
+      "description": "【連結——SHEIN村的侷限與“大中國”】桃井裕理：“幹活的都是40～60歲的人，快乾不動了”，探訪廣州郊外的“SHEIN村”，這裡的時間好像停留在中國改革開放初期。中國正迎來經濟結構的轉型期，學者李稻葵稱“中國不會像日本那樣出現產業空洞化”。一個“大中國市場”在 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "cb457dba2463382d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【連結——SHEIN村的侷限與“大中國”】桃井裕理：“幹活的都是40～60歲的人，快乾不動了”，探訪廣州郊外的…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比下降18%，已連續5個月下滑。SHEIN也從7月起開始出現下降趨勢…… https://t.co/cBuIG7J0WM - X",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1OHpGeDZzcmJJZGhaWk91NllMV3dXblJwWGw4NlR1cHJQMUNTd0xVX2FmY0pkR3RwdkxOQVlZMm1TNl93MFQ2T1d1Ny1SVUxLUUM1dU9JZW50NW94QlVCY0ltOXFlUQ?oc=5",
       "pubDate": "Wed, 04 Nov 2026 02:13:26 GMT",
@@ -460,6 +553,37 @@
       "ai": {
         "priority": "B",
         "summary": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "【日經中文網 今日熱點】 1、中美俄「現代版雅爾達」和俄羅斯走近東盟的原因 https://t.co/gBXem9eNbk 2、美國民主黨預計奪回參眾兩院多數席位 https://t.co/xgGlRR6IGs 3、關稅逆風正讓Temu和SHEIN流失使用者 https://t.co/2U3Zr3G7TT 4、豐田系零部件廠商業績惡 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TZ0dySDR2dURyWmpua0JKOGdJTW90NVY0MEdrYzZocTRMWHF0UEotcG9kalQzYW16YjVkU2VMOVhtMFlaa1hxdzM0YmdHVHNKS1NfRGJUWjdXUUNuVTRsREhTM0E4Zw?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 12:00:02 GMT",
+      "description": "【日經中文網 今日熱點】 1、中美俄「現代版雅爾達」和俄羅斯走近東盟的原因 https://t.co/gBXem9eNbk 2、美國民主黨預計奪回參眾兩院多數席位 https://t.co/xgGlRR6IGs 3、關稅逆風正讓Temu和SHEIN流失使用者 https://t.co/2U3Zr3G7TT 4、豐田系零部件廠商業績惡 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "6deb923cc03c43d6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【日經中文網 今日熱點】 1、中美俄「現代版雅爾達」和俄羅斯走近東盟的原因 2、美國民主黨預計奪回參眾兩院多數…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -535,37 +659,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Wccftech〈Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China〉 1、管制漏洞：韓國廠商不得對中國出口單獨HBM，但2024年12月規定豁免已整合於邏輯晶片的HBM；HBM與低階 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iN1Z4QnBQOFhhS0NkbFBwanN5VmtRUkdjdGZETVJGTVhFSkw0TVNrMDV4QkhGdGs5SmY4T1NQOVFLV1QwNEZROUF4cE92bjIwRkl2YVhPZEVBWWNHbGc?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 13:33:52 GMT",
-      "description": "Wccftech〈Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China〉 1、管制漏洞：韓國廠商不得對中國出口單獨HBM，但2024年12月規定豁免已整合於邏輯晶片的HBM；HBM與低階 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "684cab9af73a98c0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Wccftech〈Smugglers Reportedly Pair Top-Tier HBM With Th…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Counterpoint Research〈Marvell Buys Lumentum to Climb the AI Laser Wall: What the $115 Billion Deal Means for Optics Value Chain〉 核心邏輯在雷射： 1）CPO與LPO將削弱Marvell DSP業務，但所有架構（可插拔、LPO／LRO、CPO／NPO）都需要雷射。 2）Lume - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9rTVNXNHBiN1F2OTZmM2tVN2xzd3RJbEtQY1JKVTdWWEtTaHNEWTJXRnlxbzZDdmxKU01DWl85bkJXYTBQMkZSZGpNSXQtNWFua2hiTUk5a05zUldaY0E?oc=5",
       "pubDate": "Tue, 03 Nov 2026 15:37:27 GMT",
@@ -584,37 +677,6 @@
       "ai": {
         "priority": "B",
         "summary": "Counterpoint Research〈Marvell Buys Lumentum to Climb th…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "野村證券（Nomura）〈AI基礎設施：現金流時間差而非獲利危機〉 1、雲端已具高度獲利能力： 1）AWS營收460億美元、年增39%，營業利益率38.7%。 2）Google Cloud營收307億美元、年增103%，營業利益率36.2%。 3）Azure年增48%。 2、自由現金流J曲線：資本支出先行 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50ckFaU21SQVo2eWRXVUt1RjVyZm9fZG11YVpULXRfTy1nejVPMm9UTHpTN1NhclkyNlduZ0d2c0tyT1FhaW5VMy1naXdtdXhwT2Ryd2lEeGNzS3FlSVE?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 09:53:00 GMT",
-      "description": "野村證券（Nomura）〈AI基礎設施：現金流時間差而非獲利危機〉 1、雲端已具高度獲利能力： 1）AWS營收460億美元、年增39%，營業利益率38.7%。 2）Google Cloud營收307億美元、年增103%，營業利益率36.2%。 3）Azure年增48%。 2、自由現金流J曲線：資本支出先行 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "1ff525684eb9fbae",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "野村證券（Nomura）〈AI基礎設施：現金流時間差而非獲利危機〉 1、雲端已具高度獲利能力： 1）AWS營收…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -658,11 +720,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "〈NVIDIA VR200 機櫃延遲〉 1、延遲獲得確認：圖示指出，NVIDIA（ $NVDA）VR200 機櫃生產因 Midplane PCB 等零組件問題，較原訂時程延遲1至2個月，機櫃放量延至2026年第4季。 2、市場看法轉變：原文表示，台灣供應鏈數月前已示警可能延遲，當時遭到質疑，如今 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxbk1rMnVNVDN5cHJ5WlhpNjdxTF83SFBkb191aHNNOERPQWpOTWVSQjBQeUlmYURhSWRhNjQwRWFfN1liS1pYTjhRWEluYW5MMm1SVmZPWmVzaHd2TXc?oc=5",
-      "pubDate": "Mon, 02 Nov 2026 06:10:15 GMT",
-      "description": "〈NVIDIA VR200 機櫃延遲〉 1、延遲獲得確認：圖示指出，NVIDIA（ $NVDA）VR200 機櫃生產因 Midplane PCB 等零組件問題，較原訂時程延遲1至2個月，機櫃放量延至2026年第4季。 2、市場看法轉變：原文表示，台灣供應鏈數月前已示警可能延遲，當時遭到質疑，如今 &nbsp;&nbsp; X",
+      "type": "宏观",
+      "title": "英國《金融時報》（FT）〈英偉達要求數據中心客戶減少對華業務敞口〉 1、核心要求：據五名知情人士透露，NVIDIA（ $NVDA）近幾個月告知雲端運算客戶，須將至少51%的服務銷售給非中國公司，此前並無此類限制。 2、執行方式： 1）指示以口頭傳達，由NVIDIA銷售與區域 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KNlVkaWw1WGIzTzVBMzVVRDJTQU5hUGQxTjF1ZktmT25ZeWplTm9MLUloQm8xY0NTY1FtYnJNVkpJbWQ4T1BIcF9aZnBRbE1GMHFENTVwR21MWTVsaXc?oc=5",
+      "pubDate": "Tue, 03 Nov 2026 06:34:58 GMT",
+      "description": "英國《金融時報》（FT）〈英偉達要求數據中心客戶減少對華業務敞口〉 1、核心要求：據五名知情人士透露，NVIDIA（ $NVDA）近幾個月告知雲端運算客戶，須將至少51%的服務銷售給非中國公司，此前並無此類限制。 2、執行方式： 1）指示以口頭傳達，由NVIDIA銷售與區域 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -672,77 +734,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "494c6c3755cb55f2",
+      "id": "35fd2b78528d8a11",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "〈NVIDIA VR200 機櫃延遲〉 1、延遲獲得確認：圖示指出，NVIDIA（ $NVDA）VR200 機…",
+        "summary": "英國《金融時報》（FT）〈英偉達要求數據中心客戶減少對華業務敞口〉 1、核心要求：據五名知情人士透露，NVID…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "ServeTheHome〈NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives〉2026年10月31日 1、事件背景：Vera Rubin 進入量產爬坡，超大規模雲端業者已開始向客戶提供首批 NVL72 系統。NVIDIA（ $NVDA）9月在官網與架構資料表悄悄更新出貨規 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LWVlmZjhjdmpGcXdyQm5uUkxiNU16WnlvSEN1cERXNzNuZGdsbDBybC1JX3VudGp3ZjlHZWhrZWdldTFDNXNTWVZoMXlGZVRGM3F5WVFMM0o0TnVQeGc?oc=5",
-      "pubDate": "Mon, 02 Nov 2026 06:20:56 GMT",
-      "description": "ServeTheHome〈NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives〉2026年10月31日 1、事件背景：Vera Rubin 進入量產爬坡，超大規模雲端業者已開始向客戶提供首批 NVL72 系統。NVIDIA（ $NVDA）9月在官網與架構資料表悄悄更新出貨規 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "73a55592e3401759",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "ServeTheHome〈NVIDIA Updates Rubin GPU Specs as First Pr…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA Jensen Huang 建一個1 GW的資料中心大約要花500億美元。 預期每年能產生約400億美元的營收。 因此，只要延遲3個月，就等於損失約100億美元的營收，這筆帳會讓任何人焦慮 DSX Pod的價值，在於大幅縮短上線時間 傳統方式從設備抵達、安裝到真正開 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ORFRvNHF3bWhrb0doa3dzOEZ4YW9YWk4yT2w1WnllbDM0VGF0SmEweURxRC1PZ3k3RzZwU1Z3Q2VZZFd5Mi0wUGtSay1RV0ltVE90MzVpUThlZGJ6ZzZmdThrSjJWcW8?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 07:44:16 GMT",
-      "description": "$NVDA Jensen Huang 建一個1 GW的資料中心大約要花500億美元。 預期每年能產生約400億美元的營收。 因此，只要延遲3個月，就等於損失約100億美元的營收，這筆帳會讓任何人焦慮 DSX Pod的價值，在於大幅縮短上線時間 傳統方式從設備抵達、安裝到真正開 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "1c431b90d8617efe",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA Jensen Huang 建一個1 GW的資料中心大約要花500億美元。 預期每年能產生約400億…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
