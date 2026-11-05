@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T21:17:33.941Z",
+  "generatedAt": "2026-11-05T02:23:41.562Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -298,7 +298,7 @@
       "trustTier": "B",
       "confidence": "B",
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
+      "score": 66,
       "priority": "A",
       "id": "ea2ccf058fb1dfc4",
       "rankReason": "高影响事件词；关键人物",
@@ -535,37 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比下降18%，已連續5個月下滑。SHEIN也從7月起開始出現下降趨勢…… https://t.co/cBuIG7J0WM - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1OHpGeDZzcmJJZGhaWk91NllMV3dXblJwWGw4NlR1cHJQMUNTd0xVX2FmY0pkR3RwdkxOQVlZMm1TNl93MFQ2T1d1Ny1SVUxLUUM1dU9JZW50NW94QlVCY0ltOXFlUQ?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 02:13:26 GMT",
-      "description": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比下降18%，已連續5個月下滑。SHEIN也從7月起開始出現下降趨勢…… https://t.co/cBuIG7J0WM &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "ed4db50554f24f0b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "【日經中文網 今日熱點】 1、中美俄「現代版雅爾達」和俄羅斯走近東盟的原因 https://t.co/gBXem9eNbk 2、美國民主黨預計奪回參眾兩院多數席位 https://t.co/xgGlRR6IGs 3、關稅逆風正讓Temu和SHEIN流失使用者 https://t.co/2U3Zr3G7TT 4、豐田系零部件廠商業績惡 - X",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TZ0dySDR2dURyWmpua0JKOGdJTW90NVY0MEdrYzZocTRMWHF0UEotcG9kalQzYW16YjVkU2VMOVhtMFlaa1hxdzM0YmdHVHNKS1NfRGJUWjdXUUNuVTRsREhTM0E4Zw?oc=5",
       "pubDate": "Wed, 04 Nov 2026 12:00:02 GMT",
@@ -658,68 +627,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "公司事件",
-      "title": "Rumor: Chip packaging giant ASE’s subsidiary, SPIL, plans to invest NT$100 billion (US$3.05B) to expand production in the Central Taiwan Science Park near Erlin Township, a 50-hectare site originally set aside for TSMC, media report, adding that it appears - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53VTA5dkpsZ21KN0VBT0t4TnQ2aHJNdFoyQnA5amFhcWotTm1YN3JUeUc2aWVqNjEtbW9YVV9COTBfMVVteW9UQXNlYjQwWklxWUYwRENRSkk1bktRNFE?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 01:30:11 GMT",
-      "description": "Rumor: Chip packaging giant ASE’s subsidiary, SPIL, plans to invest NT$100 billion (US$3.05B) to expand production in the Central Taiwan Science Park near Erlin Township, a 50-hectare site originally set aside for TSMC, media report, adding that it appears &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "e9ca68448f3bd937",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "SMCI下一季營收指引195–215億美元，中位數較市場預期約163.5億美元高出約25%，全年展望720–820億美元，盤後漲逾5%。 這替AI機櫃部署提供了實際需求佐證，也提醒市場，股價修正可以與出貨成長同時發生。 記憶體的訊號更需要拆開看。 鎧俠表示NAND漲價 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hd1JWVFZtamRfdTJQemREM2I0TUQyaGZZNE1wdFNERkc2Z0tJb0lITDJ1Ykg5UXNBcVBMXzlLN2FSdW9MMFoyZkpJY24zVTg5bHdPYmhtekxEUDJQOGFENlpBeEczM3c?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 05:41:19 GMT",
-      "description": "SMCI下一季營收指引195–215億美元，中位數較市場預期約163.5億美元高出約25%，全年展望720–820億美元，盤後漲逾5%。 這替AI機櫃部署提供了實際需求佐證，也提醒市場，股價修正可以與出貨成長同時發生。 記憶體的訊號更需要拆開看。 鎧俠表示NAND漲價 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "f6b317ce3d23585c",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "SMCI下一季營收指引195–215億美元，中位數較市場預期約163.5億美元高出約25%，全年展望720–8…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "宏观",
       "title": "英國《金融時報》（FT）〈英偉達要求數據中心客戶減少對華業務敞口〉 1、核心要求：據五名知情人士透露，NVIDIA（ $NVDA）近幾個月告知雲端運算客戶，須將至少51%的服務銷售給非中國公司，此前並無此類限制。 2、執行方式： 1）指示以口頭傳達，由NVIDIA銷售與區域 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KNlVkaWw1WGIzTzVBMzVVRDJTQU5hUGQxTjF1ZktmT25ZeWplTm9MLUloQm8xY0NTY1FtYnJNVkpJbWQ4T1BIcF9aZnBRbE1GMHFENTVwR21MWTVsaXc?oc=5",
@@ -743,6 +650,99 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "〈NVIDIA VR200 機櫃延遲〉 1、延遲獲得確認：圖示指出，NVIDIA（ $NVDA）VR200 機櫃生產因 Midplane PCB 等零組件問題，較原訂時程延遲1至2個月，機櫃放量延至2026年第4季。 2、市場看法轉變：原文表示，台灣供應鏈數月前已示警可能延遲，當時遭到質疑，如今 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxbk1rMnVNVDN5cHJ5WlhpNjdxTF83SFBkb191aHNNOERPQWpOTWVSQjBQeUlmYURhSWRhNjQwRWFfN1liS1pYTjhRWEluYW5MMm1SVmZPWmVzaHd2TXc?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 06:10:15 GMT",
+      "description": "〈NVIDIA VR200 機櫃延遲〉 1、延遲獲得確認：圖示指出，NVIDIA（ $NVDA）VR200 機櫃生產因 Midplane PCB 等零組件問題，較原訂時程延遲1至2個月，機櫃放量延至2026年第4季。 2、市場看法轉變：原文表示，台灣供應鏈數月前已示警可能延遲，當時遭到質疑，如今 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "494c6c3755cb55f2",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "〈NVIDIA VR200 機櫃延遲〉 1、延遲獲得確認：圖示指出，NVIDIA（ $NVDA）VR200 機…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比下降18%，已連續5個月下滑。SHEIN也從7月起開始出現下降趨勢…… https://t.co/cBuIG7J0WM - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1OHpGeDZzcmJJZGhaWk91NllMV3dXblJwWGw4NlR1cHJQMUNTd0xVX2FmY0pkR3RwdkxOQVlZMm1TNl93MFQ2T1d1Ny1SVUxLUUM1dU9JZW50NW94QlVCY0ltOXFlUQ?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 02:13:26 GMT",
+      "description": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比下降18%，已連續5個月下滑。SHEIN也從7月起開始出現下降趨勢…… https://t.co/cBuIG7J0WM &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "ed4db50554f24f0b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "【中國低價跨境電商月活用戶數因關稅而減少】美國調查公司的數據顯示，Temu在10月的月活躍用戶數（MAU）同比…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "ServeTheHome〈NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives〉2026年10月31日 1、事件背景：Vera Rubin 進入量產爬坡，超大規模雲端業者已開始向客戶提供首批 NVL72 系統。NVIDIA（ $NVDA）9月在官網與架構資料表悄悄更新出貨規 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LWVlmZjhjdmpGcXdyQm5uUkxiNU16WnlvSEN1cERXNzNuZGdsbDBybC1JX3VudGp3ZjlHZWhrZWdldTFDNXNTWVZoMXlGZVRGM3F5WVFMM0o0TnVQeGc?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 06:20:56 GMT",
+      "description": "ServeTheHome〈NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives〉2026年10月31日 1、事件背景：Vera Rubin 進入量產爬坡，超大規模雲端業者已開始向客戶提供首批 NVL72 系統。NVIDIA（ $NVDA）9月在官網與架構資料表悄悄更新出貨規 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "73a55592e3401759",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "ServeTheHome〈NVIDIA Updates Rubin GPU Specs as First Pr…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
