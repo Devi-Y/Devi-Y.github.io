@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T18:42:48.913Z",
+  "generatedAt": "2026-11-06T00:13:14.489Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -311,6 +311,37 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體店。這段引發議論的合作關係，在七個月之後告終。BHV 在百餘個品牌出走後易主，2026 年 Shien 在法國的銷售額下跌四成。 Shein 近年藉由演算法與超低定價，在歐洲市場 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IVFY5VEV1NXR6TGt3M3RLRDZfVTJIWGx6QXpsbXVhbDcwMlNBakJrZ2tOS1dyOGVCYnpYdzV2VGh5Wm1sOGx4d1lVMUJYclluMEloTWs3dDFRTlkwTG1UMTRB?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 14:01:52 GMT",
+      "description": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體店。這段引發議論的合作關係，在七個月之後告終。BHV 在百餘個品牌出走後易主，2026 年 Shien 在法國的銷售額下跌四成。 Shein 近年藉由演算法與超低定價，在歐洲市場 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2e5052bdf1e438d8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Wccftech〈Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China〉 1、管制漏洞：韓國廠商不得對中國出口單獨HBM，但2024年12月規定豁免已整合於邏輯晶片的HBM；HBM與低階 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iN1Z4QnBQOFhhS0NkbFBwanN5VmtRUkdjdGZETVJGTVhFSkw0TVNrMDV4QkhGdGs5SmY4T1NQOVFLV1QwNEZROUF4cE92bjIwRkl2YVhPZEVBWWNHbGc?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 13:33:52 GMT",
-      "description": "Wccftech〈Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China〉 1、管制漏洞：韓國廠商不得對中國出口單獨HBM，但2024年12月規定豁免已整合於邏輯晶片的HBM；HBM與低階 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "684cab9af73a98c0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Wccftech〈Smugglers Reportedly Pair Top-Tier HBM With Th…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",

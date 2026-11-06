@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-05T18:42:47.786Z",
+  "generatedAt": "2026-11-06T00:13:13.627Z",
   "windowDays": 7,
   "summary": {
-    "total": 58,
+    "total": 57,
     "bySignal": {
-      "事实": 15,
+      "事实": 14,
       "媒体": 0,
       "人物": 3,
       "资金": 0,
       "热点": 40
     },
     "byTrust": {
-      "A": 15,
+      "A": 14,
       "B": 3,
       "C": 40
     },
     "s": 0,
     "a": 6,
-    "b": 52
+    "b": 51
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -220,6 +220,26 @@
       "priority": "B",
       "id": "575daaf7f85b2815",
       "rankReason": "一级/官方信源；市场相关"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體店。這段引發議論的合作關係，在七個月之後告終。BHV 在百餘個品牌出走後易主，2026 年 Shien 在法國的銷售額下跌四成。 Shein 近年藉由演算法與超低定價，在歐洲市場 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IVFY5VEV1NXR6TGt3M3RLRDZfVTJIWGx6QXpsbXVhbDcwMlNBakJrZ2tOS1dyOGVCYnpYdzV2VGh5Wm1sOGx4d1lVMUJYclluMEloTWs3dDFRTlkwTG1UMTRB?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 14:01:52 GMT",
+      "description": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體店。這段引發議論的合作關係，在七個月之後告終。BHV 在百餘個品牌出走後易主，2026 年 Shien 在法國的銷售額下跌四成。 Shein 近年藉由演算法與超低定價，在歐洲市場 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2e5052bdf1e438d8",
+      "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
       "market": "全球",
@@ -745,6 +765,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "歐盟徵收關稅後 中國購物平台銷售下滑 歐盟針對包裹徵收的新關稅正給低價進口商品帶來壓力。在德國，Shein、Temu和AliExpress的銷售額大幅下滑；與此同時，歐洲各地的海關部門也報告稱，小額包裹的數量有所減少。 自7月1日起，歐盟針對從歐盟境外進口、價值 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrQ0Q5S2VHZGtOenhJRVY2cy1aYURyQmFZeVNTMGY3b09PYXprZXhOMFJ1R0dPUzFwZWc2aC1PYUJxZDc1MGVFSVhHMS1wamZYblh1ZzRTQ1JVZF96Smc?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 06:00:00 GMT",
+      "description": "歐盟徵收關稅後 中國購物平台銷售下滑 歐盟針對包裹徵收的新關稅正給低價進口商品帶來壓力。在德國，Shein、Temu和AliExpress的銷售額大幅下滑；與此同時，歐洲各地的海關部門也報告稱，小額包裹的數量有所減少。 自7月1日起，歐盟針對從歐盟境外進口、價值 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "a85113847af76d19",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "Ticker or Treat？行情來敲門。🎃 $BTC $NVDA 黃金、原油， 今晚你選哪顆「糖」？ #WEEX每一天 #GM #Halloween - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00ZDRFQzRsUUVBbHZ1d3ZXR21TdzM4WXN4ZGtLVlhndjVjc1lPUVNSY0p3MmhRWEo5M1A3Z3NtQ2tvU1d3YzFzdVlpdXlMVlBnX0prSXQ3anQwemxIVkJ0bEYydVc?oc=5",
       "pubDate": "Sat, 31 Oct 2026 02:59:38 GMT",
@@ -779,26 +819,6 @@
       "score": 44,
       "priority": "B",
       "id": "d83b06857d498f79",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "歐盟徵收關稅後 中國購物平台銷售下滑 歐盟針對包裹徵收的新關稅正給低價進口商品帶來壓力。在德國，Shein、Temu和AliExpress的銷售額大幅下滑；與此同時，歐洲各地的海關部門也報告稱，小額包裹的數量有所減少。 自7月1日起，歐盟針對從歐盟境外進口、價值 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrQ0Q5S2VHZGtOenhJRVY2cy1aYURyQmFZeVNTMGY3b09PYXprZXhOMFJ1R0dPUzFwZWc2aC1PYUJxZDc1MGVFSVhHMS1wamZYblh1ZzRTQ1JVZF96Smc?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 06:00:00 GMT",
-      "description": "歐盟徵收關稅後 中國購物平台銷售下滑 歐盟針對包裹徵收的新關稅正給低價進口商品帶來壓力。在德國，Shein、Temu和AliExpress的銷售額大幅下滑；與此同時，歐洲各地的海關部門也報告稱，小額包裹的數量有所減少。 自7月1日起，歐盟針對從歐盟境外進口、價值 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "a85113847af76d19",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -885,26 +905,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pdG02clZWRl9qUUQwZVdEZFVPcVBZNlc2TWloTmtVel9mWDgxVW55Vk5GZ1FkejlaM1BQZlRzRTBhak1NZDFybE5wMGhaczNVVU5XbVZPbFhwMENUd2ZpV2Z3?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 00:41:24 GMT",
-      "description": "AI是不是泡沫？大咖不談情緒，只看這幾項核心指標！這段影片揭秘資本市場如何判斷半導體走勢與佈局AI基礎建設，想知道NVDA、AMD、Broadcom後續怎麼看嗎？趕快點開影片一探究竟！ #AI #人工智能 #美股 #投資 #半導體 #股市分析 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "b12a161d1e9786cf",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "🎁 雙十一，集拼圖抽豪禮！你最想抽中哪一個？ 📱 iPhone Duo 💰 2,000 USDT 購物金 🤖 ChatGPT Pro 6 個月訂閱 集齊 4 塊即可抽獎，集滿 6 塊挑戰高級獎池。完成任務解鎖抽獎資格，100% 中獎！ 🏆 兩大獎池，好禮一次看 🔹 基礎獎池 集齊 1–4 號拼圖 Switch 2、AirP - X",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ORzBlb0JhTkc5VmlaallyamlER1FWOFRLc2NQTUdDeGpWT1FtSFg0WkhhdjQ1WmpZTDVOVmdlNlRUdEZ0aVZoNEpBeHB3MmQ4UzM1SHE0N0dYWkE?oc=5",
       "pubDate": "Sun, 01 Nov 2026 05:00:00 GMT",
@@ -940,26 +940,6 @@
       "priority": "B",
       "id": "21e0721a041a3c1b",
       "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "pubDate": "Thu, 29 Oct 2026 20:30:00 GMT",
-      "description": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 38,
-      "priority": "B",
-      "id": "72881accf09b59a8",
-      "rankReason": "一级/官方信源"
     },
     {
       "market": "港股",
@@ -1167,7 +1147,7 @@
       "type": "公司事件",
       "title": "- Xiaohongshu",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUVdTMC1wdWUxUk52aGVta3gyM1Q0NjI3Z3oyNXNheHg5TUpmMmhRbno2d1BseXZxdFFLdGluQjFkS0s5SkVLQVR5b3pDSmFGbll2TXQyU3hpMXdTQ0Y4TkFvbFFJRzB6RlFSNQ?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 02:47:47 GMT",
+      "pubDate": "Thu, 05 Nov 2026 19:02:35 GMT",
       "description": "&nbsp;&nbsp; Xiaohongshu",
       "source": "Xiaohongshu",
       "sourceKey": "xiaohongshu",
@@ -1176,11 +1156,11 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 17,
+      "score": 20,
       "priority": "B",
       "id": "5dba6816abfe2da6",
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-11-05T18:42:48.287Z"
+  "rankedAt": "2026-11-06T00:13:14.091Z"
 }
