@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-06T20:52:35.976Z",
+  "generatedAt": "2026-11-07T00:54:50.060Z",
   "windowDays": 7,
   "summary": {
-    "total": 60,
+    "total": 57,
     "bySignal": {
-      "事实": 18,
+      "事实": 17,
       "媒体": 0,
-      "人物": 3,
+      "人物": 2,
       "资金": 0,
-      "热点": 39
+      "热点": 38
     },
     "byTrust": {
-      "A": 18,
-      "B": 3,
-      "C": 39
+      "A": 17,
+      "B": 2,
+      "C": 38
     },
     "s": 0,
     "a": 4,
-    "b": 56
+    "b": 53
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -100,26 +100,6 @@
       "priority": "A",
       "id": "d7c3543724b27831",
       "rankReason": "一级/官方信源；高影响事件词"
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Sam Altman 稱電腦 RAM 閒置浪費資源 AI 運算應集中雲端處理 - unwire",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdHVMbk9SdmV6SFBacThLczlzT0Y2eWVFVDRHb2RBWDZMZDVCbmJsQndWOXV0X3Uza3Yta0dBQ0lDRWtLX2tTRWQ4UGhZTFRMMnlwdFBFVVNuLVFNUEVJVkJaeU1TWjRnOGdHblZtM1pjUHRkUEcyUlQ2N0lKdFRhag?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 11:07:40 GMT",
-      "description": "Sam Altman 稱電腦 RAM 閒置浪費資源 AI 運算應集中雲端處理 &nbsp;&nbsp; unwire",
-      "source": "unwire",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "17abb6efbeea2278",
-      "rankReason": "高影响事件词；关键人物"
     },
     {
       "market": "全球",
@@ -326,7 +306,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "大家以為 $NVDA 賣中國卡在美國出口許可。這次卡住的章，是北京蓋的。 Reuters 引述兩位知情人士：大約 60 萬顆 H200 放在香港，等著運進中國大陸，北京遲遲不批大量進口。美國那邊，川普政府 2025 年已經開放賣給核准的中國客戶。 另一邊，中國買家搶得很兇。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sVHFvd1lnY3M0d25TMnlCV09hWmRoeWJYeFBLbmJla3lqLTZqemphSUF3Uy1SSVdrZkY3MDJWSzhFRlg0V2VrUEltRTFfS08tZkdDZ2FzUXZ5M056VkZB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BSkhHVzdxR0ZZMkR1WFZxMm5jOUdQclNjTzQ3TXJPOEk2QzQ3NWdlMFYyRmdWWXR3NDVTSVdlS2lQcEItcEx3TnU3T2hZcXFOWUtVaGJyZlQzNmlNMU4wYmZIU0RFeUR2OXc?oc=5",
       "pubDate": "Fri, 06 Nov 2026 02:30:00 GMT",
       "description": "大家以為 $NVDA 賣中國卡在美國出口許可。這次卡住的章，是北京蓋的。 Reuters 引述兩位知情人士：大約 60 萬顆 H200 放在香港，等著運進中國大陸，北京遲遲不批大量進口。美國那邊，川普政府 2025 年已經開放賣給核准的中國客戶。 另一邊，中國買家搶得很兇。 &nbsp;&nbsp; X",
       "source": "X",
@@ -338,27 +318,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "cea22968bfbe1e85",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "半導體遭遇猛烈賣壓：SOX單日重挫12.25%至9,011點，Nasdaq跌5.52%，較十月高點回落逾10%。$MU 跌17.5%、$AMD 跌17.3%、$MRVL 跌16.4%，$NVDA 跌9.3%並跌破200日線，賣壓也擴散到軟體股。VIX跳升約70%至28.18；Vanda估計散戶淨賣出3.58億美元， - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzaHVqUVZJTDE4NXY5MkNYZmI4M2hpZW5rd3FMRnUwS2VSSGYwYW5ZVllxUTBKclFjWWdPcHg3YnUyQzZ4cGVTb2pZSUhhUUtBcFlxMXBRaUxYSDFlXzgyN0Q2WFdIMzQ?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 06:45:40 GMT",
-      "description": "半導體遭遇猛烈賣壓：SOX單日重挫12.25%至9,011點，Nasdaq跌5.52%，較十月高點回落逾10%。$MU 跌17.5%、$AMD 跌17.3%、$MRVL 跌16.4%，$NVDA 跌9.3%並跌破200日線，賣壓也擴散到軟體股。VIX跳升約70%至28.18；Vanda估計散戶淨賣出3.58億美元， &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "68027b16d582a321",
+      "id": "f65252479cb1fd4f",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -399,6 +359,26 @@
       "score": 50,
       "priority": "B",
       "id": "9e21158a26b51290",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "民主黨殺到來，輝達已經開始變招 不准蓋大型 AI 資料中心？ 那就把迷你 AI 中心分散蓋到各地，比如電信機房。 去年與諾基亞合作，也是為了此刻誕生。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43d2JjcDdEOTUwUkxzTldId3JfSUFhNWJrTDZBMXRNRW5taXgzT3RfaTVLTGFzWjZIOGN3bld6U3RVdzI4WVJWaFphUktoUm9yZHhEZXVFSzdMbko4U0l2cnoxRkI?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 11:59:49 GMT",
+      "description": "民主黨殺到來，輝達已經開始變招 不准蓋大型 AI 資料中心？ 那就把迷你 AI 中心分散蓋到各地，比如電信機房。 去年與諾基亞合作，也是為了此刻誕生。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "030da4a382c3498e",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -845,26 +825,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "〈Charts of the Week — 第三段 Rack Spread Cometh〉 1、敘事切換：空頭主軸由「AI搶工作」改為「AI回報是否跟上capex」；作者不站隊，但認為目前空頭占優。 2、市況儀表： 1）AI基建／晶片相關五年期CDS自仲夏急升（NVIDIA（ $NVDA）、Broadcom（ $AVGO）、AMD（ $ - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MNGsxclloaXRnak1EQ0pzdjl6emplMFFvV0RxN3dtWXJ2R3h6TmVsSTVwamRDQXJfT3lBUjc0Qkd6VXU2TUxyb0pwZEc2b21NTlpUY3lGTlg5REVrdVE?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 06:02:13 GMT",
-      "description": "〈Charts of the Week — 第三段 Rack Spread Cometh〉 1、敘事切換：空頭主軸由「AI搶工作」改為「AI回報是否跟上capex」；作者不站隊，但認為目前空頭占優。 2、市況儀表： 1）AI基建／晶片相關五年期CDS自仲夏急升（NVIDIA（ $NVDA）、Broadcom（ $AVGO）、AMD（ $ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "cbe39cc21a2fa869",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Wccftech〈天數智芯天垓300自稱現場示範勝過H200，外部測試僅約領先5%〉 1、天數智芯向中國媒體現場示範，稱天垓300在部分實際AI負載可追平甚至勝過NVIDIA（ $NVDA）H200；示範亦對「友好媒體」展示。 1）文生圖／文生影片等測試使用如智譜https://t.co/jmNnjo - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96ZUhFVVJFZzFGMWkxOGhfQmw2NmhQZlo4aHFfWEtxVl9pbHdIT1BTdHNWd01MSUJGWEt1MW5QZDF4UkhyOXlua2NXT2hJYXhOaHpUaUVjZVhKbTRaN3c?oc=5",
       "pubDate": "Sun, 01 Nov 2026 04:11:22 GMT",
@@ -879,6 +839,26 @@
       "score": 44,
       "priority": "B",
       "id": "0859122c29b0bc9a",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "〈Charts of the Week — 第三段 Rack Spread Cometh〉 1、敘事切換：空頭主軸由「AI搶工作」改為「AI回報是否跟上capex」；作者不站隊，但認為目前空頭占優。 2、市況儀表： 1）AI基建／晶片相關五年期CDS自仲夏急升（NVIDIA（ $NVDA）、Broadcom（ $AVGO）、AMD（ $ - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MNGsxclloaXRnak1EQ0pzdjl6emplMFFvV0RxN3dtWXJ2R3h6TmVsSTVwamRDQXJfT3lBUjc0Qkd6VXU2TUxyb0pwZEc2b21NTlpUY3lGTlg5REVrdVE?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 06:02:13 GMT",
+      "description": "〈Charts of the Week — 第三段 Rack Spread Cometh〉 1、敘事切換：空頭主軸由「AI搶工作」改為「AI回報是否跟上capex」；作者不站隊，但認為目前空頭占優。 2、市況儀表： 1）AI基建／晶片相關五年期CDS自仲夏急升（NVIDIA（ $NVDA）、Broadcom（ $AVGO）、AMD（ $ &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 44,
+      "priority": "B",
+      "id": "cbe39cc21a2fa869",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -965,26 +945,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "30年技術分析經驗無人能敵？王老師直言特斯拉賺夠了為何還不退休？不僅是技術面的深度剖析，更是一場關於躺平與自律的人生哲學課。投資者必看，揭開美股震盪背後的市場邏輯！ #王道論市 #技術分析 #美股投資 #特斯拉 #TSLA #NVDA #投資理財 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XUlpCc2F2OVNZekticFBXUWx0dDk0dnlPcGh3TmJNWFpEbHdHSHZSM0E0UDJtaGpqOGhCbG5VQkREUDlkSnlQYUFWaUdfNWFXelR2WWpOZ1cweHZVT2hZYlRn?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 00:51:23 GMT",
-      "description": "30年技術分析經驗無人能敵？王老師直言特斯拉賺夠了為何還不退休？不僅是技術面的深度剖析，更是一場關於躺平與自律的人生哲學課。投資者必看，揭開美股震盪背後的市場邏輯！ #王道論市 #技術分析 #美股投資 #特斯拉 #TSLA #NVDA #投資理財 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "2d37ecd0eb578094",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "10/29 Bloomberg 同 The Information（Reuters／CNA 轉述）： $NVDA 傾緊為 Nscale 喺西維州、畀 Anthropic 用嘅數據中心項目，提供數十億美元信用擔保，用來兜電力同建造融資。條款未簽死，三家都未回 Reuters 查詢。 TechCrunch 引 Information 講結構似殘值擔 - X",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kdmc0MVpFMVBTWGRHY1Z5WEY3ZnBmVFdwWTFtS3h6NFpELTU2VkV2NkxlY2hwQ0t0dFpYeEZnRkdUeURhTEhsZEJQN2NwYnVRZUljUEJMMlBiOTc4VWdyUQ?oc=5",
       "pubDate": "Sun, 01 Nov 2026 01:06:37 GMT",
@@ -999,26 +959,6 @@
       "score": 44,
       "priority": "B",
       "id": "1edd3575107c46f0",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "🎁 雙十一，集拼圖抽豪禮！你最想抽中哪一個？ 📱 iPhone Duo 💰 2,000 USDT 購物金 🤖 ChatGPT Pro 6 個月訂閱 集齊 4 塊即可抽獎，集滿 6 塊挑戰高級獎池。完成任務解鎖抽獎資格，100% 中獎！ 🏆 兩大獎池，好禮一次看 🔹 基礎獎池 集齊 1–4 號拼圖 Switch 2、AirP - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ORzBlb0JhTkc5VmlaallyamlER1FWOFRLc2NQTUdDeGpWT1FtSFg0WkhhdjQ1WmpZTDVOVmdlNlRUdEZ0aVZoNEpBeHB3MmQ4UzM1SHE0N0dYWkE?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 05:00:00 GMT",
-      "description": "🎁 雙十一，集拼圖抽豪禮！你最想抽中哪一個？ 📱 iPhone Duo 💰 2,000 USDT 購物金 🤖 ChatGPT Pro 6 個月訂閱 集齊 4 塊即可抽獎，集滿 6 塊挑戰高級獎池。完成任務解鎖抽獎資格，100% 中獎！ 🏆 兩大獎池，好禮一次看 🔹 基礎獎池 集齊 1–4 號拼圖 Switch 2、AirP &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 44,
-      "priority": "B",
-      "id": "3cac3ccfd00006ed",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -1040,26 +980,6 @@
       "priority": "B",
       "id": "a6572ea2db7b2ec4",
       "rankReason": "市场相关；公开资金信号；社媒只做热点发现"
-    },
-    {
-      "market": "宏观",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-      "pubDate": "Thu, 5 Nov 2026 16:00:00 GMT",
-      "description": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "source": "Federal Reserve · Press",
-      "sourceKey": "fed-press",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 41,
-      "priority": "B",
-      "id": "dd43e6f183730a27",
-      "rankReason": "一级/官方信源"
     },
     {
       "market": "港股",
@@ -1185,6 +1105,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "卻說大洋西岸，有一奇人名曰戴维*哈里斯，年四十有八，昔在摩根大通掌理財務，出入金銀之府，閱盡牛熊之勢。其言每月所得三十三萬金，衣食無憂，早已富甲一方。 一日登高小酌，眾人環坐，論及天下科技諸股。哈公捋鬚而笑曰： 「甲午十一月，吾有數言，願告諸君。」 眾 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmY2V0cnc4ZmpQd1FyV1MtaE54Nml1ajQxUUI3X09ldERfbUZ1dEd3RXVMalJJdGV2dDhVMndFWlJuMVFxcTd4SW5RNV9EaF9sVnFIMkR4MU9PX2lqUXFB?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 03:03:22 GMT",
+      "description": "卻說大洋西岸，有一奇人名曰戴维*哈里斯，年四十有八，昔在摩根大通掌理財務，出入金銀之府，閱盡牛熊之勢。其言每月所得三十三萬金，衣食無憂，早已富甲一方。 一日登高小酌，眾人環坐，論及天下科技諸股。哈公捋鬚而笑曰： 「甲午十一月，吾有數言，願告諸君。」 眾 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 28,
+      "priority": "B",
+      "id": "8f0219bf9c53dc1b",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "【擴建物流】希音將向歐洲業務投資5億歐元 應對日趨嚴格的海關監管 https://t.co/enNJ9wvgfG 快時尚電商希音將向歐洲業務投資5億歐元，應對嚴格的海關監管。希音將擴建位於波蘭弗羅茨瓦夫附近的物流樞紐，這筆投資將增加倉儲能力，並引入用於揀選訂單的機械人 - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHb2tTWXplckJVc0txdDQ3X196VXRHQWp2VHMtWnJXMk0xdHIxZmpFR3dtZ0E1UGNsN19TM005NFF6NVRlVFQ2bEN6bDhhUU4yRlAwc1JiM3VZV1lyeC1oWEhQNHg?oc=5",
       "pubDate": "Fri, 06 Nov 2026 12:00:01 GMT",
@@ -1222,5 +1162,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-11-06T20:52:37.210Z"
+  "rankedAt": "2026-11-07T00:54:50.462Z"
 }
