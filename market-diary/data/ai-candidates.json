@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:58:16.459Z",
+  "generatedAt": "2026-11-07T18:45:15.304Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -287,10 +287,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pQ09jUTN0MkNFWjFxWEtfNVFHSUU5M0sxTmplTHhJTjREdGpmZms2cWt0bzhyNm0zM3VuSm81aFNjWV8wWUpuLWZLYmFDX3VSLVVOUzZ4aG83MDNpQlE?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 15:14:30 GMT",
-      "description": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 &nbsp;&nbsp; X",
+      "title": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xV2tyNEVYVWpkeUVOLVZsZENyYnRGNEhHb3lrM3hhdWc2U0dTSW5pTFBvNld5ZnhtYTdsdGdicHBCc2tFeFJUY3NpamFFa0Z6WXY1QmZ3bExfdF90UWc?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 01:12:49 GMT",
+      "description": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -300,11 +300,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "d9c5ab29e113ace7",
+      "id": "a5d3e8ff27ad5c71",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, The Inf…",
+        "summary": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rub…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -336,37 +336,6 @@
       "ai": {
         "priority": "B",
         "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xV2tyNEVYVWpkeUVOLVZsZENyYnRGNEhHb3lrM3hhdWc2U0dTSW5pTFBvNld5ZnhtYTdsdGdicHBCc2tFeFJUY3NpamFFa0Z6WXY1QmZ3bExfdF90UWc?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 01:12:49 GMT",
-      "description": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a5d3e8ff27ad5c71",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rub…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -460,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "這件事我反而不太想把焦點放在 Jensen Huang 到底有沒有跟 Alice Huang 存在浪漫關係。 真正值得觀察的是，美國政府正在如何重新定義 NVIDIA 與中國市場之間的關係。 Jensen 的商業邏輯其實一直很清楚：中國是一個龐大的 AI 市場。如果 NVIDIA 主動退出，不只 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yWXhQcFB1MHF3cDVFbzIwRVR1TUs3Y3dvNHdRcnF2c203YnR3eDRNMk1ZQ0dUTjdzNDZTdEp6TC1adnd2VndZb1JqWmtFYnF6LVZZS0NWcU5OZmRjakUw?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 06:55:27 GMT",
+      "description": "這件事我反而不太想把焦點放在 Jensen Huang 到底有沒有跟 Alice Huang 存在浪漫關係。 真正值得觀察的是，美國政府正在如何重新定義 NVIDIA 與中國市場之間的關係。 Jensen 的商業邏輯其實一直很清楚：中國是一個龐大的 AI 市場。如果 NVIDIA 主動退出，不只 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a82b21e3d1e226ec",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "這件事我反而不太想把焦點放在 Jensen Huang 到底有沒有跟 Alice Huang 存在浪漫關係。 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -565,37 +565,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "TrendForce: Memory > Overall DRAM bit supply growth will slow to 24% in 2027, and the tight supply situation will continue. > TrendForce indicates that looking ahead to 2027, as cloud service providers (CSPs) accelerate the deployment of AI servers and acti - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wNXRaQnNZLVhnb1RXQ3F1UDJOZnIxbnFEbDNmenBMQlVtRXVBNkpEZzFobWZqbW85NHg2SkRWdDhEaTRwb1EtWnlsendUMG90d2xPMlFkMHNJMkhZUGpxUHlBZWdSX2c?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 01:07:39 GMT",
-      "description": "TrendForce: Memory > Overall DRAM bit supply growth will slow to 24% in 2027, and the tight supply situation will continue. > TrendForce indicates that looking ahead to 2027, as cloud service providers (CSPs) accelerate the deployment of AI servers and acti &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "ceb6a82c82448bf3",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體店。這段引發議論的合作關係，在七個月之後告終。BHV 在百餘個品牌出走後易主，2026 年 Shien 在法國的銷售額下跌四成。 Shein 近年藉由演算法與超低定價，在歐洲市場 - X",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IVFY5VEV1NXR6TGt3M3RLRDZfVTJIWGx6QXpsbXVhbDcwMlNBakJrZ2tOS1dyOGVCYnpYdzV2VGh5Wm1sOGx4d1lVMUJYclluMEloTWs3dDFRTlkwTG1UMTRB?oc=5",
@@ -615,6 +584,37 @@
       "ai": {
         "priority": "B",
         "summary": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pQ09jUTN0MkNFWjFxWEtfNVFHSUU5M0sxTmplTHhJTjREdGpmZms2cWt0bzhyNm0zM3VuSm81aFNjWV8wWUpuLWZLYmFDX3VSLVVOUzZ4aG83MDNpQlE?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 15:14:30 GMT",
+      "description": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "d9c5ab29e113ace7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, The Inf…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -659,10 +659,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Now up 7.2%. $BABA - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOd2hqbW13RHdtYVdEQVVfZURnSTRrS2hBVjNPRTBma1RsT1R4cTFJMnJvRXhxUTM0OFNCNHd0bjlEa0RoaUhwOFZWZzlhOWpQVWczR1RJRzhHVUw3N2VBWnNiWVI?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 16:02:42 GMT",
-      "description": "Now up 7.2%. $BABA &nbsp;&nbsp; X",
+      "title": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jQWVDcV9XVUNkQjFnbXpXaExzZmM2ZHlleHd1MnROWlhjblRiUEdibXNTUld2OXJDdU85aFE5TFdhUllRNVdlSTYyZWpJTTkxSGdteWtGRzk1TGFuUFVtU2xyY1lvZw?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 12:29:01 GMT",
+      "description": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -672,11 +672,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "4845f0857e3fbcd9",
+      "id": "31ae59ecb7d16ee4",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
+        "summary": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -721,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$BABA now up 6%. - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YWExCY2NkejVYcmlfXzVVVW1uRGFmWmlyQVNHU2VBa2dYV2RDRXlhWE8wT2tLandkVmFLRXRqRXczR2FIajdkUjJjWTlYbUJHZWdxaFpaVkk3ZW1aWlFUbktEV18?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 15:00:16 GMT",
-      "description": "$BABA now up 6%. &nbsp;&nbsp; X",
+      "title": "🎁 XT 股票交易大賽 X 專屬加碼 $300 Giveaway！🏆 參與方式： ✅ 關注我们 ❤️ 按讚並 🔁 轉發活動推文 💬 留言分享你最想交易的股票： $TSLA、 $NVDA、 $COIN、 $AMZN 或其他股票，並附上你的 XT UID！ 🏆 立即參加交易大賽： https://t.co/Fg2NUulUmg #XTexchan - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiMlFwR21HUUI5eHBQeURzOUhwZFAxNVFtaU94SzZ0ZHJ3TTNnRGhOcHN0eXlrbkVqT3BOVHU1LVRGdGd4UTM2LXM4VkJWbmJvUkxjam5qazB0WExEZkpyOEp1NA?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 05:15:32 GMT",
+      "description": "🎁 XT 股票交易大賽 X 專屬加碼 $300 Giveaway！🏆 參與方式： ✅ 關注我们 ❤️ 按讚並 🔁 轉發活動推文 💬 留言分享你最想交易的股票： $TSLA、 $NVDA、 $COIN、 $AMZN 或其他股票，並附上你的 XT UID！ 🏆 立即參加交易大賽： https://t.co/Fg2NUulUmg #XTexchan &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "5b7c74a2abc5930c",
+      "id": "5f61559e7079c754",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
+        "summary": "🎁 XT 股票交易大賽 X 專屬加碼 $300 Giveaway！🏆 參與方式： ✅ 關注我们 ❤️ 按讚…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
