@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T18:45:14.405Z",
+  "generatedAt": "2026-11-07T22:43:08.126Z",
   "windowDays": 7,
   "summary": {
     "total": 56,
@@ -160,6 +160,26 @@
       "priority": "B",
       "id": "02590446fce9bdb4",
       "rankReason": "一级/官方信源；市场相关"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "持仓",
+      "title": "聰明錢觀察。ARK 最新交易日 2026-11-05；13F 最新季 2026 Q2；Form 4 最新申報日 2026-11-06；內部人資料更新 11/07 09:01（香港時間）。美股週末休市，跟住呢版鎖住嘅數。 近 3 個交易日按佔比最大三筆（最新交易日 2026-11-05）：11/05 ARKK 沽 $AVGO 356,34 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ncGhWLXl0ZjY4aUpVd0VQOF9EelJObEJYemg3bVJxLTR1OFVtak9nTFl2ay0yS25sdkZQUHZlSlNQVE1jd2tmRlpBUmlCdmNRellnc0RQcVhBYUt6Mzh5Rw?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 01:53:15 GMT",
+      "description": "聰明錢觀察。ARK 最新交易日 2026-11-05；13F 最新季 2026 Q2；Form 4 最新申報日 2026-11-06；內部人資料更新 11/07 09:01（香港時間）。美股週末休市，跟住呢版鎖住嘅數。 近 3 個交易日按佔比最大三筆（最新交易日 2026-11-05）：11/05 ARKK 沽 $AVGO 356,34 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "ac5c90cf850d8b63",
+      "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现"
     },
     {
       "market": "港股",
@@ -405,26 +425,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pQ09jUTN0MkNFWjFxWEtfNVFHSUU5M0sxTmplTHhJTjREdGpmZms2cWt0bzhyNm0zM3VuSm81aFNjWV8wWUpuLWZLYmFDX3VSLVVOUzZ4aG83MDNpQlE?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 15:14:30 GMT",
-      "description": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "d9c5ab29e113ace7",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "💎 財報明星股合約挑戰二期正式開啟！ 📈 交易 AAPL、AMD、NVDA、WMT 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 NVDAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿 - X",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGZHU3NlNNWnZuVmdXRG9zeENyeHluSUNhblRpbnNjcFM1amdkVTdkSTF4OWFjYjdtTm9BdXNKbE1WODNZajN1LTRVdkpOY1lSbk04Um13YkNHRW9j?oc=5",
       "pubDate": "Thu, 05 Nov 2026 08:52:00 GMT",
@@ -439,26 +439,6 @@
       "score": 47,
       "priority": "B",
       "id": "5f0d89232c2fbc71",
-      "rankReason": "高影响事件词；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jQWVDcV9XVUNkQjFnbXpXaExzZmM2ZHlleHd1MnROWlhjblRiUEdibXNTUld2OXJDdU85aFE5TFdhUllRNVdlSTYyZWpJTTkxSGdteWtGRzk1TGFuUFVtU2xyY1lvZw?oc=5",
-      "pubDate": "Thu, 05 Nov 2026 12:29:01 GMT",
-      "description": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "31ae59ecb7d16ee4",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -1025,6 +1005,26 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "#是日要聞 1. 美股週四全面重挫：S&P 500 跌 4.36% 至 7,353.73，道瓊跌 1,833.06 點或 3.44% 至 51,523.06，Nasdaq Composite 跌 5.52% 至 24,315.00 進入修正，Nasdaq 100 跌 6.36%，費城半導體指數約跌 12%，全 11 大板塊下跌，創 2025 年 4 月關稅震盪以來 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3cHFqd21neGlIaWQwLXN6MkdyUmY5aUxaQVZ2NGs0X3l4WUZzVmU3Y05iSl9iR2lWYmFfSWhmbzRvMl9UNHRKazJRS1lEVjhXVEV4OHVoMGdYRy1U?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 13:46:34 GMT",
+      "description": "#是日要聞 1. 美股週四全面重挫：S&P 500 跌 4.36% 至 7,353.73，道瓊跌 1,833.06 點或 3.44% 至 51,523.06，Nasdaq Composite 跌 5.52% 至 24,315.00 進入修正，Nasdaq 100 跌 6.36%，費城半導體指數約跌 12%，全 11 大板塊下跌，創 2025 年 4 月關稅震盪以來 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 31,
+      "priority": "B",
+      "id": "5376d11c85d6dc25",
+      "rankReason": "市场相关；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "〈京元電子美國子公司下單鴻勁200套handler／德州擴產節奏〉 1、訂單：京元電子（KYEC, https://t.co/BvfgnAHd7T）美國子公司 AeternZ 向鴻勁精密（Hon Precision）採購200套handler，總額約1.508億美元（單價約75.4萬美元）；10月28日董事會通過、10月29日公告，非 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBURzZmLVNBWUlXRjYtVTA5a21hVmtHWHpQYjRVY0MxZTJQQkcwc1dQcHZjcXRBcWZOYldNMS1fblB2V0RlSGRKRHNaMmlNS1lQMUIteUd4cFcwSXQ2QXc?oc=5",
       "pubDate": "Sun, 01 Nov 2026 15:23:16 GMT",
@@ -1142,5 +1142,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-11-07T18:45:14.886Z"
+  "rankedAt": "2026-11-07T22:43:09.616Z"
 }

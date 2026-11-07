@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T18:45:15.304Z",
+  "generatedAt": "2026-11-07T22:43:10.002Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -218,6 +218,37 @@
           "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "持仓",
+      "title": "聰明錢觀察。ARK 最新交易日 2026-11-05；13F 最新季 2026 Q2；Form 4 最新申報日 2026-11-06；內部人資料更新 11/07 09:01（香港時間）。美股週末休市，跟住呢版鎖住嘅數。 近 3 個交易日按佔比最大三筆（最新交易日 2026-11-05）：11/05 ARKK 沽 $AVGO 356,34 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ncGhWLXl0ZjY4aUpVd0VQOF9EelJObEJYemg3bVJxLTR1OFVtak9nTFl2ay0yS25sdkZQUHZlSlNQVE1jd2tmRlpBUmlCdmNRellnc0RQcVhBYUt6Mzh5Rw?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 01:53:15 GMT",
+      "description": "聰明錢觀察。ARK 最新交易日 2026-11-05；13F 最新季 2026 Q2；Form 4 最新申報日 2026-11-06；內部人資料更新 11/07 09:01（香港時間）。美股週末休市，跟住呢版鎖住嘅數。 近 3 個交易日按佔比最大三筆（最新交易日 2026-11-05）：11/05 ARKK 沽 $AVGO 356,34 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "ac5c90cf850d8b63",
+      "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "聰明錢觀察。ARK 最新交易日 2026-11-05；13F 最新季 2026 Q2；Form 4 最新申報日…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     },
@@ -597,37 +628,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pQ09jUTN0MkNFWjFxWEtfNVFHSUU5M0sxTmplTHhJTjREdGpmZms2cWt0bzhyNm0zM3VuSm81aFNjWV8wWUpuLWZLYmFDX3VSLVVOUzZ4aG83MDNpQlE?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 15:14:30 GMT",
-      "description": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）可能進一步參與先進記憶體製造。 The Information 節錄引述兩位知情人士，稱台積電近期應 NVIDIA（ $NVDA）要求，開始擬訂製造 3D DRAM 的計畫。 這項構想的 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "d9c5ab29e113ace7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, The Inf…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "💎 財報明星股合約挑戰二期正式開啟！ 📈 交易 AAPL、AMD、NVDA、WMT 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 NVDAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿 - X",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGZHU3NlNNWnZuVmdXRG9zeENyeHluSUNhblRpbnNjcFM1amdkVTdkSTF4OWFjYjdtTm9BdXNKbE1WODNZajN1LTRVdkpOY1lSbk04Um13YkNHRW9j?oc=5",
       "pubDate": "Thu, 05 Nov 2026 08:52:00 GMT",
@@ -646,37 +646,6 @@
       "ai": {
         "priority": "B",
         "summary": "💎 財報明星股合約挑戰二期正式開啟！ 📈 交易 AAPL、AMD、NVDA、WMT 等股票合約，解鎖熱門 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jQWVDcV9XVUNkQjFnbXpXaExzZmM2ZHlleHd1MnROWlhjblRiUEdibXNTUld2OXJDdU85aFE5TFdhUllRNVdlSTYyZWpJTTkxSGdteWtGRzk1TGFuUFVtU2xyY1lvZw?oc=5",
-      "pubDate": "Thu, 05 Nov 2026 12:29:01 GMT",
-      "description": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "31ae59ecb7d16ee4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +708,37 @@
       "ai": {
         "priority": "B",
         "summary": "🎁 XT 股票交易大賽 X 專屬加碼 $300 Giveaway！🏆 參與方式： ✅ 關注我们 ❤️ 按讚…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$TSLA $SPCX - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xd2QzZ2NZMHJsZDN0TlI0UTdOMjRKRUVKMk1MbXA2TVJLbGZWRmt2bGxOMVpUR2UzMjc5YnVDVkV1VVVQYk5fdFJ1cEw2Zkg3eWVzLVNvMV93UzhkQm9kWjEzQ3AwSFU?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 07:12:01 GMT",
+      "description": "$TSLA $SPCX &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "38487430ccd667e8",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
