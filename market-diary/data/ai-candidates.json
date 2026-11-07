@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T07:05:56.295Z",
+  "generatedAt": "2026-11-07T13:58:16.459Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -19,7 +19,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 77,
+      "score": 74,
       "priority": "A",
       "id": "b826299ed303e981",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
@@ -50,7 +50,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 77,
+      "score": 74,
       "priority": "A",
       "id": "1d9296f619b72e69",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
@@ -81,7 +81,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 77,
+      "score": 74,
       "priority": "A",
       "id": "36eb0b249d7a4d43",
       "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
@@ -205,7 +205,7 @@
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 58,
+      "score": 55,
       "priority": "B",
       "id": "02590446fce9bdb4",
       "rankReason": "一级/官方信源；市场相关",
@@ -284,37 +284,6 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "财报",
-      "title": "Poll Results of the General Meeting",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/2611062news?sc_lang=en",
-      "pubDate": "Fri, 06 Nov 2026 18:26:00 +0800",
-      "description": "Poll Results of the General Meeting",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 50,
-      "priority": "B",
-      "id": "2161cec7d89504b4",
-      "rankReason": "一级/官方信源；高转化内容类型",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现新的财报或业绩信息",
-        "whyImportant": "财报会直接改变公司增长、盈利和估值预期，适合做关键数字快讯和财报解读；关键数字需要回到公司公告核验。",
-        "contentDirection": [
-          "快讯",
-          "财报解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
@@ -336,6 +305,37 @@
       "ai": {
         "priority": "B",
         "summary": "台積電傳評估 3D DRAM，NVIDIA 尋求更多記憶體供應 台積電（TSMC, $TSM, The Inf…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Nvidia is providing billions of dollars in financing to expand CoWoS packaging capacity at SPIL, a longtime packaging partner and subsidiary of ASE, media report, citing unnamed supply chain sources. $TSM $NVDA $ASX #semiconductors https://t.co/vJEqC3 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTeHIzNEdmMVNJckdsTDI3ejJEczdHQ3RoZzlQcE5ia3NHUW1ma0JOczZoVnU3NDU5aXZtenVXUEpMeGs1TjdldlppSDBMODd4amMzbVpTSjJYWjRkNHc?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 08:09:47 GMT",
+      "description": "Nvidia is providing billions of dollars in financing to expand CoWoS packaging capacity at SPIL, a longtime packaging partner and subsidiary of ASE, media report, citing unnamed supply chain sources. $TSM $NVDA $ASX #semiconductors https://t.co/vJEqC3 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "f2503ed59b94367e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -411,10 +411,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "【 財經新聞 】民主黨擬推「超級AI禁令」釀美日韓股災 AI榮景破裂？ ⬇️今日重點新聞👉🏻 https://t.co/1Hwd4uKfeg - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01WVdMR3FpckZ2WXc0cXAwcU9aYl9XQV95aHhWUlJGaC1mY2Y2b0w5OHY3cG1NYlA1UjFoN2ZrQ1ZvM0pLUkRyWDZsT3JsdmI2ajluMnIwUVpvWGJXaTZxaA?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 12:04:37 GMT",
-      "description": "【 財經新聞 】民主黨擬推「超級AI禁令」釀美日韓股災 AI榮景破裂？ ⬇️今日重點新聞👉🏻 https://t.co/1Hwd4uKfeg &nbsp;&nbsp; X",
+      "title": "Starmind 瞄準 2027 年第三季首發，時程仍屬 Musk 推估 Elon Musk 對軌道運算提出新的部署預期。在 X Freeze 分享、畫面標示為 2026 年 Baron 投資大會的影片中，他表示，與 NVIDIA（ $NVDA）共同設計的首批 Starmind 電腦，可能於 2027 年第三季開始發射。不過 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oNUIyLVFXMm5HSmVOVU8tNGdxUlhDSjIzbWxfeXFoMjdmYjRaVXFwQ3U1Mi1XOTBrN1Y3UXhOclRjdllmQlJleTMtYVBGdFJEV2hHOEV4M2F2X0VOUVE?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 09:13:28 GMT",
+      "description": "Starmind 瞄準 2027 年第三季首發，時程仍屬 Musk 推估 Elon Musk 對軌道運算提出新的部署預期。在 X Freeze 分享、畫面標示為 2026 年 Baron 投資大會的影片中，他表示，與 NVIDIA（ $NVDA）共同設計的首批 Starmind 電腦，可能於 2027 年第三季開始發射。不過 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -424,17 +424,79 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "9e21158a26b51290",
+      "id": "5cf9076235221f1d",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "【 財經新聞 】民主黨擬推「超級AI禁令」釀美日韓股災 AI榮景破裂？ ⬇️今日重點新聞👉🏻 - X",
+        "summary": "Starmind 瞄準 2027 年第三季首發，時程仍屬 Musk 推估 Elon Musk 對軌道運算提出新…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝，目標是讓虧損止血變獲利。想知道如何將手上的資產翻身嗎？一起來看看他的獨門投資心法。#股票投資 #NVDA #Intel #美股 #理財技巧 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53WDJsaFN0LVVQWFptdjNXUWtycTk0Z3VON2dDX1JlcWxqaDVub3RUWENqRVZ2S3hjSGMwUzFwc2dtLVlJNDBXZGI5ZTBWU3pmM1lhbmVtaG5kRU1QUEFoMDVB?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 00:56:25 GMT",
+      "description": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝，目標是讓虧損止血變獲利。想知道如何將手上的資產翻身嗎？一起來看看他的獨門投資心法。#股票投資 #NVDA #Intel #美股 #理財技巧 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "438c318275b58330",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "财报",
+      "title": "Poll Results of the General Meeting",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/2611062news?sc_lang=en",
+      "pubDate": "Fri, 06 Nov 2026 18:26:00 +0800",
+      "description": "Poll Results of the General Meeting",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 47,
+      "priority": "B",
+      "id": "2161cec7d89504b4",
+      "rankReason": "一级/官方信源；高转化内容类型",
+      "ai": {
+        "priority": "B",
+        "summary": "港交所出现新的财报或业绩信息",
+        "whyImportant": "财报会直接改变公司增长、盈利和估值预期，适合做关键数字快讯和财报解读；关键数字需要回到公司公告核验。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -566,37 +628,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "【連結——SHEIN村的侷限與“大中國”】桃井裕理：“幹活的都是40～60歲的人，快乾不動了”，探訪廣州郊外的“SHEIN村”，這裡的時間好像停留在中國改革開放初期。中國正迎來經濟結構的轉型期，學者李稻葵稱“中國不會像日本那樣出現產業空洞化”。一個“大中國市場”在 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhZ2N5TnJjbDZKLVJkcHJKbHpwOF9Mdm9DNFA4amJuU2tsTXc3RmhGcXlxWGF6UWhWcnhDcnIxTUh0cXdndjQzbXFNOXF4Vlg0S19CRThjaFpNMC1Za093aXQ4Y2tIdw?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 08:25:22 GMT",
-      "description": "【連結——SHEIN村的侷限與“大中國”】桃井裕理：“幹活的都是40～60歲的人，快乾不動了”，探訪廣州郊外的“SHEIN村”，這裡的時間好像停留在中國改革開放初期。中國正迎來經濟結構的轉型期，學者李稻葵稱“中國不會像日本那樣出現產業空洞化”。一個“大中國市場”在 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "cb457dba2463382d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "【連結——SHEIN村的侷限與“大中國”】桃井裕理：“幹活的都是40～60歲的人，快乾不動了”，探訪廣州郊外的…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "💎 財報明星股合約挑戰二期正式開啟！ 📈 交易 AAPL、AMD、NVDA、WMT 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 NVDAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿 - X",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGZHU3NlNNWnZuVmdXRG9zeENyeHluSUNhblRpbnNjcFM1amdkVTdkSTF4OWFjYjdtTm9BdXNKbE1WODNZajN1LTRVdkpOY1lSbk04Um13YkNHRW9j?oc=5",
       "pubDate": "Thu, 05 Nov 2026 08:52:00 GMT",
@@ -615,37 +646,6 @@
       "ai": {
         "priority": "B",
         "summary": "💎 財報明星股合約挑戰二期正式開啟！ 📈 交易 AAPL、AMD、NVDA、WMT 等股票合約，解鎖熱門 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jQWVDcV9XVUNkQjFnbXpXaExzZmM2ZHlleHd1MnROWlhjblRiUEdibXNTUld2OXJDdU85aFE5TFdhUllRNVdlSTYyZWpJTTkxSGdteWtGRzk1TGFuUFVtU2xyY1lvZw?oc=5",
-      "pubDate": "Thu, 05 Nov 2026 12:29:01 GMT",
-      "description": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "31ae59ecb7d16ee4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
