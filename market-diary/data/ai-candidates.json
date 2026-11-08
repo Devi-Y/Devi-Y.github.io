@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:15:56.656Z",
+  "generatedAt": "2026-11-08T16:41:13.028Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -119,37 +119,6 @@
       "ai": {
         "priority": "A",
         "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Bill Ackman Says Elon Musk May Need $1 Trillion for SPCX AI Buildout: ‘Competing at Sovereign Levels’ - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUERJZ1NnR3k3azJfQUJZcVczbkx1UE9TQ2FmZFI4TmU3Wno2a0ZZSlpoWDR4eU5xR1d2OTlQdERSdmlBcUR4V0h3dzZ0VXRwcFJqcHViUHphWEdpcXZ2cE9WTm05dU9nMlh0RWlnQ1F2Q3ZKMHVzV0VCTm9QUjc0Mk1hYmdNd2FJeXlpNXRyUWVuU2FVaFg1UDhaTktoakpmaXg0WGtoVGFSN1Ric25xZUlaZ3psS09XbS1nS2FPaUFTNXpHWUQyaUU3YjIwSk9WaUh2MENZUE1Lc0o3M0xhQXkyTUhHNHdTUFRN?oc=5",
-      "pubDate": "Mon, 02 Nov 2026 09:04:51 GMT",
-      "description": "Bill Ackman Says Elon Musk May Need $1 Trillion for SPCX AI Buildout: ‘Competing at Sovereign Levels’ &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "7fe3520ffa4bf0ec",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -319,7 +288,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$NVDA Jensen Huang $NVDA 是 surprisingly uncompetitive $NVDA 的策略不是獨佔某一層，而是同時往上（提供高階能力）與往下（降低使用門檻）延伸，讓各種AI模型與應用都能在自己的平台上蓬勃發展。 大約一年半前，幾乎只有OpenAI的模型在 $NVDA 硬體上運 - X",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGa28wVV9EbFljTjJvUFFHUWswX2xycDYyVThzazJEVFZrNnRBTk5zYXdTTkRtWGpsZWlkaUd2Z0lDMXdobWtYczl6dXUySUtlYnRwQ2JQME1HMjFnaFhESnU1RF9sLThQaGxuOXB2RGQwV0NYVDgwVkdnMzM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fWGRQTzBaMFljcHpwbG5keERodjVSeVR5ZlRieXhHSXg0V3k5eFpfODAxRTVnVHBGRjk0NzVRQ1puSHFxLUpwSUtCc1VnT3lmcFhKWUlMZ05EYmhMTHVPeFNYNDZna3hIUy0xWUtqOGlQUQ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 00:07:51 GMT",
       "description": "$NVDA Jensen Huang $NVDA 是 surprisingly uncompetitive $NVDA 的策略不是獨佔某一層，而是同時往上（提供高階能力）與往下（降低使用門檻）延伸，讓各種AI模型與應用都能在自己的平台上蓬勃發展。 大約一年半前，幾乎只有OpenAI的模型在 $NVDA 硬體上運 &nbsp;&nbsp; X",
       "source": "X",
@@ -331,7 +300,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "fba3b8db09a924eb",
+      "id": "ef163922fe20b596",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -349,10 +318,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "台積電回應3D DRAM傳聞，跨入製造仍有技術與商業門檻 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）是否將應NVIDIA（ $NVDA）要求探索3D DRAM製造，引發關注。Tom’s Hardware取得的發言人回覆重申，公司始終專注專業積體電路製造服務，並以持續服務全 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjVUZOUzJDUVFhZXhVektTb2QyTVI5ajF5WUo1bDUxQ3BvUlhUVlRRVWxhVFh1T0YxcU9fbnBQbHRRUlRmdlRhTzJtOFZFdXdpbHo5RlV4TnpsUllHLWc?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 16:12:37 GMT",
-      "description": "台積電回應3D DRAM傳聞，跨入製造仍有技術與商業門檻 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）是否將應NVIDIA（ $NVDA）要求探索3D DRAM製造，引發關注。Tom’s Hardware取得的發言人回覆重申，公司始終專注專業積體電路製造服務，並以持續服務全 &nbsp;&nbsp; X",
+      "title": "$NBIS Marc Boroditsky $NVDA Vera Rubin對整個產業目前非常關鍵。 大家對下一代算力感到興奮，不僅模型開發商（model builders）在關注，現在更廣泛的市場也開始有需求。 能聽到 $NVDA Jensen 親自說明Vera Rubin的價值與重要性，對產業很有幫助。 我們明年 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tNkJBQzViRTVPcld5bDlHOUVIanU1QjVNeEZiOTRjYTYtNmZmeVd3Mi1qWUdBc2szYUpvLUFkTGhfanpLc3JYZnBCekVQRjc4cElILWJDb3FlOVBrSkdtc0VpRjRoT3c?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 06:46:18 GMT",
+      "description": "$NBIS Marc Boroditsky $NVDA Vera Rubin對整個產業目前非常關鍵。 大家對下一代算力感到興奮，不僅模型開發商（model builders）在關注，現在更廣泛的市場也開始有需求。 能聽到 $NVDA Jensen 親自說明Vera Rubin的價值與重要性，對產業很有幫助。 我們明年 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -362,11 +331,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "6853d0292d4eefb5",
+      "id": "531eaaf44b6af56a",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "台積電回應3D DRAM傳聞，跨入製造仍有技術與商業門檻 台積電（TSMC, $TSM, $NVDA）要求探索…",
+        "summary": "$NBIS Marc Boroditsky $NVDA Vera Rubin對整個產業目前非常關鍵。 大家對下…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -429,37 +398,6 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA Elon Musk 2018 年放空 $TSLA 並不瘋狂 Model 3量產極度困難，當時 $T…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NBIS Marc Boroditsky $NVDA Vera Rubin對整個產業目前非常關鍵。 大家對下一代算力感到興奮，不僅模型開發商（model builders）在關注，現在更廣泛的市場也開始有需求。 能聽到 $NVDA Jensen 親自說明Vera Rubin的價值與重要性，對產業很有幫助。 我們明年 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PRS1xeDk3NWdaQUpaZkowTHU4S2ZMT2JfdERMa3pOWTRXOTVYV21ROE8yOVIyLW5iTE9ZMUdIcTZOeU1CZFJPZDdUYU81aDBmczJLck5qSl8wS2F5N2hrenpSM3hfaEwtbFJ3THd5Y0FOdw?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 06:46:18 GMT",
-      "description": "$NBIS Marc Boroditsky $NVDA Vera Rubin對整個產業目前非常關鍵。 大家對下一代算力感到興奮，不僅模型開發商（model builders）在關注，現在更廣泛的市場也開始有需求。 能聽到 $NVDA Jensen 親自說明Vera Rubin的價值與重要性，對產業很有幫助。 我們明年 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a8be80495880d55b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NBIS Marc Boroditsky $NVDA Vera Rubin對整個產業目前非常關鍵。 大家對下…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -566,37 +504,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體店。這段引發議論的合作關係，在七個月之後告終。BHV 在百餘個品牌出走後易主，2026 年 Shien 在法國的銷售額下跌四成。 Shein 近年藉由演算法與超低定價，在歐洲市場 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IVFY5VEV1NXR6TGt3M3RLRDZfVTJIWGx6QXpsbXVhbDcwMlNBakJrZ2tOS1dyOGVCYnpYdzV2VGh5Wm1sOGx4d1lVMUJYclluMEloTWs3dDFRTlkwTG1UMTRB?oc=5",
-      "pubDate": "Thu, 05 Nov 2026 14:01:52 GMT",
-      "description": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體店。這段引發議論的合作關係，在七個月之後告終。BHV 在百餘個品牌出走後易主，2026 年 Shien 在法國的銷售額下跌四成。 Shein 近年藉由演算法與超低定價，在歐洲市場 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "2e5052bdf1e438d8",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "2025 年 11 月，中國快時尚電商 Shein，在巴黎有 170 年歷史的 BHV 百貨開設全球第一家實體…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xV2tyNEVYVWpkeUVOLVZsZENyYnRGNEhHb3lrM3hhdWc2U0dTSW5pTFBvNld5ZnhtYTdsdGdicHBCc2tFeFJUY3NpamFFa0Z6WXY1QmZ3bExfdF90UWc?oc=5",
       "pubDate": "Sat, 07 Nov 2026 01:12:49 GMT",
@@ -615,6 +522,37 @@
       "ai": {
         "priority": "B",
         "summary": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rub…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "台積電回應3D DRAM傳聞，跨入製造仍有技術與商業門檻 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）是否將應NVIDIA（ $NVDA）要求探索3D DRAM製造，引發關注。Tom’s Hardware取得的發言人回覆重申，公司始終專注專業積體電路製造服務，並以持續服務全 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjVUZOUzJDUVFhZXhVektTb2QyTVI5ajF5WUo1bDUxQ3BvUlhUVlRRVWxhVFh1T0YxcU9fbnBQbHRRUlRmdlRhTzJtOFZFdXdpbHo5RlV4TnpsUllHLWc?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 16:12:37 GMT",
+      "description": "台積電回應3D DRAM傳聞，跨入製造仍有技術與商業門檻 台積電（TSMC, $TSM, https://t.co/X7ajlAmyXY）是否將應NVIDIA（ $NVDA）要求探索3D DRAM製造，引發關注。Tom’s Hardware取得的發言人回覆重申，公司始終專注專業積體電路製造服務，並以持續服務全 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "6853d0292d4eefb5",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "台積電回應3D DRAM傳聞，跨入製造仍有技術與商業門檻 台積電（TSMC, $TSM, $NVDA）要求探索…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -691,7 +629,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "大家以為 $NVDA 賣中國卡在美國出口許可。這次卡住的章，是北京蓋的。 Reuters 引述兩位知情人士：大約 60 萬顆 H200 放在香港，等著運進中國大陸，北京遲遲不批大量進口。美國那邊，川普政府 2025 年已經開放賣給核准的中國客戶。 另一邊，中國買家搶得很兇。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BSkhHVzdxR0ZZMkR1WFZxMm5jOUdQclNjTzQ3TXJPOEk2QzQ3NWdlMFYyRmdWWXR3NDVTSVdlS2lQcEItcEx3TnU3T2hZcXFOWUtVaGJyZlQzNmlNMU4wYmZIU0RFeUR2OXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sVHFvd1lnY3M0d25TMnlCV09hWmRoeWJYeFBLbmJla3lqLTZqemphSUF3Uy1SSVdrZkY3MDJWSzhFRlg0V2VrUEltRTFfS08tZkdDZ2FzUXZ5M056VkZB?oc=5",
       "pubDate": "Fri, 06 Nov 2026 02:30:00 GMT",
       "description": "大家以為 $NVDA 賣中國卡在美國出口許可。這次卡住的章，是北京蓋的。 Reuters 引述兩位知情人士：大約 60 萬顆 H200 放在香港，等著運進中國大陸，北京遲遲不批大量進口。美國那邊，川普政府 2025 年已經開放賣給核准的中國客戶。 另一邊，中國買家搶得很兇。 &nbsp;&nbsp; X",
       "source": "X",
@@ -703,7 +641,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "f65252479cb1fd4f",
+      "id": "cea22968bfbe1e85",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "費半一天跌 12%，群組裡第一句都是：AI 需求死了，GPU 訂單要被砍了。 我翻了一遍收盤，故事不是這樣寫的。 11/5 費半 −12.25%，收 9,011.14；Nasdaq −5.52%、S&P −4.36%。當晚引爆點之一，是選後地方反資料中心的聲音變大，據 StockAnalysis、Yahoo 轉述，UB - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LVjdKOE0wTmR4MXg5UGFOTUI1TEI1dVV6NGQ2RXhRWWJybVA4QlBILTRvUUFUd25qQXJyZHkwM3JWaUN5U0NQSXEtZE9GZkFPNWpmRy1iQ0cwTmk0TUZB?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 22:02:40 GMT",
+      "description": "費半一天跌 12%，群組裡第一句都是：AI 需求死了，GPU 訂單要被砍了。 我翻了一遍收盤，故事不是這樣寫的。 11/5 費半 −12.25%，收 9,011.14；Nasdaq −5.52%、S&P −4.36%。當晚引爆點之一，是選後地方反資料中心的聲音變大，據 StockAnalysis、Yahoo 轉述，UB &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "92f001d8360be142",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "費半一天跌 12%，群組裡第一句都是：AI 需求死了，GPU 訂單要被砍了。 我翻了一遍收盤，故事不是這樣寫的…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Foxconn, the world’s biggest AI server and iPhone assembler, reported October sales rose 45.7% year-on-year to a fresh record high NT$1.31 trillion (US$39.6 billion), also 12.7% higher than September amid peak seasonality led by smart consumer (iPhones - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByS044U3BxWi1lb21UdFI1N3lrLVVzN3dKWnZxVjNodXNTNWgyamoxZHJzcDdBZjYtbVRWdzBibTRPcmJ2VkIxWU5tb0xTcUVNYzR3ZlI1ZVJkQlhpaFE?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 00:57:00 GMT",
+      "description": "Foxconn, the world’s biggest AI server and iPhone assembler, reported October sales rose 45.7% year-on-year to a fresh record high NT$1.31 trillion (US$39.6 billion), also 12.7% higher than September amid peak seasonality led by smart consumer (iPhones &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "3de9e02d056542a7",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
