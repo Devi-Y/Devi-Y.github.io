@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T22:43:10.002Z",
+  "generatedAt": "2026-11-08T02:26:06.101Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -318,37 +318,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xV2tyNEVYVWpkeUVOLVZsZENyYnRGNEhHb3lrM3hhdWc2U0dTSW5pTFBvNld5ZnhtYTdsdGdicHBCc2tFeFJUY3NpamFFa0Z6WXY1QmZ3bExfdF90UWc?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 01:12:49 GMT",
-      "description": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a5d3e8ff27ad5c71",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rub…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "Nvidia is providing billions of dollars in financing to expand CoWoS packaging capacity at SPIL, a longtime packaging partner and subsidiary of ASE, media report, citing unnamed supply chain sources. $TSM $NVDA $ASX #semiconductors https://t.co/vJEqC3 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTeHIzNEdmMVNJckdsTDI3ejJEczdHQ3RoZzlQcE5ia3NHUW1ma0JOczZoVnU3NDU5aXZtenVXUEpMeGs1TjdldlppSDBMODd4amMzbVpTSjJYWjRkNHc?oc=5",
       "pubDate": "Sat, 07 Nov 2026 08:09:47 GMT",
@@ -429,37 +398,6 @@
       "ai": {
         "priority": "B",
         "summary": "Starmind 瞄準 2027 年第三季首發，時程仍屬 Musk 推估 Elon Musk 對軌道運算提出新…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝，目標是讓虧損止血變獲利。想知道如何將手上的資產翻身嗎？一起來看看他的獨門投資心法。#股票投資 #NVDA #Intel #美股 #理財技巧 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53WDJsaFN0LVVQWFptdjNXUWtycTk0Z3VON2dDX1JlcWxqaDVub3RUWENqRVZ2S3hjSGMwUzFwc2dtLVlJNDBXZGI5ZTBWU3pmM1lhbmVtaG5kRU1QUEFoMDVB?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 00:56:25 GMT",
-      "description": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝，目標是讓虧損止血變獲利。想知道如何將手上的資產翻身嗎？一起來看看他的獨門投資心法。#股票投資 #NVDA #Intel #美股 #理財技巧 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "438c318275b58330",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "手上的Intel、NVDA被套牢了嗎？別急著認賠！這位王老師提出一套股票「收租」策略，強調透過出租資產反敗為勝…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -628,6 +566,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xV2tyNEVYVWpkeUVOLVZsZENyYnRGNEhHb3lrM3hhdWc2U0dTSW5pTFBvNld5ZnhtYTdsdGdicHBCc2tFeFJUY3NpamFFa0Z6WXY1QmZ3bExfdF90UWc?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 01:12:49 GMT",
+      "description": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rubin 拆解 SemiAnalysis 表示，NVIDIA（ $NVDA）Rubin 已在實驗室工作台上接受分析，並公開一張封裝結構影像。 2、附圖標示記憶體與互連區域 1）四個放大框分別標示 HBM4、NVL、GPU D2D 與 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "a5d3e8ff27ad5c71",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "SemiAnalysis〈NVIDIA Rubin 拆解預覽〉 1、SemiAnalysis 宣布展開 Rub…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "💎 財報明星股合約挑戰二期正式開啟！ 📈 交易 AAPL、AMD、NVDA、WMT 等股票合約，解鎖熱門 gStocks 獎勵！ 🎁 幸運抽獎：單人最高 10 次抽獎機會 🏆 加碼抽選：達標即可參與，瓜分 $16,000 等值 NVDAG，單人最高贏 $500 🔥 $30,000 等值 gStocks 獎勵等您來拿 - X",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGZHU3NlNNWnZuVmdXRG9zeENyeHluSUNhblRpbnNjcFM1amdkVTdkSTF4OWFjYjdtTm9BdXNKbE1WODNZajN1LTRVdkpOY1lSbk04Um13YkNHRW9j?oc=5",
       "pubDate": "Thu, 05 Nov 2026 08:52:00 GMT",
@@ -646,6 +615,37 @@
       "ai": {
         "priority": "B",
         "summary": "💎 財報明星股合約挑戰二期正式開啟！ 📈 交易 AAPL、AMD、NVDA、WMT 等股票合約，解鎖熱門 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jQWVDcV9XVUNkQjFnbXpXaExzZmM2ZHlleHd1MnROWlhjblRiUEdibXNTUld2OXJDdU85aFE5TFdhUllRNVdlSTYyZWpJTTkxSGdteWtGRzk1TGFuUFVtU2xyY1lvZw?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 12:29:01 GMT",
+      "description": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 5 月超過 50% 降到 6 月低於 10%」 🔥 10/21 表態看好 $NVDA $META、做空 $GOOGL 1️⃣ AI 建設的支出成長見頂，若 Hyperscaler 再繼續大幅增加 CapEx，Citrini 不認為營收跟得 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "31ae59ecb7d16ee4",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "6 月開始減倉成功逃頂？ @citrini 最新報告摘要 「Citrindex 模型組合的 AI 硬體曝險從 …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
