@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-08T16:41:12.498Z",
+  "generatedAt": "2026-11-08T21:07:38.138Z",
   "windowDays": 7,
   "summary": {
-    "total": 54,
+    "total": 56,
     "bySignal": {
-      "事实": 16,
+      "事实": 17,
       "媒体": 0,
-      "人物": 1,
+      "人物": 2,
       "资金": 0,
       "热点": 37
     },
     "byTrust": {
-      "A": 16,
-      "B": 1,
+      "A": 17,
+      "B": 2,
       "C": 37
     },
     "s": 0,
     "a": 4,
-    "b": 50
+    "b": 52
   },
   "note": "自动候选池。官方/一级信源优先；直连受限时使用官方域名发现作为降级路径；权威媒体用于补充；X/小红书只做热点发现。来源短时失败时仅保留7日窗口内的上一轮候选，并明确标记；正式发布前必须回到原始来源核验。 编辑排序器再次按市场影响、用户关注和内容可转化性收口：信源权威不等于事件重要。",
   "items": [
@@ -206,7 +206,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$NVDA Jensen Huang $NVDA 是 surprisingly uncompetitive $NVDA 的策略不是獨佔某一層，而是同時往上（提供高階能力）與往下（降低使用門檻）延伸，讓各種AI模型與應用都能在自己的平台上蓬勃發展。 大約一年半前，幾乎只有OpenAI的模型在 $NVDA 硬體上運 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fWGRQTzBaMFljcHpwbG5keERodjVSeVR5ZlRieXhHSXg0V3k5eFpfODAxRTVnVHBGRjk0NzVRQ1puSHFxLUpwSUtCc1VnT3lmcFhKWUlMZ05EYmhMTHVPeFNYNDZna3hIUy0xWUtqOGlQUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGa28wVV9EbFljTjJvUFFHUWswX2xycDYyVThzazJEVFZrNnRBTk5zYXdTTkRtWGpsZWlkaUd2Z0lDMXdobWtYczl6dXUySUtlYnRwQ2JQME1HMjFnaFhESnU1RF9sLThQaGxuOXB2RGQwV0NYVDgwVkdnMzM?oc=5",
       "pubDate": "Sun, 08 Nov 2026 00:07:51 GMT",
       "description": "$NVDA Jensen Huang $NVDA 是 surprisingly uncompetitive $NVDA 的策略不是獨佔某一層，而是同時往上（提供高階能力）與往下（降低使用門檻）延伸，讓各種AI模型與應用都能在自己的平台上蓬勃發展。 大約一年半前，幾乎只有OpenAI的模型在 $NVDA 硬體上運 &nbsp;&nbsp; X",
       "source": "X",
@@ -218,7 +218,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "ef163922fe20b596",
+      "id": "fba3b8db09a924eb",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -279,6 +279,26 @@
       "score": 50,
       "priority": "B",
       "id": "c111c47692ab2c2c",
+      "rankReason": "高影响事件词；社媒只做热点发现"
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Counterpoint Research在2026年11月5日發布的分析中，將800 V直流視為降低高電流配電負擔的發展方向，但不同業者未必會以相同方式完成轉換。 以1 MW - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54c292T3lXRTVOeUhxck1QS0Y2OGN4akY2eG9ESzJnbUVqTEppOW81R2VnUVRIUElxakwwVU1saUVPY0ZRN1pZWXhmRmNsblFMWU5CcG9hX09YbkhEekE?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:09:29 GMT",
+      "description": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Counterpoint Research在2026年11月5日發布的分析中，將800 V直流視為降低高電流配電負擔的發展方向，但不同業者未必會以相同方式完成轉換。 以1 MW &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "7af56b7ebd3a16be",
       "rankReason": "高影响事件词；社媒只做热点发现"
     },
     {
@@ -825,6 +845,26 @@
       "market": "港股",
       "signal": "事实",
       "type": "宏观",
+      "title": "香港金融管理局 - 香港的經濟及金融數據 - Hong Kong Monetary Authority",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTRPcVhkMWx3WDA5UmllckNvTGFBMElGVlFEQXBlTWtxTm4xSTVBQlZ0d2wtUkpqenRYZ3NDQUJnUnF1M3BpZHdTMjJjVVplSXdDa25IUmhmWk1yOWFvemtrZXp4ZFRYOXViaGhRckdSUWZFLVFuQkVfdGRHUUt1VUhGWkI4MHQ4d1BiellfU2wxSjd5VmtuYnJGQTBRM1pkbW9tNDhTcGZGWExKWU5wQllGNms1bVlN?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 08:00:00 GMT",
+      "description": "香港金融管理局 - 香港的經濟及金融數據 &nbsp;&nbsp; Hong Kong Monetary Authority",
+      "source": "Hong Kong Monetary Authority",
+      "sourceKey": "hkma",
+      "sourceMode": "official-domain-discovery",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 41,
+      "priority": "B",
+      "id": "d6e0bdc6918310c9",
+      "rankReason": "一级/官方信源"
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "宏观",
       "title": "香港金融管理局 - Associate, IT Security (IT Application Service and Security)（英文版本） - Hong Kong Monetary Authority",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeGRJQmZLclBQbFdPZVZ3UjZ5SjBxeE02YVpSWnFlaHRMTjdTUGNoM205b1NId0lsZ2l0bVN3V0xlN29ZcHJNMFJKTkdtN0MyOFJaYi1PazladXd2SGI0eGpSN013OUMza0kwcmc1S0FJeUhMbFpob0phbGduanRDVC1KSEI2UUNYN0E?oc=5",
       "pubDate": "Fri, 06 Nov 2026 10:19:32 GMT",
@@ -963,6 +1003,26 @@
     },
     {
       "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Elon Musk's bankruptcy warnings collide with JPMorgan's first Bitcoin forecast - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM3hpZHlRRDRRci0zVzViRHJqVjJjTm12TmVHM3lIOHgzM3l1emdjTHkwLTBMbXY3U0JWa2tFUS0xMVg0QW5RUlBuVmp2T09udUhLeTZFQXQwcTMtOHNmWjN4ZmtKM1dPTnZheU8zUWJBVVF6UWdHeGpLSFJPN1hQejNZNl9EY042WW10RmxmVmdwTE9zNklvMjF1Z1ZtVHp4UkNiWWwwZXlSRjhNOVE5aGZZcF9tUnFUTk5sNElGYklNakczMVNxenlVY3k5cG9hRXgydTRVVUNsUQ?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 12:37:53 GMT",
+      "description": "Elon Musk's bankruptcy warnings collide with JPMorgan's first Bitcoin forecast &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 36,
+      "priority": "B",
+      "id": "1876fdc3e5c6ca9a",
+      "rankReason": "关键人物"
+    },
+    {
+      "market": "全球",
       "signal": "热点",
       "type": "公司事件",
       "title": "SemiAnalysis〈走訪內蒙古的中國版Stargate〉 1、全園區規劃800MW，首期120MW已交付 1）遠景科技集團（Envision Group）的Galaxy園區位於內蒙古烏蘭察布，首期於2026年8月交付，整體預計2027年底完成。 2）SemiAnalysis稱，首期在一年內建成，建造成本約為 - X",
@@ -979,26 +1039,6 @@
       "score": 34,
       "priority": "B",
       "id": "f5ac730caf5aeac0",
-      "rankReason": "市场相关；社媒只做热点发现"
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "#是日要聞 1. 美股週四全面重挫：S&P 500 跌 4.36% 至 7,353.73，道瓊跌 1,833.06 點或 3.44% 至 51,523.06，Nasdaq Composite 跌 5.52% 至 24,315.00 進入修正，Nasdaq 100 跌 6.36%，費城半導體指數約跌 12%，全 11 大板塊下跌，創 2025 年 4 月關稅震盪以來 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3cHFqd21neGlIaWQwLXN6MkdyUmY5aUxaQVZ2NGs0X3l4WUZzVmU3Y05iSl9iR2lWYmFfSWhmbzRvMl9UNHRKazJRS1lEVjhXVEV4OHVoMGdYRy1U?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 13:46:34 GMT",
-      "description": "#是日要聞 1. 美股週四全面重挫：S&P 500 跌 4.36% 至 7,353.73，道瓊跌 1,833.06 點或 3.44% 至 51,523.06，Nasdaq Composite 跌 5.52% 至 24,315.00 進入修正，Nasdaq 100 跌 6.36%，費城半導體指數約跌 12%，全 11 大板塊下跌，創 2025 年 4 月關稅震盪以來 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 31,
-      "priority": "B",
-      "id": "5376d11c85d6dc25",
       "rankReason": "市场相关；社媒只做热点发现"
     },
     {
@@ -1102,5 +1142,5 @@
       "rankReason": "社媒只做热点发现"
     }
   ],
-  "rankedAt": "2026-11-08T16:41:12.551Z"
+  "rankedAt": "2026-11-08T21:07:38.637Z"
 }

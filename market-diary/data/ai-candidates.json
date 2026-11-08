@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T16:41:13.028Z",
+  "generatedAt": "2026-11-08T21:07:39.222Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -288,7 +288,7 @@
       "signal": "热点",
       "type": "公司事件",
       "title": "$NVDA Jensen Huang $NVDA 是 surprisingly uncompetitive $NVDA 的策略不是獨佔某一層，而是同時往上（提供高階能力）與往下（降低使用門檻）延伸，讓各種AI模型與應用都能在自己的平台上蓬勃發展。 大約一年半前，幾乎只有OpenAI的模型在 $NVDA 硬體上運 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fWGRQTzBaMFljcHpwbG5keERodjVSeVR5ZlRieXhHSXg0V3k5eFpfODAxRTVnVHBGRjk0NzVRQ1puSHFxLUpwSUtCc1VnT3lmcFhKWUlMZ05EYmhMTHVPeFNYNDZna3hIUy0xWUtqOGlQUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGa28wVV9EbFljTjJvUFFHUWswX2xycDYyVThzazJEVFZrNnRBTk5zYXdTTkRtWGpsZWlkaUd2Z0lDMXdobWtYczl6dXUySUtlYnRwQ2JQME1HMjFnaFhESnU1RF9sLThQaGxuOXB2RGQwV0NYVDgwVkdnMzM?oc=5",
       "pubDate": "Sun, 08 Nov 2026 00:07:51 GMT",
       "description": "$NVDA Jensen Huang $NVDA 是 surprisingly uncompetitive $NVDA 的策略不是獨佔某一層，而是同時往上（提供高階能力）與往下（降低使用門檻）延伸，讓各種AI模型與應用都能在自己的平台上蓬勃發展。 大約一年半前，幾乎只有OpenAI的模型在 $NVDA 硬體上運 &nbsp;&nbsp; X",
       "source": "X",
@@ -300,7 +300,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "ef163922fe20b596",
+      "id": "fba3b8db09a924eb",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -398,6 +398,37 @@
       "ai": {
         "priority": "B",
         "summary": "$TSLA Elon Musk 2018 年放空 $TSLA 並不瘋狂 Model 3量產極度困難，當時 $T…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Counterpoint Research在2026年11月5日發布的分析中，將800 V直流視為降低高電流配電負擔的發展方向，但不同業者未必會以相同方式完成轉換。 以1 MW - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54c292T3lXRTVOeUhxck1QS0Y2OGN4akY2eG9ESzJnbUVqTEppOW81R2VnUVRIUElxakwwVU1saUVPY0ZRN1pZWXhmRmNsblFMWU5CcG9hX09YbkhEekE?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:09:29 GMT",
+      "description": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Counterpoint Research在2026年11月5日發布的分析中，將800 V直流視為降低高電流配電負擔的發展方向，但不同業者未必會以相同方式完成轉換。 以1 MW &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "7af56b7ebd3a16be",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Cou…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "費半一天跌 12%，群組裡第一句都是：AI 需求死了，GPU 訂單要被砍了。 我翻了一遍收盤，故事不是這樣寫的…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Foxconn, the world’s biggest AI server and iPhone assembler, reported October sales rose 45.7% year-on-year to a fresh record high NT$1.31 trillion (US$39.6 billion), also 12.7% higher than September amid peak seasonality led by smart consumer (iPhones - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByS044U3BxWi1lb21UdFI1N3lrLVVzN3dKWnZxVjNodXNTNWgyamoxZHJzcDdBZjYtbVRWdzBibTRPcmJ2VkIxWU5tb0xTcUVNYzR3ZlI1ZVJkQlhpaFE?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 00:57:00 GMT",
-      "description": "Foxconn, the world’s biggest AI server and iPhone assembler, reported October sales rose 45.7% year-on-year to a fresh record high NT$1.31 trillion (US$39.6 billion), also 12.7% higher than September amid peak seasonality led by smart consumer (iPhones &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "3de9e02d056542a7",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
