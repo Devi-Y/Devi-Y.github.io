@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T07:55:58.792Z",
+  "generatedAt": "2026-11-09T18:44:52.445Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -98,6 +98,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "NVIDIA Board Probes Jensen Huang Over Foreign Intelligence Operation; Stock, Stake and Succession Risks in Focus - VOCO News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DMWVGRnlMOXRWTTltVXd5WDFBRGlqSGg0dVRENHhqMDlhdFFBUG95VGM3MUk2RVdGZzZHQ29BcFNGU1BzZ3FESkpLbFU1MER2VUk5VGloRjRPaVFiSGkzV2JGVVdPVW1DZjUxMU14NUVyLWFWcUhMMVlTRQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 00:58:10 GMT",
+      "description": "NVIDIA Board Probes Jensen Huang Over Foreign Intelligence Operation; Stock, Stake and Succession Risks in Focus &nbsp;&nbsp; VOCO News",
+      "source": "VOCO News",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 69,
+      "priority": "A",
+      "id": "1d7741c9fb186d78",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "VOCO News出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -123,68 +154,6 @@
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Sam Altman’s ChatGPT AI Predicts a Monster Chainlink Move - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVFEzSENYZUVzM2VMS1gxc2tSakZ4VTRBdU9tc0M3dGtYOXdPZnE5bHdZNHAxTVQtUk9jeEJ1eDdZZHFqSjRGOHNHTmdTWlJuaHpGZTl3X2VfeW1WMDRoSVRMbGY4c1pYcXlIekZxQktuemx3NUk4LVpwSVJpWGJoVWJOZkpOUi0tUG9WOEFIZFdVMUYtRjlTcVdFV29HZThTUE5Za1d0SUFjN0JVLUszZ1p1cVZibUFr?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 10:32:13 GMT",
-      "description": "Sam Altman’s ChatGPT AI Predicts a Monster Chainlink Move &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "9390ab9ced9a897a",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "宏观",
-      "title": "香港金融管理局 - Manager (Banking Supervision) (Supervisory Technology) （英文版本） - Hong Kong Monetary Authority",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTUVRNnl1aS13Q0lfYmdVS0tzQUJFNmo0ZFVaV2FlN2V0eTNqb1JoWERxU3gwNHJkZGU3NG9ZUmJLR0Nvb3EtSWJFWDR5bWxFTl9TUEt4dXFqc1Iwd0hndkFhSFdNN2Rkb0RzOHZNTkpxMWhZeTdrOF9Fb2ZuX3VMSTkxNnRwWUJrU2c?oc=5",
-      "pubDate": "Fri, 06 Nov 2026 10:19:31 GMT",
-      "description": "香港金融管理局 - Manager (Banking Supervision) (Supervisory Technology) （英文版本） &nbsp;&nbsp; Hong Kong Monetary Authority",
-      "source": "Hong Kong Monetary Authority",
-      "sourceKey": "hkma",
-      "sourceMode": "official-domain-discovery",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 55,
-      "priority": "B",
-      "id": "02590446fce9bdb4",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "香港金融管理局 - Manager (Banking Supervision) (Supervisory Te…",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -224,6 +193,37 @@
     {
       "market": "港股",
       "signal": "事实",
+      "type": "宏观",
+      "title": "香港金融管理局 - Manager (Banking Supervision) (Supervisory Technology) （英文版本） - Hong Kong Monetary Authority",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTUVRNnl1aS13Q0lfYmdVS0tzQUJFNmo0ZFVaV2FlN2V0eTNqb1JoWERxU3gwNHJkZGU3NG9ZUmJLR0Nvb3EtSWJFWDR5bWxFTl9TUEt4dXFqc1Iwd0hndkFhSFdNN2Rkb0RzOHZNTkpxMWhZeTdrOF9Fb2ZuX3VMSTkxNnRwWUJrU2c?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 10:19:31 GMT",
+      "description": "香港金融管理局 - Manager (Banking Supervision) (Supervisory Technology) （英文版本） &nbsp;&nbsp; Hong Kong Monetary Authority",
+      "source": "Hong Kong Monetary Authority",
+      "sourceKey": "hkma",
+      "sourceMode": "official-domain-discovery",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 52,
+      "priority": "B",
+      "id": "02590446fce9bdb4",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "香港金融管理局 - Manager (Banking Supervision) (Supervisory Te…",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
       "type": "公司事件",
       "title": "HKEX to Introduce 12 Stock Futures Contracts",
       "link": "https://www.hkex.com.hk/News/News-Release/2026/261103news?sc_lang=en",
@@ -253,44 +253,13 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX’s Listed Derivatives Clearing Houses Begin Accepting China Government Bonds, Policy Bank Bonds and MOF Bonds as Collateral",
-      "link": "https://www.hkex.com.hk/News/Market-Communications/2026/2611022news?sc_lang=en",
-      "pubDate": "Mon, 02 Nov 2026 17:17:00 +0800",
-      "description": "HKEX’s Listed Derivatives Clearing Houses Begin Accepting China Government Bonds, Policy Bank Bonds and MOF Bonds as Collateral",
-      "source": "HKEX · Market Communications",
-      "sourceKey": "hkex-market",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 52,
-      "priority": "B",
-      "id": "575daaf7f85b2815",
-      "rankReason": "一级/官方信源；市场相关",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "BREAKING: 🇺🇸 NVIDIA ($NVDA) CEO Jensen Huang admits to cheating on his wife as the company investigates a possible Chinese spying operation. In an email to employees, Jensen apologized and said he'll fully cooperate with the investigation. NVIDIA's - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53WnZtTVhOMnZ6YmF2ZFhiWlNYVjdSQ09HblczSnVic0ZsWjIxZ3pRVFF4YWM3TTBDSnpZNVZlQnBhYmY0S2lkT2ZLR1hGVWE2Z3JKZkl0QjFlalN1dkJsam5TWDRaUQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 22:09:00 GMT",
-      "description": "BREAKING: 🇺🇸 NVIDIA ($NVDA) CEO Jensen Huang admits to cheating on his wife as the company investigates a possible Chinese spying operation. In an email to employees, Jensen apologized and said he'll fully cooperate with the investigation. NVIDIA's &nbsp;&nbsp; X",
+      "type": "公司事件",
+      "title": "Vicor授權進度整理 1、列出的四項已簽授權 1）Vicor（ $VICR）已簽下四項關鍵授權，對象包括三家OEM與一家大型雲端業者。 2）列出的OEM對象及時間為：戴爾科技（Dell Technologies, $DELL）於2023年、超微（AMD, $AMD）於5月26日，以及NVIDIA（ $NVDA）於9月1 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBncVp2cC1wNFU1am9BdEp0TW1ESlBJYnh5NDN2YlhUQi1GZk5JbHp3VC1KclJBeS1DNnFYZjhYc2JzZmRkaG1ZanVEMTRFOWU1NjVoWC1pX2h3RTJmeUE?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 07:53:00 GMT",
+      "description": "Vicor授權進度整理 1、列出的四項已簽授權 1）Vicor（ $VICR）已簽下四項關鍵授權，對象包括三家OEM與一家大型雲端業者。 2）列出的OEM對象及時間為：戴爾科技（Dell Technologies, $DELL）於2023年、超微（AMD, $AMD）於5月26日，以及NVIDIA（ $NVDA）於9月1 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -300,15 +269,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "32858887871efb91",
+      "id": "103e1399ee316510",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "X出现新的宏观政策或数据更新",
+        "summary": "Vicor授權進度整理 1、列出的四項已簽授權 1）Vicor（ $VICR）已簽下四項關鍵授權，對象包括三家…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "宏观解读"
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -336,6 +305,37 @@
       "ai": {
         "priority": "B",
         "summary": "〈致公司全體同仁的一則訊息〉 黃仁勳（Jensen Huang）｜NVIDIA（ $NVDA） 我欠我的家人，…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "美股期貨急跌後翻紅，七分鐘走出V形反轉 在涉及NVIDIA（ $NVDA）執行長黃仁勳的私人關係與間諜指控消息傳出後，美股期貨於台北時間11月9日上午7時重新開盤，隨即出現急跌與反彈。 上午7時01分，標普500期貨跌勢對應的隱含市值減少約3,000億美元； 到了7時 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tU25ZbG5qd2NmZkJaS1RadGFHUzVvaFdkVGdkNDVRTnN2UkZnTWwwSWwxYzhsUjFYVmhTbkpXU1lhTlNqYU9JMWhYblUxSkJJLW44b3ZLMWNuTUYwYkE?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 23:57:58 GMT",
+      "description": "美股期貨急跌後翻紅，七分鐘走出V形反轉 在涉及NVIDIA（ $NVDA）執行長黃仁勳的私人關係與間諜指控消息傳出後，美股期貨於台北時間11月9日上午7時重新開盤，隨即出現急跌與反彈。 上午7時01分，標普500期貨跌勢對應的隱含市值減少約3,000億美元； 到了7時 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "ea9872447fff2fa9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "美股期貨急跌後翻紅，七分鐘走出V形反轉 在涉及NVIDIA（ $NVDA）執行長黃仁勳的私人關係與間諜指控消息…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -380,10 +380,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "*US BELIEVES NVIDIA’S HUANG HAD ROMANTIC RELATIONSHIP WITH ALLEGED CHINESE SPY - FT $NVDA - X",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zejVzUUN2S0k5clJGek9yVnJ2VWVzTXZJT0NISGtuUnlialVDZi1GSXBBSExSNXpSa3pKNEFLWnRlcm5ycHFqXzZlN25BSHpZa0J3S0ZWeUVSZk9PR1FYVGVrbw?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:53:02 GMT",
-      "description": "*US BELIEVES NVIDIA’S HUANG HAD ROMANTIC RELATIONSHIP WITH ALLEGED CHINESE SPY - FT $NVDA &nbsp;&nbsp; X",
+      "title": "📰 NVDA 整週都是新聞焦點。明天的頭條，就由你來寫！ 如果你是編輯，明天你會為 NVDA 下什麼標題？ 前往 NVDA 頁面，在 Bullet Comment 留下一句新聞標題並加上 #LBankBulletComment，接著分享到 X 並標記 2 位好友 👉 https://t.co/1HVV21fWvW 💰 200 USD - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82VkZrRHpIeUFzR2lzMEZsNUYxQUdDUFZTR0tmZTlibWNobm5iOEJMcnU4eENHV19ZaF9FRjZwYnhkS2dHQzNxZ2ZnUDB6MVRYOWVhQ3lOTmUxOVI1ZGJUS0czYw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:07:21 GMT",
+      "description": "📰 NVDA 整週都是新聞焦點。明天的頭條，就由你來寫！ 如果你是編輯，明天你會為 NVDA 下什麼標題？ 前往 NVDA 頁面，在 Bullet Comment 留下一句新聞標題並加上 #LBankBulletComment，接著分享到 X 並標記 2 位好友 👉 https://t.co/1HVV21fWvW 💰 200 USD &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -393,11 +393,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "8759007c7ffac76c",
+      "id": "41710edcf517bd3e",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
+        "summary": "📰 NVDA 整週都是新聞焦點。明天的頭條，就由你來寫！ 如果你是編輯，明天你會為 NVDA 下什麼標題？ …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -429,6 +429,37 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA 執行長黃仁勳致員工的備忘錄草稿，由 Axios 取得。 「我欠我的家人以及在座的各位一個道歉。」 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "AI需求沒見頂，拆解2027年的恐慌與定價 選後第一個交易日，NVDA 跌了 9.3%，MU 跌了 17.5%。市 場在問 AI 需求是不是到頂了，但財報給的答案很一致：營收、訂單、現金流都還在成長。 被重新定價的，是 2028 年以後的終值。 這篇文章要回答的不是「AI 還行不行」， - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGbDdEdDNxSkpjNTVLN3I5YVZNRGZ3NVZQc1MxNjdhTDFwcTRTaEFZRmExODQ0bV8xNVZHRlNhd3poVnRBZEFJQ0pzS0VXMjgwbmVrcm9DNzl5QVJBaTRvLXRDX1F0T3c?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 09:15:57 GMT",
+      "description": "AI需求沒見頂，拆解2027年的恐慌與定價 選後第一個交易日，NVDA 跌了 9.3%，MU 跌了 17.5%。市 場在問 AI 需求是不是到頂了，但財報給的答案很一致：營收、訂單、現金流都還在成長。 被重新定價的，是 2028 年以後的終值。 這篇文章要回答的不是「AI 還行不行」， &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "7a710652f51ec311",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "AI需求沒見頂，拆解2027年的恐慌與定價 選後第一個交易日，NVDA 跌了 9.3%，MU 跌了 17.5%…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -566,10 +597,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Counterpoint Research在2026年11月5日發布的分析中，將800 V直流視為降低高電流配電負擔的發展方向，但不同業者未必會以相同方式完成轉換。 以1 MW - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54c292T3lXRTVOeUhxck1QS0Y2OGN4akY2eG9ESzJnbUVqTEppOW81R2VnUVRIUElxakwwVU1saUVPY0ZRN1pZWXhmRmNsblFMWU5CcG9hX09YbkhEekE?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 17:09:29 GMT",
-      "description": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Counterpoint Research在2026年11月5日發布的分析中，將800 V直流視為降低高電流配電負擔的發展方向，但不同業者未必會以相同方式完成轉換。 以1 MW &nbsp;&nbsp; X",
+      "title": "Astera/ALAB Credo/CRDO Marvell/MRVL KLA/KLAC 科林研發/LRCX 安森美/ON 美光/MU 博通/AVGO AMD/AMD 輝達/NVDA ADI/ADI 德儀/TXN 而空頭情境（低迷延續到2027年中）首選是Cadence/CDNS、Synopsys/SNPS、德儀、ADI、恩智浦/NXPI。 多頭情境AI投 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OM1hLMlVwczlhU25NLVRNQzlTaFJKZ2F0UEZiRGZRRjBxdFo1MXhxQU1sTF9ta19wMVo2OEtPNDRwX2tkSlFGcV9UTVAyaTlQYjJkbGF3cGxDakpadGU4M3g0X0Q?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:42:02 GMT",
+      "description": "Astera/ALAB Credo/CRDO Marvell/MRVL KLA/KLAC 科林研發/LRCX 安森美/ON 美光/MU 博通/AVGO AMD/AMD 輝達/NVDA ADI/ADI 德儀/TXN 而空頭情境（低迷延續到2027年中）首選是Cadence/CDNS、Synopsys/SNPS、德儀、ADI、恩智浦/NXPI。 多頭情境AI投 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -579,11 +610,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "7af56b7ebd3a16be",
+      "id": "a28cf90392446c03",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "800 V直流配電的競爭，正從架構選擇走向設備互通 AI機櫃功率增加，讓供電成為資料中心設計的重要限制。Cou…",
+        "summary": "Astera/ALAB Credo/CRDO Marvell/MRVL KLA/KLAC 科林研發/LRCX …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -597,10 +628,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "黃董不會離開輝達，劈腿不道德但對事業影響有限，貝索斯的亞馬遜、蓋茲的微軟劈腿後也都照漲。 真正麻煩的是小三原來是間諜，黃董恐怕得花大量時間接受國會調查。偏偏現在正值 AI 資料中心面臨民主黨監管壓力的敏感時刻。 當年貝索斯劈腿分身家，前妻就成為左 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56eFlPcmU1Y0dpZS00OFZ6Sm91c01kY0c4QTQ1cGhmdks2OGJvckY2NDgtR2hjTmZ1V09jc2xPX1dBaGpoUlVjbHNFeklUS182ZkpYczVUM1FteWRHRUhpU0NOUjc?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 02:54:05 GMT",
-      "description": "黃董不會離開輝達，劈腿不道德但對事業影響有限，貝索斯的亞馬遜、蓋茲的微軟劈腿後也都照漲。 真正麻煩的是小三原來是間諜，黃董恐怕得花大量時間接受國會調查。偏偏現在正值 AI 資料中心面臨民主黨監管壓力的敏感時刻。 當年貝索斯劈腿分身家，前妻就成為左 &nbsp;&nbsp; X",
+      "title": "CEO出軌，但英偉達 $NVDA 的價格並未脫軌 營收與利潤仍在增長，股價卻明顯回撤。 市場開始追問：AI 的高速增長，還能持續多久？ 接下來看四件事：客戶資金能否跟上採購、Vera Rubin 能否如期交付、成本上升會壓縮多少毛利，以及管理層是否穩定。 影響也可能傳 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tSjFJQS1KTUhFVGJ1QThMMlhPSDc3dVBkQzZGN280MnJ0eU1vTzcwcklmSnRWSkkxYTB2UFEybHl5S1Yxb3pKblJRV2FNM3BhQzlCOU5lOFg5LU9ZX2p0ZFB4aXM?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 10:48:30 GMT",
+      "description": "CEO出軌，但英偉達 $NVDA 的價格並未脫軌 營收與利潤仍在增長，股價卻明顯回撤。 市場開始追問：AI 的高速增長，還能持續多久？ 接下來看四件事：客戶資金能否跟上採購、Vera Rubin 能否如期交付、成本上升會壓縮多少毛利，以及管理層是否穩定。 影響也可能傳 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -610,48 +641,17 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "2f488869d88bcdf3",
+      "id": "665ca2a1441b706f",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "黃董不會離開輝達，劈腿不道德但對事業影響有限，貝索斯的亞馬遜、蓋茲的微軟劈腿後也都照漲。 真正麻煩的是小三原來…",
+        "summary": "CEO出軌，但英偉達 $NVDA 的價格並未脫軌 營收與利潤仍在增長，股價卻明顯回撤。 市場開始追問：AI 的…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
           "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "财报",
-      "title": "Poll Results of the General Meeting",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/2611062news?sc_lang=en",
-      "pubDate": "Fri, 06 Nov 2026 18:26:00 +0800",
-      "description": "Poll Results of the General Meeting",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 47,
-      "priority": "B",
-      "id": "2161cec7d89504b4",
-      "rankReason": "一级/官方信源；高转化内容类型",
-      "ai": {
-        "priority": "B",
-        "summary": "港交所出现新的财报或业绩信息",
-        "whyImportant": "财报会直接改变公司增长、盈利和估值预期，适合做关键数字快讯和财报解读；关键数字需要回到公司公告核验。",
-        "contentDirection": [
-          "快讯",
-          "财报解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
       }
     },
@@ -721,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA Jensen Huang $NVDA 投資這些公司，是因為它們是 good investment，這與單純「背書／支持」不同。 這些公司有充足的客戶，而且算力基本上已經 sold out 它們真正缺的是 working capital，用來購買土地、電力、建築物與晶片，以便履行已簽下的合約。 這些公 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VcGQ3VWpHb2ZkbGVLQ2pTd2l4Umd4QVpoMVNnMlhQSEpIcmR5cG5GUWhZeFNfOWM3QUhwZHJZd2V5SGxIMkJuWlZTNC03cUtWc0lZaUN3ZWszczVfSDdjZ1dpSS1iLUIzb3lhZlZVN29odw?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 03:03:16 GMT",
-      "description": "$NVDA Jensen Huang $NVDA 投資這些公司，是因為它們是 good investment，這與單純「背書／支持」不同。 這些公司有充足的客戶，而且算力基本上已經 sold out 它們真正缺的是 working capital，用來購買土地、電力、建築物與晶片，以便履行已簽下的合約。 這些公 &nbsp;&nbsp; X",
+      "title": "*US BELIEVES NVIDIA’S HUANG HAD ROMANTIC RELATIONSHIP WITH ALLEGED CHINESE SPY - FT $NVDA - X",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zejVzUUN2S0k5clJGek9yVnJ2VWVzTXZJT0NISGtuUnlialVDZi1GSXBBSExSNXpSa3pKNEFLWnRlcm5ycHFqXzZlN25BSHpZa0J3S0ZWeUVSZk9PR1FYVGVrbw?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:53:02 GMT",
+      "description": "*US BELIEVES NVIDIA’S HUANG HAD ROMANTIC RELATIONSHIP WITH ALLEGED CHINESE SPY - FT $NVDA &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -734,11 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "26407d5005f4b1a6",
+      "id": "8759007c7ffac76c",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA Jensen Huang $NVDA 投資這些公司，是因為它們是 good investment，…",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
