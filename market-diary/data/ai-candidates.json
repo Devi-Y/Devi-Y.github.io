@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:40:44.642Z",
+  "generatedAt": "2026-11-12T01:31:16.320Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -36,37 +36,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "宏观",
-      "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
-      "pubDate": "Tue, 10 Nov 2026 20:30:00 GMT",
-      "description": "Speech At the C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C.",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 79,
-      "priority": "A",
-      "id": "4d4ada987bf16d27",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "持仓",
@@ -92,6 +61,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "宏观",
+      "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+      "pubDate": "Tue, 10 Nov 2026 20:30:00 GMT",
+      "description": "Speech At the C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C.",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 76,
+      "priority": "A",
+      "id": "4d4ada987bf16d27",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -318,6 +318,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。要抄底的話，得等這個區間出現底部構造和低級別多頭排列再進場。如果這裡止不住跌，就代表它被市場拋棄，不要再留戀。這篇有大約 13 萬次曝光、474 個讚、158 個收藏，我抓到 4 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zQkZiSUdZb3FMdUdnZnBpTGVFWnNZblFVNUtJb2ZfeXVhZ2ZtY0t4Z1JUTlEwN2JWVTMyNWJqZTRIbVNBZ1hnLWtMc2IzbkdNaFN6eGFFOGwyci1RSHV2QmNiMWM?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:11:28 GMT",
+      "description": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。要抄底的話，得等這個區間出現底部構造和低級別多頭排列再進場。如果這裡止不住跌，就代表它被市場拋棄，不要再留戀。這篇有大約 13 萬次曝光、474 個讚、158 個收藏，我抓到 4 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "cc4101b8b3f4bf80",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "NVIDIA（ $NVDA）Rubin 高速基板分配的產業現況檢視 外界傳出樹脂配方微調和配方修正的傳言，但這些說法忽略了硬體的大方向： 1、台光電（Elite Material, https://t.co/BbvqWDNZFH）擴大市占已是必然： 台光電每批產品之間的一致性更好，產線良率也穩定，這在業 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLdFV3VlFUQVNSRmVmUWltRmdPWFZDQTUyNXZaclVONDBMMWUxQkVvczkxRFlPOWN5LVNDMjk2XzdEMHhLb0JGaDR6Z0VZbWRTWjFVYm0wV0RGNktQVVE?oc=5",
       "pubDate": "Wed, 11 Nov 2026 06:47:18 GMT",
@@ -411,99 +442,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "昨天 $NVDA ，主力控盤減倉，今天才正式跌 一邊發文，出軌不影響股票上漲，喊話買入，一邊自己賣出 完成籌碼交換，撤掉了托盤 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zcnRlRU56aFg4eTV4ckRxVGswd0ZsbGhibkVEUmZ1ZEh6endNQncwSXN6YW54VVo3NGR3N1Eya1VEdmRQczRXXzlHS1JSWnFEcFYwY3JZcXdMVUVZZi1neg?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:19:05 GMT",
-      "description": "昨天 $NVDA ，主力控盤減倉，今天才正式跌 一邊發文，出軌不影響股票上漲，喊話買入，一邊自己賣出 完成籌碼交換，撤掉了托盤 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "52eff141376f6034",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "昨天 $NVDA ，主力控盤減倉，今天才正式跌 一邊發文，出軌不影響股票上漲，喊話買入，一邊自己賣出 完成籌碼…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。要抄底的話，得等這個區間出現底部構造和低級別多頭排列再進場。如果這裡止不住跌，就代表它被市場拋棄，不要再留戀。這篇有大約 13 萬次曝光、474 個讚、158 個收藏，我抓到 4 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zQkZiSUdZb3FMdUdnZnBpTGVFWnNZblFVNUtJb2ZfeXVhZ2ZtY0t4Z1JUTlEwN2JWVTMyNWJqZTRIbVNBZ1hnLWtMc2IzbkdNaFN6eGFFOGwyci1RSHV2QmNiMWM?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:11:28 GMT",
-      "description": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。要抄底的話，得等這個區間出現底部構造和低級別多頭排列再進場。如果這裡止不住跌，就代表它被市場拋棄，不要再留戀。這篇有大約 13 萬次曝光、474 個讚、158 個收藏，我抓到 4 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "cc4101b8b3f4bf80",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "#NVDA 輝達跌下神壇？黃仁勳風暴後，$NVDA 是機會還是危機？ 輝達從高點跌了三成，約三分之二的跌幅發生在他承認出軌之前。 對大叔而且，人的問題是折價，公司的問題是重估，需求的問題才是危機。 所以我們現在走到哪一層？ 大叔的新文章：我把估值、分批、 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DbUZkekl1WE9jaGpZcHRxSHg3SFVMS1FfTEluZ044WXl2YzdMU2NHYVUyTmhodmdzazl1R0s4VUtGV1l1TkRPQXlRbWxZaFhCM3AyVHVQbWc4WkxKRFdydEtuWE1qSjNEbWRyWlpwWnhyUQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 05:34:55 GMT",
-      "description": "#NVDA 輝達跌下神壇？黃仁勳風暴後，$NVDA 是機會還是危機？ 輝達從高點跌了三成，約三分之二的跌幅發生在他承認出軌之前。 對大叔而且，人的問題是折價，公司的問題是重估，需求的問題才是危機。 所以我們現在走到哪一層？ 大叔的新文章：我把估值、分批、 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "fdbf2b43aa41ec64",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "#NVDA 輝達跌下神壇？黃仁勳風暴後，$NVDA 是機會還是危機？ 輝達從高點跌了三成，約三分之二的跌幅發生…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "📊 $NVDA 2026 Q3 財報重點數據 • 總營收：36.6 億美元 較去年同期大幅成長 168% • 淨虧損：7.09 億美元 • 調整後營業利益：季增 2.51 億美元 💡 最新公布的財報表現優於市場預期，但因 AI 算力需求強勁，公司因積極擴張資料中心，面臨沉重的債務困境。本季利息費用 - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SWE1qeGFlMDNYZUFjeGpYSzMxWjZISVUyQ3dEZjhDa0xUcU5QcXNyYlc5amJXcm44b3c2Q3VqQkFsNkE1dzFHd2pib2FxU3MxYnc3WlZMNElRWXMxcTNxQWxNZGJYQVE?oc=5",
       "pubDate": "Wed, 11 Nov 2026 11:58:03 GMT",
@@ -535,10 +473,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "$NVDA 老黃把趨勢線也破了 - X",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHazU3X0t0WmFFRkVkTEh6b3J5VUdfU04xSEVHODVkYkxubmpEd1dlbWQwaDlnUmNLT01KcFJ3MVFCTW56TTBhQTFtbE1QVGhFRXA5eHdZWUt1dF82NXJubWxYaWJLRU5oaW00?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:38:08 GMT",
-      "description": "$NVDA 老黃把趨勢線也破了 &nbsp;&nbsp; X",
+      "title": "#NVDA 輝達跌下神壇？黃仁勳風暴後，$NVDA 是機會還是危機？ 輝達從高點跌了三成，約三分之二的跌幅發生在他承認出軌之前。 對大叔而且，人的問題是折價，公司的問題是重估，需求的問題才是危機。 所以我們現在走到哪一層？ 大叔的新文章：我把估值、分批、 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DbUZkekl1WE9jaGpZcHRxSHg3SFVMS1FfTEluZ044WXl2YzdMU2NHYVUyTmhodmdzazl1R0s4VUtGV1l1TkRPQXlRbWxZaFhCM3AyVHVQbWc4WkxKRFdydEtuWE1qSjNEbWRyWlpwWnhyUQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:34:55 GMT",
+      "description": "#NVDA 輝達跌下神壇？黃仁勳風暴後，$NVDA 是機會還是危機？ 輝達從高點跌了三成，約三分之二的跌幅發生在他承認出軌之前。 對大叔而且，人的問題是折價，公司的問題是重估，需求的問題才是危機。 所以我們現在走到哪一層？ 大叔的新文章：我把估值、分批、 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -548,11 +486,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "fa0550393ac0be8e",
+      "id": "fdbf2b43aa41ec64",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "$NVDA 老黃把趨勢線也破了 - X",
+        "summary": "#NVDA 輝達跌下神壇？黃仁勳風暴後，$NVDA 是機會還是危機？ 輝達從高點跌了三成，約三分之二的跌幅發生…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -615,37 +553,6 @@
       "ai": {
         "priority": "B",
         "summary": "〈AMD Zen 6 Architecture Brings A Phenomenal 27% IPC Inc…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "CoreWeave 這季營收超過指引，不少標題寫成 AI 需求又噴了一輪。我比較在意的是電。 新聞稿：Q3 營收 36.6 億美元，上季給的指引是 34.5 到 36 億，全年營收指引也上修到 130 到 133 億。這季新接上 200MW 以上的電，運轉中的電力超過 1.7GW；簽下來的電力多了 - X",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KU0dzbFdqNEM2ajF3MTVJb2d1bXpwcDE5dE1YZzNPSmk1QkRodl9FeEZvRFpuX1lMdGRGd01SNVFiM3BPc2YxSWlqM1JubmEtSy1wQk1hbHM0R01kWURj?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:00:02 GMT",
-      "description": "CoreWeave 這季營收超過指引，不少標題寫成 AI 需求又噴了一輪。我比較在意的是電。 新聞稿：Q3 營收 36.6 億美元，上季給的指引是 34.5 到 36 億，全年營收指引也上修到 130 到 133 億。這季新接上 200MW 以上的電，運轉中的電力超過 1.7GW；簽下來的電力多了 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "0c141755e2747926",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "CoreWeave 這季營收超過指引，不少標題寫成 AI 需求又噴了一輪。我比較在意的是電。 新聞稿：Q3 營…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -739,6 +646,99 @@
       "ai": {
         "priority": "B",
         "summary": "📰 NVDA 整週都是新聞焦點。明天的頭條，就由你來寫！ 如果你是編輯，明天你會為 NVDA 下什麼標題？ …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "⚡ NVDA 合約交易狂歡：最高解鎖 8,000 USDT 全球晶片巨頭迎來高波動行情，掌握市場交易時機，解鎖三重好禮： 🎁 首單禮： 合約新手首筆 NVDA 交易即可獲得 3 USDT 🏆 衝榜禮： 參與交易量排行，單人最高贏得 8,000 USDT 👑 VIP 禮： VIP 5 及以上用戶專屬加碼，最 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSRU1HNE9vOXVXVzZkR0hlY2JrWU5nYVZCSGRXbXJ6QktCdDN1di1BOWxCQjZmQXA1UVRVcFpKcGVXdXQxcWI4eER0RUVjVDZ3MU9wSUtNRW5xX2V4RS1nSVk2SmdBcW8?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 08:23:00 GMT",
+      "description": "⚡ NVDA 合約交易狂歡：最高解鎖 8,000 USDT 全球晶片巨頭迎來高波動行情，掌握市場交易時機，解鎖三重好禮： 🎁 首單禮： 合約新手首筆 NVDA 交易即可獲得 3 USDT 🏆 衝榜禮： 參與交易量排行，單人最高贏得 8,000 USDT 👑 VIP 禮： VIP 5 及以上用戶專屬加碼，最 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "66bb155624d7f3a3",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "⚡ NVDA 合約交易狂歡：最高解鎖 8,000 USDT 全球晶片巨頭迎來高波動行情，掌握市場交易時機，解鎖…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "🌏 Gate 全球首發股票事件合約，獨家上新 10 個熱門股票標的！一鍵捕捉科技巨頭的超短線波動 新增股票漲跌事件標的：NVDA（英偉達）、AAPL（蘋果）、GOOGL（Alphabet）、MSFT（微軟）、AMZN（亞馬遜）、TSM（台積電）、SPCX（SpaceX）、META（Meta）、AVGO（博通） - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nSWtNWU02dGFha21NT3ZNRm9FeTVlVkcxeUFyanNZYXJlS3VBMUtSMDFWLWZySzQ4UHhROGdxbEh3UjdkZE5KXzZZajdWeEZsaGRiNnVSZnJzb1Q3?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:20:00 GMT",
+      "description": "🌏 Gate 全球首發股票事件合約，獨家上新 10 個熱門股票標的！一鍵捕捉科技巨頭的超短線波動 新增股票漲跌事件標的：NVDA（英偉達）、AAPL（蘋果）、GOOGL（Alphabet）、MSFT（微軟）、AMZN（亞馬遜）、TSM（台積電）、SPCX（SpaceX）、META（Meta）、AVGO（博通） &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "3b2cc0e3822aa84e",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "🌏 Gate 全球首發股票事件合約，獨家上新 10 個熱門股票標的！一鍵捕捉科技巨頭的超短線波動 新增股票漲…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "費半 11/9 一天反彈快 7%，很多人看了鬆一口氣：半導體回來了，$NVDA 應該也沒事。 同一天，$NVDA 跌了 4.3%。 算一下：費半收 10,034 點，漲 6.9%；$QQQ 漲 3.5%；$NVDA 收 178.67 美元，跌 4.3%。龍頭跟自己的類股指數，一天差了 11 個百分點。 這一天的跌幅 - X",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Rc1JPMjk0WGJKcGZ1X0xtOGpEOUI5M1dwTFBoZ3lmUmF4N2dnOXhlMURSZGh0djNibm9JdGxxS0ZNQldxUmw4MnVYZW5hQUdoNW8zcHFUYzUxUjJPN1BZb0FMdjUtMDJFNEE?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 03:00:05 GMT",
+      "description": "費半 11/9 一天反彈快 7%，很多人看了鬆一口氣：半導體回來了，$NVDA 應該也沒事。 同一天，$NVDA 跌了 4.3%。 算一下：費半收 10,034 點，漲 6.9%；$QQQ 漲 3.5%；$NVDA 收 178.67 美元，跌 4.3%。龍頭跟自己的類股指數，一天差了 11 個百分點。 這一天的跌幅 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "fe17ba4a6bd60f06",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "費半 11/9 一天反彈快 7%，很多人看了鬆一口氣：半導體回來了，$NVDA 應該也沒事。 同一天，$NVD…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
