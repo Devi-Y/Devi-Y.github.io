@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T18:16:23.557Z",
+  "generatedAt": "2026-11-12T23:40:27.884Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -92,37 +92,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "持仓",
-      "title": "Jensen Huang 辭職拖累 Nvidia 並動搖 AI 多頭信心 股市下跌 - Business Insider Taiwan",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CZk1DRVFnZDZ5QkM2UlNYOVdzUmFYYlVGdHVfZ3YwN0RuNjlDNXpQMEROd1NQUkR1VXNXM2RxT1lqdVNsVGVIUTFxdnlZSk9tUnlwQlZR?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:23:00 GMT",
-      "description": "Jensen Huang 辭職拖累 Nvidia 並動搖 AI 多頭信心 股市下跌 &nbsp;&nbsp; Business Insider Taiwan",
-      "source": "Business Insider Taiwan",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 77,
-      "priority": "A",
-      "id": "4fd02b518b43abba",
-      "rankReason": "高影响事件词；关键人物；公开资金信号",
-      "ai": {
-        "priority": "A",
-        "summary": "Jensen Huang 辭職拖累 Nvidia 並動搖 AI 多頭信心 股市下跌 - Business In…",
-        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -274,37 +243,6 @@
       "ai": {
         "priority": "A",
         "summary": "Mashdigi出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "AI 晶片王者動搖？Jensen Huang 陷「間諜與婚外情」風暴，Nvidia 前景遭市場重新定價 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT2JjRGRSSGxYeGo0Njl5d09aeTdwSEdXclRRUmp5UHBpNGdJVlVSR3dkQ21YdjJaTmw2WHpGYkRLVkxpTGMtRFREdWl5VnZfeTNZT3hjOTgybUZ5ZEJQWkZqc1pvdGRVcDAxT1VqMlVrX1hnOUpOekItYW83Y1M0cUV2c05TNVJTdWs1VS1R?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 06:00:32 GMT",
-      "description": "AI 晶片王者動搖？Jensen Huang 陷「間諜與婚外情」風暴，Nvidia 前景遭市場重新定價 &nbsp;&nbsp; CMoney投資網誌",
-      "source": "CMoney投資網誌",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "698c95dbf905e456",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "AI 晶片王者動搖？Jensen Huang 陷「間諜與婚外情」風暴，Nvidia 前景遭市場重新定價 - C…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -473,6 +411,68 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "Okay, let’s gauge individual investor and public sentiment independently. Should Jensen Huang remain CEO of $NVDA? - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GUWVta2ZtYnlmUzZmVjZ4bk1ZdGtzWk5GWkZONTRweVpodEFhWElFZnNuS0t5OWluVDlCZzgzanI3UzRsVVNsSmFDTno3NmlhVU9CM2x6d296Y0VyZzg5Vkg4T1NDQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 10:14:58 GMT",
+      "description": "Okay, let’s gauge individual investor and public sentiment independently. Should Jensen Huang remain CEO of $NVDA? &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "8d75cb8aa314b4c9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "我覺得就算 Jensen 被開除，他也不會想要去 Elon 公司上班。自己融資開幹，應該可以把很多 NVDA 的骨幹給挖過來，到時候 NVDA 可能更慘 🌝 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnSU8ycXNaRUZYbENEQkU5Z0ZKc3FsM1RNbXNGam5yOWpjY1cwNHJrVE8tejZINzVwOXl1V3dVSHRPaGE0UFdHc0pWYnM4V1FndVJmekRpMHFtTWFKOGNYX1lZb08?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:35:42 GMT",
+      "description": "我覺得就算 Jensen 被開除，他也不會想要去 Elon 公司上班。自己融資開幹，應該可以把很多 NVDA 的骨幹給挖過來，到時候 NVDA 可能更慘 🌝 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "df5c4bcbdee57c5a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "我覺得就算 Jensen 被開除，他也不會想要去 Elon 公司上班。自己融資開幹，應該可以把很多 NVDA …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "摩根士丹利（Morgan Stanley）〈2027年全球 HBM 需求展望〉 1、2027年 HBM 需求份額 1）Google（Alphabet, $GOOGL）TPU 預計占全球 HBM 需求35%，略低於 NVIDIA（ $NVDA）的36%，兩家合計達71% 2）AMD（ $AMD）預計占16%，Amazon（ $AMZN）AWS 占5% - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MeEtPNnNvQ1VrWWpJUmxHRjJYdmVJWU5ZQl95Yy1mdFZGY29nNTFWeEw5R0xESDB6MzFOcGpPdHVpYUFDd0E4dW9KaXVyb3NxTGVUX0Zld0tUQ1NxdWc?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:03:48 GMT",
@@ -535,10 +535,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Okay, let’s gauge individual investor and public sentiment independently. Should Jensen Huang remain CEO of $NVDA? - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GUWVta2ZtYnlmUzZmVjZ4bk1ZdGtzWk5GWkZONTRweVpodEFhWElFZnNuS0t5OWluVDlCZzgzanI3UzRsVVNsSmFDTno3NmlhVU9CM2x6d296Y0VyZzg5Vkg4T1NDQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:14:58 GMT",
-      "description": "Okay, let’s gauge individual investor and public sentiment independently. Should Jensen Huang remain CEO of $NVDA? &nbsp;&nbsp; X",
+      "title": "郭明錤分析 Nvidia CEO 黃仁勳辭職效應。 短期利空出盡，股價影響漸弱。$NVDA Google TPU 成直觀受益者，供應鏈聯發科與 Broadcom 成焦點。 接班重組全面影響最快 2028 年才有感。 關鍵在中國：出口管不住轉售，溢價擋不住需求。 @mingchikuo - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YTUJpVDZueFlvRVZqVFRFZzJHUDVFLURKcXhwZnppSGdjbGk2YzQwOXhWUXZtR0o5UWliV2lLQkRYeC1FbE9IdTFiblo2Q0dIb09mSVdQSnJlTm0tcjBjTw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:42:40 GMT",
+      "description": "郭明錤分析 Nvidia CEO 黃仁勳辭職效應。 短期利空出盡，股價影響漸弱。$NVDA Google TPU 成直觀受益者，供應鏈聯發科與 Broadcom 成焦點。 接班重組全面影響最快 2028 年才有感。 關鍵在中國：出口管不住轉售，溢價擋不住需求。 @mingchikuo &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -548,11 +548,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "8d75cb8aa314b4c9",
+      "id": "baa004cbb3941546",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
+        "summary": "郭明錤分析 Nvidia CEO 黃仁勳辭職效應。 短期利空出盡，股價影響漸弱。$NVDA Google TP…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -584,6 +584,99 @@
       "ai": {
         "priority": "B",
         "summary": "$NVDA Morgan Stanley Top Pick Removed 根據 $MS 針對 Top Pic…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 眾議院中國問題特別委員會主席 John Moolenaar（共和黨，密西根州） 要求 Jensen Huang 必須與國會相關委員會，包含中國問題、外交、情報委員會進行聯合閉門簡報，討論他與疑似中國間諜 Alice Huang 的關係，以及 $NVDA 如何防範外國間諜滲透。 若 Jen - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UQTRMMjAwLVlQQkhIUUFya2hkU3E0cEVmRDhhTTQ1WGh5TDE3aUx4c05YVWZtOUxveTlhT3hjXzNzSVl1RXNUM3UyZU9fcUZ3TDBfOE1WeFJFdDJsVDlENGtfeWtwek0?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:35:37 GMT",
+      "description": "$NVDA 眾議院中國問題特別委員會主席 John Moolenaar（共和黨，密西根州） 要求 Jensen Huang 必須與國會相關委員會，包含中國問題、外交、情報委員會進行聯合閉門簡報，討論他與疑似中國間諜 Alice Huang 的關係，以及 $NVDA 如何防範外國間諜滲透。 若 Jen &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "3a4a359bb4974276",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 眾議院中國問題特別委員會主席 John Moolenaar（共和黨，密西根州） 要求 Jensen…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "⚡ 晶片龍頭波動加劇，$NVDA 合約交易賽火熱進行中把握市場交易時機，解鎖三重好禮，單人最高贏 8,000 USDT： 🎁 首單禮： 合約新手首筆 NVDA 交易即可獲得 3 USDT 🏆 衝榜禮： 參與交易量排行，單人最高贏得 8,000 USDT 👑 VIP 禮： VIP 5 及以上用戶專屬加碼， - X",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56blRHQ2x2S3E5M2NqZHpTeVRXUXcwZ1ZuNlRaLXFHcllyYlcyOGhiamxGZGZYcWtUanVSeDZLTHBnR29PbWdreVRCbGRjQUZ6RmJseTlXT0hFbWRj?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:35:00 GMT",
+      "description": "⚡ 晶片龍頭波動加劇，$NVDA 合約交易賽火熱進行中把握市場交易時機，解鎖三重好禮，單人最高贏 8,000 USDT： 🎁 首單禮： 合約新手首筆 NVDA 交易即可獲得 3 USDT 🏆 衝榜禮： 參與交易量排行，單人最高贏得 8,000 USDT 👑 VIP 禮： VIP 5 及以上用戶專屬加碼， &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "9b4b5d3be32bd41b",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "⚡ 晶片龍頭波動加劇，$NVDA 合約交易賽火熱進行中把握市場交易時機，解鎖三重好禮，單人最高贏 8,000 …",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 盤後暴跌 8% 市值蒸發超 3,500 億美元！董事會擬罷免黃仁勳 CEO 職位 ☠️ @Polymarket 上對於黃仁勳在 11/12 前辭職或被免職的可能性高達 60%；董事會罷免成功的條件是 11 人中有過半同意 黃仁勳創立 NVIDIA 33 年以來始終擔任 CEO 一職，並讓股價 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aa3N5OWx4akJDR05neEw4dk5ILWhtYUUtdEhCNmtsRmI1dUNzcmpyaFB2dTliaDd3b3ZmbkNIcDBuU19RSjAxb3ZFVkFBZG0xb3I2WTNzOWx0Zk9MbTZwWEhHd2Q5Zw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 08:34:51 GMT",
+      "description": "$NVDA 盤後暴跌 8% 市值蒸發超 3,500 億美元！董事會擬罷免黃仁勳 CEO 職位 ☠️ @Polymarket 上對於黃仁勳在 11/12 前辭職或被免職的可能性高達 60%；董事會罷免成功的條件是 11 人中有過半同意 黃仁勳創立 NVIDIA 33 年以來始終擔任 CEO 一職，並讓股價 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "878ddb3a7ffb5776",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 盤後暴跌 8% 市值蒸發超 3,500 億美元！董事會擬罷免黃仁勳 CEO 職位 ☠️ @Poly…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -646,99 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "AI投資沒有結束，市場正在重新定價真正的贏家 最近幾個交易日，AI相關股票經歷了明顯波動。有人開始質疑AI資本…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "$NVDA 這一波下跌，先看到145～120元，如果這個區域無法止跌，這隻股票的多頭趨勢就完全破壞了。 說人話：如果想抄底，到145～120區間等待見底跡象之後再去抄。如果這個位置看不到見底跡象（底部構造+低級別多頭排列），則說明這隻股票已經被市場拋棄，不可 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqcF9VTjZKV0RIdmdEdWJiMGthLThSOW1GWW93c2l5bWRtcWFVanlCbExpcFozdkJwajNhazlpcmRHVFF3VEoxLVRfRDduRVdPdWV2MmN0NThudzRiRV9NYkwzcUI?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:15:33 GMT",
-      "description": "$NVDA 這一波下跌，先看到145～120元，如果這個區域無法止跌，這隻股票的多頭趨勢就完全破壞了。 說人話：如果想抄底，到145～120區間等待見底跡象之後再去抄。如果這個位置看不到見底跡象（底部構造+低級別多頭排列），則說明這隻股票已經被市場拋棄，不可 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "a6ab88a772946b8b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "$NVDA 這一波下跌，先看到145～120元，如果這個區域無法止跌，這隻股票的多頭趨勢就完全破壞了。 說人話…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。要抄底的話，得等這個區間出現底部構造和低級別多頭排列再進場。如果這裡止不住跌，就代表它被市場拋棄，不要再留戀。這篇有大約 13 萬次曝光、474 個讚、158 個收藏，我抓到 4 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zQkZiSUdZb3FMdUdnZnBpTGVFWnNZblFVNUtJb2ZfeXVhZ2ZtY0t4Z1JUTlEwN2JWVTMyNWJqZTRIbVNBZ1hnLWtMc2IzbkdNaFN6eGFFOGwyci1RSHV2QmNiMWM?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:11:28 GMT",
-      "description": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。要抄底的話，得等這個區間出現底部構造和低級別多頭排列再進場。如果這裡止不住跌，就代表它被市場拋棄，不要再留戀。這篇有大約 13 萬次曝光、474 個讚、158 個收藏，我抓到 4 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "cc4101b8b3f4bf80",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "以下是 @bot 的分析： **貼文內容** 11/10 你發文說 $NVDA 這波下跌先看 145～120。…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "NVIDIA（ $NVDA）Rubin 高速基板分配的產業現況檢視 外界傳出樹脂配方微調和配方修正的傳言，但這些說法忽略了硬體的大方向： 1、台光電（Elite Material, https://t.co/BbvqWDNZFH）擴大市占已是必然： 台光電每批產品之間的一致性更好，產線良率也穩定，這在業 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLdFV3VlFUQVNSRmVmUWltRmdPWFZDQTUyNXZaclVONDBMMWUxQkVvczkxRFlPOWN5LVNDMjk2XzdEMHhLb0JGaDR6Z0VZbWRTWjFVYm0wV0RGNktQVVE?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 06:47:18 GMT",
-      "description": "NVIDIA（ $NVDA）Rubin 高速基板分配的產業現況檢視 外界傳出樹脂配方微調和配方修正的傳言，但這些說法忽略了硬體的大方向： 1、台光電（Elite Material, https://t.co/BbvqWDNZFH）擴大市占已是必然： 台光電每批產品之間的一致性更好，產線良率也穩定，這在業 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "6ed98cc1ffc61233",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "NVIDIA（ $NVDA）Rubin 高速基板分配的產業現況檢視 外界傳出樹脂配方微調和配方修正的傳言，但這…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
