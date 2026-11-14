@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T10:19:48.094Z",
+  "generatedAt": "2026-11-14T17:03:36.652Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -132,11 +132,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美股放大鏡",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTR4Njd5V3ZPSFF3STJOUDE4V3NjMlR1dUhCOGdSbG5OWUkwWWxzcmo5S3pIZmZTckV0bTEzaVFfaW45QUpWU09rcl8zb1JsQUJGOWxlamE1TzFNZ0tqVHd1TTNIRmZOZGhGNWlxLTZOQ1ROMDZXZUVXQlV2SldVdlRXWk1yWV9kWVhMQm9uWS1od2FR?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 22:00:31 GMT",
-      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; 美股放大鏡",
-      "source": "美股放大鏡",
+      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOWFncVQzNEpYTTZ3ODVWM1B4LUd3Z0FGVGEzak4tdjc5NThVZWRnYk8yU1V6dzhJWUlXNndmYy15Q2dWWGNyenVpWHpxSzIzaWNYSndWeW43WU8xVkE2Vl94Yy16aEZtd2FvWmttTlhQbXIwVW10SnpyV20wb0ZVZ1lMMDV4Y2pEb2tYa18tQ3NmOXI0WVJUYTBiQmxIaXRjRTNkbGlpWU8xTkFsQ1lpemJPeVFTUkF3eU5TU2ZYc1d1WXhVNjBQZGpKZWtYMWs?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 22:00:35 GMT",
+      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; CMoney投資網誌",
+      "source": "CMoney投資網誌",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -145,11 +145,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 69,
       "priority": "A",
-      "id": "1e040b3790da160f",
+      "id": "e082717f70df2165",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美…",
+        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - C…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -212,6 +212,37 @@
       "ai": {
         "priority": "A",
         "summary": "TradingView出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Jensen Huang resigns, NVIDIA drops in pre-market trading - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTAtMjZBbFMzbUt5dWliWGZGOHQwdnZPN2lnM0pyeXllV1BILWZ5TWRDQWctS0dyUi1zRXBjOWxjcHFEaUVDWE03VWJlczBUZGl3QjNMZlNtRlJreVZLenZYWUlqdlRWb01fOHJMUXBRSFRqeTZSM0VpTFNDcGF1Zm1xVGR5Vm9GWVJEbFJKTlBrTjd2YzdPSFBMZDZhUFE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:20:14 GMT",
+      "description": "Jensen Huang resigns, NVIDIA drops in pre-market trading &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "cc9183791c7d61a2",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Jensen Huang resigns, NVIDIA drops in pre-market tradin…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -504,99 +535,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "There have been no order cuts for Nvidia, according to four senior executives in the upstream semiconductor supply chain. Despite rumors suggesting order cuts resulting from Jensen's scandal, orders remain unchanged for 2027 and mass production orders - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ybW5Ta2hvbl9rVXltUUVUX3Y4OTJvck1CSlR4ZXI5Rm1LZE9tX3B3Qm1TU3V4UWFEY3BQT0xLQkFub1pMUlItLUZWek5UMFlvWHQ4VmZrbzdaYlNXcWdmd19YZGx3VjQ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 15:12:41 GMT",
-      "description": "There have been no order cuts for Nvidia, according to four senior executives in the upstream semiconductor supply chain. Despite rumors suggesting order cuts resulting from Jensen's scandal, orders remain unchanged for 2027 and mass production orders &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3801bb581a27d977",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia supply chain orders through 2027 remain unchanged after ex-CEO Jensen Huang resigned, media report, citing 4 Taiwan executives, with one chip testing exec noting some orders run into 2028. Nvidia’s roadmap, product validations, and 2027 capex - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GVE43bm9YVVY0OHVqMXlwX3lUSG9MQ0lEdi1KTmhpMU5HN2k0SkNfWW84X1FOZElkY3o0QWxfcVM2REVuTFFGeXJLekJ3aFU3Vk1aRkZLUGFCQXlqcEE?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 12:04:46 GMT",
-      "description": "Nvidia supply chain orders through 2027 remain unchanged after ex-CEO Jensen Huang resigned, media report, citing 4 Taiwan executives, with one chip testing exec noting some orders run into 2028. Nvidia’s roadmap, product validations, and 2027 capex &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "eb53ec948216f52d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Nvidia’s management change will not alter Gigabyte’s close partnership with the chip maker, said Gigabyte co-GM E-Tay Lee at its 3rd quarter conference, media report. Gigabyte is working on several next-gen Nvidia AI server platforms. Gigabyte posted recor - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qenJIckJScVU2LUdid041a3Q2bmJybHVLVm5ZVFlZeEEwaHZrWmU0dWFXLXVRbkU4STk1X3pnM2tlY251ZnRiTkc2V2V5eHo0QjVCLTJ5a0wwXzhOZ2c?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 06:35:22 GMT",
-      "description": "Nvidia’s management change will not alter Gigabyte’s close partnership with the chip maker, said Gigabyte co-GM E-Tay Lee at its 3rd quarter conference, media report. Gigabyte is working on several next-gen Nvidia AI server platforms. Gigabyte posted recor &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "3d7b3b2506dab775",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "致尊敬的 $NVDA 董事會， 我們以股東的身分來信，分享一項我們相信在股東之間廣泛認同的觀點，並提出一個簡單的請求。 鑑於 Jensen Huang 長期領導下所創造的非凡成就，以及近期圍繞其離職事件所帶來的巨大不確定性，我們認為，董事會採取一個緩慢、審慎且 - X",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yZlNINnJacko5bDcwWmUyOWUyRnRnV1pxRUF0aWNLZVE2THNtdGI4T2k1Rk9LeVp0SjJhbGkycWdvMlphdk9lRHFuTFVraEdRcGUzVzhadHJfVDVnNmZ5RXVraXhWR2FEcG8xM0tjOUtDQQ?oc=5",
       "pubDate": "Sat, 14 Nov 2026 00:42:21 GMT",
@@ -656,12 +594,43 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "《廣發海外電子通信》 ☄英偉達 (NVDA US Hold)：感謝黃仁勳引領的AI時代 ☀英偉達CEO黃仁勳辭職： 英偉達於2026年11月12日宣佈，創始人黃仁勳即日起辭去總裁、CEO及董事職務。自2013年起擔任CFO的Colette Kress將出任臨時CEO並兼任CFO；資深科技業高管 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdFp5NUMwSUNIbl9yQjAwQ1ZPYTNrcklWNVliYW5DY09WOUN0NEpISDBjaTc2MFdXZl9XZjFvaW13eWxaRmxNQVhtZlFCTmI4dWhIYmpBYVp1TV9Hc3g1VmJJYTdna0E?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 09:45:24 GMT",
+      "description": "《廣發海外電子通信》 ☄英偉達 (NVDA US Hold)：感謝黃仁勳引領的AI時代 ☀英偉達CEO黃仁勳辭職： 英偉達於2026年11月12日宣佈，創始人黃仁勳即日起辭去總裁、CEO及董事職務。自2013年起擔任CFO的Colette Kress將出任臨時CEO並兼任CFO；資深科技業高管 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "04c9ac4cf605c102",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "《廣發海外電子通信》 ☄英偉達 (NVDA US Hold)：感謝黃仁勳引領的AI時代 ☀英偉達CEO黃仁勳辭…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "港股",
       "signal": "媒体",
       "type": "公司事件",
       "title": "主要股東搜尋 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCVDNjLXFzTl8tanVVdHo2OENyaV9xcWRQYk1VWFNiVTYzTFZqUFI2ZjJISmNkeE9XMG1XOHhpQjdzSXEwWTczcjhURXl4YkpSVWZBblZZNGhzWFRNZWRjLVA5LWU4ZXJiTE91UTBOam5jdw?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 05:02:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4ycGsxMXQ4UkF2Qno2Rlc2amM2TmQxRGdwQ3diOTdHZFhWaDF1QVJwWnpQazQxa0hubGlsTXl0SUE3bzRPcVM4ZEVpT2F2dEZqdWxDR0ZldzlOZ01IUkN2UzV1aG1aTnk2d0lZMUhXdXdvSHM?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 19:14:56 GMT",
       "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
       "source": "AAStock",
       "sourceKey": "aastocks",
@@ -672,7 +641,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 48,
       "priority": "B",
-      "id": "c53942a7b220bf48",
+      "id": "dbd88039ad412d49",
       "rankReason": "市场相关",
       "ai": {
         "priority": "B",
@@ -704,6 +673,37 @@
       "score": 47,
       "priority": "B",
       "id": "8d75cb8aa314b4c9",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "There have been no order cuts for Nvidia, according to four senior executives in the upstream semiconductor supply chain. Despite rumors suggesting order cuts resulting from Jensen's scandal, orders remain unchanged for 2027 and mass production orders - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ybW5Ta2hvbl9rVXltUUVUX3Y4OTJvck1CSlR4ZXI5Rm1LZE9tX3B3Qm1TU3V4UWFEY3BQT0xLQkFub1pMUlItLUZWek5UMFlvWHQ4VmZrbzdaYlNXcWdmd19YZGx3VjQ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 15:12:41 GMT",
+      "description": "There have been no order cuts for Nvidia, according to four senior executives in the upstream semiconductor supply chain. Despite rumors suggesting order cuts resulting from Jensen's scandal, orders remain unchanged for 2027 and mass production orders &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "3801bb581a27d977",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
