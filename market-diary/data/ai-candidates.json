@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-11-14T02:25:05.771Z",
+  "generatedAt": "2026-11-14T10:19:48.094Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "Announcement - In relation to the matter of E-Station Green Technology Group Co., Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8475) Cancellation of listing",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261111news?sc_lang=en",
-      "pubDate": "Wed, 11 Nov 2026 18:04:00 +0800",
-      "description": "Announcement - In relation to the matter of E-Station Green Technology Group Co., Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8475) Cancellation of listing",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 77,
-      "priority": "A",
-      "id": "50f8b8c01a33659c",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所出现新的IPO相关信息",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "宏观",
       "signal": "人物",
@@ -98,6 +67,37 @@
       }
     },
     {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of E-Station Green Technology Group Co., Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8475) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261111news?sc_lang=en",
+      "pubDate": "Wed, 11 Nov 2026 18:04:00 +0800",
+      "description": "Announcement - In relation to the matter of E-Station Green Technology Group Co., Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8475) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "50f8b8c01a33659c",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "宏观",
@@ -132,11 +132,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "With Jensen Huang stepping down, domestic substitution is once again in the spotlight! What opportunities exist along the Hong Kong‑listed chip industry chain? - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVldlUzlEVmdYdnVNU1ZaNEZFUFlYVGUxWlZPbmNIUWhrYzB5eFEtVHBLVFJpcEd6MEwwbTBjNk5ka1RqQ3lhdjNKU2dsUjR2eHpicng1R2ZaTXJ6c0RGS2pSdkFIdWwxYmpHaC0zYjFIbUR2Mmx2RkxtbEZBSzE3QjZ1RWt6T1N4NjZoYVE1UFNMVzIxRzB5ZWZqNUdudHlna1RPaUMxazgzMU5IbkpJ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 07:42:00 GMT",
-      "description": "With Jensen Huang stepping down, domestic substitution is once again in the spotlight! What opportunities exist along the Hong Kong‑listed chip industry chain? &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美股放大鏡",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTR4Njd5V3ZPSFF3STJOUDE4V3NjMlR1dUhCOGdSbG5OWUkwWWxzcmo5S3pIZmZTckV0bTEzaVFfaW45QUpWU09rcl8zb1JsQUJGOWxlamE1TzFNZ0tqVHd1TTNIRmZOZGhGNWlxLTZOQ1ROMDZXZUVXQlV2SldVdlRXWk1yWV9kWVhMQm9uWS1od2FR?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 22:00:31 GMT",
+      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; 美股放大鏡",
+      "source": "美股放大鏡",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -145,11 +145,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 69,
       "priority": "A",
-      "id": "2a5e58df8fcf085d",
+      "id": "1e040b3790da160f",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "With Jensen Huang stepping down, domestic substitution …",
+        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -225,37 +225,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "NVIDIA and Jensen Huang Sued by Shareholders: Analyzing Wall Street’s AI Bubble Warning, CEO Succession Suspense, and US-China Geopolitical Conspiracy Theories - Mashdigi",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0U3Z3NBM094TXNYTlJtdXphb21zQkYyd29rMUwtS3N6UkY4SjcwUnV6ZDdua3VfU2R1dHV6U2ZhRUtLTW5ITGo2elFUQkhHdWkxQjNFWEJaSVlMOC1hNWM1LXJUTTBjZUZlT3UyOFJGV3BRR1AxMzh5R0UxLTloOUp3?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 06:26:40 GMT",
-      "description": "NVIDIA and Jensen Huang Sued by Shareholders: Analyzing Wall Street’s AI Bubble Warning, CEO Succession Suspense, and US-China Geopolitical Conspiracy Theories &nbsp;&nbsp; Mashdigi",
-      "source": "Mashdigi",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "e05aeeed42993b22",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Mashdigi出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Rumors of Jensen Huang's removal impact some NVIDIA ecosystem companies; AMD and Broadcom see positive developments - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd0wxNEZJX3hoa0x5d0NrR1pwQlYxc0d6cEh5WnQxdDJCOGhYbW1vZVlvSlM0aTE0UTRESWtvd0h0TlVvM1NfQ3pwR1picEs4YnpWcy01dXd1azk2TnA2OEloR2NNSVY1VVdsa3ZKdlN1MjFJOFZrSjlzZkRGQk8yaUd1S3duUXRHd3J4OVpXbm5jay1EVEE5alNSbnBQc1R4SG5jN25MUQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 07:20:03 GMT",
@@ -274,6 +243,37 @@
       "ai": {
         "priority": "A",
         "summary": "Rumors of Jensen Huang's removal impact some NVIDIA eco…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "With Jensen Huang stepping down, domestic substitution is once again in the spotlight! What opportunities exist along the Hong Kong‑listed chip industry chain? - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVldlUzlEVmdYdnVNU1ZaNEZFUFlYVGUxWlZPbmNIUWhrYzB5eFEtVHBLVFJpcEd6MEwwbTBjNk5ka1RqQ3lhdjNKU2dsUjR2eHpicng1R2ZaTXJ6c0RGS2pSdkFIdWwxYmpHaC0zYjFIbUR2Mmx2RkxtbEZBSzE3QjZ1RWt6T1N4NjZoYVE1UFNMVzIxRzB5ZWZqNUdudHlna1RPaUMxazgzMU5IbkpJ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 07:42:00 GMT",
+      "description": "With Jensen Huang stepping down, domestic substitution is once again in the spotlight! What opportunities exist along the Hong Kong‑listed chip industry chain? &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "2a5e58df8fcf085d",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "With Jensen Huang stepping down, domestic substitution …",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -309,6 +309,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "NVIDIA and Jensen Huang Sued by Shareholders: Analyzing Wall Street’s AI Bubble Warning, CEO Succession Suspense, and US-China Geopolitical Conspiracy Theories - Mashdigi",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0U3Z3NBM094TXNYTlJtdXphb21zQkYyd29rMUwtS3N6UkY4SjcwUnV6ZDdua3VfU2R1dHV6U2ZhRUtLTW5ITGo2elFUQkhHdWkxQjNFWEJaSVlMOC1hNWM1LXJUTTBjZUZlT3UyOFJGV3BRR1AxMzh5R0UxLTloOUp3?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:26:40 GMT",
+      "description": "NVIDIA and Jensen Huang Sued by Shareholders: Analyzing Wall Street’s AI Bubble Warning, CEO Succession Suspense, and US-China Geopolitical Conspiracy Theories &nbsp;&nbsp; Mashdigi",
+      "source": "Mashdigi",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "e05aeeed42993b22",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Mashdigi出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -472,37 +503,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "🌐 市場的每一次波動，背後都有值得關注的訊號。 今晚美國 PPI 數據即將公布，通膨與利率預期再度成為焦點 與此同時，NVDA 高層異動牽動科技股情緒，BTC 跌破 70,000 美元也讓加密市場面臨考驗 📉 當多重變數同時出現，你怎麼看？👇 - X",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lQ3NQdkx6N0duMEZfN2xMNm5kQ1ZCWnUxVUJxWXd3RUZ1U01jX0FoUkpLaUc3bkRacFN1MXVVeXlOSlJlQlFaX0dKQmJlaDhhX2NUQzNhNzFFdk0?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 08:33:31 GMT",
-      "description": "🌐 市場的每一次波動，背後都有值得關注的訊號。 今晚美國 PPI 數據即將公布，通膨與利率預期再度成為焦點 與此同時，NVDA 高層異動牽動科技股情緒，BTC 跌破 70,000 美元也讓加密市場面臨考驗 📉 當多重變數同時出現，你怎麼看？👇 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "5417188f31324750",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "🌐 市場的每一次波動，背後都有值得關注的訊號。 今晚美國 PPI 數據即將公布，通膨與利率預期再度成為焦點 …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "There have been no order cuts for Nvidia, according to four senior executives in the upstream semiconductor supply chain. Despite rumors suggesting order cuts resulting from Jensen's scandal, orders remain unchanged for 2027 and mass production orders - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ybW5Ta2hvbl9rVXltUUVUX3Y4OTJvck1CSlR4ZXI5Rm1LZE9tX3B3Qm1TU3V4UWFEY3BQT0xLQkFub1pMUlItLUZWek5UMFlvWHQ4VmZrbzdaYlNXcWdmd19YZGx3VjQ?oc=5",
@@ -522,68 +522,6 @@
       "ai": {
         "priority": "B",
         "summary": "X出现一条新的公司事件信息",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "SemiAnalysis〈Nvidia and the World Without Jensen〉 1、黃仁勳離職背景與出口管制政治轉向 1）NVIDIA（ $NVDA）董事會針對執行長黃仁勳行為展開調查並在四天後由其請辭，導火線除了與具中共關聯的女性客戶及多名下屬之間存在倫理爭議外，該機構認為更直接 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xWHJ2MTB3TmdmdVNqR1UtUkhoOE0xMDVQV0QxclFENUlzWkg1U3UtMWlPTE5DVThqaGVaakJSVDNEV3cyVXYtNTRkckFIcVh3VGZwR0RtSkdDMWpqUEE?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 09:52:11 GMT",
-      "description": "SemiAnalysis〈Nvidia and the World Without Jensen〉 1、黃仁勳離職背景與出口管制政治轉向 1）NVIDIA（ $NVDA）董事會針對執行長黃仁勳行為展開調查並在四天後由其請辭，導火線除了與具中共關聯的女性客戶及多名下屬之間存在倫理爭議外，該機構認為更直接 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "b32365286e9c42f4",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "SemiAnalysis〈Nvidia and the World Without Jensen〉 1、黃仁勳…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "〈SemiAnalysis 創辦人 Dylan Patel 談 NVIDIA 下一任執行長面臨的晶片競爭格局〉 Dylan Patel 訪談引述 1）NVIDIA（ $NVDA）面對的對手實力極強：SemiAnalysis 創辦人暨執行長 Dylan Patel 指出，NVIDIA（ $NVDA）下一任執行長必須擋住來自 OpenAI、Broadcom（ - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1raDl0WFNqVFF6Wmx6OVlUaFMzaFZXYTAtNTFyYlRnU1ltdW9LdllCQXZETHlmZkFtRXNvanBKVmlTaW5OLXJFX0xLeFhWZVpyb3dnc2U0YXNPTXVIOGc?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 13:58:53 GMT",
-      "description": "〈SemiAnalysis 創辦人 Dylan Patel 談 NVIDIA 下一任執行長面臨的晶片競爭格局〉 Dylan Patel 訪談引述 1）NVIDIA（ $NVDA）面對的對手實力極強：SemiAnalysis 創辦人暨執行長 Dylan Patel 指出，NVIDIA（ $NVDA）下一任執行長必須擋住來自 OpenAI、Broadcom（ &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "a645416d2f113896",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "〈SemiAnalysis 創辦人 Dylan Patel 談 NVIDIA 下一任執行長面臨的晶片競爭格局〉…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -625,12 +563,105 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Nvidia’s management change will not alter Gigabyte’s close partnership with the chip maker, said Gigabyte co-GM E-Tay Lee at its 3rd quarter conference, media report. Gigabyte is working on several next-gen Nvidia AI server platforms. Gigabyte posted recor - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qenJIckJScVU2LUdid041a3Q2bmJybHVLVm5ZVFlZeEEwaHZrWmU0dWFXLXVRbkU4STk1X3pnM2tlY251ZnRiTkc2V2V5eHo0QjVCLTJ5a0wwXzhOZ2c?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 06:35:22 GMT",
+      "description": "Nvidia’s management change will not alter Gigabyte’s close partnership with the chip maker, said Gigabyte co-GM E-Tay Lee at its 3rd quarter conference, media report. Gigabyte is working on several next-gen Nvidia AI server platforms. Gigabyte posted recor &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "3d7b3b2506dab775",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "致尊敬的 $NVDA 董事會， 我們以股東的身分來信，分享一項我們相信在股東之間廣泛認同的觀點，並提出一個簡單的請求。 鑑於 Jensen Huang 長期領導下所創造的非凡成就，以及近期圍繞其離職事件所帶來的巨大不確定性，我們認為，董事會採取一個緩慢、審慎且 - X",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yZlNINnJacko5bDcwWmUyOWUyRnRnV1pxRUF0aWNLZVE2THNtdGI4T2k1Rk9LeVp0SjJhbGkycWdvMlphdk9lRHFuTFVraEdRcGUzVzhadHJfVDVnNmZ5RXVraXhWR2FEcG8xM0tjOUtDQQ?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 00:42:21 GMT",
+      "description": "致尊敬的 $NVDA 董事會， 我們以股東的身分來信，分享一項我們相信在股東之間廣泛認同的觀點，並提出一個簡單的請求。 鑑於 Jensen Huang 長期領導下所創造的非凡成就，以及近期圍繞其離職事件所帶來的巨大不確定性，我們認為，董事會採取一個緩慢、審慎且 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2ae47c84e250264a",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "致尊敬的 $NVDA 董事會， 我們以股東的身分來信，分享一項我們相信在股東之間廣泛認同的觀點，並提出一個簡單…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "新加坡內政部（Ministry of Home Affairs，MHA）〈Clarification Statement on Wall Street Journal's Article〉｜2026年10月31日 1、MHA 回應《華爾街日報》（WSJ）2026年10月30日的報導〈Chinese Executive Close to Nvidia CEO Suspected of Giving China Information - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XRGlDeU5fSU16cnA2RHlRUW9rUlVMS1dpSXphd3hrYlV0cHZqMmxMRDVKcTlFc1lpQ1l2M0diV3MtTnVSRVRnUzdadmdCdm9yZ19UeGEteThEeV9JTXc?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 10:09:45 GMT",
+      "description": "新加坡內政部（Ministry of Home Affairs，MHA）〈Clarification Statement on Wall Street Journal's Article〉｜2026年10月31日 1、MHA 回應《華爾街日報》（WSJ）2026年10月30日的報導〈Chinese Executive Close to Nvidia CEO Suspected of Giving China Information &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "d96f9972be276dcc",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "新加坡內政部（Ministry of Home Affairs，MHA）〈Clarification Stat…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "港股",
       "signal": "媒体",
       "type": "公司事件",
       "title": "主要股東搜尋 - AAStock",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4ycGsxMXQ4UkF2Qno2Rlc2amM2TmQxRGdwQ3diOTdHZFhWaDF1QVJwWnpQazQxa0hubGlsTXl0SUE3bzRPcVM4ZEVpT2F2dEZqdWxDR0ZldzlOZ01IUkN2UzV1aG1aTnk2d0lZMUhXdXdvSHM?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 19:14:56 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCVDNjLXFzTl8tanVVdHo2OENyaV9xcWRQYk1VWFNiVTYzTFZqUFI2ZjJISmNkeE9XMG1XOHhpQjdzSXEwWTczcjhURXl4YkpSVWZBblZZNGhzWFRNZWRjLVA5LWU4ZXJiTE91UTBOam5jdw?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 05:02:42 GMT",
       "description": "主要股東搜尋 &nbsp;&nbsp; AAStock",
       "source": "AAStock",
       "sourceKey": "aastocks",
@@ -641,7 +672,7 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 48,
       "priority": "B",
-      "id": "dbd88039ad412d49",
+      "id": "c53942a7b220bf48",
       "rankReason": "市场相关",
       "ai": {
         "priority": "B",
@@ -690,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "我覺得就算 Jensen 被開除，他也不會想要去 Elon 公司上班。自己融資開幹，應該可以把很多 NVDA 的骨幹給挖過來，到時候 NVDA 可能更慘 🌝 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnSU8ycXNaRUZYbENEQkU5Z0ZKc3FsM1RNbXNGam5yOWpjY1cwNHJrVE8tejZINzVwOXl1V3dVSHRPaGE0UFdHc0pWYnM4V1FndVJmekRpMHFtTWFKOGNYX1lZb08?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:35:42 GMT",
-      "description": "我覺得就算 Jensen 被開除，他也不會想要去 Elon 公司上班。自己融資開幹，應該可以把很多 NVDA 的骨幹給挖過來，到時候 NVDA 可能更慘 🌝 &nbsp;&nbsp; X",
+      "title": "SemiAnalysis〈Nvidia and the World Without Jensen〉 1、黃仁勳離職背景與出口管制政治轉向 1）NVIDIA（ $NVDA）董事會針對執行長黃仁勳行為展開調查並在四天後由其請辭，導火線除了與具中共關聯的女性客戶及多名下屬之間存在倫理爭議外，該機構認為更直接 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xWHJ2MTB3TmdmdVNqR1UtUkhoOE0xMDVQV0QxclFENUlzWkg1U3UtMWlPTE5DVThqaGVaakJSVDNEV3cyVXYtNTRkckFIcVh3VGZwR0RtSkdDMWpqUEE?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 09:52:11 GMT",
+      "description": "SemiAnalysis〈Nvidia and the World Without Jensen〉 1、黃仁勳離職背景與出口管制政治轉向 1）NVIDIA（ $NVDA）董事會針對執行長黃仁勳行為展開調查並在四天後由其請辭，導火線除了與具中共關聯的女性客戶及多名下屬之間存在倫理爭議外，該機構認為更直接 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -703,42 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "df5c4bcbdee57c5a",
+      "id": "b32365286e9c42f4",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "我覺得就算 Jensen 被開除，他也不會想要去 Elon 公司上班。自己融資開幹，應該可以把很多 NVDA …",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "😭😭😭 廣發證券（香港）經紀有限公司（GF Securities (Hong Kong) Brokerage Limited） 評等調降：持有（Hold） 目標價：188美元（US$188） NVIDIA（ $NVDA） 感謝由 Jensen 領軍的 AI 時代 NVIDIA（ $NVDA）執行長黃仁勳辭職：NVIDIA（ $NVDA）於2026年11月12日宣布 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ocmFmZTNDTExSdUtzLXBSZ1A5blhpZW5MdFF0cWstZFNiS3pPR2V1eDVzT3Ffa0V0a2xtUXU3SUl3UTV0UDUxOWdObV9LeGlGbmx4ai1HNjhCUDFudlE?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 01:37:44 GMT",
-      "description": "😭😭😭 廣發證券（香港）經紀有限公司（GF Securities (Hong Kong) Brokerage Limited） 評等調降：持有（Hold） 目標價：188美元（US$188） NVIDIA（ $NVDA） 感謝由 Jensen 領軍的 AI 時代 NVIDIA（ $NVDA）執行長黃仁勳辭職：NVIDIA（ $NVDA）於2026年11月12日宣布 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "6d215313e3b52fb3",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "😭😭😭 廣發證券（香港）經紀有限公司（GF Securities (Hong Kong) Brokera…",
+        "summary": "SemiAnalysis〈Nvidia and the World Without Jensen〉 1、黃仁勳…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
