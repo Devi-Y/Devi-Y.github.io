@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T21:27:35.425Z",
+  "generatedAt": "2026-11-15T01:52:42.357Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -132,37 +132,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOWFncVQzNEpYTTZ3ODVWM1B4LUd3Z0FGVGEzak4tdjc5NThVZWRnYk8yU1V6dzhJWUlXNndmYy15Q2dWWGNyenVpWHpxSzIzaWNYSndWeW43WU8xVkE2Vl94Yy16aEZtd2FvWmttTlhQbXIwVW10SnpyV20wb0ZVZ1lMMDV4Y2pEb2tYa18tQ3NmOXI0WVJUYTBiQmxIaXRjRTNkbGlpWU8xTkFsQ1lpemJPeVFTUkF3eU5TU2ZYc1d1WXhVNjBQZGpKZWtYMWs?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 22:00:35 GMT",
-      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; CMoney投資網誌",
-      "source": "CMoney投資網誌",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 69,
-      "priority": "A",
-      "id": "e082717f70df2165",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - C…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Nvidia's Future Beyond Jensen Huang Could Test the AI Boom -- Market Talk - Moomoo",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeTJ3dndZeGh1V2RNT1V3NzFpTUpmZXppNHBfVDJ0UzRvT2hwcXUxRnpjRmFPNnJKN3dGREt5QWpCRlpoTDctckswOF9QV0diSUtRcUdvSzAyYlJBV3lhQzdta1ZpMGVPUldnTHZJMnJQeDFsMEw3czhxRFJKQUxtblk5SEFGNXRodlo1QmZuODlUbDg1UW1qWVdCb2Nra0JWRkhDWA?oc=5",
       "pubDate": "Thu, 12 Nov 2026 03:06:24 GMT",
@@ -212,6 +181,37 @@
       "ai": {
         "priority": "A",
         "summary": "TradingView出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOWFncVQzNEpYTTZ3ODVWM1B4LUd3Z0FGVGEzak4tdjc5NThVZWRnYk8yU1V6dzhJWUlXNndmYy15Q2dWWGNyenVpWHpxSzIzaWNYSndWeW43WU8xVkE2Vl94Yy16aEZtd2FvWmttTlhQbXIwVW10SnpyV20wb0ZVZ1lMMDV4Y2pEb2tYa18tQ3NmOXI0WVJUYTBiQmxIaXRjRTNkbGlpWU8xTkFsQ1lpemJPeVFTUkF3eU5TU2ZYc1d1WXhVNjBQZGpKZWtYMWs?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 22:00:35 GMT",
+      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; CMoney投資網誌",
+      "source": "CMoney投資網誌",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "e082717f70df2165",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - C…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -315,37 +315,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "宏观",
-      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
-      "pubDate": "Sat, 14 Nov 2026 00:00:00 GMT",
-      "description": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 63,
-      "priority": "B",
-      "id": "00bfd7cfa5ad4c30",
-      "rankReason": "一级/官方信源；市场相关；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
@@ -402,6 +371,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "宏观",
+      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "pubDate": "Sat, 14 Nov 2026 00:00:00 GMT",
+      "description": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 60,
+      "priority": "B",
+      "id": "00bfd7cfa5ad4c30",
+      "rankReason": "一级/官方信源；市场相关；关键人物",
+      "ai": {
+        "priority": "B",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -503,11 +503,11 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "Taiwanese media reports large scale application for glass substrate is aimed for 2029-2030, with key issues to watch: equipment orders, TGV yield, customer approval, platform adoption, and cost reduction. $NVDA $INTC - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LSmp0S0ladV9YckxNSUJncFFuT3JkVjZrWEwtTDJZbDBEY2VrVHFKXzczNjdCTllSWXJaSDBqeU5yaUY5aXY0QUNEWjZGdnFvaUtaTGdnYlVfUnVwSG5ydkdDRVVHaVk?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 01:12:00 GMT",
-      "description": "Taiwanese media reports large scale application for glass substrate is aimed for 2029-2030, with key issues to watch: equipment orders, TGV yield, customer approval, platform adoption, and cost reduction. $NVDA $INTC &nbsp;&nbsp; X",
+      "type": "持仓",
+      "title": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLTR 持股由187,897股增至748,895股，增加約299%； $NVDA 增加8.1%至955萬股。 $OKTA 減持45.9%，但仍保留約197萬股； $VRT 減持46.3%至437,915股。 $RBRK 則首次出現在可 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wNVRxSkhMRVJ0ODR4d0E2OEg5VU1sRVM0LU45dlZTekV2RmtJeVZfNGdVTEE4VzlUQzJJS281Ty1pb3NkaTk4djlVR2RfWTV1OElHcmJsYy1FZi1TNlhGbjVZd1hGNDQ?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 01:19:20 GMT",
+      "description": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLTR 持股由187,897股增至748,895股，增加約299%； $NVDA 增加8.1%至955萬股。 $OKTA 減持45.9%，但仍保留約197萬股； $VRT 減持46.3%至437,915股。 $RBRK 則首次出現在可 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -515,17 +515,17 @@
       "trustTier": "C",
       "confidence": "C",
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
+      "score": 55,
       "priority": "B",
-      "id": "203d1d2fa1b711b1",
-      "rankReason": "高影响事件词；社媒只做热点发现",
+      "id": "44d264e1bc24169e",
+      "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "X出现新的宏观政策或数据更新",
+        "summary": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLT…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
-          "宏观解读"
+          "事件解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -535,10 +535,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "致尊敬的 $NVDA 董事會， 我們以股東的身分來信，分享一項我們相信在股東之間廣泛認同的觀點，並提出一個簡單的請求。 鑑於 Jensen Huang 長期領導下所創造的非凡成就，以及近期圍繞其離職事件所帶來的巨大不確定性，我們認為，董事會採取一個緩慢、審慎且 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yZlNINnJacko5bDcwWmUyOWUyRnRnV1pxRUF0aWNLZVE2THNtdGI4T2k1Rk9LeVp0SjJhbGkycWdvMlphdk9lRHFuTFVraEdRcGUzVzhadHJfVDVnNmZ5RXVraXhWR2FEcG8xM0tjOUtDQQ?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 00:42:21 GMT",
-      "description": "致尊敬的 $NVDA 董事會， 我們以股東的身分來信，分享一項我們相信在股東之間廣泛認同的觀點，並提出一個簡單的請求。 鑑於 Jensen Huang 長期領導下所創造的非凡成就，以及近期圍繞其離職事件所帶來的巨大不確定性，我們認為，董事會採取一個緩慢、審慎且 &nbsp;&nbsp; X",
+      "title": "Nvidia’s management change will not alter Gigabyte’s close partnership with the chip maker, said Gigabyte co-GM E-Tay Lee at its 3rd quarter conference, media report. Gigabyte is working on several next-gen Nvidia AI server platforms. Gigabyte posted recor - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qenJIckJScVU2LUdid041a3Q2bmJybHVLVm5ZVFlZeEEwaHZrWmU0dWFXLXVRbkU4STk1X3pnM2tlY251ZnRiTkc2V2V5eHo0QjVCLTJ5a0wwXzhOZ2c?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 06:35:22 GMT",
+      "description": "Nvidia’s management change will not alter Gigabyte’s close partnership with the chip maker, said Gigabyte co-GM E-Tay Lee at its 3rd quarter conference, media report. Gigabyte is working on several next-gen Nvidia AI server platforms. Gigabyte posted recor &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -548,11 +548,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "2ae47c84e250264a",
+      "id": "3d7b3b2506dab775",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "致尊敬的 $NVDA 董事會， 我們以股東的身分來信，分享一項我們相信在股東之間廣泛認同的觀點，並提出一個簡單…",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -619,6 +619,37 @@
         "contentDirection": [
           "快讯",
           "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "宏观",
+      "title": "Taiwanese media reports large scale application for glass substrate is aimed for 2029-2030, with key issues to watch: equipment orders, TGV yield, customer approval, platform adoption, and cost reduction. $NVDA $INTC - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LSmp0S0ladV9YckxNSUJncFFuT3JkVjZrWEwtTDJZbDBEY2VrVHFKXzczNjdCTllSWXJaSDBqeU5yaUY5aXY0QUNEWjZGdnFvaUtaTGdnYlVfUnVwSG5ydkdDRVVHaVk?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 01:12:00 GMT",
+      "description": "Taiwanese media reports large scale application for glass substrate is aimed for 2029-2030, with key issues to watch: equipment orders, TGV yield, customer approval, platform adoption, and cost reduction. $NVDA $INTC &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "203d1d2fa1b711b1",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现新的宏观政策或数据更新",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
@@ -708,37 +739,6 @@
       "ai": {
         "priority": "B",
         "summary": "SemiAnalysis〈Nvidia and the World Without Jensen〉 1、黃仁勳…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "Gavin Baker 警告：封殺降規 AI 晶片反將逼出中國替代路線，危及美國國安 Gavin Baker 認為，部分出於善意與愛國心、卻不熟悉 AI 與硬體領域的美國對中鷹派，正在把美國國家安全置於風險之中。 他指出，若維持 NVIDIA（ $NVDA）執行長黃仁勳支持的出口策略，讓中 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Vb2ZwSEVxQUt5RjQteHQxV2o3dTJKRUlJd2dvZ3V5eU1fZVhhZDBUd0xxQXJOSUtwUzdmZjF3NlRBZ1pIQmFldEFIMGdGZ2tZQ0ZuXzRtbXFIbUpCdlE?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:41:37 GMT",
-      "description": "Gavin Baker 警告：封殺降規 AI 晶片反將逼出中國替代路線，危及美國國安 Gavin Baker 認為，部分出於善意與愛國心、卻不熟悉 AI 與硬體領域的美國對中鷹派，正在把美國國家安全置於風險之中。 他指出，若維持 NVIDIA（ $NVDA）執行長黃仁勳支持的出口策略，讓中 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "89b146da7b0bdb83",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Gavin Baker 警告：封殺降規 AI 晶片反將逼出中國替代路線，危及美國國安 Gavin Baker …",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
