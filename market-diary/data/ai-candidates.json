@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-11-15T09:19:39.295Z",
+  "generatedAt": "2026-11-15T17:05:21.141Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Barr, American Inequality and the Future of AI",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
-      "pubDate": "Thu, 12 Nov 2026 15:00:00 GMT",
-      "description": "Speech At Yale University, New Haven, Connecticut",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 76,
-      "priority": "A",
-      "id": "898c61cb09af6347",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "港股",
       "signal": "事实",
@@ -129,14 +98,76 @@
       }
     },
     {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Barr, American Inequality and the Future of AI",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+      "pubDate": "Thu, 12 Nov 2026 15:00:00 GMT",
+      "description": "Speech At Yale University, New Haven, Connecticut",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 73,
+      "priority": "A",
+      "id": "898c61cb09af6347",
+      "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "持仓",
+      "title": "Jensen Huang 辭職拖累 Nvidia 並動搖 AI 多頭信心 股市下跌 - Business Insider Taiwan",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CZk1DRVFnZDZ5QkM2UlNYOVdzUmFYYlVGdHVfZ3YwN0RuNjlDNXpQMEROd1NQUkR1VXNXM2RxT1lqdVNsVGVIUTFxdnlZSk9tUnlwQlZR?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:23:00 GMT",
+      "description": "Jensen Huang 辭職拖累 Nvidia 並動搖 AI 多頭信心 股市下跌 &nbsp;&nbsp; Business Insider Taiwan",
+      "source": "Business Insider Taiwan",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 71,
+      "priority": "A",
+      "id": "4fd02b518b43abba",
+      "rankReason": "高影响事件词；关键人物；公开资金信号",
+      "ai": {
+        "priority": "A",
+        "summary": "Jensen Huang 辭職拖累 Nvidia 並動搖 AI 多頭信心 股市下跌 - Business In…",
+        "whyImportant": "公开持仓变化可用于发现机构或重要人物的资金动作，但需要结合披露时间和原始文件理解，避免把历史持仓当成实时交易。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Stock Market Crash [LIVE]: How Jensen Huang’s Resignation Is Hitting Nvidia, Nasdaq And BTC - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWjZpSDZwR1JVOThWQVRTSlZlNTd0Q0N0cmJwc3RKTXp3NGcyQ1ZhM1Y1ZEc5cnZNbWVjNy13NGpkdnljdlRPbGtvSU12bTNhZVhRTXptTG5zNmJIUjZXOThLODFmMDVUdTd5SUp4WG1rRVB4RkxXd3ZHUGcyTjl0Zjd2VnYzUzZvV0xJV212QzBsdHp4dnE1dV9XU2VzMWE0SmJjV0czVFREczZacUtlejQ5VTI2Si1fakNYWVhjdklLQTkzWG5qSzlCY2lTRlZMYjlLa3N4Y25SQ0h2WVBV?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:07:21 GMT",
-      "description": "Stock Market Crash [LIVE]: How Jensen Huang’s Resignation Is Hitting Nvidia, Nasdaq And BTC &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
+      "title": "AI帝國震盪：Jensen Huang請辭引爆「後輝達時代」風暴，華爾街急算Nvidia新局風險與機會 - 美股放大鏡",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSWNiMTNORU92ZGpfLXdkR01MQjhvRzB1S0NGSGEwWXhLSHNHUVhiZ2M3bW9FQ05OTWd2TmNobEdiSkNMQTlSUFZWTFFpcTFyclNoeFE1WllKYU50ZmN4ZFItWXBaalRFRjdIcUtodGYtWEVKRXJYUi0xenRKeU9kSkxMUjFLWWd6WFZsZllCZmVxa081?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 02:00:31 GMT",
+      "description": "AI帝國震盪：Jensen Huang請辭引爆「後輝達時代」風暴，華爾街急算Nvidia新局風險與機會 &nbsp;&nbsp; 美股放大鏡",
+      "source": "美股放大鏡",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -145,11 +176,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "d68fd5f7890f2045",
+      "id": "9ecdfec0a93a713f",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
+        "summary": "AI帝國震盪：Jensen Huang請辭引爆「後輝達時代」風暴，華爾街急算Nvidia新局風險與機會 - 美…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -194,11 +225,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Jensen Huang resigns, NVIDIA drops in pre-market trading - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTAtMjZBbFMzbUt5dWliWGZGOHQwdnZPN2lnM0pyeXllV1BILWZ5TWRDQWctS0dyUi1zRXBjOWxjcHFEaUVDWE03VWJlczBUZGl3QjNMZlNtRlJreVZLenZYWUlqdlRWb01fOHJMUXBRSFRqeTZSM0VpTFNDcGF1Zm1xVGR5Vm9GWVJEbFJKTlBrTjd2YzdPSFBMZDZhUFE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:20:14 GMT",
-      "description": "Jensen Huang resigns, NVIDIA drops in pre-market trading &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "title": "AI帝國震盪！Jensen Huang閃電請辭引爆接班大戰，華爾街押注Nvidia權力重組走向 - 美股放大鏡",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVNlNGk5NUNfQjJZSThjSUJqaUNvSzExaE5qOXQ3UWQzNHhhRm1KN2E5QmdkbWNzUlpMXzd5cGVVRFJwT1V4elhLcFpzb3JvYzJseE1rQWlVaHdiQVVqb2xKcl9LVWduc3ZkTWhaY0lWbnZVMzdzeFpmdUJHLXpyNEtYOGlWaGgyTWlvMUpjdDduNlVr?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 21:00:23 GMT",
+      "description": "AI帝國震盪！Jensen Huang閃電請辭引爆接班大戰，華爾街押注Nvidia權力重組走向 &nbsp;&nbsp; 美股放大鏡",
+      "source": "美股放大鏡",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -207,11 +238,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 66,
       "priority": "A",
-      "id": "cc9183791c7d61a2",
+      "id": "46dcd2a4bcdaf19e",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "Jensen Huang resigns, NVIDIA drops in pre-market tradin…",
+        "summary": "AI帝國震盪！Jensen Huang閃電請辭引爆接班大戰，華爾街押注Nvidia權力重組走向 - 美股放大鏡",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -256,6 +287,68 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
+      "title": "AI帝國震盪：Jensen Huang請辭後，美股資金版圖大洗牌、Anthropic搶當新寵 - 美股放大鏡",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQakRTUlRWY0Z5V2RPTFhGU2FKbjUwRmVFaWFiY01JblkwUXJLWE40U2xLRnJTcDVXLXUyZDhpbWsxd3ROMGxwQ0ljc3AtM2xBRXJ6UWQ1VndNT1dxMjZiRldPNGNvQldnd0JxczdIanIzUDV4QXl6cVR6VWRpdnlXcFpDN3JfR1BCYnd5TGNRajY3T3ZE?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 00:00:26 GMT",
+      "description": "AI帝國震盪：Jensen Huang請辭後，美股資金版圖大洗牌、Anthropic搶當新寵 &nbsp;&nbsp; 美股放大鏡",
+      "source": "美股放大鏡",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "85b31999c1dd1e03",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "AI帝國震盪：Jensen Huang請辭後，美股資金版圖大洗牌、Anthropic搶當新寵 - 美股放大鏡",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "AI霸主震盪！Jensen Huang請辭掀風暴 開源陣營、5000億融資計畫與散戶激情全面壓力測試 - 美股放大鏡",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOThHc2liV1hTMlZJZ0dJenlXUEx4djlXMVNEdGoxZm1DazhoZ2xHRmYzLWQxWl9YOUNRWW95NjZmT3hZc2x6c2UzaEFkZFhJQmhmMGJCOGxTYzdaOTdEdkYzVFhzTnhTdURBWTAxTEdKbWJlWUtRQUJMY3YtMDBySS1BaUhZdVVkZ0RKMnZMODdjelpp?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 20:00:52 GMT",
+      "description": "AI霸主震盪！Jensen Huang請辭掀風暴 開源陣營、5000億融資計畫與散戶激情全面壓力測試 &nbsp;&nbsp; 美股放大鏡",
+      "source": "美股放大鏡",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "f24c904e9a1d6136",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "AI霸主震盪！Jensen Huang請辭掀風暴 開源陣營、5000億融資計畫與散戶激情全面壓力測試 - 美股…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
       "title": "Nvidia's Future Beyond Jensen Huang Could Test the AI Boom -- Market Talk - Moomoo",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeTJ3dndZeGh1V2RNT1V3NzFpTUpmZXppNHBfVDJ0UzRvT2hwcXUxRnpjRmFPNnJKN3dGREt5QWpCRlpoTDctckswOF9QV0diSUtRcUdvSzAyYlJBV3lhQzdta1ZpMGVPUldnTHZJMnJQeDFsMEw3czhxRFJKQUxtblk5SEFGNXRodlo1QmZuODlUbDg1UW1qWVdCb2Nra0JWRkhDWA?oc=5",
       "pubDate": "Thu, 12 Nov 2026 03:06:24 GMT",
@@ -274,6 +367,37 @@
       "ai": {
         "priority": "A",
         "summary": "Moomoo出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Stock Market Crash [LIVE]: How Jensen Huang’s Resignation Is Hitting Nvidia, Nasdaq And BTC - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWjZpSDZwR1JVOThWQVRTSlZlNTd0Q0N0cmJwc3RKTXp3NGcyQ1ZhM1Y1ZEc5cnZNbWVjNy13NGpkdnljdlRPbGtvSU12bTNhZVhRTXptTG5zNmJIUjZXOThLODFmMDVUdTd5SUp4WG1rRVB4RkxXd3ZHUGcyTjl0Zjd2VnYzUzZvV0xJV212QzBsdHp4dnE1dV9XU2VzMWE0SmJjV0czVFREczZacUtlejQ5VTI2Si1fakNYWVhjdklLQTkzWG5qSzlCY2lTRlZMYjlLa3N4Y25SQ0h2WVBV?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:07:21 GMT",
+      "description": "Stock Market Crash [LIVE]: How Jensen Huang’s Resignation Is Hitting Nvidia, Nasdaq And BTC &nbsp;&nbsp; TradingView",
+      "source": "TradingView",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "d68fd5f7890f2045",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "TradingView出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -349,6 +473,37 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
+      "title": "Jensen Huang resigns, NVIDIA drops in pre-market trading - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTAtMjZBbFMzbUt5dWliWGZGOHQwdnZPN2lnM0pyeXllV1BILWZ5TWRDQWctS0dyUi1zRXBjOWxjcHFEaUVDWE03VWJlczBUZGl3QjNMZlNtRlJreVZLenZYWUlqdlRWb01fOHJMUXBRSFRqeTZSM0VpTFNDcGF1Zm1xVGR5Vm9GWVJEbFJKTlBrTjd2YzdPSFBMZDZhUFE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:20:14 GMT",
+      "description": "Jensen Huang resigns, NVIDIA drops in pre-market trading &nbsp;&nbsp; 富途牛牛",
+      "source": "富途牛牛",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "cc9183791c7d61a2",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "Jensen Huang resigns, NVIDIA drops in pre-market tradin…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
       "title": "Rumors of Jensen Huang's removal impact some NVIDIA ecosystem companies; AMD and Broadcom see positive developments - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd0wxNEZJX3hoa0x5d0NrR1pwQlYxc0d6cEh5WnQxdDJCOGhYbW1vZVlvSlM0aTE0UTRESWtvd0h0TlVvM1NfQ3pwR1picEs4YnpWcy01dXd1azk2TnA2OEloR2NNSVY1VVdsa3ZKdlN1MjFJOFZrSjlzZkRGQk8yaUd1S3duUXRHd3J4OVpXbm5jay1EVEE5alNSbnBQc1R4SG5jN25MUQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 07:20:03 GMT",
@@ -380,11 +535,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "Analysts warn: NVIDIA's valuation could shrink by nearly 30% if Jensen Huang steps down as CEO - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTdoMzNpWHpkWlcyQmdwUl8zOVNpVXZLbjl4X09jekdDZThSeFJlaERIcWs2WWU0eTduMWl4ell4VnRJY0l1dXdDLWkzRWdzY29lU1RIR056QUgxeUYzTFBwSzVnQ2dsZzJnWnB2V21tVnp0LVJkejMtQ2tHNVVnZW5Qb3ZQQmhSZmlwZExydVpiUnFrLVVNcnVWUEgtV1ZBeXZn?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 14:25:27 GMT",
-      "description": "Analysts warn: NVIDIA's valuation could shrink by nearly 30% if Jensen Huang steps down as CEO &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
+      "title": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應鏈神經緊繃 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFdCYmhRdjFqM1FLRk1fQnlOdTAzNkZ2cWNOcTNyMjRhdEhXeW5sejFqU1VSQkRjZ0xmZmxKTkgwRllLM0pvUEh5eUlXdWxqemJiRjlwNUtpeTFBZXVzSkZoX2ZDM1NXNGppMWtCdVh3bDBOOE1xTHljb29XYWJpZTQ4OXpBUExLZ2Zqb0dB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:00:25 GMT",
+      "description": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應鏈神經緊繃 &nbsp;&nbsp; CMoney投資網誌",
+      "source": "CMoney投資網誌",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -393,11 +548,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 63,
       "priority": "B",
-      "id": "ae918ebd89060984",
+      "id": "4e8a81741522721d",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "Analysts warn: NVIDIA's valuation could shrink by nearl…",
+        "summary": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -535,37 +690,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "持仓",
-      "title": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLTR 持股由187,897股增至748,895股，增加約299%； $NVDA 增加8.1%至955萬股。 $OKTA 減持45.9%，但仍保留約197萬股； $VRT 減持46.3%至437,915股。 $RBRK 則首次出現在可 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wNVRxSkhMRVJ0ODR4d0E2OEg5VU1sRVM0LU45dlZTekV2RmtJeVZfNGdVTEE4VzlUQzJJS281Ty1pb3NkaTk4djlVR2RfWTV1OElHcmJsYy1FZi1TNlhGbjVZd1hGNDQ?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 01:19:20 GMT",
-      "description": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLTR 持股由187,897股增至748,895股，增加約299%； $NVDA 增加8.1%至955萬股。 $OKTA 減持45.9%，但仍保留約197萬股； $VRT 減持46.3%至437,915股。 $RBRK 則首次出現在可 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
-      "priority": "B",
-      "id": "44d264e1bc24169e",
-      "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLT…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "持仓",
       "title": "Thames Capital於11月12日提交、 2026年9月30日持倉的13F， $VRT 由122,240股降至100,894股，減少17.5%。 此前Allspring減少46.3%、New South Capital減少22.3%，三家季末都仍保留持股。 Thames的半導體配置也有明顯調整：第二季的 $AVGO、 $AMD、 $N - X",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fQWFLRVZ2TTVDcUV0NWVYcWR1WEFfdzJhTkViV0dMSXFmcWV3UURYdjQyM2RaZXJBLTl2MmtpNG8zRDdwVGE2WVFuS05qT196VC1CZDFfVjNBOFRSSHlmZnpZcEo0MUE?oc=5",
       "pubDate": "Sun, 15 Nov 2026 02:53:04 GMT",
@@ -584,37 +708,6 @@
       "ai": {
         "priority": "B",
         "summary": "Thames Capital於11月12日提交、 2026年9月30日持倉的13F， $VRT 由122,24…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "持仓",
-      "title": "Alphabet $GOOGL 最新13F，新增一筆 Qualcomm持倉。依11月6日提交 2026年9月30日持倉的申報， $QCOM 持有2,976,982股，季末價值約5.48億美元，占申報證券價值約0.62%；重點是對應管理人為GV Management Company，因此要視為Alphabet旗下投資管理 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xblFJVmNLcFZLM282dmFDNGItTi1lSk1MUXhKY2R4b2x0OGRJMGl1OXl6MVRxdFlmVHkyWUtBMjVPdEdqVVpjbkVMV1paQ3BOMnpMUDdXS1RJNE5XcC1KZUV3aUtuN1U?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 01:37:45 GMT",
-      "description": "Alphabet $GOOGL 最新13F，新增一筆 Qualcomm持倉。依11月6日提交 2026年9月30日持倉的申報， $QCOM 持有2,976,982股，季末價值約5.48億美元，占申報證券價值約0.62%；重點是對應管理人為GV Management Company，因此要視為Alphabet旗下投資管理 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 55,
-      "priority": "B",
-      "id": "17b9fabdff10dd15",
-      "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Alphabet $GOOGL 最新13F，新增一筆 Qualcomm持倉。依11月6日提交 2026年9月3…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -652,99 +745,6 @@
           "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "新加坡內政部（Ministry of Home Affairs，MHA）〈Clarification Statement on Wall Street Journal's Article〉｜2026年10月31日 1、MHA 回應《華爾街日報》（WSJ）2026年10月30日的報導〈Chinese Executive Close to Nvidia CEO Suspected of Giving China Information - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XRGlDeU5fSU16cnA2RHlRUW9rUlVMS1dpSXphd3hrYlV0cHZqMmxMRDVKcTlFc1lpQ1l2M0diV3MtTnVSRVRnUzdadmdCdm9yZ19UeGEteThEeV9JTXc?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 10:09:45 GMT",
-      "description": "新加坡內政部（Ministry of Home Affairs，MHA）〈Clarification Statement on Wall Street Journal's Article〉｜2026年10月31日 1、MHA 回應《華爾街日報》（WSJ）2026年10月30日的報導〈Chinese Executive Close to Nvidia CEO Suspected of Giving China Information &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "d96f9972be276dcc",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "新加坡內政部（Ministry of Home Affairs，MHA）〈Clarification Stat…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "微軟逐步結束 Oracle AI 雲端合約，舊款 NVIDIA GPU 已不符需求 據報導，Microsoft（ $MSFT）正逐步結束與 Oracle（ $ORCL）的 AI 運算合約，原因是這批租用基礎設施搭載的舊世代 NVIDIA（ $NVDA）GPU，已經跟不上微軟不斷升級的需求。這件事也讓外界再次質疑 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqSGVXVVluTDZjbUF6azNySjZHc1dXdTJHOXFVRWtWbndtMmpBR2NNMXJTc2tOSTFkc1VpbGJ2QV9KdUNxNG9jd0l6bGNGUUdaSlIwYkhWZ2JCTHFuNEE?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 02:56:06 GMT",
-      "description": "微軟逐步結束 Oracle AI 雲端合約，舊款 NVIDIA GPU 已不符需求 據報導，Microsoft（ $MSFT）正逐步結束與 Oracle（ $ORCL）的 AI 運算合約，原因是這批租用基礎設施搭載的舊世代 NVIDIA（ $NVDA）GPU，已經跟不上微軟不斷升級的需求。這件事也讓外界再次質疑 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "b24043b14d68ba00",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "微軟逐步結束 Oracle AI 雲端合約，舊款 NVIDIA GPU 已不符需求 據報導，Microsoft…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "〈黃仁勳辭職後，台灣伺服器業者主動緊縮客戶查核〉 1、台灣伺服器業者自行加強把關： 1）引述經濟日報報導，NVIDIA（ $NVDA）共同創辦人黃仁勳辭去所有職務後，據傳台灣伺服器業者因擔心美方加強出口管制，主動加強查核客戶和出貨地點，甚至暫停承接陌生客戶的 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02T1dIYmxiak1OaldEMDBOS1hXdzRSd2EzNGdiMnhtMUJSY0g0YjRtRFJab0MyQVlodjBneWVqX0lXWHhrSGdPRnJodTJFOEpHLW5XLUQ5Yk5KT2hFVXc?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 03:53:52 GMT",
-      "description": "〈黃仁勳辭職後，台灣伺服器業者主動緊縮客戶查核〉 1、台灣伺服器業者自行加強把關： 1）引述經濟日報報導，NVIDIA（ $NVDA）共同創辦人黃仁勳辭去所有職務後，據傳台灣伺服器業者因擔心美方加強出口管制，主動加強查核客戶和出貨地點，甚至暫停承接陌生客戶的 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "d75aa9ee6df11fa0",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "〈黃仁勳辭職後，台灣伺服器業者主動緊縮客戶查核〉 1、台灣伺服器業者自行加強把關： 1）引述經濟日報報導，NV…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
       }
     }
