@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T09:36:46.244Z",
+  "generatedAt": "2026-11-16T20:26:37.482Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -163,37 +163,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "AMD and Other Chip Stocks Slide as Wall Street Rethinks the AI Trade Without Jensen Huang - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXdGTUJkRUNSRFc3Qnl6MF9wejB3eDk4WWRqNk5fQjYwQzNKUEVacHdFRC02eGxjZVI5Z1N2aGFLak5uMTZGM29fMFNDM3BUd1M5TzMtdmZnWE1HWVVnOC1lU0wzbmtQeWxnOXpzd0tOY0ZWWk8zUUIxdHNaS21YNzVLendYUElmcGlPSGN5VGJFREJ6SU0wMDdhNlNfNlE?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 20:57:00 GMT",
-      "description": "AMD and Other Chip Stocks Slide as Wall Street Rethinks the AI Trade Without Jensen Huang &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "ad320051537559ad",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "AMD and Other Chip Stocks Slide as Wall Street Rethinks…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Stock Market Crash [LIVE]: How Jensen Huang’s Resignation Is Hitting Nvidia, Nasdaq And BTC - TradingView",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWjZpSDZwR1JVOThWQVRTSlZlNTd0Q0N0cmJwc3RKTXp3NGcyQ1ZhM1Y1ZEc5cnZNbWVjNy13NGpkdnljdlRPbGtvSU12bTNhZVhRTXptTG5zNmJIUjZXOThLODFmMDVUdTd5SUp4WG1rRVB4RkxXd3ZHUGcyTjl0Zjd2VnYzUzZvV0xJV212QzBsdHp4dnE1dV9XU2VzMWE0SmJjV0czVFREczZacUtlejQ5VTI2Si1fakNYWVhjdklLQTkzWG5qSzlCY2lTRlZMYjlLa3N4Y25SQ0h2WVBV?oc=5",
       "pubDate": "Thu, 12 Nov 2026 14:07:21 GMT",
@@ -256,37 +225,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "NVDA Stock Falls Over 5% Pre-Market: Trump Backs Jensen Huang to Stay as Nvidia CEO, Says 'You Never Know What is Going on' - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQLWNudnlFTWVHeVJPWnVsWERubklLZDh6N0hQUTRkRExEb3BXQ1UzYXZLTDRlVll0anBkX0VfVDJ4MTAwS2NkbkRjMUg5LUhjbGlZOXhsdmxEYlRReTJNRlhFQjFWV0FTbm9LWU85NWpxOEtmZWZZTmwzeDVYUF92QTVYeTZ5ZmZVc2xQWUFmd0pSQXB5TDN3alRUNE5CVWtxb1VsSjloMUZfenJ0N0hJVXV2LV83ckpoTVFuLVU0Vm1LM3F0ZHgyYV91ZFduMTJ0bjRmQkE3cU4yRUNzUXZWenNoR25wOU5rMnFfQmV0N3FvZm1ETl9XUWdXYk1yVHZZQkdRMkswZm5MZnRxNEdQSEJpdXljVG9IUkRnbG02Y2w?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:40:02 GMT",
-      "description": "NVDA Stock Falls Over 5% Pre-Market: Trump Backs Jensen Huang to Stay as Nvidia CEO, Says 'You Never Know What is Going on' &nbsp;&nbsp; TradingView",
-      "source": "TradingView",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "79d747305fc34786",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "TradingView出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Jensen Huang resigns, NVIDIA drops in pre-market trading - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTAtMjZBbFMzbUt5dWliWGZGOHQwdnZPN2lnM0pyeXllV1BILWZ5TWRDQWctS0dyUi1zRXBjOWxjcHFEaUVDWE03VWJlczBUZGl3QjNMZlNtRlJreVZLenZYWUlqdlRWb01fOHJMUXBRSFRqeTZSM0VpTFNDcGF1Zm1xVGR5Vm9GWVJEbFJKTlBrTjd2YzdPSFBMZDZhUFE?oc=5",
       "pubDate": "Thu, 12 Nov 2026 14:20:14 GMT",
@@ -305,37 +243,6 @@
       "ai": {
         "priority": "A",
         "summary": "Jensen Huang resigns, NVIDIA drops in pre-market tradin…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應鏈神經緊繃 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFdCYmhRdjFqM1FLRk1fQnlOdTAzNkZ2cWNOcTNyMjRhdEhXeW5sejFqU1VSQkRjZ0xmZmxKTkgwRllLM0pvUEh5eUlXdWxqemJiRjlwNUtpeTFBZXVzSkZoX2ZDM1NXNGppMWtCdVh3bDBOOE1xTHljb29XYWJpZTQ4OXpBUExLZ2Zqb0dB?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 06:00:25 GMT",
-      "description": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應鏈神經緊繃 &nbsp;&nbsp; CMoney投資網誌",
-      "source": "CMoney投資網誌",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "4e8a81741522721d",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -658,6 +565,130 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "宏观",
+      "title": "本週誰掌握行情：美聯儲，還是 $NVDA？ 一邊是利率預期，一邊是 AI 盈利。 再加上 $WMT 財報與零售數據，消費力也要接受檢驗。 WEEX 本週關註清單，你把哪個事件排第一？👇 https://t.co/62zRTEyfDu #WEEX #Tradfi #美股 #美聯儲 #NVDA - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DMlZuUzU1TXhWQzlWWWFNcWtGZDJCSWRVcnFUX3IycS1qejc0SUJBd05GVEUyV0lsVFFhSDNLMW1wcWVOSmt1VjU1RVRUUC1ISG9hX3MxcUdmakdpV3BTSXNSZkU?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 10:55:20 GMT",
+      "description": "本週誰掌握行情：美聯儲，還是 $NVDA？ 一邊是利率預期，一邊是 AI 盈利。 再加上 $WMT 財報與零售數據，消費力也要接受檢驗。 WEEX 本週關註清單，你把哪個事件排第一？👇 https://t.co/62zRTEyfDu #WEEX #Tradfi #美股 #美聯儲 #NVDA &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "e29098623c96ab31",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "本週誰掌握行情：美聯儲，還是 $NVDA？ 一邊是利率預期，一邊是 AI 盈利。 再加上 $WMT 財報與零售…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "宏观解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 NVIDIA（ $NVDA）：受影響最大 1）以算力營收計算，2027到2030年出貨分別下修22%、39%、56%、66%； 以總功耗計算，分別下修14%、35%、50%、59%。 2）Feynman 世代的售價在 HBM 成本調整之外再往下調，因 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLT0ZyT3Z1MnZXSUpQTFQwUnpzdzFwLWptR0t5YTV5TEprR1g3QVYtWk8wT3h4VHNjaXpGd0ptRHdOQW0xTnhBVFItSS1IRnAtNXBMVFFhcDZTWEdLd3c?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 12:41:47 GMT",
+      "description": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 NVIDIA（ $NVDA）：受影響最大 1）以算力營收計算，2027到2030年出貨分別下修22%、39%、56%、66%； 以總功耗計算，分別下修14%、35%、50%、59%。 2）Feynman 世代的售價在 HBM 成本調整之外再往下調，因 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "78d04609c6774a0c",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 NVIDIA（ $NVDA）：受影響最大 1）以算力營…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "野村（Nomura）：全球記憶體 1、美國若通過針對中國的法案（AI OVERWATCH Act、Chip Security Act、MATCH Act），需求流失將小於供給流失，對全球記憶體市場帶來淨正面影響。 2、若 NVIDIA（ $NVDA）晶片銷往中國的需求（包括正式出口、海外資料中心及非正式管 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84ZFRGa29tQ2liNHJSbHd4ZXZOai1pcHJKcl9teXozdDFTdWQ4aEJWanlFbGhvdWFRSHBfZ05fSFhlVndqS3k4UWJzT05qTzZhbkczMUduN1RqeEczSWc?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 14:04:39 GMT",
+      "description": "野村（Nomura）：全球記憶體 1、美國若通過針對中國的法案（AI OVERWATCH Act、Chip Security Act、MATCH Act），需求流失將小於供給流失，對全球記憶體市場帶來淨正面影響。 2、若 NVIDIA（ $NVDA）晶片銷往中國的需求（包括正式出口、海外資料中心及非正式管 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "88e526f632bb7647",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "野村（Nomura）：全球記憶體 1、美國若通過針對中國的法案（AI OVERWATCH Act、Chip S…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，更可能成為美股下一波行情的關鍵催化劑！ 你認為這次的財報能帶領市場起飛，還是讓市場失望？👀 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aaF9ScjcyWGI4OXlwQXVWRnBweGF1dEJsUEdSc3NITWprVjgwcnVQVGk0TmJnWDB2djk1TFRWLU92UFpHUWJEMmtEZHpoZ1lYNFd4RUo2bXRXLWVlZTZSVFUxSzI4dw?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 09:00:02 GMT",
+      "description": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，更可能成為美股下一波行情的關鍵催化劑！ 你認為這次的財報能帶領市場起飛，還是讓市場失望？👀 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "ecf5fee79d4b0476",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "〈京元電專訪：新材料讓測試需求成長得比晶片量更快〉 1、京元電的定位 1）京元電子（KYEC, https://t.co/BvfgnAGFil）是全球最大的專業晶片測試廠，客戶包括 NVIDIA（ $NVDA）。 2）NVIDIA 已預付11億美元，預訂京元電在美國的測試產能。 2、總經理張高薰的觀點 1）財 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCNlN5Q2dRUzdVSGJzUnVZamRpajNDTTQySldzUlFfRDM4TFd6UFBhWkktdjJDSWd6Y0V5NnhIT3dPZDlZaE9HQ0ViWmdLc1l6c1c4V0xzY1VMSEZGbUE?oc=5",
@@ -690,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "匯豐：將英偉達(NVDA.O)評級下調至「持有」，目標價從365美元下調至170美元。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yTTZHOWFkQy1fXzRiMWRGZ3JyaFZwNEpEX0xRYlc5OXFqQW05b29DZ0J3MmNzcHM3V21kZ0MtYVdrNXd5Z3pFdVNvX01wRG5ORGtWTkpzd1JRdEVkQmZXVF9VRWU?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 08:25:20 GMT",
-      "description": "匯豐：將英偉達(NVDA.O)評級下調至「持有」，目標價從365美元下調至170美元。 &nbsp;&nbsp; X",
+      "title": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 1、下修幅度 1）SemiAnalysis 在機構版內容中下調了未來 AI 晶片出貨量、相關支出和用電需求的預測，2028年起的調整最明顯，NVIDIA（ $NVDA）是受影響最大的供應商。 2）2028年全球 AI 加速器資本支出預測從約1. - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1NckNEVi11MkdsXzZabGhPTlNxVUcxX1A1MjFyaWlLZlNRaVlpSFNSM2NST0ZLd3lLc05ud2NvcUtQT216TU1fZXlxUzVmcXlJRGF6XzFQcUVQc0dZVnc?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 10:22:05 GMT",
+      "description": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 1、下修幅度 1）SemiAnalysis 在機構版內容中下調了未來 AI 晶片出貨量、相關支出和用電需求的預測，2028年起的調整最明顯，NVIDIA（ $NVDA）是受影響最大的供應商。 2）2028年全球 AI 加速器資本支出預測從約1. &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -703,46 +734,15 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "34d9c0f9001f5158",
+      "id": "f1c4a4455b9d1278",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "匯豐：將英偉達(NVDA.O)評級下調至「持有」，目標價從365美元下調至170美元。 - X",
+        "summary": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 1、下修幅度 1）SemiAnalysis 在機構版內…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "Lex Fridman $NVDA 讓 Jensen 離開是一個巨大的錯誤，對美國和對人類來說都是。這就像 $AAPL 再次解僱 Steve Jobs，但規模更大，因為 AI 在定義我們世界未來的角色如此重要。 我一直對此保持沉默，是出於對 Jensen 的家人和團隊的尊重，我見過他們，他們都是 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zekUyYTBHM0JQVEcxSlJZWlFpa0VTYkNIRVQzYlZ6Ykl4Q3BUVUkzYmVpeEpTTmJfOGsxUFFwcjNhejF5Z2pnLWkwSDFRQjRGXy1tRHpfd3ZWbkJhUklUb2RhTWpCUnJHV2UtRUhGYURmZw?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 02:42:19 GMT",
-      "description": "Lex Fridman $NVDA 讓 Jensen 離開是一個巨大的錯誤，對美國和對人類來說都是。這就像 $AAPL 再次解僱 Steve Jobs，但規模更大，因為 AI 在定義我們世界未來的角色如此重要。 我一直對此保持沉默，是出於對 Jensen 的家人和團隊的尊重，我見過他們，他們都是 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "66fab810c6bfb163",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Lex Fridman $NVDA 讓 Jensen 離開是一個巨大的錯誤，對美國和對人類來說都是。這就像 $…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
