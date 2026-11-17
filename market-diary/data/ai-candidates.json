@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:19:12.456Z",
+  "generatedAt": "2026-11-17T22:18:36.291Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -38,37 +38,6 @@
     {
       "market": "宏观",
       "signal": "人物",
-      "type": "宏观",
-      "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
-      "pubDate": "Tue, 10 Nov 2026 20:30:00 GMT",
-      "description": "Speech At the C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C.",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 73,
-      "priority": "A",
-      "id": "4d4ada987bf16d27",
-      "rankReason": "一级/官方信源；高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
       "type": "公司事件",
       "title": "Barr, American Inequality and the Future of AI",
       "link": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
@@ -85,6 +54,68 @@
       "priority": "A",
       "id": "898c61cb09af6347",
       "rankReason": "一级/官方信源；高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "美联储出现一条新的公司事件信息",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "AI教父倒下、美股狂震：Jensen Huang辭職掀起晶片股治理風暴 - 美股放大鏡",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQzd2Tm5UOGRCNnlOVFNaQkwzRWpxMVVYNWl0aGxtVmpnLS1EYjJpZk55QmsyMlMzZ1Zkb0Rxa0NwQy1KQnR6ZlJTV0p4SXNIdURzcVpweE1qZE1HaE51RWtuZlFQekN1SGVrZVdNaVB6R3M3MlhlVmUzbkJsM3ZBNFhCTVBDZDlkRDZBQjFHX0hfeVhI?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 21:00:32 GMT",
+      "description": "AI教父倒下、美股狂震：Jensen Huang辭職掀起晶片股治理風暴 &nbsp;&nbsp; 美股放大鏡",
+      "source": "美股放大鏡",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 66,
+      "priority": "A",
+      "id": "849dc393795d7f33",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "AI教父倒下、美股狂震：Jensen Huang辭職掀起晶片股治理風暴 - 美股放大鏡",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "宏观",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+      "pubDate": "Tue, 17 Nov 2026 14:10:00 GMT",
+      "description": "Speech At “Navigating the Future of Banking and Payments,” The Clearing House Annual Conference 2026, New York, New York",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 63,
+      "priority": "B",
+      "id": "5be4755e3b251501",
+      "rankReason": "一级/官方信源；市场相关；关键人物",
       "ai": {
         "priority": "A",
         "summary": "美联储出现一条新的公司事件信息",
@@ -132,68 +163,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "NVIDIA and Jensen Huang Sued by Shareholders: Analyzing Wall Street’s AI Bubble Warning, CEO Succession Suspense, and US-China Geopolitical Conspiracy Theories - Mashdigi",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0U3Z3NBM094TXNYTlJtdXphb21zQkYyd29rMUwtS3N6UkY4SjcwUnV6ZDdua3VfU2R1dHV6U2ZhRUtLTW5ITGo2elFUQkhHdWkxQjNFWEJaSVlMOC1hNWM1LXJUTTBjZUZlT3UyOFJGV3BRR1AxMzh5R0UxLTloOUp3?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 06:26:40 GMT",
-      "description": "NVIDIA and Jensen Huang Sued by Shareholders: Analyzing Wall Street’s AI Bubble Warning, CEO Succession Suspense, and US-China Geopolitical Conspiracy Theories &nbsp;&nbsp; Mashdigi",
-      "source": "Mashdigi",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "e05aeeed42993b22",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Mashdigi出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美股放大鏡",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTR4Njd5V3ZPSFF3STJOUDE4V3NjMlR1dUhCOGdSbG5OWUkwWWxzcmo5S3pIZmZTckV0bTEzaVFfaW45QUpWU09rcl8zb1JsQUJGOWxlamE1TzFNZ0tqVHd1TTNIRmZOZGhGNWlxLTZOQ1ROMDZXZUVXQlV2SldVdlRXWk1yWV9kWVhMQm9uWS1od2FR?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 22:00:31 GMT",
-      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; 美股放大鏡",
-      "source": "美股放大鏡",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "1e040b3790da160f",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Rumors of Jensen Huang's removal impact some NVIDIA ecosystem companies; AMD and Broadcom see positive developments - 富途牛牛",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd0wxNEZJX3hoa0x5d0NrR1pwQlYxc0d6cEh5WnQxdDJCOGhYbW1vZVlvSlM0aTE0UTRESWtvd0h0TlVvM1NfQ3pwR1picEs4YnpWcy01dXd1azk2TnA2OEloR2NNSVY1VVdsa3ZKdlN1MjFJOFZrSjlzZkRGQk8yaUd1S3duUXRHd3J4OVpXbm5jay1EVEE5alNSbnBQc1R4SG5jN25MUQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 07:20:03 GMT",
@@ -225,6 +194,37 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
+      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeXRGWEhKR09RNGpsVEhNbkpoa0E5MUFBRzlIV2JLMU9mRUpDeHJsUjlUTlFIOE4xaHcyY3lMTEd0VXpqTC0xVVlWbEtkY2ljSERLQ1RtZXFQOHptT2xkSzg5b21kR0lXWDhmVUphd2tpQnlHQ0ZSS3pibzFtdDFPcUduTHJBdUVfRVdfNVl3?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 22:00:35 GMT",
+      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; CMoney投資網誌",
+      "source": "CMoney投資網誌",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "53f4d81f6c4e1810",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - C…",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
       "title": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應鏈神經緊繃 - CMoney投資網誌",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFdCYmhRdjFqM1FLRk1fQnlOdTAzNkZ2cWNOcTNyMjRhdEhXeW5sejFqU1VSQkRjZ0xmZmxKTkgwRllLM0pvUEh5eUlXdWxqemJiRjlwNUtpeTFBZXVzSkZoX2ZDM1NXNGppMWtCdVh3bDBOOE1xTHljb29XYWJpZTQ4OXpBUExLZ2Zqb0dB?oc=5",
       "pubDate": "Thu, 12 Nov 2026 06:00:25 GMT",
@@ -243,37 +243,6 @@
       "ai": {
         "priority": "A",
         "summary": "AI 晶片王國震盪！Jensen Huang風暴重擊Nvidia，Elon Musk隔空喊話挖人、美股AI供應…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "With Jensen Huang stepping down, domestic substitution is once again in the spotlight! What opportunities exist along the Hong Kong‑listed chip industry chain? - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVldlUzlEVmdYdnVNU1ZaNEZFUFlYVGUxWlZPbmNIUWhrYzB5eFEtVHBLVFJpcEd6MEwwbTBjNk5ka1RqQ3lhdjNKU2dsUjR2eHpicng1R2ZaTXJ6c0RGS2pSdkFIdWwxYmpHaC0zYjFIbUR2Mmx2RkxtbEZBSzE3QjZ1RWt6T1N4NjZoYVE1UFNMVzIxRzB5ZWZqNUdudHlna1RPaUMxazgzMU5IbkpJ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 07:42:00 GMT",
-      "description": "With Jensen Huang stepping down, domestic substitution is once again in the spotlight! What opportunities exist along the Hong Kong‑listed chip industry chain? &nbsp;&nbsp; 富途牛牛",
-      "source": "富途牛牛",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "2a5e58df8fcf085d",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "With Jensen Huang stepping down, domestic substitution …",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -408,6 +377,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "财报",
+      "title": "今天必须熬夜守 $NVDA 的财报电话会，主要看 Kress 如何回应 Jensen 的声明。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mS2llUGxsWm5uTl9WVHlxcndsZ2JRcXp2dm9sMDhucnhMd0lJOGZ0dlNNTFUwQkd4dGR0Z2Z0c0dhQk16TnFQcVBDdHZncXRGTEFEd2MyandRRnVYYnBN?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 17:04:51 GMT",
+      "description": "今天必须熬夜守 $NVDA 的财报电话会，主要看 Kress 如何回应 Jensen 的声明。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 55,
+      "priority": "B",
+      "id": "a1511ca3fc290eb9",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "今天必须熬夜守 $NVDA 的财报电话会，主要看 Kress 如何回应 Jensen 的声明。 - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "事实",
       "type": "宏观",
@@ -473,10 +473,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "野村（Nomura）：全球記憶體 1、美國若通過針對中國的法案（AI OVERWATCH Act、Chip Security Act、MATCH Act），需求流失將小於供給流失，對全球記憶體市場帶來淨正面影響。 2、若 NVIDIA（ $NVDA）晶片銷往中國的需求（包括正式出口、海外資料中心及非正式管 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84ZFRGa29tQ2liNHJSbHd4ZXZOai1pcHJKcl9teXozdDFTdWQ4aEJWanlFbGhvdWFRSHBfZ05fSFhlVndqS3k4UWJzT05qTzZhbkczMUduN1RqeEczSWc?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 14:04:39 GMT",
-      "description": "野村（Nomura）：全球記憶體 1、美國若通過針對中國的法案（AI OVERWATCH Act、Chip Security Act、MATCH Act），需求流失將小於供給流失，對全球記憶體市場帶來淨正面影響。 2、若 NVIDIA（ $NVDA）晶片銷往中國的需求（包括正式出口、海外資料中心及非正式管 &nbsp;&nbsp; X",
+      "title": "〈Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO〉 黃仁勳表態願意回任 NVIDIA 執行長 1）NVIDIA（ $NVDA）前執行長黃仁勳週二上午發表下台後的第一次公開談話，表示如果董事會提出邀請，他願意回任執行長。 2）黃仁勳在簡短聲明中 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kb0hhMFg4UEtpRnJWcGhCUGlHT3BMMFk2bF80dFUtYW5CZzNGem1vU054Y0dOSE13WkVqNlVEM3NjTmN2YTVOcWZaZFA5M19xSWE0RXlZWXZHZDNaWXc?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 16:10:20 GMT",
+      "description": "〈Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO〉 黃仁勳表態願意回任 NVIDIA 執行長 1）NVIDIA（ $NVDA）前執行長黃仁勳週二上午發表下台後的第一次公開談話，表示如果董事會提出邀請，他願意回任執行長。 2）黃仁勳在簡短聲明中 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -486,11 +486,104 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "88e526f632bb7647",
+      "id": "306ff8cf1af2873f",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "野村（Nomura）：全球記憶體 1、美國若通過針對中國的法案（AI OVERWATCH Act、Chip S…",
+        "summary": "〈Jensen Huang Breaks Silence, Signals Willingness to Re…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "〈慧榮搶攻 AI 儲存商機，攜手 NVIDIA、信驊擴大布局〉 1、SC26 展出重點 1）慧榮（ $SIMO）在 11/16 至 11/19 於美國芝加哥舉行的 Supercomputing 2026（SC26）展會，展出 PCIe Gen5 和 Gen6 的 MonTitan 企業級 SSD 控制晶片和參考平台，瞄準 AI 工廠、代理式 AI - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YOVNyQ09FeHc0NFBVeFpTemJWc0wwV0JaUWswQl9PbDlDMEY3anF4NGpQWm1CUDFSNzdrTkZBbzRWRFdKa3BrXzVlT0VQQ1pIaEVwN2FJZXFpV2pSV2c?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 14:01:00 GMT",
+      "description": "〈慧榮搶攻 AI 儲存商機，攜手 NVIDIA、信驊擴大布局〉 1、SC26 展出重點 1）慧榮（ $SIMO）在 11/16 至 11/19 於美國芝加哥舉行的 Supercomputing 2026（SC26）展會，展出 PCIe Gen5 和 Gen6 的 MonTitan 企業級 SSD 控制晶片和參考平台，瞄準 AI 工廠、代理式 AI &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "944ff5bca7c9cd13",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "〈慧榮搶攻 AI 儲存商機，攜手 NVIDIA、信驊擴大布局〉 1、SC26 展出重點 1）慧榮（ $SIMO…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "黃仁勳首度回應閃辭爭議： 承認個人犯錯，承諾配合董事會獨立調查 話鋒一轉： 離職後大量員工、投資者、合作夥伴要他回鍋 若董事會認為符合公司與股東利益，他願意回來 「NVIDIA 是一個世代只能出現一次的公司」 這段發言，是對董事會的最終喊話 @JensenHuang - X",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFMFhuTDJhQjZtZWw4M0Nlb3ItdEdZa3JmUVZjTVdLYnNKelUxVC16dG9qcW80NEZacjA3a1JocDVFdGh6ZGQ1TUtmeTV3QVZvcm5Ea294bGhvaF9DOWM5Rg?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 16:26:34 GMT",
+      "description": "黃仁勳首度回應閃辭爭議： 承認個人犯錯，承諾配合董事會獨立調查 話鋒一轉： 離職後大量員工、投資者、合作夥伴要他回鍋 若董事會認為符合公司與股東利益，他願意回來 「NVIDIA 是一個世代只能出現一次的公司」 這段發言，是對董事會的最終喊話 @JensenHuang &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "0a0aa9f7e67af981",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "黃仁勳首度回應閃辭爭議： 承認個人犯錯，承諾配合董事會獨立調查 話鋒一轉： 離職後大量員工、投資者、合作夥伴要…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "〈本週 NVIDIA 消息後，Anthropic 處境相對有利〉 1、本週兩個變化，方向都對 Anthropic 有利 1）財報狗( @statementdog ) 認為，本週 NVIDIA（ $NVDA）相關消息出來後，Anthropic 的處境比 AI 市場上多數業者更有利。 2）第一個變化是華府切斷中國遠端使用美國算力的 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JVS1FbEt0V0xPYkhDak5CN3hBUnhYMHJULWpYNU5SX0lnczZnakdKTGRJbDl3MVpIR1dXNXFfWUFyS2xDcG84Y3J0cXN5STdQT2wwaXVtNkJjT1Jmc3c?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 14:03:29 GMT",
+      "description": "〈本週 NVIDIA 消息後，Anthropic 處境相對有利〉 1、本週兩個變化，方向都對 Anthropic 有利 1）財報狗( @statementdog ) 認為，本週 NVIDIA（ $NVDA）相關消息出來後，Anthropic 的處境比 AI 市場上多數業者更有利。 2）第一個變化是華府切斷中國遠端使用美國算力的 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "9507ebd62480f359",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "〈本週 NVIDIA 消息後，Anthropic 處境相對有利〉 1、本週兩個變化，方向都對 Anthropi…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -535,70 +628,8 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Nvidia 董事會 $NVDA 並未考慮讓 Jensen Huang 回鍋擔任執行長，CNBC 報導。 Nvidia 股價因這則消息跌至當日新低，目前較 10 月 6 日高點下跌 -34%。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GMUE4ZW4zX2hBMkMwblgxUFNPaTFEN3plOW1sRHVFWHJTSFNtblRYSG44ZEEySDF1QnBodTRhaHdZNHprbE9uRFlSeEhDRXFWbV9kM2pfZERPY1I0M1Fr?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 20:21:53 GMT",
-      "description": "Nvidia 董事會 $NVDA 並未考慮讓 Jensen Huang 回鍋擔任執行長，CNBC 報導。 Nvidia 股價因這則消息跌至當日新低，目前較 10 月 6 日高點下跌 -34%。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "c8062772bd305fae",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Nvidia 董事會 $NVDA 並未考慮讓 Jensen Huang 回鍋擔任執行長，CNBC 報導。 Nv…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "中國 AI 開發者 @CuiMao 用 AI（Seedance）1 小時、花 680 元生成影片獻給黃仁勳：「你一定會回來的對吧。」 影片 2.6M 觀看，背後是開發者對技術領袖的真摯情感。 $NVDA - X",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IY2pjbGgySEpERHNsMXduX2NxdnhSME9SdXRsYUoySlBGTS1ObFI3MmhseVFPcXVZd21NVzdYY1hwcl9jMzNTU1VRSzhKaTZZc0NNSHVSUXIzLXc5OHYzYg?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 13:31:59 GMT",
-      "description": "中國 AI 開發者 @CuiMao 用 AI（Seedance）1 小時、花 680 元生成影片獻給黃仁勳：「你一定會回來的對吧。」 影片 2.6M 觀看，背後是開發者對技術領袖的真摯情感。 $NVDA &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "8cf3ac779783ca56",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "中國 AI 開發者 @CuiMao 用 AI（Seedance）1 小時、花 680 元生成影片獻給黃仁勳：「…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "NVIDIA 董事會正式成立「國家安全與出口管制監督委員會」，國家安全團隊改向委員會報告。 委員會主席由董事 Suzanne Nora Johnson 擔任，每季至少開一次會，並聘外部專家提供建議。 董事長 Harvey Jones 表示，AI 帶來前所未有的國安挑戰，NVIDIA 有責任領頭解 - X",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TM1ZyT0dJamFfcU5LbEFMWWtBa1p6aFktZDNxenZOM2ZMUHdTSTFwdDZrOGtLVDRQakpmVWQ3ZmxsQU9Sc0d2b2ZRQU9QMVBCenZ6R1VRYW5OLVFkLUc1R0twOFpJY3JNMDBn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NeG9tTVBSYzJneDViV2FUZXYwdkVLUVVaT1JYdVJVZEV0Mzd6VWdqenRIZzJ2Q0hCWG1lM2hRX1YwWXBHMTR5dmx5ZF9yMjZyZ19ITFFqby10aXFtVzUxTA?oc=5",
       "pubDate": "Tue, 17 Nov 2026 12:01:42 GMT",
       "description": "NVIDIA 董事會正式成立「國家安全與出口管制監督委員會」，國家安全團隊改向委員會報告。 委員會主席由董事 Suzanne Nora Johnson 擔任，每季至少開一次會，並聘外部專家提供建議。 董事長 Harvey Jones 表示，AI 帶來前所未有的國安挑戰，NVIDIA 有責任領頭解 &nbsp;&nbsp; X",
       "source": "X",
@@ -610,7 +641,7 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "2877d5a0006b2ace",
+      "id": "646ddaeb4e5dac30",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
@@ -628,10 +659,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "昨天貝爺的講話很狠，要NVDA找外部CEO，結果今天三爺講話又不一樣了，一天一變，內部意見應該起來很分歧。 打著國安的大旗，結果呵呵～迴力鏢回來打到自己最推的AI政績，想一想這樣「星際之門」The Stargate Project就被自己砍了半隻手臂，不用等驢子州長上 - X",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlaFBQUGk5U0lUS2tpLVVIZjRUWVd6dEZkQ3puLWl6dkRHQUdtUHgxZnRuSklQQlVmVGpaWFV5Y2pwcjR6d2k0dE5uN3hrVjJaam93VVRyeVFoLTgtalVzcFNyZnU1UDh2cHRHMg?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 18:08:12 GMT",
-      "description": "昨天貝爺的講話很狠，要NVDA找外部CEO，結果今天三爺講話又不一樣了，一天一變，內部意見應該起來很分歧。 打著國安的大旗，結果呵呵～迴力鏢回來打到自己最推的AI政績，想一想這樣「星際之門」The Stargate Project就被自己砍了半隻手臂，不用等驢子州長上 &nbsp;&nbsp; X",
+      "title": "黃仁勳自從辭去Nvidia執行長職位以來，首次發表公開聲明，$NVDA，並表示他願意回鍋擔任執行長。 黃仁勳特別表示，如果董事會要求他回任，他將回歸擔任執行長。 完整聲明： 「自從我離開以來，我看到Nvidia的員工、投資者、商業夥伴和客戶紛紛呼籲我回任執行長。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UYzU3S1pHb2JYZ1cxWURCSHZnU00zN19BbEcxN1Z3NXFST0ZidUlLQU5nZjBiY1NrOWhfZkcweVBBUmt1Z1dUcm9qdS1idTUyMXRDTnFSSDBfSUw5bWx3?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 16:05:31 GMT",
+      "description": "黃仁勳自從辭去Nvidia執行長職位以來，首次發表公開聲明，$NVDA，並表示他願意回鍋擔任執行長。 黃仁勳特別表示，如果董事會要求他回任，他將回歸擔任執行長。 完整聲明： 「自從我離開以來，我看到Nvidia的員工、投資者、商業夥伴和客戶紛紛呼籲我回任執行長。 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -641,11 +672,42 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 50,
       "priority": "B",
-      "id": "e3247e409424b0b1",
+      "id": "c178df1b351fc807",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "昨天貝爺的講話很狠，要NVDA找外部CEO，結果今天三爺講話又不一樣了，一天一變，內部意見應該起來很分歧。 打…",
+        "summary": "黃仁勳自從辭去Nvidia執行長職位以來，首次發表公開聲明，$NVDA，並表示他願意回鍋擔任執行長。 黃仁勳特…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$NVDA 董事會設立國家安全與出口管制監督委員會 委員會將監督 $NVDA 的國家安全與全球貿易合規計畫 委員會將聘請獨立的外部專家,提供法律、國家安全與貿易合規方面的專業意見 董事 Suzanne Nora Johnson 獲任命為委員會主席 $NVDA 今日宣布,董事會已成 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrT2ZzWmFnNGJQWXRyTjlJbUhhVTBPNHd0bmVadjY1OGt1NjlBMHQ1aWZSQW1SR05WYzN2a2VKVDNiamVYeWIxVndWRllGdVUwSmNRcWVZTGVLU0c1UjcxMDlPR1RnNUk?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 10:06:58 GMT",
+      "description": "$NVDA 董事會設立國家安全與出口管制監督委員會 委員會將監督 $NVDA 的國家安全與全球貿易合規計畫 委員會將聘請獨立的外部專家,提供法律、國家安全與貿易合規方面的專業意見 董事 Suzanne Nora Johnson 獲任命為委員會主席 $NVDA 今日宣布,董事會已成 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "ad15a57dc8d0db4d",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$NVDA 董事會設立國家安全與出口管制監督委員會 委員會將監督 $NVDA 的國家安全與全球貿易合規計畫 委…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -681,68 +743,6 @@
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Warsh, Opening Remarks",
-      "link": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
-      "pubDate": "Mon, 16 Nov 2026 17:00:00 GMT",
-      "description": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 49,
-      "priority": "B",
-      "id": "560b39e78a0db689",
-      "rankReason": "一级/官方信源；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现一条新的公司事件信息",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials m - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ELUhDN0dsYVVEZGNKUlZRVWdfS04zbjQ3bUFGQjUzSHdQd2o3Q0hISk1tT19tQ2taLXlERU1IZml6NkdKcERoVmZfUW1fZDZjSkdONk1QMnRENTlBZnc?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 23:36:50 GMT",
-      "description": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials m &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "231e336eb0c7094b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验：社媒仅用于发现热点",
         "mode": "rule-fallback"
