@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T20:26:37.482Z",
+  "generatedAt": "2026-11-17T03:49:27.262Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -132,37 +132,6 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美股放大鏡",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTR4Njd5V3ZPSFF3STJOUDE4V3NjMlR1dUhCOGdSbG5OWUkwWWxzcmo5S3pIZmZTckV0bTEzaVFfaW45QUpWU09rcl8zb1JsQUJGOWxlamE1TzFNZ0tqVHd1TTNIRmZOZGhGNWlxLTZOQ1ROMDZXZUVXQlV2SldVdlRXWk1yWV9kWVhMQm9uWS1od2FR?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 22:00:31 GMT",
-      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; 美股放大鏡",
-      "source": "美股放大鏡",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "1e040b3790da160f",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
       "title": "Stock Market Crash [LIVE]: How Jensen Huang’s Resignation Is Hitting Nvidia, Nasdaq And BTC - TradingView",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWjZpSDZwR1JVOThWQVRTSlZlNTd0Q0N0cmJwc3RKTXp3NGcyQ1ZhM1Y1ZEc5cnZNbWVjNy13NGpkdnljdlRPbGtvSU12bTNhZVhRTXptTG5zNmJIUjZXOThLODFmMDVUdTd5SUp4WG1rRVB4RkxXd3ZHUGcyTjl0Zjd2VnYzUzZvV0xJV212QzBsdHp4dnE1dV9XU2VzMWE0SmJjV0czVFREczZacUtlejQ5VTI2Si1fakNYWVhjdklLQTkzWG5qSzlCY2lTRlZMYjlLa3N4Y25SQ0h2WVBV?oc=5",
       "pubDate": "Thu, 12 Nov 2026 14:07:21 GMT",
@@ -212,6 +181,37 @@
       "ai": {
         "priority": "A",
         "summary": "Moomoo出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "人物",
+      "type": "公司事件",
+      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美股放大鏡",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTR4Njd5V3ZPSFF3STJOUDE4V3NjMlR1dUhCOGdSbG5OWUkwWWxzcmo5S3pIZmZTckV0bTEzaVFfaW45QUpWU09rcl8zb1JsQUJGOWxlamE1TzFNZ0tqVHd1TTNIRmZOZGhGNWlxLTZOQ1ROMDZXZUVXQlV2SldVdlRXWk1yWV9kWVhMQm9uWS1od2FR?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 22:00:31 GMT",
+      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; 美股放大鏡",
+      "source": "美股放大鏡",
+      "sourceKey": "people",
+      "sourceMode": "people-discovery",
+      "declaredTrust": "B",
+      "trustTier": "B",
+      "confidence": "B",
+      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
+      "score": 63,
+      "priority": "B",
+      "id": "1e040b3790da160f",
+      "rankReason": "高影响事件词；关键人物",
+      "ai": {
+        "priority": "A",
+        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - 美…",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -346,37 +346,6 @@
       }
     },
     {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "宏观",
-      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
-      "pubDate": "Sat, 14 Nov 2026 00:00:00 GMT",
-      "description": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 60,
-      "priority": "B",
-      "id": "00bfd7cfa5ad4c30",
-      "rankReason": "一级/官方信源；市场相关；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "港股",
       "signal": "事实",
       "type": "公司事件",
@@ -408,31 +377,31 @@
       }
     },
     {
-      "market": "港股",
-      "signal": "事实",
-      "type": "公司事件",
-      "title": "HKEX Launches Offshore RMB Bond Index",
-      "link": "https://www.hkex.com.hk/News/News-Release/2026/261116news?sc_lang=en",
-      "pubDate": "Mon, 16 Nov 2026 08:30:00 +0800",
-      "description": "HKEX Launches Offshore RMB Bond Index",
-      "source": "HKEX · News Releases",
-      "sourceKey": "hkex-news",
+      "market": "宏观",
+      "signal": "人物",
+      "type": "宏观",
+      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "pubDate": "Sat, 14 Nov 2026 00:00:00 GMT",
+      "description": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
+      "source": "Federal Reserve · Speeches",
+      "sourceKey": "fed-speeches",
       "sourceMode": "direct-rss",
       "declaredTrust": "A",
       "trustTier": "A",
       "confidence": "A",
       "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 58,
+      "score": 57,
       "priority": "B",
-      "id": "06f2679580eb5d3c",
-      "rankReason": "一级/官方信源；市场相关",
+      "id": "00bfd7cfa5ad4c30",
+      "rankReason": "一级/官方信源；市场相关；关键人物",
       "ai": {
         "priority": "B",
-        "summary": "港交所出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "summary": "美联储出现新的宏观政策或数据更新",
+        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
         "contentDirection": [
           "快讯",
-          "事件解读"
+          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -464,6 +433,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "公司事件",
+      "title": "HKEX Launches Offshore RMB Bond Index",
+      "link": "https://www.hkex.com.hk/News/News-Release/2026/261116news?sc_lang=en",
+      "pubDate": "Mon, 16 Nov 2026 08:30:00 +0800",
+      "description": "HKEX Launches Offshore RMB Bond Index",
+      "source": "HKEX · News Releases",
+      "sourceKey": "hkex-news",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 55,
+      "priority": "B",
+      "id": "06f2679580eb5d3c",
+      "rankReason": "一级/官方信源；市场相关",
+      "ai": {
+        "priority": "B",
+        "summary": "港交所出现一条新的公司事件信息",
+        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -534,68 +534,6 @@
     {
       "market": "全球",
       "signal": "热点",
-      "type": "宏观",
-      "title": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials m - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ELUhDN0dsYVVEZGNKUlZRVWdfS04zbjQ3bUFGQjUzSHdQd2o3Q0hISk1tT19tQ2taLXlERU1IZml6NkdKcERoVmZfUW1fZDZjSkdONk1QMnRENTlBZnc?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 23:36:50 GMT",
-      "description": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials m &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "231e336eb0c7094b",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "X出现新的宏观政策或数据更新",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "宏观",
-      "title": "本週誰掌握行情：美聯儲，還是 $NVDA？ 一邊是利率預期，一邊是 AI 盈利。 再加上 $WMT 財報與零售數據，消費力也要接受檢驗。 WEEX 本週關註清單，你把哪個事件排第一？👇 https://t.co/62zRTEyfDu #WEEX #Tradfi #美股 #美聯儲 #NVDA - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DMlZuUzU1TXhWQzlWWWFNcWtGZDJCSWRVcnFUX3IycS1qejc0SUJBd05GVEUyV0lsVFFhSDNLMW1wcWVOSmt1VjU1RVRUUC1ISG9hX3MxcUdmakdpV3BTSXNSZkU?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 10:55:20 GMT",
-      "description": "本週誰掌握行情：美聯儲，還是 $NVDA？ 一邊是利率預期，一邊是 AI 盈利。 再加上 $WMT 財報與零售數據，消費力也要接受檢驗。 WEEX 本週關註清單，你把哪個事件排第一？👇 https://t.co/62zRTEyfDu #WEEX #Tradfi #美股 #美聯儲 #NVDA &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "e29098623c96ab31",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "本週誰掌握行情：美聯儲，還是 $NVDA？ 一邊是利率預期，一邊是 AI 盈利。 再加上 $WMT 財報與零售…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
       "type": "公司事件",
       "title": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 NVIDIA（ $NVDA）：受影響最大 1）以算力營收計算，2027到2030年出貨分別下修22%、39%、56%、66%； 以總功耗計算，分別下修14%、35%、50%、59%。 2）Feynman 世代的售價在 HBM 成本調整之外再往下調，因 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLT0ZyT3Z1MnZXSUpQTFQwUnpzdzFwLWptR0t5YTV5TEprR1g3QVYtWk8wT3h4VHNjaXpGd0ptRHdOQW0xTnhBVFItSS1IRnAtNXBMVFFhcDZTWEdLd3c?oc=5",
@@ -659,37 +597,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，更可能成為美股下一波行情的關鍵催化劑！ 你認為這次的財報能帶領市場起飛，還是讓市場失望？👀 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aaF9ScjcyWGI4OXlwQXVWRnBweGF1dEJsUEdSc3NITWprVjgwcnVQVGk0TmJnWDB2djk1TFRWLU92UFpHUWJEMmtEZHpoZ1lYNFd4RUo2bXRXLWVlZTZSVFUxSzI4dw?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 09:00:02 GMT",
-      "description": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，更可能成為美股下一波行情的關鍵催化劑！ 你認為這次的財報能帶領市場起飛，還是讓市場失望？👀 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "ecf5fee79d4b0476",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "〈京元電專訪：新材料讓測試需求成長得比晶片量更快〉 1、京元電的定位 1）京元電子（KYEC, https://t.co/BvfgnAGFil）是全球最大的專業晶片測試廠，客戶包括 NVIDIA（ $NVDA）。 2）NVIDIA 已預付11億美元，預訂京元電在美國的測試產能。 2、總經理張高薰的觀點 1）財 - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCNlN5Q2dRUzdVSGJzUnVZamRpajNDTTQySldzUlFfRDM4TFd6UFBhWkktdjJDSWd6Y0V5NnhIT3dPZDlZaE9HQ0ViWmdLc1l6c1c4V0xzY1VMSEZGbUE?oc=5",
       "pubDate": "Mon, 16 Nov 2026 05:52:15 GMT",
@@ -721,6 +628,37 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
+      "title": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，更可能成為美股下一波行情的關鍵催化劑！ 你認為這次的財報能帶領市場起飛，還是讓市場失望？👀 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aaF9ScjcyWGI4OXlwQXVWRnBweGF1dEJsUEdSc3NITWprVjgwcnVQVGk0TmJnWDB2djk1TFRWLU92UFpHUWJEMmtEZHpoZ1lYNFd4RUo2bXRXLWVlZTZSVFUxSzI4dw?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 09:00:02 GMT",
+      "description": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，更可能成為美股下一波行情的關鍵催化劑！ 你認為這次的財報能帶領市場起飛，還是讓市場失望？👀 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "ecf5fee79d4b0476",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "📊 本週股市財報季即將登場！ 🔥 $NVDA 財報無疑是本週最大焦點！ AI 成長動能不僅牽動科技股走勢，…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
       "title": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 1、下修幅度 1）SemiAnalysis 在機構版內容中下調了未來 AI 晶片出貨量、相關支出和用電需求的預測，2028年起的調整最明顯，NVIDIA（ $NVDA）是受影響最大的供應商。 2）2028年全球 AI 加速器資本支出預測從約1. - X",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1NckNEVi11MkdsXzZabGhPTlNxVUcxX1A1MjFyaWlLZlNRaVlpSFNSM2NST0ZLd3lLc05ud2NvcUtQT216TU1fZXlxUzVmcXlJRGF6XzFQcUVQc0dZVnc?oc=5",
       "pubDate": "Mon, 16 Nov 2026 10:22:05 GMT",
@@ -739,6 +677,68 @@
       "ai": {
         "priority": "B",
         "summary": "〈下調加速器需求與出貨量展望；NVIDIA 承受重壓〉 1、下修幅度 1）SemiAnalysis 在機構版內…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "〈中國逾 1.5 GW 違規晶片與開源 AI 生態的重組〉 1、中國有超過 1.5 GW 違規晶片 1）Patel 說，SemiAnalysis 和 NVIDIA（ $NVDA）最大的分歧一直在出口管制，NVIDIA 總是挑戰他們對產業的看法。 2）SemiAnalysis 估計，中國境內有超過 1.5 GW 依美國法律不該出現 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04V3F2cE1WQXNDQ25fd3EySkpCdXZLbHEzMWtMeDRVanJEaGw0SXBjR2pvenpTUFhRUEFnTG9QSnFtUFJYTGxxMW4tMmpIdW5HNkptR2xMd2tLbGExRHc?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 03:04:15 GMT",
+      "description": "〈中國逾 1.5 GW 違規晶片與開源 AI 生態的重組〉 1、中國有超過 1.5 GW 違規晶片 1）Patel 說，SemiAnalysis 和 NVIDIA（ $NVDA）最大的分歧一直在出口管制，NVIDIA 總是挑戰他們對產業的看法。 2）SemiAnalysis 估計，中國境內有超過 1.5 GW 依美國法律不該出現 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a85bca19b7c06603",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "〈中國逾 1.5 GW 違規晶片與開源 AI 生態的重組〉 1、中國有超過 1.5 GW 違規晶片 1）Pat…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Nvidia 董事會 $NVDA 並未考慮讓 Jensen Huang 回鍋擔任執行長，CNBC 報導。 Nvidia 股價因這則消息跌至當日新低，目前較 10 月 6 日高點下跌 -34%。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GMUE4ZW4zX2hBMkMwblgxUFNPaTFEN3plOW1sRHVFWHJTSFNtblRYSG44ZEEySDF1QnBodTRhaHdZNHprbE9uRFlSeEhDRXFWbV9kM2pfZERPY1I0M1Fr?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 20:21:53 GMT",
+      "description": "Nvidia 董事會 $NVDA 並未考慮讓 Jensen Huang 回鍋擔任執行長，CNBC 報導。 Nvidia 股價因這則消息跌至當日新低，目前較 10 月 6 日高點下跌 -34%。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "c8062772bd305fae",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Nvidia 董事會 $NVDA 並未考慮讓 Jensen Huang 回鍋擔任執行長，CNBC 報導。 Nv…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
