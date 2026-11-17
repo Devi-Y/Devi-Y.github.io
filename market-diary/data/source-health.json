@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T03:49:26.696Z",
+  "generatedAt": "2026-11-17T13:19:11.740Z",
   "summary": {
-    "ok": 11,
-    "fallback": 4,
-    "error": 15,
+    "ok": 21,
+    "fallback": 9,
+    "error": 0,
     "notConfigured": 1,
-    "preserved": 2,
+    "preserved": 0,
     "total": 31
   },
   "sources": [
@@ -17,8 +17,8 @@
       "status": "ok",
       "route": "direct",
       "count": 3,
-      "checkedAt": "2026-11-17T03:49:14.243Z",
-      "latencyMs": 145
+      "checkedAt": "2026-11-17T13:18:59.454Z",
+      "latencyMs": 143
     },
     {
       "key": "fed-speeches",
@@ -27,31 +27,33 @@
       "trust": "A",
       "status": "ok",
       "route": "direct",
-      "count": 6,
-      "checkedAt": "2026-11-17T03:49:14.215Z",
-      "latencyMs": 83
+      "count": 5,
+      "checkedAt": "2026-11-17T13:18:59.465Z",
+      "latencyMs": 119
     },
     {
       "key": "bls",
       "name": "U.S. Bureau of Labor Statistics",
       "mode": "direct-rss",
       "trust": "A",
-      "status": "error",
+      "status": "fallback-ok",
+      "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:15.048Z",
-      "latencyMs": 113,
-      "error": "HTTP 403"
+      "checkedAt": "2026-11-17T13:19:01.775Z",
+      "latencyMs": 2428,
+      "directError": "HTTP 403"
     },
     {
       "key": "nbs-release",
       "name": "国家统计局 · 最新发布",
       "mode": "direct-rss",
       "trust": "A",
-      "status": "error",
+      "status": "fallback-ok",
+      "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:26.693Z",
-      "latencyMs": 12001,
-      "error": "The operation was aborted due to timeout"
+      "checkedAt": "2026-11-17T13:19:11.722Z",
+      "latencyMs": 12374,
+      "directError": "The operation was aborted due to timeout"
     },
     {
       "key": "nbs-analysis",
@@ -61,8 +63,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:26.446Z",
-      "latencyMs": 12230,
+      "checkedAt": "2026-11-17T13:19:11.738Z",
+      "latencyMs": 12284,
       "directError": "The operation was aborted due to timeout"
     },
     {
@@ -73,8 +75,8 @@
       "status": "ok",
       "route": "direct",
       "count": 3,
-      "checkedAt": "2026-11-17T03:49:16.561Z",
-      "latencyMs": 2317
+      "checkedAt": "2026-11-17T13:19:03.681Z",
+      "latencyMs": 4216
     },
     {
       "key": "hkex-reg",
@@ -83,9 +85,9 @@
       "trust": "A",
       "status": "ok",
       "route": "direct",
-      "count": 2,
-      "checkedAt": "2026-11-17T03:49:17.195Z",
-      "latencyMs": 2147
+      "count": 1,
+      "checkedAt": "2026-11-17T13:19:03.582Z",
+      "latencyMs": 1807
     },
     {
       "key": "hkex-market",
@@ -95,8 +97,8 @@
       "status": "ok",
       "route": "direct",
       "count": 1,
-      "checkedAt": "2026-11-17T03:49:17.099Z",
-      "latencyMs": 538
+      "checkedAt": "2026-11-17T13:19:04.170Z",
+      "latencyMs": 588
     },
     {
       "key": "sec-8k",
@@ -106,8 +108,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:17.442Z",
-      "latencyMs": 343,
+      "checkedAt": "2026-11-17T13:19:04.033Z",
+      "latencyMs": 352,
       "directError": "HTTP 403"
     },
     {
@@ -118,8 +120,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:17.515Z",
-      "latencyMs": 320,
+      "checkedAt": "2026-11-17T13:19:04.298Z",
+      "latencyMs": 265,
       "directError": "HTTP 403"
     },
     {
@@ -127,33 +129,36 @@
       "name": "SEC · Form 4",
       "mode": "sec-atom",
       "trust": "A",
-      "status": "error",
+      "status": "fallback-ok",
+      "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:17.732Z",
-      "latencyMs": 31,
-      "error": "HTTP 403"
+      "checkedAt": "2026-11-17T13:19:04.494Z",
+      "latencyMs": 324,
+      "directError": "HTTP 403"
     },
     {
       "key": "sec-13f",
       "name": "SEC · 13F-HR",
       "mode": "sec-atom",
       "trust": "A",
-      "status": "error",
+      "status": "fallback-ok",
+      "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:17.857Z",
-      "latencyMs": 51,
-      "error": "HTTP 403"
+      "checkedAt": "2026-11-17T13:19:04.553Z",
+      "latencyMs": 255,
+      "directError": "HTTP 403"
     },
     {
       "key": "sec-13d",
       "name": "SEC · SC 13D",
       "mode": "sec-atom",
       "trust": "A",
-      "status": "error",
+      "status": "fallback-ok",
+      "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:18.259Z",
-      "latencyMs": 27,
-      "error": "HTTP 403"
+      "checkedAt": "2026-11-17T13:19:04.781Z",
+      "latencyMs": 287,
+      "directError": "HTTP 403"
     },
     {
       "key": "sec-13g",
@@ -163,8 +168,8 @@
       "status": "fallback-ok",
       "route": "fallback",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:18.160Z",
-      "latencyMs": 303,
+      "checkedAt": "2026-11-17T13:19:04.789Z",
+      "latencyMs": 236,
       "directError": "HTTP 403"
     },
     {
@@ -172,22 +177,22 @@
       "name": "中国人民银行",
       "mode": "official-domain-discovery",
       "trust": "A",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:18.457Z",
-      "latencyMs": 297,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:04.971Z",
+      "latencyMs": 190
     },
     {
       "key": "csrc",
       "name": "中国证监会",
       "mode": "official-domain-discovery",
       "trust": "A",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:18.606Z",
-      "latencyMs": 347,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:04.995Z",
+      "latencyMs": 206
     },
     {
       "key": "hkma",
@@ -197,8 +202,8 @@
       "status": "ok",
       "route": "direct",
       "count": 1,
-      "checkedAt": "2026-11-17T03:49:18.685Z",
-      "latencyMs": 228
+      "checkedAt": "2026-11-17T13:19:05.193Z",
+      "latencyMs": 222
     },
     {
       "key": "hk-gov",
@@ -208,30 +213,30 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:18.878Z",
-      "latencyMs": 272
+      "checkedAt": "2026-11-17T13:19:05.223Z",
+      "latencyMs": 228
     },
     {
       "key": "ir-nvidia",
       "name": "NVIDIA IR",
       "mode": "official-domain-discovery",
       "trust": "A",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:19.174Z",
-      "latencyMs": 489,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:05.402Z",
+      "latencyMs": 209
     },
     {
       "key": "ir-tesla",
       "name": "Tesla IR",
       "mode": "official-domain-discovery",
       "trust": "A",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:19.201Z",
-      "latencyMs": 323,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:05.481Z",
+      "latencyMs": 258
     },
     {
       "key": "ir-apple",
@@ -241,19 +246,19 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:19.348Z",
-      "latencyMs": 174
+      "checkedAt": "2026-11-17T13:19:05.633Z",
+      "latencyMs": 231
     },
     {
       "key": "ir-alibaba",
       "name": "Alibaba IR",
       "mode": "official-domain-discovery",
       "trust": "A",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:19.667Z",
-      "latencyMs": 466,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:05.684Z",
+      "latencyMs": 203
     },
     {
       "key": "reuters",
@@ -263,42 +268,41 @@
       "status": "ok",
       "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:19.571Z",
-      "latencyMs": 223
+      "checkedAt": "2026-11-17T13:19:05.842Z",
+      "latencyMs": 209
     },
     {
       "key": "cnbc",
       "name": "CNBC",
       "mode": "media-discovery",
       "trust": "B",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:19.874Z",
-      "latencyMs": 303,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:05.929Z",
+      "latencyMs": 245
     },
     {
       "key": "yicai",
       "name": "第一财经",
       "mode": "media-discovery",
       "trust": "B",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:20.150Z",
-      "latencyMs": 483,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:06.060Z",
+      "latencyMs": 218
     },
     {
       "key": "aastocks",
       "name": "AASTOCKS",
       "mode": "media-discovery",
       "trust": "B",
-      "status": "error",
-      "count": 0,
-      "checkedAt": "2026-11-17T03:49:20.210Z",
-      "latencyMs": 335,
-      "error": "HTTP 429",
-      "preservedCount": 2
+      "status": "ok",
+      "route": "direct",
+      "count": 2,
+      "checkedAt": "2026-11-17T13:19:06.149Z",
+      "latencyMs": 220
     },
     {
       "key": "people",
@@ -308,8 +312,8 @@
       "status": "ok",
       "route": "direct",
       "count": 7,
-      "checkedAt": "2026-11-17T03:49:20.596Z",
-      "latencyMs": 446
+      "checkedAt": "2026-11-17T13:19:06.438Z",
+      "latencyMs": 378
     },
     {
       "key": "x-fallback",
@@ -319,30 +323,30 @@
       "status": "ok",
       "route": "direct",
       "count": 40,
-      "checkedAt": "2026-11-17T03:49:20.584Z",
-      "latencyMs": 374
+      "checkedAt": "2026-11-17T13:19:06.561Z",
+      "latencyMs": 412
     },
     {
       "key": "xiaohongshu",
       "name": "小红书 · 热点发现",
       "mode": "social-discovery",
       "trust": "C",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:20.970Z",
-      "latencyMs": 386,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:06.662Z",
+      "latencyMs": 224
     },
     {
       "key": "us-house",
       "name": "U.S. House Financial Disclosure",
       "mode": "official-domain-discovery",
       "trust": "A",
-      "status": "error",
+      "status": "ok",
+      "route": "direct",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:20.876Z",
-      "latencyMs": 280,
-      "error": "HTTP 429"
+      "checkedAt": "2026-11-17T13:19:06.764Z",
+      "latencyMs": 203
     },
     {
       "key": "x-api",
@@ -353,7 +357,7 @@
       "mode": "x-api",
       "status": "not-configured",
       "count": 0,
-      "checkedAt": "2026-11-17T03:49:20.876Z",
+      "checkedAt": "2026-11-17T13:19:06.662Z",
       "note": "配置 X_BEARER_TOKEN 后启用官方 Recent Search"
     }
   ]
