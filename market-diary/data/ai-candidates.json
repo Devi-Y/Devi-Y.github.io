@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:10:18.985Z",
+  "generatedAt": "2026-11-21T01:29:13.535Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
@@ -92,37 +92,6 @@
         "contentDirection": [
           "IPO",
           "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won't Return as CEO - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTjdnMlJhcDg0N2dXcHhmc1Y0ZVdNZDZXRG5Oa1Q5MDRZdC1Wa1ZGeEt5ZW45TGhMNnpCb2NuNjRRVlJ6VE1VT19XdjdUdkJ3TnBHbG1WdFIxZ1R1NjdWSHBOUEFtb09nNTdRS2lJNWFjRHdoUm1ZWXRVVi1MSWFkc0ZDbjFpOWJyREhGbXZ1MjdSSjFMVDloZ3BtMzFfUy10NjUwcmUyakhzVFBJ?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 00:00:12 GMT",
-      "description": "Nvidia Reports Faster Growth, Says Jensen Huang Won't Return as CEO &nbsp;&nbsp; Moomoo",
-      "source": "Moomoo",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "9db2b0e184a378e4",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "Moomoo出现一条新的公司事件信息",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -225,11 +194,11 @@
       "market": "全球",
       "signal": "人物",
       "type": "公司事件",
-      "title": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeXRGWEhKR09RNGpsVEhNbkpoa0E5MUFBRzlIV2JLMU9mRUpDeHJsUjlUTlFIOE4xaHcyY3lMTEd0VXpqTC0xVVlWbEtkY2ljSERLQ1RtZXFQOHptT2xkSzg5b21kR0lXWDhmVUphd2tpQnlHQ0ZSS3pibzFtdDFPcUduTHJBdUVfRVdfNVl3?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 22:00:35 GMT",
-      "description": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 &nbsp;&nbsp; CMoney投資網誌",
-      "source": "CMoney投資網誌",
+      "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won't Return as CEO - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTjdnMlJhcDg0N2dXcHhmc1Y0ZVdNZDZXRG5Oa1Q5MDRZdC1Wa1ZGeEt5ZW45TGhMNnpCb2NuNjRRVlJ6VE1VT19XdjdUdkJ3TnBHbG1WdFIxZ1R1NjdWSHBOUEFtb09nNTdRS2lJNWFjRHdoUm1ZWXRVVi1MSWFkc0ZDbjFpOWJyREhGbXZ1MjdSSjFMVDloZ3BtMzFfUy10NjUwcmUyakhzVFBJ?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 00:00:12 GMT",
+      "description": "Nvidia Reports Faster Growth, Says Jensen Huang Won't Return as CEO &nbsp;&nbsp; Moomoo",
+      "source": "Moomoo",
       "sourceKey": "people",
       "sourceMode": "people-discovery",
       "declaredTrust": "B",
@@ -238,11 +207,11 @@
       "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
       "score": 63,
       "priority": "B",
-      "id": "53f4d81f6c4e1810",
+      "id": "9db2b0e184a378e4",
       "rankReason": "高影响事件词；关键人物",
       "ai": {
         "priority": "A",
-        "summary": "AI晶片王者崩跌！Jensen Huang請辭掀權力真空 AMD、Broadcom搶食Nvidia天下 - C…",
+        "summary": "Moomoo出现一条新的公司事件信息",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -284,37 +253,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "AI帝國震盪：Jensen Huang請辭後，美股資金版圖大洗牌、Anthropic搶當新寵 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeV9nNGtsaTVEd0haVk5FVzJiWnJ5eTZPQnpzTm5mQVJVMGlGVWZMbVlheDBkaXY3RDdZaklQbE1jSzl2Rmw4TXJ6R2s1X3FtaElzRGRiVDVFWjMzZlNQTGpRRFBCT0xKRzlzZVFSY1lneVFaUk1TZUxCLWt5QVJhYV8zb0FpYml1ZXNlUnFR?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 00:00:26 GMT",
-      "description": "AI帝國震盪：Jensen Huang請辭後，美股資金版圖大洗牌、Anthropic搶當新寵 &nbsp;&nbsp; CMoney投資網誌",
-      "source": "CMoney投資網誌",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 63,
-      "priority": "B",
-      "id": "5c731ccfe675278e",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "AI帝國震盪：Jensen Huang請辭後，美股資金版圖大洗牌、Anthropic搶當新寵 - CMoney…",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -340,37 +278,6 @@
         "contentDirection": [
           "快讯",
           "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "宏观",
-      "signal": "人物",
-      "type": "宏观",
-      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
-      "pubDate": "Sat, 14 Nov 2026 00:00:00 GMT",
-      "description": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
-      "source": "Federal Reserve · Speeches",
-      "sourceKey": "fed-speeches",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 57,
-      "priority": "B",
-      "id": "00bfd7cfa5ad4c30",
-      "rankReason": "一级/官方信源；市场相关；关键人物",
-      "ai": {
-        "priority": "B",
-        "summary": "美联储出现新的宏观政策或数据更新",
-        "whyImportant": "这类信息可能影响利率预期、美元、美债和港美股风险偏好，适合做宏观快讯或解释型内容；关键口径需要核对原文。",
-        "contentDirection": [
-          "快讯",
-          "宏观解读"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -470,37 +377,6 @@
       }
     },
     {
-      "market": "全球",
-      "signal": "热点",
-      "type": "持仓",
-      "title": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLTR 持股由187,897股增至748,895股，增加約299%； $NVDA 增加8.1%至955萬股。 $OKTA 減持45.9%，但仍保留約197萬股； $VRT 減持46.3%至437,915股。 $RBRK 則首次出現在可 - X",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lTjJoSHZkemI2eF9jX2M5NVphemE1OUpITHpaNFJ5UTVGaUltMnMtLTNFVTJIcjNhUmxQWGZTWWtLQUg1bGc5Rl82b1E3SExyeWZLQ2xJZFZPNmE4djVTRUdEZGdMbFAyQ25DOXZ1SWJ1Zw?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 01:19:20 GMT",
-      "description": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLTR 持股由187,897股增至748,895股，增加約299%； $NVDA 增加8.1%至955萬股。 $OKTA 減持45.9%，但仍保留約197萬股； $VRT 減持46.3%至437,915股。 $RBRK 則首次出現在可 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 52,
-      "priority": "B",
-      "id": "261f87a2a44ea866",
-      "rankReason": "高影响事件词；公开资金信号；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "Allspring 2026 Q3 13F 以2026年9月30日為基準、11月4日申報的資料來看， $PLT…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
       "market": "宏观",
       "signal": "事实",
       "type": "财报",
@@ -534,6 +410,37 @@
     {
       "market": "全球",
       "signal": "热点",
+      "type": "财报",
+      "title": "今天必须熬夜守 $NVDA 的财报电话会，主要看 Kress 如何回应 Jensen 的声明。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mS2llUGxsWm5uTl9WVHlxcndsZ2JRcXp2dm9sMDhucnhMd0lJOGZ0dlNNTFUwQkd4dGR0Z2Z0c0dhQk16TnFQcVBDdHZncXRGTEFEd2MyandRRnVYYnBN?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 17:04:51 GMT",
+      "description": "今天必须熬夜守 $NVDA 的财报电话会，主要看 Kress 如何回应 Jensen 的声明。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a1511ca3fc290eb9",
+      "rankReason": "高影响事件词；高转化内容类型；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "今天必须熬夜守 $NVDA 的财报电话会，主要看 Kress 如何回应 Jensen 的声明。 - X",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "财报解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
       "type": "公司事件",
       "title": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 2026 年 11 月 19 日輝達市值 3.5 兆，最高時曾突破 5 兆美元市值。 - X",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xdXpBRzRKWDlmbml3NnZoaG1XaWRVcFBBTFhLWEk0TUxkQU01Uy1KSE1kbHBobWhLdzFaUlR2Y01lUlI4eDlzX3hnNjV3ZXBFMkhRQktDM1N4SFYtNmRhaVpwYXA?oc=5",
@@ -553,37 +460,6 @@
       "ai": {
         "priority": "B",
         "summary": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 202…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "〈AI 機櫃太重，多數舊資料中心撐不住〉 1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（ $NVDA）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XYkhGOXhPcGRCNHdsSEdwNlFUU2o1dHBndzd4SXQxQkdJTDVORGlMQ2t4eEwxYXJORThjU3Vvc3pjd09feUdPQ0o4eENNRzU5VXhhRktSdHlPQXhObHc?oc=5",
-      "pubDate": "Fri, 20 Nov 2026 00:49:45 GMT",
-      "description": "〈AI 機櫃太重，多數舊資料中心撐不住〉 1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（ $NVDA）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "bbe560fea029a74d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "〈AI 機櫃太重，多數舊資料中心撐不住〉 1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（ $N…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -687,6 +563,37 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "三爺支持NVDA接受老黃的道歉，讓老黃回鍋 兩位大人站在後面，代表應該接受三爺的講法了，內部的反對意見應該擺平了 #如果成功這也許是股市的轉折訊號之一 #怎麼感覺盧大人的臉色... 但是...三爺，現在NVDA還跌10趴耶：131 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55TGFlUk5yTmRUR0VCMG4xQXRPd1hhVnU4MFM3VS1hQmVQc3R0R0dndWVqeEg3T00xeDR1U2hQOVNMZm9SbDJTQ1BjX1pCVU5Mcm9PekxXXzlMcFB1LTRZcDlR?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 19:25:30 GMT",
+      "description": "三爺支持NVDA接受老黃的道歉，讓老黃回鍋 兩位大人站在後面，代表應該接受三爺的講法了，內部的反對意見應該擺平了 #如果成功這也許是股市的轉折訊號之一 #怎麼感覺盧大人的臉色... 但是...三爺，現在NVDA還跌10趴耶：131 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "2149f89b90abe529",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "三爺支持NVDA接受老黃的道歉，讓老黃回鍋 兩位大人站在後面，代表應該接受三爺的講法了，內部的反對意見應該擺平…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -739,6 +646,99 @@
       "ai": {
         "priority": "B",
         "summary": "〈馬斯克：GPU 電力波動會讓燃氣渦輪斷軸，電力平滑成大型訓練叢集的固定成本〉 1、馬斯克在 Tomorrow…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "高盛（Goldman Sachs）〈Nvidia Corp. (NVDA): Strong outlook despite uncertainty, with steady commitment to balancing shareholder returns and ecosystem support〉 1、投資重點：維持買進評等 1）高盛預期，在穩健的一季財報和優於市場預期的 CY27 展望上修之 - X",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95dlpyVVZmYWtzRWo0eG1kUHdHeGNnVUtQSDBzMDhlVHZBWjRQYzRlZTRRaFpzUE5EWEZOYmhBejV0THdGbV9yY1FlcExiZktLd0pDenhZMnQ1NjNKcEE?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 13:57:27 GMT",
+      "description": "高盛（Goldman Sachs）〈Nvidia Corp. (NVDA): Strong outlook despite uncertainty, with steady commitment to balancing shareholder returns and ecosystem support〉 1、投資重點：維持買進評等 1）高盛預期，在穩健的一季財報和優於市場預期的 CY27 展望上修之 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "c1076244ff7f5f58",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "高盛（Goldman Sachs）〈Nvidia Corp. (NVDA): Strong outlook d…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Nvidia，$NVDA，在財報發布後抹去所有漲幅，儘管超出預期，當日仍轉為負值。 該股目前較10月6日高點下跌-36%。 - X",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHWjJzcWFzZTd3UVpHR2VHNWNJWXk0WHB1NXBlNXliV2ZEYzAzMEdIR2pwdDRLb2lSYTRJcXJDNVJfTlVvelNuU3FJOWpOcVdsaG1zZEVfaW96Z2RNZlhZOXljWFJReXhfNkVMZS1WczE?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 18:14:00 GMT",
+      "description": "Nvidia，$NVDA，在財報發布後抹去所有漲幅，儘管超出預期，當日仍轉為負值。 該股目前較10月6日高點下跌-36%。 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "6cd7ff0554c30736",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "Nvidia，$NVDA，在財報發布後抹去所有漲幅，儘管超出預期，當日仍轉為負值。 該股目前較10月6日高點下…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "JPM最新報告指出： NVDA 管理層未來變動後，「新雲端業者（Neoclouds）」面臨的債務與融資風險壓力大增 在老黃帶領下，輝達將過去三個季度營業現金流的 58% 用於股權投資與併購，但隨著提供給 AI 新創和雲端業者的長期擔保與資產負債「表外負債」暴增，從 2026 - X",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50Q0R4c3hnanRsTnZObTZid181Q04zQk9Jc1VRTXVMUWZubF9FR3Y3Z19ROU04a1pJWUp0aS1RZHg3Zzg1cEhrdjRQdE9rRExLNU16MTlKWFZQTTkyZjdmM0pB?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 08:21:33 GMT",
+      "description": "JPM最新報告指出： NVDA 管理層未來變動後，「新雲端業者（Neoclouds）」面臨的債務與融資風險壓力大增 在老黃帶領下，輝達將過去三個季度營業現金流的 58% 用於股權投資與併購，但隨著提供給 AI 新創和雲端業者的長期擔保與資產負債「表外負債」暴增，從 2026 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 47,
+      "priority": "B",
+      "id": "83d683b544ab4a07",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "JPM最新報告指出： NVDA 管理層未來變動後，「新雲端業者（Neoclouds）」面臨的債務與融資風險壓力…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
