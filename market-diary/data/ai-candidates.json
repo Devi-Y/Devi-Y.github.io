@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-11-21T01:29:13.535Z",
+  "generatedAt": "2026-11-21T09:45:03.825Z",
   "aiConfigured": false,
   "model": "rule-fallback",
   "note": "AI只做聚合、摘要、结构化和优先级建议；事实发布前必须回到一级信源核验。",
   "items": [
-    {
-      "market": "港股",
-      "signal": "事实",
-      "type": "IPO",
-      "title": "Announcement - In relation to the matter of Tianju Dihe (Suzhou) Technology Co., Ltd. (a joint stock company incorporated in the People’s Republic of China with limited liability) (Stock Code: 2479) Cancellation of listing",
-      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611182news?sc_lang=en",
-      "pubDate": "Wed, 18 Nov 2026 16:27:00 +0800",
-      "description": "Announcement - In relation to the matter of Tianju Dihe (Suzhou) Technology Co., Ltd. (a joint stock company incorporated in the People’s Republic of China with limited liability) (Stock Code: 2479) Cancellation of listing",
-      "source": "HKEX · Regulatory Announcements",
-      "sourceKey": "hkex-reg",
-      "sourceMode": "direct-rss",
-      "declaredTrust": "A",
-      "trustTier": "A",
-      "confidence": "A",
-      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
-      "score": 77,
-      "priority": "A",
-      "id": "73d8d62fb0b3190e",
-      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
-      "ai": {
-        "priority": "A",
-        "summary": "港交所出现新的IPO相关信息",
-        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
-        "contentDirection": [
-          "IPO",
-          "招股书解析"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
     {
       "market": "宏观",
       "signal": "人物",
@@ -61,6 +30,37 @@
         "contentDirection": [
           "快讯",
           "宏观解读"
+        ],
+        "verificationNeed": "必须核验关键数字与原始公告",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "港股",
+      "signal": "事实",
+      "type": "IPO",
+      "title": "Announcement - In relation to the matter of Tianju Dihe (Suzhou) Technology Co., Ltd. (a joint stock company incorporated in the People’s Republic of China with limited liability) (Stock Code: 2479) Cancellation of listing",
+      "link": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611182news?sc_lang=en",
+      "pubDate": "Wed, 18 Nov 2026 16:27:00 +0800",
+      "description": "Announcement - In relation to the matter of Tianju Dihe (Suzhou) Technology Co., Ltd. (a joint stock company incorporated in the People’s Republic of China with limited liability) (Stock Code: 2479) Cancellation of listing",
+      "source": "HKEX · Regulatory Announcements",
+      "sourceKey": "hkex-reg",
+      "sourceMode": "direct-rss",
+      "declaredTrust": "A",
+      "trustTier": "A",
+      "confidence": "A",
+      "verification": "一级/官方信源候选：发布前核对原文关键数字与日期",
+      "score": 74,
+      "priority": "A",
+      "id": "73d8d62fb0b3190e",
+      "rankReason": "一级/官方信源；高影响事件词；高转化内容类型",
+      "ai": {
+        "priority": "A",
+        "summary": "港交所出现新的IPO相关信息",
+        "whyImportant": "这类信息可能影响招股、上市或新股跟踪节奏，适合进入IPO选题池；发布前需要回到港交所或公司原文核验。",
+        "contentDirection": [
+          "IPO",
+          "招股书解析"
         ],
         "verificationNeed": "必须核验关键数字与原始公告",
         "mode": "rule-fallback"
@@ -119,37 +119,6 @@
       "ai": {
         "priority": "A",
         "summary": "AI股王換帥震撼華爾街：Jensen Huang被逼退、Nvidia霸權與中美晶片角力全面失衡？ - 美股放大鏡",
-        "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验关键数字与原始公告",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "人物",
-      "type": "公司事件",
-      "title": "KuCoin 創投週報：Jensen Huang 後續影響、AI 重新定價與加密流動性壓力 - KuCoin",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYlJsMUdwR3RoUkNKQTBtbGxxaFdkSkpVa1U1WlBTRnl0OWhDSVlYMk9Pb3UwbXI3TkFoSGFQTXd4dmVsOFBTa0VFQ3pMTTl2X3FqMGlvWVc1UlpMdWpDWHI4YlZ5cEEwSGFkSWFyQVdQc1FmYTM1cGNPZDJTVUJHWGo0Y1BBcGFpOEZXS0FRYS1yZE9tWUZfLWVqak1HX0VzaVpaQ2FfWGxqQzRKRFVoZ3pzTEswQ25hRXNORXg0SkVhRGw2eWY3VV9NQVc?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 05:21:52 GMT",
-      "description": "KuCoin 創投週報：Jensen Huang 後續影響、AI 重新定價與加密流動性壓力 &nbsp;&nbsp; KuCoin",
-      "source": "KuCoin",
-      "sourceKey": "people",
-      "sourceMode": "people-discovery",
-      "declaredTrust": "B",
-      "trustTier": "B",
-      "confidence": "B",
-      "verification": "发现或降级候选：需匹配公司公告、监管文件或政府原文",
-      "score": 66,
-      "priority": "A",
-      "id": "4428a745fe7d8a68",
-      "rankReason": "高影响事件词；关键人物",
-      "ai": {
-        "priority": "A",
-        "summary": "KuCoin 創投週報：Jensen Huang 後續影響、AI 重新定價與加密流動性壓力 - KuCoin",
         "whyImportant": "这类公司或市场变化可能影响用户预期和后续交易主线，适合进入事件解读候选；发布前需要核对原始公告。",
         "contentDirection": [
           "快讯",
@@ -442,37 +411,6 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 2026 年 11 月 19 日輝達市值 3.5 兆，最高時曾突破 5 兆美元市值。 - X",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xdXpBRzRKWDlmbml3NnZoaG1XaWRVcFBBTFhLWEk0TUxkQU01Uy1KSE1kbHBobWhLdzFaUlR2Y01lUlI4eDlzX3hnNjV3ZXBFMkhRQktDM1N4SFYtNmRhaVpwYXA?oc=5",
-      "pubDate": "Fri, 20 Nov 2026 04:10:29 GMT",
-      "description": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 2026 年 11 月 19 日輝達市值 3.5 兆，最高時曾突破 5 兆美元市值。 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 50,
-      "priority": "B",
-      "id": "f271b0b97f3f765d",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 202…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
       "title": "S&P 500 首次跌破 7,000 點，自 4 月 15 日以來首次，原因是美國證券交易委員會 (SEC) 據報正對 Nvidia 展開調查，$NVDA。 納斯達克 100 指數今日下跌 -4.3%。 - X",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CWnlpREhGenJZSjBqYUk3enRMcS1rR1k1VmxZWGYwbXpyeTlmOU1uVHBwVVd4Z2pzUEFWQzN4ZHRYbHlYUmVxMk9CaHFhV3gyc2YtOFMzUWZwWElCY0FJ?oc=5",
       "pubDate": "Fri, 20 Nov 2026 19:26:14 GMT",
@@ -522,6 +460,37 @@
       "ai": {
         "priority": "B",
         "summary": "Nvidia，$NVDA，即將創下歷史上任何股票在45天內市值損失最大的紀錄，從10月6日的最高點下跌-2.5…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "Nvidia server suppliers halt Southeast Asia shipments over US curbs - Nikkei Asia At least two of Nvidia's server partners have suspended shipments to clients in Southeast Asia amid the latest U.S. export controls, adding pressure to a supply chain that is alre - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HTXNPRF9ZM002czl3OWVhZnh6N0stMGFiTGdIT0FuNjVKOVo5ZUcwWS1DZEVlWm51MV9sb19xUTNPWFZTS3NTTnhwRldBc2VNSTNQNzlRS285aHZOOVpBcVQyaU9vWXM?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 23:00:03 GMT",
+      "description": "Nvidia server suppliers halt Southeast Asia shipments over US curbs - Nikkei Asia At least two of Nvidia's server partners have suspended shipments to clients in Southeast Asia amid the latest U.S. export controls, adding pressure to a supply chain that is alre &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "dbac8a08775c7f70",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -594,6 +563,68 @@
       }
     },
     {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "$ANT Dario Amodei $ANT 長期與 $NVDA 是合作夥伴，在資料中心等方面合作，雙方有長期且有成效的合作關係。 但 $ANT 不會總是和夥伴在政策議題上意見一致。 $ANT 有自己的政策立場，來自對技術發展方向的信念，他們會持續堅持這個立場；而有些夥伴則持不 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56d2xUZTBiYnotU01vVWEyVm1sSnpHekREVVBEeWpTb20yLVI0LUxhd2xDSjk1dHphdUNGZ01PRXp6Unh5RW9NX21UNE02cjZIcWNraVV4cmtFdjVVVnNobFVkRmJTVVU?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 06:11:34 GMT",
+      "description": "$ANT Dario Amodei $ANT 長期與 $NVDA 是合作夥伴，在資料中心等方面合作，雙方有長期且有成效的合作關係。 但 $ANT 不會總是和夥伴在政策議題上意見一致。 $ANT 有自己的政策立場，來自對技術發展方向的信念，他們會持續堅持這個立場；而有些夥伴則持不 &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "55c18e95537c03b6",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "$ANT Dario Amodei $ANT 長期與 $NVDA 是合作夥伴，在資料中心等方面合作，雙方有長期…",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
+      "market": "全球",
+      "signal": "热点",
+      "type": "公司事件",
+      "title": "“We got this!” $NVDA - X",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Jd2xvOTVMcEQyS3J3c2loczVkMVhUWFQwMFlKODVGdWN2YnBEWXM4RFd3ODVudEI3UHV4REVKWkdWSm83d0tVQzNxQmY1bGdFY2stMWhUdEhBNjllb3FJb3NNNWo2R0I5OGFHV3B5Zw?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 07:28:56 GMT",
+      "description": "“We got this!” $NVDA &nbsp;&nbsp; X",
+      "source": "X",
+      "sourceKey": "x-fallback",
+      "sourceMode": "social-discovery",
+      "declaredTrust": "C",
+      "trustTier": "C",
+      "confidence": "C",
+      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
+      "score": 50,
+      "priority": "B",
+      "id": "a5dabe5aa7f4af36",
+      "rankReason": "高影响事件词；社媒只做热点发现",
+      "ai": {
+        "priority": "B",
+        "summary": "X出现一条新的公司事件信息",
+        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
+        "contentDirection": [
+          "快讯",
+          "事件解读"
+        ],
+        "verificationNeed": "必须核验：社媒仅用于发现热点",
+        "mode": "rule-fallback"
+      }
+    },
+    {
       "market": "宏观",
       "signal": "人物",
       "type": "公司事件",
@@ -628,10 +659,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "〈馬斯克：GPU 電力波動會讓燃氣渦輪斷軸，電力平滑成大型訓練叢集的固定成本〉 1、馬斯克在 TomorrowX 峰會上的說法 1）馬斯克說 SpaceX 有頂尖人才，也和特斯拉（Tesla, $TSLA）的 Megapack 密切合作，並認為特斯拉的電機工程人才「毫無疑問是全球最好的」。 2 - X",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Bd1dwekJUYWk4NnR3MkRramluWjZjeThTRzFTZ2E3R3ZqejJ1Ml9FVkh0cmlRNHY1UWc3dzNkY2laRTZ3TzhUTTB2MEs4N29sZU44RnRYVk1UejFpVkE?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 06:08:39 GMT",
-      "description": "〈馬斯克：GPU 電力波動會讓燃氣渦輪斷軸，電力平滑成大型訓練叢集的固定成本〉 1、馬斯克在 TomorrowX 峰會上的說法 1）馬斯克說 SpaceX 有頂尖人才，也和特斯拉（Tesla, $TSLA）的 Megapack 密切合作，並認為特斯拉的電機工程人才「毫無疑問是全球最好的」。 2 &nbsp;&nbsp; X",
+      "title": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 2026 年 11 月 19 日輝達市值 3.5 兆，最高時曾突破 5 兆美元市值。 - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xdXpBRzRKWDlmbml3NnZoaG1XaWRVcFBBTFhLWEk0TUxkQU01Uy1KSE1kbHBobWhLdzFaUlR2Y01lUlI4eDlzX3hnNjV3ZXBFMkhRQktDM1N4SFYtNmRhaVpwYXA?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 04:10:29 GMT",
+      "description": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 2026 年 11 月 19 日輝達市值 3.5 兆，最高時曾突破 5 兆美元市值。 &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -641,11 +672,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "9eafdeaa68a65d81",
+      "id": "f271b0b97f3f765d",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "〈馬斯克：GPU 電力波動會讓燃氣渦輪斷軸，電力平滑成大型訓練叢集的固定成本〉 1、馬斯克在 Tomorrow…",
+        "summary": "沒有黃仁勳的 $NVDA 我認為只值 3000 億美元市值，這是我對一家先進半導體設計公司的估價。截至 202…",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
@@ -690,10 +721,10 @@
       "market": "全球",
       "signal": "热点",
       "type": "公司事件",
-      "title": "Nvidia，$NVDA，在財報發布後抹去所有漲幅，儘管超出預期，當日仍轉為負值。 該股目前較10月6日高點下跌-36%。 - X",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHWjJzcWFzZTd3UVpHR2VHNWNJWXk0WHB1NXBlNXliV2ZEYzAzMEdIR2pwdDRLb2lSYTRJcXJDNVJfTlVvelNuU3FJOWpOcVdsaG1zZEVfaW96Z2RNZlhZOXljWFJReXhfNkVMZS1WczE?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 18:14:00 GMT",
-      "description": "Nvidia，$NVDA，在財報發布後抹去所有漲幅，儘管超出預期，當日仍轉為負值。 該股目前較10月6日高點下跌-36%。 &nbsp;&nbsp; X",
+      "title": "今天 $NVDA 跌至145元，更新一下我的看法： - X",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGOFFraTBmM3pGX1p3MWRvaEljSWlqNC1qemc2dWJReVpnRTBTREhkTUdIRWViRGRXX3dUcklOcFkzSUM4alkxRS10TVJrOG5tcGRBU1RXeHhjUHNDX2dIVWdheFc?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 00:22:27 GMT",
+      "description": "今天 $NVDA 跌至145元，更新一下我的看法： &nbsp;&nbsp; X",
       "source": "X",
       "sourceKey": "x-fallback",
       "sourceMode": "social-discovery",
@@ -703,42 +734,11 @@
       "verification": "热点发现：不得直接发布，必须回到一级信源核验",
       "score": 47,
       "priority": "B",
-      "id": "6cd7ff0554c30736",
+      "id": "baffcc8963cb895d",
       "rankReason": "高影响事件词；社媒只做热点发现",
       "ai": {
         "priority": "B",
-        "summary": "Nvidia，$NVDA，在財報發布後抹去所有漲幅，儘管超出預期，當日仍轉為負值。 該股目前較10月6日高點下…",
-        "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
-        "contentDirection": [
-          "快讯",
-          "事件解读"
-        ],
-        "verificationNeed": "必须核验：社媒仅用于发现热点",
-        "mode": "rule-fallback"
-      }
-    },
-    {
-      "market": "全球",
-      "signal": "热点",
-      "type": "公司事件",
-      "title": "JPM最新報告指出： NVDA 管理層未來變動後，「新雲端業者（Neoclouds）」面臨的債務與融資風險壓力大增 在老黃帶領下，輝達將過去三個季度營業現金流的 58% 用於股權投資與併購，但隨著提供給 AI 新創和雲端業者的長期擔保與資產負債「表外負債」暴增，從 2026 - X",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50Q0R4c3hnanRsTnZObTZid181Q04zQk9Jc1VRTXVMUWZubF9FR3Y3Z19ROU04a1pJWUp0aS1RZHg3Zzg1cEhrdjRQdE9rRExLNU16MTlKWFZQTTkyZjdmM0pB?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 08:21:33 GMT",
-      "description": "JPM最新報告指出： NVDA 管理層未來變動後，「新雲端業者（Neoclouds）」面臨的債務與融資風險壓力大增 在老黃帶領下，輝達將過去三個季度營業現金流的 58% 用於股權投資與併購，但隨著提供給 AI 新創和雲端業者的長期擔保與資產負債「表外負債」暴增，從 2026 &nbsp;&nbsp; X",
-      "source": "X",
-      "sourceKey": "x-fallback",
-      "sourceMode": "social-discovery",
-      "declaredTrust": "C",
-      "trustTier": "C",
-      "confidence": "C",
-      "verification": "热点发现：不得直接发布，必须回到一级信源核验",
-      "score": 47,
-      "priority": "B",
-      "id": "83d683b544ab4a07",
-      "rankReason": "高影响事件词；社媒只做热点发现",
-      "ai": {
-        "priority": "B",
-        "summary": "JPM最新報告指出： NVDA 管理層未來變動後，「新雲端業者（Neoclouds）」面臨的債務與融資風險壓力…",
+        "summary": "今天 $NVDA 跌至145元，更新一下我的看法： - X",
         "whyImportant": "这条信息只作为热点发现，用来判断市场正在讨论什么；不能直接发布，必须回到一级信源确认。",
         "contentDirection": [
           "快讯",
